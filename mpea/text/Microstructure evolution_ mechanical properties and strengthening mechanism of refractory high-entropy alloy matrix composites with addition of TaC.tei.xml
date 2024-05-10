@@ -1,0 +1,1324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microstructure evolution, mechanical properties and strengthening mechanism of refractory high-entropy alloy matrix composites with addition of TaC</title>
+				<funder ref="#_jBfa8JS">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_aTp3jEG">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_cWZdCzg">
+					<orgName type="full">Joint Fund</orgName>
+				</funder>
+				<funder ref="#_EVkbhMh">
+					<orgName type="full">National Key R&amp;D Program of China</orgName>
+				</funder>
+				<funder ref="#_CvzyPZB">
+					<orgName type="full">Natural Science Foundation of Hubei Province</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Qinqin</forename><surname>Wei</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Lab of Advanced Technology for Materials Synthesis and Processing</orgName>
+								<orgName type="institution">Wuhan University of Technology</orgName>
+								<address>
+									<postCode>430070</postCode>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Qiang</forename><surname>Shen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Lab of Advanced Technology for Materials Synthesis and Processing</orgName>
+								<orgName type="institution">Wuhan University of Technology</orgName>
+								<address>
+									<postCode>430070</postCode>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jian</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Lab of Advanced Technology for Materials Synthesis and Processing</orgName>
+								<orgName type="institution">Wuhan University of Technology</orgName>
+								<address>
+									<postCode>430070</postCode>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yin</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Lab of Advanced Technology for Materials Synthesis and Processing</orgName>
+								<orgName type="institution">Wuhan University of Technology</orgName>
+								<address>
+									<postCode>430070</postCode>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Guoqiang</forename><surname>Luo</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Lab of Advanced Technology for Materials Synthesis and Processing</orgName>
+								<orgName type="institution">Wuhan University of Technology</orgName>
+								<address>
+									<postCode>430070</postCode>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lianmeng</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Lab of Advanced Technology for Materials Synthesis and Processing</orgName>
+								<orgName type="institution">Wuhan University of Technology</orgName>
+								<address>
+									<postCode>430070</postCode>
+									<settlement>Wuhan</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microstructure evolution, mechanical properties and strengthening mechanism of refractory high-entropy alloy matrix composites with addition of TaC</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D14A6DB75DD464DF5864CC048C402D17</idno>
+					<idno type="DOI">10.1016/j.jallcom.2018.11.111</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Composite materials</term>
+					<term>Microstructure</term>
+					<term>Phase diagrams</term>
+					<term>Mechanical properties 1． ． ． ．Introduction</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This study focuses on novel refractory MoNbRe 0.5 W(TaC) x high-entropy alloy matrix composites synthesized by vacuum arc melting. The microstructure evolution, compressive mechanical properties at room temperature and strengthening mechanism of the composites with addition of TaC are analyzed and discussed. The MoNbRe 0.5 W(TaC) x composites consist of a BCC solid solution as the matrix and an eutectic microstructure (BCC and multi-component carbide (Mo, Nb, W, Ta)C phases) at grain boundaries. The lamellar eutectic structure would be formed from the decomposition of subcarbide (Mo, Nb, W, Ta) 2 C and the fully solid solubility of Re. The MoNbRe 0.5 W(TaC) 0.5 composite has the maximum failure strain of 10.25%. The MoNbRe 0.5 W(TaC) 0.5 to MoNbRe 0.5 W(TaC) 0.6 composites exhibit excellent comprehensive mechanical properties, with excellent strength and reasonable ductility at room temperature. The reinforcement mechanism of the composites is dominated by precipitation and fine-grained strengthening effect. The good ductility of MoNbRe 0.5 W(TaC) 0.5 composite is contributed to the grain refinement of the BCC matrix phase.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><p>research system. Originating from severe lattice distortion resulting in high solid solution strengthening and sluggish diffusion, HEAs possess excellent properties, such as high strength, high hardness, good high-temperature softening resistance and other characteristics <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref>. In advanced science and technology, materials with excellent high-temperature properties remain in urgent need to be used for thermal structural components in the engine and propulsion unit of aircraft and rocket, exploring refractory HEAs with superior mechanical properties at elevated temperature is a clear rationale. In the studied HEAs, several refractory HEA systems, which possess high mechanical properties at elevated temperature, have been successfully developed, such as Mo-Nb-Ta-W <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref>,</p><p>Nb-Ta-Ti-Zr <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref>, Mo-Nb-Ti <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref> and Cr-Ti-Ta-V-W <ref type="bibr" target="#b17">[18]</ref>. Among these refractory HEAs, MoNbTaW and MoNbTaVW HEAs stand out and these two HEAs have exhibited useful compressive strength of higher than 400MPa up to about 1600 <ref type="bibr" target="#b8">[9]</ref>. However, both HEAs showed low room temperature ductility (the fracture strains lower than 2.1%), which would limit their broad applications. Wei et al. <ref type="bibr" target="#b18">[19]</ref> reported a refractory ReMoTaW HEA with higher failure strain of 5.69% at room temperature. Element Re with smaller atomic size can reduce the lattice distortion and improve the ductility.</p><p>In recent years, a few scientific works on composite materials with HEA matrix and ceramic reinforcements have been studied to enhance the matrix in terms of strength, ductility, hardness and so on <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref>. For example, Fan et al. <ref type="bibr" target="#b20">[21]</ref> synthesized a composite by adding 10vol% TiC into the (FeCrNiCo)Al 0.75 Cu 0.25 HEA, increasing the yield strength of the composite with minor decreasing of ductility. Rogal et al <ref type="bibr" target="#b22">[23]</ref> reported that the yield strength of CoCrFeMnNi was improved from 1180 MPa to 1600 MPa with 5% additions of α-Al 2 O 3 nano-particles. Guo et al. <ref type="bibr" target="#b24">[25]</ref> produced Mo 0.5 NbHf 0.5 ZrTiSi 0.1 HEA based composite through addition of Si to generate silicide in-situ and improved the yield strength and ductility of Mo 0.5 NbHf 0.5 ZrTiSi 0.1 obviously relative to that of the base HEA. It is well known that, Tantalum carbide (TaC), possessing excellent physical and chemical properties such as high melting point (3880 ), high hardness and excellent chemical stability <ref type="bibr" target="#b29">[30]</ref>, can enhance the mechanical properties of composites and be suitable to be used as a ceramic reinforcement.</p><p>MoNbTaW HEA exhibits excellent mechanical properties at extremely high temperature and</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><p>ReMoTaW HEA has better ductility. We try built novel HEA with elements Mo, Nb, Re, W and Ta, by introducing carbide TaC to improve the mechanical properties. Herein, MoNbRe 0.5 W(TaC) x HEA matrix composites are studied to obtain the composites with excellent strength and reasonable ductility at room temperature. In this paper, novel refractory MoNbRe 0.5 W(TaC) x HEA matrix composites are produced by vacuum arc melting. The effect of TaC addition on the phase constitutes, microstructure evolution and mechanical properties of the composites are investigated and discussed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2． ． ． ．Experimental procedures</head><p>MoNbRe 0.5 W(TaC) x composites (x = 0, 0.2, 0.4, 0.5 and 0.6 in molar ratio, denoted as T0, T0.2, T0.4, T0.5 and T0.6, respectively) were prepared by vacuum arc melting in a protective argon atmosphere. The purities of raw materials Mo, Nb, Re, W and TaC were higher than 99.95 wt%. To ensure a homogeneous distribution of elements, all specimens were flipped for each melt and re-melted for four times to ensure structural homogeneity. The cast ingots were ~8mm in length and ~20-25mm in diameter.</p><p>The crystal structure was studied by a Bruker D8 Advance X-ray diffraction (XRD) with Cu Kα radiation and the scanning angle ranged from 20° to 140° at a speed of 4 °/min. Microstructure was investigated by a Quanta FEG250 field emission scanning electron microscope (FE-SEM) with back-scatter electron (BSE) mode and JEM-2100F transmission electron microscope (TEM). The chemical compositions were measured by a JOEL JXA-8230 electron probe microanalyzer (EPMA) with wavelength dispersive X-ray spectroscopy (WDS) and TEM with energy dispersive X-ray spectroscopy (EDX). The volume fraction of the MC phase was analyzed by means of a large number of SEM images by software.</p><p>Vickers microhardness measurements were carried out under the loading force of 1 Kg for 15 s. Each specimen was tested for five times to obtain average value. The compressive property tests were conducted on an Instron 5966 testing machine at a constant loading speed of 0.5 mm/min. The specimens for compression tests were in shape of cylinder with Φ 2 mm × 4 mm. Each composite was tested for five times on the same test conditions. The fracture strain was measured from the cross-head movement.  <ref type="table" target="#tab_0">1</ref>, this new phase contains four metal components of Mo, Nb, W and Ta. Thus, this phase can be identified as a multi-component carbide solution of (Nb, Ta, Mo, W)C, which belongs to MC-type carbide. The lattice constant of the MC phase evaluated by XRD is 0.4419 ± 0.0003 nm. As the TaC addition increases, the peak intensity of the MC phase increases, indicating an increase in the content of MC phase with increasing TaC addition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Microstructure</head><p>Fig. <ref type="figure">2</ref> shows the representative microstructures of the MoNbRe 0.5 W(TaC) x composites obtained under BSE mode. As shown from Fig. <ref type="figure">2</ref>(a), the base alloy MoNbRe 0.5 W is composed of a BCC matrix phase and particle phase dispersed in the matrix. From the composition analysis result of the MoNbRe 0.5 W alloy shown in Table <ref type="table" target="#tab_0">1</ref>, element Nb is rich in the particles and the content is about 86.5 at%. The microstructure of the BCC matrix is quite coarse and the secondary dendrite arm spacing (SDAS) is big, as labeled using the red lines in Fig. <ref type="figure">2(a)</ref>. After adding TaC, lamellar eutectic structure is obtained and mainly precipitates at the grain boundary of the BCC matrix. With increasing TaC addition, the SDAS of BCC matrix decreases obviously, as shown in Fig. <ref type="figure">2(d)</ref>. The grain size of the cellular crystal (the BCC matrix) formed in the T0.4 composite reduces as compared with that in T0.2. Meanwhile, the grain boundary becomes more clearly and the volume fracture of eutectic structure increases. The XRD results in Fig. <ref type="figure" target="#fig_0">1</ref> show that the composites only comprise of BCC and MC phases and the volume of MC phase increases with the increase of TaC addition.</p><p>Herein, we can assume that the dark regions are made of MC phase while the white ones are BCC</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><p>phase. The eutectic microstructure consists of a mixture of the BCC solid solution and MC phase, which distribute alternately and generate lamellar structures at the grain boundaries.</p><p>Metallic chemical compositions of the TaC-containing composites identified by EPMA analysis are listed in Table <ref type="table" target="#tab_0">1</ref>. The BCC phase is a solid solution containing all five metal elements of Mo, Nb, Re, W and Ta. The MC phase is a multi-component carbide solution of (Nb, Ta, Mo, W)C but mainly composed of Nb and Ta and a small amount of Mo and W. The elemental distribution result of T0.5 composite obtained by EPMA-WDS mapping is shown in Fig. <ref type="figure">3</ref>. The results indicate that the BCC phase is mainly compose of Mo, Re and W, while the MC phase is enriched with Nb, Ta and C.</p><p>The lamellar structures in the grain boundary of the matrix were further characterized by TEM.</p><p>From the low-magnification TEM image shown in Fig. <ref type="figure" target="#fig_4">4</ref>(a), only two phases BCC and MC exist and the lamellar interface between the BCC and MC phases presents a smooth and curvy morphology.</p><p>According to the EDX maps as seen in Fig. <ref type="figure" target="#fig_4">4</ref> </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Mechanical properties</head><p>Fig. <ref type="figure" target="#fig_7">6</ref> lists the microhardness values of the MoNbRe 0.5 W(TaC) x composites. With addition of TaC, the microhardness of the composites increase from 472 HV to 615 HV (an 30.3% increase).</p><p>Meantime, the microhardness is found to have an approximately linear growth with the increase of TaC addition, which can be expressed as below: y HV = 35.9 x + 439.9, where y HV is the microhardness, and x is the content of TaC addition. According to the above formula, the hardness of composite materials with different content of TaC addition in the test range can be predicted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><p>Obviously, the formation of the hard MC phase strengthens the BCC matrix phase, resulting in an improvement of the whole hardness of the composites.</p><p>The compressive stress-strain curves of the MoNbRe 0.5 W(TaC) x composites are shown in Fig. <ref type="figure" target="#fig_8">7</ref>.</p><p>The typical performance parameters are summarized in Fig. <ref type="figure">8</ref> and listed in Table <ref type="table" target="#tab_1">2</ref>. For the base alloy MoNbRe 0.5 W, the yield strength, compressive strength and fracture strain are 896 MPa, 1232 MPa and 7.08 %, respectively. Apparently, with the addition of TaC, the yield strength and compressive strength improve significantly. The T0.6 composite has the maximum yield strength of 1241 MPa and the maximum compressive strength of 2351 MPa. The fracture strain increases when the TaC addition increases from 0 to 0.5, but it decreases with further increase of TaC. The T0.5 composite has the maximum fracture strain of 10.25 %, while the yield strength and the compressive strength are 1202 MPa and 2067 MPa, respectively. Considering the T0.6 composite also has higher fracture strain of 9.64%, composites T0.5 to T0.6 with excellent comprehensive mechanical properties are recommended to achieve a balanced combination of high strength and ductility at room temperature. Fig. <ref type="figure">9</ref> shows SEM images of fracture morphologies of MoNbRe 0.5 W(TaC) x composites after compression test. It can be seen that lots of obvious torn edges exist in the fracture surface of the T0.5 composite, indicating that this composite has good ductility. With further increase of TaC addition, more brittle and hard compound MC is generated and tore edges are short, indicating the ductility decreases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4． ． ． ．Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Phase formation and microstructure evolution</head><p>Since mechanical properties of the materials are highly depended upon their internal microstructure, it is necessary to discuss the phase formation and microstructure evolution process.</p><p>As reported in the literature about Mo-Ta-C and W-Ta-C alloys and the ternary diagrams <ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref>, the subcarbide phase was decomposed at elevated temperature and the decomposition structure was lamellar eutectic structure formed by alternating distribution of BCC solid solution and NaCl-prototype monocarbide. The reactions are shown as follows:</p><formula xml:id="formula_0">M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT ( ) ( ) ( ) 2 Mo, Ta C Mo, Ta Mo, Ta C → + (1) ( ) ( ) ( ) 2 W, Ta C W, Ta W, Ta C → +<label>(2)</label></formula><p>According to the original experimental reports of the Nb-Ta-Mo-C and Nb-Ta-W-C quarternary systems <ref type="bibr" target="#b34">[35]</ref>, the subcarbide phases were also decomposed and the reactions are shown as follow:</p><formula xml:id="formula_1">( ) ( ) ( ) 2 Mo, Nb, Ta C Mo, Nb, Ta Mo, Nb, Ta C → + (3) ( ) ( ) ( ) 2 Nb, W, Ta C Nb, W, Ta Nb, W, Ta C → +<label>(4)</label></formula><p>From above formulas of ( <ref type="formula" target="#formula_8">1</ref>) to (4), it is analogous in turn that the decomposition reaction might be existed in the MoNbRe 0.5 W(TaC) x composites, and the reaction can be written as:</p><formula xml:id="formula_2">( ) ( ) ( ) 2 Mo, Nb, W, Ta C Mo, Nb, W, Ta Mo, Nb, W, Ta C → +<label>(5)</label></formula><p>According to binary alloy phase diagrams <ref type="bibr" target="#b35">[36]</ref>, Re has large solubility in elements Mo, Nb, W and Ta. In addition, the high entropy effect caused by multi-principal element mixing can extend the solubility limits. Thus, Re is fully soluble in the (Mo, Nb, W, Ta) solid solution to form the BCC phase of (Mo, Nb, Re, W, Ta) solid solution. The formation of lamellar eutectic structure of BCC and MC phases could be explained by the decomposition of the subcarbide (Mo, Nb, W, Ta) 2 C and the fully solid solubility of Re in the BCC phase. As there are only two phases of BCC and MC formed in the composites, the phase selection and microstructure formation of the MoNbRe 0.5 W(TaC) x composites can be well explained by analysis of solidification process which can be expressed as:</p><formula xml:id="formula_3">2 1 BCC(proeutectic) 2 BCC(proeutectic) (Mo,Nb,W,Ta) C BCC(proeutectic) MC BCC eutectic L S +L S +S S +(S +S ) → → →<label>(6)</label></formula><p>where L represents liquid, and S represents solid.</p><p>Assuming that the solidification process is an equilibrium reaction, the BCC matrix phase From the chemical composition in the Table <ref type="table" target="#tab_0">1</ref>, MC phase is enriched with metal elements Nb and Ta with a small amount of Mo, W. As taken from original experimental reports <ref type="bibr" target="#b30">[31,</ref><ref type="bibr" target="#b34">35]</ref>, the (Mo, TaC-NbC-WC system, in which the maximum solubility of WC in (Nb, Ta)C phase at 1450 was about 10 at%, demonstrates this tendency <ref type="bibr" target="#b37">[38]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Relationship between microstructures on mechanical properties</head><p>The addition of TaC have beneficial effect on the mechanical properties of the MoNbRe 0.5 W(TaC) x composites. The influence of volume fraction of the formed MC phase on the yield strength of MoNbRe 0.5 W(TaC) x composites is shown in Fig. <ref type="figure" target="#fig_5">10</ref>, indicating that the MC phase is expected to produce a good effect on reinforcement. In the MoNbRe 0.5 W(TaC) x HEA matrix composites, more stiffer and elastic MC phase in the relatively soft and ductile BCC solid solution, the strength of the composites can be roughly expressed according to the law of mixtures prediction <ref type="bibr" target="#b38">[39]</ref>,</p><p>(1 )</p><formula xml:id="formula_4">Composite MC MC MC BCC V V σ σ σ = + -<label>(7)</label></formula><p>where an isostrain assumption is made. V MC is the volume fraction of MC phase, σ Composite , σ MC and σ BCC are the stress of the composite, MC phase and BCC phase at the same value of strain, respectively. It can be seen from Eq. ( <ref type="formula" target="#formula_4">7</ref>) that, the second-phase strengthening has a significant reinforcement effect on the composites.</p><p>Moreover, as smaller grain sizes can offer a larger area of grain boundaries so as to increase the slip resistance of dislocation near the grain boundaries, grain refinement can also improve the</p><formula xml:id="formula_5">M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT strength.</formula><p>As reported, the relationship between yield strength and grain size of polycrystalline materials can be expressed by the classical Hall-Petch equation <ref type="bibr" target="#b39">[40]</ref><ref type="bibr" target="#b40">[41]</ref>:</p><formula xml:id="formula_6">1/ 2 0 / y y k d σ σ = +<label>(8)</label></formula><p>where σ y and σ 0 are the yield stress and frictional stress, respectively, and k y is a constant. For the MoNbRe 0.5 W(TaC) x composites, the SDAS and grain size of the BCC matrix phase decrease with the addition of TaC, indicating that fine-grained strengthening plays an important role in the composites. In summary, the addition of TaC has beneficial effects on improving the mechanical properties of the composites. The reinforcement of the composites is mainly caused by precipitation and fine-grained strengthening.</p><p>For the T0.5 composite, the strength and ductility are improved. The increase of the strength is mainly attributed to the precipitation strengthening of MC phase and the fine-grained strengthening of the BCC matrix phase. The formation of hard MC phase can effectively restrict the dislocation and interface mobility. Meanwhile, the carbide generated during solidification can promote the nucleation of BCC matrix phase and impede grain growth. The refined grain of the BCC matrix phase has more interfaces to inhibit dislocation movement, which can improve the strength. For the increase of ductility, two possible reasons are listed as follows. The main reason is the grain refinement of the BCC matrix phase with the addition of TaC (as shown in Fig. <ref type="figure">2</ref>). With the grain refinement of the matrix phase, plastic deformation can be dispersed in more grains and the stress concentration is small, resulting in increased ductility. The other reason is that, the dominant phase of BCC matrix with improved ductility has relatively high content in T0.5 composite. With further increase of TaC addition, the content of hard and brittle MC phase increases, resulting in higher strength and lower ductility. Thus, proper amount of TaC addition can improve the strength and ductility of the composite simultaneously.</p><p>As reported by Senkov <ref type="bibr" target="#b8">[9]</ref>, the yield strength and compressive strength of the MoNbTaW HEA at room temperature were 1058 MPa and 1211 MPa, respectively, while those of the MoNbTaVW HEA were 1246MPa and 1270 MPa, respectively. In comparison with the compressive properties of these two HEAs, the yield strength of T0.5 composite (1202 MPa) and T0.6 composite (1241 MPa) are slightly lower than that of MoNbTaVW HEA. This is mainly because the solution strengthening</p><formula xml:id="formula_7">M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</formula><p>for the BCC phase decreases. The compressive strength of T0.5 and T0.6 composites are 2067 MPa and 2351 MPa, respectively, which are ≈ 60 % and ≈ 85 % higher than that of MoNbTaVW HEA. As a result, the comprehensive mechanical properties of T0.5 to T0.6 composites in this work are much better than those of the reported HEAs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5． ． ． ．Conclusions</head><p>In summary, the novel refractory MoNbRe 0.5 W(TaC) x high-entropy matrix composites with the addition of TaC into MoNbRe 0.5 W alloy were produced by vacuum arc melting.</p><p>(       </p><note type="other">Figure Captions</note></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>1</head><label>1</label><figDesc>Phase identification XRD patterns of the MoNbRe 0.5 W(TaC) x composites with different addition of TaC are shown in Fig. 1. It can be seen that only a single BCC crystal structure is identified in the base alloy MoNbRe 0.5 W. With the addition of TaC, some other diffraction peaks appear and these new peaks are identified as a phase with FCC crystal structure. Through calibration by the Joint Committee on Power Diffraction Standards (JCPDS) cards, the additional diffraction peaks match well with the TaC phase (with corresponding JCPDS card No.65-7930). According to the chemical compositions in Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>(b)-(g), the BCC phase contains more Mo, Re and W, while the MC phase contains more Nb, Ta and C. This result is in good agreement with the ones by the previous XRD and EPMA. Fig. 5 displays the interfacial HRTEM image along with the Fast Fourier Transformation (FFT) patterns which can ascertain the orientation relationship between BCC and MC phases. The phase interface exhibits good bonding, with no obviously lattice misfit dislocations. Through the quantitative analysis shown in Fig. 5(c)-(e), the interplanar distances of the BCC and MC phases are calculated to be d 110 = 0.225 nm and d 111 = 0.254 nm, respectively, which are in accordance with the lattice parameters determined by XRD. In addition, the following orientation relation establishes, i.e. (110) BCC // (200) MC , [113] BCC // [011] MC , along the interface are suggested.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>nucleates at first and grows in the liquid. When the temperature reached the formation temperature of subcarbide (Mo, Nb, W, Ta) 2 C, the subcarbide phase is formed in the grain boundary of BCC matrix phase and then decomposed. During the decomposed reaction, the monocarbide MC and BCC solid solution form and grow staggered with each other to form lamellar structures. The resulting microstructures of the MoNbRe 0.5 W(TaC) x composites are composed of BCC primary crystal and eutectic structure composed of BCC and MC phases. Additional work is required to identify the M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT solid-state reactions in the composites in the future.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>Ta)C phase can be descripted as solid solution based on MoC and TaC, and the (Nb, W, Ta)C phase based on NbC, WC and TaC. It can be inferred the MC phase formed in the composites can be descripted as solid solution based on MoC, NbC, WC and TaC. Both TaC and NbC have the NaCl crystal structure, the covalent radius of elements Nb and Ta are, respectively, 1.456 Å and 1.457 Å, the small radius difference between Nb and Ta is less than 15%, that bring to a continuous solution of NbC and TaC [37]. However, HCP-WC and HCP-MoC have different crystal structures with FCC-TaC and FCC-NbC phases, so the maximum exchange of W and Mo in FCC-(Nb, Ta)C is limited and a small amount of W and Mo solid in the (Mo, Nb, W, Ta)C phase. The phase diagram of</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>( 4 )</head><label>4</label><figDesc>) The TaC-containing MoNbRe 0.5 W(TaC) x composites are composed of a BCC solid solution and simple multi-component carbide solution (Mo, Nb, W, Ta)C. The volume of MC phase increases with the increase of TaC addition.(2) The microstructure of the composites consists of BCC matrix phase and eutectic structure distributed along grain boundaries. The SDAS and grain size of BCC matrix phase decrease significantly as the TaC addition increases. The eutectic microstructure consists of alternate layers of BCC and MC phases and would be formed from the decomposition of the subcarbide (Mo, Nb, W, Ta) 2 C and the fully solid solubility of Re extended by high entropy effect.(3) Microhardness, yield strength and compressive strength improve significantly with the addition of TaC. The MoNbRe 0.5 W(TaC) 0.6 composite shows high microhardness, yield strength and compressive strength of 615HV, 1241MPa and 2351MPa, respectively. The fracture ductility firstly increases and then decreases, and the MoNbRe 0.5 W(TaC) 0.5 composite reaches the maximum value of 10.25%. The MoNbRe 0.5 W(TaC) 0.5 to MoNbRe 0.5 W(TaC) 0.6 composites exhibit excellent comprehensive mechanical properties that are significantly higher than those of MoNbTaW and MoNbTaVW HEAs. The reinforcement of the MoNbRe 0.5 W(TaC) x composites is dominated by precipitation and fine-grained strengthening. The good ductility of MoNbRe 0.5 W(TaC) 05 composite is contributed to the grain refinement of the BCC matrix phase.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. XRD patterns of the MoNbRe 0.5 W(TaC) x composites.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 2 .Fig. 3 .Fig. 4 (Fig. 5 (</head><label>2345</label><figDesc>Fig. 2. SEM images of the MoNbRe 0.5 W(TaC) x composites: (a) T0, (b) T0.2, (c) T0.4, (d) T0.5 and (e) T0.6.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Microhardness of the MoNbRe 0.5 W(TaC) x composites.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Compressive stress-strain curves of the MoNbRe 0.5 W(TaC) x composites.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 8 .Fig. 9 .Fig. 10 .</head><label>8910</label><figDesc>Fig. 8. Yield strength, compressive strength and fracture strain of the MoNbRe 0.5 W(TaC) x composites as a function of TaC addition.Fig. 9. SEM images of fracture surface of MoNbRe 0.5 W(TaC) x composites with different TaC addition: (a) T0, (b) T0.2, (c) T0.4, (d) T0.5, (e) T0.6.Fig. 10. Influence of volume fraction of the MC phase on yield strength of the MoNbRe 0.5 W(TaC) x composites.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="2,70.20,105.96,319.80,170.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Metallic chemical compositions of MoNbRe 0.5 W(TaC) x composites identified by EPMA analysis (at%)</figDesc><table><row><cell>Tables</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sample</cell><cell>Phase</cell><cell>Mo</cell><cell>Nb</cell><cell>Re</cell><cell>W</cell><cell>Ta</cell></row><row><cell>T0</cell><cell>BCC</cell><cell cols="3">28.7 ± 0.9 26.6 ± 1.6 12.9 ± 0.8</cell><cell>31.7 ± 2.5</cell><cell>-</cell></row><row><cell></cell><cell>Particle</cell><cell>5.8 ± 2.0</cell><cell>86.5 ± 1.8</cell><cell>3.3 ± 1.5</cell><cell>4.4 ± 2.3</cell><cell>-</cell></row><row><cell>T0.4</cell><cell>BCC</cell><cell cols="3">23.8 ± 0.6 18.7 ± 0.4 14.7 ± 0.6</cell><cell>32.9 ± 0.4</cell><cell>9.9 ± 0.9</cell></row><row><cell></cell><cell>MC</cell><cell>7.6 ± 0.9</cell><cell>62.9 ± 2.8</cell><cell>0</cell><cell>7.5 ± 2.4</cell><cell>22.1 ± 2.1</cell></row><row><cell>T0.5</cell><cell>BCC</cell><cell cols="3">23.9 ± 0.6 18.1 ± 0.5 13.8 ± 0.4</cell><cell>33.6 ± 0.5</cell><cell>10.6 ± 0.6</cell></row><row><cell></cell><cell>MC</cell><cell cols="2">10.3 ± 1.1 54.9 ± 2.7</cell><cell>0</cell><cell>8.8 ± 2.1</cell><cell>26.0 ± 1.8</cell></row><row><cell>T0.6</cell><cell>BCC</cell><cell cols="3">24.6 ± 0.3 16.9 ± 0.4 12.9 ± 0.8</cell><cell>32.1 ± 0.7</cell><cell>13.5 ± 0.5</cell></row><row><cell></cell><cell>MC</cell><cell>8.0 ± 0.9</cell><cell>53.4 ± 2.0</cell><cell>0</cell><cell>7.8 ± 1.5</cell><cell>31.9 ± 1.9</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Compressive mechanical properties of the MoNbRe 0.5 W(TaC) x composites</figDesc><table><row><cell>Composite</cell><cell>Yield strength (MPa)</cell><cell>Compressive strength (MPa)</cell><cell>Fracture strain</cell></row><row><cell>T0</cell><cell>896 ± 13</cell><cell>1232 ± 25</cell><cell>7.08 ± 0.33</cell></row><row><cell>T0.2</cell><cell>1074 ± 11</cell><cell>1700 ± 13</cell><cell>8.33 ± 0.52</cell></row><row><cell>T0.4</cell><cell>1144 ± 33</cell><cell>1833 ± 34</cell><cell>8.81 ± 0.26</cell></row><row><cell>T0.5</cell><cell>1202 ± 15</cell><cell>2067 ± 46</cell><cell>10.25 ± 0.41</cell></row><row><cell>T0.6</cell><cell>1241 ± 26</cell><cell>2351 ± 33</cell><cell>9.64 ± 0.50</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported by the <rs type="funder">National Key R&amp;D Program of China</rs> [Grant No. <rs type="grantNumber">2018YFB0905600</rs>], the <rs type="funder">National Natural Science Foundation of China</rs> [Grant No. <rs type="grantNumber">51521001</rs>, 51572208], the 111 Project [Grant No. <rs type="grantNumber">B13035</rs>], the <rs type="funder">Natural Science Foundation of Hubei Province</rs> [Grant No. <rs type="grantNumber">2016CFA006</rs>], and the <rs type="funder">Joint Fund</rs> [Grant No. <rs type="grantNumber">6141A02022223</rs>].</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_EVkbhMh">
+					<idno type="grant-number">2018YFB0905600</idno>
+				</org>
+				<org type="funding" xml:id="_jBfa8JS">
+					<idno type="grant-number">51521001</idno>
+				</org>
+				<org type="funding" xml:id="_CvzyPZB">
+					<idno type="grant-number">B13035</idno>
+				</org>
+				<org type="funding" xml:id="_cWZdCzg">
+					<idno type="grant-number">2016CFA006</idno>
+				</org>
+				<org type="funding" xml:id="_aTp3jEG">
+					<idno type="grant-number">6141A02022223</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Composites exhibit excellent room-temperature strength and reasonable ductility.</p><p>The good ductility is contributed to grain refinement of BCC matrix.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nanostructured high-entropy alloys with multiple principal elements: Novel alloy design concepts and outcomes</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="299" to="303" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Processing and properties of high-entropy ultra-high temperature carbides</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Castle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Csanadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grasso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dusza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reece</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">8609</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Microstructures and properties of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="93" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Pseudo-quinary Ti 20 Zr 20 Hf 20 Be 20 (Cu 20-x Ni x ) high entropy bulk metallic glasses with large glass forming ability</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="625" to="631" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Metastable high-entropy dual-phase alloys overcome the strength-ductility trade-off</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">534</biblScope>
+			<biblScope unit="issue">7606</biblScope>
+			<biblScope unit="page" from="227" to="230" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The mechanical and corrosion behaviors of as-cast and re-melted AlCrCuFeMnNi multi-component high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Soare</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mitrica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Constantin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Popescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Csaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tarcolea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Carcea</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1468" to="1473" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Microstructure characterization of AlxCoCrCuFeNi high-entropy alloy system with multiprincipal elements</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="881" to="893" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Hierarchical microstructure and strengthening mechanisms of a CoCrFeNiMn high entropy alloy additively manufactured by selective laser melting</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">G</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">B</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Lian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M L</forename><surname>Nai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page" from="20" to="24" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb 25 Mo 25 Ta 25 W 25 and V 20 Nb 20 Mo 20 Ta 20 W 20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Senary refractory high entropy alloy MoNbTaTiVW, Mater. Sci. Tech</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1207" to="1213" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effect of Ti additions on mechanical properties of NbMoTaW and VNbMoTaW refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="153" to="157" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties of a refractory NbCrMo0.5Ta0.5TiZr alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">529</biblScope>
+			<biblScope unit="page" from="311" to="320" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Microstructure and elevated temperature properties of a refractory TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="4062" to="4074" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effect of aluminum on the microstructure and properties of two refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="214" to="228" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties of aluminum-containing refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="2030" to="2042" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of refractory MoNbHfZrTi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="87" to="94" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties at elevated temperatures of a new Al-containing refractory high-entropy alloy Nb-Mo-Cr-Ti-Al</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kauffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schliephake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Seemüller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">661</biblScope>
+			<biblScope unit="page" from="206" to="215" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The effect of Ti on the sintering and mechanical properties of refractory high-entropy alloy TixWTaVCr fabricated via spark plasma sintering for fusion plasma-facing materials</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Waseem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Ryu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="page" from="87" to="94" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical property of a novel ReMoTaW high-entropy alloy with high density</title>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Q</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Refract. Met. Hard Mater</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="8" to="11" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Novel cermet material of WC/multi-element alloy</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L H</forename><surname>Chau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Refract. Metals Hard Mater</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="200" to="204" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The microstructure and properties of (FeCrNiCo)AlxCuy highentropy alloys and their TiC-reinforced composites</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A A</title>
+		<imprint>
+			<biblScope unit="volume">598</biblScope>
+			<biblScope unit="page" from="244" to="250" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Effect of heat treatment on microstructure and mechanical properties of spark plasma sintered AlCoCrFeNiTi 0.5 high entropy alloy</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Moravcik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cizek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gavendova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sheikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dlouhy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater, Lett</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="53" to="56" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">CoCrFeMnNi high entropy alloy matrix nanocomposite with addition of Al 2 O 3</title>
+		<author>
+			<persName><forename type="first">Ł</forename><surname>Rogal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kalita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Litynska-Dobrzynska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="104" to="109" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Effect of SiC nano-particles on microstructure and mechanical properties of the CoCrFeMnNi high entropy alloy</title>
+		<author>
+			<persName><forename type="first">Ł</forename><surname>Rogal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kalita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tarasek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bobrowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Czerwinski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">708</biblScope>
+			<biblScope unit="page" from="344" to="352" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu ; M A N U S C R I P T A C C E P T E D Accepted</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">MANUSCRIPT refractory high entropy</title>
+		<imprint>
+			<biblScope unit="volume">660</biblScope>
+			<biblScope unit="page" from="197" to="203" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>J. Alloys Compd.</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of a refractory HfNbTiVSi 0.5 high-entropy alloy composite</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater, Lett</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="82" to="85" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of refractory HfMo 0.5 NbTiV 0.5 Si x high-entropy composites</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">694</biblScope>
+			<biblScope unit="page" from="869" to="876" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Preparation and properties of medium entropy CoCrNi/boride metal matrix composite</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Moravcik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gouvea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cupera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dlouhy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">748</biblScope>
+			<biblScope unit="page" from="979" to="988" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Synergic strengthening by oxide and coherent precipitate dispersions in high-entropy alloy prepared by powder metallurgy</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Moravcik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gouvea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hornik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Kovacova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kitzmantel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Neubauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dlouhy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="24" to="29" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Improving the mechanical properties of tantalum carbide particle reinforced iron-based composite by varying the TaC contents</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hojamberdiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Meng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">726</biblScope>
+			<biblScope unit="page" from="896" to="905" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Ternary Phase Equilibria in Transition Metal Boron-Carbon-Silicon Systems</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rudy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Windisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Brukl</surname></persName>
+		</author>
+		<idno>No. AFML-TR-65-2</idno>
+		<imprint>
+			<date type="published" when="1967">1967</date>
+			<biblScope unit="volume">II</biblScope>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Ternary Phase Equilibria in Transition Metal-Boron-Carbon-Silicon Systems</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rudy</surname></persName>
+		</author>
+		<idno>No. AFML-TR-65-2</idno>
+		<imprint>
+			<date type="published" when="1966">1966</date>
+			<biblScope unit="volume">II</biblScope>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Ternary phase diagrams, Fig. 8999 system Mo-Ta-C</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rudy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Brukl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Windisch</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rudy</surname></persName>
+		</author>
+		<title level="m">Ternary phase diagrams, Fig. 9024 system W-Ta-C</title>
+		<imprint>
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Phase equilibria investigation of binary, ternary, and higher order systems</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Brukl</surname></persName>
+		</author>
+		<idno>No. AFML TR 69-117</idno>
+		<imprint>
+			<date type="published" when="1969">1969</date>
+			<pubPlace>Part IV</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Massalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Okamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Subramanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kacprzak</surname></persName>
+		</author>
+		<title level="m">Binary Alloy Phase Diagrams</title>
+		<meeting><address><addrLine>OH, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ASM International Materials Park</publisher>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Disorder and order in strongly mon-stoichiometric compounds</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Gusev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Rempel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Magerl</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<publisher>Springer</publisher>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The gamma/WC solubility boundary in the quaternary TiC-NbC-TaC-WC system at 1723K</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chatfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J.Mater.Sci</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="577" to="582" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Polymer Science Dictionary</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<publisher>Springer Science &amp; Business Media</publisher>
+			<pubPlace>Dordrecht</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The deformation and ageing of mild steel: III discussion of results</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">O</forename><surname>Hall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Phys. Soc. Sect. B</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="747" to="753" />
+			<date type="published" when="1951">1951</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The cleavage strength of polycristals</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Petch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Iron Steel Inst</title>
+		<imprint>
+			<biblScope unit="page">174</biblScope>
+			<date type="published" when="1953">1953</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

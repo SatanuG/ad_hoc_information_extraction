@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Alloy design for intrinsically ductile refractory high-entropy alloys</title>
+				<funder>
+					<orgName type="full">Area of Advance Materials Science from Chalmers University of Technology</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016-10-28">28 October 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Saad</forename><surname>Sheikh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials and Manufacturing Technology</orgName>
+								<orgName type="institution">Chalmers University of Technology</orgName>
+								<address>
+									<postCode>41296</postCode>
+									<settlement>Gothenburg</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Samrand</forename><surname>Shafeie</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials and Manufacturing Technology</orgName>
+								<orgName type="institution">Chalmers University of Technology</orgName>
+								<address>
+									<postCode>41296</postCode>
+									<settlement>Gothenburg</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Qiang</forename><surname>Hu</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Applied Physics</orgName>
+								<orgName type="institution">Jiangxi Academy of Sciences</orgName>
+								<address>
+									<postCode>330029</postCode>
+									<settlement>Nanchang</settlement>
+									<country>People&apos;s Republic of China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Johan</forename><surname>Ahlstr€ Om</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials and Manufacturing Technology</orgName>
+								<orgName type="institution">Chalmers University of Technology</orgName>
+								<address>
+									<postCode>41296</postCode>
+									<settlement>Gothenburg</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christer</forename><surname>Persson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials and Manufacturing Technology</orgName>
+								<orgName type="institution">Chalmers University of Technology</orgName>
+								<address>
+									<postCode>41296</postCode>
+									<settlement>Gothenburg</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jaroslav</forename><surname>Vesel</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">UJP PRAHA a.s</orgName>
+								<address>
+									<postCode>1345, 15610</postCode>
+									<settlement>Nad Kam ınkou, Prague</settlement>
+									<country key="CZ">Czech Republic</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Uta</forename><surname>Klement</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials and Manufacturing Technology</orgName>
+								<orgName type="institution">Chalmers University of Technology</orgName>
+								<address>
+									<postCode>41296</postCode>
+									<settlement>Gothenburg</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">UJP PRAHA a.s</orgName>
+								<address>
+									<postCode>1345, 15610</postCode>
+									<settlement>Nad Kam ınkou, Prague</settlement>
+									<country key="CZ">Czech Republic</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Sheng</forename><surname>Guo</surname></persName>
+							<email>sheng.guo@chalmers.se</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials and Manufacturing Technology</orgName>
+								<orgName type="institution">Chalmers University of Technology</orgName>
+								<address>
+									<postCode>41296</postCode>
+									<settlement>Gothenburg</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Alloy design for intrinsically ductile refractory high-entropy alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-10-28">28 October 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">EAE6F4C1635937657B5109DF9FB2CB4E</idno>
+					<idno type="DOI">10.1063/1.4966659]</idno>
+					<note type="submission">Received 30 September 2016; accepted 18 October 2016;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Refractory high-entropy alloys (RHEAs), comprising group IV (Ti, Zr, Hf), V (V, Nb, Ta), and VI (Cr, Mo, W) refractory elements, can be potentially new generation high-temperature materials. However, most existing RHEAs lack room-temperature ductility, similar to conventional refractory metals and alloys. Here, we propose an alloy design strategy to intrinsically ductilize RHEAs based on the electron theory and more specifically to decrease the number of valence electrons through controlled alloying. A new ductile RHEA, Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr, was developed as a proof of concept, with a fracture stress of close to 1 GPa and an elongation of near 20%. The findings here will shed light on the development of ductile RHEAs for ultrahigh-temperature applications in aerospace and power-generation industries. Published by AIP Publishing.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>The quest for ultrahigh temperature structural materials superior to nickel-based superalloys is essentially driven by the need to improve the efficiency of aerospace and powergeneration gas-turbine engines, by operating at higher temperatures. The efficiency and performance of jet engines are strongly dependent on the highest temperature in the engine, i.e., the inlet temperature of the high pressure turbine blades. Today's engines expose nickel-based superalloys to temperatures approaching 1150 C, close to 90% of their melting points. <ref type="bibr" target="#b0">1</ref> Although the use of complex cooling systems and thermal barrier coatings can enable them to exist in the hottest region of a turbine engine with temperatures approaching 1500 C, the efficiency gained from operating at higher temperatures is greatly reduced. New ultrahigh temperature materials, therefore, must be developed that can operate at higher temperatures (&gt;1300 C) without the need for cooling. <ref type="bibr" target="#b0">1,</ref><ref type="bibr" target="#b1">2</ref> Conventional alloys, including nickel-based superalloys, are based on one or sometimes two principal elements, for example, Fe in steels and Ti and Al in TiAl based intermetallics. The recently emerging high-entropy alloys (HEAs), however, provide a novel alloying strategy that significantly expands the scope of the conventional alloy design. <ref type="bibr" target="#b2">[3]</ref><ref type="bibr">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref> HEAs typically consist of at least four principal metallic elements in near-equiatomic ratios and therefore have a higher configuration entropy than that in conventional alloys. Due to their unique features, including high softening resistance at elevated temperatures, the slow diffusion kinetics, and high oxidation resistance, HEAs naturally possess the advantages to be considered as new types of high-temperature alloys. If these unique advantages can be further combined with the high melting point of refractory elements, i.e., group IV (Ti, Zr, Hf), V (V, Nb, Ta), and VI (Cr, Mo, W) refractory elements, the idea of refractory HEAs (RHEAs) <ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref> would be a highly interesting alloying concept, aiming at hightemperature applications. However, the current bottleneck for utilizing RHEAs as structural materials is their general room temperature brittleness. <ref type="bibr" target="#b16">[17]</ref><ref type="bibr">[18]</ref><ref type="bibr" target="#b20">[19]</ref><ref type="bibr" target="#b21">[20]</ref><ref type="bibr" target="#b22">[21]</ref> Interestingly, among the reported RHEAs, there exist two alloys that possess tensile ductility at room temperature: equiatomic quaternary HfNbTiZr <ref type="bibr" target="#b23">22</ref> and equiatomic quinary HfNbTaTiZr. <ref type="bibr" target="#b24">23</ref> The mechanism behind the ductility of HfNbTiZr and HfNbTaTiZr, in a sharp contrast to other brittle RHEAs, however, remains unknown. Revealing the ductilizing mechanism for RHEAs from the alloy design perspective, aiming for the development of more ductile RHEAs with adjustable compositions (for example, using lighter elements to reduce the density), constitutes the topic of the current work.</p><p>Particularly, in this work, we will tune the ductility of RHEAs utilizing the electron theory, with the objective to achieve the intrinsic ductility. The reasoning behind our alloy design strategy is based on a very recent theoretical work in intrinsically ductilizing bcc refractory alloys. <ref type="bibr" target="#b25">24</ref> An important theoretical ductility criterion for group V (V, Nb, Ta)-and VI metal (Cr, Mo, W)-based bcc refractory alloys is the mechanical failure mode of their perfect crystals under tension along the weakest direction [100]. For example, pure group V elements like V and Nb fail by shear deformation and they are intrinsically ductile, while pure group VI metals like Mo and W fail by cleavage and they are deemed intrinsically brittle. Interestingly, first-principles calculations show that alloying pure Mo/W with group IV (Ti, Zr, Hf) or group V transition metals can transform them into intrinsically ductile materials, failing in shear under [100] tension. It is intriguing to know whether the same principle can be extended from binary bcc refractory alloys to multicomponent bcc RHEAs. If it does, this means elements from group V or group IV, when alloyed with elements from group VI or group V, can lead to intrinsically ductile RHEAs. Interestingly, this scenario seems to be supported by the two existing ductile RHEAs: HfNbTiZr <ref type="bibr" target="#b23">22</ref> and HfNbTaTiZr, <ref type="bibr" target="#b24">23</ref> where in the quaternary alloys, the group V element Nb is alloyed with group IV elements Ti, Zr, and Hf, while in the quinary alloys, group V elements Nb and Ta are alloyed with group IV elements Ti, Zr, and Hf. On the other hand, if group V elements Nb and Ta are alloyed with group V and group VI elements V, Mo and W with more valence electrons, the formed alloys MoNbTaW and MoNbTaVW are brittle. <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b20">19</ref> From both the theoretical analysis and available experimental results, decreasing the average valence electron numbers, or valence electron concentrations (VEC), <ref type="bibr" target="#b25">24,</ref><ref type="bibr" target="#b26">25</ref> has been proven effective in ductilizing refractory alloys. Along this line of thinking, we developed a new ductile RHEA in this work, further validating the alloy design strategy of intrinsically ductile RHEAs using the electron theory.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. EXPERIMENTAL</head><p>A new RHEA with the nominal composition, Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr, was prepared, a modified composition to existing ductile RHEAs, HfNbTiZr and HfNbTaTiZr, keeping its VEC low and comparable to that of these known ductile RHEAs. The alloy preparation was carried out using high purity (&gt;99.9%) elemental materials by arc melting on a water-cooled copper plate in a Ti-gettered Ar atmosphere. The arc-melted ingot was flipped and re-melted at least five times to ensure thorough mixing and chemical homogeneity. The ingot has the dimension of about 60 mm (length) Â 20 mm (width) Â 10 mm (thickness). The microstructure of the as-cast sample was studied on polished and chemically etched specimen using a LEO Gemini 1550 scanning electron microscope (SEM). The etchant used to reveal the microstructure was a mixture of 1.5 ml nitric acid, 5 ml hydrofluoric acid, and 45 ml water, for approximately 10 s. The crystal structure of the alloy was examined by Bruker AXS D8 advance X-ray diffraction (XRD) system using Cr-Ka radiation. Vickers hardness was measured on the polished surface applying 1 kg load for 15 s. The density of the alloy was measured following the Archimedes' principle. A rectangular dog-bone-shaped tensile specimen with a gauge length of 12.5 mm, a width of 3.2 mm, and a thickness of 2 mm was machined from the ingot by electrical discharge machining, followed by surface polishing. Tensile testing was carried out using an Instron 5500 R electro-mechanic tensile tester, with a strain rate of 10 À3 s À1 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. RESULTS AND DISCUSSION</head><p>Figure <ref type="figure">1</ref> shows the backscatter electron image of the microstructure of the as-cast Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr under SEM. A dendritic structure can be clearly observed. The XRD pattern, shown in the inset in Fig. <ref type="figure">1</ref>, indicates that a singlephase bcc structure was achieved. All constituent elements have a bcc crystal structure just below their melting temperatures. Alloying of Nb with Ta leads to a continuous bcc solid solution in the entire compositional range. <ref type="bibr" target="#b27">26</ref> All other pairs of constituent elements (Hf-Nb, Hf-Ta, Hf-Ti, Hf-Zr, Nb-Ti, Nb-Zr, Ta-Ti, Ta-Zr, and Ti-Zr) also form continuous bcc solid solutions in the entire composition range just below solidus temperatures but can transform fully or partially to hcp solid solutions at low temperatures. <ref type="bibr" target="#b27">26</ref> The bcc solid solution that was achieved in the as-cast Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr alloy is then stabilized by the high configuration entropy and therefore the low Gibbs free energy, while the formation of hcp phase is kinetically restricted, possibly due to the sluggish diffusion in the alloy. <ref type="bibr" target="#b28">27</ref> A note can be added here on the segregation in the dendritic structure. Segregation is commonly seen in directly cast HEAs, and is also seen here for the new RHEA. From the XRD result, the segregation does not cause any new phase with a different crystal structure and noticeably different lattice constants. The material can therefore still be regarded as a single-phase bcc structure. On the one hand, since in this work we are mainly addressing the intrinsic ductility of REHAs, the effect of microstructure including the elemental segregation on the ductility is not given too much focus. On the other hand, we are already in the process of using thermomechanical treatments to modify the microstructure via recrystallization. The segregation is no longer an issue in the recrystallized RHEA.</p><p>The Vickers hardness of the as-cast Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr alloy is 301 HV. Figure <ref type="figure">2</ref>  temperature true stress-strain curve for the as-cast Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr alloy. A yield stress of 903 MPa, an ultimate tensile stress (UTS) of 990 MPa, and an elongation to fracture of 18.8% were achieved, showing a combination of high strength and high ductility. The ductility can be further evidenced from the dimples observed at fractured surfaces, shown in the inset of Fig. <ref type="figure">2</ref>. The mechanical properties of the as-cast Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr alloy are even slightly better than those of existing ductile HfNbTiZr (cast and homogenized) and HfNbTaTiZr (as-cast) RHEAs, where the yield stress, UTS, and elongation are 879 MPa, 969 MPa, and 14.9%, <ref type="bibr" target="#b23">22</ref> and 800-840 MPa, 850-890 MPa, and 6%-9%, <ref type="bibr" target="#b24">23</ref> respectively.</p><p>Thus, a new ductile RHEA, Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr, has been designed, based on our intention to develop intrinsically ductile RHEAs following the electron theory. <ref type="bibr" target="#b25">24</ref> Table I lists nine different RHEAs containing elements from groups IV, V, and VI, and their corresponding VEC. In all these nine RHEAs, only single-phase bcc solid solutions are formed. Among them, three are ductile (with &gt;5% tensile elongation), while six are brittle. Seen from Fig. <ref type="figure">3</ref>, all ductile RHEAs have a VEC 4.4, while all brittle alloys have a VEC ! 4.6. With a database of nine alloys, it is probably not convincing yet to conclude that there exists a threshold VEC of $4.5 below which intrinsic ductility can be achieved in RHEAs, or to accurately predict whether an RHEA with a VEC of 4.5 would be ductile or brittle. However, decreasing VEC in RHEAs by controlled alloying has indeed been proved effective in ductilizing RHEAs. According to Qi and Chrzan, <ref type="bibr" target="#b25">24</ref> the intrinsic brittle to intrinsic ductile transition is determined by the transition of the elastic instability mode from tensile to shear failure, and the intrinsic ductility of bcc refractory alloys depends on whether shear instability occurs before the ideal tensile stress is reached. Tensile strain alters the band structures of these alloys and changes the position of the Fermi level. Alloying additions can shift the Fermi level and can therefore tune the critical strain for the shear instability and the corresponding intrinsic failure mode. More specifically, decreasing the number of valence electrons shifts the Fermi level down relative to the band structure, so less strain is required and the shear instability occurs earlier. From the electronic structure perspective, the shear instability can also be understood from the concept of Jahn-Teller distortion, <ref type="bibr" target="#b25">24</ref> which lowers the total energy of the alloy by splitting the degenerate energy levels of symmetry related and partially occupied orbitals near the Fermi level. Specifically, shifting the band structure by removing electrons, so decreasing the number of valance electrons, can increase the density of states (DOS) near the Fermi level and therefore increase the driving force for the Jahn-Teller distortion. DOS peaks just below and above the Fermi level would shift further away from the Fermi level to decrease energies, after the Jahn-Teller distortion. On a different note, Chan discussed the role of s þ d electrons (they are valence electrons for transition metals) on ductilizing Nb-based alloys from a different perspective other than shear instability. <ref type="bibr" target="#b29">28</ref> His approach was based on calculating the surface energy and the Peierls-Nabarro (P-N) barrier energy as a function of alloy compositions. The surface energy, which is insensitive to alloy additions, was regarded as a measure of the resistance to cleavage fracture, while the P-N barrier energy, which is sensitive to alloy additions, was a measure of the dislocation mobility. Chan claimed that decreasing VEC in Nb-alloys, such as by Ti addition, can reduce the P-N barrier energy and hence enhance the dislocation mobility and therefore the tensile ductility.</p><p>It is proposed here that intrinsically ductile RHEAs can be designed by manipulating VEC through controlled alloying. It has to be emphasized that the strategy is essentially directed to bcc solid solutions, as is the case where Qi and Chrzan exemplified how decreasing VEC can ductilize binary W or Mo alloys. <ref type="bibr" target="#b25">24</ref> In the context of RHEAs, this means that the alloy design of ductile RHEAs first has to guarantee the formation of bcc solid solutions and no other phases. A substantial work has been done in guiding the phase selection in HEAs, and it is now known that designing solid solutions forming HEAs can be conveniently helped by the twodimensional d À DH mix plot, <ref type="bibr" target="#b30">[29]</ref><ref type="bibr" target="#b31">[30]</ref><ref type="bibr" target="#b32">[31]</ref><ref type="bibr" target="#b33">[32]</ref> where d is the atomic size mismatch among constituent elements and DH mix is the averaged mixing enthalpies among different pairs of elements. d is defined by</p><formula xml:id="formula_0">d ¼ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi P n i¼1 c i ð1 À r i = P n j¼1 c j r j Þ 2 q</formula><p>, where n is the number of alloying elements, c i is the atomic percentage for the ith element, and r i or r j is the atomic radius for the ith or jth element, respectively), and DH mix is given by DH mix ¼ P n i¼1;j&gt;i 4DH mix AB c i c j , where DH mix AB is the enthalpy of mixing for the binary equiatomic AB alloys. Statistically, it is shown that solid solutions can form when d is small (d Շ 0.066), and DH mix is not significantly negative (DH mix տÀ11.6 kJ/mol). <ref type="bibr" target="#b30">29</ref> Satisfying d &lt; 0.066 and DH mix &gt; À11.6 kJ/mol, however, is necessary but not sufficient conditions to form solid solutions in HEAs, as chances are that intermetallic compounds can still form. <ref type="bibr" target="#b30">29</ref> Checking the binary phase diagrams among constituent elements can give some further guidance in designing solid solutions forming HEAs. <ref type="bibr" target="#b34">33</ref> For example, for the newly developed Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr alloy, there is no intermetallic compound forming in all relevant binary phase diagrams. It is therefore highly likely that as long as the necessary d À DH mix conditions are satisfied, solid solutions can indeed form, as is the real situation. On the premise that solid solutions are formed, the crystal structure of solid solutions can be tuned by VEC (VEC ¼ P n i c i ðVECÞ i , where (VEC) i is VEC for the ith element), where a large VEC (&gt;8) favors the fcc solid solution, while a smaller VEC (&lt;6.87) stabilizes the bcc solid solution. <ref type="bibr" target="#b26">25</ref> Finally, to intrinsically ductilize bcc structured RHEAs, VEC needs to be decreased to, for example, &lt;4.5, based on what is indicated in Fig. <ref type="figure">3</ref>. The box delineated by the blue dashed lines in Fig. <ref type="figure">4</ref> therefore gives a parametric guidance to design ductile RHEAs from the alloy design perspective: d, DH mix , and VEC can all be calculated from given alloy compositions.</p><p>Driven by the needs to increase the efficiency of gasturbine engines, developing novel high-temperature materials with higher working temperatures and ideally reduced densities compared to the currently used Ni-based superalloys is of critical importance. The density of the newly developed RHEA Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr was measured to be 8.13 g/cm <ref type="bibr" target="#b2">3</ref> , which is comparable to those of current Ni-based superalloys, and also lower than those of previously reported RHEAs, such as MoNbTaVW (12.36 g/cm 3 ), <ref type="bibr" target="#b16">17</ref> MoNbTaW (13.75 g/ cm 3 ), <ref type="bibr" target="#b16">17</ref> HfNbTaTiZr (9.94 g/cm 3 ), 18 HfMoTaTiZr (10.24 g/ cm 3 ), and HfMoNbTaTiZr (9.97 g/cm 3 ). <ref type="bibr" target="#b21">20</ref> With an estimated (by rule of mixture) melting point of 2055 C, Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr certainly has the potential to compete with Ni-based superalloys, if it also possesses decent high-temperature performance including high-temperature strength, resistance to creep deformation, and resistance to corrosion and oxidation. The high-temperature performance of Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr, and other low-density ductile RHEAs developed following the same alloy design strategy, will be the target for further studies. Nevertheless, solving the room temperature brittleness can be regarded as the first and foremost step in developing RHEAs as new generations of high-temperature materials. Additional optimizations include further reducing the density, and/or increasing the melting point, and enhancing the oxidation and corrosion resistance. In the meanwhile, although as-cast materials already present an attractive combination of high strength and high ductility here, thermomechanical treatments can certainly be used to further improve the mechanical performance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. SUMMARY</head><p>To conclude, here we developed a new ductile RHEA, Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr, with a density of 8.13 g/cm <ref type="bibr" target="#b2">3</ref> and a yield stress of 903 MPa, a fracture stress of 990 MPa, and an elongation of 18.8%, performing better than previously developed ductile RHEAs. More importantly, we proposed the mechanism and route for ductilizing RHEAs comprising groups IV (Ti, Zr, Hf), V (V, Nb, Ta) and VI (Cr, Mo, W) refractory elements, using the electron theory. Intrinsically ductile RHEAs can be developed by alloying elements from group VI or group V, with elements from group V or group IV, or in other words by decreasing the number of valence electrons (s þ d electrons), in single-phase bcc solid solutions.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>FIG. 1. Microstructure of as-cast Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr alloy with typical dendritic morphology. The inset shows the XRD pattern.</figDesc><graphic coords="3,316.01,63.50,244.02,163.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE I .</head><label>I</label><figDesc>Refractory HEAs and their VEC, d, and DH mix .</figDesc><table><row><cell>Alloy system</cell><cell cols="4">VEC d Â 100 DH mix (kJ/mol) References</cell></row><row><cell>HfNbTiZr</cell><cell>4.25</cell><cell>4.86</cell><cell>2.50</cell><cell>22</cell></row><row><cell>Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr</cell><cell>4.25</cell><cell>4.78</cell><cell>1.87</cell><cell>This work</cell></row><row><cell>HfNbTaTiZr</cell><cell>4.4</cell><cell>4.98</cell><cell>2.72</cell><cell>23</cell></row><row><cell>HfMoTaTiZr</cell><cell>4.6</cell><cell>6.08</cell><cell>À1.92</cell><cell>20</cell></row><row><cell>HfMoNbTaTiZr</cell><cell>4.67</cell><cell>5.78</cell><cell>À0.89</cell><cell>20</cell></row><row><cell>HfMoNbTiZr</cell><cell>4.6</cell><cell>6.09</cell><cell>À1.6</cell><cell>18</cell></row><row><cell>MoNbTaVW</cell><cell>5.4</cell><cell>3.15</cell><cell>À4.64</cell><cell>17 and 19</cell></row><row><cell>MoNbTaW</cell><cell>5.5</cell><cell>2.32</cell><cell>À6.50</cell><cell>17 and 19</cell></row><row><cell>MoNbTaV</cell><cell>5.25</cell><cell>3.47</cell><cell>À3.25</cell><cell>21</cell></row></table><note><p>FIG. 3. Separation of ductile and brittle RHEAs by the valence electron concentration.</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>164902-3 Sheikh et al. J. Appl. Phys. 120, 164902 (2016)</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p><rs type="person">Saad Sheikh</rs> and <rs type="person">Sheng Guo</rs> are grateful for the financial support from <rs type="funder">Area of Advance Materials Science from Chalmers University of Technology</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Lemberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.201200764</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">3445</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Perepezko</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1179327</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">326</biblScope>
+			<biblScope unit="page">1068</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Catoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1254581</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page">1153</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature17981</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">534</biblScope>
+			<biblScope unit="page">227</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.200300567</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">299</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J B</forename><surname>Vincent</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2003.10.257</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="issue">377</biblScope>
+			<biblScope unit="page">213</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pmatsci.2013.10.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Nieh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2015.06.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page">67</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<title level="m">High-Entropy Alloys: Fundamentals and Applications</title>
+		<meeting><address><addrLine>Cham, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2013.01.042</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page">2628</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dlouh Y</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Somsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Eggeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2013.06.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page">5743</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Pharr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2013.10.024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">131</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2010.05.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">1758</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Spolenak</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2013.11.049</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page">85</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steurer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.01.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page">87</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Spolenak</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms8748</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7748</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2011.01.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">698</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Fig</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A plot showing how ductile bcc solid solutions can be predicted by three parameters, atomic size mismatch, d, averaged mixing enthalpy, DH mix , and valence electron concentration, VEC, as indicated by the blue dashed box. Parameters for d and DH mix are also projected onto the d À DH mix plane, shown as cyan dots. 164902-4 Sheikh et al</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page">164902</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2015.05.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page">87</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2011.02.171</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page">6043</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2015.03.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page">76</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/e18050189</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">189</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Si</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Hui</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2014.05.134</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page">277</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Djemia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laurent-Brocq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tingaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzinie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perriere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chauveau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2015.12.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">654</biblScope>
+			<biblScope unit="page">30</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Chrzan</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.112.115503</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page">115503</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3587228</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">103505</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Alloy Phase Diagrams</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Okamoto</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Handbook</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+			<publisher>American Society for Metals</publisher>
+			<biblScope unit="volume">3</biblScope>
+			<pubPlace>Ohio</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2013.04.058</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page">4887</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Chan</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-001-0037-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">2475</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2013.05.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">96</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1002-0071(12)60080-X</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Nat. Sci.: Mater. Int</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">433</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.200700240</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">534</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/1743284715Y.0000000018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">1223</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Alman</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/e15104504</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">4504</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

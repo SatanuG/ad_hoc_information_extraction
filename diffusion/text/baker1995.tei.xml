@@ -1,0 +1,1323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Diffusion of silicon and gallium (as an analogue for aluminum) network-forming cations and their relationship to viscosity in albite melt</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Don</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Earth and Planetary Sciences</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<postCode>H3A 2A7</postCode>
+									<settlement>Montrtal</settlement>
+									<region>Qutbec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Diffusion of silicon and gallium (as an analogue for aluminum) network-forming cations and their relationship to viscosity in albite melt</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">ACD75823CD79ACE1E5072B7CDF19C46E</idno>
+					<note type="submission">Received August 5, 1994; accepted in revised form June 9, 1995</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Self-diffusion of Si and tracer diffusion of Ga have been measured in an albitic melt, Nao.97A10.gqSi3o2Os, at 1 atmosphere between 1160 and 1558°C. Diffusion of these network-forming elements was studied for comparison with viscous transport and Nuclear Magnetic Resonance (NMR) relaxation parameters measured in albite melts and glasses. Gallium was used as an analogue for AI and estimated diffusion parameters for both Ga and AI are presumed to be equivalent. Diffusion can be described by Arrhenius lines for both Si and Ga (with 1-standard errors): +6.58 × 10 3 Ds~ = 1.37 x 10 4 exp(-337.4 -Z-_ 52.61RT) -1.35 X 10-4 +7.97 DAI ~ Dc~ = 3.55 × 10 ~ exp(--424.6 _+_ 42.51RT) -3.39 X 10 ~,</p><p>where diffusivities are in m 2 s ~ and activation energies are in kJ/mol. Comparison of Si and Ga diffusivities with Si/AI diffusivities in crystalline albite indicates relatively small differences between activation energies for diffusion of 3+ and 4+ network-forming cations in crystalline and in molten albite. Apparently, the energy barrier to diffusion of these network-forming cations is influenced significantly only by nearest neighbours, and is not strongly affected by changing the dominant structure from four-membered rings of (Si, AI)O4 tetrahedra in crystalline albite to three-, four-, and six-membered rings of tetrahedra in molten albite. Comparison of Na diffusion in albite crystals and glass demonstrates significant differences in activation energies for diffusion. The behaviour of oxygen diffusion appears to be intermediate between Na and network-forming cations, however, this observation is based upon limited oxygen diffusion data for rhyolitic, not albitic, melts. Activation energies for Ga diffusion in albite melt are similar to those measured in rhyolite melt at 1.0 GPa. The silicon activation energy for diffusion is three times higher in albite melt than in rhyolite melt at 1.0 GPa and does not correlate with the activation energy for the inverse of the NMR spin-lattice relaxation. The differences between Si activation energies in albite and rhyolite melts are suggested to be due to the presence of a mixed alkali-like effect in the latter melt. Calculated diffusivities based upon measured viscosities for albite melt and the Eyring equation agree almost within error with Ga diffusivities, but are typically 3-10 times greater than Si diffusivities. This correlation suggests that diffusion of A1 in albite melt controls viscous transport. The activation energy for oxygen diffusion in crystalline albite and the estimated activation energy for oxygen diffusion in the melt are much lower than the activation energy for viscous transport and argue against a relationship between oxygen diffusion and viscous transport in this aluminosilicate melt. The more rapid diffusion of Ga and AI compared to Si in albite melt is proposed to be due to the more frequent formation of five-or six-coordinated Ga-O and AI-O transition state complexes than similar Si-O complexes. The previously observed relationship between viscosity and chemical diffusivities during interdiffusion <ref type="bibr" target="#b3">(Baker, 1992b)</ref> suggests that diffusion of A1 also controls chemical diffusion in basaltic to rhyolitic melts.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>Diffusion of network-forming cations, Si and AI, is a fundamental transport process in silicate melts. Chemical diffusion of these cations has been demonstrated to control the rates of diffusive contamination between melts <ref type="bibr" target="#b53">(Watson, 1982;</ref><ref type="bibr" target="#b1">Baker, 1990</ref><ref type="bibr">Baker, , 1992a,b) ,b)</ref> and the rates of crystal growth <ref type="bibr" target="#b34">(Muncill and Lasaga, 1987)</ref> and dissolution <ref type="bibr" target="#b53">(Watson, 1982;</ref><ref type="bibr" target="#b57">Zhang et al., 1989)</ref>. Furthermore, rates of diffusive contamination of nonalkali elements in basaltic to rhyolitic melts appear related to melt viscosity <ref type="bibr" target="#b1">(Baker, 1990</ref><ref type="bibr">(Baker, , 1992a,b) ,b)</ref> through the Eyring equation <ref type="bibr" target="#b15">(Glasstone et al., 1941 )</ref>:</p><formula xml:id="formula_0">3561 kBT D = --,<label>(1)</label></formula><p>xn where D is the diffusivity, kB is Boltzmann's constant, T is the temperature, h is the distance moved during each diffusive step, and 0 is the melt viscosity. The rate controlling mechanism of both processes has been proposed to be the same: the temporary transformation of some tetrahedrally coordinated network-forming cations into transition state complexes coordinated by five or six oxygen anions <ref type="bibr" target="#b0">(Angell et al., 1983;</ref><ref type="bibr" target="#b22">Hochella and Brown, 1984;</ref><ref type="bibr" target="#b29">Liu et al., 1988;</ref><ref type="bibr" target="#b26">Kubicki and Lasaga, 1988;</ref><ref type="bibr" target="#b1">Baker, 1990)</ref>. However, no previous study of net-D. R. Baker work-former, Si and A1, tracer diffusion has been performed on an aluminosilicate melt composition whose viscosity is well known. An additional stimulus for this study is the surprisingly low activation energy for Si tracer diffusion in rhyolitic melt, 139 kJ/mol, measured by <ref type="bibr">Baker (1992a)</ref> who correlated this activation energy with the activation energy for the inverse of the silicon spin-lattice relaxation, T,, of 138 kJ/mol in albite melt and glass (Farnan and <ref type="bibr">Stebbins, 1990)</ref>. This correlation was expected to result in a similar activation energy for Si diffusion in albite melt; however, as shown below, this is not the case.</p><p>To further investigate the diffusivities of network-forming cations and their correlation with viscosity, the tracer diffusivities of Si and Ga, as an analogue for AI (A1 tracer diffu-"Y6 sivities were not measured because of the high cost of -AI.), were measured in an albitic, NaAISi3Os, melt at one atmosphere. Albite composition was chosen because of its wellcharacterized viscous behavior <ref type="bibr" target="#b43">(Riebling, 1966;</ref><ref type="bibr" target="#b45">Scarfe and Cronin, 1986)</ref> and glass structure, which is presumed equivalent to the melt structure in this research <ref type="bibr" target="#b50">(Taylor and Brown, 1979;</ref><ref type="bibr" target="#b46">Seifert et al., 1981;</ref><ref type="bibr" target="#b36">Mysen et al., 1982;</ref><ref type="bibr" target="#b30">McKeown et al., 1984</ref><ref type="bibr">McKeown et al., , 1985a, b;, b;</ref><ref type="bibr" target="#b39">Oestrike et al., 1987;</ref><ref type="bibr" target="#b14">Geisinger et al., 1988)</ref>, and because this simple composition appears to be an excellent model for rhyolitic melts (e.g., <ref type="bibr" target="#b22">Hochella and Brown, 1984)</ref>.</p><p>The rationale for using Ga tracer diffusion as an analogue for AI tracer diffusion has been discussed previously <ref type="bibr">(Baker, 1992a)</ref>. The structural roles of A1 and Ga in silicate glasses appear identical, based upon Raman studies of aluminosilicate and galliosilicate glasses <ref type="bibr">(Henderson et al., 1985)</ref>. Although <ref type="bibr">Kushiro (1983)</ref> demonstrated that during chemical interdiffusion of NaA1Si206-NaGaSi206 melts the effective A1-Ga binary diffusion coefficient is a function of melt composition, at trace concentration levels the diffusivity of Ga is expected to be similar, if not the same, as the diffusivity of A1 in aluminosilicate melts. Measurements of diffusion in anhydrous rhyolitic melts have demonstrated that non-alkali elements with the same charge and structural role, but different ionic radii, have diffusivities within measurement error (2-sigma) of each other <ref type="bibr">(Henderson et al., 1985 )</ref>. Extrapolation of Ge-Si interdiffusion coefficients from NaA1Si20,-NaAIGe20~, diffusion couple experiments <ref type="bibr">(Kushiro, 1983)</ref> to pure endmember jadeite, NaAISi20~,, yields tracer diffusion coeffi-cients for Ge which are within a factor of 2 of silicon selfdiffusion coefficients measured in jadeite melt at pressures up to 950 MPa <ref type="bibr" target="#b48">(Shimizu and Kushiro, 1991)</ref>; at higher pressures, 1.6 and 2.0 GPa, extrapolated Ge diffusivities exceed Si self-diffusivities by a factor of 4.4 at the maximum. <ref type="bibr">Baker (1992a)</ref> demonstrated that diffusivities of B and Ga in a dacitic melt are similar and their activation energies for diffusion are within error of one another. Activation energies for B and Ga in rhyolitic melt are also within error of each other, however, B diffuses 2-5 times slower than Ga due to, as argued by <ref type="bibr">Baker (1992a)</ref>, its presence in both tetrahedral and trigonal coordination in the melt. Because the diffusion of B and Ga in these silicate melts is similar it is probable that AI diffusion will be similar to Ga diffusion in albite melt at pressures below 1.0 GPa. Therefore, the estimated diffusivity of aluminum in the melt will be considered equal to that measured for Ga.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">EXPERIMENTAL TECHNIQUES AND RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Glass Synthesis</head><p>Two glasses of albitic composition were synthesized, lsotopically normal albite glass, ~°Si/28Si = 0.0335, was made from reagent-grade Na2CO3, AI~O~, and SiO~ ground together under ethanol, decarbonated, and then melted at 1400°C for 1 h, 1 h at 1500°C, and then an additional 6 h at 1500°C. The glass was ground between each of these three fusions. To minimize bubbles the glass was melted for a total of 45 h at temperatures between 1490 and 1550°C. Optical inspection demonstrated the final glass had less than 5 vol% bubbles (presumably of air). After annealing, cores of glass, approximately 2.8 mm in diameter and 1.5 mm long, were drilled and one end of each core polished to a 1 #m finish. Electron microprobe analysis of this glass demonstrates homogeneity although some alkali loss occurred during synthesis. Nevertheless, the slightly peraluminous composition, Na~TAl~j~Si302Os, remains almost stoichiometric albite (Table <ref type="table">l</ref>). Viscosity measurements at high pressures and NMR analysis of this glass are identical (within error) to previously published results for albite melt and glass <ref type="bibr" target="#b4">(Brearly and Montana, 1989;</ref><ref type="bibr" target="#b39">Oestrike et al., 1987;</ref><ref type="bibr">D. R. Baker and J. Vaillancourt, unpubl, data)</ref>. A small amount of a second albite glass was synthesized from the same reagents, except that SiO2 powder isotopically enriched in ~°Si obtained from Oak Ridge National Laboratory, USA was substituted for some isotopically normal SiO2. After grinding and decarbonating, the mix was melted twice, 2 h each time, at 1500°C with grinding after each fusion. A chip of this glass was analyzed by electron microprobe and the composition is Nao ~AI0,~sSi~ ,~O~ (Table <ref type="table" target="#tab_0">1</ref> ). Sodium loss during melting of this glass is greater than the other glass composition because the small amount of material synthesized created in a higher surface area-to-volume ratio resulting in rapid loss of Na from the melt. Ion microprobe analysis of this glass chip yielded a ~°Si/28Si ratio of 0.2650. Both glasses were stored in a drying oven or desiccator before use.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Experimental Methods</head><p>Two types of diffusion experiments were performed. Initial experiments were designed to measure Si self-diffusion and Ga tracer diffusion simultaneously. Dilute solutions of Ga were pipetted onto the ends of glass rods of isotopically normal aibite, dried, and then dusted with a thin layer of the isotopically enriched powdered albite glass, thus producing a thin source for both elements. The total amount of Ga added corresponds to 400 ppm if distributed throughout the glass rod. Although these experiments produced excellent Ga tracer diffusion profiles, only one experiment produced a measurable silicon diffusion profile. A second series of Si diffusion experiments used a finite thickness source, between approximately 40 and 200 #m thick, of the isotopically enriched albite glass sandwiched between isotopically normal albite rods. One experiment, ABD-7, only used one albite rod above the enriched albite. All experiments were conducted in Pt capsules in air at one atmosphere. Capsules were located within 5 mm of a type S, Pt-Ptg0Rh,), thermocouple calibrated against the melting points of gold and diopside. Temperatures varied by less than 2 degrees during the experiments. Samples were pulled rapidly out of the vertical tube furnace and blown upon with air exhausted from human lungs ( "yank and blow" technique) which cooled samples to below red heat within 5 s of removal from experimental temperatures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Analytical Techniques and Data Analysis</head><p>After quenching, samples were mounted in aluminum rings with epoxy, ground perpendicular to the interface between the diffusion source and the glass rod, polished to a 0.3/zm finish, and Au coated for ion microprobe analysis. Diffusion profiles were measured with the Cameca IMS-3f ion microprobe at Woods Hole Oceanographic Institution. Techniques were similar to those of <ref type="bibr">Baker (1992a)</ref> and involved measuring the mSi/28Si and 69Ga/28Si isotopic ratios along the diffusion traverses using 10/zm steps. A voltage offset of -50 V was used for energy filtering and samples were bombarded by the primary oxygen ion beam for 5 min at each point before analysis began. Isotope ratios were measured with a 2-sigma precision of 5 relative percent or better. Using these operating conditions, the sputtered pit was an average of 8 pm in diameter. Duplicate, parallel, analytical traverses were performed on several experiments and one Ga diffusion experiment replicated for a different duration to investigate the possibility of other mechanisms besides diffusion affecting the transport of gallium. No evidence was found for the operation of any transport mechanism besides diffusion.</p><p>Three Ga diffusion experiments, , were analyzed with an electron microprobe operating at 15 kV with a beam current of 50 nA. Diffusion profiles analyzed with the electron microprobe display much more scatter than those analyzed with the ion microprobe, but diffusivities determined from experiments performed at the same temperature and analyzed by ion microprobe (ABD-3) and electron microprobe (ABD-33) are within error of each other.</p><p>Thick-source experiments for measuring silicon diffusion required solving the following equation (modified after <ref type="bibr">Eqn. 2.15 in Crank, 1975)</ref>:</p><formula xml:id="formula_1">2[R(x, t) -R'(x, 0)] a -x a + x -erf -- + err -- (2) [Ro(0, 0) -R'(x, 0)1 2~/(Ot) 2(~'</formula><p>where R(x, t) is the composition, 3°Si/28Si ratio, at distance x from the centre of the isotopically enriched source after an experiment of duration t, R'(x, 0) is the composition of the isotopically normal reservoir before the experiment, Ro(0, 0) is the initial composition of the thick source, a is the half-thickness of the source, and D is the diffusivity. </p><formula xml:id="formula_2">~ m i | i i i m i i | | i m i | i | i i I | i i | |</formula><p>ABD-4 0.010 0.020 0.030</p><p>Distance, cm FIG. <ref type="figure">1</ref>. Measured and calculated diffusion profiles for diffusion from a thick source of Si (a) and thin source of Ga (b). Symbols are measured isotopic ratios, lines are ideal diffusion profiles based upon Eqn. 2 for Si and the equation used by <ref type="bibr">Baker (1992a)</ref> for Ga diffusion. In (a) the best-fit profile is the solid line and two profiles based upon a 10% change in diffusivity are plotted as dashed lines. Note that even though the slower diffusivity fits the maximum isotopic ratio at the centre of the diffusion profile the sum of the squares of its residuals is greater than for the best-fit diffusivity. errors in calculated diffusivities (Table <ref type="table" target="#tab_2">2</ref>) the best-fit diffusivity was varied so as to produce a 10% relative change in the sum of the squares of the residuals. These errors for an individual analytical profile are approximately 10% of the measured diffusivities, however, replicate traverses suggest that diffusivities are probably only reproducible to within a factor of 2 (Table <ref type="table" target="#tab_2">2</ref>). The interfaces between the thick source of isotopicaily enriched albite and normal albite reservoir were located by finding the points along the diffusion profile where the ~°Si/28Si ratio equalled the mean of this ratio in the source and in the reservoir, 0.1493. These interface positions were then used to determine the half-thickness, a, and centre of the source. As long as (Dt/a),/2 is below 0.5, this estimate is accurate <ref type="bibr">(Crank, 1975, p. 15 )</ref>, however, in many calculations slight adjustments of this thickness were made; these adjustments were at most 6/zm, or 4 #m less than the steps used for the analytical traverses. For one experiment, ABD-10, (Dt/a 2)'/2 was slightly greater than 0.5, and the estimate for a is not as reliable as in the other experiments. Nevertheless, this estimate is consistent with the thickness of the 3°Si-enriched layer calculated from the weight of the glass added and a density of 2380 kg/m 3 for albite glass. Despite this uncertainty in the a value, the diffusion profile for ABD-10a and 3 synthetic profiles (Fig. <ref type="figure">la</ref>) demonstrate that the best-fit theoretical diffusion profile matches the measured data and how small differences in diffusivity, 10%, provide an envelope which brackets the measured diffusion profile. In this case the theoretical diffusion profile calculated for the low error bound of the diffusivity, 2.3 x 10 -.4 m 2 s ', provides a better fit to the data near the centre of the profile, but the sum of the squares of the residuals for this profile is greater than the best-fit profile which yields a diffusivity of 2.6 x 10 14 m ~ _ s '. Gallium diffusivities, and diffusion in the one successful Si thinsource experiment, were calculated by inverting the equation for diffusion from a thin source used by <ref type="bibr">Baker (1992a)</ref>, and tabulated errors are based upon errors in fitting a straight line to the "inverted" data <ref type="bibr">(Baker, 1992a)</ref>; calculated diffusion profiles for thin sources also demonstrate excellent agreement with measured profiles (Fig. <ref type="figure">lb</ref>). Based upon replicate experiments and different analytical traverses on the same experiment, diffusivities for these experiments also can be only considered precise to within a factor of two, even though errors for any one diffusion profile are less than 10% relative (cf. <ref type="bibr">Baker, 1992a)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">EXPERIMENTAL RESULTS</head><p>Measured self-diffusivities for Si and tracer diffusivities for gallium (Table <ref type="table" target="#tab_2">2</ref>) have been plotted on an Arrhenius diagram (Fig. <ref type="figure">2</ref>). Where multiple diffusion measurements have been made on one experiment the mean diffusivity has been plotted. Errors in individual measured diffusivities are smaller than symbols. Silicon diffusivities decrease from a maximum of 3.0 × 10-14 m 2 s i at 1558°C to a minimum of 6.7 x 10-~v at 1165°C, and Ga diffusivities range from a high of 1.5 x 10 -j~m 2s ' at l502°C to a low of 7.6 x 10 ~Tm 2s-~at 1154°C. The data display Arrhenius behaviour in the temperature range investigated, and the diffusivities of Si and Ga can be described by the equations: +6.58 × 10 3 Ds~ = 1.37 x 10 -4 exp(-337.4 ± 52.6/RT) -1.35 x 10-4; +7.97 DG, = 3.55 X 10 ~ exp(--424.6 ± 42.5/RT) -3.39 x 10 ', where mean diffusivities calculated from Table <ref type="table" target="#tab_2">2</ref> have been used in the line fitting <ref type="bibr" target="#b55">(York, 1969)</ref> and activation energies are in kJ/mol. Standard errors in the above equations are calculated using a factor of 2 error in the measured diffusivities. Interestingly, the differences between silicon and gallium dif- fusivities become greater with increasing temperature; there does not appear to be any compensation <ref type="bibr" target="#b54">(Winchell, 1969)</ref> occurring for Ga and Si diffusion in albite melt. maximum Debye temperature of 1000 K in Eqn. 3 only increases the Do by less than a factor of 2. The <ref type="bibr" target="#b16">Goldsmith (1987)</ref> measurements of albite disordering also can be used to calculate Si-Al interdiffusion coefficients following the technique of <ref type="bibr" target="#b12">Ganguly and Tazzoli (1994)</ref>; the resulting Arrhenius equation is:</p><formula xml:id="formula_3">D = 5.23 X 10 -1° exp(-3311RT).</formula><p>The activation energy of this equation is very similar to those determined by previous authors although the preexponential Do is 3 orders of magnitude less than that calculated by transition state theory. Using these calculated Do values and activation energies, the range of possible Arrhenius lines for Si-Al interdiffusion in crystalline albite have been plotted (Fig. <ref type="figure" target="#fig_0">3</ref>). The calculated Do's are only approximate values, nevertheless, these values appear near the maximum possible, because it is unlikely for diffusion in crystals to exceed that in their melt. Extrapolation of possible Arrhenius lines to higher temperatures predicts diffusivities for A1-Si interdiffusion similar to those of NaSi-CaA1 interdiffusion in An60_90 plagioclases at 1400°C, 10 -16 m 2 s -I <ref type="bibr" target="#b51">(Tsuchiyama and Takahashi, 1983)</ref> and in Ans0_8, plagioclases between 1100 and 1400oc, 10-23_10 19 m 2 s-i <ref type="bibr" target="#b17">(Grove et al., 1984)</ref>.</p><p>These activation energies for Si/A1 diffusion in crystalline albite and activation energies for Si self-diffusion and Ga tracer diffusion in molten albite are similar to the single-bond 4. DISCUSSION</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Diffusion in Albite Melt Versus Crystal</head><p>Activation energies for diffusion of Si and Ga in the melt phase are remarkably similar to activation energies for Si/A1 exchange in crystalline albite, even though the structure of crystalline albite consists of rings of 4 (Si, A1)O4 tetrahedra and molten albite has rings of three, four, and six (Si, Al)O4 tetrahedra and an approximately 10% lower density <ref type="bibr" target="#b50">(Taylor and Brown, 1979;</ref><ref type="bibr" target="#b46">Seifert et al., 1981;</ref><ref type="bibr" target="#b36">Mysen et al., 1982;</ref><ref type="bibr" target="#b30">McKeown et al., 1984</ref><ref type="bibr">McKeown et al., , 1985a,b;,b;</ref><ref type="bibr" target="#b39">Oestrike et al., 1987;</ref><ref type="bibr" target="#b14">Geisinger et al., 1988)</ref>. Studies of Si/Al exchange in crystalline albite during ordering and disordering under nominally anhydrous conditions yield activation energies of 279 kJ/mol (calculated from experiments at 1.2 GPa in <ref type="bibr" target="#b16">Goldsmith, 1987 )</ref>, 360 kJ/mol at 1 atm and 280 kJ/mol at 1.0 GPa <ref type="bibr" target="#b56">(Yund and Tullis, 1980)</ref>, and 311 kJ/mol <ref type="bibr" target="#b32">(McKie and McConnell, 1963)</ref>. These activation energies have been combined with a preexponential factor of 7 × 10 -7 m E s -I for diffusion in crystalline albite calculated following <ref type="bibr" target="#b15">Glasstone et al. ( 1941 )</ref></p><formula xml:id="formula_4">:</formula><p>where h is the jump distance during each diffusive step, 3.0 x 10 -~° m <ref type="bibr" target="#b1">(Baker, 1990)</ref>, kB is Boltzmann's constant, T is the temperature, h is Planck's constant, and 0o is the elastic Debye temperature of albite, 472 K <ref type="bibr" target="#b23">(Kieffer, 1985 )</ref>. As <ref type="bibr" target="#b23">Kieffer ( 1985 )</ref> demonstrates albite is a poor Debye solid and displays a calorimetric Debye temperature which varies from approximately 400 K at low temperatures to an asymptotic approach to 1000 K at high temperatures. However, using the  <ref type="bibr" target="#b11">Freer (1981)</ref>; diffusion in glass has been extrapolated to high temperatures for comparison with Si and Ga diffusion measured in this study. Oxygen diffusion in albite crystal is also from <ref type="bibr" target="#b11">Freer (1981)</ref>; oxygen diffusion is not known for albite melt, the Arrhenius line for O diffusion in the melt phase is based upon diffusion in rhyolitic melt (see text). The box labelled "Si/AI Ordering in Albite Crystals" represents the possible region of Arrhenius lines for Si/A1 diffusion in albite crystals based upon activation energies measured during ordering and disordering experiments at nominally anhydrous conditions and a preexponential factor calculated from transition state theory (see Eqn. 3 and discussion in text) and the equations of <ref type="bibr" target="#b12">Ganguly and Tazzoli (1994)</ref>. Gallium and Si data points and Arrhenius lines together with the Arrhenius line calculated from the Eyring equation (Eqn. 1) are from this study; see Fig. <ref type="figure">2</ref> for explanation of the symbols. D.R. Baker energies between oxygen and Si or A1, 443 and 330-422 kJ/ mol respectively <ref type="bibr" target="#b25">(Kingery et al., 1976)</ref>. Calorimetric measurements of De <ref type="bibr" target="#b8">Yoreo et al. (1990)</ref> on NaTO2-SiO2 (T = AI and Ga) glasses can be used to constrain the energy of the Ga-O bond to be --90% of the A1-O bond, or 300-380 kJ/mol. However, there is not a one-to-one correlation between activation energies for diffusion and bond energies. This lack of correlation is because cation-oxygen bonds are probably not completely broken during diffusion (cf. <ref type="bibr" target="#b37">Navrotsky et al., 1985)</ref>. Differences between the bond and activation energies are due to the shapes of the potential wells describing the bond energy as a function of bond angle and distance between'the cation and oxygen (e.g., De <ref type="bibr" target="#b7">Jong and Brown, 1980;</ref><ref type="bibr" target="#b13">Geisinger et al., 1985)</ref>. As the diffusion step occurs the energy of the Si-O or Ga-O bond rises from its equilibrium position at the bottom of the potential well as the bond stretches and bends (Fig. <ref type="figure">4</ref>). Before the bond energy reaches the top of the potential well, breaking the bond, the diffusion step has occurred and the energy falls to the bottom of the potential well. The shapes of these wells (cf. <ref type="bibr" target="#b13">Geisinger et al., 1985 )</ref> control the activation energy for diffusion; broad potential wells with shallow slopes lead to low activation energies, whereas narrow potential wells with steep slopes result in high activation energies (Fig. <ref type="figure">4</ref>).</p><formula xml:id="formula_5">i t/) cNi E v (:3 1E-? 160p 1E-~ 1E-S tE-1C 1E-11 - 1E-1,~ '-Calculated 1E-1Z.- "~r.._ (~a,"Al" 1E-1,~ ~elt. IE-I~ - 1E-1£ - Si 1E-17 - 1E-1E - 1E-I£ 1E-2[ - 1E-21 - 1 E-2~ - 1 E-2~ -Comparison of Diffusion 1E-2,~ -in Albite Crystal IE-2~ -</formula><p>Because activation energies for diffusion in both liquid and solid albite are similar it appears that these energetics are controlled only by the local environment, first-and possibly second-nearest neighbours, around Si or A1 atoms. The approximately 20% larger activation energy for diffusion in the melt (calculated from the mean of the activation energies) may be due to the different number of tetrahedra in the rings of crystalline and molten albite, although the significance of this small difference is questionable. Alternatively, the lower activation energies for diffusion in crystalline albite measured at high pressures may be accounted for by the presence of hydrogen <ref type="bibr" target="#b16">(Goldsmith, 1987)</ref>. The similarity of activation energies provides evidence for the operation of the same diffusion mechanism in albite crystals and melts, presumably the formation of a transition-state complex with fivefold or sixfold coordination as discussed by previous authors <ref type="bibr" target="#b0">(Angell et al., 1983;</ref><ref type="bibr" target="#b22">Hochella and Brown, 1984;</ref><ref type="bibr" target="#b16">Goldsmith, 1987;</ref><ref type="bibr" target="#b29">Liu et al., 1988;</ref><ref type="bibr" target="#b26">Kubicki and Lasaga, 1988;</ref><ref type="bibr" target="#b1">Baker, 1990)</ref>. The significant changes in the preexponential factors, Do' s, reflects the higher frequency of atomic motion in the melt and the greater probability of diffusive movement that results (cf. <ref type="bibr" target="#b15">Glasstone et al., 1941)</ref>. It is the higher Do's for diffusion in molten albite that result in the higher diffusivities for network formers in albite melt than in albite crystal.</p><p>The activation energy for Si diffusion is far larger than the activation energy measured by nuclear magnetic resonance spectroscopy (NMR) for the inverse of Si spin-lattice relaxation, T~. Following <ref type="bibr" target="#b28">Liu et al. (1987)</ref>, Farnan and <ref type="bibr">Stebbins (1990)</ref> measured an activation energy of 138 kJ/mol for Si T, in albite melt, only approximately one-third of the activation energy for Si diffusion. Thus, the previous proposal by this author suggesting that diffusion and spin-lattice relaxation occur by the same mechanism in silica-rich aluminosilicate melts <ref type="bibr">(Baker, 1992a)</ref>  FIG. 4. Simplified, schematic example of the effects of the shape of cation-oxygen bond energy potential wells on activation energies for diffusion. Distance vs. energy curves are shown for two examples, cations #1 and #2 (e.g., Si and AI), both of which have the same cation-oxygen bond energy at equilibrium, -400 kJ/mol. As shown in the cartoon, the transition state for diffusion is considered to occur by lengthening the cation-oxygen bond in a 2Q', or (Si, A1)207, unit from 0.15 to 0.2 nm which results in fivefold coordination of one of the tetrahedral cations in the 2Q ~ unit as shown by the dotted line in the cartoon. For the cation #1-oxygen bond curve the formation of the transition state results in an activation energy, AE~, of 200 k J/ mol. For the cation #2-oxygen bond curve, however, the shallower slope of the bond energy potential well results in an activation energy, AE2, of only 100 kJ/mol. Note that the effects of sharing the second oxygen between the units in the transition state on the bond energies is not considered. <ref type="bibr">(1990)</ref>. Farnan and <ref type="bibr">Stebbins (1990)</ref> demonstrated that changes in the 295i NMR line shape with temperature are probably more closely related to diffusion than Tj ; regretfully, their data were too limited to determine a meaningful activation energy from 295i line-shape changes in albite melt.</p><p>Despite the relative insensitivity of activation energies of diffusion for network-forming cations to differences between the melt and crystal structure of albite, the activation energies for diffusion of alkali cations, Na and K, in glassy and crystalline albite are significantly different. The <ref type="bibr" target="#b11">Freer (1981)</ref> compilation of diffusion studies demonstrates that activation energies for high-temperature (all studies included measurements at temperatures in excess of 1000 K) diffusion of Na in albite crystals ranges between 96 and 176 kJ/mol; for potassium the range is between 159 and 242 kJ/mol. However, in albite melts and glasses the activation energy for Na diffusion is 56 kJ/mol and for K diffusion is 100 kJ/mol (Na diffusivities are shown in Fig. <ref type="figure" target="#fig_0">3</ref>). The decrease in activation energies for diffusion in albite melt and glass is related to the lower density of the glassy or molten state, to the association of alkalies with rings of three, four, and six (Si, A1)O4 tetrahedra in the molten or glassy state versus rings with only four (Si, ml)O4 tetrahedra in the crystalline state, and to the resulting longer bond-lengths between alkali cations and oxygen anions in the glass or melt <ref type="bibr" target="#b50">(Taylor and Brown, 1979;</ref><ref type="bibr" target="#b46">Seifert et al., 1981 ;</ref><ref type="bibr" target="#b36">Mysen et al., 1982;</ref><ref type="bibr" target="#b30">McKeown et al., 1984</ref><ref type="bibr">McKeown et al., , 1985a,b;,b;</ref><ref type="bibr" target="#b39">Oestrike et al., 1987;</ref><ref type="bibr" target="#b14">Geisinger et al., 1988)</ref>.</p><p>The Arrhenius line for oxygen diffusion in crystalline albite (Fig. <ref type="figure" target="#fig_0">3</ref>) is calculated from the compilation of <ref type="bibr" target="#b11">Freer (1981)</ref>. The Arrhenius line for oxygen diffusion in the melt (Fig. <ref type="figure" target="#fig_0">3</ref>) is based upon the activation energy for oxygen diffusion in rhyolite melt <ref type="bibr" target="#b5">(Connolly and Muehlenbachs, 1988;</ref><ref type="bibr">K. Muehlenbachs, pers. commun. 1992)</ref>, and the diffusivity of oxygen in rhyolite melt measured at 1280°(7 <ref type="bibr" target="#b33">(Muehlenbachs and Kushiro, 1974)</ref>. Although data for oxygen diffusion in albite melt would be preferable, they do not exist. Nevertheless, the two datasets suggest that melting albite decreases the activation energy from 155 to 84 kJ/mol. Interestingly, these activation energies for oxygen diffusion are approximately onehalf those for diffusion of network formers in either crystalline or molten albite and are similar to activation energies for Na diffusion. Presumably this difference between activation energies for oxygen diffusion in crystalline and molten albite also is related to differences in melt and crystalline structures (discussed above for alkalies). Differences in chemistry and structure of albite and rhyolite melts most probably result in different activation energies for diffusion in each melt, however, the magnitude of such differences is currently unknown. The true significance of differences in activation energies for oxygen diffusion will remain vague until oxygen diffusivities are measured in albite melts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Comparison with Network-Former Diffusion in Other Aluminosilicate Melts</head><p>Diffusion of network-formers Si and Ga in albite melt can be compared with diffusion of the same elements in rhyolite melt and with Si and AI diffusion in simple aluminosilicate melts. Unfortunately, many of these previous diffusion studies were performed at high pressures (because of the relative ease of performing diffusion experiments at such conditions) and any comparison between the results of this and previous studies must consider the effects of pressure on the diffusion coefficients of network-forming cations. Luckily, at pressures between 1 atm and 1.0 GPa, the effects of pressure on diffusion coefficients is small. <ref type="bibr">Baker (1992a)</ref> demonstrated that the effect of increasing pressure from 1 atm to 1.0 GPa at 1300°(2 only increased Si diffusivity in rhyolitic melt by a factor of 1.4. <ref type="bibr" target="#b48">Shimizu and Kushiro ( 1991 )</ref> demonstrated that at 1400°C and pressures up to 1.0 GPa the tracer diffusivity of Si in jadeitic melt increases by a factor of only 2.9 per GPa. At the same conditions the tracer diffusivity of Ga in jadeite melt, as extrapolated from the Kushiro (1983) chemical diffusion experiments, also increases slowly, by a factor of 3.1 per GPa. The possible effect of pressure on diffusivities also can be estimated from the effect of pressure on the viscosity of albite melt combined with the Eyring equation. The viscosity of albite melt at 1400°C, 1 atm is 12023 Pa s <ref type="bibr" target="#b45">(Scarfe and Cronin, 1986)</ref>; at 1400°C 1.5 GPa albite melt viscosity is 1084 Pa s <ref type="bibr" target="#b4">(Brearly and Montana, 1989)</ref>. Diffusivity can be estimated to increase by a factor of 2.5 between 1 atm and 1.0 GPa. All of these studies of aluminosilicate melts indicate that a pressure difference of 1.0 GPa would result in a maximum of only a factor of 3 increase in the diffusivities.</p><p>Comparison of Si and Ga diffusivities in albite melt at 1 atm with their diffusivities in a rhyolitic melt at 1.0 GPa <ref type="bibr">( Baker, 1992a)</ref> demonstrates broadly similar diffusive behav-iour in both melts. Gallium diffusion coefficients are greater and the activation energy for diffusion higher than for Si diffusion in both melt compositions. This results in a divergence of the Arrhenius lines for Si and Ga diffusion at high temperatures in both compositions (i.e., no compensation occurs). Gallium diffusivities in rhyolitic melt are approximately 5 to 10 times more rapid than in the albite melt, far greater than can be accounted for by the pressure differences of the experiments. Although Si diffusivities between 1300 and 1500°C are similar in both albite and rhyolite melts, the most important difference between the current study and <ref type="bibr">Baker (1992a)</ref> is the much lower activation energy of Si diffusion measured in rhyolitic melt, 139 kJ/mol, than in albite melt, 338 kJ/mol. This lower activation energy for silicon diffusion in rhyolitic melt results in calculated low-temperature diffusivities, e.g., 1165°C, an order of magnitude above measured diffusivities in albite melt.</p><p>The cause of the differences in activation energies for diffusion of network formers in albitic and rhyolitic melts remains enigmatic. <ref type="bibr">Baker (1992a)</ref> proposed that differences in activation energies for Si diffusion in rhyolitic and dacitic melts were due to the greater sensitivity of the Si activation energy for diffusion to the type and concentration of network modifying cations than activation energies for Ga and B diffusion. One speculation which can be proffered to explain the differences in activation energies for Si diffusion in albitic and rhyolitic melts is that the low activation energy for Si diffusion in the rhyolitic melt is due to the presence of both K and Na in its composition, a mixed alkali effect (cf. <ref type="bibr" target="#b52">Varshneya, 1994)</ref>. Viscosity studies of xNa20-(20 -x)K20-80 SiO2 glasses have demonstrated that mixedalkali glasses have lower viscosities at isothermal conditions and approximately 10% lower activation energies for viscous transport than either pure Na silicate or potash silicate glasses <ref type="bibr" target="#b38">(Nemilov, 1969)</ref>. Because of the relationship between viscosity and diffusion (e.g., the Eyring equation) a similar decrease in activation energies for Si diffusion in mixed alkali silicate glasses compared to sodium or potash silicate glasses might be expected. Such results are qualitatively consistent with the lower activation energy for Si diffusion in the Na + K-bearing rhyolitic melt compared to the Na-bearing albitic melt. However, full understanding of the compositional effects on Si activation energies for diffusion must await a future study specifically investigating this phenomenon. These observed differences in diffusive behaviour of albite and rhyolite melts suggest that caution should be exercised in applying albite melt as an analogue for understanding transport processes in silica-rich natural melt compositions. Nevertheless, albite remains the best simple model composition for dacitic to rhyolitic melts.</p><p>Diffusivities of silicon in jadeite, NaA1Si206, melt measured at 600 MPa to 1.6 GPa and 1400 and 1550°C by <ref type="bibr" target="#b48">Shimizu and Kushiro ( 1991 )</ref> are approximately an order of magnitude greater than those measured in albite melt at 1 atm. These higher diffusivities cannot wholly be accounted for by the effect of pressure. The activation energy measured for silicon diffusion in jadeite melt at 1.6 GPa, 301 kJ/mol <ref type="bibr" target="#b48">(Shimizu and Kushiro, 1991 )</ref>, is similar to that measured for albite melt, 337 kJ/mol. The similar structure of jadeite and albite melts <ref type="bibr" target="#b50">(Taylor and Brown, 1979;</ref><ref type="bibr" target="#b46">Seifert et al., 1981;</ref><ref type="bibr">Mysen D.R. Baker et al., 1982;</ref><ref type="bibr" target="#b30">McKeown et al., 1984</ref><ref type="bibr">McKeown et al., , 1985a,b;,b;</ref><ref type="bibr" target="#b39">Oestrike et al., 1987;</ref><ref type="bibr" target="#b14">Geisinger et al., 1988;</ref><ref type="bibr" target="#b35">Mysen, 1988)</ref> and similar activation energies for Si diffusion in both melts are consistent with the proposal that local structure controls the energetics of Si diffusion in Na aluminosilicate melts with Na/A1 --1. Although activation energies for Si diffusion in these melts appear relatively insensitive to the Si/A1 ratio, the presence of other cations in the melt clearly affects silicon diffusion. Addition of a diopside, CaMgSizO6, component to jadeite melts increases Si diffusivities and lowers the activation energy for Si diffusion. <ref type="bibr" target="#b48">Shimizu and Kushiro (1991)</ref> showed that at 1.0 GPa, 1550°(] Si diffusivity increased from 2.2 X 10 -13 m 2 s -i in jadeite melt to 2.1 x 10 -t2 m 2 s I in JdsoDi~o, to 8.9 × 10 ~2 m s s-~ in JdtoDi4o, to 1.7 X 10 ~ m s s -~ in Jda0Di6o, to 4.5 X 10 ii m 2 s ~ in diopside melt. <ref type="bibr" target="#b48">Shimizu and Kushiro (1991)</ref> also found that the activation energy for Si diffusion in jadeite-diopside melts at high pressures decreased from 301 kJ/mol for jadeite (determined at 1.6 GPa) to 280 kJ/mol in Jd80Di20, to 209 kJ/mol in Jda0Di60, to 180 kJ/mol in diopside (all other activation energies determined at 1.0 GPa). <ref type="bibr" target="#b19">Henderson et al. ( 1961 )</ref> found that the ratio of alkaline-earths + silica to alumina affected activation energies in their study of A1 diffusion in the CaO-A1203-SiO2 system at 1 atm. In melts with 50:50 molar ratio of Cat and Sit2 increasing the concentration of A1203 from 6 to 12.5 mol % decreased activation energies for AI diffusion from 356 _ 72 kJ/mol to 251 ___ 42 kJ/mol and decreased A1 diffusivities by a factor of 2. However, the scatter in the diffusivities measured in the melt with 6 mol percent alumina is large enough that the activation energies for A1 diffusion in the two melts may not be significantly different.</p><p>These various studies demonstrate the importance of the type and concentration of network-modifying cations on the diffusion of network formers in aluminosilicate melts. In general, addition of network modifiers increases the diffusion coefficients of network formers while it decreases the activation energy for diffusion. These observations can be qualitatively explained by the effects of added network modifiers on the structure of silica and feldspar glasses and melts which transform bridging oxygens into nonbridging oxygens, creating a more open melt structure (e.g., <ref type="bibr" target="#b35">Mysen, 1988;</ref><ref type="bibr" target="#b52">Varshneya, 1994)</ref>, and weaken the strengths of bonds between networkforming cations and oxygen <ref type="bibr" target="#b7">(De Jong and Brown, 1980;</ref><ref type="bibr" target="#b13">Geisinger et al., 1985;</ref><ref type="bibr" target="#b37">Navrotsky et al., 1985)</ref>, all of which lead to lower activation energies for diffusion of network formers. The observed decrease in the activation energy for A1 diffusion with increasing A1 concentration in CaO-AI203-SiO2 melts <ref type="bibr" target="#b19">(Henderson et al., 1961)</ref> is, however, opposite the expected effects of addition of a network former on the diffusion of network formers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Diffusion and Viscous Transport in Albite Melt--The Importance of Network-Forming Cations</head><p>Assuming that diffusion occurs by transport of individual oxygen ions <ref type="bibr" target="#b41">Oishi et al. (1974)</ref> compared oxygen diffusivities and viscosities in several silicate melts; they demonstrated that the Eyring equation (Eqn. 1 ) could be used to correlate viscosities and oxygen diffusivities in a Na silicate melt and in a soda-lime silicate melt. <ref type="bibr" target="#b47">Shimizu and Kushiro (1984)</ref> also demonstrated good agreement between measured diffusivities of oxygen in jadeite melt and diffusivities calculated from viscosities using the Eyring equation at pressures greater than 1.0 GPa. These studies have resulted in the general acceptance of the Eyring equation for interrelating oxygen diffusion and viscosity in silicate melts.</p><p>However, many melts do not demonstrate a good correlation between oxygen diffusion and viscosity. The <ref type="bibr" target="#b41">Oishi et al. (1974)</ref> oxygen diffusivities calculated by the Eyring equation for a calcium aluminosilicate melt are only approximately 20% of the measured diffusivities. <ref type="bibr" target="#b9">Dunn (1982)</ref> demonstrated that oxygen diffusion and viscosity could not be related by the Eyring equation for melts on the diopside-anorthite join unless the jump distance, h, was significantly greater than the diameter of the oxygen ion. The <ref type="bibr" target="#b47">Shimizu and Kushiro (1984)</ref> oxygen diffusivities in diopside melt at 1650°C, 1.0 GPa are one-half those predicted from the melt viscosity. At 1400°C, 500 MPa the oxygen diffusivity in jadeite melt is 6.9 x 10 H m 2 s L <ref type="bibr" target="#b47">(Shimizu and Kushiro, 1984)</ref>, whereas that calculated from the viscosity is 3.1 X 10 14 m 2 s ~.</p><p>These studies demonstrate that the Eyring equation provides a good correlation between viscous transport and oxygen diffusion by movement of individual ions in selected silicate melts, but that this correlation does not apply to all melts, or even to the same melt all pressures (e.g. jadeite). Instead, it is proposed that in aluminosilicate melts viscous transport at 1 atm is more closely correlated to the diffusion of networkforming cations.</p><p>Activation energies for Si and Ga diffusion bracket the previously measured activation energy for viscous transport in albite melt, 368 kJ/mol <ref type="bibr" target="#b45">(Scarfe and Cronin, 1986)</ref>. The close correspondence of activation energies suggests a similar mechanism for both types of transport. The proposed mechanism is the conversion of some Si or A1 into a higher-thannormal-coordinated transition state complex as has been previously proposed by many researchers <ref type="bibr" target="#b0">(Angell et al., 1983;</ref><ref type="bibr" target="#b22">Hochella and Brown, 1984;</ref><ref type="bibr" target="#b29">Liu et al., 1988;</ref><ref type="bibr" target="#b26">Kubicki and Lasaga, 1988;</ref><ref type="bibr" target="#b1">Baker, 1990)</ref>. The relationship between viscosity and diffusion is strengthened by calculations of diffusion coefficients from viscosity through the Eyring equation (Eqn. 1 ). Using a jump distance, h, estimated from Si-O-Si and A1-O-Si bond lengths, of 3 x 10 -mm (cf. <ref type="bibr" target="#b1">Baker, 1990)</ref> calculated diffusivities are similar to measured Ga diffusivities, and typically 3-10 times greater than Si diffusivities (Fig. <ref type="figure">2</ref>). For calculated diffusivities to equal Si diffusivities h must be increased to 1.3 x 10 9 m, a distance incompatible with the structure of albite <ref type="bibr" target="#b50">(Taylor and Brown, 1979;</ref><ref type="bibr" target="#b46">Seifert et al., 1981;</ref><ref type="bibr" target="#b36">Mysen et al., 1982;</ref><ref type="bibr" target="#b37">Navrotsky et al., 1985)</ref>.</p><p>The oxygen diffusion data (Fig. <ref type="figure" target="#fig_0">3</ref>) suggest that the activation energy for oxygen diffusion in albite melt, an estimated 84 kJ/mol (discussed above), is far below that of viscous transport, 368 kJ/mol <ref type="bibr" target="#b45">(Scarfe and Cronin, 1986)</ref>, and therefore, that oxygen diffusion and viscous transport are not controlled by the same mechanism. Even if the estimated activation energy for O diffusion in the melt, 84 kJ/mol, is incorrect, the data available for diffusion of other ions in crystalline and molten albite indicate that the activation energy for oxygen diffusion in albite crystal, 155 kJ/mol <ref type="bibr" target="#b11">(Freer, 1981 )</ref>, will not be exceeded by the activation energy for O diffusion in the melt. This higher activation energy for O dif-fusion in crystalline albite is not even 50% of the activation energy for viscous transport in albite melt.</p><p>Alternatively, individual ions may not be the diffusing species. Instead complex ion clusters, e.g., an (Si, A1)O4 unit, may be diffusing in the melt <ref type="bibr" target="#b9">(Dunn, 1982;</ref><ref type="bibr" target="#b42">Oishi et al., 1982)</ref>. The size of these clusters might be large enough to justify a larger h and result in a better fit between Si and/or oxygen diffusivities calculated from viscosities. However, NMR studies of aluminosilicate melts indicate that the lifetime of any complex ion cluster is short, nanoseconds to microseconds, and that ions are probably rapidly exchanged between different ion clusters <ref type="bibr" target="#b29">(Liu et al., 1988;</ref><ref type="bibr" target="#b10">Farnan and Stebbins, 1990)</ref>. <ref type="bibr" target="#b48">Shimizu and Kushiro ( 1991 )</ref> also concluded that diffusion of Si, Ca, Mg, and O in the system jadeite-diopside was controlled "by motion of ionic units much smaller than anion species recognizable by the Raman spectroscopy" and that these units are probably monatomic diffusion species <ref type="bibr">(Shimizu and Kushiro, 1991, p. 210)</ref>. Although some diffusive transport may be due to the movement of these large clusters, it is the rapid exchange of ions between clusters which most probably dominates diffusion <ref type="bibr" target="#b29">(Liu et al., 1988;</ref><ref type="bibr" target="#b1">Baker, 1990)</ref>.</p><p>Further evidence for a correlation between viscosity and diffusion of 3 ÷ network-forming ions in aluminosilicate melts is provided by <ref type="bibr">Henderson etal. ( 1961 )</ref>. They measured AI diffusion in a 43.75 mol%, CAO-12.5 mol%, A1203-43.75 mol% SiO2 melt and tabulated diffusivities of all ions in the melt and its viscosity at 1450°C, 1 atm. At these conditions the diffusivities of calcium and oxygen are 1.2 and 8 × 10 -t° m 2 s-~, respectively, and the diffusivities of Si and AI are 1.2 and 4.0 × 10 ~ m 2 s ', respectively. The viscosity of this melt at these conditions is 1.4 Pa s, which results in a calculated diffusivity of 5.7 × 10-~ m 2 s -~, extremely close to the measured AI diffusivity and far from the diffusivities of other ions in the melt.</p><p>The agreement between measured Ga diffusivities and those calculated from viscosity by the Eyring equation indicates the significant role that trivalent, network-forming cations play in transport processes of aluminosilicate melts. It appears that in aluminosilicate melts the rate-controlling step for viscous transport is the formation of transition state complexes with higher-than-normal coordinated A1, not Si, and the resulting diffusion of AI. Similar activation energies for Si and Ga do not suggest significant energetic differences between the formation of different transition state complexes. Instead, it is suggested that the frequency of creation of Ga and A1 transition state complexes is greater than that of Si transition state complexes. This higher frequency of formation of Ga and AI transition state complexes is reflected in the higher preexponential factor in the Arrhenius equation for Ga diffusion than for Si diffusion. The preexponential factor for diffusion in melts can be expressed as the product of the square of the jump-length, the rate constant (frequency of jumps attempted), F, and the exponential of the entropy of formation of the transition state complex, S t* , divided by the gas constant <ref type="bibr" target="#b15">(Glasstone et al., 1941 )</ref>:</p><formula xml:id="formula_6">Do = h2F exp(Sr*lR).</formula><p>Because A1 and Si appear disordered in albite melt <ref type="bibr" target="#b50">(Taylor and Brown, 1979)</ref>, the diffusive jump length for both cations is probably equal. Based upon entropy differences between tetrahedrally and octahedrally coordinated Si and A1 in minerals, calculated for Si with coesite-stishovite and for A1 with a/bite-jadeite on a two-oxygen mole basis <ref type="bibr">(Robie et al., 1978 )</ref>, differences between entropies of formation of Si or AI transition state complexes are unlikely to be greater than a factor of 2. Thus, the three order of magnitude difference in the pre-exponential factors appears attributable only to a higher rate constant for the formation of Ga (A1) transition state complexes. Further evidence for the importance of an AI transition state complex is found in ab initio molecular orbital calculations which indicate that namlO4 tetrahedral molecules may be slightly more deformable in response to changes in the geometry of the coordinating ions than similar Si-bearing molecules <ref type="bibr" target="#b21">(Hess et al., 1988)</ref>. Presumably, this greater deformability could produce A1 (or Ga)-bearing transition state complexes at higher rates than Si-bearing complexes. Additionally, the higher rate of formation of AI transition state complexes at 1 bar is consistent with the lower pressure needed to stabilize equilibrium five-or six-coordinated AI complexes than to stabilize similar, highly coordinated, Si complexes in albite melt <ref type="bibr" target="#b40">(Ohtani et al., 1985;</ref><ref type="bibr" target="#b49">Stebbins and Sykes, 1990)</ref>. <ref type="bibr" target="#b3">Baker (1992b)</ref> demonstrated the correlation between melt viscosities and chemical diffusivities measured during interdiffusion experiments in melts of basaltic to rhyolitic composition. This correlation combined with the results of the present study is consistent with the hypothesis that chemical diffusion of non-alkali cations in silica-rich aluminosilicate melts is controlled by the diffusion of AI, which is rate-limited by the formation of Al-bearing transition state complexes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">CONCLUSIONS</head><p>Self-diffusion of Si and tracer diffusion of Ga, as an analogue for A1, have been measured in albite melt for the first time. Activation energies for diffusion of both ions are similar and bracket the previously measured activation energy for viscous flow in albite melt. Activation energies for diffusion in the melt are similar for to those for Si/A1 diffusion in crystalline albite as measured by ordering/disordering experiments. The small differences between activation energies for diffusion in crystalline and molten albite indicate that the energetics of Si and Ga (or A1) diffusion are controlled by nearest-neighbour interactions that do not significantly change during melting and the transformation of the structure from four-members rings of (Si, A1)O4 tetrahedra in the crystal to three-, four-, and six-membered rings of (Si, A1 )04 tetrahedra in the melt. Sodium diffusion changes much more; activation energies in the melt are one-half those in the solid. These large differences most probably are due to differences between the structure of crystalline and molten a/bite. Oxygen diffusion is more difficult to interpret because no measurements have been made for albite melt, but using rhyolite melt as an analogue the data suggest oxygen behaves in an intermediate manner, between the behaviour of Si and Ga, and Na. Calculation of diffusivities from a/bite melt viscosity displays excellent agreement with Ga diffusivities, and much poorer agreement with Si diffusivities. The large discrepancy between activation energies for viscous transport and for oxygen diffusion in crystalline albite, or the estimated activation energy for oxy-D.R. Baker gen diffusion in molten albite, argues against a mechanistic relationship between oxygen diffusion and viscosity in this melt composition. It is concluded that the formation of AI-O transition complexes and diffusion of AI controls viscous transport in albite and, by inference, all silica-rich aluminosilicate melts. Correlation of viscosity and chemical interdiffusion in natural silicate melts furthermore suggests that this same mechanism is the rate-limiting mechanism for chemical diffusion in basaltic to rhyolitic melts.</p><p>Acknowledgments--Nobu Shimizu is greatly thanked for his aid in ion microprobe analysis and for many interesting discussions on diffusion in silicate melts. K. Muehlenbachs is also thanked for stimulating discussions and his unpublished data on oxygen diffusion in rhyolite melt. Reviews by T. Dunn, J. Ganguly, J. Kubicki, and an anonymous reviewer are greatly appreciated. T. Dunn is further thanked for suggesting that the electron microprobe could be used for analysis of Ga diffusion profiles. This research was supported by my NSERC research and my FCAR Nouveau Chercheur grants.</p><p>Editorial handling: M. S. Ghiorso</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 3 .</head><label>3</label><figDesc>FIG.3. Diffusion of Si, Ga ~ AI (denoted Ga, "AI"), Na, and O in crystalline and molten albite. Arrhenius parameters for Na in albite crystal and glass are from<ref type="bibr" target="#b11">Freer (1981)</ref>; diffusion in glass has been extrapolated to high temperatures for comparison with Si and Ga diffusion measured in this study. Oxygen diffusion in albite crystal is also from<ref type="bibr" target="#b11">Freer (1981)</ref>; oxygen diffusion is not known for albite melt, the Arrhenius line for O diffusion in the melt phase is based upon diffusion in rhyolitic melt (see text). The box labelled "Si/AI Ordering in Albite Crystals" represents the possible region of Arrhenius lines for Si/A1 diffusion in albite crystals based upon activation energies measured during ordering and disordering experiments at nominally anhydrous conditions and a preexponential factor calculated from transition state theory (see Eqn. 3 and discussion in text) and the equations of<ref type="bibr" target="#b12">Ganguly and Tazzoli (1994)</ref>. Gallium and Si data points and Arrhenius lines together with the Arrhenius line calculated from the Eyring equation (Eqn. 1) are from this study; see Fig.2for explanation of the symbols.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . Composition of Albite Glasses</head><label>1</label><figDesc></figDesc><table><row><cell></cell><cell>Albite Glass</cell><cell>3°Si-enriched Albite Glass</cell><cell>Nominal Albite</cell></row><row><cell>SiO 2</cell><cell>69.14 (028)'</cell><cell>70.00 (0 30)</cell><cell>68.74</cell></row><row><cell>AI203</cell><cell>19.26 (0.23)</cell><cell>18.82 (0.12)</cell><cell>19.44</cell></row><row><cell>Na20</cell><cell>11.42 (023)</cell><cell>10.75 (0.13)</cell><cell>11.82</cell></row><row><cell>Total</cell><cell>9982</cell><cell>99.57</cell><cell>100,00</cell></row><row><cell></cell><cell>Nao 97AIo 99Si3 o208</cell><cell>Nao 93AIo 9BSi3 ~oO8</cell><cell>NaAISi3OB</cell></row><row><cell cols="4">~l-sigma errors based upon replicate analyses of glasses by electron microprobe</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 . Si and Ga Diffusion Measurements in Albite Melt</head><label>2</label><figDesc></figDesc><table><row><cell>Expt.</cell><cell>Temp., °C</cell><cell>Duration, s</cell><cell cols="2">Diffusivity, m2s ~</cell></row><row><cell>Silicon Diffusion</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>ABD-7a*</cell><cell>1165</cell><cell>345,600</cell><cell>75(-+0.5)</cell><cell>x 10 -~r</cell></row><row><cell>ABD-7b</cell><cell>1165</cell><cell>345,600</cell><cell>5.8(+0.5)</cell><cell>x 10 "r</cell></row><row><cell>ABD-3a</cell><cell>1304</cell><cell>140,400</cell><cell cols="2">1.5(_+ 0.07) x 10 "~5</cell></row><row><cell>ABD-3b</cell><cell>1304</cell><cell>140,400</cell><cell cols="2">6.9(_+0.06) x 10 "8</cell></row><row><cell>ABD-9</cell><cell>1390</cell><cell>88,200</cell><cell>3.7(_,0.6)</cell><cell>x 10 ~5</cell></row><row><cell>ABD-10a</cell><cell>1558</cell><cell>14,400</cell><cell>2.6(_+0.3)</cell><cell>x 10 ~4</cell></row><row><cell>ABD-10b</cell><cell>1558</cell><cell>14,400</cell><cell>3.4(-+0.4)</cell><cell>x 10 ~4</cell></row><row><cell>Gallium Diffusion</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>ABD-35</cell><cell>1154</cell><cell>259,800</cell><cell cols="2">7.6(_+0.8) x 10 ~r</cell></row><row><cell>ABD-2</cell><cell>1210</cell><cell>196,320</cell><cell cols="2">1.3(+0.1) x 10 ~s</cell></row><row><cell>ABD-3a</cell><cell>1304</cell><cell>140,400</cell><cell cols="2">1.0(-+0.05) x 10 15</cell></row><row><cell>ABD-3b</cell><cell>1304</cell><cell>140,400</cell><cell cols="2">1.4(-+0.2) x 10 15</cell></row><row><cell>ABD-33</cell><cell>1302</cell><cell>176,400</cell><cell cols="2">1.2(_+0.2) x 10 "~5</cell></row><row><cell>ABD-34</cell><cell>1352</cell><cell>14,400</cell><cell></cell><cell></cell></row><row><cell>ABD-1</cell><cell>1407</cell><cell>72,000</cell><cell cols="2">4.0(-+0.08) x 10 14</cell></row><row><cell>ABD-4</cell><cell>1501</cell><cell>32,820</cell><cell cols="2">7.6(_+0.04) x 10 "14</cell></row><row><cell>ABD-5a</cell><cell>1502</cell><cell>7,200</cell><cell cols="2">1.3(_+0.1) x 10 "~3</cell></row><row><cell>ABD-5b</cell><cell>1502</cell><cell>7,200</cell><cell cols="2">1.8(-+0.05) x 10 -~3</cell></row></table><note><p><p>1.1(-+0.1) x 10 "~4</p>*Letters refer to diffusivities calculated from separate ion-microprobe traverses.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>FIG. 2. Diffusivities ofSi (circles)  and Ga (stars) in albite (Na-AISi308) melt at 1 bar pressure. Estimated diffusivities of AI are assumed equal to those of Ga (see text) and are labeled as Ga, "AI". Dashed line connects diffusivities calculated from albite melt viscosities(Scarfe and Cronin, 1988)  using the Eyring equation (Eqn. 1 in text) derived from transition state theory.</figDesc><table><row><cell></cell><cell>1E-12</cell><cell cols="4">1600 1500 1400 ' ,~ I ' I</cell><cell>'</cell><cell cols="3">1300 1200 i I '</cell><cell>I</cell><cell>1100°C '</cell></row><row><cell></cell><cell></cell><cell></cell><cell>",~. .</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">Diffusion in</cell></row><row><cell></cell><cell>1E-13</cell><cell></cell><cell>"'"~</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">Albite</cell><cell>Me/t</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>-k</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>"T</cell><cell>1E-14</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>t/)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>E r"t</cell><cell>1E-15</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">~'" ~</cell></row><row><cell></cell><cell>1E-16</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="7">" O--O~culated ~ T~on</cell><cell cols="2">State "~</cell></row><row><cell></cell><cell>1E-17</cell><cell>,</cell><cell>I</cell><cell>i</cell><cell>i</cell><cell>,</cell><cell></cell><cell>I</cell><cell>,</cell><cell>I</cell><cell>,</cell></row><row><cell></cell><cell>5.0</cell><cell></cell><cell>5.5</cell><cell></cell><cell>6.0</cell><cell></cell><cell></cell><cell>6.5</cell><cell cols="2">7.0</cell><cell>7.5</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="4">10,000/T (K)</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>appears in error. The activation energy for Tn in albite melt is probably strongly affected by impurities in the melt, as discussed by Farnan and Stebbins</figDesc><table><row><cell>200</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>I I</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>~~t</cell><cell cols="3">equillbrium transi ti on stat~</cell></row><row><cell></cell><cell></cell><cell>\,</cell><cell cols="2">/2</cell></row><row><cell>~ -200</cell><cell>k'</cell><cell cols="3">\ ~ transition state S f // , / d/transition state 2 [</cell><cell>E</cell></row><row><cell cols="5">-400-I [ equi l i bri um o I . I .</cell></row><row><cell>0.00</cell><cell></cell><cell>0.10</cell><cell>0.20</cell><cell>0.30</cell><cell>0.40</cell></row><row><cell></cell><cell></cell><cell></cell><cell>Bond Length, nm</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Water-like transport property anomalies in liquid silicates investigated at high T and P by computer simulation techniques</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Angell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cheeseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tamadon</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="87" to="97" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Chemical interdiffusion of dacite and rhyolite: anhydrous measurements at 1 atm and 10 kbar, application of transition state theory, and diffusion in zoned magma chambers. Contrib</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="407" to="423" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Tracer diffusion of network formers and multicomponent diffusion in dacitic and rhyolitic melts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="617" to="631" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Estimation of diffusion coefficients during interdiffusion of geologic melts: application of transition state theory</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="11" to="21" />
+			<date type="published" when="1992">1992b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The effect of CO2 on the viscosity of silicate liquids at high pressure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brearly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Montana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="2609" to="2616" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Contrasting oxygen diffusion in nepheline, diopside and other silicates and their relevance to isotopic systematics in meteorites</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Connolly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Muehlenbachs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1585" to="1591" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<title level="m">The Mathematics of Diffusion</title>
+		<imprint>
+			<publisher>Clarendon Press</publisher>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Polymerization of silicate and aluminate tetrahedra in glasses, melts and aqueous solutions--lI. The network modifying effects of Mg 2</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Jong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H W S</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E ; K +</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Na</forename><forename type="middle">+</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">+</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">÷</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1627" to="1642" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+	<note>CO2, andH30 + on silicate polymers</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Energetics of the charge-coupled substitution Si 4+ ~ Na + + T ~+ in the glasses NaTO~-SiO2</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Yoreo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Navrotsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Ai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fe</forename><surname>Ga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">)</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Amer. Ceram. Soc</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="2068" to="2072" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Oxygen diffusion in three silicate melts along the join diopside-anorthite</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dunn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="2293" to="2299" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">High-temperature -~Si NMR investigation of solid and molten silicates</title>
+		<author>
+			<persName><forename type="first">Farnan</forename><forename type="middle">1</forename><surname>Stebbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Amer. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="32" to="39" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Diffusion in silicate minerals and glasses: a data digest and guide to the literature</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Freer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="440" to="454" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Fe -~ Mg interdiffusion in orthopyroxene:retrieval from the data on intracrystalline exchange reaction</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ganguly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Tazzoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="930" to="937" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A molecular orbital study of bond length and angle variations in framework structures</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Geisinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">V</forename><surname>Gibbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Navrotsky</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Minerals</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="266" to="283" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Thermochemistry and structure of glasses along the join NaA1Si308-NaBSi~Os</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Geisinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oestrike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Navrotsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">U</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kirkpatrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="2405" to="2414" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Theory, of Rate Processes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Glasstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Laidler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eyring</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1941">1941</date>
+			<publisher>McGraw-Hill</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">AI/Si interdiffusion in albite: effect of pressure and the role of hydrogen</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Goldsmith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="311" to="321" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Coupled CaAI-NaSi diffusion in plagioclase feldspar: experiments and applications to cooling rate speedometry</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Grove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kinzler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="2113" to="2121" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Raman spectra of gallium and germanium substituted silicate glasses: variations in intermediate range order</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Bancroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Fleet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rogers</forename><forename type="middle">D J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="946" to="960" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Self-diffusion of aluminum in CaO-SiO2-AI20~ Melts</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Derge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Metall. Soc. AIME</title>
+		<imprint>
+			<biblScope unit="volume">221</biblScope>
+			<biblScope unit="page" from="56" to="60" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Structural controls and mechanisms of diffusion in natural silicate melts</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Lowry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="263" to="272" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>O'keeffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>; T = C</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Si</forename><forename type="middle">)</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Torsional barriers and force fields in H4TO 4 molecules and molecular ions</title>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="1785" to="1791" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Structure and viscosity of rhyolite composition melt</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Hochella</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="2631" to="2640" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Heat capacity and entropy: systematic relations to lattice vibrations</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Kieffer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Microscopic to Macroscopic, Atomic Environments to Mineral Thermodynamics</title>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Kieffer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Navrotsky</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="65" to="126" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Kingery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">K</forename><surname>Bowen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Uhlmann</surname></persName>
+		</author>
+		<title level="m">Introduction to Ceramics</title>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Molecular dynamics simulations of SiO2 melt and glass: ionic and covalent models</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Kubicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="941" to="955" />
+			<pubPlace>Amer Mineral</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Effect of pressure on the diffusivity of networkforming cations in melts of jadeitic compositions. Geochim. Cosmochim</title>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<editor>
+			<persName><surname>Kushiro 1</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<date type="published" when="1983">1983. 1415 1422</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Relaxation mechanisms and effects of motion in albite (NaA1Si~O8) liquid and glass: a high temperature NMR study</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brandiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Minerals</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="155" to="162" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Diffusive motion in alkali silicate melts: An NMR study at high temperature</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pines</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="527" to="538" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">a) EXAFS and XANES study of the local coordination environment of sodium in a series of silica-rich glasses and selected minerals within the Na20-Al_~O3-SiO2 system</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Mckeown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Galeener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Mckeown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Waychunas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Non-Cryst. Solids</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="325" to="348" />
+			<date type="published" when="1984">1984. 1985</date>
+		</imprint>
+	</monogr>
+	<note>J. Non-Cryst. Solids</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">b) EXAFS study of the coordination environment of aluminum in a series of silica-rich glasses and selected minerals within the Na20-AI20~-SiO2 system</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Mckeown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Waychunas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Non-Cryst. Solids</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="349" to="371" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The kinetics of the lowhigh transformation in albite, I. Amelia albite under dry conditions</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mckie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D C</forename><surname>Mcconnell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mineral. Mag</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="581" to="588" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Oxygen isotope exchange and equilibrium of silicates with CO2 or 02</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Muehlenbachs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Carnegie Inst. Wash. Yb</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="232" to="236" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Crystal-growth kinetics of plagioclase in igneous systems: one-atmosphere experiments and application of a simplified growth model</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Muncill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="299" to="311" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Structure and Properties of Silicate Melts</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The structure of silicate melts: implications for chemical and physical properties of natural magma</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Virgo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Seifert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Geophys. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="353" to="383" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The tetrahedral framework in glasses and melts--inferences from molecular orbital calculations and implications for structure, thermodynamics and physical properties</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Navrotsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Geisinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">V</forename><surname>Gibbs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Minerals</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="284" to="298" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A study of the viscosity of glasses in the systems Na20-K20-SiO2 and Li20-K20-SiO2 in the region of the softening temperatures</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Nemilov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Chem. USSR</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="46" to="51" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+	<note>English trans.</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">High-resolution 23Na, 27A1, and 2&apos;~Si spectroscopy of framework aluminosilicate glasses. Geochim. Cosmochim</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oestrike</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="2199" to="2209" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">AI 3÷ coordination changes in liquid aluminosilicates under pressure</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ohtani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Taulelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Angell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">314</biblScope>
+			<biblScope unit="page" from="78" to="81" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Oxygen diffusion in liquid silicates and relation to their viscosity</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Oishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Terai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ueda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mass Transport Phenomena in Ceramics</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Heuer</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Plenum Press</publisher>
+			<date type="published" when="1974">1974</date>
+			<biblScope unit="page" from="297" to="310" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Analysis of liquid-state interdiffusion in the system CaO-AI203-SiO2 using multiatomic ion models</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Oishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nanba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Pask</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Amer. Ceram. Soc</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="247" to="253" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Structure of sodium aluminosilicate melts containing at least 50 mole% SiO2 at 1500°C</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Riebling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="2857" to="2865" />
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Thermodynamic Properties of Minerals and Related Substances at 298.15 K and 1 Bar (10 s Pascals ) Pressure and at Higher Temperatures</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>R0bie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Hemingway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Fisher</surname></persName>
+		</author>
+		<idno>USGS Bull. 1452</idno>
+		<imprint>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Viscosity-temperature relationships of melts at 1 atm in the system diopside-albite</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Cronin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="767" to="771" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Three-dimensional network structure of quenched melts (glass) in the systems SiO2-NaA102, SiO2-CaA1204 and SiO2-MgA1204</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Seifert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Virgo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="696" to="717" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Diffusivity of oxygen in jadeite and diopside melts at high pressures</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1295" to="1303" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The mobility of Mg, Ca, and Si in diopside-jadeite liquids at high pressures. In Physical Chemistry of Magmas</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kushiro 1</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Physical Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="192" to="212" />
+			<date type="published" when="1991">1991</date>
+			<publisher>Springer-Verlag</publisher>
+		</imprint>
+	</monogr>
+	<note>L. L. Perchuk and I. Kushiro)</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">The structure of NaAISi~O8 liquid at high pressure: new constraints form NMR spectroscopy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sykes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="943" to="946" />
+			<pubPlace>Amer Mineral</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Structure of mineral glasses--I. the feldspar glasses NaAISi~Os, KAISi~Os, and CaAI2Si2Os</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="61" to="75" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Melting kinetics of plagioclase feldspar</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tsuchiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Takahashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="345" to="354" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Fundamentals oflnorganic Glasses</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Varshneya</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+			<publisher>Academic Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Basalt contamination by continental crust: some experiments and models</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="73" to="87" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The compensation law for diffusion in silicates</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Winchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">High Temp. Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="200" to="215" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Least squares fitting of a straight line with correlated errors</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>York</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="320" to="324" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The effect of water, pressure, and strain on A1/Si order-disorder kinetics in feldspar</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Yund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tullis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="297" to="302" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Diffusive crystal dissolution</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="492" to="513" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

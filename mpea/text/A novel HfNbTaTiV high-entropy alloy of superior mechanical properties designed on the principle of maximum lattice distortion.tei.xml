@@ -1,0 +1,2058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A novel HfNbTaTiV high-entropy alloy of superior mechanical properties designed on the principle of maximum lattice distortion</title>
+				<funder ref="#_JaWabwW">
+					<orgName type="full">Beijing Outstanding Young Scientists Projects</orgName>
+				</funder>
+				<funder ref="#_dUmYkyg #_HPrVSqR">
+					<orgName type="full">Beijing Natural Science Foundation</orgName>
+				</funder>
+				<funder ref="#_jPTHAx3 #_JEZQNaT">
+					<orgName type="full">Beijing Municipal Education Commission Project</orgName>
+				</funder>
+				<funder ref="#_uXFnjR7">
+					<orgName type="full">Australian Research Council</orgName>
+				</funder>
+				<funder ref="#_UYdQXh4 #_n5GVeWf #_2eyCfVh">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_Xrbwenb">
+					<orgName type="full">Basic Science Center Program for Multiphase Evolution in Hyper-gravity of the National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-10-15">15 October 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Zibing</forename><surname>An</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Shengcheng</forename><surname>Mao</surname></persName>
+							<email>scmao@bjut.edu.cn</email>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Materials and Manufacturing</orgName>
+								<orgName type="laboratory">Lab of Microstructure and Property of Advanced Materials</orgName>
+								<orgName type="institution">Beijing University of Technology</orgName>
+								<address>
+									<postCode>100124</postCode>
+									<settlement>Beijing Key, Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yinong</forename><surname>Liu</surname></persName>
+							<email>yinong.liu@uwa.edu.au</email>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Materials and Manufacturing</orgName>
+								<orgName type="laboratory">Lab of Microstructure and Property of Advanced Materials</orgName>
+								<orgName type="institution">Beijing University of Technology</orgName>
+								<address>
+									<postCode>100124</postCode>
+									<settlement>Beijing Key, Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Mechanical Engineering</orgName>
+								<orgName type="institution">The University of Western Australia</orgName>
+								<address>
+									<postCode>6009</postCode>
+									<settlement>Perth</settlement>
+									<region>WA</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Li</forename><surname>Wang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Materials and Manufacturing</orgName>
+								<orgName type="laboratory">Lab of Microstructure and Property of Advanced Materials</orgName>
+								<orgName type="institution">Beijing University of Technology</orgName>
+								<address>
+									<postCode>100124</postCode>
+									<settlement>Beijing Key, Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hao</forename><surname>Zhou</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="laboratory">Nano and Heterogeneous Structural Materials Center</orgName>
+								<orgName type="institution">Nanjing University of Science and Technology</orgName>
+								<address>
+									<postCode>210094</postCode>
+									<settlement>Nanjing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bin</forename><surname>Gan</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Central Iron and Steel Research Institute</orgName>
+								<orgName type="institution">Beijing Key Laboratory of Advanced High Temperature Materials</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ze</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Materials and Manufacturing</orgName>
+								<orgName type="laboratory">Lab of Microstructure and Property of Advanced Materials</orgName>
+								<orgName type="institution">Beijing University of Technology</orgName>
+								<address>
+									<postCode>100124</postCode>
+									<settlement>Beijing Key, Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="laboratory">State Key Laboratory of Silicon Materials</orgName>
+								<orgName type="institution">Zhejiang University</orgName>
+								<address>
+									<postCode>310058</postCode>
+									<settlement>Hangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaodong</forename><surname>Han</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Faculty of Materials and Manufacturing</orgName>
+								<orgName type="laboratory">Lab of Microstructure and Property of Advanced Materials</orgName>
+								<orgName type="institution">Beijing University of Technology</orgName>
+								<address>
+									<postCode>100124</postCode>
+									<settlement>Beijing Key, Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<address>
+									<postCode>S1005-0302(20)31011-2</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A novel HfNbTaTiV high-entropy alloy of superior mechanical properties designed on the principle of maximum lattice distortion</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-10-15">15 October 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B77524DF9BF1766693792073ED4F79B3</idno>
+					<idno type="DOI">10.1016/j.jmst.2020.10.073</idno>
+					<note type="submission">Received Date: 2 August 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>High-entropy alloy</term>
+					<term>Solid solution strengthening</term>
+					<term>Strengthening mechanism</term>
+					<term>Mechanical properties</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This is a PDF file of an article that has undergone enhancements after acceptance, such as the addition of a cover page and metadata, and formatting for readability, but it is not yet the definitive version of record. This version will undergo additional copyediting, typesetting and review before it is published in its final form, but we are providing this version to give early visibility of the article. Please note that, during the production process, errors may be discovered which could affect the content, and all legal disclaimers that apply to the journal pertain.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>In the pursuit for higher strengths for metallic materials, a recent advance is the invention of the concept of high-entropy alloys (HEAs) <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>, which is a strategy of using a J o u r n a l P r e -p r o o f high number of principal elements to form a single phase solid solution. The fundamental principle for the strength of HEAs is solid solution strengthening, achieved by maximum ubiquitous local lattice distortions caused by having every individual atom to neighbor with different atoms in the lattice <ref type="bibr" target="#b2">[3]</ref>.</p><p>Since the invention of this novel concept in 2004, a vast number (over 2000) of HEAs have been created and reported. One subset of these HEAs is the body-centered-cubic (BCC) HEAs. Most BCC transition metal elements used for BCC HEAs have high melting temperatures, thus they are also often known as refractory HEAs (RHEAs). BCC HEAs generally have higher yield strengths compared to the face-centered-cubic (FCC) structured HEAs and the hexagonal-close-packed (HCP) structured HEAs <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>, because of several concurrent contributions, including the fewer effective slip systems than in the FCC structure and the higher Peierls-Nabarro stresses for moving dislocations than those in FCC and HCP structures <ref type="bibr" target="#b5">[6]</ref>. In addition, the common elements forming BCC HEAs appear to differ more in atomic size and cause more severe lattice distortions than those in FCC and HCP HEAs <ref type="bibr" target="#b6">[7]</ref>.</p><p>At the same time, BCC HEAs are also generally more brittle and have poorer malleability <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>.</p><p>Different approaches have been trialed to improve the ductility of BCC HEAs <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>. Transformation-induced plasticity (TRIP) has proven to be effective in reducing the brittleness of BCC HEAs. In these alloys stress-induced BCCHCP transformations may be introduced by lowering the content of some BCC phase stabilizing elements, such as Nb and Ta, and increasing those of HCP phase stabilizing elements, such as Ti, Zr and Hf <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>. Such transformations absorb local deformation owing to their crystallographic lattice distortion, thus to relax local stress concentrations within the lattice. This helps to suppress or mitigate early cracking and improve ductility. However, this approach usually upsets the equimolar composition of the HEAs and causes lowering of the yield strength by weakening J o u r n a l P r e -p r o o f the solid solution strengthening effect. In addition, the occurrence of a stress-induced transformation prior to dislocation plastic deformation also explicitly implies that the stress required for the transformation is lower than the critical stress required for dislocation plasticity. In this regard, the lowering of the apparent yield strength is intrinsic to this approach. For example, a stress-induced BCCHCP transformation was introduced to a TaHfZrTi alloy by lowering the Ta content to Ta 0.4 HfZrTi. As a result, the fracture strain (ductility) of Ta 0.4 HfZrTi increased from ~2.5% to ~27% but the yield strength decreased significantly from ~1.5 GPa (for yielding by dislocation plasticity) to ~0.4 GPa (for yielding by stress-induced transformation) <ref type="bibr" target="#b15">[16]</ref>.</p><p>Another approach is to design HEAs based on the principle of intrinsic characteristics of constituent elements. First-principles calculations <ref type="bibr" target="#b16">[17]</ref> indicate that group V (V, Nb, Ta) elements in the Periodic Table are intrinsically ductile. Crystals of these metals mechanically fail by shear via dislocation movement. In contrast, group VI (Cr, Mo, W) elements are intrinsically brittle and they fail predominantly by cleavage fracture. In addition, an empirical criterion based on the valence electron concentration (VEC) is also proposed for ductility of BCC alloys, i.e., an alloy is ductile when VEC ≤ 4.6 <ref type="bibr" target="#b17">[18]</ref>. Using this approach, many HEAs have been designed, with a single phase Hf 0.5 Nb 0.5 Ta 0.5 Ti 1.5 Zr HEA appearing to offer the best properties <ref type="bibr" target="#b17">[18]</ref>. This alloy exhibited a large tensile ductility of ~18.8% and a yield strength of 900 MPa. In comparison, some Mo and W containing BCC HEAs, which have higher VECs in the range of 4.6-5.5, show high yield strengths over ~1.2 GPa but limited compressive ductility of below ~9% <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b19">20]</ref>.</p><p>One further independent principle we can apply to further optimize the alloy design for higher strength and higher ductility is to increase the lattice friction for dislocation movement. Lattice friction describes the collective difficulty to move dislocations within a matrix, as expressed by the Peierls potential <ref type="bibr" target="#b20">[21]</ref>. It increases with increasing the magnitude J o u r n a l P r e -p r o o f of the lattice distortion of the matrix. In this regard, it is a measure of the effectiveness of solid solution strengthening. For the same quantitative composition, the lattice friction stress, or the Peierls potential landscape, of a matrix increases with increasing the atomic size differences among the constituent elements. Therefore, it is possible to achieve better combinations of strength and ductility by optimizing the contributions of all the three principles, i.e., the intrinsic ductility of elements, the VEC criterion, and maximization of atomic size differences among the constituent elements. This study explored the synergy among these three approaches to design BCC HEAs of concurrent high strength and high ductility.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental</head><p>An equiatomic HfNbTaTiV alloy and an equiatomic HfNbTaTiZr alloy were designed in this study. Button ingots of the alloys were fabricated from high purity elements (&gt;99.99 %) by means of vacuum arc melting in water-cooled copper crucibles in Ar atmosphere. The crystal structures of the as-cast alloys were analyzed by means of X-ray diffraction (XRD) using Cu-K α radiation. The microstructures of the alloys were examined using an optical microscope and a FEI Quanta 650F scanning electron microscope (SEM). The SEM is equipped with an energy-dispersive X-ray spectroscopy (EDS) capability for chemical analysis and an electron backscatter diffraction (EBSD) detector for crystallographic analysis. SEM samples were etched using an aqueous solution of HNO 3 :HF:H 2 O=1:3:7 in volume ratio. An aberration-corrected FEI Titan Themis G2-300KV transmission electron microscope (TEM) was used to analyze the microstructure and elemental distributions at the nanoscale.</p><p>Atomic probe tomography (APT) analysis was performed using CAMECA LEAP 4000X HR instrument. The needle-shaped specimens used for APT analysis were fabricated using a FEI focused ion beam (FIB) milling instrument. Mechanical testing was conducted in compression using an Instron 8860 instrument and a Gleeble 3350 testing machine, using J o u r n a l P r e -p r o o f cylindrical specimens of ϕ3 mm×4.5 mm and ϕ4 mm×6 mm in dimension, respectively. All compression tests were performed under an initial strain rate of 10 -3 /s. For each testing, three new samples were used to assure test reproducibility.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Alloy design</head><p>To design a BCC HEA, Vienna Ab initio Simulation Package (VASP) was used to select potential elements. It predicts that BCC HEAs can be formed by using Hf, Mo, Nb, Ta, Ti, V, W and Zr. Among them, Hf, Nb, Ta, Ti, V and Zr are intrinsically ductile elements <ref type="bibr" target="#b17">[18]</ref>. In this study, two alloys were designed using these elements, including a HfNbTaTiV (hereafter referred to as the V-alloy) equimolar alloy as the target design based on the criteria explained above, and a HfNbTaTiZr (hereafter referred to as the Zr-alloy) equimolar alloy, which is the most studied BCC HEA by many researchers <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref>, as a benchmark alloy for comparison. To achieve simultaneously high strength and high ductility, the HfNbTaTiV alloy was designed in three steps, i.e., <ref type="bibr" target="#b0">(1)</ref> to ensure a single-phase solid solution (SPSS) structure by element selection based on thermodynamic principles, (2) to ensure maximum lattice distortion for strong solid solution strengthening effect by maximizing atomic size difference, and (3) to ensure sufficiently low valence electron concentration (VEC) for ductility <ref type="bibr" target="#b17">[18]</ref>.</p><p>The calculations for alloy design were conducted using the CALPHAD (Calculation of Phase Diagrams) method with the TCNI8 thermodynamic database supplied by ThermoCalc™. The thermodynamic parameters concerned are the entropy of mixing (∆𝑆 mix ) and enthalpy of mixing (∆𝐻 mix ) of the system, which can be computed using Eq. ( <ref type="formula">1</ref>). The level of lattice distortion can be evaluated by an atomic radius difference parameter 𝛿 r of all elements included, which can be computed using Eq. ( <ref type="formula" target="#formula_0">2</ref>). The VEC of a solid solution can be computed using Eq. (3) <ref type="bibr" target="#b29">[30,</ref><ref type="bibr" target="#b30">31]</ref>. (1)</p><formula xml:id="formula_0">{ 𝛿 𝑟 = √ ∑ 𝑐 𝑖 (1 - 𝑟 𝑖 𝑟̅ ) 2 𝑛 𝑖=1 𝑟̅ = ∑ 𝑐 𝑖 𝑛 𝑖=1 𝑟 𝑖<label>(2)</label></formula><formula xml:id="formula_1">VEC = ∑ 𝑐 𝑖 (VEC) 𝑖 𝑛 𝑖=1<label>(3)</label></formula><p>where 𝑐 𝑖 and 𝑐 𝑗 are the mole fractions of constituents i and j, ∆𝐻 𝑖𝑗 is the enthalpy of mixing between constituents 𝑖 and 𝑗, 𝑅 is the gas content, 𝑟 𝑖 is the atomic radius of constituent i, 𝑟 is the average radius of the elements, (VEC) 𝑖 is the valence electron concentration of element i. Table <ref type="table" target="#tab_0">1</ref> presents the relevant basic data of all the elements used.</p><p>To ensure a SPSS structure, some thermodynamic criteria based on empirical knowledge have been applied, i.e., -15 ≤ ∆𝐻 mix ≤ 5 kJ/mol, 11 J/(K mol) ≤ ∆𝑆 mix ≤ 19 J/(K mol), and 𝛿 r ≤ 6.6% <ref type="bibr" target="#b31">[32]</ref>. In addition, it is also suggested that BCC structure is formed when VEC &lt; 6.87, whereas FCC structure is more stable when VEC &gt; 8, and that the BCC structure is ductile when VEC  4.6 <ref type="bibr" target="#b17">[18]</ref>. All the parameters calculated using Eqs. ( <ref type="formula">1</ref>), ( <ref type="formula" target="#formula_0">2</ref>) and (3) are listed in Table <ref type="table" target="#tab_1">2</ref>. They all fall within the required ranges for a SPSS in BCC structure.</p><p>Moreover, the atomic size difference (𝛿 r ) parameter is 𝛿 r = 5.97 % for the V-alloy, compared to 𝛿 r = 5.20 % for the Zr-alloy. The V-alloy also has a valence electron concentration of VEC = 4.6, which satisfies the empirical criterion of ductility for BCC alloys. Based on these calculations, the V-alloy has the promise to be strong and ductile simultaneously.  <ref type="table" target="#tab_2">3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Microstructure and phase constitution of the as -cast HEA</head><p>The evolution of the equilibrium phase mole fractions upon cooling for the HfNbTaTiV alloy was calculated, as shown in Fig. <ref type="figure" target="#fig_2">2</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4(c) shows elemental distribution maps determined by 3D atomic probe tomography (APT)</head><p>technique. A grain boundary runs in the lower part of the region, which can be identified by the segregations of Si and B interstitial impurities (results not shown here). From Fig. <ref type="figure" target="#fig_3">4</ref>(c), we can see that there was no segregation of any of the five elements at this scale and the grain boundary is totally unrecognizable in these maps, confirming the perfect high entropy mixing of them.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Mechanical properties</head><p>Fig. <ref type="figure">5</ref> shows the mechanical behavior of the two alloys at different temperatures. radiation and are used for the nuclear reactor applications, including Ti-6Al-4V <ref type="bibr" target="#b33">[34]</ref>, V-4Cr-4Ti <ref type="bibr" target="#b34">[35]</ref>, an oxide dispersion strengthened steel (ODS-steel) <ref type="bibr" target="#b35">[36]</ref>, and a martensitic steel (CLAM) <ref type="bibr" target="#b36">[37]</ref>. Some of the alloys are refractory HEAs similar to the V-alloy and Zr-alloy and are selected for comparison based on the criterion of having adequate ductility of &gt;10% at room temperature, including HfNbTiVZrSi 0.5 <ref type="bibr" target="#b37">[38]</ref>, Al 0.5 CrNbTi 2 V 0.5 <ref type="bibr" target="#b38">[39]</ref>, and V 2 TiNbZr <ref type="bibr" target="#b39">[40]</ref>.</p><p>In comparison with the refractory HEAs (the solid curves), the V-alloy has the slowest rate of yield strength reduction with increasing temperatures. In comparison with the low activation alloys for nuclear reactor applications (the dash curves), the V-alloy has the highest strength, indicating the V-alloy is very promising used in nuclear reactors and ultra-supercritical power generation.</p><p>J o u r n a l P r e -p r o o f</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Lattice distortion and solid state strengthening</head><p>As presented above, the as-cast HfNbTaTiV alloy is in single phase and contains no second phase inclusions or precipitates for strengthening. To further identify the dominant strengthening mechanism against yielding, the microstructure of the alloy after deformation was also examined. Fig. <ref type="figure">6</ref> shows the X-ray diffraction pattern and a TEM micrograph of the alloy after deformation to 45% compression. It is evident that the alloy remained in single BCC phase without any phased transformation (Fig. <ref type="figure">6(a)</ref>). TEM examination also confirmed that there was no deformation twins within the structure. Dislocation slip dominates the severe deformation process (Fig. <ref type="figure">6(b)</ref>). Hence, the superior mechanical performance of the HfNbTaTiV alloy is attributed to the high solid solution strengthening caused by high lattice distortions in its matrix, as per the design strategy. To verify this hypothesis, the lattice distortions in the V-alloy and Zr-alloy were analyzed, as presented in Fig. <ref type="figure" target="#fig_5">7</ref>. The V-alloy showed a larger interatomic distance fluctuation of 0.2494±0.0116 nm, comparing to 0.2438±0.0058 nm for the Zr-alloy. The large variation of the interatomic distance reflects severe lattice distortion, which is not surprising given that this alloy contains elements of relatively larger differences in atomic radius (Table <ref type="table" target="#tab_1">2</ref>). Fig. <ref type="figure" target="#fig_5">7</ref>(e) and (f) shows HAADF-STEM images of the two alloys at a lower magnification, and the corresponding mappings of the lattice strains along [1 ̅ 21 ̅ ] determined by using Peak Pairs Algorithm (PPA), as shown in Fig. <ref type="figure" target="#fig_5">7</ref>(g) and (h). It is evident that the V-alloy had a less homogeneous J o u r n a l P r e -p r o o f distribution of lattice stains than the Zr-alloy. It is easy to understand that large lattice distortions impose more friction resistance to dislocation movement <ref type="bibr" target="#b54">[56]</ref><ref type="bibr" target="#b55">[57]</ref><ref type="bibr" target="#b56">[58]</ref>.</p><p>We also calculated the solid solution strengthening effect in the V-alloy. It is estimated based on the elastic interactions between the stress fields of local lattice distortions and dislocations <ref type="bibr" target="#b57">[59]</ref><ref type="bibr" target="#b58">[60]</ref>. The interaction force (F) can be calculated as:</p><formula xml:id="formula_2">𝐹 = 𝐺 𝑏 2 𝑓 (<label>4</label></formula><formula xml:id="formula_3">)</formula><p>where G is the shear modulus of the alloy, b is the Burgers vector and f is the mismatch parameter, which originates from atomic size misfit and modulus misfit between the solute and solvent atoms. In a HEA, every element can be considered a solute in the rest of the alloy. Therefore, the mismatch parameter needs to be considered for every element against every other element. In a solid solution, the increment of the yield strength caused by the solid solution strengthening effect, ∆𝜎, can be expressed as <ref type="bibr" target="#b59">[61]</ref>:</p><formula xml:id="formula_4">∆σ𝑏 2 = 𝑍𝐹 4 3 ⁄ 𝑐 𝑖 2 3 ⁄ 𝐸 𝑙 -1 3 ⁄ (<label>5</label></formula><formula xml:id="formula_5">)</formula><p>where Z is a dimensionless material constant, 𝑐 𝑖 is the molar concentration of the solute element i, and 𝐸 𝑙 is the dislocation line tension, which is usually defined as 𝐸 𝑙 = 𝐺𝑏 2 /2.</p><p>Substituting Eq. ( <ref type="formula" target="#formula_2">4</ref>) into Eq. ( <ref type="formula" target="#formula_4">5</ref>), the effect of solid solution strengthening caused by solute element i of concentration 𝑐 𝑖 is expressed as:</p><formula xml:id="formula_6">∆𝜎 𝑖 = 𝐴𝐺 𝑓 𝑖 4 3 ⁄ 𝑐 𝑖 2 3 ⁄ (<label>6</label></formula><formula xml:id="formula_7">)</formula><p>where A is a fitting constant of the value of 0.04 <ref type="bibr" target="#b32">[33]</ref>. The shear modulus, G, was determined to be 56 GPa for the HfNbTaTiV alloy by means of nanoindentation. The misfit parameter for the HEA, 𝑓 𝑖 , is computed as <ref type="bibr" target="#b32">[33]</ref>:</p><p>J o u r n a l P r e -p r o o f <ref type="bibr" target="#b6">(7)</ref> where 𝛿 𝐺 𝑖 is the shear modulus mismatch, 𝛿 𝑟 𝑖 is the atomic size mismatch between the solute and the solvent, and 𝑎 is a constant depending on the type of the mobile dislocations, which is 9 for a mixture of edge and screw dislocations <ref type="bibr" target="#b32">[33]</ref>.</p><p>For the single phase HEA with BCC structure, crystal lattice has 8 nearest-neighbor atoms, thus forming a 9-atom cluster. In this case, the atomic size and modulus mismatches are the function between one element and all its nearest neighbors. 𝛿 𝐺 𝑖 and 𝛿 𝑟 𝑖 can be respectively determined by <ref type="bibr" target="#b21">[22]</ref>:</p><formula xml:id="formula_8">𝛿 𝐺 𝑖 = 9 8 ∑ 𝑐 𝑗𝛿 𝐺 𝑖𝑗<label>(8)</label></formula><p>𝛿 𝑟 𝑖 = </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>8(b)</head><p>. Thus, the V-alloy reach larger misfit parameter, 𝑓 𝑖 , as shown in Fig. <ref type="figure">8(c</ref>).</p><p>The total solid solution strengthening (∆σ SSS ) effect of the alloy is obtained by summation over ∆𝜎 𝑖 for every alloying element in the HEA, i.e.:</p><formula xml:id="formula_9">∆σ SSS = (∑ ∆𝜎 𝑖 3 2 ⁄ ) 2 3 ⁄<label>(10)</label></formula><p>The calculated yield strength of the solid solution strengthening alloy can be computed J o u r n a l P r e -p r o o f as:</p><p>𝜎 𝑦 cal = 𝜎 𝑦 mix + ∆σ 𝑆𝑆𝑆 <ref type="bibr" target="#b10">(11)</ref> where 𝜎 𝑦 mix is the nominal yield strength of the alloy, which can be estimated using the rule of mixing, i.e. 𝜎 𝑦 mix = ∑ 𝑐 𝑖 (𝜎 𝑦 ) 𝑖 𝑛 𝑖=1</p><p>, where (𝜎 𝑦 ) 𝑖 is the yield strength of constituent elements as a pure metal. Basic information of the elements used is listed in Table <ref type="table" target="#tab_0">1</ref>. The 𝜎 𝑦 mix values of the V-alloy and the Zr-alloy are calculated to be 266 MPa and 260 MPa (Fig.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>8(d))</head><p>, respectively. The solid solution strengthening effect ∆σ SSS is estimated to be 1094 MPa using Eq. ( <ref type="formula" target="#formula_9">10</ref>) for the V-alloy. Therefore, the yield strength of the HfNbTaTiV HEA is estimated to be 𝜎 0.2 cal = 1360 MPa, which is in close agreement with the experimentally measured value of 1350 MPa (Fig. <ref type="figure">5</ref>(a)). By contrast, the solid solution strengthening effect ∆σ SSS is estimated to be 709 MPa (Fig. <ref type="figure">8(d</ref>)) for the Zr-alloy, which is lower than that for the V-alloy. The yield strength of the HfNbTaTiZr HEA is estimated to be 𝜎 0.2 cal = 969 MPa, which is also consistent with the experiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p>(1) A high-strength, high-ductility HfNbTaTiV RHEA was designed by a synergistic approach based on the principles of intrinsic element ductility, maximum atomic size difference for solid solution strengthening, and the valence electron concentration criterion for ductility.</p><p>(2) The HfNbTaTiV alloy exhibited a high compressive yield strength of 1350 MPa and a compressive ductility of &gt; 45%. It also retained a high yield strength of 720 MPa and ductility of &gt; 35% at 700 C. Such a combination of properties is superior to most known BCC HEAs. The alloy had a similar ductility but a strength 50% higher than the HfNbTaTiZr control alloy.</p><p>J o u r n a l P r e -p r o o f    </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>J o u r</head><label></label><figDesc>n a l P r e -p r o o f { ∆𝐻 mix = 4 ∑ 𝑐 𝑖 𝑐 𝑗 ∆𝐻 𝑖𝑗 𝑖&lt;𝑗 ∆𝑆 mix = -𝑅 ∑ 𝑐 𝑖 𝑙𝑛𝑐 𝑖 𝑛 𝑖=1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1</head><label>1</label><figDesc>Fig.1shows the microstructure of the HfNbTaTiV alloy in the as-cast state. The sample</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 (</head><label>2</label><figDesc>Fig.2(b) is an X-ray diffraction pattern of the as-cast V-alloy at room temperature. All</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4</head><label>4</label><figDesc>Fig.4presents a high-resolution TEM and nanoscale chemical analysis of the alloy. Fig.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 (Fig. 5 (</head><label>55</label><figDesc>Fig.5shows the mechanical behavior of the two alloys at different temperatures. Fig.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 7 (</head><label>7</label><figDesc>a) and (b) shows the HAADF-STEM images of V-alloy and Zr-alloy viewed from the [111] direction, respectively. In HAADF images, the brightness of a lattice spot is positively related to the mean atomic number Z of the column of atoms, in a function of Z 2 . The random distribution of the contrast indicates a random distribution of the five constituent elements. Fig. 7(c) and (d) shows the absolute interatomic distances along [1 ̅ 21 ̅ ] in the two HAADF-STEM images.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>9 8∑</head><label>9</label><figDesc>𝑐 𝑗𝛿 𝑟 𝑖𝑗<ref type="bibr" target="#b8">(9)</ref> where 𝑐 𝑗 is the molar concentration of the jth element (as the solvent) in the alloy, 𝛿 𝐺 𝑖𝑗 = 2(𝐺 𝑖 -𝐺 𝑗 )/(𝐺 𝑖 + 𝐺 𝑗 ), and 𝛿 𝑟 𝑖𝑗 = 2(𝑟 𝑖 -𝑟 𝑗 )/(𝑟 𝑖 + 𝑟 𝑗 ). The calculated results of 𝛿 𝐺 𝑖 , 𝛿 𝑟 𝑖 and 𝑓 𝑖 are shown in Fig.8(a)-(c). From Fig.8(a), we can see that the V-alloy has the larger atomic size mismatch (|𝛿 𝑟 Hf | = 0.11, |𝛿 𝑟 V | = 0.10) than the Zr-alloy, as per our design strategy. The V-alloy and Zr-alloy have similar shear modulus mismatch, as shown in Fig.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 1 .Fig. 2 .Fig. 3 .</head><label>123</label><figDesc>Fig. 1. Microstructure of the V-alloy. (a) SEM secondary electron image of the as-cast V-</figDesc><graphic coords="21,72.00,72.00,386.40,126.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Microstructure and chemical analysis of the V-alloy. (a) A bright field TEM image and</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 5 .Fig. 6 .Fig. 7 .</head><label>567</label><figDesc>Fig. 5. Mechanical properties of HfNbTaTiV and HfNbTaTiZr HEAs. (a) Compressive stress-</figDesc><graphic coords="23,72.00,209.60,388.80,307.20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="2,72.00,577.60,350.58,164.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="22,72.00,72.00,287.20,236.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="22,72.00,460.80,383.20,284.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="24,72.00,324.80,317.60,389.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="25,72.00,239.20,313.60,246.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Atomic radius (R), valence electron concentration (VEC), melting point (T m ), and shear modulus (G) of the constituent elements of HfNbTaTiV and HfNbTaTiZr alloys.</figDesc><table><row><cell>Element</cell><cell>Ti</cell><cell>Zr</cell><cell>Hf</cell><cell>V</cell><cell>Nb</cell><cell>Ta</cell></row><row><cell>R (pm)</cell><cell>145</cell><cell>160</cell><cell>159</cell><cell>132</cell><cell>143</cell><cell>143</cell></row><row><cell>VEC</cell><cell>4</cell><cell>4</cell><cell>4</cell><cell>5</cell><cell>5</cell><cell>5</cell></row><row><cell>T m (K)</cell><cell>1933</cell><cell>2125</cell><cell>2500</cell><cell>2193</cell><cell>2741</cell><cell>3269</cell></row><row><cell>G (GPa)</cell><cell>45.6</cell><cell>34.8</cell><cell>56</cell><cell>46.6</cell><cell>37.5</cell><cell>69.2</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Calculated enthalpy of mixing (∆𝐻 mix ), entropy of mixing (∆𝑆 mix ), atomic size difference parameter (𝛿 r ), and valence electron concentration (VEC) of HfNbTaTiZr and HfNbTaTiV alloys.Alloys∆𝐻 mix (kJ/mol) ∆𝑆 mix (J/(K•mol)) 𝛿 r (%) VEC</figDesc><table><row><cell>HfNbTaTiZr</cell><cell>2.72</cell><cell>13.38</cell><cell>5.20</cell><cell>4.4</cell></row><row><cell>HfNbTaTiV</cell><cell>0.64</cell><cell>13.38</cell><cell>5.97</cell><cell>4.6</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Composition of the HfNbTaTiV alloy measured by EDS.</figDesc><table><row><cell>Elements (at.%)</cell><cell>Hf</cell><cell>Nb</cell><cell>Ta</cell><cell>Ti</cell><cell>V</cell></row><row><cell>Nominal</cell><cell>20.0</cell><cell>20.0</cell><cell>20.0</cell><cell>20.0</cell><cell>20.0</cell></row><row><cell>Average</cell><cell>19.9</cell><cell>19.8</cell><cell>17.5</cell><cell>21.2</cell><cell>21.7</cell></row><row><cell>Dendrite</cell><cell>17.1</cell><cell>23.1</cell><cell>19.1</cell><cell>21.0</cell><cell>20.0</cell></row><row><cell>Interdendrite</cell><cell>23.6</cell><cell>16.6</cell><cell>8.4</cell><cell>25.1</cell><cell>26.3</cell></row></table><note><p>J o u r n a l P r e -p r o o f</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>(3) The high yield strength of the HfNbTaTiV HEA is attributed to the high solid solution strengthening effect caused by the large lattice distortion. The solid solution strengthening effect in the HfNbTaTiV is estimated to be 1094 MPa.</p></div>
+<div><head>Acknowledgments</head><p>This work was financially supported by the <rs type="funder">Basic Science Center Program for Multiphase Evolution in Hyper-gravity of the National Natural Science Foundation of China</rs> (No. <rs type="grantNumber">51988101</rs>), the <rs type="funder">National Natural Science Foundation of China</rs> (Nos. <rs type="grantNumber">52071003</rs>, <rs type="grantNumber">91860202</rs>, <rs type="grantNumber">11604006</rs>), the <rs type="funder">Beijing Municipal Education Commission Project</rs> (Nos. <rs type="grantNumber">PXM2020-014204-000021</rs> and <rs type="grantNumber">PXM2019-014204-500032</rs>), the <rs type="funder">Beijing Outstanding Young Scientists Projects</rs> (No. <rs type="grantNumber">BJJWZYJH01201910005018</rs>), the <rs type="funder">Beijing Natural Science Foundation</rs> (No. <rs type="grantNumber">Z180014</rs>), the "111" project (No. <rs type="grantNumber">DB18015</rs>). <rs type="person">Yinong Liu</rs>'s contribution to this work is supported by the <rs type="funder">Australian Research Council</rs> (No. <rs type="grantNumber">DP190102990</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Xrbwenb">
+					<idno type="grant-number">51988101</idno>
+				</org>
+				<org type="funding" xml:id="_UYdQXh4">
+					<idno type="grant-number">52071003</idno>
+				</org>
+				<org type="funding" xml:id="_n5GVeWf">
+					<idno type="grant-number">91860202</idno>
+				</org>
+				<org type="funding" xml:id="_2eyCfVh">
+					<idno type="grant-number">11604006</idno>
+				</org>
+				<org type="funding" xml:id="_jPTHAx3">
+					<idno type="grant-number">PXM2020-014204-000021</idno>
+				</org>
+				<org type="funding" xml:id="_JEZQNaT">
+					<idno type="grant-number">PXM2019-014204-500032</idno>
+				</org>
+				<org type="funding" xml:id="_JaWabwW">
+					<idno type="grant-number">BJJWZYJH01201910005018</idno>
+				</org>
+				<org type="funding" xml:id="_dUmYkyg">
+					<idno type="grant-number">Z180014</idno>
+				</org>
+				<org type="funding" xml:id="_HPrVSqR">
+					<idno type="grant-number">DB18015</idno>
+				</org>
+				<org type="funding" xml:id="_uXFnjR7">
+					<idno type="grant-number">DP190102990</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of interests</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.  </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J B</forename><surname>Vincent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="issue">377</biblScope>
+			<biblScope unit="page" from="213" to="218" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="299" to="303" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">3563</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="87" to="94" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">22937</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Egami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">183</biblScope>
+			<biblScope unit="page" from="172" to="181" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="76" to="83" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pilchak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="498" to="511" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">674</biblScope>
+			<biblScope unit="page" from="203" to="211" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzinié</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bourgon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Prima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="110" to="116" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Si</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Hui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="277" to="280" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="page" from="200" to="203" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niinomi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Akahori</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">384</biblScope>
+			<biblScope unit="page" from="92" to="101" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hinoshita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Morinaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="477" to="480" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1701678</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Chrzan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page">115503</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sheikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shafeie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ahlström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Persson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Veselý</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zýka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Klement</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. App. Phys</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="164902" to="164906" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C. Mater. Biol. Appl</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="80" to="89" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Todai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsugaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sekita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="65" to="68" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Sohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kwiatkowski Da Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ikeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kormann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ponge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neugebauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">1807142</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page" from="6043" to="6048" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feuerbacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heidelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Mag</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="1221" to="1232" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="4062" to="4074" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Semiatin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">649</biblScope>
+			<biblScope unit="page" from="1110" to="1123" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Couque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heczel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tingaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzinié</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gubicza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Charact</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="106" to="113" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Djemia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Brocq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tingaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzinié</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chauveau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">654</biblScope>
+			<biblScope unit="page" from="30" to="38" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Tseng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">795</biblScope>
+			<biblScope unit="page" from="19" to="26" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzinié</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hocini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="131" to="141" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="page">1907226</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="534" to="538" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mrs Commun</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="57" to="62" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">696</biblScope>
+			<biblScope unit="page" from="1139" to="1150" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salishchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Galeyev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Maekawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Trans</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<date type="published" when="2005">2005. 2020-2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Loomis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Tsai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Nucl. Mater</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="233" to="237" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Auger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Castro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leguey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Monge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muñoz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pareja</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Nucl. Mater</title>
+		<imprint>
+			<biblScope unit="volume">442</biblScope>
+			<biblScope unit="page" from="142" to="S147" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Phys. Rev</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="151" to="154" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Forum</title>
+		<imprint>
+			<biblScope unit="volume">849</biblScope>
+			<biblScope unit="page" from="76" to="84" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">565</biblScope>
+			<biblScope unit="page" from="51" to="62" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Panina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Zherebtsov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page" from="162" to="164" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<title level="m">Procedia Eng</title>
+		<meeting>edia Eng</meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="292" to="298" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">X</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">X</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Forum</title>
+		<imprint>
+			<biblScope unit="volume">898</biblScope>
+			<biblScope unit="page" from="638" to="642" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Skibin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">652</biblScope>
+			<biblScope unit="page" from="266" to="280" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">704</biblScope>
+			<biblScope unit="page" from="82" to="90" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="74" to="77" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Eng. Perform</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="3657" to="3665" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">529</biblScope>
+			<biblScope unit="page" from="311" to="320" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pilchak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Semiatin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="2876" to="2892" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">660</biblScope>
+			<biblScope unit="page" from="197" to="203" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">694</biblScope>
+			<biblScope unit="page" from="869" to="876" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steurer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="87" to="97" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Luan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">712</biblScope>
+			<biblScope unit="page" from="380" to="385" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="153" to="157" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Akdim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Antillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Parthasarathy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page" from="222" to="236" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Komarasamy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1259" to="1263" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Komarasamy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Shukla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Brennan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mishra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">736</biblScope>
+			<biblScope unit="page" from="383" to="391" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Labusch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Status Sol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="659" to="669" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Fleischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="203" to="209" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Gypen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deruyttere</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1028" to="1033" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

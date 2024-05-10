@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microstructure and mechanical properties of NbZrTi and NbHfZrTi alloys</title>
+				<funder ref="#_xPzfNzb">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_qTz44BD">
+					<orgName type="full">National Basic Research Program of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yu-Min</forename><surname>Hu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xiao-Dong</forename><surname>Liu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Na-Na</forename><surname>Guo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Liang</forename><surname>Wang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yan-Qing</forename><surname>Su</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jing-Jie</forename><surname>Guo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Y.-M</forename><surname>Hu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">X.-D</forename><surname>Liu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">N.-N</forename><surname>Guo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Y.-Q</forename><surname>Su</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">J.-J</forename><surname>Guo</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">Harbin Medical University Cancer Hospital</orgName>
+								<address>
+									<postCode>150001</postCode>
+									<settlement>Harbin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="laboratory">National Key Laboratory for Precision Hot Processing of Metals</orgName>
+								<orgName type="institution">Harbin Institute of Technology</orgName>
+								<address>
+									<postCode>150001</postCode>
+									<settlement>Harbin</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microstructure and mechanical properties of NbZrTi and NbHfZrTi alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FB175708F9E80E841F90925F61E2E965</idno>
+					<idno type="DOI">10.1007/s12598-019-01310-6</idno>
+					<note type="submission">Received: 14 March 2019 / Revised: 5 June 2019 / Accepted: 25 June 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Phase</term>
+					<term>Microstructure</term>
+					<term>Mechanical properties</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Two medium-entropy alloys, NbZrTi and NbHfZrTi, were prepared by arc melting. Both NbZrTi and NbHfZrTi alloys are composed of simple body-centered cubic (bcc) solid solution phase and exhibit dendritic structure. After being homogenized, both NbZrTi and NbHfZrTi alloys are still composed of the single bcc solid solution phase, but the microstructure of the two alloys transforms from the dendritic structure into the polycrystalline structure. Two alloys display significantly workhardening effect during compression at room temperature and show relatively good deformation plasticity during compressive deformation at room temperature. For NbZrTi and NbHfZrTi alloys, the dynamic recrystallized grains form along the boundary during compression at the temperatures of 1073 and 1273 K.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Since 2004, new alloy systems called high-entropy alloys have attracted great attentions due to their excellent mechanical properties such as high strength, high hardness, superior resistance to temper softening, wear, oxidation and corrosion, and good physical properties according to the chemical compositions and the preparation procedures <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref>. In a broad sense, high-entropy alloys are defined to those alloys containing at least five principal elements, each of them has the content between 5 at% and 35 at% <ref type="bibr" target="#b8">[9]</ref>. The high mixing entropy (DS conf ) is deemed as one dominating factor of stabilizing the disordered solid solution phases and preventing the formation of the complicated intermetallic phases for high-entropy alloys <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b10">[10]</ref><ref type="bibr" target="#b11">[11]</ref><ref type="bibr" target="#b12">[12]</ref>. For one multi-principle component alloy at its liquid state or regular solid solution state, the mixing entropy (DS conf ) can be calculated using Eq. (1),</p><formula xml:id="formula_0">S conf ¼ ÀR X n i¼1 c i ln c i<label>ð1Þ</label></formula><p>where R is the gas constant, n is the number of components, and c i is the content of i element. Based on the values of DS conf for alloys at their liquid state or random state, the multi-principle element alloy systems are divided into three classes of high-entropy alloys, medium-entropy alloys and low-entropy alloys <ref type="bibr" target="#b13">[13]</ref>. The values of DS conf are 1.5R and 1R which recommended as the borderline among highentropy alloys, medium-entropy alloys and low-entropy alloys. According to the classification, most of the traditional alloys based on one or two principle elements belong to the low-entropy alloys. Alloys with three or four principle elements are medium-entropy alloys, and the alloys containing at least five principle elements are high-entropy alloys.</p><p>An enormous amount of knowledge has been known well about the low-entropy alloys. In the last decade, more and more institutions and researchers are conducting the research on high-entropy alloys and have made considerable headway <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b14">[14]</ref><ref type="bibr" target="#b15">[15]</ref><ref type="bibr" target="#b16">[16]</ref><ref type="bibr" target="#b17">[17]</ref>. Nevertheless, research on medium-entropy alloys is very few. In studies on high-entropy alloys, some equiatomic ternary or quaternary alloys were reported such as WNbMoTa, CoFeNi, CrFeCoNi and so on <ref type="bibr" target="#b18">[18]</ref><ref type="bibr" target="#b19">[19]</ref><ref type="bibr" target="#b20">[20]</ref><ref type="bibr" target="#b21">[21]</ref><ref type="bibr" target="#b22">[22]</ref><ref type="bibr" target="#b23">[23]</ref><ref type="bibr" target="#b24">[24]</ref>. From the view of the classification of the alloy systems, these alloys are essentially medium-entropy alloys. These studies show that medium-entropy alloys can also form simple phases and exhibit excellent properties. For example, WNbMoTa alloy forms a single body-centered cubic (bcc) phase and its yield strength is still up to 405 MPa at 1873 K <ref type="bibr" target="#b25">[25]</ref>. CoFeNi and CrFeCoNi alloys form a single face-centered cubic (fcc) phase <ref type="bibr" target="#b18">[18,</ref><ref type="bibr" target="#b26">26]</ref>. Therefore, more research on medium-entropy alloys is required and has important significance for enriching and developing new alloy systems.</p><p>In this letter, two medium-entropy alloys, equiatomic ternary NbZrTi alloy and equiatomic quaternary NbHfZrTi alloy were prepared by arc melting. Two medium-entropy alloys form the simple bcc disordered solid solution phases. The phase stability, compressive properties and hardness were investigated and discussed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Experimental</head><p>The equiatomic ternary NbZrTi alloy and quaternary NbHfZrTi medium-entropy alloys were prepared by arc melting. The ingots were melted six times and flipped each time to improve the chemical homogeneity in a watercooled copper crucible. The ingots are about 35 mm in diameter and 15 mm in height. Figure <ref type="figure" target="#fig_0">1</ref> shows the schematic diagram of the solidification process for the button ingots. The arrows indicate the solidification direction. Zone C is the solidification shell with the highest cooling rate since that is directly contact with the water-cooled crucible. The microstructure is usually fine grains. Zone B solidifies lastly. There may be some solidification defects such as shrinkages. The microstructure for the middle Zone A is uniform. So in the next analysis, all samples analyzed and tested were cut from Zone A of the ingots.</p><p>The as-cast samples were sealed in a vacuum quartz tube and were homogenized at 1373 K for 10 h, then subsequently furnace-cooled to room temperature. The crystal structure was investigated by Philip X'Pert X-ray diffractometer (XRD) with the 2h scan ranging from 20°to 100°at a speed of 5 (°)Ámin -1 . The microstructure was investigated by the Quanta 200F scanning electron microscope (SEM) equipped with electron back-scattered diffraction (EBSD) detector. Thin foils were prepared by mechanical thinning and finally twin-jet electro-polished for observation under a FEI Tecnai F30 transmission electron microscope (TEM). The chemical compositions were measured by the energy-dispersive spectroscopy (EDS). The hardness tests were carried out using Vickers hardness tester. The load is 9.8 N, and the dwell time is 20 s. The room temperature tensile testing and compressive testing were evaluated using an Instron 5569 testing machine, and the elevated temperature compressive properties were evaluated using the dynamic thermal simulation testing machine (Gleeble-1500D). The strain rate is 1 9 10 -3 s -1 . The microstructure after deformation at elevated temperatures was observed under the Olympus-GX71 optical microscope (OM). The compressive testing specimens were cylindrical with size of U4 mm 9 6 mm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Constituent phase</head><p>XRD patterns of the as-cast and as-homogenized NbZrTi and NbHfZrTi alloys are given in Fig. <ref type="figure" target="#fig_1">2</ref>. As-cast NbZrTi alloy is composed of a single bcc phase. According to the angle of the strongest diffraction peak, the lattice parameters of the single bcc phase is about 335.6 pm. After being homogenized at 1373 K for 10 h, the NbZrTi alloy is still composed of a bcc phase and the lattice parameter is 340.5 pm. As-cast NbHfZrTi alloy forms a single bcc phase and still remains the single bcc phase after being homogenized at 1373 K for 10 h. This result is consistent with that in Ref. <ref type="bibr" target="#b27">[27]</ref>. The lattice parameters of as-cast and as-homogenized bcc phases are 340.3 and 344.0 pm, respectively. Furthermore, some refractory high-entropy alloys are mainly composed of a disordered bcc phase after adding other refractory elements into NbHfZrTi alloy. For example, NbHfZrTiTa, NbHfZrTiMo and NbHfZrTiMoTa alloys form a single disordered bcc phase <ref type="bibr" target="#b28">[28,</ref><ref type="bibr" target="#b29">29]</ref>. NbHfZrTiV and NbHfZrTiCr alloys mainly have the disordered bcc phase despite containing small amount of intermetallic compounds <ref type="bibr" target="#b30">[30]</ref>. Therefore, the NbHfZrTi alloy is a good matrix alloy for developing other refractory high-entropy alloys with simple phases.</p><p>After being homogenized, both alloys are composed of a single bcc phase. It can be concluded that the single bcc phase is very stable for these two alloys. The characteristics of components are listed in Tables <ref type="table" target="#tab_0">1</ref> and<ref type="table" target="#tab_1">2</ref>. According to Hume-Rothery rules on substitutional solid solutions, the formation of single and stable phase is rational due to the following reasons: (1) the atomic radius difference of these four elements is less than 15%; (2) all elements have the same bcc crystal structure at least at elevated temperature;</p><p>(3) their valence states are similar; (4) all elements have similar electronegativity. All binary-alloy systems of four elements are isomorphous phase diagrams at elevated temperature, and the mixing enthalpy of binary-alloy systems is close to zero. The above characteristics are conductive to promoting the formation of a bcc disordered solid solution phase. This result also confirms that the high mixing entropy effect does not play the determinant role in the formation of simple phases in multi-principle component alloys. The suitable compositions of medium-entropy alloys with simple phases might be easily obtained.</p><p>According to the intensity of diffraction peaks, there appears the obvious preferred orientation for the two ascast alloys. The as-cast NbZrTi alloy adopts the (110) preferred orientation, and the as-cast NbHfZrTi alloy adopts the (200) preferred orientation, while the difference of diffraction intensity decreases after being homogenized, which shows that the homogenization treatment eliminates the obvious preferred orientation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Microstructure</head><p>Backscattered electron images of the cast NbZrTi and NbHfZrTi alloys before etching are shown in Fig. <ref type="figure" target="#fig_2">3a,</ref><ref type="figure">b</ref>. The actual chemical compositions of both alloys are listed in Table <ref type="table" target="#tab_2">3</ref>. Both alloys present no any obvious morphology feature, indicating that the chemical compositions are distributed homogeneously. EDS analysis shows that the actual chemical compositions are very close to the nominal compositions. After etching, the microstructure of as-cast alloys exhibits a dendritic structure, as shown in Fig. <ref type="figure" target="#fig_2">3c,</ref><ref type="figure">d</ref>. Figure <ref type="figure" target="#fig_3">4a</ref> shows TEM bright-field image of as-cast NbZrTi alloy. In Zone A, the bright and dark fringes distribute alternatively. Figure <ref type="figure" target="#fig_3">4b</ref>, c is the corresponding selected area diffraction patterns of the bright and dark fringes. Both fringes have a disordered solid solution bcc phase. Two bcc phases have similar lattice parameters and different orientations. This result corresponds to the XRD result. EDS analysis shows that the chemical compositions of the dark fringes are 23.26 at% Ti, 38.23 at% Zr and 38.49 at% Nb, while the chemical compositions of the bright fringes are 44.29 at% Ti, 23.34 at% Zr and 32.36 at% Nb. It can be concluded that the dark and bright phases are formed during the spinodal decomposition. Figure <ref type="figure" target="#fig_3">4e</ref> verifies that as-cast NbHfZrTi alloy is composed of a single  bcc phase. No secondary phase appears in the microstructure. The dark fringes are by the elastic bending deformation of specimens prepared through mechanical thinning and oxidation. Figure <ref type="figure" target="#fig_3">4f</ref> shows the high-resolution image of as-cast NbHfZrTi. There appears obvious lattice distortion because four equiatomic components with different atomic radius and elastic modulus formed one disordered solid solution phase. After homogenization, the microstructure is shown in Fig. <ref type="figure">5</ref>. The dendritic structure disappears and transforms to the polycrystalline structure. For the NbZrTi alloy, the grains have the size of 300 lm and there is some finer subgrain structure inside the grains. For the NbHfZrTi alloy, the grain size is about 50 lm. While the temperature or time of homogenization may be not enough high, the dendritic structure has not disappeared completely.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Mechanical properties</head><p>The microhardness of the as-cast NbZrTi and NbHfZrTi alloy is HV 372 and HV 351, respectively. Figure <ref type="figure" target="#fig_4">6</ref> shows the compressive curves of the as-cast NbZrTi and NbHfZrTi alloys. At room temperature, both alloys do not break during the compressive tests and exhibit excellent plastic properties, which are seldom found for bcc-typed high-entropy alloys. Both alloys exhibit the significant work-hardening effect, and the work-hardening rates of two alloys are very close. The significant work-hardening effect is closely related with the interaction between dislocations. Compressive deformation will increase the dislocation density, intensify the dislocation reaction and intersection, leading to the increase in strength. According to the experimental results in Ref. <ref type="bibr" target="#b22">[22]</ref>, the NbHfZrTi alloy has a high tensile strength and elongation at break, which indicates that NbHfZrTi alloy has the excellent comprehensive mechanical properties. Compared with two alloys, the addition of Hf into the NbZrTi alloy makes the   hardness and strength decrease. For multiprincipal components alloys disordered solid solution phases, the solution strengthening is one of the dominant strengthening mechanisms. The extent of the solution strengthening is mainly determined by the atomic size difference. The atomic size difference can be defined as:</p><formula xml:id="formula_1">d ¼ 100% Â ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi X n i¼1 c i 1 À r i =r ð Þ s<label>ð2Þ</label></formula><p>where n is the number of elements, c i is the content of i element, r i is the atom radius of the i element, and r is the average atom radius. For the NbZrTi and NbHfZrTi alloys, their atomic size difference is 7.525% and 4.816%, respectively. Hf addition into NbZrTi alloy significantly reduces the atomic size difference, leading to the decrease in strength and hardness. At elevated temperatures, the compressive strength quickly reaches the peaks during the initial stage of deformation. The maximum compressive strength is (462 MPa, 1073 K), (218 MPa, 1273 K) and (303 MPa, 1073 K), (154 MPa, 1273 K) for the NbZrTi and NbHfZrTi alloys, respectively. During the next deformation, the strength decreases and gradually achieves the stable stress value. Figure <ref type="figure">7</ref> shows the microstructure of two alloys after deformation at the temperatures. After deformation at 1073 K, NbZrTi alloy exhibits the polycrystalline structure; the grains are very coarse and elongated along the direction perpendicular to the applied compressive stress. At the grain boundaries, there are some fine dynamic recrystallized grains, as shown in Fig. <ref type="figure">8a</ref>. After deformation at 1273 K, the grain boundaries become coarsening and more fine equiaxial dynamic recrystallized grains form along the grain boundaries in NbZrTi alloy. After deformation at 1073 K, the structure transforms from the dendritic structure to the polycrystalline structure in NbHfZrTi alloy, while the transformation is not complete. At 1273 K, the grains grow and become coarser, and the grain boundary becomes coarsening. It can be observed that amount of the dynamic recrystallized grains form along the grain boundary, as shown in Fig. <ref type="figure">8b</ref>. These results are consistent with the characteristics of the curves. The strength decreases due to the dynamic recrystallization and gradually achieves the stable value, resulting from the combined effects of work-hardening and the stress softening induced by the dynamic recrystallization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Conclusion</head><p>Two equiatomic medium-entropy alloys, ternary alloy NbZrTi and quaternary alloy NbHfZrTi, were prepared by arc melting. Their phase, microstructure, microhardness and compressive properties at room temperature and elevated temperatures were investigated.</p><p>As-cast NbZrTi alloy is composed of two disordered bcc phases with similar lattice parameters, and as-cast NbHfZrTi alloy forms a single disordered bcc phase. These two alloys are composed of a single bcc phase after homogenization at 1373 K for 10 h. As-cast NbZrTi and NbHfZrTi alloys have excellent compressive properties and exhibit significant work-hardening effect at room temperature. At elevated temperatures, the strength decreases and the dynamic recrystallization occurs in both alloys. NbZrTi alloy with the larger atomic size difference has a higher hardness and strength than NbHfZrTi alloy.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Schematic diagram of solidification process for button ingots</figDesc><graphic coords="2,71.21,586.32,197.76,109.80" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 a</head><label>2</label><figDesc>Fig. 2 a XRD patterns of as-cast NbZrTi, as-homogenized NbZrTi, as-cast NbHfZrTi and as-homogenized NbHfZrTi; b magnification XRD pattern at high angle of as-cast NbZrTi</figDesc><graphic coords="3,103.74,59.24,387.84,147.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 SEM images of as-cast NbZrTi alloy a before and c being etched; SEM images of as-cast NbHfZrTi alloy b before and d after being etched</figDesc><graphic coords="4,114.68,59.25,366.00,308.64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 a</head><label>4</label><figDesc>Fig. 4 a TEM bright-field image of as-cast NbZrTi selected area diffraction patterns of b bright and c dark fringes corresponding to Areas A and B in a, respectively; d TEM bright-field image and e corresponding selected area diffraction pattern of as-cast NbHfZrTi alloy; f highresolution image of as-cast NbHfZrTi alloy</figDesc><graphic coords="5,103.96,59.24,387.36,387.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 6</head><label>6</label><figDesc>Fig. 6 Compressive curves of as-cast NbZrTi and NbHfZrTi alloys a at room temperature and b at different high temperatures</figDesc><graphic coords="6,88.57,59.24,418.32,147.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="7,113.21,59.24,368.88,152.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Characteristics of Hf, Nb, Ti, Zr (A2: bcc, A3: hcp, lattice parameter of bcc crystal structure at room temperature)</figDesc><table><row><cell>Parameters</cell><cell></cell><cell>Nb</cell><cell>Ti</cell><cell>Zr</cell><cell>Hf</cell></row><row><cell>Crystal structure</cell><cell>High temperature Low temperature</cell><cell>A2</cell><cell>A2 A3</cell><cell>A2 A3</cell><cell>A2 A3</cell></row><row><cell cols="2">Atomic radius (r)/pm</cell><cell cols="4">142.9 146.2 160.3 157.8</cell></row><row><cell cols="2">Lattice parameter (a)/pm</cell><cell cols="4">330.1 314.7 358.2 355.9</cell></row><row><cell cols="2">Pauling electronegativity (χ)</cell><cell cols="4">1.60 1.54 1.33 1.30</cell></row><row><cell cols="3">Valence electron concentration (V) 5</cell><cell>4</cell><cell>4</cell><cell>4</cell></row><row><cell cols="2">Melting temperature (T m )/K</cell><cell cols="4">2750 1941 2128 2506</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Values of mixing enthalpy (DH mix ) calculated by Miedema's model for binary atomic pairs (kJÁmol -1 )</figDesc><table><row><cell>Elements</cell><cell>Nb</cell><cell>Ti</cell><cell>Zr</cell><cell>Hf</cell></row><row><cell>Nb</cell><cell>0</cell><cell>2</cell><cell>4</cell><cell>4</cell></row><row><cell>Ti</cell><cell>-</cell><cell>0</cell><cell>0</cell><cell>0</cell></row><row><cell>Zr</cell><cell>-</cell><cell>-</cell><cell>0</cell><cell>0</cell></row><row><cell>Hf</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>0</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Actual average chemical compositions of NbZrTi and NbHfZrTi alloys (at%)</figDesc><table><row><cell>Alloys</cell><cell>Nb</cell><cell>Zr</cell><cell>Ti</cell><cell>Hf</cell></row><row><cell>NbZrTi</cell><cell>36.69</cell><cell>33.15</cell><cell>30.16</cell><cell>/</cell></row><row><cell>NbHfZrTi</cell><cell>26.82</cell><cell>26.41</cell><cell>22.79</cell><cell>23.98</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Microstructure and mechanical properties of NbZrTi and NbHfZrTi alloys</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements This study was financially supported by the <rs type="funder">National Basic Research Program of China</rs> (No. <rs type="grantNumber">2011CB610406</rs>) and <rs type="funder">National Natural Science Foundation of China</rs> (No. <rs type="grantNumber">51425402</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_qTz44BD">
+					<idno type="grant-number">2011CB610406</idno>
+				</org>
+				<org type="funding" xml:id="_xPzfNzb">
+					<idno type="grant-number">51425402</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Microstructural development in equiatomic multicomponent alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ith</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ajb</forename><surname>Vincent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A Struct Mater Prop Microstruct Process</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page">213</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Nanostructured nitride films of multi-element high-entropy alloys by reactive DC sputtering</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Wong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surf Coat Technol</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page">193</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Microstructures and properties of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog Mater Sci</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Electrochemical preparation and magnetic study of Bi-Fe--Co-Ni-Mn high entropy alloy</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Z</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Q</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Tong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electrochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page">8359</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Mechanical properties of the high-entropy alloy Ag0.5CoCr-CuFeNi at temperatures of 4.2-300 K. Low Temp Phys</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Laktionova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Tabchnikova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page">630</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">High-entropy alloys with high saturation magnetization, electrical resistivity, and malleability</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">In-situ high-resolution transmission electron microscopy investigation of grain boundary dislocation activities in a nanocrystalline CrMnFe-CoNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">709</biblScope>
+			<biblScope unit="page">802</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Improved tensile properties of Al0.5CoCrFeNi high-entropy alloy by tailoring microstructures</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Z</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Kou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12598-016-0860-y</idno>
+		<ptr target="https://doi.org/10.1007/s12598-016-0860-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Rare Met</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Alloy design strategies and future trends in high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">1759</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">EBSD map of a NbZrTi alloy after deformation at 1073 K and b NbHfZrTi alloy after deformation at 1273 K</title>
+		<imprint/>
+	</monogr>
+	<note>red arrow indicating compression direction</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">phase formation rules for multi-component alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Eng Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">534</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">On the formation of disordered solid solutions in multi-component alloys</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Subramaniam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloy Compd</title>
+		<imprint>
+			<biblScope unit="volume">587</biblScope>
+			<biblScope unit="page">113</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Solid solution or intermetallics in a high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Eng Mater</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">641</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Nanoindentation deformation of a bi-phase AlCrCuFeNi 2 alloy</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Q</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloy Compd</title>
+		<imprint>
+			<biblScope unit="volume">608</biblScope>
+			<biblScope unit="page">49</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Empirical design of single phase high-entropy alloys with high hardness. Intermetallics</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Varga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Microstructures and mechanical properties of Al x CrFeNiTi 0.25 alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloy Compd</title>
+		<imprint>
+			<biblScope unit="volume">619</biblScope>
+			<biblScope unit="page">610</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Guidelines in predicting phase formation of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mrs Commun</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">572</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">More than entropy in high-entropy alloys: forming solid solutions or amorphous phase</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">96</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">1758</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Microstructure and compressive properties of NbTiVTaAl x high entropy alloys</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Procedia Engineer</title>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Peng</surname></persName>
+		</editor>
+		<meeting>edia Engineer<address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier Science Bv</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page">292</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Anomalous decrease in X-ray diffraction intensities of Cu-Ni-Al-Co-Cr--Fe-Si alloy systems with multi-principal elements</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Chem Phys</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">41</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Size-dependent plasticity in an Nb 25 Mo 25 Ta 25 W 25 refractory high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Spolenak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page">85</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Xiaozhou Liao Cryogenic-deformation-induced phase transformation in an FeCoCrNi high-entropy Alloy</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">An</forename><forename type="middle">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Res Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">236</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Thermal stability and grain boundary strengthening in ultrafine-grained CoCrFeNi high entropy alloy composite</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sathiyamoorthi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Basu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kashyap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kottada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Des</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page">426</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A novel Fe 20 Co 20-Ni 41 Al 19 eutectic high entropy alloy with excellent tensile properties</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yang</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Du</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Lett</title>
+		<imprint>
+			<biblScope unit="volume">216</biblScope>
+			<biblScope unit="page">144</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb 25 Mo 25 Ta 25 W 25 and V 20 Nb 20 Mo 20 Ta 20 W 20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">698</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Effect of Mn and V on structure and mechanical properties of high-entropy alloys based on CoCrFeNi system</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Shaysultanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Kuznetsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Kolodiy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Tortika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloy Compd</title>
+		<imprint>
+			<biblScope unit="volume">591</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A refractory Hf 25 Nb 25 Ti 25 Zr 25 high-entropy alloy with excellent structural stability and tensile properties</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Si</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Hui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Lett</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page">277</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Microstructure and room temperature properties of a high-entropy TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloy Compd</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page">6043</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of refractory MoN-bHfZrTi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Des</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page">87</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Experimental and theoretical study of Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V or Cr) refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">´</forename><surname>Fazakas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Zadorozhnyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Varga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Louzguine--Luzgin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int J Refract Metals Hard Mater</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page">131</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

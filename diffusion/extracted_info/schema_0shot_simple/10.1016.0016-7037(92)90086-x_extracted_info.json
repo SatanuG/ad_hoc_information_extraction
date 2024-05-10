@@ -1,0 +1,55 @@
+{
+    "doi": "10.1016/0016-7037(92)90086-x",
+    "extracted_info": {
+        "melt": [
+            {
+                "type": "dacitic",
+                "diffusing species": "Si",
+                "test temperature": 1600,
+                "diffusivity": 4e-09,
+                "SiO2": 63.51,
+                "TiO2": 0.56
+            },
+            {
+                "type": "dacitic",
+                "diffusing species": "B",
+                "test temperature": 1600,
+                "diffusivity": 1e-12,
+                "SiO2": 63.51,
+                "TiO2": 0.56
+            },
+            {
+                "type": "dacitic",
+                "diffusing species": "Ga",
+                "test temperature": 1600,
+                "diffusivity": 1e-12,
+                "SiO2": 63.51,
+                "TiO2": 0.56
+            },
+            {
+                "type": "rhyolitic",
+                "diffusing species": "Si",
+                "test temperature": 1600,
+                "diffusivity": 8e-15,
+                "SiO2": 76.37,
+                "TiO2": 0.11
+            },
+            {
+                "type": "rhyolitic",
+                "diffusing species": "B",
+                "test temperature": 1600,
+                "diffusivity": "No information",
+                "SiO2": 76.37,
+                "TiO2": 0.11
+            },
+            {
+                "type": "rhyolitic",
+                "diffusing species": "Ga",
+                "test temperature": 1600,
+                "diffusivity": 2e-12,
+                "SiO2": 76.37,
+                "TiO2": 0.11
+            }
+        ]
+    }
+}

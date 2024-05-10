@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effects of vanadium concentration on mechanical properties of V x NbMoTa refractory high-entropy alloys</title>
+				<funder ref="#_JqbgRTZ">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+					<orgName type="abbreviated">NSFC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2021-01-31">31 January 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">National Key Laboratory of Science and Technology on Materials Under Shock and Impact</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Ma</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">National Key Laboratory of Science and Technology on Materials Under Shock and Impact</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Z</forename><forename type="middle">Q</forename><surname>Xu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">National Key Laboratory of Science and Technology on Materials Under Shock and Impact</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">X</forename><forename type="middle">W</forename><surname>Cheng</surname></persName>
+							<email>chengxw@bit.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">National Key Laboratory of Science and Technology on Materials Under Shock and Impact</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Corresponding author. School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Beijing Institute of Technology</orgName>
+								<address>
+									<postCode>100081</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effects of vanadium concentration on mechanical properties of V x NbMoTa refractory high-entropy alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-01-31">31 January 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">06FC6958D5E8825E3B3FC768B9852CCC</idno>
+					<idno type="DOI">10.1016/j.msea.2021.140848</idno>
+					<note type="submission">Received 24 November 2020; Received in revised form 20 January 2021; Accepted 25 January 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Refractory high-entropy alloys (RHEAs) Mechanical properties Solid solution strengthening Strain hardening Activation energy</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Mechanical properties and strengthening, deformation, and/or fracture mechanisms of refractory high-entropy alloys V x NbMoTa are investigated. At room temperature, both the yield strength and ductility of V x NbMoTa are greatly improved when increasing the V concentration, which can be related to the enhanced solid solution strengthening and the grain refinement. The fracture morphologies of V x NbMoTa experience the intergranularto-transgranular transition as increasing the V content. The better ductility of high vanadium alloys should attribute to the refined grains and reduced impurities and brittle compounds at the grain boundary as revealed by atom probe tomography. At 800 • C and 1000 • C, the V x NbMoTa alloys of higher V concentrations exhibit weaker strain hardening rates, while this is opposite at room temperature. This can be explained by the decreased activation energy of hot deformation as increasing the V concentration at elevated temperatures, as indicated by flow stress analyses using the strain-compensated Arrhenius-type model with improved predictability.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Studies on high-entropy alloys (HEAs) are surging in recent years for their unprecedented properties such as excellent wear resistance, exceptional fracture-resistance at cryogenic temperatures, high hardness, and high strength that are attractive for structural applications <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. Illuminated by this novel alloy design strategy, refractory high-entropy alloys (RHEAs) fabricated by refractory elements such as Hf, Mo, Nb, Ta, Ti, V, W, and Zr <ref type="bibr" target="#b4">[5]</ref> are also explored to pursue improved high-temperature properties that enable increased operating temperatures with higher efficiency in energy, aerospace, and nuclear applications. It is found that RHEAs can show notable high-temperature strengths superior to widely used Ni-based superalloys but they commonly suffer from brittleness at room temperature (i.e. poor workability) <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7]</ref>, which greatly prohibits their practical applications. One approach to tackle this trade-off between strength and ductility is to design the so-called refractory high entropy superalloys (RSAs) with the nanoscale microstructure of disordered A2 plus ordered B2 analogous to Nickel-based superalloys, as recently reviewed by Miracle et al. <ref type="bibr" target="#b7">[8]</ref>. A disordered A2 solid solution matrix offers the possibility of room temperature (RT) ductility, and a stronger ordered B2 phase with well-controlled size, distribution, volume fraction, and increased solvus temperature can improve the high-temperature strength <ref type="bibr" target="#b7">[8]</ref>. However, some RSAs show poor phase stability featuring formations of additional phases after annealing at temperatures &gt;800 • C for 1000 h <ref type="bibr" target="#b8">[9]</ref>, which would affect their high-temperature properties in prolonged service. Another strategy for solving this trade-off is suggested to develop single-phase RHEAs since they are intrinsically more ductile than the multi-phase RHEAs <ref type="bibr" target="#b5">[6]</ref>. NbMoTaW is one of the most popular single-phase RHEAs and has been intensively studied in recent years for its exceptionally high strength (yield strength of 405 MPa at 1600 • C <ref type="bibr" target="#b9">[10]</ref>) and excellent phase stability at high temperatures <ref type="bibr" target="#b10">[11]</ref>. Nevertheless, this alloy is also hassled by the poor RT ductility (2.1% fracture strain <ref type="bibr" target="#b9">[10]</ref>). A series of RHEAs has been designed to enhance the ductility of NbMoTaW by adding or replacing elements, such as NbTaVW <ref type="bibr" target="#b11">[12]</ref>, NbTaTiVW <ref type="bibr" target="#b11">[12]</ref>, VNbMoTa <ref type="bibr" target="#b12">[13]</ref>, and TiNbMoTaW <ref type="bibr" target="#b13">[14]</ref>. Among these RHEAs, VNbMoTa is the most ductile alloy and shows compressive fracture strain &gt;20% <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b14">15]</ref>. Our recent study also shows that increasing the V concentration in V x NbMoTa can significantly refine the grain structure, and the V x NbMoTa alloys exhibit excellent phase stability from solidus down to 350 • C and outstanding high-temperature strength <ref type="bibr" target="#b14">[15]</ref>, which renders V x NbMoTa very promising for high-temperature applications. Therefore, in this study, mechanical properties of V x NbMoTa at both RT and high temperatures are investigated further, and strengthening, deformation, and/or fracture mechanisms of the alloys are discussed in depth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental</head><p>V x NbMoTa (x = 0.25, 0.5, 0.75, 1.0) RHEAs, hereinafter referred to as V0.25, V0.5, V0.75, and V1.0, were prepared with high purity (&gt;99.9 at.%) V, Nb, Mo, and Ta using vacuum arc melting in water-cooled copper crucible under argon atmosphere. Alloys were remelted at least eight times to ensure the compositional homogeneity. Quasi-static compression tests at RT were conducted on an Instron 5569 universal testing machine with a constant strain rate of 0.001/s. Cylindrical specimens with a diameter of 4 mm and 6 mm in height were used. Compression tests at high temperature were carried out using a dynamic thermal simulation testing machine (Gleeble-3500). During each test, the sample was heated to 800 • C or 1000 • C at a rate of 300 • C/min and then held for 3 min to ensure the thermal equilibrium. The compression strain rate was 0.001/s. Cylindrical specimens with a diameter of 6 mm and 9 mm in height were used. Fracture morphologies of alloys were studied using a scanning electron microscope (SEM, Hitachi S4800). Atom probe tomography (APT) (CAMECA LEAP-5000XR) was used to determined the chemical compositions at the grain boundary of the alloy. Raw data from the APT experiments were analyzed using a CAMECA's IVAS 3.6.8 visualization and analysis software. APT tips containing grain boundaries were prepared using the focus ion beam (FIB) milling in an FEI Helios Nanolab 600i dual-beam SEM and were also examined using a transmission electron microscope (TEM, FEI Tecnai G2 F20).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head><p>Fig. <ref type="figure" target="#fig_0">1</ref> (a) and (b) show true stress-strain curves and strain hardening rate curves of V x NbMoTa RHEAs at RT. True yield strengths (σ y ) and fracture strains (ε f ) of V x NbMoTa RHEAs are given in Table <ref type="table" target="#tab_0">1</ref>. It's clear that the yield strength, fracture strain, and strain hardening rate are greatly improved when the V concentration increases, indicating that increasing the V concentration is beneficial to both RT strength and ductility of V x NbMoTa RHEAs.</p><p>Since V x NbMoTa shows the single-phase solid solution structure and the grain size can be significantly reduced by increasing the V content (as shown in Ref. <ref type="bibr" target="#b14">[15]</ref>), the increased strength of V x NbMoTa with higher V contents should attribute to both solid-solution strengthening (SSS) and grain refinement. Increasing the V concentration can increase the atomic-sizes differences in HEAs <ref type="bibr" target="#b15">[16]</ref>, thus leads to enhanced solid solution strengthening. Toda-Caraballo et al. have proposed a reliable model to predict the SSS in HEAs by extending Lubarda's approach to multicomponent alloys <ref type="bibr" target="#b16">[17]</ref>. In this model, the atomic size misfit parameter δ i , which indicates the differences in atomic sizes, is the principal factor responsible for SSS and can be defined as Eq. <ref type="bibr" target="#b0">(1)</ref>.</p><formula xml:id="formula_0">δ i = ds dX i 1 s ≈ s i -s HEA-i s i (1)</formula><p>where s i is the interatomic spacing of element i and can be calculated by the lattice constant of element i, a i , with the formula:</p><formula xml:id="formula_1">s i = f p ⋅a i (f p = ̅̅̅ 3 √ /2</formula><p>for BCC structure), and s HEA-i is the average interatomic spacing of the corresponding HEA without element i. The average interatomic spacing s ave of the HEA is calculated by Eq. ( <ref type="formula" target="#formula_2">2</ref>):</p><formula xml:id="formula_2">s ave = ∑ n i ∑ n j s ij X i X j = (X 1 , …, X n ) ⎛ ⎜ ⎜ ⎝ s 11 s 12 ⋯ s 1n s 21 s 22 ⋯ s 2n ⋮ ⋯ ⋱ ⋮ s n1 s n2 ⋯ s nn ⎞ ⎟ ⎟ ⎠ ⎛ ⎝ X 1 ⋮ X n ⎞ ⎠<label>(2)</label></formula><p>where X i and X j are the atomic fractions of elements i and j, respectively; s ij is the interatomic spacing between elements i and j. The interatomic spacing s ij and the lattice parameter a ij of the binary alloy also have the following relationship:</p><formula xml:id="formula_3">s ij = f p a ij (<label>3</label></formula><formula xml:id="formula_4">)</formula><formula xml:id="formula_5">a ij = ( a 3 j + 4πR 3 j X i n ϑ γ j C ) 1/3 (<label>4</label></formula><formula xml:id="formula_6">)</formula><p>where a j and R j are the lattice constant and the Wigner-Seitz atomic radius of element j, respectively; n is the number of atoms per unit cell; ϑ is a constant depending on the crystal structure, and ϑ = 1 is for the cubic lattice. γ and C are expressed as:  </p><formula xml:id="formula_7">ε f /% &gt;51 &gt;51 &gt;51 &gt;51 γ j = 1 + 4μ j 3k j ; C = 1 γ i R i -R j R j ; γ i = 1 + 4μ i 3k i (<label>5</label></formula><formula xml:id="formula_8">)</formula><p>where k i and k j are the bulk moduli of elements i and j, and μ i and μ j are the shear moduli of elements i and j.</p><p>The data used for calculations are from Refs. <ref type="bibr">[18,</ref><ref type="bibr">19]</ref> and listed in Table <ref type="table" target="#tab_1">2</ref>. The calculated items used for calculations of s ij of V1.0 alloy are listed in Table <ref type="table" target="#tab_2">3</ref>. Substituting the calculated binary interatomic spacing s ij into Eq. ( <ref type="formula" target="#formula_2">2</ref>) can get the average interatomic spacing, s HEA-i of HEAs. Calculated results are listed in Table <ref type="table" target="#tab_3">4</ref>. Then the atomic size misfit parameter δ i of alloys with different V concentrations calculated using Eq. ( <ref type="formula">1</ref>) are given in Table <ref type="table" target="#tab_4">5</ref> and shown in Fig. <ref type="figure" target="#fig_0">1(c</ref>). The area of the rectangle (i.e. |c i ⋅δ i |) defined by the corners (0, 0) and (c i , δ i ) is proportional to the strengthening contribution of this element. As shown in Fig. <ref type="figure" target="#fig_0">1(d</ref>), the |c i ⋅δ i | value of element V increases significantly from 0.0052 for V0.25 to 0.0168 for V1.0, which is in strong contrast to Nb and Ta that give relatively stable value and Mo even shows a decreased trend. The substantially increased |c i ⋅δ i | value of V greatly contributes to the increase of Σ|c i ⋅δ i | as shown in Fig. <ref type="figure" target="#fig_0">1</ref>(e), which indicates that the increased V contents play a major role in enhancing the SSS of the alloys. Many researchers have used experiments or theories to prove the import role of V element in strengthening FCC and BCC HEAs <ref type="bibr" target="#b17">[20]</ref><ref type="bibr" target="#b18">[21]</ref><ref type="bibr" target="#b19">[22]</ref><ref type="bibr" target="#b20">[23]</ref>. Yin et al. <ref type="bibr" target="#b21">[24]</ref> concluded that the strengthening effect of Vanadium stems from its smaller atomic volume than FCC alloys and larger than BCC alloys, which causes a large lattice misfit volume.</p><p>The grain refinement induced by higher V concentrations of V x NbMoTa <ref type="bibr" target="#b14">[15]</ref> also contributes to the increased yield strength. Alloys with finer grains contain more grain boundaries that can block the movement of dislocations and are capable to resist plastic deformation. This meets the Hall-Petch relationship <ref type="bibr" target="#b22">[25]</ref>.</p><p>As shown in Fig. <ref type="figure" target="#fig_0">1</ref>(a), the V0.25 alloy which has the largest grains and the lowest ductility exhibits the intergranular fracture, and V0.5 and V0.75 alloys featuring medium grain sizes show the mixed intergranular-transgranular fracture. The V1.0 alloy that has the smallest grains and the best ductility exhibits the transgranular fracture. The transition from intergranular to transgranular fracture of V0.25-V1.0 alloys with improved ductility can result from both grain refinement and the property of the grain boundary. When a polycrystal alloy is deformed, grains are plastically deformed coordinating with their neighborhood in order to accommodate the overall deformation. Therefore, a large-grain-size alloy will have the smaller number of grains coordinating with each other to accommodate the deformation, which will result in more severe stress concentration at the grain boundaries. On the contrary, fine grains can deform uniformly and effectively disperse stress, and thus reduce stress concentration at the grain boundary and improve the ductility. Compositions of the grain boundary also influence the ductility and the fracture mode of the alloy <ref type="bibr" target="#b23">[26]</ref><ref type="bibr" target="#b24">[27]</ref><ref type="bibr" target="#b25">[28]</ref>. Fig. <ref type="figure" target="#fig_2">2</ref> shows APT tips of V0.25 (Fig. <ref type="figure" target="#fig_2">2(a)-(d)</ref>) and V1.0 (Fig. <ref type="figure" target="#fig_2">2</ref> (e)-(h)) containing grain boundaries. Alloys tips are firstly measured by TEM (Fig. <ref type="figure" target="#fig_2">2</ref> respectively. Note that orientations of reconstructed tips are different from the TEM ones, and atoms measured in Fig. <ref type="figure" target="#fig_2">2(b)-(c</ref>) and Fig. <ref type="figure" target="#fig_2">2</ref>(f)-(g) are only from pure substances. In the V0.25 tip (Fig. <ref type="figure" target="#fig_2">2(b</ref>)), the distributions of the four metal elements within the grain are consistent with the nominal compositions, but the contents of Nb, Mo, and Ta are significantly reduced (up to 20 at.%) in the grain boundaries. As shown in Fig. <ref type="figure" target="#fig_2">2(c),</ref><ref type="figure">C</ref>, N, and O contents in the grain boundary of the V0.25 tip are ~ 0.5-4 at.% higher compared with the grain area, and there are large amounts of compounds, especially TaO and NbO (as high as ~ 20 at.% and ~25 at.%, respectively), in the grain boundary (Fig. <ref type="figure" target="#fig_2">2(d)</ref>). The higher concentrations of TaO and NbO compared with other compounds could be attribute to their lower formation enthalpies <ref type="bibr" target="#b26">[29]</ref>. By comparing Fig. <ref type="figure" target="#fig_2">2(b</ref>) with (d), it can be reasonably inferred that the reduced pure metal elements are supposed to form the compounds. The brittle compounds formed at the grain boundary could easily induce intergranular fracture of the alloy as shown in Fig. <ref type="figure" target="#fig_0">1(a)</ref>. In contrast to V0.25, the alloy with higher V content, e.g. V1.0 shows less varied pure compositions (Fig. <ref type="figure" target="#fig_2">2(f)-(g</ref>)) crossing the grain boundary. For pure metal, the variation is &lt; 4 at.%, and for C, N, and O, the change is &lt; 0.2 at.%. Moreover, compounds in the grain boundary of the V1.0 tip ((Fig. <ref type="figure" target="#fig_2">2(h)</ref>) are tiny compared with the V0.25 tip ((Fig. <ref type="figure" target="#fig_2">2(d)</ref>), which obviously contributes to the transgranular fracture, i.e. improved ductility of the alloy. The presence of impurities (C, N, O, and their compounds) at the grain boundaries revealed by the APT tip reconstruction might be induced during the preparations of the alloys or ATP samples. However, considering that all alloys and samples are fabricated using the same equipment (e.g. furnace and SEM-FIB) and procedure, the different amounts of impurities in the grain boundaries of alloys of high and low V contents might attribute to the intrinsic property of the alloy, i.e. low-vanadium V x NbMoTa is more prone to trap C, N, and O in the grain boundary where excessive compounds are facilitated to form. Moreover, as discussed in Ref. <ref type="bibr" target="#b14">[15]</ref>, the V x NbMoTa can be treated as a  pseudo-binary V x -(NbMoTa) alloy, in which V is equivalent to a solute that will segregate to the interdendritic area and the grain boundary. This is consistent with Fig. <ref type="figure" target="#fig_2">2(f</ref>). The increased concentration of V at the grain boundary will in turn reduce the segregations of other elements, which could reduce formations of compounds (e.g. TaO and NbO).</p><p>The influence of grain boundaries on fracture behavior in RHEAs has also been studied by other researchers. By conducting micropillar compression tests on NbMoTaW, Zou et al. <ref type="bibr" target="#b24">[27]</ref> proposed that grain boundaries greatly deteriorate the ductility, and then, they also discovered that C, N, and O would segregate at the grain boundaries and form brittle oxides and nitrides, which lead to intergranular fracture of the bi-crystal NbMoTaW RHEA <ref type="bibr" target="#b25">[28]</ref>.</p><p>Fig. <ref type="figure" target="#fig_3">3</ref>(a) and (b) show true stress-strain curves of V x NbMoTa RHEAs at 800 • C and 1000 • C. Compared with the RT properties shown in Fig. <ref type="figure" target="#fig_0">1</ref> (a), the strength of all alloys decreases as increasing the temperature and the yield strength raises as the V concentration increases (Table <ref type="table" target="#tab_0">1</ref>), and there is no fracture (up to 50% strain) at high temperatures. As shown in Fig. <ref type="figure" target="#fig_3">3(c)</ref>, at 800 • C, the V0.25 alloy shows the highest strain hardening rate, followed by the V0.5 alloy, and the V0.75 and V1.0 alloys exhibit similar strain hardening rates of the lowest values. Similarly, at 1000 • C (Fig. <ref type="figure" target="#fig_3">3(d)</ref>), the V1.0 alloy shows the lowest strain hardening rate while the other three alloys exhibit slightly higher strain hardening rates. This is opposite to the trend at RT as shown in Fig. <ref type="figure" target="#fig_0">1(b)</ref>, where the strain hardening rate is greatly improved when increasing the V concentration. This inverse phenomenon indicates that the superior strain hardening exhibited by the high vanadium alloys at RT tends to disappear when raising the temperature, which might be correlated with the decreased activation energy of hot deformation at high temperature as increasing the V content.</p><p>The hot deformation behavior of materials can be described by the Arrhenius-type equation shown in Eq. ( <ref type="formula">6</ref>) <ref type="bibr" target="#b27">[30,</ref><ref type="bibr" target="#b28">31]</ref>.</p><formula xml:id="formula_9">ε = ⎧ ⎪ ⎪ ⎪ ⎨ ⎪ ⎪ ⎪ ⎩ A 1 σ n1 ασ &lt; 0.8 A 2 exp(βσ) ασ &gt; 1.2 A[sinh(ασ)] n exp ( - Q RT ) for all σ (6)</formula><p>where A 1 , A 2 , A, n 1 , n, α, and β are parameters independent of temperature, ε is the strain rate, σ is the flow stress, T is the deformation temperature, Q is the activation energy of hot deformation, and R is the universal gas constant. The relationship between α, β, and</p><formula xml:id="formula_10">n 1 is α = β/n 1 .</formula><p>The activation energy of hot deformation is the necessary energy barrier for dislocation slip and can reflect the deformation resistance of the material. V1.0 alloy will be used as the example to show the calculation procedure of parameters in Eq. ( <ref type="formula">6</ref>). True stress-strain curves of the V1.0 alloy at different deformation temperatures (900 • C, 1000 • C and 1100 • C) and different strain rates (0.001/s, 0.01/s and 0.1/s) are shown in Fig. <ref type="figure" target="#fig_4">4</ref>. The flow stress values at different strains in each curve are listed in Table <ref type="table">6</ref> used for calculations.</p><p>Taking the logarithm of both sides of Eq. ( <ref type="formula">6</ref>) at the low-stress level (ασ&lt;0.8) and high-stress level (ασ&gt;1.2), respectively, gives</p><formula xml:id="formula_11">ln(σ) = 1 n 1 ln(ε) - 1 n 1 ln(A 1 )<label>(7)</label></formula><formula xml:id="formula_12">σ = 1 β 1 ln(ε) - 1 β 1 ln(A 2 )<label>(8)</label></formula><p>At a typical strain, e.g. 0.1, and a particular temperature, the flow stress at different strain rates are substituted into Eqs. ( <ref type="formula" target="#formula_11">7</ref>) and ( <ref type="formula" target="#formula_12">8</ref>), and then the fitted linear relationships of ln(ε) -ln(σ) and ln(ε)-σ can be obtained, as shown in Fig. <ref type="figure">5(a)</ref> and<ref type="figure">(b</ref>) n 1 and β can be calculated from the average slopes and α = β/n 1 is obtained.</p><p>Taking the logarithm of both sides of Eq. ( <ref type="formula">6</ref>) for all σ, gives</p><formula xml:id="formula_13">ln[sinh(ασ)] = lnε n + Q nRT - ln A n (9)</formula><p>At a particular temperature, the flow stresses at a typical strain (e.g. 0.1), under different strain rates are substituted into Eq. ( <ref type="formula">9</ref>), and the fitted linear relationship of ln(ε)ln[sinh(ασ)]can be obtained as shown in Fig. <ref type="figure">5 (c</ref>). 1/n is the average value of the slopes at different temperatures. A can be calculated from the intercept of ln(ε)ln[sinh(ασ)] plot.</p><p>Under a particular strain rate, the flow stress (e.g. at ε = 0.1) at different temperatures are substituted into Eq. ( <ref type="formula">9</ref>), and the fitted linear relationship of 1000 /Tln[sinh(ασ)] can be obtained (Fig. <ref type="figure">5 (d)</ref>). Q can be calculated from the average slopes at different strain rates.</p><p>Eq. ( <ref type="formula">6</ref>) ignores the effect of strain on flow stress at high temperatures. However, many studies <ref type="bibr" target="#b28">[31,</ref><ref type="bibr" target="#b29">32]</ref> have shown that strain has a significant effect on parameters in Eq. ( <ref type="formula">6</ref>). As shown in Fig. <ref type="figure">6</ref>, α, n, Q, and lnA of V1.0 alloy vary significantly when changing the strain. Therefore, Lin et al. <ref type="bibr" target="#b28">[31]</ref> proposed a strain-compensated method to improve the accuracy of prediction, i.e., the parameters are expressed as the fifth-order polynomials of strain, as shown in Eq. <ref type="bibr" target="#b9">(10)</ref>. The coefficients of the polynomials are calculated in Table <ref type="table" target="#tab_6">7</ref>.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 6</head><p>The measured flow stresses (MPa) of the V1.0 alloy at various temperatures and strain rates.  </p><formula xml:id="formula_14">n = n 0 + n 1 ε + n 2 ε 2 + n 3 ε 3 + n 4 ε 4 + n 5 ε 5 α = α 0 + α 1 ε + α 2 ε 2 + α 3 ε 3 + α 4 ε 4 + α 5 ε 5 Q = Q 0 + Q 1 ε + Q 2 ε 2 + Q 3 ε 3 + Q 4 ε 4 + Q 5 ε 5 ln A = A 0 + A 1 ε + A 2 ε 2 + A 3 ε 3 + A 4 ε 4 + A 5 ε 5<label>(10)</label></formula><p>According to Eq. ( <ref type="formula">6</ref>) and Zener-Hollomon parameter expressed in Eq. ( <ref type="formula" target="#formula_15">11</ref>), the flow stress under high-temperature deformation can be generated as Eq. ( <ref type="formula" target="#formula_17">12</ref>):</p><formula xml:id="formula_15">Z = εexp ( Q RT )<label>(11)</label></formula><p>The calculated true stresses at different true strains are shown as data points in Fig. <ref type="figure" target="#fig_6">7</ref>(a)-(c), using V1.0 alloy as the example. The solid lines are the experimental results. It can be seen that the flow stress predicted by the equation is in good agreement with the experimental results. The accuracy of the prediction is indicated by the correlation coefficient (R) and the relative error described by Eqs. ( <ref type="formula">13</ref>) and ( <ref type="formula" target="#formula_16">14</ref>), and values are shown in Fig. <ref type="figure" target="#fig_6">7(d)</ref> and<ref type="figure">(e</ref></p><formula xml:id="formula_16">). R = ∑ N i ( σ i e -σ i e ) ( σ i p -σ i p ) ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ̅ ∑ N i=1 ( σ i e -σ i e ) 2 ∑ N i=1 ( σ i p -σ i p ) 2 √ (13) Relative error = ( σ i e -σ i p σ i e ) × 100%<label>(14)</label></formula><p>where σ i e and σ i p are the experimental and predicted flow stresses, respectively. σ i e and σ i p are the mean values of σ i e and σ i p , respectively. N is the total number of data used in this study. Fig. <ref type="figure" target="#fig_6">7</ref>(d) shows that most of the calculated data points are very close to the best linear fit line and the correlation coefficient R is 0.99. Fig. <ref type="figure" target="#fig_6">7</ref> (e) indicated that the relative error of the prediction shows a Gaussian distribution within a narrow range of -4%-6% and the average absolute relative error is 0.6%. Both Fig. <ref type="figure" target="#fig_6">7(d</ref>) and (e) indicate that the straincompensated Arrhenius-type equation can well predict the flow stress of V1.0 at different temperatures and strain rates. This gives us confidence that the calculated activation energy Q (included in the calculated Eq. ( <ref type="formula">6</ref>)) for the hot deformation of V x NbMoTa RHEAs can be a reliable indicator of the difficulty of material hot deformation. Calculated Q values are shown in Fig. <ref type="figure" target="#fig_6">7</ref>(f) and listed in Table <ref type="table" target="#tab_7">8</ref>. It can be seen that, at the selected wide strain range 0.1-0.5, the activation energy decreases continuously when increasing the V concentration, indicating that the   </p><formula xml:id="formula_17">]1 2 } = 1 α ln ⎧ ⎪ ⎨ ⎪ ⎩ ⎛ ⎜ ⎝ εexp ( Q RT ) A ⎞ ⎟ ⎠ 1 n + ⎡ ⎢ ⎣ ⎛ ⎜ ⎝ εexp ( Q RT ) A ⎞ ⎟ ⎠ 2 n + 1 ⎤ ⎥ ⎦ 1 2 ⎫ ⎪ ⎬ ⎪ ⎭<label>(12)</label></formula><p>alloys of higher V contents are easier to be deformed at high temperature and therefore, lower strain hardening rates are shown (Fig. <ref type="figure" target="#fig_3">3</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusion</head><p>Mechanical properties and strengthening, deformation, and/or fracture mechanisms of novel V x NbMoTa RHEAs are investigated in this study. At RT, the yield strength, fracture strain and strain hardening rate of V x NbMoTa RHEAs increase when increasing the V concentration. The severer lattice distortion and the grain refinement induced by the increased V are beneficial to the improvement of strength. The fracture morphology of V x NbMoTa changed from intergranular fracture to transgranular fracture as increasing the V concentration. This is related to the grain size of the alloy and the grain boundary composition. Alloys with higher V content have smaller grain sizes and feature fewer impurities and brittle compounds at the grain boundary and therefore, are prone to fracture transgranularly with higher ductility. In contrast to RT, at 800 • C and 1000 • C, alloys with higher V contents show weaker strain hardening. This can be explained by the decreased activation energy of hot deformation, which is given by the strain-compensated Arrheniustype flow stress model that is in excellent agreement with the experimental results. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. (a) True stress-strain curves and the fracture morphologies of V x NbMoTa RHEAs at RT. (b) Corresponding strain hardening rate curves. (c) Atomic size misfit parameter δ, (d) the strengthening effect (|c i ⋅δ i |) of each element, and (e) the overall strengthening effect (Σ|c i ⋅δ i |) in V x NbMoTa RHEAs.</figDesc><graphic coords="2,84.64,543.71,425.95,172.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>(a) and (e)) to confirm the grain boundaries, as indicated by the bright-field image and fast Fourier transform (FFT) and inverse FFT patterns of the two grains in each tip. The grain boundary in V0.25 shows stronger contrast compared with that of V1.0, which may attribute to different orientations of the tips. Distributions of elements in V0.25 and V1.0 tips are shown in Fig. 2(b)-(d) and Fig. 2(f)-(h)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. TEM images, fast Fourier transform (FFT), and inverse FFT patterns of the APT tips of (a) V0.25 and (e) V1.0 containing the grain boundary (GB). Corresponding reconstructed 3D RHEA tips and one-dimensional concentration profiles showing the elemental distributions of (b, f) metal elements (V, Nb, Mo, and Ta), (c, g) impurity elements (C, N, and O), and (d, h) impurity compounds.</figDesc><graphic coords="4,119.96,55.40,355.39,418.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. True stress-strain curves of V x NbMoTa RHEAs at (a) 800 • C, and (b) 1000 • C. Strain hardening rate curves of V x NbMoTa RHEAs at (c) 800 • C and (d) 1000 • C.</figDesc><graphic coords="5,119.85,55.44,355.54,277.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. True stress-strain curves of V1.0 RHEA at different deformation temperatures and different strain rates: (a)0.001/s; (b) 0.01/s; (c) 0.1/s.</figDesc><graphic coords="5,84.47,613.92,426.38,112.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 .Fig. 6 .</head><label>56</label><figDesc>Fig. 5. The (a) ln(σ) vs. ln(ε), (b) σ vs. ln(ε), (c) ln[sinh(ασ)] vs. ln(ε), and (d) ln[sinh(ασ)] vs. 1000/T linear fitting curves of V1.0 RHEA obtained from the flow stresses at the strain ε = 0.1.</figDesc><graphic coords="6,119.85,208.83,355.54,291.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Comparisons between the experimental flow stress (curves) and those predicted by Arrhenius-type equation (data points) at the strain rate of (a) 0.001/s, (b) 0.01/s, and (c) 0.1/s. (d) The Correlation and (e) the relative error between the experimental and predicted flow stress values. (f) The activation energy of hot deformation of V x NbMoTa RHEAs at different strains.</figDesc><graphic coords="7,70.24,465.50,454.75,241.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Mechanical properties of V x NbMoTa RHEAs at RT, 800 • C, and 1000 • C.</figDesc><table><row><cell></cell><cell></cell><cell>V0.25</cell><cell>V0.5</cell><cell>V0.75</cell><cell>V1.0</cell></row><row><cell>RT</cell><cell>σ y /MPa</cell><cell>1017</cell><cell>1085</cell><cell>1173</cell><cell>1233</cell></row><row><cell></cell><cell>ε f /%</cell><cell>9.2</cell><cell>12.5</cell><cell>17.1</cell><cell>29.0</cell></row><row><cell>800 • C</cell><cell>σ y /MPa</cell><cell>763</cell><cell>824</cell><cell>887</cell><cell>933</cell></row><row><cell></cell><cell>ε f /%</cell><cell>&gt;51</cell><cell>&gt;51</cell><cell>&gt;51</cell><cell>&gt;51</cell></row><row><cell>1000 • C</cell><cell>σ y /MPa</cell><cell>694</cell><cell>741</cell><cell>772</cell><cell>811</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>The characteristic parameters of elements in RHEAs[18,19].</figDesc><table><row><cell>Elements</cell><cell>Lattice</cell><cell>Wigner-Seitz</cell><cell>Bulk modulus</cell><cell>Shear</cell></row><row><cell></cell><cell>constant (Å)</cell><cell>atomic radius (Å)</cell><cell>(GPa)</cell><cell>modulus</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>(GPa)</cell></row><row><cell>V</cell><cell>3.04</cell><cell>1.516</cell><cell>158</cell><cell>58</cell></row><row><cell>Nb</cell><cell>3.3</cell><cell>1.627</cell><cell>170</cell><cell>61</cell></row><row><cell>Mo</cell><cell>3.15</cell><cell>1.551</cell><cell>261</cell><cell>101</cell></row><row><cell>Ta</cell><cell>3.3</cell><cell>1.626</cell><cell>196</cell><cell>73</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Items used for calculating s ij of V1.0 alloy.</figDesc><table><row><cell>i-j</cell><cell>γ i</cell><cell>γ j</cell><cell>C</cell><cell>a ij</cell><cell>s ij</cell></row><row><cell>V-Nb</cell><cell>4.645</cell><cell>4.725</cell><cell>-0.0147</cell><cell>3.290</cell><cell>2.849</cell></row><row><cell>V-Mo</cell><cell>4.645</cell><cell>4.448</cell><cell>-0.0049</cell><cell>3.147</cell><cell>2.725</cell></row><row><cell>V-Ta</cell><cell>4.645</cell><cell>4.579</cell><cell>-0.0146</cell><cell>3.293</cell><cell>2.852</cell></row><row><cell>Nb-V</cell><cell>4.73</cell><cell>4.646</cell><cell>0.0155</cell><cell>3.079</cell><cell>2.666</cell></row><row><cell>Nb-Mo</cell><cell>4.725</cell><cell>4.448</cell><cell>0.0104</cell><cell>3.166</cell><cell>2.742</cell></row><row><cell>Nb-Ta</cell><cell>4.725</cell><cell>4.579</cell><cell>0.00013</cell><cell>3.303</cell><cell>2.861</cell></row><row><cell>Mo-V</cell><cell>4.448</cell><cell>4.646</cell><cell>0.0052</cell><cell>3.053</cell><cell>2.644</cell></row><row><cell>Mo-Nb</cell><cell>4.448</cell><cell>4.725</cell><cell>-0.0105</cell><cell>3.283</cell><cell>2.843</cell></row><row><cell>Mo-Ta</cell><cell>4.448</cell><cell>4.579</cell><cell>-0.0104</cell><cell>3.286</cell><cell>2.845</cell></row><row><cell>Ta-V</cell><cell>4.579</cell><cell>4.646</cell><cell>0.0158</cell><cell>3.334</cell><cell>2.887</cell></row><row><cell>Ta-Nb</cell><cell>4.579</cell><cell>4.725</cell><cell>-0.00013</cell><cell>3.300</cell><cell>2.858</cell></row><row><cell>Ta-Mo</cell><cell>4.579</cell><cell>4.448</cell><cell>0.0106</cell><cell>3.166</cell><cell>2.742</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Calculated average interatomic spacing s HEA-i of V x NbMoTa HEAs.</figDesc><table><row><cell>Alloys</cell><cell>NbMoTa</cell><cell>V x MoTa</cell><cell>V x NbTa</cell><cell>V x NbMo</cell></row><row><cell>V0.25</cell><cell>2.810</cell><cell>2.783</cell><cell>2.842</cell><cell>2.771</cell></row><row><cell>V0.5</cell><cell>2.810</cell><cell>2.781</cell><cell>2.834</cell><cell>2.762</cell></row><row><cell>V0.75</cell><cell>2.810</cell><cell>2.773</cell><cell>2.821</cell><cell>2.750</cell></row><row><cell>V1.0</cell><cell>2.810</cell><cell>2.760</cell><cell>2.803</cell><cell>2.734</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5</head><label>5</label><figDesc>Atomic size misfit parameters δ i of V x NbMoTa RHEAs.</figDesc><table><row><cell></cell><cell>V</cell><cell>Nb</cell><cell>Mo</cell><cell>Ta</cell></row><row><cell>V0.25</cell><cell>-0.0672</cell><cell>0.026143</cell><cell>-0.04169</cell><cell>0.031271</cell></row><row><cell>V0.5</cell><cell>-0.0672</cell><cell>0.026864</cell><cell>-0.03882</cell><cell>0.034339</cell></row><row><cell>V0.75</cell><cell>-0.0672</cell><cell>0.029714</cell><cell>-0.03396</cell><cell>0.038655</cell></row><row><cell>V1.0</cell><cell>-0.0672</cell><cell>0.034401</cell><cell>-0.02742</cell><cell>0.044232</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 7</head><label>7</label><figDesc>Coefficients of the polynomials for α, n, Q and ln A.</figDesc><table><row><cell>i</cell><cell>n i</cell><cell>α i</cell><cell>Q i</cell><cell>A i</cell></row><row><cell>0</cell><cell>48.34131</cell><cell>0.00148</cell><cell>193.4766</cell><cell>7.41789</cell></row><row><cell>1</cell><cell>-256.803</cell><cell>-0.00794</cell><cell>2162.837</cell><cell>221.3023</cell></row><row><cell>2</cell><cell>1803.09</cell><cell>0.04748</cell><cell>3627.683</cell><cell>202.0195</cell></row><row><cell>3</cell><cell>-7687.58</cell><cell>-0.14161</cell><cell>-73036.1</cell><cell>-6209.36</cell></row><row><cell>4</cell><cell>14879.82</cell><cell>0.21199</cell><cell>201351.5</cell><cell>17690.42</cell></row><row><cell>5</cell><cell>-10454.8</cell><cell>-0.12493</cell><cell>-166030</cell><cell>-14790.2</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 8</head><label>8</label><figDesc>Calculated activation energy Q (kJ/mol) of V x NbMoTa RHEAs at different strains.</figDesc><table><row><cell></cell><cell>V0.25</cell><cell>V0.5</cell><cell>V0.75</cell><cell>V1.0</cell></row><row><cell>ε = 0.1</cell><cell>650.4583</cell><cell>566.6312</cell><cell>423.0286</cell><cell>391.6392</cell></row><row><cell>ε = 0.2</cell><cell>693.1146</cell><cell>651.5098</cell><cell>465.2645</cell><cell>455.0377</cell></row><row><cell>ε = 0.3</cell><cell>685.5202</cell><cell>580.0911</cell><cell>470.1505</cell><cell>419.3783</cell></row><row><cell>ε = 0.4</cell><cell>658.4421</cell><cell>531.8927</cell><cell>475.0345</cell><cell>420.3758</cell></row><row><cell>ε = 0.5</cell><cell>616.3342</cell><cell>507.6949</cell><cell>452.9992</cell><cell>448.6518</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We acknowledge <rs type="funder">National Natural Science Foundation of China (NSFC)</rs> [grant number <rs type="grantNumber">51804032</rs>] for financial supports.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_JqbgRTZ">
+					<idno type="grant-number">51804032</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability statement</head><p>The raw/processed data required to reproduce these findings cannot be shared at this time as the data also forms part of an ongoing study.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Microstructures and properties of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="93" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">High-entropy alloys</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mater</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="515" to="534" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A review on fundamental of high entropy alloys with promising high-temperature properties</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">760</biblScope>
+			<biblScope unit="page" from="15" to="30" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Database on the mechanical properties of high entropy alloys and complex concentrated alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gorsse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Data in Brief</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="2664" to="2678" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Refractory highentropy alloys</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1758" to="1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Intermetallics</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Development and exploration of refractory high entropy alloys-A review</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Couzinie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="3092" to="3128" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Multiplicity of dislocation pathways in a refractory multiprincipal element alloy</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Balbus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Rottmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Knipling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Stinville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Beyerlein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Gianola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">370</biblScope>
+			<biblScope unit="page" from="95" to="101" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Soni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+		<title level="m">Refractory high entropy superalloys (RSAs), Scripta Mater</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="page" from="445" to="452" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">An assessment of the thermal stability of refractory high entropy superalloys</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Whitfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Pickering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Owen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">857</biblScope>
+			<biblScope unit="page">157583</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb25Mo25Ta25W25 and V20Nb20Mo20Ta20W20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Impact of lattice relaxations on phase transitions in a high-entropy alloy studied by machinelearning potentials</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kostiuchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Körmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neugebauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shapeev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Npj Comput. Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">NbTaV-(Ti,W) refractory high-entropy alloys: experiments and modeling</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="volume">674</biblScope>
+			<biblScope unit="page" from="203" to="211" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">MoNbTaV medium-entropy alloy</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Microstructures and mechanical properties of Ti x NbMoTaW refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Luan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="volume">712</biblScope>
+			<biblScope unit="page" from="380" to="385" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Designing V x NbMoTa refractory highentropy alloys with improved properties for high-temperature applications</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Q</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">W</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="131" to="136" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Solid-solution phase formation rules for multi-component alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="534" to="538" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Modelling solid solution hardening in high entropy alloys</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Toda-Caraballo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E J</forename><surname>Rivera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Díazdel</forename><surname>Castillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="14" to="23" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Mapping the world of complex concentrated alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gorsse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="177" to="187" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Mechanistic origin of high retained strength in refractory BCC high entropy alloys up to 1900K</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Maresca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Curtin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="235" to="249" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Theory of strengthening in fcc high entropy alloys</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Varvenne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Luque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Curtin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="164" to="176" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Ultrastrong medium-entropy singlephase alloys designed via severe lattice distortion</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Sohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kwiatkowski Da</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ikeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Körmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ponge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neugebauer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Raabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">1807142</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Vanadium is an optimal element for strengthening in both fcc and bcc high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Maresca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Curtin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page" from="486" to="491" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The cleavage strength of polycrystals</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Petch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Iron Steel Inst</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="25" to="28" />
+			<date type="published" when="1953">1953</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The effects of segregated impurities on intergranular fracture energy</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Mcmahon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vitek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="507" to="513" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Size-dependent plasticity in an Nb25Mo25Ta25W25 refractory high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Spolenak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="85" to="97" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Fracture properties of a refractory high-entropy alloy: in situ micro-cantilever and atom probe tomography studies</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Okle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sumigawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kitamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Spolenak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="95" to="99" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Thermochemical Data of Pure Substances</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Barin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note>third ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">On the mechanism of hot deformation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Sellars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Mctegart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1136" to="1138" />
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Constitutive modeling for elevated temperature flow behavior of 42CrMo steel</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="470" to="477" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Fracture characteristics of 3 metals subjected to various strain, strain rate, temperature and pressures</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Cook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eng. Fract. Mech</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="31" to="48" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

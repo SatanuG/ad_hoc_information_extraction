@@ -1,0 +1,2204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">International Journal of Refractory Metals &amp; Hard Materials</title>
+				<funder ref="#_U9bkWNU">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_pZNNWKY">
+					<orgName type="full">Shaanxi Natural Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-01-11">11 January 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Qingyu</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory for Manufacturing Systems Engineering</orgName>
+								<orgName type="institution">Xi&apos;an Jiaotong University</orgName>
+								<address>
+									<postCode>710049</postCode>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Mechanical Engineering</orgName>
+								<orgName type="institution">Xi&apos;an Jiaotong University</orgName>
+								<address>
+									<postCode>710049</postCode>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Hang</forename><surname>Zhang</surname></persName>
+							<email>zhanghangmu@hotmail.com</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory for Manufacturing Systems Engineering</orgName>
+								<orgName type="institution">Xi&apos;an Jiaotong University</orgName>
+								<address>
+									<postCode>710049</postCode>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Mechanical Engineering</orgName>
+								<orgName type="institution">Xi&apos;an Jiaotong University</orgName>
+								<address>
+									<postCode>710049</postCode>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Dichen</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory for Manufacturing Systems Engineering</orgName>
+								<orgName type="institution">Xi&apos;an Jiaotong University</orgName>
+								<address>
+									<postCode>710049</postCode>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Mechanical Engineering</orgName>
+								<orgName type="institution">Xi&apos;an Jiaotong University</orgName>
+								<address>
+									<postCode>710049</postCode>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zihao</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory for Manufacturing Systems Engineering</orgName>
+								<orgName type="institution">Xi&apos;an Jiaotong University</orgName>
+								<address>
+									<postCode>710049</postCode>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Mechanical Engineering</orgName>
+								<orgName type="institution">Xi&apos;an Jiaotong University</orgName>
+								<address>
+									<postCode>710049</postCode>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fu</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory for Manufacturing Systems Engineering</orgName>
+								<orgName type="institution">Xi&apos;an Jiaotong University</orgName>
+								<address>
+									<postCode>710049</postCode>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Mechanical Engineering</orgName>
+								<orgName type="institution">Xi&apos;an Jiaotong University</orgName>
+								<address>
+									<postCode>710049</postCode>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Foundry Institute</orgName>
+								<orgName type="institution">RWTH University</orgName>
+								<address>
+									<postCode>52072</postCode>
+									<settlement>Aachen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mengjie</forename><surname>Wu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory for Manufacturing Systems Engineering</orgName>
+								<orgName type="institution">Xi&apos;an Jiaotong University</orgName>
+								<address>
+									<postCode>710049</postCode>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">School of Mechanical Engineering</orgName>
+								<orgName type="institution">Xi&apos;an Jiaotong University</orgName>
+								<address>
+									<postCode>710049</postCode>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="laboratory">State Key Laboratory for Manufacturing Systems Engineering</orgName>
+								<orgName type="institution">Xi&apos;an Jiaotong University</orgName>
+								<address>
+									<postCode>710049</postCode>
+									<settlement>Xi&apos;an</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">International Journal of Refractory Metals &amp; Hard Materials</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-01-11">11 January 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">352981E32D66E622820DB5E1E0D9AA52</idno>
+					<idno type="DOI">10.1016/j.ijrmhm.2020.105195</idno>
+					<note type="submission">Received 14 December 2019; Accepted 9 January 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Medium-entropy alloy Laser metal deposition Vacuum arc melting Solid solution strengthening Intergranular cracks</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>NbMoTa refractory medium-entropy alloy (MEA) was fabricated by laser metal deposition (LMD) and vacuum arc melting (VAM) respectively. The crystal structures of NbMoTa MEA under two processes are all single-phase solid solution of BCC structure. Compared with the MEA formed by VAM, the NbMoTa MEA formed by LMD has smaller grain size and component microscopic segregation. Due to the difference in cooling rate, cellular and columnar substructures are demonstrated within the grain of LMDed MEA while the substructure within the grain of VAMed alloy is typical dendritic. However, the refinement of the grains in LMDed MEA does not lead to improvements in mechanical properties. In this study, the theoretical yield strength of NbMoTa MEA is calculated through solid solution strengthening (SSS) theory. The theoretical value is consistent with the experimental value of VAMed MEA, which is higher than the experimental value of LMDed MEA. The main reason for this result is that there are some metallurgical defects like porosities and intergranular cracks appeared in the LMDed MEA. The EDS test showed there is no elemental segregation seen at both sides of the crack. The reason for the intergranular cracks can be attributed to the high residual thermal stress caused by the rapid solidification characteristic of LMD process.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>High-entropy alloys (HEAs) with multiple principal elements are considered as a significant breakthrough in alloying theory in recent decades. In the early, HEA can be defined as a solid solution with a simple crystal structure mixed by five or more elements with a concentration between 5% and 35% atom ratio <ref type="bibr" target="#b0">[1]</ref>. Its unique alloy design concept greatly enriches the alloy design category. Moreover, the specific characteristics of HEAs, including high entropy effect, lattice distortion effect and hysteresis diffusion effect <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>, make the alloy exhibit such excellent performance as high-temperature resistance <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>, high strength and ductility <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>, corrosion and radiation resistance <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>.</p><p>With the development of research, the definition of HEAs is becoming increasingly broad. On the one hand, alloys with both FCC and BCC phases are considered as HEAs, like Al x CoCrFeNi (x = 0.375, 0.5, 0.75, 1.0) <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>, Ti 0.5 CrFeCoNiAl x Cu 1-x (x = 0.5, 0.75) <ref type="bibr" target="#b11">[12]</ref>. On the other hand, NbTiVZr <ref type="bibr" target="#b12">[13]</ref>, WNbMoTa <ref type="bibr" target="#b14">[14]</ref> quaternary equiatomic alloys are also defined as HEAs. Basically, compared with the traditional one principal element alloys, the mixing entropy of ternary or quaternary equiatomic alloys is significantly higher (△S mix &gt; 1.1R). To distinguish the types of multi-principal element alloys more accurately, alloys mixed by three to four principal elements are referred to as medium-entropy alloys (MEAs) <ref type="bibr" target="#b2">[3]</ref>. Among them, the CrCoNi MEA is currently a research hotspot due to its excellent comprehensive properties. Gludovatz et al. <ref type="bibr" target="#b15">[15]</ref> conducted the damage-tolerance of CrCoNi MEA at cryogenic temperatures and found the strength and damage tolerance of CrCoNi MEA exceeding all HEAs reported to date. Zhang et al. <ref type="bibr" target="#b16">[16]</ref> explained the exceptional strength-ductility-toughness of CrCoNi MEAs through its dislocation mechanisms and 3D twin architectures.</p><p>Due to the unique microstructure and mechanical properties, HEAs and MEAs are of great value both in theoretical research and in industrial production. At present, vacuum arc melting <ref type="bibr" target="#b17">[17,</ref><ref type="bibr" target="#b18">18]</ref>, spark plasma sintering <ref type="bibr" target="#b19">[19,</ref><ref type="bibr" target="#b20">20]</ref>, magnetron sputtering <ref type="bibr" target="#b21">[21,</ref><ref type="bibr" target="#b22">22]</ref>, splat quenching <ref type="bibr" target="#b23">[23]</ref>, powder metallurgy <ref type="bibr" target="#b24">[24,</ref><ref type="bibr" target="#b25">25]</ref> and laser claddings <ref type="bibr" target="#b26">[26,</ref><ref type="bibr" target="#b27">27]</ref> are the main methods commonly used to prepare this kind of multi principal element alloys.</p><p>In recent years, with the emergence of additive manufacturing (AM), it has become a new trend to prepare HEAs and MEAs by laser metal deposition (LMD) <ref type="bibr" target="#b28">[28,</ref><ref type="bibr" target="#b29">29]</ref> and selective laser melting (SLM) <ref type="bibr" target="#b30">[30]</ref><ref type="bibr" target="#b31">[31]</ref><ref type="bibr" target="#b32">[32]</ref>. The major features of AM technology are as follows: a) there is no need for molds in the forming process; b) the manufacturing of samples of various sizes and different structures can be realized by adjusting the process window. Kunce et al. <ref type="bibr" target="#b33">[33]</ref> processed TiZrNbMoV HEA by LMD that was used for the study of hydrogen storage. Li et al. <ref type="bibr" target="#b34">[34]</ref> manufactured W x NbMoTa (x = 0, 0.16, 0.33, 0.53) refractory MEAs through LMD and conducted that NbMoTa MEA exhibits excellent mechanical compared with traditional refractory alloys.</p><p>Although it has been proved that it is feasible to form HEAs and MEAs by AM technology, however, there are few studies on the comparison of microstructure and mechanical properties between AM technology and common synthesis techniques. In 2015, Joseph et al. <ref type="bibr" target="#b35">[35]</ref> manufactured Al x CoCrFeNi (x = 0.3, 0.6, 0.85) HEAs by direct laser fabricated (DLF) from elemental blend powders and corresponding alloys were produced by conventional arc-melting. A comparison of the microstructural and mechanical properties of these HEAs is presented. In 2018, Karlsson et al. <ref type="bibr" target="#b36">[36]</ref> produced AlCoCrFeNi by SLM and induction melting, comparing the phase composition, microstructure, and elemental segregation. To our knowledge, there are few studies on the comparison of the microstructures and mechanical properties of LMDed and VAMed refractory MEAs. In our study, equiatomic NbMoTa MEA was manufactured by LMD and VAM respectively and the comparison of phase composition, microstructure, elemental segregation, and mechanical properties is presented.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Material preparation</head><p>The LMDed NbMoTa MEA was fabricated by an LCD-1000-a LMD system independently developed by State Key Laboratory for Manufacturing Systems Engineering, Xi'an Jiaotong University. Elemental powders of Mo (99.84 wt%) were provided by H.C. Starck Inc. and Nb (99.90 wt%), Ta (99.90 wt%) powders were provided by Beijing AMC Powder Metallurgy Technology Co., Ltd. The microstructure morphology and particle size distribution of three powders are shown in Fig. <ref type="figure" target="#fig_0">1</ref>. Moreover, the characteristics of these elemental powders are shown in Table <ref type="table" target="#tab_0">1</ref>. Equiatomic NbMoTa mixture of powders was homogenised for 4 h via a three-dimensional motion mixer series at the speed of 10 rpm of principal axis. The atmosphere chamber was continuously purged with high purity argon gas (99.99%) to ensure that the oxygen concentration of the environment was lower than 80 ppm to minimize oxide formation. The LMD forming process was performed on a molybdenum substrate. The processing parameters in the experiments were optimized based on single-factor experiment: laser power of 565 W and a scanning speed of 8 mm/s. The thickness of the deposited was 0.08 mm. The substrate was heated by the induction heating coil. The magnitude of the heating current was controlled by an infrared thermometer with a closed-loop system to ensure the heating temperature was stable at 600 °C. In the forming process, the induction heating coil and the infrared thermometer rose with the rising of forming height through the linear sliding table, to realize the shapefollowing heating, shown in Fig. <ref type="figure" target="#fig_2">2(a</ref>). The purpose is to minimize the temperature gradient of the deposited layer-substrate and the deposited layer-deposited layer. A bidirectional vectors method was used in the laser scanning strategy. The scan orientation was rotated 90 °C between each layer. In each layer, the edge contour was firstly scanned and the then the internal filling with 0.25 mm lap spacing. The scanning strategy is shown in Fig. <ref type="figure" target="#fig_2">2(b)</ref>.</p><p>The VAMed NbMoTa alloy ingot was fabricated by a VRFJ-A vacuum arc melting equipment. The equi-atomic mixture of powders used as raw material was pressed into φ36 × 15 cylindrical shape by a YT32-200 four-column hydraulic press. The arc chamber was evacuated to 6.5 × 10 -3 Torr and high purity Ti was used to consume the residual gases in the chamber. The mixture was arc-melted in a watercooled copper hearth for approximately 30s. To achieve a homogeneous distribution of elements, the ingot was remelted five times, inverted in each melt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Microstructural characterization</head><p>Both alloys under two forming processes were characterised by the same equipment. Structural characterization of the NbMoTa MEA was conducted on the cross-sections by Bruker D8 Advanced A25 X-ray diffraction equipment. A Cu Kα radiation at 40 kV and 40 mA was used to produce an X-ray with a wavelength of 1.5418 Å. Scan range from 20°to 130°with a 0.02°step size. The sizes and orientation of the grains were determined by electron back-scatter diffraction (EBSD) using a SU3500 scanning electron microscope. Before the characterization, the longitudinal and cross surfaces of the alloy were ground by 38 μm SiC sandpapers, followed by fine grinding with 19 μm, 10 μm, 5.5 μm, and 5 μm SiC sandpapers. Then the surface was polished by a 2.5 μm colloidal SiO 2 suspension. Finally, the surface was thinned by a Leica EM RES102 Ion thinning apparatus. Furthermore, the SU3500 SEM with a backscatter electron (BSE) and an energy dispersive spectroscopy (EDS) detector was used to analyze the microstructures and microscopic segregations of alloy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Mechanical characterization</head><p>HXD-2000TMSC/LCD tester was used to measure Vickers microhardness H v of the Nb, Mo, Ta and NbMoTa MEA. All of the alloys were measured on polished longitudinal-section surfaces and the test parameter was applied for the 30s under a 500 g load. The H v of the alloys fabricated by LMD was measured from the substrate to the metallurgical bond, and then the cladding layer in 10 locations while the H v of alloys fabricated by VAM was measured in 10 randomly selected locations. Before the compression mechanical performance testing, the samples prepared by VAM were cut into pieces that were 6 mm and 4 mm in diameter in height. Sans CMT4304 multi-function static experiment machine was used to test the room temperature compressive property with a strain rate of 0.001 s -1 at 25 °C and Gleeble 3500 equipment was used to test the high-temperature compressive property with the same strain rate at 1000 °C. Before high-temperature compression, the chamber was evacuated to 10 -3 Torr. Then the sample was heated to 1000 °C in 3.5 min, and keep the temperature for 15 min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Phase, microstructure and texture analysis</head><p>Table <ref type="table" target="#tab_1">2</ref> shows the compositions of the NbMoTa MEA fabricated by LMD and VAM in three random areas respectively, determined by EDS detector. It can be found that the composition of each element is close to the ratio of design and the element distribution of LMDed alloy is slightly more uniform than that of VAMed MEA. The result shows that the alloys fabricated under the two processes have no obvious macroscopic burning loss to the elements. Fig. <ref type="figure" target="#fig_3">3</ref> exhibits the XRD patterns of both the VAMed and LMDed NbMoTa MEA. The result shows that both alloys have a single phase of body-centered cubic (BCC). The full width at half maximum (FWHM) of the (110) peak detected in the LAM process is 0.200°, higher than that of VAMed alloy (0.164°), suggesting a smaller grain size according to Scherrer equation. It is also noticed that for the VAMed MEA, the (200), ( <ref type="formula">211</ref>), (310), (321) peaks are not observed compared with that of alloy fabricated by LAM. This is due to the larger size of the alloy fabricated by VAM; the number of grains observed is less in the scanning region of equal size.</p><p>Fig. <ref type="figure">4</ref> shows the EBSD measurements of NbMoTa MEA fabricated by LAM and VAM on both transverse and longitudinal solidification direction respectively. Fig. <ref type="figure">4</ref>(a) and (b) reveals that the grain size of NbMoTa fabricated by LAM (13.18 μm) is much smaller compared with the alloy by VAM (112.52 μm). Fig. <ref type="figure">4(c</ref>) and (d) exhibit the growth mode for crystal grains of LMDed and VAMed NbMoTa MEA on longitudinal solidification direction. In Fig. <ref type="figure">4</ref>(c), the columnar crystals are randomly oriented at the bottom, middle and top of the regions. Then, at the bottom region, the grains are noticeably elongated along with the laser scanning directions, perpendicular to the substrate, caused by the thermal gradient between substrate and the deposited layer, deposited layer and deposited layer. As the deposited height increased, the direction of the thermal gradient gradually changes from the vertical scanning direction to the near parallel scanning direction, leading to columnar grains nearly parallel to the scanning direction that appeared in the top region. This phenomenon can be also illustrated in Fig. <ref type="figure">4(a)</ref>. Moreover, in Fig. <ref type="figure">4(d)</ref>, the growth mode for crystal grains of VAMed NbMoTa MEA shows a trend of directional growth, perpendicular to the copper hearth. Compared with the bottom region, the direction of crystal grains growth does not change, but the columnar crystals in the top region tend to transform into equiaxed crystals. Fig. <ref type="figure">5</ref> shows BSE and EDS images for microstructure observations. In Fig. <ref type="figure">5</ref>(a), the microstructure of LMDed MEA was observed in the longitudinal section. A typical cellular and columnar substructure is demonstrated within grains, similar to the CoCrFeNiMn HEA fabricated by SLM <ref type="bibr" target="#b39">[39]</ref>. Fig. <ref type="figure">5(b)</ref> shows the segregation at the ~1 μm level in this substructure. From the EDS analysis, the qualitative segregation  characteristics can be observed: Molybdenum is uniformly distributed in the substructure. Due to the asymmetry of the melting point, tantalum with the highest melting point is solidified first, enriched in the interior of the substructure, forcing niobium with the lowest melting point enriched into the boundary of the substructure. Moreover, in Fig. <ref type="figure">5</ref>(e) and Fig. <ref type="figure">5</ref>(f), the grain boundary of the LMDed NbMoTa MEA is not obvious, and there is no obvious microscopic constitutional segregation at the grain boundary. In Fig. <ref type="figure">5</ref>(c), the substructure within the grain of the longitudinal section of VAMed alloy is typical dendritic, similar to the WNbMoTa HEA fabricated through the same forming process <ref type="bibr" target="#b14">[14]</ref>. Fig. <ref type="figure">5(d)</ref> shows a greater concentration of segregation than that of LMD process. The distribution of elements in two process follows the rule of asymmetry of a melting point: Tantalum is solidified first in the dendrite cores, finally forcing niobium enriched into the interdendritic region. In Fig. <ref type="figure">5</ref>(g) and Fig. <ref type="figure">5</ref>(h), the grain boundary of the VAMed alloy is obvious, and the segregation at the grain boundary is also in accord with the rule. Consequently, it can be concluded that all these microstructures are caused by the cooling rate, which will be discussed in Section 4.2 in detail.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Comprehensive mechanical property</head><p>The average values of H v are 356.3 ± 12.2, 333.2 ± 12.1, 220.2 ± 12.9, 486.8 ± 16.6, 516.6 ± 15.4 for LAMed Nb, Mo, Ta, NbMoTa and VAMed NbMoTa, respectively, shown in Fig. <ref type="figure" target="#fig_6">6</ref>(a). According to the rule-of-mixtures (ROM):</p><formula xml:id="formula_0">∑ = H c H ( ) v i vi<label>(1)</label></formula><p>According to the experimental value of elemental Nb, Mo and Ta fabricated by LMD, the values of calculated H v of NbMoTa MEA is about 303.23, less than the experimental H v of either VAMed or LMDed NbMoTa MEA. Obviously, NbMoTa MEA does not obey the ROM. It can be explained by lattice distortion effect of MEA <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>: Nb, Mo, Ta atoms have equal probability to occupy the position of each lattice in the BCC crystal randomly and there is no difference between the solvent atom and the solute atom, which leads to solid solution strengthening, showing greater microhardness. Moreover, the H v of VAMed NbMoTa with larger grain sizes is greater than that of LMDed alloy.</p><p>The bulk modulus of the NbMoTa MEA was measured to be 174 GPa. The compressive stress-strain curve of the LMDed and VAMed NbMoTa MEAs at 25 °C is illustrated in Fig. <ref type="figure" target="#fig_6">6</ref>(b), while the compressive stress-strain curve for the LMDed and VAMed NbMoTa MEAs at 1000 °C is illustrated in Fig. <ref type="figure" target="#fig_6">6(c)</ref>. The specific values of the compressive experiments are shown in Table <ref type="table" target="#tab_2">3</ref>. Due to the grain refinement, the plasticity of the LMDed NbMoTa MEA is better than that of the VAMed alloy either at room temperature or at high temperature. However, the yield strength and compressive strength of LMDed NbMoTa MEA are lower than those fabricated by VAM. These results are consistent with the Vickers microhardness relationship of the MEA under two processes, all on contrary to the Hall-petch relation <ref type="bibr" target="#b40">[40]</ref><ref type="bibr" target="#b41">[41]</ref><ref type="bibr" target="#b42">[42]</ref>, which will be discussed in Sections 4.1 and 4.2. Fig. <ref type="figure" target="#fig_7">7</ref> shows the yield strengths of the VAMed NbMoTa refractory MEA, six reported refractory HEA <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b43">[43]</ref><ref type="bibr" target="#b44">[44]</ref><ref type="bibr" target="#b45">[45]</ref>, two conventional superalloys <ref type="bibr" target="#b3">[4]</ref> and Ti6-Al4-V alloy <ref type="bibr" target="#b46">[46]</ref> at high temperature. Through this figure, it can be found that the yield strength of the NbMoTa MEA at 1000 °C is slightly below to the VNbMoTaW HEA, higher than other refractory alloys like NbMoTaW HEA, Inconel 718, Ti6-Al4-V.    solid solutions can be considered from the elastic interaction between the local stress field of a solute atom and those of dislocation <ref type="bibr" target="#b47">[47,</ref><ref type="bibr" target="#b48">48]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>Recently, many scholars have developed and calculated the strengthening theories to evaluate solid-solution strengthening for HEAs and MEAs. Senkov et al. <ref type="bibr" target="#b49">[49]</ref> regarded TaNbHfZrTi HEA as a pseudo-binary system and propose a simple model firstly. Toda-caraballo et al. <ref type="bibr" target="#b50">[50]</ref> referred to Fleisher's theory to propose a more rigorous SSS theory. Yao et al. <ref type="bibr" target="#b51">[51]</ref>, Wang and Xu <ref type="bibr" target="#b52">[52]</ref> optimized some parameters of the theory to make the theoretical value closer to the experimental value. The interaction force (F) can be estimated as:</p><formula xml:id="formula_1">= F Gb δ 2 (2)</formula><p>where G is the shear modulus of the alloy, b is the magnitude of the burgers vector, and δ is the mismatch parameter. In a concentrated solid solution, the SSS can be defined as:</p><formula xml:id="formula_2">= - Δσb Z c E L 2 4/3 2/3 1/3<label>(3)</label></formula><p>where Z is a dimensionless material constant, c is the concentration of solute, and E L is expressed as E L = Gb 2 /2. Combine Eqs. ( <ref type="formula" target="#formula_14">2</ref>) with (3), the value for SSSΔσ i can be obtained:</p><formula xml:id="formula_3">= Δσ AGδ c i i i 4/3 2/3<label>(4)</label></formula><p>where A is a fitting material-dependent dimensionless constant, which is of the order of 0.0222 <ref type="bibr" target="#b52">[52]</ref>. G is the shear modulus of the alloy, estimated to be of 77.67GPa through ROM, c i is the i solute concentration, and δ i is the mismatch parameter determined by:</p><formula xml:id="formula_4">= ′ + = ′ + δ δ βδ δ β δ [ ] ( ) i Gi ai Gi ai 2 2 2 1/2</formula><p>(5)</p><formula xml:id="formula_5">′ = + = ⎛ ⎝ ⎞ ⎠ = ⎛ ⎝ ⎞ ⎠ δ δ δ δ dG dc G δ da dc a 1 | |/2 ; 1 ; 1 Gi Gi Gi Gi i ai i (6)</formula><p>Here δ Gi ' represents the modulus misfit while δ ai represents the atomic size misfit. β is a parameter, which value depends on the type of mobile dislocation, including screw-and edge-type dislocations. In general, β is 2-4 for the screw-type dislocations and β ≥ 16 for edgetype dislocations <ref type="bibr" target="#b49">[49]</ref>. Regarding the value of parameter β, according to Toda-caraballo et al. <ref type="bibr" target="#b50">[50]</ref>, when the dominant dislocations are edgetype, the agreement between experimental and computed value δ i is described well. Wang and Xu <ref type="bibr" target="#b52">[52]</ref> proposed the SSH effect is mainly determined by edge-type dislocations because the pinning of edge-type dislocations renders alloying atoms less mobile compared to screw-type ones in HEAs with BCC solid solution. The structure of NbMoTa MEA is a single-phase solid solution of BCC structure. Therefore, the value of β was identified to be 16. Every unit cell in the single-phase BCC crystal lattice contains nine atoms, and each atom has eight nearest-neighbor atoms. In the heavy  Gi j Gij <ref type="bibr" target="#b7">(8)</ref> where c j is the atom fraction of j element in the alloy. 9 is the number of atoms in the i-centered cluster in each unit cell, 8 is the number of atoms neighboring with the i-centered atom. δ aij = 2(r i -r j )(r i + r j )is the atomic size difference of elements i and j, while</p><formula xml:id="formula_6">δ Gij = 2(G i -G j ) (G i + G j )</formula><p>is the shear modulus difference between elements i and j.</p><p>The atomic radius, shear modulus and yield strength of the elemental elements are listed in Table <ref type="table" target="#tab_0">1</ref>, while the calculated parameters of δ aij , δ Gij are presented in Table <ref type="table" target="#tab_3">4</ref>, and δ ai , δ Gi ' in Table <ref type="table" target="#tab_4">5</ref>. Substitute the parameters of each element calculated above into the Eqs. ( <ref type="formula" target="#formula_3">4</ref>), and then the SSS of the NbMoTa MEA alloy (Δσ) is expressed in the form of the following equation:</p><formula xml:id="formula_7">∑ = Δσ Δσ ( ) i 3/2 2/3<label>(9)</label></formula><p>The predicted yield stress of the NbMoTa alloy can then be estimated through the summation of the yield strength calculated using the theorem of ROM (σ s mix ) and Δσ:</p><formula xml:id="formula_8">= + σ σ Δ σ s cal s mix (<label>10</label></formula><formula xml:id="formula_9">)</formula><p>According to the above equation, the calculated yield strength is 1068 MPa. The value is very close to the yield strength obtained by VAM (999 MPa). The model predicted values agree well with   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Solidification behavior and metallurgical crack defects</head><p>The grain size fabricated by LMD is obviously refined. Compared to the NbMoTa MEA produced by VAM. According to the Hall-Petch relation:</p><formula xml:id="formula_10">= + - σ σ k D s GB 0 1 1/2<label>(11)</label></formula><p>where σ 0 and k 1 are constants,σ 0 is lattice friction generated when a single dislocation is moved, D GB and σ s are the grain size and yield strength.</p><formula xml:id="formula_11">= + - H H k D v HGB 0 1/2<label>(12)</label></formula><p>where H 0 and k H are constants associated with the microhardness testing, D GB and H v are the grain size and microhardness. In general, the yield strength or microhardness of HEAs and MEAs are positively linear correlated with grain size. However, it is found that the mechanical properties of the NbMoTa MEA fabricated by LMD are less than that fabricated by VAM. This phenomenon can be attributed to the metallurgical defects like porosities and metallurgical cracks generated in NbMoTa MEA, shown in Fig. <ref type="figure" target="#fig_8">8</ref>(a). According to Fig. <ref type="figure" target="#fig_8">8</ref>(b), it can be observed that this kind of cracks belongs to intergranular cracks and we can figure out that there was no significant elemental microscopic segregation near the grain boundary in NbMoTa MEA by LAM through EDS test in Fig. <ref type="figure" target="#fig_8">8(c</ref>). Metallurgical defects in HEAs and MEAs produced by AM are not uncommon. Li <ref type="bibr" target="#b31">[31]</ref> found microcracks and micropores are apparently presented in SLM printed CoCrFeMnNi HEA sample and he eliminated most of the micropores and the microcracks after hot isostatic pressing (HIP). Owing to these metallurgical defects, the CoCrFeMnNi HEA after HIP did not function better in the tensile strength than the same materials formed by casting. Karlsson et al. <ref type="bibr" target="#b36">[36]</ref> also discovered it was not possible to reduce the crack density and porosity by an increase of the total energy input in the process of forming AlCoCrFeNi HEA by SLM.</p><p>In the process of forming NbMoTa MEA through LMD, increasing the laser power or decreasing the scanning speed would increase the cracking susceptibility and lead to an increase in the number of cracks. However, when the laser power was decreased or the scanning speed was increased, although the cracking susceptibility decreasing, a large number of unmelted elemental powders appeared, which will seriously affect the uniformity of the alloy composition. The occurrence of cracks is the main factor causing the decrease of yield strength of NbMoTa.</p><p>In the process of AM, it is well known that the chemical heterogeneity at grain boundary helps to keep the liquid film <ref type="bibr" target="#b53">[53]</ref>. After rapid solidification, these liquid films tend to form cracks. However, Harrison et al. <ref type="bibr" target="#b54">[54]</ref> proved that there was no significant matrix elemental microscopic segregation across the crack through the EDS test in the SLM process of forming Hastelloy X alloy. After that, Sun et al. <ref type="bibr" target="#b55">[55]</ref> studied the mechanism of hot tearing formation in CoCrFeNi HEA, and he built elemental distribution in the 3D form at the atomic level near an intergranular crack through APT technique. The final results showed that no elemental segregation seen at the metallurgical crack, in good agreement with the present study.</p><p>Mercelis and Kruth <ref type="bibr" target="#b56">[56]</ref> described the thermal residual stresses generated in AM parts by two mechanisms; Thermal Gradient Mechanism (TGM) and the cool-down phase of molten top layers. The rapid heating of the top cladding layer combined with a slower heat transfer efficiency of the deposited material, creates a steep temperature gradient.</p><p>Harrison et al. <ref type="bibr" target="#b54">[54]</ref> proposed that both mechanisms can release thermal residual stress through cracking if the tensile stress exceeds the ultimate tensile strength of the materials at a given temperature. This solid-phase fracturing is defined as 'hot cracking'. Additional attention should be paid to the fact that this type of cracks usually occurs at grain boundaries but different from the solidification/liquation crack, which is mainly due to the low melting eutectic phase or liquid film at the grain boundary rather than the thermal residual stress. All the above results are overwhelming that this kind of cracks belongs to hot cracking, mainly caused by thermal residual stress.</p><p>It is generally considered that LMD belongs to the category of rapid solidification. High-energy laser beam rises to heat and melting powders materials quickly, then solidifying at a superfast cooling rate. The cooling rate of LMD process is between 10 3 and 10 6 K•s -1 , far greater than that of VAM (10-10 2 K•s -1 ), leading to a rapid solidification structure <ref type="bibr" target="#b35">[35]</ref>. Davies et al. <ref type="bibr" target="#b57">[57]</ref> established a relation between primary Dendrite Arm Spacing and cooling rate:  value of primary DAS is measured in Fig. <ref type="bibr" target="#b4">(5)</ref>. In the LMD process, the DAS is 1.84 μm while in the VAM process, the DAS is 20.93 μm. The cooling rate of the LMD process is about 10 3 times that of the VAM process in forming NbMoTa MEA through calculation. On the one hand, a faster cooling rate promotes the cellular or columnar growth inside the substructure of the MEA and there is no time to form secondary dendrites microstructure, which was observed in VAMed NbMoTa MEA. On the other hand, the faster cooling rate creates a large steep temperature gradient within the alloy. Zhou et al. <ref type="bibr" target="#b58">[58]</ref> and Kadolkar et al. <ref type="bibr" target="#b59">[59]</ref> calculated the residual thermal stress by the equation in cladding deposition process:</p><formula xml:id="formula_12">= + ⎛ ⎝ ∂ ∂ ⎞ ⎠ - ± λ T t</formula><formula xml:id="formula_13">= - - + σ E E t α α Δ ν E t E t ( ) T (1 )( ) T s s c s s s c c c<label>(14)</label></formula><p>where E c , α c and t c are the elastic modulus, the coefficient of thermal expansion and the height of the coating layer, respectively, E s , α s and t s are the elastic modulus, the coefficient of thermal expansion and the height of the substrate, respectively, ν represent Poisson ratio, ΔT represents the difference between the solidification temperature of the coating material and the room temperature. In the LMD process, as the z-axis continues to rise, the height of each layer can be approximately equal. Moreover, the elastic modulus of the material composition of each layer is the same. The above formula can be simplified as follows:</p><formula xml:id="formula_14">= -′ ′ - σ E t α α Δ ν E t ( ) T (1 )<label>(2 )</label></formula><formula xml:id="formula_15">T c c c c c 2 c<label>(15)</label></formula><p>where a c ′ and a c represent the coefficient of thermal expansion between the deposited layer and the upper deposited layer. ΔT′ represents the difference between the solidification temperature of the deposited layer and the temperature of the upper deposited layer. In the process of LMD of NbMoTa MEA, due to the high melting point of Ta, Nb, Mo powders, high temperature is required to make the powders fully alloyed. The parameter ΔT′ is the main factor determining the residual thermal stress of the alloy. Even though induction heating equipment was used to reduce the temperature gradient during LMD forming, the melting point of the Ta element was nearly twice that of materials such as Ti6-Al4-V commonly used in the LMD process. The steep temperature gradient between the substrate and deposited layer, deposited layer and deposited layer results in extremely high thermal stress inside the alloy, and finally leading to the intergranular cracking.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>By comparing the microstructure and mechanical properties of LMDed and VAMed refractory NbMoTa MEAs, several conclusions can be drawn as follows:</p><p>(a) There is no obvious macroscopic burning loss to the elements in refractory NbMoTa MEA under LMD and VAM processes. The crystal structures of the MEA under two processes are all singlephase solid solution of BCC structure. (b) Due to the rapid solidification characteristics, the grain size of LMDed NbMoTa MEA is refined (13.18 μm) and the columnar crystals are randomly oriented on longitudinal solidification direction. The substructure is a typical cellular and columnar within grains. Due to the asymmetry of the melting point, tantalum with the highest melting point is solidified first, enriched in the interior of the substructure, forcing niobium with the lowest melting point enriched into the boundary of the substructure. (c) The grain size of VAMed NbMoTa MEA is typically 112.52 μm. The substructure within the grain is typical dendritic. Although the distribution of elements in VAM process also follows the rule of asymmetry of melting point, the NbMoTa MEA shows a greater concentration of segregation within grains. (d) The experimental yield strength of VAMed NbMoTa MEA at room temperature was consistent with the calculated value through SSS theory. The experimental yield strength of VAMed MEA is higher than that of LMDed MEA in both room temperature and high temperature. This result is inconsistent with the microstructure of the MEA under two processes, not satisfying the Hall-petch relation. The yield strength and compressive strength of VAMed NbMoTa MEA at 1000 °C is 712 MPa and 920 MPa and it is competitive in high-temperature alloys. (e) The decrease of yield strength in LMDed MEA is mainly due to metallurgical defects like porosities and metallurgical cracks. The cracks belong to the intergranular cracks, caused by the thermal residual stress. In the LMD process, to fully melt the elemental powders with a high melting point, the heat input with high energy density is unavoidable. The steep temperature gradient between the deposited layer-substrate, the deposited layer-deposited layer finally leads to the intergranular cracking. It is challenging for the fabrication of refractory HEAs and MEAs by LMD process.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. The morphology and particle size distribution of the powders. (a), (b) Nb powders; (c), (d) Mo powders; (e), (f) Ta powders.</figDesc><graphic coords="3,98.42,57.03,398.38,414.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>4. 1 .</head><label>1</label><figDesc>Solid solution strengthening of NbMoTa MEAIt is widely known that solid solution strengthening (SSS) of metallic</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. LMD forming process. (a) Induction heating process; (b) LMD scanning strategy.</figDesc><graphic coords="4,84.25,57.03,426.67,154.77" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. X-ray diffraction (XRD) patterns of the LMDed and VAMed NbMoTa MEA.</figDesc><graphic coords="4,49.04,353.99,228.19,178.53" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .Fig. 5 .</head><label>45</label><figDesc>Fig. 4. EBSD images of NbMoTa MEA. (a) Cross section (LMD); (b) Cross section (VAM); (c) longitudinal sections (LMD); (d) longitudinal sections (VAM);</figDesc><graphic coords="5,98.42,57.03,398.38,419.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Mechanical properties of the alloy. (a) Vickers microhardness of the LMDed Nb, Mo, Ta, NbMoTa and VAMed NbMoTa; (b) Compressive stress-strain curves of LMDed [34] and VAMed NbMoTa MEA at 25 °C; (c) Compressive stress-strain curves of LMDed [34] and VAMed NbMoTa MEA at 1000 °C.</figDesc><graphic coords="7,98.42,57.03,398.38,335.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Comparison of the temperature relationship of yield strengths. The VAMed NbMoTa MEA is shown in two red stars (room temperature and high temperature). VNbMoTaW, NbMoTaW, NbTaTiV, TiNbMoTaW, Al 2 CoCrCuFeNi, and HfNbTaTiZr HEAs are shown in solid line, Inconel 718, Haynes 230 superalloys and TC4 (Ti6-Al4-V) are shown in dash line. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)</figDesc><graphic coords="7,308.07,431.66,248.15,178.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Microstructure of LMDed NbMoTa MEA. (a) Metallurgical defects like the porosities and the metallurgical cracks; (b) BSE image at a crack, (b) The elemental distribution images at a crack.</figDesc><graphic coords="8,308.07,57.03,248.15,295.43" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Crystal structures, physical and mechanical properties of Nb, Mo and Ta elemental powders. The atomic radius、fundamental mechanical properties of relevant refractory elements at room temperature taken from Refs.<ref type="bibr" target="#b37">[37,</ref><ref type="bibr" target="#b38">38]</ref>.</figDesc><table><row><cell>Element</cell><cell>Nb</cell><cell>Mo</cell><cell>Ta</cell></row><row><cell>Melting point [K]</cell><cell>2750</cell><cell>2896</cell><cell>3290</cell></row><row><cell>Boiling point [K]</cell><cell>5017</cell><cell>5158</cell><cell>5731</cell></row><row><cell>Density [g/cm 3 ]</cell><cell>8.57</cell><cell>10.2</cell><cell>16.65</cell></row><row><cell>Thermal conductivity [W/mk]</cell><cell>54</cell><cell>139</cell><cell>57</cell></row><row><cell>Standard atomic weight [u]</cell><cell>92.9</cell><cell>95.94</cell><cell>180.9</cell></row><row><cell>Atomic radius [Å]</cell><cell>1.429</cell><cell>1.3626</cell><cell>1.43</cell></row><row><cell>Shear modulus [GPa]</cell><cell>38</cell><cell>126</cell><cell>69</cell></row><row><cell>Particle size [μm]</cell><cell>57-130</cell><cell>42-101</cell><cell>39-94</cell></row><row><cell>Particle shape</cell><cell>Spherical</cell><cell>Spherical</cell><cell>Spherical</cell></row><row><cell>Crystal structure at RT</cell><cell>BCC</cell><cell>BCC</cell><cell>BCC</cell></row><row><cell>Lattice parameter [Å]</cell><cell>3.301</cell><cell>3.1468</cell><cell>3.303</cell></row><row><cell>Hardness [H v ]</cell><cell>135</cell><cell>156</cell><cell>89</cell></row><row><cell>Yield Strength [MPa]</cell><cell>240</cell><cell>432.5</cell><cell>189.5</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Chemical composition (in at.%) of LMDed and VAMed MEAs.</figDesc><table><row><cell>Alloy ID/Element</cell><cell>Area</cell><cell>Nb</cell><cell>Mo</cell><cell>Ta</cell></row><row><cell>NbMoTa (LMD)</cell><cell>#1</cell><cell>34.39</cell><cell>32.30</cell><cell>33.31</cell></row><row><cell></cell><cell>#2</cell><cell>33.96</cell><cell>32.32</cell><cell>33.71</cell></row><row><cell></cell><cell>#3</cell><cell>33.90</cell><cell>33.76</cell><cell>32.34</cell></row><row><cell>NbMoTa (VAM)</cell><cell>#1</cell><cell>34.63</cell><cell>33.19</cell><cell>32.18</cell></row><row><cell></cell><cell>#2</cell><cell>32.98</cell><cell>32.47</cell><cell>34.55</cell></row><row><cell></cell><cell>#3</cell><cell>32.40</cell><cell>32.54</cell><cell>35.06</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Values of compression properties of the LMDed and VAMed NbMoTa MEA.</figDesc><table><row><cell cols="2">Temperature/°C Preparation</cell><cell>Yield</cell><cell>Compressive</cell><cell>Strain/ %</cell></row><row><cell></cell><cell>method</cell><cell>strength/</cell><cell>strength/ MPa</cell><cell></cell></row><row><cell></cell><cell></cell><cell>MPa</cell><cell></cell><cell></cell></row><row><cell>25</cell><cell>LMD [34]</cell><cell>874</cell><cell>1140</cell><cell>5.8</cell></row><row><cell></cell><cell>VAM</cell><cell>999</cell><cell>1167</cell><cell>2.5</cell></row><row><cell>1000</cell><cell>LMD [34]</cell><cell>530</cell><cell>684</cell><cell>8.5</cell></row><row><cell></cell><cell>VAM</cell><cell>712</cell><cell>920</cell><cell>3.8</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>The relative atomic size difference, δ aij (underlined numbers), and δ Gij modulus difference (bold numbers), between elements pairs in NbMoTa MEA.Element i/j δ aij /δ Gij</figDesc><table><row><cell></cell><cell>0.36 0.01</cell><cell></cell></row><row><cell>1</cell><cell>97 5</cell><cell>(13)</cell></row><row><cell cols="2">where λ 1 is Dendrite Arm Spacing (DAS), and</cell><cell>∂ ∂ ( )</cell></row></table><note><p>T t is cooling rate. The</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5</head><label>5</label><figDesc>Calculated atomic size misfit, δ ai , and modulus misfit, δ Gi</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>' , in NbMoTa MEA.</cell></row><row><cell cols="2">Element</cell><cell>Nb</cell><cell>Mo</cell><cell>Ta</cell></row><row><cell>δ ai</cell><cell></cell><cell>0.0174</cell><cell>-0.0356</cell><cell>0.0182</cell></row><row><cell>δ Gi</cell><cell>'</cell><cell>-0.4731</cell><cell>0.4743</cell><cell>-0.0020</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was financially supported by the <rs type="funder">National Natural Science Foundation of China</rs> (No. <rs type="grantNumber">51975459</rs>) and <rs type="funder">Shaanxi Natural Science Foundation</rs> (No.<rs type="grantNumber">2017JM5046</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_U9bkWNU">
+					<idno type="grant-number">51975459</idno>
+				</org>
+				<org type="funding" xml:id="_pZNNWKY">
+					<idno type="grant-number">2017JM5046</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Competing Interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Nanostructured high-entropy alloys with multiple principal elements: novel alloy design concepts and outcomes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.200300567</idno>
+		<ptr target="https://doi.org/10.1002/adem.200300567" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="299" to="303" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A critical review of high entropy alloys and related concepts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.08.081</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2016.08.081" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="448" to="511" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-27013-5</idno>
+		<ptr target="https://doi.org/10.1007/978-3-319-27013-5ISBN9783319270135" />
+		<title level="m">High-Entropy Alloys: Fundamentals and Applications</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb 25 Mo 25 Ta 25 W 25 and V 20 Nb 20 Mo 20 Ta 20 W 20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2011.01.004</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2011.01.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Effect of Ti additions on mechanical properties of NbMoTaW and VNbMoTaW refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2017.01.007</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2017.01.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Synergic strengthening by oxide and coherent precipitate dispersions in high-entropy alloy prepared by powder metallurgy</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Moravcik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gouvea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hornik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Kovacova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kitzmantel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Neubauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dlouhy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2018.07.034</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2018.07.034" />
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="page" from="24" to="29" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Ultrastrong ductile and stable high-entropy alloys at small scales</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Spolenak</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms8748</idno>
+		<ptr target="https://doi.org/10.1038/ncomms8748" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Homogenization of Al x CoCrFeNi high-entropy alloys with improved corrosion resistance</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Balke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.corsci.2018.01.030</idno>
+		<ptr target="https://doi.org/10.1016/j.corsci.2018.01.030" />
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="120" to="131" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Exploring radiation induced segregation mechanisms at grain boundaries in equiatomic CoCrFeNiMn high entropy alloy under heavy ion irradiation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Barr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Nathaniel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Unocic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Taheri</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2018.06.041</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2018.06.041" />
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="page" from="80" to="84" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Phases, microstructure and mechanical properties of Al x CoCrFeNi high-entropy alloys at elevated temperatures</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2013.11.084</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2013.11.084" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">589</biblScope>
+			<biblScope unit="page" from="143" to="152" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Microstructure, thermophysical and electrical properties in Al x CoCrFeNi (0 ≤ x ≤2) high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.mseb.2009.05.024</idno>
+		<ptr target="https://doi.org/10.1016/j.mseb.2009.05.024" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. B Solid-State Mater. Adv. Technol</title>
+		<imprint>
+			<biblScope unit="volume">163</biblScope>
+			<biblScope unit="page" from="187" to="189" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Atomic packing efficiency and phase transition in a high entropy alloy</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2008.11.059</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2008.11.059" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">478</biblScope>
+			<biblScope unit="page" from="321" to="324" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Low-density, refractory multi-principal element alloys of the Cr-Nb-Ti-V-Zr system: microstructure and</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><forename type="middle">Q</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Refractory Metals &amp; Hard Materials</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page">105195</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1016/j.actamat.2012.11.032</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2012.11.032" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1545" to="1557" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Refractory highentropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2010.05.014</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2010.05.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1758" to="1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Exceptional damage-tolerance of a medium-entropy alloy CrCoNi at cryogenic temperatures</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V S</forename><surname>Thurston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms10602</idno>
+		<ptr target="https://doi.org/10.1038/ncomms10602" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">10602</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Dislocation mechanisms and 3D twin architectures generate exceptional strength-ductility-toughness combination in CrCoNi medium-entropy alloy</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms14390</idno>
+		<ptr target="https://doi.org/10.1038/ncomms14390" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical property of a novel ReMoTaW high-entropy alloy with high density</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijrmhm.2018.05.006</idno>
+		<ptr target="https://doi.org/10.1016/j.ijrmhm.2018.05.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Refract. Met. Hard Mater</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="8" to="11" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Oxidation response of a vacuum arc melted NbZrTiCrAl refractory high entropy alloy at 800-1200 °C</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.vacuum.2019.01.026</idno>
+		<ptr target="https://doi.org/10.1016/j.vacuum.2019.01.026" />
+	</analytic>
+	<monogr>
+		<title level="j">Vacuum</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="20" to="27" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Microstructures and mechanical properties of mechanically alloyed and spark plasma sintered Al 0.3 CoCrFeMnNi high entropy alloy</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Pohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Hwang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Hong</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matchemphys.2017.09.013</idno>
+		<ptr target="https://doi.org/10.1016/j.matchemphys.2017.09.013" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">210</biblScope>
+			<biblScope unit="page" from="62" to="70" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of a CoCrFeMnNi high entropy alloy processed by milling and spark plasma sintering</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laurent-Brocq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Goujon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Monnier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Villeroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pirès</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Garcin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2018.11.181</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2018.11.181" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">780</biblScope>
+			<biblScope unit="page" from="856" to="865" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Mechanical and electrical properties of NbMoTaW refractory high-entropy alloy thin films</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Ham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Choi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijrmhm.2019.02.005</idno>
+		<idno>02.005</idno>
+		<ptr target="https://doi.org/10.1016/j.ijrmhm" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Refract. Met. Hard Mater</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="286" to="291" />
+			<date type="published" when="2019">2019. 2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Investigation of structure and mechanical properties of TiZrHfNiCuCo high entropy alloy thin films synthesized by magnetron sputtering</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Mun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Jumaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Il</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Jeong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Kwon</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2019.05.043</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2019.05.043" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">797</biblScope>
+			<biblScope unit="page" from="834" to="841" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Decomposition in multicomponent AlCoCrCuFeNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wanderka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Murty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Glatzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Banhart</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2010.09.023</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2010.09.023" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="182" to="190" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Mechanical and microstructural characterization of powder metallurgy CoCrNi medium entropy alloy</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Moravcik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cizek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Kovacova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nejezchlebova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kitzmantel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Neubauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kubena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hornik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dlouhy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2017.06.086</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2017.06.086" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">701</biblScope>
+			<biblScope unit="page" from="370" to="380" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of Ti-Al-Ni-co-Fe based high entropy alloys prepared by powder metallurgy route</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sekhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Samal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Bakshi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2019.02.083</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2019.02.083" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">787</biblScope>
+			<biblScope unit="page" from="123" to="132" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Structure and high-temperature property of amorphous composite coating synthesized by laser cladding FeCrCoNiSiB high-entropy alloy powder</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Y</forename><surname>Shu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">X</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Sui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2017.08.248</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2017.08.248" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">731</biblScope>
+			<biblScope unit="page" from="662" to="666" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">High temperature wear performance of laser-cladded FeNiCoAlCu high-entropy alloy coating</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apsusc.2018.03.135</idno>
+		<ptr target="https://doi.org/10.1016/j.apsusc.2018.03.135" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">445</biblScope>
+			<biblScope unit="page" from="113" to="122" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Microstructural characterisation of high-entropy alloy AlCoCrFeNi fabricated by laser engineered net shaping</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kunce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Polanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Karczewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Plocinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Kurzydlowski</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2015.05.144</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2015.05.144" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">648</biblScope>
+			<biblScope unit="page" from="751" to="758" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Laser metal deposition of compositionally graded TiZrNbTa refractory high-entropy alloys using elemental powder blends</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dobbelstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Gurevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ostendorf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Laplanche</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.addma.2018.10.042</idno>
+		<ptr target="https://doi.org/10.1016/j.addma.2018.10.042" />
+	</analytic>
+	<monogr>
+		<title level="j">Addit. Manuf</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="252" to="262" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">On the machining of selective laser melting CoCrFeMnNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L S</forename><surname>Nai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wei</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2018.05.012</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2018.05.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="211" to="220" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Selective laser melting of an equiatomic CoCrFeMnNi high-entropy alloy: Processability, non-equilibrium microstructure and mechanical property</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2018.02.298</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2018.02.298" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">746</biblScope>
+			<biblScope unit="page" from="125" to="134" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Microstructures and mechanical properties of C-containing FeCoCrNi high-entropy alloy fabricated by selective laser melting</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2018.01.002</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2018.01.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="165" to="171" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Microstructure and hydrogen storage properties of a TiZrNbMoV high entropy alloy synthesized using laser Engineered Net Shaping (LENS)</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kunce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Polanski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bystrzycki</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijhydene.2014.02.067</idno>
+		<ptr target="https://doi.org/10.1016/j.ijhydene.2014.02.067" />
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Hydrog. Energy</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="9904" to="9910" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">W x NbMoTa refractory high-entropy alloys fabricated by laser cladding deposition</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yan</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma12030533</idno>
+		<ptr target="https://doi.org/10.3390/ma12030533" />
+	</analytic>
+	<monogr>
+		<title level="j">Materials (Basel)</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">533</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Comparative study of the microstructures and mechanical properties of direct laser fabricated and arc-melted Al x CoCrFeNi high entropy alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Joseph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jarvis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stanford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hodgson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Fabijanic</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2015.02.072</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2015.02.072" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">633</biblScope>
+			<biblScope unit="page" from="184" to="193" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Elemental segregation in an AlCoCrFeNi high-entropy alloy -a comparison between selective laser melting and induction melting</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Karlsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marshal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Johansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schuisky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sahlberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Jansson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2018.12.267</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2018.12.267" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">784</biblScope>
+			<biblScope unit="page" from="195" to="203" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Effect of the atomic size distribution on glass forming ability of amorphous metallic alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0025-5408(01)00715-2</idno>
+		<ptr target="https://doi.org/10.1016/S0025-5408(01)00715-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Bull</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="2183" to="2198" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<ptr target="http://en.wikipedia.org/wiki/Element" />
+		<title level="m">Wikipedia, the free encyclopedia</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Hierarchical microstructure and strengthening mechanisms of a CoCrFeNiMn high entropy alloy additively manufactured by selective laser melting</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">G</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">B</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">L</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M L</forename><surname>Nai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wei</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2018.05.015</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2018.05.015" />
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">154</biblScope>
+			<biblScope unit="page" from="20" to="24" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Simultaneously increasing the strength and ductility of a refractory high-entropy alloy via grain refining</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2016.08.060</idno>
+		<ptr target="https://doi.org/10.1016/j.matlet.2016.08.060" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">184</biblScope>
+			<biblScope unit="page" from="200" to="203" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Friction stress and hall-Petch relationship in CoCrNi equi-atomic medium entropy alloy processed by severe plastic deformation and subsequent annealing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bhattacharjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tsuji</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2017.02.042</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2017.02.042" />
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="33" to="36" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The microstructural evolution and hardness of the equiatomic CoCrCuFeNi high-entropy alloy in the semi-solid state</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Jing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Z</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2018.02.170</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2018.02.170" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">745</biblScope>
+			<biblScope unit="page" from="75" to="83" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Lattice distortion in a strong and ductile refractory high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brechtl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Poplawsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Samaei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Choo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2018.08.053</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2018.08.053" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="158" to="172" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Microstructure characterization of Al x CoCrCuFeNi high-entropy alloy system with multiprincipal elements</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-005-0283-0</idno>
+		<ptr target="https://doi.org/10.1007/s11661-005-0283-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A Phys. Metall. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1263" to="1271" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Microstructure and elevated temperature properties of a refractory TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10853-012-6260-2</idno>
+		<ptr target="https://doi.org/10.1007/s10853-012-6260-2" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="4062" to="4074" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Ti-6Al-4V titanium alloy with submicrocrystalline structure produced by multiaxial forging</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salishchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Malysheva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Smyslov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Saphin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Izmaylova</surname></persName>
+		</author>
+		<idno type="DOI">10.4028/www.scientific.net/msf.584-586.783</idno>
+		<ptr target="https://doi.org/10.4028/www.scientific.net/msf.584-586.783" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Forum</title>
+		<imprint>
+			<biblScope unit="page" from="783" to="788" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Substitutional solution hardening</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Fleischer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0001-6160(63)90213-X</idno>
+		<ptr target="https://doi.org/10.1016/0001-6160(63)90213-X" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="203" to="209" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">A statistical theory of solid solution hardening</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Labusch</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/pssb.19700410221</idno>
+		<ptr target="https://doi.org/10.1002/pssb.19700410221" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Status Solidi</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="659" to="669" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Microstructure and room temperature properties of a high-entropy TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2011.02.171</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2011.02.171" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page" from="6043" to="6048" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Modelling solid solution hardening in high entropy alloys</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Toda-Caraballo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E J</forename><surname>Rivera-Díaz-Del-Castillo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2014.11.014</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2014.11.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="14" to="23" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of refractory high-entropy alloys: experiments and modeling</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2016.11.188</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2016.11.188" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">696</biblScope>
+			<biblScope unit="page" from="1139" to="1150" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">(TiZrNbTa)-Mo high-entropy alloys: dependence of microstructure and mechanical properties on Mo concentration and modeling of solid solution strengthening</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2018.01.017</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2018.01.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="59" to="72" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Hot cracking mechanism affecting a nonweldable Ni-based superalloy produced by selective electron beam melting</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chauvet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kontis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Jägle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tassin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Blandin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dendievel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Vayre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Abed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Martin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2017.09.047</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2017.09.047" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="82" to="94" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Reduction of micro-cracking in nickel superalloys processed by selective laser melting: a fundamental alloy design approach</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mumtaz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2015.04.035</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2015.04.035" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="59" to="68" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Revealing hot tearing mechanism for an additively manufactured high-entropy alloy via selective laser melting</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">P</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Descoins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mangelinck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Tor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Lim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2019.04.036</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2019.04.036" />
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page" from="129" to="133" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Residual stresses in selective laser sintering and selective laser melting, Rapid Prototyp</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mercelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Kruth</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/13552540610707013</idno>
+		<ptr target="https://doi.org/10.1108/13552540610707013" />
+	</analytic>
+	<monogr>
+		<title level="j">J</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="109" to="131" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The structure of rapidly quenched nickelbased superalloy ribbons produced by melt spinning</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shohoji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Warrington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Rapid Solidification Processing</title>
+		<imprint>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Analysis of crack behavior for Ni-based WC composite coatings by laser cladding and crack-free realization</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apsusc.2008.04.003</idno>
+		<ptr target="https://doi.org/10.1016/j.apsusc.2008.04.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Surf. Sci</title>
+		<imprint>
+			<biblScope unit="volume">255</biblScope>
+			<biblScope unit="page" from="1646" to="1653" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">State of residual stress in laser-deposited ceramic composite coatings on aluminum alloys</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Kadolkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Watkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T M</forename><surname>De Hosson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Kooi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename><surname>Dahotre</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2006.07.049</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2006.07.049" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1646" to="1653" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

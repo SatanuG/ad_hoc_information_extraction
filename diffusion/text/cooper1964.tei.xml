@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Dissolution in Ceramic Systems: I, Molecular Diffusion, Natural Convection, and Forced Convection Studies of Sapphire Dissolution in Calcium Aluminum Silicate</title>
+				<funder ref="#_MnxD2ne">
+					<orgName type="full">United States Atomic Energy Commission</orgName>
+				</funder>
+				<funder ref="#_tTRWH73">
+					<orgName type="full">Alcoa</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname><genName>JR</genName></persName>
+						</author>
+						<author>
+							<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Kingery</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Levin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Mcmurdie</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>Hall</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Ceramics Division</orgName>
+								<orgName type="department" key="dep2">Department of Metallurgy</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+								<address>
+									<settlement>Cambridge</settlement>
+									<region>Massachusetts</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Ceramics Division</orgName>
+								<orgName type="department" key="dep2">Department of Metallurgy</orgName>
+								<orgName type="institution">Massachusetts Institute of Technology</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Phase Dia-grams for Ceramists, p. 124</orgName>
+								<orgName type="institution">The American Ceramic Society</orgName>
+								<address>
+									<postCode>1956. 286</postCode>
+									<settlement>Incorporated, Columbus</settlement>
+									<region>Ohio</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Dissolution in Ceramic Systems: I, Molecular Diffusion, Natural Convection, and Forced Convection Studies of Sapphire Dissolution in Calcium Aluminum Silicate</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CFCFA614D35745F8529E1538CAE9B6EB</idno>
+					<note type="submission">Received October 5, 1962; revised copy received May 27,1963.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Measurements of the rate of dissolution of single crystals of sapphire in molten CaO-A1203-SiOz slag from 1340" to 1550°C under conditions of molecular diffusion, free convection, and forced convection reveal that the rate of dissolution was controlled by transport in the molten silicate. The results were self-consistent in that the independently calculated apparent binary diffusion coefficient agreed well for all three cases. This binary diffusion coefficient at temperatures above 1450°C coincided remarkably well with that of the tracer diffusion coefficient for the silicon ion.</p><p>For a number of reasons the significance of this agreement should not be overestimated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I, Introduction</head><p>ATE of dissolution are important for many ceramic proc-Applications include the corrosion of refractories R by molten slags and glasses, the rate of conversion of batch to glass in the glassmaking process (which is governed by the dissolution rate of the most refractory particles), and the firing of a ceramic body in which a liquid phase develops. These examples and the following discussion refer specifically to dissolution of a solid in a liquid. I n principle, however, the discussion applies equally well to dissolution of a gas by a liquid, a liquid by a liquid, a solid by a solid, and even components of a liquid by a solid, all of which occur in ceramic systems. The purpose is to examine the factors that determine the rate of the dissolution process, and toward this end the system sapphire-Ca0-Al203-SiO2 slag was selected for an experimental investigation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="81.">The System</head><p>The equilibrium diagram CaO-Al203-Si02 reveals' that at all temperatures above 1380°C there are stable liquids along the CaSi03-A1203 binary at all compositions from 0.10 weight fraction of alumina to the alumina liquidus. From the ternary equilibrium diagram, a pseudo binary can be constructed that shows the liquidus composition, and hence the saturation concentration, expressed as weight iraction of solute as a function of temperature. This curve is shown in Fig. <ref type="figure">1</ref> and represents the source of all information used on solubility.</p><p>Density data necessary for calculations of partial volume, for conversions of dynamic to kinematic viscosity, and for calculation of the driving force for certain free convection flows arc plotted in Fig. <ref type="figure" target="#fig_0">2</ref> from the data of Barrett and Thomas. These investigators also measured the surface energy of the same compositions and found that i t increased with increasing A1203 concentration. Ko~akevich's~ and esses.  Machin and Yee's4 measurements of viscosity over a wide range of temperature and composition along with the density data just given allow the kinematic viscosity to be well described along the alumina-calcium silicate binary. This information, summarized in Fig. <ref type="figure" target="#fig_1">3</ref>, is useful directly for calculations of dissolution rates where convection is important and indirectly for extrapolation of diffusivity data along the binary. Tracer diffusion coefficients for oxygeq6 calcium,e silicon,e and aluminum7 have been measured at several temperatures a t compositions close to the binary with about 20 wt% Also3; these results are summarized in Fig. <ref type="figure">4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="111.">Glass Composition</head><p>The glass for this investigation was made from glass sand, calcium carbonate, and aluminum hydroxide. The composition varied during the experiments, but periodic analyses were made to keep track of such variations. The results hereafter reported are without correction from a composition showing no more than a + l % variation from the nominal alumina content. Results are extrapolated to take into account changes in solubility resulting from the variation in alumina concentration up to +3%; no larger deviations occurred. Analyses indicated variations in the calciumsilicon ratio of about 1.0 to 0.8 during the experiments. There is no obvious basis for correction for this change, and therefore it represents a source of possible error, but indications are that the effect is small.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. Experimental Apparatus and Procedure</head><p>A Globar-heated furnace that could attain 1600°C for short periods and 1550°C for long times was constructed in two interlocking halves that separated horizontally, permitting adjustment and alignment of the system to be made with the furnace halves separated before heating. The molten silicate solvent was contained in an alumina crucible 3 in. in diameter and 5 in. deep with a platinum liner. Details of the crucible and liner and several specimen arrangements are shown in Fig. <ref type="figure">6</ref>. Temperature variations within the crucible did not exceed 1" a t 15OOOC.</p><p>To study dissolution rates of stationary specimens a sapphire cylinder of measured diameter,* nominally 4.5 mm, was cemented to a hollow ceramic and inserted through the muffle tube to a position within the crucible but above the melt, held there for a few minutes until the specimen attained melt temperature, and then immersed to a depth of about 12 mm.</p><p>As shown in Fig. <ref type="figure">6</ref>, the effects of the melt-ambient interface on the dissolution process could be eliminated by wrapping the solute cylinder with platinum foil in this region. After a measured period of immersion the solute specimens were raised rapidly to a position near the top of the muffle tube, quenching any adhering solvent and stopping the dissolution process. After removal from the furnace, the adhering slag was removed with either 50y0 hydrofluoric acid or concentrated hydrochloric acid. The change in solute diameter was then measured with a micrometer at several places along the solute axis with results reproducible to within f 0.0002 in. On some specimens small irregularities on the surface were noted, but these were avoided during measurement.</p><p>For the study of dissolution under forced cqnvection, a welldescribeds flow that affects dissolution in a known way was produced by rotating a disk face of the sapphire in the slag.</p><p>The experimental arrangement for rotating the sapphire consisted of an upper-drive assembly and a specimen assembly. The upper-drive assembly included a constantspeed motor with appropriate timing belts and gears to rotate either of two upper shafts a t speeds from 300 to 5400 rpm.   The bearings from the upper shafts were mounted in cross members whose rotation about the center post permitted either upper shaft to be swung above the outside of the furnace, where the specimen could be aligned for concentricity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>J. S. Machin and Tin</head><p>The upper shafts could be moved up or down in their bearings.</p><p>A support plate held the specimens from above. The dissolving specimens were short cylindrical sapphire rods nominally 12.5 mm long and 7 mm in diameter with a central hole in one end in which was cemented a sapphire shaft 3 mm in diameter. The sapphire shaft was secured to the drive shaft with a connector having six setscrews; adjustment of these screws permitted the eccentricity of the specimen to be kept within a tolerable valueg (0.030 in.) despite considerable camber in the sapphire shafts. After the specimen assembly was aligned and the length o€ the specimen was accurately measured, the specimen was introduced through the muffle tube and held in the crucible above the melt surface. The upper shaft was then swung into a position directly above the melt, aligned vertically, fitted into the connector, and secured. The specimen was lowered into the melt by sliding the upper shaft downward in its bearings, and rotation of the specimen was started immediately after its immersion.</p><p>Change in length of the specimens was measured after the removal of adhering solvent. Greater precision of measurements was attained when only the lower disk face was immersed during dissolution (Fig. <ref type="figure">6</ref>, lower leff). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>V. Molecular Diffusion</head><p>For stationary specimens it would be expected that the initial rate of transport would be governed by molecular diffusion, i.e., diffusion in the absence of fluid flow produced by hydrostatic instabilities or by forced convection, A typical set of measurements for stationary sapphire cylinders dissolving in calcium aluminum silicate slag of 21 wt% alumina is shown in Fig. <ref type="figure" target="#fig_6">7</ref>. The measurements reveal that for the relatively small amounts of dissolution noted the amount of dissolution depends directly on the square root of time.  Consideration'O of the dissolution kinetics controlled by molecular diffusion of a semi-infinite sapphire slab leads to an expression where the constant a = Y / 2 d&amp;, Y is the change in thickness of the slab, D is the effective binary diffusion coefficient, t is time, C is the concentration of alumina expressed as volume of sapphire per volume of solution, V is the partial volume volume of sapphire in the slag, and the subscripts i and refer to conditions at the interface and in the bulk liquid respectively.* Since a is a constant, the definition of a requires that the change in thickness of the slab be proportional to the square root of time, which fits the experimental results well. This suggests that the dissolution process is controlled by mass transport under molecular diffusion conditions and that the cylindrical surfaces are reasonably well represented by the expression for slabs. t</p><p>For a more detailed analysis it is necessary to evaluate both sides of equation (1). The partial volume volume, 7, is the incremental change in volume of the solution per incremental change in volume of added solute, and it can be expressedlo9 l1 in terms of the pure solute (sapphire) density, PA, and the solution density, p , and the concentration of solute in the solution, t, expressed as mass of sapphire per unit volume of solution:</p><p>Substitution of the density data from Fig. <ref type="figure" target="#fig_0">2</ref> reveals that the second term in the denominator of equation (2) makes little contribution and also that the partial volume is relatively independent of concentration. Therefore, a simpler approximate version of equation ( <ref type="formula">2</ref>) is obtained that is adequate for the present purposes : The saturation weight fraction, wt, obtained from the liquidus curve in Fig. <ref type="figure">1</ref> and the bulk weight fraction, w-, establish the value of the right-hand side of equation (3). The function f(01) is plottedI2 so that 01 is readily determined once f(01) is known, Then if the change in thickness with time is measured, the effective diffusion coefficient, D, can be obtained from the definition of 01.</p><p>x (4)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>*</head><p>An effective binary diffusion coefficient, D, rather than a local binary diffusion coefficient, D, is utilized because the variations in viscosity with alumina content suggest that the binary diffusion coefficient would be composition dependent.</p><p>PhilipI3 has suggested a weighted average procedure for determining the effective diffusion coefficient in molecular diffusion if the local diffusion coefficients are known as a function of concentration. Assuming that the Stokes-Einstein relation is valid, $. i.e., that the viscosity-diffusivity 7D product is constant, Philip's method can be transformed into an expression for converting effective diffusivity, D , into local diffusivity, Do, a t a particular concentration.</p><p>x which is readily evaluated using Fig. <ref type="figure" target="#fig_0">2</ref>.</p><p>Collected in Table <ref type="table">I</ref> are the data from dissolution experiments at bulk concentrations of 0.07, 0.15, and 0.21 weight fraction alumina a t temperatures from 1345' to 1550°C expressed in terms of the change in radius squared divided by time, taken from the best fit to curves such as those shown in Fig. <ref type="figure" target="#fig_6">7</ref>. Also included are the values calculated from equations (4) and ( 5 ) of the effective binary diffusion coefficient, D , the interface binary diffusion coefficient, D1, and binary diffusion coefficient a t 20 wt% alumina, Dao, along with several subsidiary parameters necessary for the calculations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VI. Free Convection</head><p>As dissolution of a stationary specimen proceeds, i t is likely that a hydrodynamic instability will develop either from density differences or (if an ambient-slag interface is exposed) from surface tension differences between the alu-  mina-saturated slag and the bulk slag. This is called free or natural convection and results in a virtually time-independent or steady-state rate of solution for an infinite slab. It was found that in free convection the pattern and the amount of dissolution under otherwise identical conditions were dependent on whether or not the specimen was exposed to the slag-ambient interface. This is clear in Fig. <ref type="figure">8</ref>, which shows traced profiles of two cylindrical sapphire specimens immersed in slag of weight fraction of alumina of 0.21 for 1200 seconds a t 156OOC. The much higher corrosion, particularly in the region of the slag-ambient interface in the case where the surface is exposed and the knowledge that the surface energy of CaSi08-A1208 slag increases with increasing Al203 content, suggests that surface forces cause a natural convection that markedly increases the amount of dissolution near a free surface. * Since solutions are available only for the case where density difference is the driving force for free convection, all further experiments were conducted with the sapphire protected near the slag-ambient interface to allow comparison of the results with calculations.</p><formula xml:id="formula_0">x 10 A. R.</formula><p>The results of a series of free convection experimcnts a t 155OoC and with a bulk weight fraction o€ alumina of 0.21 are shown in Fig. <ref type="figure" target="#fig_10">9</ref>.</p><p>It is clear that after a relatively short induction period in which molecular diffusion kinetics prevail the rate of dissolution becomes nearly independent of time.</p><p>For an analysis of dissolution in which convection is important, it is convenient to start with the general expre~sion'~ for dissolution rates governed by mass transport in the solvent when convection is important.</p><p>x where C, a concentration parameter, is defined by equation (6) and 6 is an effective boundary layer thickness determined in part by the details of the convection and geometry15 and defined as follows:</p><formula xml:id="formula_1">8 L 6 =_ (C, -Cw)/(dC/dy)i</formula><p>where (dc/dy)% is the concentration gradient a t the interface. * In the case (footnote 9) of dissolution in the system NaClglycerin where the surface energy of glycerin is virtually independent of NaCl concentration, no such difference was observed between NaCl crystals that were exposed a t the glycerinair interface and those that were protected in this area.  The boundary-layer thickness for mass transport from a vertical cylinder with natural convection caused by densitydifference driving forces has been derived by Elenbaas,lB who modified earlier solution^'^ for the case of a vertical slab, giving : s* = 1.96 ?2'&gt;'" exp -( -* ) 2;</p><p>(7)</p><formula xml:id="formula_2">2R + '1'26</formula><p>where v is kinematic viscosity, R is the solute radius, Ap is the fractional density difference ( p tp,)/p,, g is gravitational acceleration, and x is the distance from the leading edge. The exponential term is the correction for cylindrical surfaces introduced by Elenbaas. The substitution of equation (7) into equation ( <ref type="formula">6</ref>) allows the rate of solution under natural convection with density driving forces to be written :  <ref type="table">I</ref>), substituting in equation ( <ref type="formula">7</ref>) to obtain 6, and then into equation (8), the predicted rate of solution is obtained, which is indicated in Fig. <ref type="figure" target="#fig_10">9</ref>. At short times the predicted and measured rates show a large discrepancy, caused by molecular diffusion, but a t later times there is reasonable agreement. Unfortunately the accelerating rate of solution caused by the decrease of the ratio of the radius of the specimen to the boundary-layer thickness is only beginning to be noticeable in the time span covered in Fig. <ref type="figure" target="#fig_10">9</ref>.</p><p>The interface diffusion coefficient, Di, can be obtained from free convection measurement results by introducing the distance from leading edge x = 0.3 cm a t which the measurements were recorded and gravitational acceleration g = 980 cm per see2 into equation (8) and solving for D i to give  The rate of dissolution, j = -(dR/dt), =o.3, taken from two sets of free convection experiments like those shown in Fig. <ref type="figure" target="#fig_10">9</ref>, is given in Table <ref type="table" target="#tab_1">I1</ref> along with the property values and parameters necessary to calculate the interface diffusion coefficient. The calculation requires iteration as the value for Dt appears in the exponential term. The calculated diffusion coefficient, D,, is then converted to D , and Dzo by correcting for the viscosity variation alone according to the Stokes-Einstein equation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VII. Forced Convection</head><p>Forced convection studies are especially useful for assessing the rate-controlling mechanism for dissolution because if the rate of dissolution is controlled by transport in the solution, the rate will depend in a predictable way on the velocity of the forced convection.</p><p>For example, solutions for mass transfer from rotating disks have been derived's and verified e~perinientally.'~ They lead to the following expression for the boundary-layer thickness</p><formula xml:id="formula_3">: * 6 = 1.611 (D/v)'/d(v/w)'iz (10)</formula><p>The predicted dissolution rate is then obtained by combining equations ( <ref type="formula">6</ref>) and (10). At the same time account is taken of the fact that both the diflusivity and the viscosity may be composition dependent by introducing either effective viscosity ,* and diffusivity i, or a correction coefficient h, to account for the variable properties, giving j = 0.61 *,-I/% ( w ) ' / z ? = 0.61 hDmZ/3 v_-'/e w ' h ? (11)   Equation ( <ref type="formula">11</ref>) reveals that the dissolution rate is proportional to the square root of angular velocity, w1i2.</p><p>Figure <ref type="figure">10</ref> shows a plot of the square root of angular velocity versus rate of solution from a disk face of sapphire in slag of a weight fraction of alumina of 0.25 and Ca/Si ratio of 0.75 at 144OoC which follows reasonably well the predicted dependence on square root of angular velocity.</p><p>Dissolution data for sapphire disks rotating at 1200 rpm in bulk slag of a weight fraction of alumina of 0.21 at several temperatures are shown in Fig. <ref type="figure">11</ref>, which reveals a dissolution rate constant with time consistent with dissolution kinetics being determined by mass transport with forced convection (Aquation (1 I) 1.</p><p>To permit quantitative assessment of forced convection data, it is necessary to evaluate the coefficient A. This can be done by following Von Karman'sZ0 technique for calculating flow over a flat plate with Kroujiline'sZ1 extension to include mass or heat transfer. For constant properties they assume that cubic parabolas describe both the concentration distribution and the velocity distribution in the boundary layer. If the same technique is followed but provision made for variable viscosity and diffusivity, by requiring the diffusion and momentum fluxes to be equivalent to the value in Von Karman's and Kroujiline's approach,22 the following relation is determined for the coefficient h : where y is the distance from the interface. The appropriateness of utilizing this calculation from flow over a forced plate for the rotating disk case is justified by A c r i v o ~, ~~ who determined that when, as is the case here, the viscosity is considerably greater than the diffusivity, the effect of variable prop- erties on forced convection will be the same for all geometries.</p><p>Although this relation appears to be complex, it is relatively easy to integrate n ~m e r i c a l l y ~~ for the conditions appropriate in the sapphire-calcium aluminum silicate slag case by using the viscosity data in Fig. <ref type="figure" target="#fig_1">3</ref> and assuming again the validity of the Stokes-Einstein relation.</p><p>With X established, equation (1 1) can be solved for the bulk diffusion coefficient D,, provided property value and dissolution rates are known.</p><p>The data from all forced convection experiments are given in Table <ref type="table" target="#tab_1">I11</ref> along with the bulk diffusion coefficient calculated from equation <ref type="bibr">(13)</ref> and other pertinent local diffusion coefficients calculated from Fig. <ref type="figure" target="#fig_0">2</ref> under the prevailing assumption that the diffusivity-viscosity product is constant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>VIII. Discussion</head><p>All the experimental results are well explained under the premise that the dissolution of sapphire in calcium aluminum silicate slag is controlled by mass transport in the liquid; even when the transport rates are greatly enhanced by rotating a disk a t 5400 rpm, its rate of dissolution is still correctly predicted by the assumption that mass transport is rate determining. The self-consistency of the molecular diffusion, free convection, and forced convection experiments is indicated by the close agreement of prediction and measurements shown in Fig. <ref type="figure" target="#fig_10">9</ref> and by the agreement of the calculated diffusion coefficient values, DZO, which are summarized in Fig. <ref type="figure" target="#fig_13">12</ref> where it is seen that a t all temperatures the calculated diffusion coefficients from the different experiments agree well with one another.</p><p>The independently measured values for the tracer diffusion coefficient of aluminum and silicon ions in slags of nearly the same composition are also shown on this figure. At the higher temperatures, i.e., above 145Q"C, the calculated coefficients are close to the measured values for silicon tracer diffusion. One should not place great importance on this coincidence, because in addition to the lack of precision of the data itself and the lack of confirmation of the Stokes-Einstein relation used in the present calculations, no corrections were made for possible tracer correlationz5 and possible variations of activity coefficient with concentration in the system.26 Finally it is noted that the problem is indeed a matter of multicomponent diffusionz7 and the relations between tracer diffusion coefficients and the cross terms in multicomponent diffusion are not evident at this time.</p><p>At lower temperatures the divergence of the calculated binary diffusion coefficient and the measured values for silicon ion diffusion is noticeable. The discrepancy may be explained in part by the fact that when the temperature is low, the solubility is low and slight errors in concentration have more effect on rates of solution. Also, as seen in is no longer the primary phase in contact with the bulk slag below 1380°C.</p><p>IX. Conclusions I t has been demonstrated by several quantitative tests that the dissolution of sapphire in calcium aluminum silicate slag is governed by mass transport in the liquid. Molecular diffusion, natural convection, and forced convection experiments provide a group of data that is self-consistent. The calculated effective binary diffusion coefficient for the dissolution process agrees rather closely with the independently measured tracer diffusion coefficient for silicon except at low temperatures where additional information is needed and where other factors may cloud the results.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Density variation along the CaSiOs-A1208binary (from footnote 2).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Kinematic viscosity along the CaSiOa-A1208 binary (from footnotes 2, 3, and 4).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 5 Fig. 4 .</head><label>54</label><figDesc>Figure 5 is a schematic diagram of the apparatus.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>*</head><label></label><figDesc>The authenticity of solute measurement depends on surface smoothness. Hence, specimens were given preliminary short-time immersion for polishing before actual experiments were started. * W. G. Cochran, "Flow Due to a Rotating Disc," Proc. Cambridge Phil. Soc.. 30, 364-75 (1934).A I M E , 209 [ l ] 769-73 (1957).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Schematic cross-sectional diagram of apparatus for studying dissolution ai high temperatures.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>9</head><label></label><figDesc>Fig. 6. Details o f different types of experiments.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Dissolution of sapphire cylinder in CaO-AlzOa-SiOe with 21 wt% A1203 vs. square root o f time.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>P</head><label></label><figDesc>Substitution of equation (2a) into equation (I) eliminates the partial volume and converts the concentration from volume fraction, C, to a weight fraction, w, as shown in the following expression :</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>Fig. 8. Comparison of contour after equivalent corrosion of sapphire rods with surface exposed and surface protected.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head></head><label></label><figDesc>l4 A. R. Cooper, Jr., "Modification of Noyes-Nernst Equation," J . Chem. Phys., 38, 284-85 (1963).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. Dissolution at relatively long times of sapphire cylinders in CaO-Al203-Si02 with 21 wtyo AlzOa vs. time.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head></head><label></label><figDesc>By taking the average of the values for D i a t 155OoC calculated from the molecular diffusion results (Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>n</head><label></label><figDesc>l6 B. G Levich, Physicochemical Hydrodynamics. Prentice-Hall, Inc , Rnglewood Clifk, N. J., 1962. Translated by Scripta Technicn, Inc 700 pp. ( a ) W. Elenbaas, "Dissipation of Heat by Free Convection," Philips Res R e p , 3, 338 (1948). ( b ) W. Elenbaas, "Dissipation of Heat by Free Convection from Vertical and Horizontal Cylinders," J . Apgl. Phys., 19 [I21 H. Schmidt and W, Beckmann, "Temperature and Velocity Field from Natural Convection in Vicinity of a Heated Vertical Plate," Forsch. Ing.-Wes., 1, 391 (1930). 1148-54 (1948).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>FigFig. 12 .</head><label>12</label><figDesc>Fig. 12. Effective diffusion coefficients calculated from molecular diffusion, forced convection, and free convection dissolution kinetics.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 . Summary of Molecular Diffusion Data and Calculations</head><label>1</label><figDesc></figDesc><table><row><cell>Data</cell><cell>Calculated parameters</cell><cell>---Effective,</cell><cell>Interface,</cell><cell>7 20 wt% AIzOa,</cell></row></table><note><p><p>Diffusion coefficients (cmZ/sec X lo8)</p>--h -------7 ( ~i -W m ) / W m 1'</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>( " C ) Wi YZ/l x 108 (1 -wi) 2a D Di Dzo</head><label></label><figDesc></figDesc><table><row><cell>0.21 .21 .21 .21 .15 .07 .07</cell><cell>1550 1480 1410 1345 1550 1550 1510</cell><cell>47 43 40 38 47 47 45</cell><cell>3 . 2 1.06 0.16 0.0157 5 . 5 11.0 5 . 8</cell><cell>0.49 .39 .32 .27 .60 .75 .69</cell><cell>0.40 .34 .28 .25 .47 .58 .54</cell><cell>20 9 . 1 2 . 1 0.26 25 33 20</cell><cell>19 8 . 3 2 . 0 0.24 23 31 18</cell><cell>30 14 3.2 0.45 37 47 30</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head></head><label></label><figDesc>Cooper, Jr., "Effect of Moving Boundary on Molecular Diffusion Controlled Dissolution or Growth Kinetics," Trans * Under the assumption of transport control, the interface concentration Ci is the saturation concentration of alumina in t h e slag. The Stokes-Einstein relation does apply in the case of diffusion in some viscous liquids, e.g., glycerin ( 2 . V. Volkova, "Viscosity and Diffusion in Glycerol-Water Mixtures," Z.Physik.  Chem., 145,200-206 (1929); ibid., 147, 206 (1930)), but there is no experimental assurance of its appropriateness in calcium aluminum silicate. I t is invoked simply because there is no other basis at present for the prediction of diffusion coefficient variation in this system.</figDesc><table><row><cell>Faraday SOC., 58 [480] 2468-72 (1962).</cell></row><row><cell>t This is reasonable, since for boundary layers thin in com-parison with the diameter the cylindrical diffusion region can very nearly be opened up into a slab. As a consequence, AR (Fig. 7) can be substituted for Y in equation (1). l1 Samuel Glasstone, Thermodynamics for Chemists, p. 434. D. Van Nostrand Company, Inc., New York, 1947. 522 pp. l2 J. Crank, Mathematics of Diffusion, pp. 104-105. Claren-don Press, Oxford, 1956. 347 pp.</cell></row></table><note><p>l 3 J. R. Philip, "Numerical Solution of Equations of Diffusion Type with Diffusivity Concentration-Dependent," Trans. Fara-$ day SOC., 51 [a] 885-92 (1955).</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table II . Summary of Free Convection Data and Calculations Calculated parameters Diffusion coefficients (cmz/sec X 108)</head><label>II</label><figDesc></figDesc><table><row><cell>1' ("C)</cell><cell>c ,</cell><cell>Ci</cell><cell cols="2">Data j X 108</cell><cell>vi</cell><cell>-7 A D</cell><cell>F</cell><cell></cell><cell>R 4-DjC/4j</cell><cell>Bulk, D m</cell><cell>Interface, DI</cell><cell>20 wt% AlzOs, Dza</cell></row><row><cell>1510 1550</cell><cell>0.05 .15</cell><cell cols="2">0.33 .32</cell><cell>3 . 2 3 . 0</cell><cell>5 3 . 5</cell><cell>0.016 ,0055</cell><cell>0.50 .34</cell><cell>75 X low8 158 X 10-8</cell><cell>0.88 .86</cell><cell>37.5 33</cell><cell>10 20</cell><cell>19 35</cell></row><row><cell>W</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>301</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>W l 3 +</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>[L</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="6">Square Root of Angular Velocity (Rodian/sec)"'</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Dependence of rate of dissolution of face of sapphire disk Fig. 10. on square root of angular velocity.</head><label></label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>. Rate of dissolution of face of sapphire disk rotating at 126 radians per second on CaO-AIz03-Si02 with 2 1 wt% AI&amp;.</head><label></label><figDesc></figDesc><table><row><cell>[</cell><cell>0 2</cell><cell>,</cell><cell>o</cell><cell>!</cell><cell>-E 2 0.04 . V</cell><cell>,</cell><cell>I</cell><cell>l</cell><cell cols="2">l Rotating Disk 8 w=126 Radians/sec 8 (21 Yo AlzO,)</cell><cell>8</cell><cell>I 1</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">1340°C</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>0</cell><cell>2,000</cell><cell>4,000</cell><cell></cell><cell>6,000</cell><cell>0,000</cell><cell></cell><cell>10,000</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">Time (Second)</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Fig. 1 1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 111 .</head><label>111</label><figDesc>Forced Convection*</figDesc><table><row><cell></cell><cell></cell><cell>A -</cell><cell></cell><cell cols="2">--</cell><cell cols="3">Calculated parameters</cell><cell>. .</cell><cell>Bulk,</cell><cell>Interface,</cell><cell>20 wt% AlzOs,</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>D m Z / 3</cell><cell></cell><cell>D m</cell><cell>Di</cell><cell>Dm</cell></row><row><cell>1150</cell><cell>0.15</cell><cell>0.33</cell><cell>92</cell><cell>(1.41)</cell><cell>0.34</cell><cell>1.08</cell><cell>0.73</cell><cell>57 X 10-G</cell><cell></cell><cell>44</cell><cell>26</cell><cell>46</cell></row><row><cell>1410 1345 1480</cell><cell>.15 .15 .15</cell><cell>.27 .29 .31</cell><cell>74 18 40</cell><cell>(1.43) (1.46) (1.42)</cell><cell>.24 .39 .28</cell><cell>1.25 1.36 1.13</cell><cell>.68 .63 .71</cell><cell>8 2.9 33</cell><cell></cell><cell>2 . 3 0 . 5 19</cell><cell>1.6 0 . 3 12</cell><cell>0 . 6 2 . 4 20</cell></row><row><cell>1545 1510</cell><cell>,108 .108</cell><cell>.33 .32</cell><cell>96 66</cell><cell>1.41 1.42</cell><cell>.42 .39</cell><cell>1.06 1.09</cell><cell>.52 .53</cell><cell>67 49</cell><cell></cell><cell>55 34</cell><cell>30 16</cell><cell>47 25</cell></row><row><cell>1475</cell><cell>,108</cell><cell>.31</cell><cell>45</cell><cell>1.42</cell><cell>.36</cell><cell>1.13</cell><cell>.56</cell><cell>27</cell><cell></cell><cell>22</cell><cell>10</cell><cell>18</cell></row><row><cell>1550 1510</cell><cell>.05 .05</cell><cell>.33 .32</cell><cell>134 70</cell><cell>1.41 1.42</cell><cell>.53 .50</cell><cell>1 1.04</cell><cell>.40 .46</cell><cell>31 45</cell><cell></cell><cell>88 32</cell><cell>28 8 . 5</cell><cell>46 16</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">: ," 1 ' : ; Molecular , 2 1 Diffusion</cell><cell>A 0</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>.-</cell><cell cols="3">0 W : 07 Forced 0 '5 Convection n w = 21 W = .07 Natural</cell><cell></cell><cell>1</cell></row></table><note><p>Diffusion coefficients (cmS/sec X 108) -~~---Data _--* Angular velocity o = 1200 rpm = 126 radians per second.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgment</head><p>This work was done at the <rs type="affiliation">Massachusetts Institute of Technology</rs> with support from an <rs type="funder">Alcoa</rs> <rs type="grantName">Fellowship</rs> grant and support from the <rs type="funder">United States Atomic Energy Commission</rs> under Contract No. <rs type="grantNumber">AT(30-1)-1852</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_tTRWH73">
+					<orgName type="grant-name">Fellowship</orgName>
+				</org>
+				<org type="funding" xml:id="_MnxD2ne">
+					<idno type="grant-number">AT(30-1)-1852</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Theory of Concentration Polarization</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Levich</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1947">1947</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="37" to="43" />
+		</imprint>
+	</monogr>
+	<note>D i scussions Faraday SOC</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Transport to Surface of a Rotating Disk</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Gregory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Riddiford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J . Chem. Soc</title>
+		<imprint>
+			<biblScope unit="page" from="3756" to="3764" />
+			<date type="published" when="1956">1956</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">On Laminar and Turbulent Friction</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Von Karman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Z . Azgew Math. Mech</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">235</biblScope>
+			<date type="published" when="1921">1921</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Theory of Transmission of Heat by a Circular Cylinder in a Transversely Flowing Fluid</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kroujiline</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tech. Phys. USSR</title>
+		<imprint>
+			<biblScope unit="page" from="311" to="320" />
+			<date type="published" when="1936">1936</date>
+		</imprint>
+	</monogr>
+	<note>in French</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Effect of VariabIe Properties on Mass and Heat Transfer with Forced Convection: I, Modification of Von Karman Approach to Laminar Flow Over a Flat Plate with Zero Pressure Gradient</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname><genName>Jr</genName></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>submitted to Glastech. Ber. for publication</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Solution of Laminar Boundary Layer Energy Equation at High Prandtl Numbers</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Acrivos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Flztids</title>
+		<imprint>
+			<biblScope unit="page" from="3" to="41" />
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Effect of Variable Properties on Mass and Heat Transfer with Forced Convection: 11, Fused Silica Dissolution in Molten Ca0-A1203-Si0$&apos;; accepted by GEastech. B e y . for publication</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname><genName>Jr</genName></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Transport in Glass</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Note on Mechanism of Ionic PV</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Haven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Stevels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Travaux du IV&quot; CongrPs Internationai du Verre (Proceeaings of Fourth International Glass Congress</title>
+		<meeting><address><addrLine>Paris; Paris</addrLine></address></meeting>
+		<imprint>
+			<publisher>Imprimerie Chaix</publisher>
+			<date type="published" when="1956">1956. 1957. 1959, July</date>
+			<biblScope unit="page">197</biblScope>
+		</imprint>
+	</monogr>
+	<note>in English</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Theories and Problems of Liquid Diffusion</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Shewmon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. N . Y. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="241" to="265" />
+			<date type="published" when="1945">1963. 203. 1945</date>
+			<publisher>McGraw-Hill Book Co., Inc</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Diffusion in Solids</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

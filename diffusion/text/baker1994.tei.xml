@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The combined effect of F and HzO on interdiffusion between peraikaline dacitic and rhyolitic melts</title>
+				<funder ref="#_4tz7fDY">
+					<orgName type="full">NSERC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">H</forename><surname>Boss~inyi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Earth and Planetary Sciences</orgName>
+								<orgName type="institution" key="instit1">McGill University</orgName>
+								<orgName type="institution" key="instit2">rue University</orgName>
+								<address>
+									<postCode>3450, H3A 2A7</postCode>
+									<settlement>Montr6al</settlement>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">D~partement de G~nie M6canique</orgName>
+								<orgName type="institution">Ecole Polytechnique de Montreal</orgName>
+								<address>
+									<postCode>C.P. 6079, Montr6al, H3C 3A7</postCode>
+									<settlement>Succursale A</settlement>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The combined effect of F and HzO on interdiffusion between peraikaline dacitic and rhyolitic melts</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4FDBFA1C53A4B46327F9507026003979</idno>
+					<note type="submission">Received: 17 February 1993 / Accepted: 25 January 1994</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The effective binary diffusion coefficient (EBDC) of silicon has been measured during the interdiffusion of peralkaline, fluorine-bearing (1.3 wt% F), hydrous (3.3 and 6 wt% H20), dacitic and rhyolitic melts at 1.0 GPa and temperatures between 1100 ~ and 1400 ~ From Boltzmann-Matano analysis of diffusion profiles the diffusivity of silicon at 68 wt% SiO2 can be described by the following Arrhenius equations (with standard errors): with 1.3 wt% F and 3.3% H20: + 3.79 Dsi= 3.66 x 10 -9 exp (-86.1 _+9.0/RT) -1.86 with 1.3 wt% F and 6.0% H20: + 3.59 Dsi = 3.51 x 10 -8 exp (-109.5 + 8.9/RT)</p><p>where D is in m2s 1 and activation energies are in kJ/ mol. Diffusivities measured at 64 and 72 wt% SiO2 are only slightly different from those at 68 wt% SiO2 and frequently all measurements are within error of each other. Silicon, aluminum, iron, magnesium, and calcium EBDCs were also calculated from diffusion profiles by error function inversion techniques assuming constant diffusivity. With one exception, silicon EBDCs calculated by error function techniques are within error of Boltzmann-Matano EBDCs. Average diffusivities of Fe, Mg, and Ca were within a factor of 2.5 of silicon diffusivities whereas A1 diffusivities were approximately half those of silicon. Alkalies diffused much more rapidly D.R. Baker ([~1)   </p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Evidence that compositionally distinct magmas sometimes come into contact and mix is unequivocal (e.g. <ref type="bibr" target="#b17">Eichelberger 1980;</ref><ref type="bibr">Bacon 1986;</ref><ref type="bibr" target="#b18">Frost and Mahood 1987;</ref><ref type="bibr" target="#b15">Eberz et al. 1990</ref>). Wall-rock contamination of magmas during ascent and emplacement has also been demonstrated (e.g. <ref type="bibr" target="#b10">Carlson et al. 1981;</ref><ref type="bibr" target="#b16">Eby 1985;</ref><ref type="bibr" target="#b30">Nelson et al. 1987)</ref>. However, the extent and efficacy of mixing and contamination are controlled by many factors, including thermal contrasts, rheological differences, mixing geometry, and diffusion of ions in the melt. Even in the presence of robust physical mixing processes, diffusion can still control element transport on the local, gin to cm, scale. Thus, knowledge of chemical diffusivities in melts is essential for realistic models of magma mixing or wall-rock contamination. Further impetus for the study of diffusion in silicate melts comes from observations demonstrating that diffusion of ions in melts can control crystal growth (e.g. <ref type="bibr" target="#b27">Muncill and Lasaga 1987)</ref> and dissolution rates (e.g. <ref type="bibr" target="#b41">Watson 1982;</ref><ref type="bibr" target="#b44">Zhang et al. 1989</ref>) in both laboratory and natural settings.</p><p>Interdiffusion between dacitic and rhyolitic melts has recently been measured under a variety of conditions: anhydrous <ref type="bibr" target="#b2">(Baker 1990)</ref>, with the addition of H20 <ref type="bibr" target="#b3">(Baker 1991)</ref>, and with the addition of halogens, F or C1 <ref type="bibr">(Baker 1993a</ref>). The results of these studies indicate that unless melts contain water, chemical diffusivities are low and diffusion processes are unlikely to affect melt compositions. However, because most intermediate-to-silicic melts are hydrous, and diffusivities in hydrous melts are rapid, diffusion may be significant in their chemical evolution <ref type="bibr" target="#b3">(Baker 1991)</ref>.</p><p>Hydrous magmas frequently also contain fluorine dissolved in the melt. In some instances the concentration of fluorine can exceed 1 wt% <ref type="bibr">(Kovalenko et al. 1971;</ref><ref type="bibr" target="#b26">Manning 1981;</ref><ref type="bibr">Pichavant etal. 1987;</ref><ref type="bibr" target="#b19">Gavigan et al. 1989;</ref><ref type="bibr" target="#b12">Congdon and Nash 1991)</ref>. Previous research on the effect of F on interdiffusion <ref type="bibr">(Baker 1993a</ref>) between anhydrous melts suggests that the combined effects of F + H20 might be modelled by simple addition of their individual effects. This study was undertaken to investigate the combined effects of F + H20 on the interdiffusion of peralkaline rhyolitic and dacitic melts. As will be demonstrated, melts containing both F and H20 have diffusivities measurably greater than fluorine-bearing melts, and greater than, or equal to, diffusivities in hydrous melts. These diffusivities can be modelled by simple addition of the individual affects of F and H20 on Arrhenius parameters which describe chemical interdiffusion. The resulting diffusivities are so large that diffusive contamination may have played a significant role in the compositional evolution of most peralkaline intermediate and silicic magmas if they contained F + H20 at geologically reasonable concentrations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental procedure</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Starting materials</head><p>Compositions used for diffusion measurements are AT150F and LCOF (Table <ref type="table" target="#tab_0">1</ref>), previously used for measuring the effect of added fluorine on the diffusivity of SiO2 between peralkaline dacitic and rhyolitic melts <ref type="bibr">(Baker 1993a</ref>). These compositions are NaF-en-  <ref type="bibr" target="#b2">(Baker 1990</ref><ref type="bibr" target="#b3">(Baker , 1991))</ref>. Compositions AT150F and LCOF were produced by adding NaF to base glasses AT150 and LCO; mixtures were ground together under alcohol and repeatedly melted in air at 101 kPa. AT150F was fused once at 1375 ~ and once at 1500 ~ whereas more-viscous LCOF was fused three times at 1400 ~ and twice at 1575 ~ samples were ground between each fusion. After the final fusion quenched glasses were ground to an average grain size of approximately 60 gm and stored in a drying oven prior to loading into capsules. Although some of the fluorine was volatilized during these fusions, the mean F concentration in AT150F and LCOF is 1.3 wt%, and approximately 2.6 wt% Na20 was added to the base ATI50 and LCO glass compositions. The addition of Na20 changesthe initial compositions from metaluminous to peralkaline. As shown in <ref type="bibr" target="#b2">Baker (1990)</ref> and discussed in <ref type="bibr">Baker (1993a)</ref> the alkali-alumina ratio appears to have only a minor effect on diffusivities and activation energies. The results of this study are therefore probably applicable to diffusion in peraluminous and metaluruinous systems, in addition to the peralkaline system in which they were measured.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental procedure</head><p>Sample powders, approximately 10 to 15 rag, and water were tamped into graphite capsules, with denser AT150F on the bottom, graphite lids were placed on top, and then the capsules were inserted into platinum capsules (3 mm O.D.) which were welded closed. Capsules were stored in a drying oven at 110 ~ for a minimum of two hours to homogenize water along the boundaries of the starting glasses <ref type="bibr" target="#b3">(Baker 1991)</ref>.</p><p>Experiments were performed in a 1.91 cm piston-cylinder apparatus at 1.0 GPa and temperatures between 1100 and 1400 ~ (Lower temperature experiments were not performed because the liquidus of AT150F+6 wt% H20 exceeds 1000 ~ at 1.0 GPa).</p><p>Samples assemblies were NaCl-pyrex-crushable alumina <ref type="bibr" target="#b7">(Baker 1993b</ref>). The assembly is designed such that the W97R%-W~sRe25 (Type D) thermocouple is situated at the centre of the assembly and is encircled by the sample capsules which were each surrounded by a thin layer of graphite powder <ref type="bibr" target="#b7">(Baker 1993b)</ref>. All experiments were performed using the "hot piston out procedure" at 1.0 GPa with a -12% correction based on calibration against the melting point of NaC1 at 1.0 GPa <ref type="bibr" target="#b8">(Bohlen 1984)</ref>. Nominal pressure was controlled to within 0.025 GPa and temperature to within 5 ~ of desired conditions. Although the graphite capsules might be expected partially to decompose and react with the added water to produce a complex C-O-H fluid, no evidence of such a separate phase, e.g. trapped vapour bubbles, was observed in any experiment. Furthermore, infrared spectroscopic measurements of water contents in similarly encapsulated interdiffusion experiments between fluorine-free AT150 and LCO are virtually identical to the amount of watcr initially added to the capsule <ref type="bibr" target="#b3">(Baker 1991)</ref>. Experiments were quenched at 2000 ~ to below-solidus temperatures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analytical techniques</head><p>Samples were mounted in epoxy, sectioned longitudinally, and polished for electron microprobe analysis. Analyses were made parallel to the diffusion path using a 15 keV accelerating voltage and an 8 nA beam current. Standards used were a set of natural crystals and glasses. The beam spot size was enlarged to 10 I.tm diamcter, but because of the volatile-rich nature of the experimentally produced glasses, sodium loss was unavoidable and all measured Na20 concentrations of run products are lower than analyses of water-free starting materials.</p><p>Diflusion profiles for SiO2 (Fig. <ref type="figure">1</ref>) were used for the calculation of silicon effective binary diffusion coefficients (EBDCs, or diffusivities) by two independent methods. The first method was Boltzmann-Matano analysis <ref type="bibr" target="#b13">(Crank 1975)</ref> following procedures described previously <ref type="bibr" target="#b7">(Baker 1993b</ref>). This technique allows measurement of diffusivities that may vary as a function of composition. As will be shown in the results section there exists little difference in diffusivities along any diffusion profile. Because of the lack of compositional effects on diffusivities the SiO2 profiles were also fit with the following equation which describes diffusion, at constant diffusivity, between two semi-infinite media <ref type="bibr" target="#b13">(Crank 1975</ref>):</p><formula xml:id="formula_0">C1 -]-C 2 C1-C 2 ~ (X-Xo) c(x,t): 2</formula><p>where C (x,t) is the concentration along the diffusion profile at distance x after an experiment of time t, C~ is the concentration in  <ref type="bibr" target="#b1">(Baker 1989</ref><ref type="bibr" target="#b2">(Baker , 1990</ref><ref type="bibr" target="#b3">(Baker , 1991</ref><ref type="bibr">(Baker , 1993a) )</ref> errors in diffusivity measurements are estimated to be less than 40% relative. However, reproducibility of any given measurement is probably only within a factor of 3 <ref type="bibr">(Baker 1993a</ref>). Silicon diffusivities measured by Boltzmann-Matano analysis and error function analysis on the same experiments typically are no more that 20 relative % different (Table <ref type="table" target="#tab_2">2</ref>); the greatest difference between calculated diffusivities using the two techniques is 45 relative % for experiment VG-19. The viscosities of these melts are so low at the temperatures studied, between approximately 25 Pa-s at 1100 ~ to 3 Pa-s at 1400 ~ <ref type="bibr">(Baker and Vaillancourt, research in progress)</ref>, that thermal convection (advcction) may supplement diffusion as a transport process. The importance of advection as a transport agent was investigated by three different methods; all methods indicate that thermal convection did not play a role in the transport of elements in experiments. First, the possibility of thermal convection can be ascertained by calculating the Rayleigh number, Ra, of the melt during the experiments. The Rayteigh number is given by: Ra = g:zATd3 nvV</p><p>where g is gravitational acceleration, 9.8 m s -2, c~ is the coefficient of thermal expansion, 3 x 10 -s C J (Murase and McBirncy 1973), AT is the temperature difference between the top and the bottom of the.capsule, &lt; 10 ~ based upon measured thermal gradients in the assembly <ref type="bibr">(Hudon et al. 1994), d</ref> is the length of the capsule, 3 ram, K r is the thermal diffusivity, 4 x 10 -7 m 2 s-] (Murase and McBirney 1973), and v is the kinematic viscosity, 1.284</p><p>• 10 3 na2 s-i based on viscosity and density measurements of LCOF + 6% 11,20 <ref type="bibr">(Baker and Vaillancourt, research in progress)</ref>.</p><p>The calculated Rayleigh number is 0.15, many orders of magnitude below the accepted critical Rayleigh number for convection, approximately 1700 <ref type="bibr" target="#b39">(Sparks et al. 1984)</ref>. The second method used to investigate the possibility of advection was to replicate experiments at the same temperature, both for identical durations and for different durations (Tables <ref type="table" target="#tab_2">2</ref> &amp;<ref type="table">3</ref>); such replicate experiments indicate that differences between measured diffusivities are almost always substantially below the maximum error estimate of a factor of 3. If adveetion were playing a role in elemental transport such small differences in measured diffusivities would not be expected. The third method to test for the presence of advection was to perform two parallel analytical traverses of one experiment, VG-28 with 5.9% H20. The SiO2 and A1203 concentrations along both traverses, VG-28a and VG-28b, display excellent correspondence (Fig. <ref type="figure" target="#fig_0">2</ref>); such correspondence would be highly unlikely, if not impossible, if advection were occurring in the experiments. Therefore, advcction does not appear to play a role in elemental transport in these experiments and the compositional profiles analyzed are due only to diffusive transport. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>As seen in a typical analytical traverse of an experiment (Fig. <ref type="figure">1</ref>) the diffusion profiles of all non-alkali elements are virtually the same length as the SiO2 profile; all measured profiles are in excellent agreement with diffusion profiles calculated from the diffusivities extracted by the error function inversion technique (Fig. <ref type="figure">1</ref>). Although diffusivities of silicon (Table <ref type="table" target="#tab_2">2</ref>) and of aluminum, iron, magnesium, and calcium (Table <ref type="table">3</ref>) are similar, there is a tendency for aluminum diffusivities to be approximately one-half those of silicon and iron, magnesium, and calcium diffusivities to be approximately 2.2 to 2.4 times those of silicon. The maximum difference between aluminum and silicon diffusivities is in experiment VG-27 where aluminum diffusivity is only 16 relative % of the silicon diffusivity (Tables <ref type="table" target="#tab_2">2</ref> &amp;<ref type="table">3</ref>). The maximum difference between a 2--cation diffusivity and silicon diffusivity is in experiment VG-17 in which Ca diffusivity is 3.6 times the silicon diffusivity (Tables <ref type="table" target="#tab_2">2</ref> &amp;<ref type="table">3</ref>). Such small differences in diffusivities between non-alkali ions and silicon are consistent with previous studies of chemical diffusion in igneous composition melts (e.g. <ref type="bibr" target="#b41">Watson 1982;</ref><ref type="bibr">Zhang etal. 1989;</ref><ref type="bibr" target="#b2">Baker 1990</ref><ref type="bibr" target="#b3">Baker , 1991</ref><ref type="bibr">Baker , 1993a))</ref>. Potassium diffusion profiles are much longer than those of non-alkali elements and demonstrate their much higher diffusivities. Quantitative calculations of potassium diffusion could not be performed because the potassium diffusion profiles reached the ends of the capsule and the experiments could not be modelled as two juxtaposed semi-infinite media <ref type="bibr" target="#b13">(Crank 1975)</ref>. Sodium profiles cannot reliably be used to evaluate diffusivity because of the severe sodium loss during microprobe analysis of these hydrous, fluoridated glasses. The behaviour of alkali and non-alkali elements during interdiffusion and the limiting of diffusive homogenization of melts by silicon diffusivity was christened "transient partitioning" by <ref type="bibr" target="#b41">Watson (1982)</ref> and its origin lies in the necessity of local equilibrium at each point along the diffusion profile. The most important control on local equilibrium is probably the ability of a local region of melt to attain charge balance which is controlled predominantly by the ratio of the two interdiffusing network-formers, silicon and aluminmn <ref type="bibr" target="#b41">(Watson 1982;</ref><ref type="bibr" target="#b2">Baker 1990</ref><ref type="bibr" target="#b3">Baker , 1991;;</ref><ref type="bibr" target="#b42">Watson and Baker 1991)</ref>. The more rapid diffusivity of alkalies, Na and K, compared to non-alkalies is due to their lower charge and field strength, defined as charge/radius or charge/(radius) 2, which allows them to be incorporated at equilibrium into silica-rich melts under conditions very similar to ideal mixing, unlike alkali-earth elements which in binary systems with silica demonstrate large regions of liquid immiscibility and large effects on the activity coef- ficient for SiO2 in the melt <ref type="bibr" target="#b33">(Ryerson 1985)</ref>. Because alkalies can be incorporated into silica-rich melts they initially diffuse much more rapidly than non-alkalies into, or in some cases out of, the silica-rich melt until they reach their equilibrium concentrations in the silica-rich and silica-poor melts; once these concentrations are reached alkalies also are expected to homogenize at the same rate as silicon-aluminum diffusion <ref type="bibr" target="#b41">(Watson 1982;</ref><ref type="bibr" target="#b42">Watson and Baker 1991)</ref>. The apparently short diffusion profile for Na20 (Fig. <ref type="figure" target="#fig_0">2</ref>) may demonstrate that sodium has reached the "transient partitioning" concentrations in each half of the diffusion couple in this diffusion experinaent and that Na20 homogenization has become dependent upon Si-A1 interdiffusion, whereas the longer profile for K20 (Fig. <ref type="figure" target="#fig_0">2</ref>) demonstrates that potassium has not reached its "transient partitioning" concentrations. However, the severe sodium loss during analysis makes any observations based upon the Na20 profile equivocal.</p><p>Despite the control of the bulk homogenization rate by the interdiffusion of silicon and aluminum, any individual ion is probably diffusing at its own tracer, or self-, -diffusivity in these melts <ref type="bibr" target="#b1">(Baker 1989</ref>). Although the diffusive behaviour of these melts is complex and eventually will be explained by multicomponent diffusion models (e.g. <ref type="bibr" target="#b31">Oishi et al. 1982;</ref><ref type="bibr">Baker 1992a</ref>), as a first, and petrologically useful, approximation, interdiffusion between silicate melts of differing composition can be viewed as being rate limited for non-alkalies by the EBDC of silicon (Si-A1 interdiffusion) and rate limited for alkalies probably only by their tracer diffusivities until "transient partitioning" is achieved <ref type="bibr" target="#b41">(Watson 1982;</ref><ref type="bibr" target="#b42">Watson and Baker 1991</ref>) after which their homogenization is also controlled by Si-A1 interdiffusion.</p><p>The effect of SiOa concentration on the EBDC of silicon over the compositional range of 64 to 72 wt% SiO2 is minor, less than a factor of 3 (Table <ref type="table" target="#tab_2">2</ref>), at any temperature. In virtually all cases the variation is within the estimated error of 40 relative percent. The small variations seen are, in general, consistent with the expected decrease in diffusivity with increasing silica content of the melt. Similar results were found in other interdiffusion experiments on similar compositions <ref type="bibr" target="#b1">(Baker 1989</ref><ref type="bibr" target="#b2">(Baker , 1990</ref><ref type="bibr" target="#b3">(Baker , 1991</ref><ref type="bibr">(Baker , 1993a))</ref>. Because the variation in diffusivities as a function of SiO2 content is small, the diffusivities measured at the centres of the diffusion profiles, where Boltzmann-Matano analysis is most accurate, have been used for the calculation of Arrhenius lines to describe diffusivity as a function of temperature. The small variation in diffusivity along the diffusion profiles is also supported by the excellent fits between experimental data and theoretical diffusion profiles produced using constant diffusivities calculated from the error function inversion technique (e.g. Fig. <ref type="figure">1</ref>).</p><p>When plotted on an Arrhenius diagram (Fig. <ref type="figure">3</ref>) the measured EBDC's for silicon in these hydrated and fluoridated melts are clearly enhanced by orders of magnitude above the EBDC for silicon measured in either the volatile-free <ref type="bibr" target="#b2">(Baker 1990</ref>), or fluoridated melts (Baker Fig. <ref type="figure">3</ref> Arrhenius plot of silicon effective binary diffusion coefficients during interdiffusion of dacitic and silicic melts at 1.0 GPa. "Dry" and "1.3% F" Arrhenius lines are from <ref type="bibr" target="#b2">Baker (1990)</ref> and (1993a) respectively. "3% H20" and "6% H20" Arrhenius lines are fi'om <ref type="bibr" target="#b3">Baker (1991)</ref>. Boltzmann-Matano diffusivities measured in melts with 1.3% F and 6% H20 are plotted with squares and diffusivities measured in melts with 1.3% F and 3.3% H20 are plotted withfilled circles. Error bars represent mean errors based upon replicate experiments. Open triangles are diffusivities for melts with 1.3 wt% F and either 3.3 or 6 wt% H20 calculated by error function inversion techniques; error bars for these measurements are not plotted, but are typically smaller than the symbols 1993a). In comparison with melts containing 3% water, the effect of 3.3% water + 1.3% fluorine increases diffusivities between one-half and a full order of magnitude. Diffusivities measured in melts with 6% H20 and 1.3% F are similar to measured diffusivities in the presence of only 6% water; however, activation energies calculated from measured diffusivities of this study are below those measured in similar diffusion experiments performed with only 6 wt% added water (Fig. <ref type="figure">3</ref>). The EBDC of silicon at the centre of the diffusion profiles, 68 wt% SiO2, can be described by the following Arrhenius equations (with standard errors) calculated from the mean of the diffusivities measured at each temperature: with 1.3% F and 3.3% H20: + 3.79 Dsi= 3.6 x 10 .9 exp (-86.1 • --1.86 with 1.3% F and 6.0% H~O: + 3.59 Dsi=3.51 x 10 8 exp (--109.5_+8.9/RT) -1.77</p><p>With 1.3 wt% F and 3.3 wt% H20 the activation energy for diffusion between these melts, 86.1_+9.0 kJ/mol, is about 30% less than the activation energy in melts with 3 wt% H20--126.0_+ 7.3 kJ/mol <ref type="bibr" target="#b3">(Baker :1991</ref><ref type="bibr">(Baker : , 1993a))</ref>; at 6wt% H20+1.3 wt% F the activation energy, 109.5 +_8.9 kJ/mol, is approximately 13% less than in melts with only 6 wt% H20, where the activation energy for diffusion is 125.5___13.3kJ/mol <ref type="bibr" target="#b3">(Baker 1991</ref><ref type="bibr">(Baker , 1993a))</ref>. These lower activation energies for diffusion result in larger calculated diffusivities for F + H20-bearing melts than for dacitic to rhyolitic melts only containing water at magmatic (1000 ~ and below) temperatures.</p><p>EBDCs calculated from error function inversion for silicon are similar to EBDCs calculated from Boltzmann-Matano analysis (Table <ref type="table" target="#tab_2">2</ref>). All but one diffusivitiy calculated by error function inversion are within the estimated Boltzmann-Matano error, 40 relative percent, of the Boltzmann-Matano diffusivity at 68 wt% SiO2; the exception is VG-19 for which the error function inversion diffusivity is 45 relative percent less than the Boltzmann-Matano diffusivity (Table <ref type="table" target="#tab_2">2</ref>). Six of the thirteen Boltzmann-Matano diffusivities at 68 wt% SiO2 are within the 1-standard errors of the inverse error function diffusivities and an additional 3 more Boltzmann-Matano diffusivities are within 2-standard errors (Table <ref type="table" target="#tab_2">2</ref>). Arrhenius equations using the diffusivity data fi'om the error function inversion analysis have also been calculated from the mean diffusivities at each temperature:</p><p>with 1.3% F and 3.3% H20: + 2.42 Dsi=2.32 • 10 9 exp (-81.5_+9.0/RT) --1.18 with 1.3% F and 6.0% H20:</p><p>+2.83 Ds~=2.78 x 10 7 exp (--136.5+8.9/RT) --</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1.40</head><p>The difference between the Arrhenius factors for diffusion calculated with Boltzmann-Matano diffusivities and with error function inversion diffusivities is within error for melts with 3.3% H20 and 1.3% F. Arrhenius equations for silicon EBDCs in melts with 6% H20 and 1.3% F display an order of magnitude difference in the pre-exponential factors and a 25% difference in the activation energies calculated from the two different diffusion calculation techniques, despite the small differences between diffusivities calculated by Boltzmann-Matano techniques and by error function inversion techniques (Table <ref type="table" target="#tab_2">2</ref>). Comparing Arrhenius factors calculated from error-function inversion for diffusion in melts with 6% H20 and 1.3% F, and Arrhenius factors calculated from Boltzmann-Matano analysis for diffusion in melts with 6% H20, would indicate that the effect of fluorine addition on the activation energy for diffusion was within 1 standard error and therefore probably insignificant. However, to be consistent with previous studies <ref type="bibr" target="#b2">(Baker 1990</ref><ref type="bibr" target="#b3">(Baker , 1991</ref><ref type="bibr">(Baker , 1993a) )</ref> all comparisons of Arrhenius factors will be made using data calculated by Boltzmann-Matano techniques.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion</head><p>The relationship between viscosity and diffusivity Although proposed more than 50 years ago <ref type="bibr" target="#b20">(Glasstone et al. 1941</ref>) only recently has the Eyring equation been shown to interrelate melt viscosity and oxygen diffusivity or the silicon EBDC during chemical interdiffusion in melts <ref type="bibr" target="#b36">(Shimizu and Kushiro 1984;</ref><ref type="bibr" target="#b2">Baker 1990</ref><ref type="bibr" target="#b3">Baker , 1991</ref><ref type="bibr">Baker , 1992b))</ref>. The Eyring equation relates temperature, T in Fig. <ref type="figure">4</ref> Conaparison of measured diffusivities with those calculated from estimated viscosities <ref type="bibr" target="#b35">(Shaw 1972</ref>) by the Eyring equation.</p><p>Circles are for melts with 3.3% water and squares are for melts with 6% water. In the Eyring equation D is the diffusivity, kB is Boltzmann's constant, T the temperature, X the distance jumped during each diffusive step -3 x 10 -l~ m, and q the melt viscosity calculated assuming fluorine and water affect melt viscosity similarly. The dashed line is a linear fit of measured diffusivities to those calculated by the Eyring equation Kelvins, melt viscosity, T1 in Pa-s, the distance a species "jumps" during each diffusive step, X in m, and Boltzmann's constant, kB to the diffusivity, D in m 2 s-1, D=kB T X11' <ref type="bibr" target="#b2">Baker (1990)</ref> used a jump distance of 3.2 x 10 -l~ m (based upon determinations of the Si-O bond distance in silicate glasses) to calculate the silicon EBDC between anhydrous melts of dacitic and rhyolitic composition; <ref type="bibr" target="#b3">Baker (1991)</ref> rounded the jump distance to 3.0 x 10 fo m and also was successful in the calculation of the silicon EBDC during interdiffusion of hydrous dacitic and rhyolitic melts. This 0.2 • 10-10 m difference in jump distance results in a 6% difference between calculated diffusivities; this error is minor in comparison to the larger errors in viscosity calculations (discussed in the following paragraphs) and therefore a jump distance of 3.0 x 10 ~0 m is used in the present calculations 1. Melt viscosities must be known or estimated in order to apply the Eyring equation. Viscosities of the melt at 68 wt% SiO2 (i.e. the centre of the diffusion couple) were estimated following <ref type="bibr" target="#b35">Shaw (1972)</ref> by using the assumption that F and H20 affect viscosities equally. To test this assumption preliminary measurements of the viscosity of LCOF + 6 wt% H20 were made at 900 ~ and 1000 ~ (Baker and Vaillancourt, research in progress) and extrapolated to higher temperatures using an Arrhenius equation. At 1100 *C the experimentally based viscosity of LCOF +6 wt% H20 is 25 Pa-s, whereas following Shaw (t972) the calculated viscosity is 36 or 1.4 times greater; at 1400 ~ the experimentally Diffusivity calculations with the Eyring equation by <ref type="bibr">Baker (1992b)</ref> utilized an order of magnitude estimate of the jump distance, 1 • 10 10 m, because of the wide range of melt compositions investigated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>209</head><p>based viscosity is 2.9 Pa-s and that calculated by the Shaw technique is 2.2Pa-s. Based on these results <ref type="bibr" target="#b35">Shaw's (1972)</ref> technique for modelling melt viscosity appears to work well for the estimation of the viscosity of F + H20-bearing melts at high temperatures, to within a factor of 1.4. The agreement between calculated and measured diffusivities is good (Fig. <ref type="figure">4</ref>); with the exception of one experiment, the difference between measured and calculated diffusivity is less than a factor of 3, or approximately twice the error in the viscosity estimates. The maximum difference between measured and calculated diffusivities was observed for the experiment at 1400 ~ 6% H20 where the calculated diffusivity is a factor of 4.9 greater than the measured diffusivity. Thus, at these high temperatures the Eyring equation can be used to estimate diffusivities from melt viscosities. However, the Eyring equation appears only accurate to within approximately a factor of three for water-and fluorine-bearing peralkaline melts. The correspondence between measured diffusivities and those calculated by the Eyring equation can be improved by modification of the Eyring equation based upon measured diffusivities in these peralkaline melts:</p><formula xml:id="formula_1">D = 0.1831 (~qT)+ 2.71 • 10 1~</formula><p>This modification, although ad hoc and applicable only to this study, nevertheless demonstrates a linear relationship between viscosity and the silicon EBDC in these melts (Fig. <ref type="figure">4</ref>). The linear nature of this equation provides evidence for the interrelationship between the mechanisms of viscous transport and of interdiffusion in magmatic silicate melts of intermediate to silicic composition.</p><p>Calculated viscosities vary across diffusion couples from AT150F to LCOF, therefore diffusivity is also expected to vary across diffusion couples. At 1100 ~ the calculated viscosity of AT150F + 3.3 wt% H20 is 66 Pas whereas for LCOF+3.3 wt% H20 the viscosity is 339 Pa-s. At higher temperatures and water contents the viscosity contrast becomes smaller. Based upon calculations with the Eyring equation the viscosity contrast at 1100 ~ across the diffusion couples should lead to a factor of 5 difference in the measured diffusivities at each end of the diffusion couple. Such a large difference was not observed (Table <ref type="table" target="#tab_2">2</ref>). However, Boltzmann-Matano and error function inversion techniques utilize the data within the diffusion profile of each experiment for the calculation of diffusivities and do not rely heavily on data near the initial concentrations at each end of the diffusion profile. The portion of the diffusion profile with the greatest slope, i.e. the region used for diffusion measurements, lies between approximately 64 wt% and 72 wt% SiO z (ef. Table 2, Fig. <ref type="figure">1</ref>). These two compositions were estimated by calculating the composition of one mixture of 80 wt% LCOF/20 wt% AT150F and of another mixture of 75 wt% ATI50F/25 wt% LCOF, and calculating the viscosities of these mixtures. The maximum viscosity difference between melts of these compositions is only a factor of 2.7. (At 1100 ~ and 3.3 wt% water the calculated viscosity of the AT150Frich composition is 107 Pa-s and the calculated viscosity of the LCOF-rich composition is 288 Pa-s). This small viscosity difference is near the estimated error in diffusivity measurements and the estimated error in calculating diffusivities from the Eyring equation. Thus it is not surprising that diffusion in these experiments can be modelled by using a constant diffusivity across the diffusion couple. Despite the good agreement between measured and calculated silicon EBDCs at high temperatures, these techniques for the calculation of the silicon EBDCs will probably fail at lower temperatures. This failure is expected because measurements of albite melt viscosity in the presence of F, H20, or a combination of the two <ref type="bibr" target="#b14">(Dingwell 1987)</ref>, demonstrate that at high temperatures a simple linear relation exists between the concentrations of H20+F and the viscosity of the melt (Fig. <ref type="figure" target="#fig_2">5</ref>). However, at lower temperatures the viscosity of the melt containing H20+F can be one-half a log unit below that predicted by the simple linear combination of measured diffusivities for hydrated albite melt and for fluoridated albite melt (Fig. <ref type="figure" target="#fig_2">5</ref>). At lower temperatures than studied by <ref type="bibr" target="#b14">Dingwell (1987)</ref> the difference is expected to be even greater. Thus, at temperatures below approximately 1000 ~ calculated viscosities <ref type="bibr" target="#b35">(Shaw 1972)</ref> for HaO + F-bearing melts would be higher than the real viscosities and calculated diffusivities lower than the real ones. Such a discrepancy between calculated and measured viscosities is supported by preliminary data from this laboratory which demonstrate that the measured viscosity in LCOF + 6 wt% HaO at 900 ~ is a factor of 2.5 less than the viscosity calculated following <ref type="bibr" target="#b35">Shaw (1972)</ref>.</p><p>The Eyring equation for these peralkaline melts can be inverted and the Arrhenius parameters determined in this diffusion study used to estimate the viscosity of silicic melts containing F and H20 at magmatic temperatures. These calculated viscosities are extremely low. At 800 ~ the calculated viscosity for a 50:50 ]nix of LCOF+AT150F with 6 wt% H20 is 300 Pa-s and at 700 ~ the viscosity is 963 Pa-s. Viscosities of the same composition, except fluorine-free, melts containing 6 wt% water were calculated following <ref type="bibr" target="#b35">Shaw (1972)</ref> and are 4,900 Pa-s at 800 ~ and 39,800 Pa-s at 700 ~ 16 and 41 times greater than calculated for fluo-rine+water-bearing melts. Although viscosities calculated from the Eyring equation must be considered provisional they nevertheless indicate that the combined effects of water and fluorine result in extremely low-viscosity silicic melts.</p><p>The low viscosities of fluorine-and water-bearing silicic melts may help explain the enigmatic occurrence of pegmatite bodies in high-grade metamorphic terranes that do not host any associated granitic plutons <ref type="bibr">(Cerny 1982)</ref>. Melt segregation calculations for normal granitic composition magmas demonstrate that compaction of a partially molten source rock can, at most, produce accumulations of granitic magma only on the order of centimetres to metres in size for thermal events of 105-107 years duration <ref type="bibr" target="#b43">(Wickham 1987)</ref>. The presence of large modal abundances of hydrous minerals and apparently magmatic fluorite in many pegmatites provide evidence of high concentrations of water and fluorine during the magmatic stage (Cernj~ 1982), possibly similar to the melts of this study. Because these F + H20-rich silicic melts are expected to have very low viscosities they could rapidly and efficiently segregate from their source rocks and migrate into a high-grade metamorphic terrane leaving no evidence of their place of origin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Correlations between Arrhenius parameters for silicon EBDCs with fluorine and hydroxyl concentrations</head><p>The effects of water and fluorine on both activation energies and pre-exponential factors for diffusion in intermediate to silicic melts <ref type="bibr" target="#b2">(Baker 1990</ref><ref type="bibr" target="#b3">(Baker , 1991</ref><ref type="bibr">(Baker , 1993a, this study) , this study)</ref> are linear and log-linear, respectively (Fig. <ref type="figure">6a</ref>, 6b), when plotted against X/(X + O), where X represents the moles of fluorine or OH-in the melt and O represents the moles of oxygen in volatile-free melts, calculated assuming all iron as ferrous iron. Hydroxyl contents, 0.1398mol OH-/100g melt with 3 wt% water and 0.1965 mol OH-/100 g melt with 6 wt% water, have been estimated from total water contents of diffusion experiments and measured hydroxyl concentrations in rhyolitic, fluorine-free melts by <ref type="bibr" target="#b38">Silver et al. (1990)</ref>. The correlations are: The correlation between activation energies for the EBDC of silicon in the melts studied and the X/(X + O) ratio is qualitatively similar to the correlation between the activation energies for viscous transport and X/ (X + O) in albite melt for X/(X + O) ratios less than 0.10 ). The albite viscosity data indicate a change in the slope at X/(X + O) ratios somewhere between 0.05 and 0.1, approximately 0.075, where the slope increases from -1967 to -172. These data could also be fit with a curved line which demonstrates a steep negative slope at low X/(X+ O) values and a shallower slope at X/(X + O) values greater than 0.10. The value of X/(X+O) at which the slope of the correlation line between the activation energy for viscous transport in albite melt and X/(X + O) changes is in the region of the maximum value of X/(X + O) used in this diffusion study. Based upon these viscosity measurements in albite melt it appears that increasing X/ (X + O) ratios to higher values than used in the diffusion measurements would not significantly affect activation energies for silicon EBDCs between peralkaline dacitie and rhyolitic melts. This insensitivity of activation energies to X/(X+O) values above approximately 0.075 may be responsible (together with a small amount of experimental error) for the higher activation energy for silicon EBDC in melts with 1.3 wt% F and 6 wt% H20 compared to melts with 1.3 wt% F and 3.3 wt% H20.</p><p>The correlations between Arrheuius parameters and volatile concentrations for F-bearing, H20-bearing, and F+H20-bearing melts are consistent with these two volatiles affecting diffusion in a quantitatively similar manner by decreasing both activation energies and preexponential factors. Decreases in activation energies and pre-exponential values for diffusion and viscous transport with the addition of volatiles, H20 and F, have previously been ascribed to the disruption of bonds between network-forming cations, Si and A1, and oxygen anions (e.g. <ref type="bibr" target="#b9">Burnham 1975;</ref><ref type="bibr" target="#b40">Stolper 1982;</ref><ref type="bibr" target="#b34">Schaller et al. 1992;</ref><ref type="bibr" target="#b3">Baker 1991</ref><ref type="bibr">Baker , 1993a))</ref>. Spectroscopic studies of anhydrous, F-bearing melts similar in composition to those of this study indicate that fluorine complexes with aluminum, breaking bonds in the (Si,A1)-O network, and converting aluminum from a network-former to a network-modifier <ref type="bibr">(Mysen and</ref><ref type="bibr">Virgo 1985, 1986;</ref><ref type="bibr" target="#b23">Kohn et al. 1991;</ref><ref type="bibr" target="#b34">Schaller et al. 1992)</ref>. Water partially dissociates to form hydroxyl species which may affect diffusion by a mechanism similar to that of fluorine <ref type="bibr" target="#b40">(Stolper 1982;</ref><ref type="bibr" target="#b29">Mysen and Virgo 1986)</ref>, or instead may complex with sodium cations and protonate bridging oxygens between (Si,A1)O 4 units <ref type="bibr">(Kohn et al. 1989</ref><ref type="bibr" target="#b24">(Kohn et al. , 1992))</ref>, thus Weakening them and affecting melt transport processes without any depolymerization and transformation of network-forming cations into network-modifying roles.</p><p>The only spectroscopic study of a hydrated and fluoridated glass was by <ref type="bibr" target="#b34">Schaller et al. (1992)</ref> who studied a hydrous haplogranitic composition with 7 wt% HaO and either 2wt% F or 5 wt% F. Their NMR spectroscopy indicated the presence of tetrahedral and octahedral aluminum in the quenched melt, but no 5-coordinated aluminum was discovered. No evidence was found by <ref type="bibr" target="#b34">Schaller et al. (1992)</ref> for direct bonding between silicon and fluorine, or sodium and fluorine, in the hydrous haplogranitic glasses. <ref type="bibr" target="#b34">Schaller et al. (1992)</ref> concluded that "the speciation of F seems to be similar in hydrous and anhydrous glasses ". Therefore, to a first approximation it appears that the effects of F and H20 on melt structure are independent of each other.</p><p>Spectroscopic evidence has been interpreted by <ref type="bibr">Kohn et al. (1989</ref><ref type="bibr" target="#b23">Kohn et al. ( , 1991</ref><ref type="bibr" target="#b24">Kohn et al. ( , 1992) )</ref> to indicate different interaction mechanisms for water and fluorine with silicate melts; however, diffusion evidence indicates that fluorine and water behave quantitatively similarly in their reduction of activation energies and pre-exponential factors (e.g. equivalent molar amounts of OH-and F have similar affects of pre-exponential factors and activation energies for diffusion). Thus, the effects of H20 (OH-) and F on the Arrhenius parameters for the EBDC of silicon either appear insensitive to the exact mechanisms by which melt structure is modified by volatiles, or OH-and F interact similarly with silicate melts. If the former is true, this insensitivity suggests that the energetics of formation of the highly-coordinated (Si,A1)-O activated complex responsible for diffusive motion are reduced by any changes in melt structure that lead either to depolymerization, e.g. the effect of F addition, or to simply weakening of (Si,Al)-O bonds, eg the effect of H20 addition as proposed by <ref type="bibr">Kohn et al. (1989</ref><ref type="bibr" target="#b24">Kohn et al. ( , 1992))</ref>.</p><p>The observed change in slope of activation energy versus X/(X + O) for viscous transport in albite at X/ (X + O) ~ 0.075 and the probable, similar change in slope for the correlation between the activation energy for silicon EBDCs versus X/(X+O) suggests that for silicic melts there exists a value of X/(X+O) above which addition of volatiles has no significant effect on either diffusive or viscous transport properties. This observation has long been known for water (e.g. <ref type="bibr" target="#b9">Burnham 1975;</ref><ref type="bibr" target="#b40">Stolper 1982), and</ref><ref type="bibr" target="#b14">Dingwell (1987)</ref> has discussed his similar observations of the effects of fluorine on albite viscosity within the context of configurational entropy theory.</p><p>The correlations between activation energies, pre-exponential factors, and X/(X + O) allow prediction of silicon EBDCs, and therefore non-alkali diffusivities, during the interdiffusion of intermediate and silicic melts with water contents between 0 and 6 wt% and fluorine contents up to 1.3 wt%. The probable change in slope of the correlation curve between activation energies (Figs. <ref type="figure">6a,</ref><ref type="figure">c</ref>), and possibly also pre-exponential factors (Fig. <ref type="figure">6b</ref>), and X/(X+O) for silicon EBDCs, occurs at volatile contents (i.e. F and H20 ) near the maximum inferred in magmas, thus these correlations between diffusivity and X/(X + O) appear applicable to most intermediate to silicic magmas. Activation energies calculated from the regressions are typically within 10 relative % of measured activation energies and pre-exponential factors are calculated to within an order of magnitude of those measured; resulting diffusivities calculated from these activation energies and pre-exponential factors are within an order of magnitude of the correct values. Although diffusion experiments investigating the effects of fluorine were all performed with peralkaline melts, <ref type="bibr" target="#b2">Baker (1990</ref><ref type="bibr">Baker ( , 1993a) )</ref> has demonstrated that for interdiffusion between anhydrous intermediate to silicic melts the alkali-alumina ratio exerts only a small effect on diffusion, thus these results also can be applied to metaluminous and peraluminous compositions. Contamination of rhyolitic melts by dacitic enclaves <ref type="bibr" target="#b41">Watson (1982)</ref> and <ref type="bibr" target="#b2">Baker (1990</ref><ref type="bibr" target="#b3">Baker ( , 1991) )</ref> demonstrated the potential of significant diffusive contamination of a host melt by diffusion across the boundaries of molten enclaves being mixed into the host melt. <ref type="bibr" target="#b3">Baker (1991)</ref> nondimensionalized the problem by calculating the degree homogenized, which is defined as the extent the contaminated host mews composition had moved towards a bulk composition defined by the compositions and weight fractions of host melt and enclaves. Using dia-grams of time versus degree homogenized, <ref type="bibr" target="#b3">Baker (1991)</ref> demonstrated the efficacy of contamination of hydrous melts by enclaves of 5 or 50 cm radius at temperatures as low as 800 ~ Because of the observed Coupling of all non-alkali elements with silicon during the interdiffusion of dacitic and rhyolitic melts, the Arrhenius equations determined in this study for silicon diffusion can be extrapolated to lower temperatures and used to perform contamination calculations for F + HaO-bearing melts. (Diffusion could not be performed at lower temperatures because the liquidus ofAT150F + 6 wt% H20 at 1.0 GPa is above 1000 ~ These calculated diffusivities are higher than other non-alkali element diffusivities, even those calculated for water-rich intermediate to silicic melts <ref type="bibr" target="#b3">(Baker 1991)</ref>. The time versus degree homogenized has been calculated at 800 ~ (Fig. <ref type="figure">7a</ref>) and at 700 ~ (Fig. <ref type="figure">7b</ref>) for non-alkali elements during mixing of enclaves of 5 and 50 cm radius. The small differences between the measured silicon EBDCs and the EBDCs of A1, Fe, Mg, and Ca will effectively couple these elements with silicon during diffusive contamination, although small differences, approximately a factor of 2 at the most, in the homogenization time for these elements may occur. Alkali elements and contamination of Sr isotopes have not been calculated (as was done by Baker 1991) because of the lack of data. However, based upon previous calculations <ref type="bibr" target="#b3">(Baker 1991)</ref> the time necessary for the homogenization of alkalies and Sr isotopes is probably orders of magnitude less than calculated for non-alkali homogenization by diffusion.</p><p>The contamination of a host rhyolitic melt with 1.3% F and either 3.3 or 6 wt% H20 by a dacitic melt with the same volatile concentration is very rapid. The duration necessary for a given degree of homogenization is similar for these fluorine-bearing melts with either 3.3 or 6 wt% water, however, because of the greater activation energy for the silicon interdiffusion in fluorine-bearing melts with 6 wt% water the diffusivity is slightly lower, and homogenization time longer, in these melts, than in fluorine-bearing melts with 3.3 wt% water. At 800 ~ the host melt is more than 50% homogenized in less than twenty years for 5 cm radius enclaves (Fig. <ref type="figure">7a</ref>). The homogenization times for 3.3 or 6 wt% H20 + 1.3 wt% F melts are similar to those for 6 wt% water, but an order of magnitude less than the homogenization times for melts with 3 wt% water. If the radius of the enclaves is increased by an order of magnitude to 50 cm then the time necessary to achieve a specific degree of homogenization is two orders of magnitude more than calculated for 5 cm radius enclaves. Calculated homogenization times for fluorine + water-bearing melts at 700 ~ are similar to those at 800 ~ because of the low activation energies of diffusion in these melts. For any size enclave at a given water content the time necessary to achieve the same degree of homogenization as calculated at 800 ~ is approximately only a factor of three greater (Fig. <ref type="figure">7b</ref>). However, for melts with just 6% H20 the increase in time is a factor of 4.5 (Fig. <ref type="figure">7b</ref>) which leads to increasingly greater differences in homogenization times between fluorine + water-bearing melts and melts with 6 wt% water as the temperature falls.</p><p>The import of these calculations is significant. It appears virtually impossible for an intermediate-to-silicic melt containing modest amounts of water, between 3 and 6 wt%, and approximately 1 wt% fluorine to escape some type of contamination by diffusive processes if any form of magma mixing occurs. The rapid diffusivities in these melts should also homogenize any contamination that might occur. Thus, diffusive contamination is expected to play an significant role in the compositional evolution of F + H20-rich silicic melts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>Studies of the combined effects of 1.3 wt% F and 3.3 wt% H20 on the effective binary diffusion coefficient of silicon during interdiffusion of peralkaline dacitic and rhyolitic melts demonstrate increased diffusivities compared to compositionally similar volatile-free melts, or melts containing either 1.3 wt% F or 3 wt% H20. Silicon effective binary diffusion coefficients in melts with 1.3 wt% F and 6 wt% H20 are similar to those measured in melts containing only 6 wt% H20. Activation energies for diffusion are significantly lower than measured in volatile-free or hydrous melts. The Eyring equation typically relates calculated and measured diffusivities to within a factor of 3. Arrhenius parameters for diffusion determined in this study can be combined with the Eyring equation to predict viscosities of F-and H20-rich silicic melts at magmatic temperatures. These viscosities are only a few hundred Pa-s at 700 ~ and 800 ~ an order of magnitude below viscosities measured in hydrous silicic melts. Arrhenius parameters for diffusion in volatile-free, F-bearing, H20-bearing, and F+H20-bearing melts have been correlated with the ratio X/(X + O), where X is the number of moles of F or OH-dissolved in the melt and O is the number of moles of oxygen in the volatile-free melt. The correlations can be used to calculate activation energies to within approximately l 0 relative percent and pre-exponential factors to within a factor of 10 for interdiffusion between intermediate and silieic melts with water contents between 0 and 6 wt% and fluorine contents of 1.3 wt% and below. Application of the diffusion results of this study to modelling of the contamination of a rhyolitic magma chamber by dacitie enclaves indicates that diffusion at magmatic temperatures is extremely rapid in melts containing fluorine and water. Diffusion in these melts is so rapid that it appears almost impossible for any natural melt containing fluorine and water to have avoided some diffusive contamination.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 Replicate electron microprobe traverses (a &amp; b) for SiO 2 and A1203 in experiment VO-28. The close correspondence between the two profiles provides evidence that diffusion was totally responsible for elemental transport in the experiments and that advection did not occur. Solid and dashed lines are theoretical diffusion profiles calculated from error function inversion techniques for VG-28a (O) and b (L~) respectively (see text for further discussion)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 Measured viscosities of albite melt at 750 MPa with added water and fluorine (after Dingwell 1987)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>E. = -1533 {X/(X + O)} + 213.3 D O = 2.13 x 10 -6 exp [--65.0{X/(X+O)}].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig.</head><label></label><figDesc>Fig. 6a-e Relationships between Arrhenius parameters, E, (a) and D o (b), for the EBDC of silicon at 1.0 GPa during interdiffusion of dacitic and rhyolitic melts with X/(X + O), and the relation between the activation energy tbr viscous transport in albite melt and X/(X + O) at 750 MPa (e viscosity data from Dingwell 1987, and OH-contents from Silver and Stolper 1989). The value X represents the moles of F or OH-in the volatile-bearing melt and O represents the moles of oxygen in the anhydrous melt. Arrhenius parameter error bars plotted in a and b for volatile-bearing experiments are one standard error. Error bars for volatile-free experiments are similar to those measured in F-bearing experiments and less than the greatest error measured in the water-bearing experiment</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig</head><label></label><figDesc>Fig. 7a, b Models of contamination of a rhyolitic melt by entrained dacitic enclaves of 5 and 50 cm radius at 800 ~ (a) and 700 ~ (b). The combined effects of water and fluorine in silicate melts decrease homogenization times (i.e. increase contamination rates) compared to homogenization times in melts only containing water. See text for further discussion. () 6 wt% H20, 1.3 wt% F; (---) 3.3 wt% H20, 1.3 wt% F; (---) 6 wt% H20; ( .... ) 3 wt% H20</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Electron microprobe analyses of starting glasses</figDesc><table><row><cell></cell><cell>AT150F</cell><cell>LCOF</cell></row><row><cell>SiO2</cell><cell>61.47_+0.54</cell><cell>73.61 +0.33</cell></row><row><cell>TiOa</cell><cell>0.53 • 0.13</cell><cell>0.11 _+0.03</cell></row><row><cell>A1203</cell><cell>17.02 • 0.22</cell><cell>12.65 + 0.08</cell></row><row><cell>FeO 1</cell><cell>4.644-0.15</cell><cell>0.67-+0.01</cell></row><row><cell>MnO</cell><cell>0.00</cell><cell>0.08 -+ 0.03</cell></row><row><cell>MgO</cell><cell>1.64 -+ 0.03</cell><cell>0.06 _+ 0.01</cell></row><row><cell>CaO</cell><cell>5.05 _+ 0.12</cell><cell>0.52 • 0.03</cell></row><row><cell>Na20</cell><cell>7.31 _+0.11</cell><cell>6.87_+0.21</cell></row><row><cell>K20</cell><cell>1.71 • 0.04</cell><cell>4.54 4-0.09</cell></row><row><cell>F</cell><cell>1.23 -+ 0.20</cell><cell>1.45 __ 0.39</cell></row><row><cell></cell><cell>100.60</cell><cell>100.56</cell></row><row><cell>O = halogen</cell><cell>0.52</cell><cell>0.61</cell></row><row><cell>Total</cell><cell>100.04</cell><cell>99.95</cell></row><row><cell>Molar:</cell><cell></cell><cell></cell></row><row><cell>Na20 + K20 + CaO</cell><cell>1.35</cell><cell>1.36</cell></row><row><cell>A1203</cell><cell></cell><cell></cell></row><row><cell>' Total iron as FeO</cell><cell></cell><cell></cell></row><row><cell cols="3">riched variants of AT150 and LCO used in anhydrous and hy-</cell></row><row><cell cols="2">drous interdiffusion experiments</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>Experimental conditions and silicon diffusivities measured by Boltzmann-Matano analysis at 64, 68 and 72 wt% SiO~ and by Error Function Inversion assuming constant diffusivity</figDesc><table><row><cell>Run #</cell><cell>Temp., ~</cell><cell cols="3">Duration, S U20 , wt% D64</cell><cell>D6~</cell><cell>Dye</cell><cell>D~,rm ~ m2/s</cell></row><row><cell>VG-4</cell><cell>1100</cell><cell>7200</cell><cell>3.4</cell><cell>1.50x10 12</cell><cell cols="2">1.99x10 12 2.81x10-J2</cell><cell>2.48 (+0.27/-0.23)" x 10 -12</cell></row><row><cell>VG-19</cell><cell>1100</cell><cell>1800</cell><cell>3.6</cell><cell>1.43 x 10-le</cell><cell cols="2">1.96 x 10 12 1.09 x 10 -12</cell><cell>1.07 (+0.10/-0.09) x 10 -'2</cell></row><row><cell>VG-1</cell><cell>1200</cell><cell>2760</cell><cell>3.2</cell><cell>6.83 x 10 12</cell><cell cols="2">4.79 x 10 -~2 3.95 x 10 -12</cell><cell>5.02 (+0.26/-0.24) x 10 -~2</cell></row><row><cell>VG-27 VG-10</cell><cell>1200 1300</cell><cell>1080 1080</cell><cell>3.2 3.6</cell><cell>2.90 x 10 12 1.92 x 10 12</cell><cell cols="2">2.85 x 10 -12 1.88 x 10 -J2 2.54 x 10-12 9.44 x 10.-13</cell><cell>3.18 (+0.53/--0.43)x 10 -~ 1.80(+0.75/--0.46)x 10 12</cell></row><row><cell>VG-15</cell><cell>1300</cell><cell>1080</cell><cell>3.5</cell><cell>3.16 x 10 -~2</cell><cell cols="2">4.15 x 10 ~2 3.10 x 10 -12</cell><cell>3.25 (+0.30/--0.26)x 10 12</cell></row><row><cell>VG-17</cell><cell>1400</cell><cell>720</cell><cell>2.7</cell><cell>8.90 x 10 -12</cell><cell cols="2">9.28 x 10 12 7.12 x 10-:t2</cell><cell>8.63 (+0.62/-0.56) x 10 -~2</cell></row><row><cell>VG-20</cell><cell>1100</cell><cell>1800</cell><cell>6.3</cell><cell>3.06 x 10 i2</cell><cell cols="2">3.19 x 10-12 1.92 x 10-~2</cell><cell>2.43 (+0.18/--0.16)x 10 -~2</cell></row><row><cell>VG-5</cell><cell>1100</cell><cell>7200</cell><cell>6.3</cell><cell>1.65x10 a2</cell><cell cols="2">1.54x10 -12 1.39x10 12</cell><cell>1.53 (+0.13/-0.11)x 10 12</cell></row><row><cell>VG-28a</cell><cell>1200</cell><cell>1080</cell><cell>5.9</cell><cell>3.55 x 10 12</cell><cell cols="2">3.72 x 10-12 2.46 x 10-12</cell><cell>3.40 (+0.41/-0,34) x 10 ~2</cell></row><row><cell>VG-28b</cell><cell>1200</cell><cell>1080</cell><cell>5.9</cell><cell>3.80 x 10 -12</cell><cell cols="2">5.08 x 10 -I~ 6.39 x 10 -12</cell><cell>3.40 (+0.62/--0.49) x 10 12</cell></row><row><cell>VG-16</cell><cell>1300</cell><cell>1080</cell><cell>5.6</cell><cell>1.07x 10 -11</cell><cell cols="2">9.33 x 10 12 9.04x 10 -~2</cell><cell>8.35 (+0.77/-0.67) x 10 ~2</cell></row><row><cell>VG-18</cell><cell>1400</cell><cell>720</cell><cell>6.1</cell><cell>1.66 x 10 -a~</cell><cell cols="2">1.24 x 10 11 5.15 x 10 -~2</cell><cell>1.59 (+0.24/-0.19) x 10 -n</cell></row><row><cell cols="6">1-sigma errors based upon linear regression of the inverted error function</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements We are grateful to P. ltudon and P. Tort who helped in the laboratory and to <rs type="person">G. Poirier</rs> who kept the electron microprobe in good working order. We very much appreciate the donation of laboratory equipment by <rs type="person">C. Paris</rs>. The careful and constructive reviews by an anonymous reviewer and <rs type="person">Y. Zhang</rs> were instrumental in improving the clarity of this paper. This research was funded by <rs type="funder">NSERC</rs> operating grant <rs type="grantNumber">OGP0089662</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_4tz7fDY">
+					<idno type="grant-number">OGP0089662</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Magmatic inclusions in silicic and intermediate volcanic rocks</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Bacon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geophys Res</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="issue">986</biblScope>
+			<biblScope unit="page" from="6091" to="6112" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Tracer versus trace element diffusion: diffusional decoupling of Sr concentration from Sr isotope composition</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="3015" to="3023" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Chemical interdiffusion of dacite and rhyolite: anhydrous measurements at 1 atm and 10 kbar, application of transition state theory, and diffusion in zoned magma chambers</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="407" to="423" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Interdiffusion of hydrous dacitic and rhyolitic melts and the efficacy of rhyolite contamination of dacitic enclaves</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page">462473</biblScope>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Tracer diffusion of network formers and multicomponent diffusion in dacitic and rhyolitic melts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">631</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Estimation of diffusion coefficients during interdiffusion of geologic melts: application of transition state theory</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Geol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="11" to="21" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The effect of F and C1 on the interdiffusion of peralkaline intermediate and silicic melts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Mineral</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="316" to="324" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Short course on experiments at high pressure and applications to the earth&apos;s mantle (Short Course Handbook 21)</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<editor>Luth RW</editor>
+		<imprint>
+			<date type="published" when="1993">1993b</date>
+			<publisher>Min Soc Canada</publisher>
+			<biblScope unit="page" from="305" to="355" />
+			<pubPlace>Toronto</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Measurement of diffusion at high temperatures and pressures in silicate systems</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Equilibria for precise pressure calibration and a frictionless furnace assembly for the piston-cylinder apparatus</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Bohlen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neucs Jahrb Mineral Monatsh H</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="404" to="412" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Water and magmas, a mixing model</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1077" to="1084" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Crustal influence in the generation of continental flood basalts</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Lugmair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Macdougall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page" from="160" to="162" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Short course in granitic pegmatites in science and industry (Short Course Handbook 8)</title>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<editor>Cerny P</editor>
+		<imprint>
+			<date type="published" when="1982">1982</date>
+			<publisher>Min Soc Canada</publisher>
+			<biblScope unit="page" from="405" to="461" />
+			<pubPlace>Toronto</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Petrogenesis of granitic pegmatites</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Eruptive pegmatite magma: rhyolite of the Honeycomb Hills</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Congdon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Nash</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Mineral</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1261" to="1278" />
+			<date type="published" when="1991">1991</date>
+			<pubPlace>Utah</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">The mathematics of diffusion</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+			<publisher>Clarendon Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Melt viscosities in the system NaAISi308-H20-F20-1</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<editor>Mysen BO</editor>
+		<imprint>
+			<date type="published" when="1987">1987</date>
+			<publisher>Geochemical Society</publisher>
+			<biblScope unit="page" from="423" to="432" />
+		</imprint>
+		<respStmt>
+			<orgName>Penn State University</orgName>
+		</respStmt>
+	</monogr>
+	<note>Magmatic processes: physicochemical principles</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The Nd-and Sr-isotopic composition of i-type microgranitoid enclaves and their host rocks from the Swifts Creek Pluton, southeast Australia</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Eberz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Nicholls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Maas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Mcculloch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Whitford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Gcol</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="119" to="134" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Sr and Pb isotopes, U and Th chemistry of the alkaline Monteregian and White Mountain igneous provinces, eastern North America</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Eby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1143" to="1153" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Vcsiculation of mafic magma during replenishment of silicic magma reservoirs</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Eichelberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="page">446450</biblScope>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Field, chemical, and physical constraints on mafic-felsic magma interaction in the Lamarck Granodiorite</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Frost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Mahood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geol Soc Am Bull</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="272" to="291" />
+			<date type="published" when="1987">1987</date>
+			<pubPlace>Sierra Nevada, California</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Preeruptive gradients in silicic magma as recorded by melt inclusions</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Gavigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Nash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Webster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EOS Trans Am Geophys Union</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page">417</biblScope>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">The theory of rate processes</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Glasstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Laidler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eyring</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1941">1941</date>
+			<publisher>McGraw-Hill</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A high-temperature assembly for 1.91-cm @in.) piston-cylinder apparatus</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hudon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Tort</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Mineral</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="145" to="147" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A multinuclear magnetic resonance study of the structure of hydrous albite glasses</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dupree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="2925" to="2935" />
+		</imprint>
+	</monogr>
+	<note>I989</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">NMR evidence for five-and six-coordinated aluminum fluoride complexes in F-bearing aluminosilicate glasses</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dupree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Mortuza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cmb</forename><surname>Henderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Mineral</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="309" to="312" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The interaction between water and aluminosilicate magmas</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Kohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dupree</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Mortuza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Geo</title>
+		<imprint>
+			<biblScope unit="volume">196</biblScope>
+			<biblScope unit="page" from="399" to="409" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Topaz-bearing keratophyre (ongonite), a new variety of subvolcanic igneous vein rock</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Kovalcnko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Kuz'mun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">S</forename><surname>Antipin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Petrov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Sciences Section</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page">135</biblScope>
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+	<note>Dok Akad Nauk SSSR</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The effect of fluorine on liquidus phase relationships in the system qz-ab-or with excess water at 1 kb</title>
+		<author>
+			<persName><forename type="first">Dac</forename><surname>Manning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="206" to="215" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Crystal-growth kinetics of plagioclase in igneous systems: one-atmosphere experiments and application of a simplified growth model</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Muncill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">311 Murase q; McBirney AR</title>
+		<imprint>
+			<date type="published" when="1973">1987. 1973</date>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="3563" to="3592" />
+		</imprint>
+	</monogr>
+	<note>Am Mineral</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Structure and properties of fluorinebearing aluminosilicate melts: the system Na20-AIzO3-SiO2-F at 1 atm</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Virgo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="205" to="220" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Volatiles in silicate melts at high pressure and temperature. 2. Water in melts along the join NaA102-SiO2 and comparison of solubility mechanism of water and fluorine</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Virgo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Geol</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="333" to="358" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Geochemistry of Tertiary alkaline rocks of the Eastern Trans-Pecos magmatic province</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">O</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Mattison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tcxas. Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="72" to="92" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Analysis of liquid-state interdiffusion in the system CaO-A1203-SiO2 using multiatomic ion models</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Oishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nanba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Pask</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Ceram Soc</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="247" to="253" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The Macusani glasses, SE Peru: evidence of chemical fi:actination in peraluminous magmas</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pichavant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Herrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boulmier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Briqueu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J-L</forename><surname>Joron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Juteau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Marin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Michard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Smf</forename><surname>Shepard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Treuil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vernet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Magmatic processes: physicochemical principles</title>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Geochemical Society</publisher>
+			<date type="published" when="1987">1987</date>
+			<biblScope unit="page">373</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Penn State University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Oxide solution mechanisms in silicate melts: systematic variations in the activity coefficient of SiO&gt;</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ryerson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="637" to="649" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Fluorine in silicate glasses: a multinuclear nuclear magnetic resonance study</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schaller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Keppler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Knoller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Merwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sebald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">707</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Viscosities of magmatic silicate liquids: an empirical method of prediction</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sci</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page">893</biblScope>
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Diffusivity of oxygen in jadeite and diopside melts at high pressure</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1295" to="1303" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Water in albitic glasses</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stolpcr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Petrol</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="667" to="709" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The influence of bulk composition on the speciation of water in silicate glasses</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Stolper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page">162</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The fluid dynamics of evolving magma chambers</title>
+		<author>
+			<persName><forename type="first">Rsj</forename><surname>Sparks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Huppert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phil -frans R Soc London A</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="page" from="511" to="534" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Water in silicate glasses: an infrared spectroscopic study</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stolper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">17</biblScope>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Basalt contamination by continental crust: some experiments and models</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="73" to="87" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Chemical diffusion in magmas: an overview of experimental results and geochemical implications</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Physical Geochemistry</title>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">L</forename><surname>Perchuk</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Berlin, Heidelberg; New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1991">1991</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="120" to="151" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The segregation and emplacement of granitic magmas</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Wickham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geol Soc London</title>
+		<imprint>
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="281" to="297" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Diffusive crystal dissolution</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="492" to="513" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

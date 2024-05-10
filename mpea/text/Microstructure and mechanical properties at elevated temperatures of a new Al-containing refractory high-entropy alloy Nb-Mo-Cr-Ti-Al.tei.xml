@@ -1,0 +1,1052 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microstructure and mechanical properties at elevated temperatures of a new Alcontaining refractory high-entropy alloy Nb-Mo-Cr-Ti-Al</title>
+				<funder>
+					<orgName type="full">Karlsruhe Institute of Technology</orgName>
+					<orgName type="abbreviated">KIT</orgName>
+				</funder>
+				<funder ref="#_Gs59hMC">
+					<orgName type="full">Deutsche Forschungsgemeinschaft (DFG)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Carl Zeiss Foundation</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Karlsruhe Nano Micro Facility</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Applied Materials (IAM-WK)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<addrLine>Engelbert-Arnold-Str. 4</addrLine>
+									<postCode>D-76131</postCode>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Kauffmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Applied Materials (IAM-WK)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<addrLine>Engelbert-Arnold-Str. 4</addrLine>
+									<postCode>D-76131</postCode>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institut für Werkstofftechnik</orgName>
+								<orgName type="institution">Universität Siegen</orgName>
+								<address>
+									<addrLine>Paul-Bonatz-Str. 9-11</addrLine>
+									<postCode>D-57068</postCode>
+									<settlement>Siegen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><surname>Schliephake</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Applied Materials (IAM-WK)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<addrLine>Engelbert-Arnold-Str. 4</addrLine>
+									<postCode>D-76131</postCode>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Seemüller</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Applied Materials (IAM-WK)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<addrLine>Engelbert-Arnold-Str. 4</addrLine>
+									<postCode>D-76131</postCode>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Wagner</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Applied Materials (IAM-WK)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<addrLine>Engelbert-Arnold-Str. 4</addrLine>
+									<postCode>D-76131</postCode>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">H.-J</forename><surname>Christ</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Institut für Werkstofftechnik</orgName>
+								<orgName type="institution">Universität Siegen</orgName>
+								<address>
+									<addrLine>Paul-Bonatz-Str. 9-11</addrLine>
+									<postCode>D-57068</postCode>
+									<settlement>Siegen</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><roleName>Microstructure</roleName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute for Applied Materials (IAM-WK)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<addrLine>Engelbert-Arnold-Str. 4</addrLine>
+									<postCode>D-76131</postCode>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microstructure and mechanical properties at elevated temperatures of a new Alcontaining refractory high-entropy alloy Nb-Mo-Cr-Ti-Al</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E05A82E7A15B11FDA083E0EA2BFAE1D0</idno>
+					<idno type="DOI">10.1016/j.jallcom.2015.11.050</idno>
+					<note type="submission">Received Date: 13 July 2015 Revised Date: 28 October 2015 Accepted Date: 6 November 2015</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>high-entropy alloys</term>
+					<term>refractory metals</term>
+					<term>homogenization</term>
+					<term>deformation</term>
+					<term>secondary phases</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In the present investigation, we provide results on the casting, homogenization, and deformation behavior of a new Al-containing refractory high-entropy alloy, namely the equiatomic Nb-Mo-Cr-Ti-Al. The alloy shows a dendritic microstructure after arc melting. The dendrites completely dissolve due to a heat treatment at 1300 °C for 20 h. Besides a major phase in the form of a solid solution of W prototype structure, identified by X-ray diffraction (XRD) measurements as well as electron backscatter diffraction (EBSD), additional phases of small volume fraction within the grains and at the grain boundaries were observed. Quasistatic compression tests, performed between room temperature and 1200 °C, reveal sustaining and high yield strength up to 800 °C and an increasing ductility with increasing test temperature. The dominant deformation mechanism for quasistatic compression loading between 800 °C and 1200 °C is the 〈111〉 pencil glide of dislocations within the solid solution which was proven by the according fiber texture components, evolving during deformation.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Materials, combining excellent mechanical strength at ambient as well as elevated temperature with a suitable ductility and toughness, always are a reasonable optimization goal of modern materials science in order to facilitate new applications in mechanical engineering. In this respect, the recently proposed concept of suppression of intermetallic phases and stabilization of a solid solution of simple crystal structure by minimizing the configurational</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><p>2 entropy term -T•∆S config in the Gibb's free energy <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> seems to provide an approach. For this purpose, equiatomic concentrations of mainly at least five alloying elements should be established in the solid solution in order to fulfill this concept. Due to the suppression of brittle intermetallic phases, ductility can in principle be improved. This is, of course, a rough assumption when the typical embrittlement of body-centered cubic (bcc) solid solutions with respect to the ductility and toughness of the base elements (for example Mo-Si or Mo-Re <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref>) is taken into account. Nevertheless, Senkov &amp; Semiatin <ref type="bibr" target="#b8">[9]</ref> recently presented a bcc high entropy alloy which could be rolled up to a remarkable true strain of about 2.3 at room temperature indicating that a simple extrapolation from binary or ternary solid solutions to concentrated multicomponent systems with respect to ductility and toughness can be misleading. In addition to the suppression of intermetallic phases, choosing base elements with high melting points can lead to an enhanced melting point of the high-entropy alloy in comparison to currently used high temperature materials. Thus, operation at higher temperature is in principle possible. Moreover, adding alloying elements for improving properties other than pure mechanical ones is possible, too -for example, by utilizing elements facilitating the formation of a stable oxide scale for enhancing high temperature corrosion resistance.</p><p>Before adding Al, the focus has mainly been on the microstructure, mechanical properties and oxidation behavior of high-entropy alloys, solely based on elements with high melting points from group 4 to 6 (frequently named refractory metals) of the periodic table of elements <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref>. Due to the high density of these alloys ranging up to 13.75 g/cm 3 for equiatomic W-Nb-Mo-Ta, heavy elements were replaced by lighter ones such as Hf, Zr, Cr and Ti <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref>. The addition of Al to a high-entropy alloy changes its properties in different ways. With increasing Al content, the density of the alloy decreases. Comparing the alloys Ta-Nb-Hf-Zr-Ti and Al 0.4 -Hf 0.6 -Nb-Ta-Ti-Zr which were introduced by Senkov et al. <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b20">21]</ref>, the density drops from about 9.9 g/cm 3 to 9.0 g/cm 3 . The mechanical properties, such as the yield strength and the ductility, depend on the amount of Al in the HEA, investigated on Nb-Ti-V-Ta-Al x <ref type="bibr" target="#b21">[22]</ref> and Al x -Hf-Nb-Ta-Ti-Zr <ref type="bibr" target="#b22">[23]</ref>. Regarding high temperature oxidation, Al may form a stable and dense Al 2 O 3 oxide scale. Oxidation tests of the high-entropy alloy W-Mo-Al-Cr-Ti reveal a scale growth following the parabolic growth law <ref type="bibr" target="#b23">[24]</ref>. Having a similar atomic radius as refractory metals, it can be expected that Al-addition allows the formation of a solid solution in such an alloy, thus preventing the formation of intermetallic phases <ref type="bibr" target="#b20">[21]</ref>. Nevertheless, it has to be pointed out that several investigations already revealed various parameters other than the configurational entropy or atomic size difference to be more or less decisive, such as the mixing enthalpy ∆H mix , the mixing entropy ∆S mix <ref type="bibr" target="#b24">[25]</ref>, the parameter Ω which describes the correlation between ∆H mix and ∆S mix <ref type="bibr" target="#b25">[26]</ref>, and the valence electron concentration VEC <ref type="bibr" target="#b26">[27]</ref>. Hence, the stability of a solid solution with simple crystals structure has to be verified for each case.</p><p>In the present work, Nb-Mo-Cr-Ti-Al is investigated with respect to microstructural evolution during annealing as well as mechanical properties at various temperatures. For that, Nb, Mo and Ti are refractory metals for providing a suitable melting point for high temperature</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D</head><p>ACCEPTED MANUSCRIPT 3 application. Ti, again, and Al are chosen in order to achieve low density, as shown by Senkov et al. <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b20">21]</ref>, while Al and Cr are considered due to their ability to form stable oxide scales for good oxidation resistance. Nb-Mo-Cr-Ti-Al is expected to have similar properties as the W-containing counterpart, introduced above. CALPHAD calculations suggest that Nb-Mo-Cr-Ti-Al ("PanNb with V" database using Pandat; single phase, solid solution at 788-1712 °C) exhibits a similar melting temperature as W-Mo-Cr-Ti-Al (FactSage calculation; single phase, solid solution at 1077-1700 °C <ref type="bibr" target="#b23">[24]</ref>). Considering the lower atomic mass of Nb, a lower density is to be expected when comparing Nb-Mo-Cr-Ti-Al with W-Mo-Cr-Ti-Al.</p><p>Generally, the investigated alloys show dendritic structure in the as-cast condition with significant differences in atomic concentration between dendritic and interdendritic regions <ref type="bibr" target="#b23">[24,</ref><ref type="bibr" target="#b27">28]</ref>. An annealing step is typically performed after casting in order to homogenize the microstructure as well as to establish a single phase solid solution with simple crystal structure <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref>. Despite the theory of stabilization of solid solutions by increasing the configurational entropy, a macro-and mesoscopically homogeneous microstructure cannot be reached in all cases of postulated high-entropy alloys. This is even more evident when investigations down to atomic scale are performed <ref type="bibr" target="#b28">[29]</ref>. In addition to these local investigations, secondary phases are frequently found. XRD patterns of Ta-Nb-Hf-Zr-Ti show a presumably hexagonal second phase besides the main body-centered cubic structure (bcc) whereas Cr-Nb-Ti-(V-)Zr exhibits a Cr-rich face-centered cubic Laves phase <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b14">15]</ref>.</p><p>In this publication, a detailed characterization of the alloy Nb-Mo-Cr-Ti-Al is presented, especially regarding microstructure, its evolution after heat treatment, and deformation at ambient and elevated temperature. Furthermore, the deformation mechanism by dislocation slip during compression loading at elevated temperatures is explicitly examined and identified by EBSD analysis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental</head><p>Nb-Mo-Cr-Ti-Al was melted from elemental bulk materials, mixed in equiatomic concentration, using an arc-melter AM/0.5, provided by Edmund Bühler GmbH. The purities of the starting materials Nb, Mo, Al, Cr and Ti were 99.9 %, 99.96 %, 99.9 %, 99 %, and 99.8 %, respectively. The Ar base pressure for arc-melting was 0.6 bar following several alternating iterations of pumping and Ar flooding. A Zr lump in the vacuum chamber was used in order to reduce residual oxygen by liquefying prior to every melting step. The prepared buttons were flipped and remelted for at least five times for homogenization. After the final melting step, the alloy was cast into a rod-shaped Cu mold. The diameter and the length of the cast rod were 12 mm and 60 mm, respectively. The chemical alloy composition was analyzed using inductively coupled plasma optical emission spectrometry (ICP-OES) for the elements Nb, Mo, Cr, Ti and Al. O and N content were determined by means of carrier gas hot extraction analysis, using a TC500 by Leco. Heat treatments were performed using a Gero HTRH 70-600/18 resistance heating tube furnace under Ar flow at 1100, 1200, and</p><formula xml:id="formula_0">M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</formula><p>4 1300 °C for 20 h. The heating and cooling rate were 4.2 K/min. The platelet shaped samples with 12 mm in diameter were extracted from one and the same cast sample.</p><p>The cast as well as the heat-treated alloy conditions were investigated by means of SEM utilizing backscatter electron (BSE) imaging and energy dispersive X-ray spectroscopy (EDX) as well as EBSD for analytical purposes. All samples were prepared by a standard metallographic procedure finalized by a vibratory polishing step, using a non-crystallizing oxide polishing suspension with pH = 9.8, provided by Struers. Thereby, a combination of mechanical and chemical preparation was achieved. SEM investigations were performed on a Zeiss Auriga dual beam scanning electron and focused ion beam microscope equipped with an EDAX DigiView EBSD system and EDAX Octane silicon drift detector EDX system as well as a Zeiss EVO50 system equipped with a Thermo Scientific EDX system. X-ray diffraction analyses were carried out on a D2 Phaser system by Bruker equipped with a Lynxeye line detector. The Cu tube was operated at 30 kV and 10 mA. Quasistatic compression tests were performed utilizing a Zwick Z100 electro-mechanical universal testing machine equipped with a vacuum furnace by Maytec. After heating at a rate of 20 K/min, the test temperature was stabilized for 30 min before testing. The heat-treated samples (1300 °C / 20 h) of (3 × 3 × 4.5) mm³ were tested under vacuum with an initial engineering strain rate of 10 -3 s -1 . Strain was determined using strain gauges attached to the samples. The punches were made of SiC and hexagonal BN was used for lubrication. The specimens for compression tests shown in this article were extracted from the same cast sample as the specimens for heat-treatment experiments. For the reproduction of the deformation experiments, a second batch of material was produced and treated in the same way as described before.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Casting and homogenization</head><p>Tab. 1 summarizes the chemical composition of the different materials conditions investigated in this article. For the as-cast state, wet chemical analysis by ICP-OES and EDX are in good agreement and the deviation from the equimolar composition does not exceed 0.75 at% for all elements. Hence, there is little evaporation during arc melting operations despite large differences in melting and boiling point of the alloying elements. The microstructure of the as-cast state, as it is shown in Fig. <ref type="figure">1a</ref>, consists of dendritic and interdendritic regions within a polycrystalline matrix. Even at high resolution, no evidence for secondary phases was found. Previous investigations revealed that elements with high melting points tend to crystallize in the early stages of solidification <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b27">28]</ref>. In accordance to that, EDX of the dendrites reveals enrichment in Mo and Nb during primary solidification (Tab. 1). In contrast, the interdendritic regions are enriched in Cr, Ti and Al. By analyzing the compositions of the dendritic and inter-dendritic regions in comparison to the total composition, fractions of 46 at% dendritic as well as 54 at% inter-dendritic region can be calculated, respectively. The XRD analysis of the</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><p>as-cast state is shown in Fig. <ref type="figure">2</ref>. The major Bragg positions can be assigned to a bcc crystal structure of the W prototype with a broad variation of possible lattice constants ranging from about 0.312 nm up to 0.318 nm. The variation is most probably attributed to the inhomogeneous element distribution within the solid solution as it was assumed in previous investigations <ref type="bibr" target="#b23">[24]</ref>, too. This can be well described by assuming several bcc phases with different lattice parameters. The obtained values are slightly higher than those of the comparable W-Mo-Al-Cr-Ti alloy, which are between about 0.309 nm and 0.312 nm (for the as-cast as well as heat-treated condition) <ref type="bibr" target="#b23">[24]</ref>. Considering the larger atomic radius of Nb (145 pm) compared to W (135 pm), an increase of the lattice parameter in Nb-Mo-Cr-Ti-Al is conceivable <ref type="bibr" target="#b29">[30]</ref>. Local analysis of the crystal structure of dendritic and interdendritic regions within a single grain of the as-cast state (patterns are included in the online supplementary, similar pattern to that in Fig. <ref type="figure" target="#fig_2">3d</ref>), respectively, support the global XRD analysis by patterns of bcc crystals with minor changes of the lattice constant (the determined variation of 0.312-0.318 nm is below the resolution of the EBSD camera system in use).</p><p>In order to homogenize the material as well as to establish a single phase solid solution, heat treatments of 20 h under Ar atmosphere were performed. The microstructure following an annealing at 1100 °C does not exhibit a significant homogenization effect which can be seen from microstructural imaging in Fig. <ref type="figure">1b</ref> as well as global XRD analysis in Fig. <ref type="figure">2</ref>. In Fig. <ref type="figure">1b</ref>, a combination of composition and orientation contrast is visible. The local analysis of crystal structure reveals at least three different phases that can be identified as bcc (W prototype, Strukturbericht designation A2, pattern is included in the online supplementary, similar to the pattern in Fig. <ref type="figure" target="#fig_2">3d</ref>), the hexagonal modification of the Cr 2 Nb Laves phase (MgZn 2 prototype, Strukturbericht designation C14, Fig. <ref type="figure" target="#fig_2">3a</ref>) and an unknown phase (Fig. <ref type="figure" target="#fig_2">3b</ref>). Due to the small length scale of the obtained microstructure, a detailed investigation of the local chemistry of the phases by SEM-EDX is not suitable, here. This is done for higher annealing temperatures in the following.</p><p>Subsequent to a heat treatment at 1200 °C, the volume fraction of dendritic microstructure was significantly reduced as visualized in Fig. <ref type="figure">1c</ref>. Also, the number and intensity of Bragg positions, not correlating with those of the bcc crystal structure, are significantly reduced, as seen in the XRD pattern in Fig. <ref type="figure">2a</ref>. The secondary phases are mainly located at the grain boundaries. The Laves phase, which was identified by electron diffraction (pattern is included in the online supplementary, similar to the pattern in Fig. <ref type="figure" target="#fig_2">3a</ref>), appears dark-gray and an unknown phase (Fig. <ref type="figure" target="#fig_2">3c</ref>) appears bright in the inset of Fig. <ref type="figure">1c</ref>. The diffraction pattern of the unknown phase in Fig. <ref type="figure" target="#fig_2">3c</ref> exhibits remarkable similarities to the pattern for the unknown phase (Fig. <ref type="figure" target="#fig_2">3b</ref>, indicated by arrows connecting similar zone axis) obtained following the 1100 °C annealing step. Thus, the unknown phase obtained subsequent to annealing at 1100 °C and 1200 °C seem to be the same. The grain size of the solid solution (W prototype, see pattern in Fig. <ref type="figure" target="#fig_2">3d</ref>) has grown to 50-100 µm as it can be seen from the SEM image in Fig. <ref type="figure">1d</ref>. According to Tab. 1, the solid solution approximately exhibits the equimolar composition with deviations less than 0.6 at%. By analyzing the compositions of the obtained phases in comparison to the total composition, the fraction of the solid solution can be</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><p>calculated to about 87 at%, which is in good agreement with the SEM image in Fig. <ref type="figure">1c</ref>. The hexagonal Laves phase is enriched in Cr. The presence of a Cr-rich Laves phase was already observed in the alloys Cr-Nb-Ta-Ti-Zr and Cr-Nb-Ti-V-Zr <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b18">19]</ref>. However, the reported Laves phases were identified as the face-centered cubic modification of Cr 2 Nb (MgCu 2 prototype, Strukturbericht designation C15). A possible substitution of lattice sites can be described by means of (Cr,Al,Mo) 2 (Nb,Ti) according to the overall composition of the phase: (i) ideal stoichiometry Cr:Nb = 66.6:33.3 and (ii) present sample (Cr,Al,Mo):(Nb,Ti) = 65.3:34.7 (see Tab. 1). Since the composition as well as crystallographic data suggest a derivation of the present Laves phase from the binary Cr 2 Nb, the following discussion is based on the relation of these two elements to the others present in the HEA. Cr-Nb as well as Cr-Ti form Laves phases. Nb-Ti as well as Cr-Mo exhibit complete solubility (Cr-Mo with miscibility gap at low temperature). Al-Cr forms a Cr 2 Al compound but the prototype system is not related to a Laves phase (MoSi 2 prototype). It has to be emphasized, that Mo-Nb exhibit complete solubility in contrast to the proposed substitution. Thus, a certain amount of Mo on the Nb lattice site is to be expected, too. The XRD pattern shows a Bragg position at 25.22°, which can perhaps be assigned to the unknown phases (Fig. <ref type="figure" target="#fig_2">3b</ref> and<ref type="figure">c</ref>). The EDX analysis does not provide indications for a suitable stoichiometric prototype structure since it exhibits a similar composition as the solid solution.</p><p>A further increase of homogenization temperature up to 1300 °C, as shown in Fig. <ref type="figure">1d</ref>, results in a further reduction of secondary phases within the grains of the solid solution. The contrast of Fig. <ref type="figure">1d</ref> is mainly attributed to different orientations of the chemically homogeneous grains. The chemical composition of the bcc solid solution (diffraction pattern in Fig. <ref type="figure" target="#fig_2">3d</ref>) is shown in Tab. 1. The deviation from the equimolar composition is less than 0.5 at%. Residual intermetallic phases are found in the vicinity of the grain boundaries similar to observations on comparable Al-containing refractory high-entropy alloys in Ref. <ref type="bibr" target="#b20">[21]</ref>. Hence, Bragg positions, not assignable to the bcc crystal structure, are still present as they are visualized in the logarithmic intensity plot in Fig. <ref type="figure">2b</ref>. Evidence for the local appearance of any modification of the Laves phases was not found. The grain boundaries seem to be decorated by the unknown phase, exclusively. The pattern of the unknown phase in Fig. <ref type="figure" target="#fig_2">3e</ref> differs from those observed for annealing at 1100 and 1200 °C (Fig. <ref type="figure" target="#fig_2">3b</ref> and<ref type="figure">c</ref>). Based on image analysis the fraction of secondary phase at the grain boundary could be determined to be well below 0.5 vol% while the spread of the acicular morphology into the matrix grains is always below 10 µm (inset of Fig. <ref type="figure">1d</ref>). The grain size of the bcc solid solution increased to about 250 µm. Abnormal grain growth has already started. A further increase of homogenization temperature to maximum 1400 °C does not lead to a full suppression of secondary phases but further rapid grain growth is observed (not shown here). In order to provide a reasonable orientation distribution during the following analysis of the microstructure subsequent to quasistatic compression tests, the following results were obtained on samples, homogenized at 1300 °C for 20 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Deformation at ambient and elevated temperature</head><p>In order to evaluate the potential of the present Nb-Mo-Cr-Ti-Al alloy regarding high temperature application, compression tests were performed at room temperature, 400 °C, 600 °C, 800 °C, 1000 °C and 1200 °C with a strain rate of 10 -3 s -1 . Fig. <ref type="figure">4</ref> shows the according stress-strain dependence and Tab. 2 summarizes the mechanical properties determined by these tests.</p><p>At room temperature, there was no indication of plastic deformation. At elevated temperatures, plastic deformation was observed. A minimum fracture strain of 0.02 was reached at 400 °C. While strength remains stable, plastic deformability before failure rises up to 0.135 by increasing the temperature to 800 °C. Beside a significant drop of stress by 40 % at 1000 °C, stress-strain dependence shows a characteristic curve shape with an inflection point after reaching maximum stress. At 1200 °C, a plastic strain of over 0.24 without indication of internal cracks was obtained.</p><p>Regarding room temperature compression test, onset of plasticity could not be determined unlike to comparable Al-containing high-entropy alloys, such as Al-Nb 1.5 -Ta 0.5 -Ti 1.5 -Zr 0.5 which revealed a plastic strain of at least 0.035 at room temperature <ref type="bibr" target="#b20">[21]</ref>. The maximum stresses during compression tests up to 800 °C are most probably determined by defects of the cast material as it can be exemplarily seen in the SEM micrographs in Fig. <ref type="figure">1d</ref>. Thus, a large standard deviation of the characteristic stresses is observed at a test temperature of 800 °C (Tab. 2). As regularly seen in literature <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b20">21]</ref>, temperature increase leads to higher plasticity. At 1000 °C, the investigated alloy shows a similar curve shape as high-entropy alloys by Senkov et al. <ref type="bibr" target="#b20">[21]</ref>, tested in the same temperature range. Dynamic recrystallization as a possible reason for the softening behavior <ref type="bibr" target="#b30">[31]</ref> can be excluded since no evidence for microstructure restoration by nucleation at the grain boundary forming typical necklace structures or particle stimulated nucleation was found (Fig. <ref type="figure">5d</ref>).</p><p>After performing the quasistatic compression tests, microstructure of the deformed samples was analyzed by means of EBSD. Therefore, orientation maps are shown in Fig. <ref type="figure">5</ref> as colorcoded images according to the inverse pole figure (inset in Fig. <ref type="figure">5b</ref>) of the compression direction (CD). Abnormal grain growth induced during the homogenization process is clearly indicated by grains with diameter of more than 500 µm in the as-homogenized state. Subsequent to deformation at 400 °C, cracks are observed with an orientation of about 45° with respect to the compression direction. Discontinuous stress-strain dependence during loading at 400 °C as well as 600 °C is caused by crack initiation within the material, which is exemplarily seen in Fig. <ref type="figure">5b</ref>. In the vicinity of the crack, increased local misorientation is observed, revealing localized plastic deformation. In contrast, short cracks are oriented parallel to the compression direction and local misorientation is homogeneously distributed at 800 °C. In all cases, 400 °C, 600 °C and 800 °C, occurring cracks are transgranular, implying stable grain boundaries within the material. At 1000 °C as well as 1200 °C, cracks are absent, plastic deformation occurs uniformly, and grains become flattened as it is expected for ductile behavior during compression tests. In this temperature range, significant changes of the microstructure were observed during the solution annealing experiments. Thus, further analysis of changing microstructure and phases were performed after thermomechanical loading. In contrast to deformation tests at 800 °C and below, the phases at the grain boundaries of the as-homogenized microstructure tend to coarsen as can be seen by a comparison of Fig. <ref type="figure" target="#fig_4">6a</ref> with Figs. <ref type="figure" target="#fig_4">6b</ref> and<ref type="figure" target="#fig_4">6c</ref>. Moreover, additional phase formation within the grains is observed at 1200 °C (Fig. <ref type="figure" target="#fig_4">6c</ref>) within the deformed matrix (indicated by changes of orientation contrast by localized deformation). The hexagonal Laves phase (patterns are similar to that in Fig. <ref type="figure" target="#fig_2">3a</ref> and are included in the online supplementary) and an unknown phase (electron patterns in Fig. <ref type="figure" target="#fig_5">7</ref>) could be identified as the secondary phases developing and coarsening during deformation at 1000 °C as well as 1200 °C. The patterns of the unknown phase exhibit similar zone axes (indicated by arrows) to those of the unknown phase observed in the same temperature range during the solution annealing experiments. Nevertheless, the zone axis distances in the case of Fig. <ref type="figure" target="#fig_5">7b</ref> are slightly higher indicating changing lattice parameter ratios or lattice angles. This might be attributed to the different time scales for the compression tests at high temperature and for the solution annealing experiments. In accordance to the evaluation of the homogenized material, the Laves phase is enriched in Cr while the unknown phase exhibits a solute content similar to the solid solution. The local chemical analysis is included in Tab. 1. Despite a comparatively low number of investigated grains, the orientation distribution plotted as contours in the inverse pole figure in Fig. <ref type="figure">8</ref> reveals an increase of orientation density between 〈001〉 and 〈111〉 crystallographic axes parallel to the compression direction as deformation temperature and, thus, plastic strain is increased. This can be explained by pencil glide being the predominant deformation mechanism. The 〈111〉 crystallographic axes seem to be the common slip directions. For the commonly observed slip systems of bcc metals, namely with a 〈11 1〉 slip direction and slip planes of type {110}, {121}, or {132}, a rotation of the compression direction under single slip from an arbitrary orientation within the standard triangle towards the trace between 〈001〉 and 〈111〉 is expected. The corresponding orientation changes are illustrated in Fig. <ref type="figure">9</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p>This study provides the following main results regarding microstructure and deformation at elevated temperature of an equiatomic Nb-Mo-Cr-Ti-Al high-entropy alloy:</p><p>• The analysis of the microstructure of arc-melted Nb-Mo-Cr-Ti-Al subsequent to homogenization treatments reveals that the dendritic-like as-cast microstructure can be transformed into an equiaxed microstructure with minor secondary phases by annealing at 1300 °C under Ar atmosphere for 20 h. The formation of the hexagonal modification of the Cr 2 Nb Laves phase can be suppressed by a homogenization temperature of 1300 °C and above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><p>• Compression tests reveal a maximum strength of ≈ 1 GPa and increasing ductility up to a plastic strain of 24 % with increasing test temperature up to 1200 °C. During compression testing at 1000 °C as well as 1200 °C, secondary phases are formed and coarsen, respectively.</p><p>• The analysis of fiber texture components subsequent to uniaxial compression testing at elevated temperatures suggests that Nb-Mo-Cr-Ti-Al deforms by dislocation slip, forming the common combined 〈001〉 and 〈111〉 fiber texture components along the compression direction. These can be explained in terms of the orientation change during slip deformation on slip systems with common 〈111〉 slip direction. O content was determined to be 92 ppm in the as-cast state. N content was below the detection limit. * Phase located at the grain boundaries (see insets in Fig. <ref type="figure">1c</ref> and<ref type="figure">d</ref>) and ** located within the grains (see Fig. <ref type="figure">1c</ref>).        </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>shown in the inset of Fig.2ain detail.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 :Fig. 2 :</head><label>12</label><figDesc>Fig.1: SEM micrographs (BSE, orientation and composition contrast) of the microstructure of Nb-Mo-Cr-Ti-Al in the: a) as-cast and annealed conditions after heat treatment at b) 1100 °C, c) 1200 °C and d) 1300 °C for 20 h, respectively. All major micrographs are taken at the same magnification. Inset magnification is specified, respectively. The inset in (b) highlights the morphology of the at least three different phases at higher magnification. The insets in (c) and (d) show secondary phases with continuous as well as acicular morphology at the grain boundaries.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 :</head><label>3</label><figDesc>Fig.3: EBSD patterns with corresponding zone axes of Nb-Mo-Cr-Ti-Al taken at 20 kV on samples in different conditions (a complete set of patterns for all phases is included in the online supplementary). The Laves phase is the hexagonal modification of Cr 2 Nb (MgZn 2 prototype, Strukturbericht designation C14).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 :Fig. 5 :</head><label>45</label><figDesc>Fig. 4: Stress-strain dependence of quasistatic compression tests at: a) room temperature, 400 °C and 600 °C as well as b) 800 °C, 1000 °C and 1200 °C. Fracture is highlighted by X. Arrows indicate tests deliberately stopped.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 6 :</head><label>6</label><figDesc>Fig. 6: Detailed SEM micrographs (BSE, orientation and composition contrast) of Nb-Mo-Cr-Ti-Al subsequent to deformation at: a) 800 °C, b) 1000 °C, and c) 1200 °C. All SEM micrographs are taken at the same magnification.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 7 :</head><label>7</label><figDesc>Fig. 7: EBSD patterns with corresponding zone axes of Nb-Mo-Cr-Ti-Al taken at 20 kV. A complete set of patterns for all phases is included in the online supplementary.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 8 :Fig. 9 :Tab. 2 :</head><label>892</label><figDesc>Fig. 8: Orientation distribution as contours in the inverse pole figures of the compression direction of Nb-Mo-Cr-Ti-Al quasistatically deformed in compression: a) initial condition,</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="24,0.00,0.00,595.28,595.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="25,0.00,0.00,595.28,595.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="26,0.00,0.00,595.28,595.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="27,0.00,0.00,595.28,595.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="28,0.00,0.00,595.28,595.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="31,0.00,0.58,595.28,594.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="33,-0.58,0.00,596.44,595.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="34,-0.58,0.00,596.44,595.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="35,-0.58,0.00,596.44,595.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="36,0.00,0.00,595.28,595.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="37,0.00,0.00,595.28,595.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="38,0.00,0.00,595.28,595.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="39,0.00,0.00,595.28,595.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="40,0.00,0.00,595.28,595.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="41,99.27,78.61,628.50,551.09" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="42,97.42,75.81,627.22,557.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="43,99.45,76.46,622.73,549.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="44,100.57,77.50,625.78,551.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="45,97.42,75.81,627.22,557.05" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="46,72.00,72.00,451.32,564.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="47,72.00,72.00,451.32,564.24" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors gratefully acknowledge the financial support by the <rs type="funder">Deutsche Forschungsgemeinschaft (DFG)</rs>, grant no. <rs type="grantNumber">HE 1872/31-1</rs>. AK thanks the <rs type="funder">Carl Zeiss Foundation</rs> for financial support by a postdoc grant. This work was partly carried out with the support of the <rs type="funder">Karlsruhe Nano Micro Facility</rs> (KNMF, www.knmf.kit.edu), a <rs type="institution">Helmholtz Research Infrastructure at Karlsruhe Institute of Technology (KIT</rs>, www.kit.edu). The authors acknowledge the chemical analysis by ICP-OES at the <rs type="affiliation">Institute for Applied Materials (IAM-AWP</rs>), <rs type="funder">Karlsruhe Institute of Technology (KIT)</rs>. Furthermore, we would like to express our gratitude to <rs type="person">S. Seils</rs> for experimental support.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_Gs59hMC">
+					<idno type="grant-number">HE 1872/31-1</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nanostructured High-Entropy Alloys with Multiple Principal Elements: Novel Alloy Design Concepts and Outcomes</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="299" to="303" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">High-Entropy Alloys -A New Era of Exploitation</title>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-K</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science Forum</title>
+		<imprint>
+			<biblScope unit="volume">560</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Physical Properties of High Entropy Alloys</title>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Tsai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="5338" to="5345" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">High-Entropy Alloys: A Critical Review</title>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="107" to="123" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Microstructures and properties of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Materials Science</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="93" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Molybdenum</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Northcott</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1956">1956</date>
+			<publisher>Butterworths Scientific Publications</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The tensile response of Mo, Mo-Re and Mo-Si solid solutions&quot; in Int</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">J</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Kumar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Refractory Metals and Hard Materials</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="329" to="338" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The influence of silicon on the strength and fracture toughness of molybdenum</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sturm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Schneibel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jéhanno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Skrotzki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Saage</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering A</title>
+		<imprint>
+			<biblScope unit="volume">463</biblScope>
+			<biblScope unit="page" from="107" to="114" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties of a refractory highentropy alloy after cold working</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Semiatin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Alloys and Compounds</title>
+		<imprint>
+			<biblScope unit="volume">649</biblScope>
+			<biblScope unit="page" from="1110" to="1123" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1758" to="1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb25Mo25Ta25W25 and V20Nb20Mo20Ta20W20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Guo</surname></persName>
+		</author>
+		<title level="m">Senary refractory high entropy alloy MoNbTaTiVW</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Low-density, refractory multi-principal element alloys of the Cr-Nb-Ti-V-Zr system: Microstructure and phase analysis</title>
+		<author>
+			<persName><forename type="first">O;</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1545" to="1557" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of lowdensity, refractory multi-principal element alloys of the Cr-Nb-Ti-V-Zr system</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering A</title>
+		<imprint>
+			<biblScope unit="volume">565</biblScope>
+			<biblScope unit="page" from="51" to="62" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Microstructure and room temperature properties of a high-entropy TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Alloys and Compounds</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page" from="6043" to="6048" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Microstructure and elevated temperature properties of a refractory TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Science</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="4062" to="4074" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties of a refractory NbCrMo0.5Ta0.5TiZr alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering A</title>
+		<imprint>
+			<biblScope unit="volume">529</biblScope>
+			<biblScope unit="page" from="311" to="320" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Phase Composition of a CrMo0.5NbTa0.5TiZr High Entropy Alloy: Comparison of Experimental and Simulated Data</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="3796" to="3809" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Poletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fiore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Szost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">;</forename><surname>Battezzati</surname></persName>
+		</author>
+		<author>
+			<persName><surname>X= Al</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sn</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Search for high entropy alloys in the X-NbTaTiZr systems</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">620</biblScope>
+			<biblScope unit="page" from="283" to="288" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Microstructure of a near-equimolar refractory high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Couzinié</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chauveau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Leroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Champion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Letters</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="285" to="287" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Microstructure and Properties of Aluminum-Containing Refractory High-Entropy Alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="2030" to="2042" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Microstructure and Compressive Properties of NbTiVTaAl x High Entropy Alloys</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Engineering</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="292" to="298" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Effect of Al addition on mechanical properties and microstructure of refractory Al x HfNbTaTiZr alloys</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Alloys and Compounds</title>
+		<imprint>
+			<biblScope unit="page" from="100" to="107" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Phase equilibria, microstructure, and high temperature oxidation resistance of novel refractory highentropy alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Azim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schliephake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Alloys and Compounds</title>
+		<imprint>
+			<biblScope unit="volume">624</biblScope>
+			<biblScope unit="page" from="270" to="278" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Solid-Solution Phase Transformation Rules for Multi-component Alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Engineering Materials</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="534" to="538" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Alloy Design and Properties Optimization of High-Entropy Alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="830" to="838" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Effect of valence electron concentration on stability of fcc or bcc phase in high entropy alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Physics</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">103505</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Microstructure evolution in a new refractory high-entropy alloy Mo-W-Al-Cr-Ti</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Azim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Szabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metallurgical and Materials Transactions A</title>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>submitted</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Insights into the phase diagram of the CrMnFeCoNi high entropy alloy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laurent-Brocq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Akhatova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chebini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Sauvage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Leroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Champion</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="355" to="365" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Atomic radii in crystals</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Slater</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Chemical Physics</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="3199" to="3204" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Humphreys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hatherly</surname></persName>
+		</author>
+		<title level="m">Recrystallization and Related Annealing Phenomena</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Captions</publisher>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">1: Composition of the investigated alloy in different conditions determined by EDX. † Composition determined by ICP-OES (unbalanced) for comparison</title>
+		<imprint>
+			<biblScope unit="page">19</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

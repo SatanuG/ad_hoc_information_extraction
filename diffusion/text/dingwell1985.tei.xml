@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Chemical diffusion of fluorine in melts in the system Na20-A1203-SiO 2</title>
+				<funder ref="#_hUXYg46">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Donald</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Geology</orgName>
+								<orgName type="laboratory">Experimental Petrology Laboratory</orgName>
+								<orgName type="institution">University of Alberta</orgName>
+								<address>
+									<postCode>T6G 2E3</postCode>
+									<settlement>Edmonton</settlement>
+									<region>Alta</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Geophysical Laboratory</orgName>
+								<orgName type="institution">Upton St. NW</orgName>
+								<address>
+									<postCode>2801, 20008</postCode>
+									<settlement>Washington</settlement>
+									<region>D.C</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Chemical diffusion of fluorine in melts in the system Na20-A1203-SiO 2</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7FE78E461D71A8515393F93CCA9C7FB3</idno>
+					<note type="submission">Received October 25, 1984 Revised version received January 25, 1985</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The volatilization of fluorine from three melts in the system Na20-A1203-SiO 2 has been investigated at 1 atm pressure and 1200-1400°C. The melts chosen have base compositions corresponding to albite, jadeite and a peraluminous melt with 75 mole % SiO 2. Melt spheres were suspended from platinum loops in a vertical tube furnace in a flow of oxygen gas, then quenched, sectioned and analysed by electron microprobe. The microprobe scans indicate that transport of fluorine to the melt-vapor interface is by binary, concentration-independent interdiffusion of fluorine and oxygen. F-O interdiffusivity increases in the order albite &lt; peraluminous&lt;jadeite. There is no simple reciprocal relationship between F-O interdiffusivity and melt viscosity. Comparison with data on high-pressure interdiffusivity of fluorine and oxygen in jadeite melt indicates that F-O interdiffusivity increases with pressure from 0.001 to 10 kbar while the activation energy remains unchanged.</p><p>Fluorine chemical diffusivity in albite melt is substantially lower than H20 chemical diffusivity in obsidian melts suggesting that different diffusive mechanisms are responsible for the transport of F and H20 in igneous melts. Fluorine diffuses in albite melt via an anionic exchange with oxygen whereas water probably diffuses in obsidian melt via an alkali exchange mechanism.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Our understanding of diffusive transport in silicate melts is still very poor. In particular, data on anionic diffusivities is lacking. Investigation of anionic diffusivities in silicate melts is important for a better understanding of the coordination of anions in the melt structure and for calculation of equilibration rates in igneous melts during petrogenesis. Examples of fluorine-rich igneous rocks are widespread <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> and their transport properties may be significantly affected by fluorine. For these reasons, the following study was undertaken to investigate the transport of fluorine in silicate melts. The volatilization of fluorine from silicate melts has been investigated by several workers using weight loss and/or bulk chemical analysis techniques <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> and the present study uses the relatively high volatility of fluorine in melts in the Na20-AI203-SiO 2 system to investigate fluorine diffusion in these silicate melts. This system was chosen because the structure and physical properties of melts in the base system has been investigated by various workers <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> and the normative compositions of many fluorine-rich igneous melts containing greater than 50 mole % of feldspars + feldspathoids are well-represented by this system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental method</head><p>The three melts investigated have fluorine-flee compositions corresponding to albite, jadeite and a peraluminous melt with 75 mole % SiO 2. Fluo-rine was included in the melt compositions by substituting 2A1F 3 for some of the A120 3 of the base composition. Thus the substitution is essentially two moles of fluorine for one mole of oxygen, denoted by the exchange operator, F20_ 1. The starting compositions were synthesized from reagent grade sodium carbonate, alumina, aluminum fluoride and purified quartz sand. Carbonate + oxides+ fluoride equivalent to a decarbonated weight of 600 grams were mixed thoroughly for 12 hours and then fused in a 10.5 cm long by 5.5 cm diameter platinum crucible for 6-10 hours at 1600°C to ensure homogeneity and escape of air bubbles.</p><p>Na, A1 and Si contents of quenched melts (glasses) were determined by energy dispersive analysis using an ARL-SEMQ microprobe fitted with an EEDS-ORTEC energy dispersive system. Operating conditions were a 15 kV accelerating voltage, a 4 nA sample current and 240 second count times. The beam was rastered over a 20 x 20 ~m area, a technique which proved adequate for avoiding volatilization of Na or F during analysis. The homogeneity of each glass was confirmed for Na, A1 and Si by analysing six spots on each glass.</p><p>Fluorine contents of the starting materials were determined by neutron activation analysis. Twelve replicates of each glass were determined against a curve for reagent grade CaF 2. The technique was verified with NBS standard glass SRM 91 (5.72 wt.% F). Fluorine contents were combined with the raw spectra for Na, AI and Si as input for EDATA2 <ref type="bibr" target="#b14">[15]</ref> allowing full ZAF reduction of the Na, A1 and Si data (Table <ref type="table" target="#tab_0">1</ref>). Selected chips of glass were ground into spheres by using the method of Bond <ref type="bibr" target="#b15">[16]</ref>. Spheres of glass (4-8 mm diameter) were suspended from platinum loops in an electrically-heated vertical tube furnace, equipped with a gas-tight alumina muffle tube. An "infinite" 02 gas reservoir was maintained during the experiments by flowing oxygen gas through the furnace at a linear flow rate of 0.10 cm/s. Temperatures were controlled using a Pt-Pt13Rh thermocouple which was suspended within a few millimeters of each sphere. Three spheres were run at each temperature for each composition. The experiments ranged in duration from 600 to 19,200 seconds and melt spheres were quenched in air by removal from the furnace. Quenched melt (glass) spheres were removed from the ceramic hanger, ground in half, mounted in epoxy and polished for electron microprobe analysis. In rare cases where spheres deformed due to improper loop size or mounting, the runs were discarded. Generally, spherical shape was well-preserved.</p><p>Analyses of the concentration profiles resulting from volatilization were performed using an ARL-SEMQ microprobe in the wavelength dispersive mode. Operating conditions for the scans of Na, AI and Si were a 15 kV accelerating voltage and a 4 nA sample current with the beam rastered over a 10 × 10 ~m area. Fluorine scans and step analyses required a sample current of 40 nA to achieve reasonable count rates (approximately 40 cps/wt.% F). The quantitative analyses for fluorine were 100 second counts using a rastered beam as for Na, A1 and Si.</p><p>Wavelength dispersive scans for Na, A1, Si and F (Fig. <ref type="figure" target="#fig_0">1</ref>) show two basic features. Firstly, the concentration profile of fluorine extends (over several hundred micrometers) from essentially zero concentration at the sphere edge to a plateau corresponding to the original, undepleted fluoride concentration of the melt (Table <ref type="table" target="#tab_0">1</ref>). Secondly, the concentrations of Na, A1 and Si are constant over almost the entire length of the fluorine depletion zone except within 30-50 /~m of the sphere edge.</p><p>Quantitative analyses of fluorine content across concentration profiles were obtained by standardization to analyses of the starting glasses. The exchange of up to 5-6 wt.% F for O has an The 30-50/tm wide "surface layer" of Si depletion and Na + A1 enrichment (Fig. <ref type="figure" target="#fig_0">1</ref>) indicates the escape of fluorine from the melt surface as an Si.bearing gas phase, possibly SiF 4 gas. This interpretation is corroborated by previous studies of fluorine volatility in dry systems at 1 atm <ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Data reduction</head><p>The constant levels of Na, Al and Si inside the surface layer mean that bulk diffusion of fluorine to this layer may be treated as binary interdiffusion of fluorine and oxygen, with no net transport of cations. The binary nature of F-O interdiffusion has been previously observed in high-pressure diffusion couple experiments <ref type="bibr" target="#b16">[17]</ref>. The mathematical treatment of diffusion for these experiments is for a one-dimensional semi-infinite medium <ref type="bibr">[18,pp. 35-38]</ref>. The chemical gradient that serves as the driving force for chemical diffusion is quantified by the "reduced concentration" term; (C-C1)/(Co-Cx) where C is the measured concentration along the profile, C~ is the initial concentration in the melt, and Co is the concentration in the gas phase. This equation holds equally well for the case of absorption into a semi-infinite melt medium from a gas phase (e.g. the hydration experiments of Shaw <ref type="bibr" target="#b18">[19]</ref>) as it does for the present case of desorption or volatilization. In these volatilization   The distance from the undepleted fluorine source is not measurable because it is a semi-infinite reservoir. Therefore, distance is measured from the undepleted oxygen source, i.e. the melt/gas interface. The relevant reduced concentration term is that for oxygen which, because CF(reduced) + Co(reduced) = 1, is equivalent to C/Cv In the case of concentration-independent diffusion, the equation relating the diffusion coefficient (D), distance from the undepleted oxygen source (X) and time (t) is as follows:</p><formula xml:id="formula_0">X/( EV~~ ) = erf-1( C/C1 )</formula><p>where erf-1 is the inverse of the error function. In practice, plots of eft-1(C/C 1) versus the distance from the melt-vapor interface yield straight lines whose slopes equal 1/2v/~ -. The linearity of such curves indicates that the diffusion process is concentration independent. Fig. <ref type="figure" target="#fig_2">2</ref> illustrates such plots for the time series of experiments on jadeite melt at 1200°C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Results</head><p>The experimental results are summarized in Table 2 and plotted versus reciprocal absolute temperature (Arrhenius plots) in Fig. <ref type="figure" target="#fig_3">3</ref>. The temperature dependence of F-O interdiffusion may be fitted to Arrhenius equations of the form:</p><formula xml:id="formula_1">logx0D --logloD 0 -Ea/2.303RT</formula><p>where D is the diffusivity at temperature T(K), D o is the pre-exponential or frequency factor, R is the gas constant and E a is termed the activation energy of F-O interdiffusion. The Arrhenius parameters, logl0D 0 and Ea, for each melt are listed in Table <ref type="table" target="#tab_3">3</ref>.  Na20-AI203-SiO2 system is strongly dependent on melt composition. At 1400°C, F-O interdiffusivity increases over an order of magnitude from albite melt (logl0D=-8.46) to jadeite melt (logl0D=-7.01), along the join SiO2-NaA102. F-O interdiffusivity also varies strongly with alkali/aluminum ratio. At 1200°C and 75 mole % SIO2, the diffusion of fluorine in albite melt is slower than in the peraluminous melt (log~0D = -7.74).</p><p>If the trend of decreasing diffusivity with increasing SiO z content extends beyond albite along the NaA102-SiO 2 join then the F-O interdiffusivity measured in albite melt may be taken as an upper limit on F-O interdiffusivity in more silicic melts like rhyolites.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Comparison with viscosity data</head><p>The suggestion that similar mechanisms and species may control viscous flow and diffusion in silicate melts has led several investigators to examine the validity of the Stokes-Einstein equation which inversely relates viscosity and diffusivity <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>. It has been generally concluded that the Stokes-Einstein relationship is qualitatively invalid in relating viscosity and network-modifying cationic diffusivities in silicate melts <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref>. However, for the case of oxygen self-diffusion, Shimizu and Kushiro <ref type="bibr" target="#b22">[23]</ref> have stated that an inverse correlation between log D and log T/ is well-approximated by the Eyring form of the Stokes-Einstein equation. The success of any equation which inversely correlates viscosity and oxygen diffusivity strongly implies that the same structural unit and mechanism are involved in both transport processes. Dunn <ref type="bibr" target="#b26">[27]</ref> has recently shown that 0 2-is probably the dominant species involved in oxygen diffusion in basaltic melts and Shimizu and Kushiro <ref type="bibr" target="#b22">[23]</ref> argue that the viscous flow of jadeite and diopside melts is controlled by the diffusion of individual 0 2-units.</p><p>The conclusions of this study regarding the application of the Stokes-Einstein equation to F-O interdiffusivity are negative (Table <ref type="table" target="#tab_4">4</ref>). Qualitatively, we would expect this result because the viscosity of these melts is a strong function of fluorine content <ref type="bibr" target="#b27">[28]</ref> while the F-O interdiffusivity is not.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Pressure dependence of F-O interdiffusion in jadeite melt</head><p>The results of this study for jadeite melt are compared with the high-pressure data of Dingwell and Scarfe <ref type="bibr" target="#b16">[17]</ref> in Fig. <ref type="figure" target="#fig_4">4</ref>. F-O interdiffusivity clearly increases with pressure from 0.001 to 10 kbar, as does oxygen self-diffusivity <ref type="bibr" target="#b22">[23]</ref>. The dashed lines are interpolations based on the assumption of a smoothly decreasing pressure dependence with increasing pressure. In fact, Dunn <ref type="bibr" target="#b26">[27]</ref> has shown that the pressure dependence of oxygen chemical diffusivity in basaltic melts is discontinuous in the pressure range of 1-10 kbar whereas Shimizu and Kushiro <ref type="bibr" target="#b22">[23]</ref> show a smoothly increasing self-diffusivity of oxygen in jadeite melt in the pressure range of 5-20 kbars. This contrast   <ref type="bibr" target="#b16">[17]</ref> and this study; inset: activation energy as a function of pressure). in pressure dependence may result, in part, from comparison of chemical and self-diffusivity. Here we only wish to note that the F-O interdiffusivity increases from 1 atm to lower crustal pressures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.">Comparison with water</head><p>The comparison of the chemical diffusion of fluorine and water is of interest for at least two reasons. Firstly, because of the geological significance of fluorine in igneous melts. It is clear that relatively dry, fluorine-rich silicate melts do occur <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref> and their kinetic behavior deserves investigation and comparison with that of wet melts. Secondly, the structural comparison of fluorine and water may yield information on the speciation of these depolymerizing agents in silicate melts.</p><p>Chemical diffusion of water in natural silicate melts has been investigated by several workers <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref>. In Fig. <ref type="figure" target="#fig_5">5</ref> the data for the chemical diffusion of fluorine in albite melt are compared with data for the chemical diffusion of water in obsidian melts <ref type="bibr" target="#b20">[21]</ref>. Although the comparison of data in Fig. <ref type="figure" target="#fig_5">5</ref> involves melts of albite and obsidian composition, both represent relatively polymerized melts with alkali/aluminum ratios at or near 1 : 1.</p><p>The chemical diffusivity of fluorine in albite melt is approximately two orders of magnitude less than that of water in obsidian melt. Considering the composition dependence of fluorine diffusivity which is observed between jadeite and albite  <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b31">32]</ref> and this study). melts (Fig. <ref type="figure" target="#fig_3">3</ref>), the difference between fluorine and water diffusivity in obsidian melt is probably even larger than indicated in Fig. <ref type="figure" target="#fig_5">5</ref>. We believe that such a difference in the magnitude of diffusivity results from different diffusion mechanisms for fluorine and water in these melts.</p><p>Qualitatively, the difference in diffusivity leads us to infer that if F-is the principal diffusing species, as is suggested by the binary nature of the interdiffusion of fluorine and oxygen, then water is probably not transported principally as OH-, the monovalent anion of similar size. Conversely, if the diffusion of water is as OH-, then the species involved in fluorine diffusion would have to be a slower moving complex, perhaps A1Fg 3 <ref type="bibr" target="#b32">[33]</ref>. Lack of cationic concentration gradients during F-O interdiffusion leads us to favor the former possibility.</p><p>Perhaps the most significant difference between the diffusive behavior of fluorine and water is the concentration dependence of the chemical diffusion of water contrasted with the concentration independence of fluorine diffusion in all melts investigated in this study. The concentration dependence of water diffusivity in obsidian melt has been investigated by Delaney and Karsten <ref type="bibr" target="#b30">[31]</ref> who state that the activation energy of chemical diffusion of water in obsidian melt remains constant while the frequency factor (log Do) increases with water concentration. Delaney and Karsten <ref type="bibr" target="#b30">[31]</ref> propose that the concentration dependence of water diffusivity results from the occurrence of more than one solution site for water in obsidian melt whose relative occupancies change with water concentration. The concentration independence of fluorine diffusion suggests that one melt structural site is adequate to explain the observed diffusive behavior of fluorine.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4.">Diffusion mechanisms</head><p>From a comparison of data on viscosities of and diffusivities in F-and H20-bearing melts ( <ref type="bibr" target="#b27">[28]</ref> and this study), it is apparent that the effects of fluorine and water on melt viscosity are similar while their diffusivities are considerably different. The viscosity data suggests similar structural roles for fluorine and water within polymerized silicate melts, probably the replacement of Si-O-(Si,A1) bridges with (Si,A1)-F and (Si,AI)-OH, respectively. The diffusivity data, in contrast, highlight several differences in the transport of fluorine and water in these melts. Fluorine exchanges with oxygen via a mechanism which is independent of concentration and strongly dependent on melt composition. The exchange can be modelled as binary, without the involvement of any cations. Water, in contrast, diffuses in polymerized melts at a rate that varies with water concentration. Karsten et al. <ref type="bibr" target="#b31">[32]</ref> have reported evidence of K and possibly Na concentration gradients produced during the chemical diffusion of water. These alkali concentration gradients suggest that interaction of water and alkalies may be an essential feature of chemical diffusion of water in these melts. The albite-H20 solubility model of Burnham <ref type="bibr" target="#b33">[34]</ref> does imply that the solution of water in albite melt will involve alkali transport. Fig. <ref type="figure" target="#fig_5">5</ref> presents tracer diffusion data for Li, Na, K, Rb and Cs <ref type="bibr" target="#b21">[22]</ref> and chemical diffusion data for water <ref type="bibr">[21, fig. 5]</ref> in obsidian melts, as well as chemical diffusion data for fluorine in albite melt (this study). The diffusivity of alkalies in obsidian melt increases smoothly with decreasing ionic radius from Cs to Na. However, Li diffuses at essentially the same rate as Na. In Fig. <ref type="figure" target="#fig_5">5</ref> it is evident that the chemical diffusivity of water, unlike that of fluorine, is very similar to the tracer diffusivity of Na (and Li). Perhaps the diffusion of hydrogen-bearing species in obsidian is controlled by the mobility of Na via an alkali exchange reaction similar to that discussed by Lanford et al.</p><p>[351.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Summary</head><p>The 1 atm volatilization of fluorine from albite, jadeite and peraluminous melts in the system Na20-AI203-SiO z involves (1) fluorine-oxygen interdiffusion to the melt surface, and (2) liberation of Si-F-bearing gas(es) from the melt surface. The F-O interdiffusion is a binary, concentration-independent process which is strongly dependent on melt composition. Fluorine chemical diffusivity in jadeite melt increases from 0.001 to 10 kbar while the activation energy remains unchanged. There is no reciprocal relationship between F-O interdiffusivity and melt viscosity. The relative magnitudes of the chemical diffusivities of fluorine and water suggest that these components diffuse by fundamentally different mechanisms. The diffusion of fluorine is a simple anionic exchange with oxygen whereas the diffusion of water probably involves alkali cations.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Concentration profiles of Na, AI, Si and F produced in an experiment on fluorine-bearing jadeite melt at 1200°C.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>379 t I I T I [ " I I I I I I I t 200%</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Reduced concentration (C/C1) data for a time series of experiments on fluorine-bearing jadeite melt at 1200°C.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Experimental data plotted as Arrhenius functions of temperature.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .</head><label>4</label><figDesc>Pressure dependence of F-O interdiffusivity in fluorinebearing jadeite melt (data from</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 .</head><label>5</label><figDesc>Fig.5. Comparison of the chemical diffusivities of fluorine in albite melt and water in obsidian/rhyolite melt with tracer diffusivities of alkalies in obsidian melt (data from<ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b31">32]</ref> and this study).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 Analyzed</head><label>1</label><figDesc></figDesc><table><row><cell></cell><cell cols="2">melt compositions a</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Na</cell><cell>AI</cell><cell>Si</cell><cell>F</cell><cell>O</cell><cell>Total</cell></row><row><cell>Albite</cell><cell>8.31</cell><cell cols="5">9.15 31.54 5.8 44.5 99.30</cell></row><row><cell>Jadeite</cell><cell cols="6">11.17 12.75 26.72 6.3 43.0 99.94</cell></row><row><cell cols="7">Peraluminous 6.14 10.87 31.58 5.4 45.5 99.49</cell></row><row><cell cols="7">a Na, AI and Si determined by electron microprobe; F de-</cell></row><row><cell cols="7">termined by neutron activation analysis; O by stoichiometry.</cell></row><row><cell cols="7">Errors for microprobe data expressed as percent of the</cell></row><row><cell cols="7">amount present at 3 standard deviations: Na (4.3%), AI</cell></row><row><cell cols="7">(2.0%), Si (1.0%). Errors in fluorine determinations are +0.1</cell></row><row><cell cols="4">wt.% F at 1 standard deviation.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 2 Experimental</head><label>2</label><figDesc></figDesc><table><row><cell></cell><cell cols="2">conditions and results</cell><cell></cell><cell></cell></row><row><cell cols="3">Composi-Temper-Duration</cell><cell cols="2">-logxo D Number</cell></row><row><cell>tion</cell><cell>ature</cell><cell></cell><cell>(cm2/s)</cell><cell>of experi-</cell></row><row><cell></cell><cell>(°C)</cell><cell></cell><cell></cell><cell>ments</cell></row><row><cell>Jadeite</cell><cell>1200</cell><cell cols="2">600-19,200 " 7.62</cell><cell>7</cell></row><row><cell></cell><cell>1300</cell><cell>3600</cell><cell>7.24</cell><cell>3</cell></row><row><cell></cell><cell>1400</cell><cell>1860</cell><cell>7.01</cell><cell>3</cell></row><row><cell>Albite</cell><cell>1200</cell><cell>6900</cell><cell>8.98</cell><cell>3</cell></row><row><cell></cell><cell>1300</cell><cell>7680</cell><cell>8.84</cell><cell>3</cell></row><row><cell></cell><cell>1400</cell><cell>7200</cell><cell>8.46</cell><cell>3</cell></row><row><cell>Peral-</cell><cell>1200</cell><cell>11,280</cell><cell>8.50</cell><cell>3</cell></row><row><cell cols="2">uminous 1300</cell><cell>7560</cell><cell>7.98</cell><cell>3</cell></row><row><cell></cell><cell>1400</cell><cell>7680</cell><cell>7.74</cell><cell>3</cell></row><row><cell cols="4">a Results of a time series of seven experiments.</cell><cell></cell></row><row><cell cols="5">Uncertainty in -logloD is estimated to be _+0.1 log units</cell></row><row><cell cols="5">based on the standard deviation of the seven time series</cell></row><row><cell cols="3">experiments in jadeite at 1200°C.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>TABLE 3</head><label>3</label><figDesc>Arrhenius parameters for 1 atm F-O interdiffusion</figDesc><table><row><cell>Composition</cell><cell>logl0D 0</cell><cell>Ea *</cell></row><row><cell></cell><cell>(in cm2/s)</cell><cell>(kcal/mole)</cell></row><row><cell>Albite</cell><cell>-4.74 + 1.24</cell><cell>28.9 + 8.9</cell></row><row><cell>Jadeite</cell><cell>-2.50 + 0.64</cell><cell>34.4 _+ 3.4</cell></row><row><cell>Peraluminous</cell><cell>-2.09 + 1.03</cell><cell>43.0 _+ 7.4</cell></row><row><cell cols="3">a Uncertainties quoted at 1 standard deviation.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>TABLE 4 Diffusivities</head><label>4</label><figDesc></figDesc><table><row><cell cols="3">+ viscosities from 1200 to 1400°C</cell><cell></cell></row><row><cell></cell><cell></cell><cell>log]0 D</cell><cell>logz07/a</cell></row><row><cell>Albite</cell><cell>1200</cell><cell>-8.98</cell><cell>4.25</cell></row><row><cell></cell><cell>1300</cell><cell>-8.84</cell><cell>3.84</cell></row><row><cell></cell><cell>1400</cell><cell>-8.46</cell><cell>3.46</cell></row><row><cell>Jadeite</cell><cell>1200</cell><cell>-7.62</cell><cell>4.21</cell></row><row><cell></cell><cell>1300</cell><cell>-7.24</cell><cell>3.73</cell></row><row><cell></cell><cell>1400</cell><cell>-7.07</cell><cell>3.29</cell></row><row><cell>Peraluminous</cell><cell>1200</cell><cell>-8.80</cell><cell>5.28</cell></row><row><cell></cell><cell>1300</cell><cell>-7.98</cell><cell>4.68</cell></row><row><cell></cell><cell>1400</cell><cell>-7.74</cell><cell>4.09</cell></row></table><note><p><p><p>a Data from Dingwell et al.</p><ref type="bibr" target="#b27">[28]</ref></p>, _+ 5%.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>We wish to thank <rs type="person">Steve Launspach</rs> for assistance with electron microprobe operation and data reduction and <rs type="person">John Duke</rs> for providing neutron activation analyses of fluorine in the starting materials. We thank <rs type="person">E. Bruce Watson</rs> and an anonymous reviewer for their constructive comments. This is University of Alberta Experimental Petrology Contribution No. <rs type="grantNumber">104</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_hUXYg46">
+					<idno type="grant-number">104</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Fluorine in granitic rocks and melts: a review</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Bailey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1" to="42" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The petrogenesis of topaz rhyolites from the western United States</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Christiansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Burt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Sheridan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page">383</biblScope>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Evidence for the magmatic origin of quartz topaz rocks from the New England batholith</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Eadington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nashar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="433" to="438" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Distribution of fluorine in a quartz keratophyre dyke (ongonite) and solubility of fluorine in granitic melts</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Kovalenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochem. Int</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="41" to="49" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Geochemistry and petrogenesis of a peralkaline granite complex from the Midian Mountains, Saudi Arabia</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B W</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Marriner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lithos</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="325" to="337" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Effect of fluorides on silicates and phosphates</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Disc. Farad. Soc</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="147" to="154" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Volatilisation of fluorides, borates and arsenic from glass, llth Int</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Barlow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Congr. Glass, Brussels, Chapter</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1" to="42" />
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A M</forename><surname>Ai-Dulaimy</surname></persName>
+		</author>
+		<title level="m">A study of volatilisation from fluoride opal melts, unpubl. M</title>
+		<meeting><address><addrLine>Sheffield</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Tech. Sci. Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Experimental investigations of the effect of alkalinity on the separation of fluorine into the gas phase</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Kogarko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Krigman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">S</forename><surname>Shardilo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochem. Int</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="34" to="40" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Physikalische Eigenschaften und Struktureller Feinbau yon Natrium-Aluminosilicatglasern und schmelzen</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Hunnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bruckner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Glastech. Ber</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="149" to="161" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Structure of mineral glasses, I. The feldspar glasses NaAISi3Os, KAlSi3Os, CaA12Si2Os</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="61" to="77" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Coutures, A thermochemical study of glasses and crystals along the joins silica-calcium aluminate and silica-sodium aluminate</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Navrotsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Peraudeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim.Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="2039" to="2047" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Three-dimensional network structure of quenched melts (glass) in the systems SiO2-NaAIO 2, SiO2-CaA1204 and SiO2-MgA1204</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Seifert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Virgo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="696" to="717" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Structure of sodium ahiminosilicate melts containing at least 50 mole % silica at 1500°C</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Riebling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="2857" to="2865" />
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">EDATA2: a FORTRAN IV computer program for processing wavelength and/or energy-dispersive electron microprobe analyses</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G W</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Gold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Microprobe Anal. Soc. Proc., 14th Annu. Conf</title>
+		<editor>
+			<persName><forename type="first">D</forename><surname>Newbury</surname></persName>
+		</editor>
+		<meeting><address><addrLine>San Antonio</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1979">1979</date>
+			<biblScope unit="page" from="273" to="278" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Making small spheres</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Bond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Sci. lnstrum</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="344" to="345" />
+			<date type="published" when="1951">1951</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Chemical diffusion of fluorine in jadeite melt at high pressure, Geochim. Cosmoclaim</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="2517" to="2525" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<title level="m">The Mathematics of Diffusion</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="1975">1975</date>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Diffusion of H20 in granitic liquids, I. Experimental data</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Shaw</surname></persName>
+		</author>
+		<editor>Geochemical Transport and Kinetics, A.W. Hofmann, B.J. Giletti, H.S. Yoder, Jr. and R.A. Yund</editor>
+		<imprint>
+			<date type="published" when="1974">1974</date>
+			<publisher>Carnegie Inst. Washington Publ</publisher>
+			<biblScope unit="volume">634</biblScope>
+			<biblScope unit="page" from="139" to="154" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Calcium diffusion in a simple silicate melt to 30 kbar</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="313" to="322" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Diffusion in natural silicate melts: a critical review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of Magmatic Processes, R.B. Hargraves</title>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="385" to="415" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Tracer diffusion in granitic melts: experimental results for</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jambon ; Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Cs</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ca</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ce</forename><surname>Ba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="10797" to="10810" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note>Eu to 1300°C and a model of calculation</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Diffusivity of oxygen in jadeite and diopside melts at high pressures, Geochim. Cosmochim</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1295" to="1304" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A study of the diffusion of radioactive nuclides in molten silicates at high temperatures</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Winchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Norman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">High Temp. Tech. 3rd Int. Symp. Asilomar</title>
+		<imprint>
+			<date type="published" when="1967">1967</date>
+			<biblScope unit="page" from="479" to="492" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Diffusion of Sr, Ba and Na in obsidian</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Magaritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="595" to="605" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Water-like transport anomalies in liquid silicates investigated at high T and P by computer simulation techniques</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Angell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cheeseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tamaddon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="87" to="97" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Oxygen chemical diffusion in three basaltic liquids at elevated temperatures and pressures, Geochim. Cosmochim</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dunn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<date type="published" when="1923">1923-1930, 1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The effect of fluorine on viscosities in the system Na20-Al203-SiO2: implications for phonolites, trachytes and rhyolites</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Cronin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint/>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Hydration rate of obsidian</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Long</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">191</biblScope>
+			<biblScope unit="page" from="347" to="352" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Fusion kinetics, water pressure, water diffusion and electrical conductivity in melting rock, interrelated</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Arzi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="153" to="169" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Ion microprobe studies of water in silicate melts: concentration-dependent diffusion in obsidian</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Delaney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Karsten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="191" to="202" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Ion microprobe studies of water in silicate melts: temperature-dependent water diffusion in obsidian</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Karsten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Holloway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Delaney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Left</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="420" to="428" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The probable occurrence of interstitial aluminum in hydrous fluorine-bearing and fluorine free melts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A C</forename><surname>Manning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M B</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dempsey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="257" to="262" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Water and magmas: a mixing model</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Wayne</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1077" to="1084" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Hydration of soda-lime glass</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Lanford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lamarche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Laursen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Groleau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Doremus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Non-Cryst. Sol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="249" to="266" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

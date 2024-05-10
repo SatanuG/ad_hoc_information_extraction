@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Precipitation behaviour and mechanical properties of a novel Al 0.5 MoTaTi complex concentrated alloy</title>
+				<funder ref="#_NyGHS3a">
+					<orgName type="full">Australian government via the Department of Industry, Innovation and Science Australia-India Strategic Research Fund</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Daniel</forename><surname>Schliephake</surname></persName>
+							<email>daniel.schliephake@monash.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Monash Centre for Additive Manufacturing</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<addrLine>15-17 Normanby Rd, VIC 3168</addrLine>
+									<settlement>Notting Hill</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Material Science and Engineering</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<postCode>3800</postCode>
+									<settlement>Clayton</settlement>
+									<region>VIC</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alexander</forename><forename type="middle">E</forename><surname>Medvedev</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Material Science and Engineering</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<postCode>3800</postCode>
+									<settlement>Clayton</settlement>
+									<region>VIC</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mohammad</forename><forename type="middle">K</forename><surname>Imran</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Frontier Materials</orgName>
+								<orgName type="institution">Deakin University</orgName>
+								<address>
+									<addrLine>Waurn Ponds, VIC 3216</addrLine>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Susanne</forename><surname>Obert</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Institute for Applied Materials (IAM-WK)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<addrLine>Engelbert-Arnold-Str. 4</addrLine>
+									<postCode>76131</postCode>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Daniel</forename><surname>Fabijanic</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Frontier Materials</orgName>
+								<orgName type="institution">Deakin University</orgName>
+								<address>
+									<addrLine>Waurn Ponds, VIC 3216</addrLine>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Martin</forename><surname>Heilmaier</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Institute for Applied Materials (IAM-WK)</orgName>
+								<orgName type="institution">Karlsruhe Institute of Technology (KIT)</orgName>
+								<address>
+									<addrLine>Engelbert-Arnold-Str. 4</addrLine>
+									<postCode>76131</postCode>
+									<settlement>Karlsruhe</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrey</forename><surname>Molotnikov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Monash Centre for Additive Manufacturing</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<addrLine>15-17 Normanby Rd, VIC 3168</addrLine>
+									<settlement>Notting Hill</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Material Science and Engineering</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<postCode>3800</postCode>
+									<settlement>Clayton</settlement>
+									<region>VIC</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xinhua</forename><surname>Wu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Monash Centre for Additive Manufacturing</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<addrLine>15-17 Normanby Rd, VIC 3168</addrLine>
+									<settlement>Notting Hill</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Material Science and Engineering</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<postCode>3800</postCode>
+									<settlement>Clayton</settlement>
+									<region>VIC</region>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Scripta</forename><surname>Materialia</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Monash Centre for Additive Manufacturing</orgName>
+								<orgName type="institution">Monash University</orgName>
+								<address>
+									<addrLine>15-17 Normanby Rd, VIC 3168</addrLine>
+									<settlement>Notting Hill</settlement>
+									<country key="AU">Australia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">D. Schliephake)</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Precipitation behaviour and mechanical properties of a novel Al 0.5 MoTaTi complex concentrated alloy</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">25F7A2E5248467B9640B6A1B944030D1</idno>
+					<idno type="DOI">10.1016/j.scriptamat.2019.07.033</idno>
+					<note type="submission">Received 18 April 2019 Received in revised form 22 July 2019 Accepted 23 July 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Complex concentrated alloy (CCA) Scanning/transmission electron microscopy</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The precipitation behaviour in a novel Al 0.5 MoTaTi complex concentrated alloy (CCA) is described in this study. The alloy was fabricated through an arc-melting process. Solution heat treatment and additional aging was performed at 1673 K and 1273 K, respectively. It was found, that a disordered body-centred cubic phase (bcc) precipitates in cuboidal-and loop-shaped form within an ordered B2 phase. The mechanism of the formation of the loops is believed to be related to the transformation of anti-phase boundaries (APB) in the ordered B2 phase at high temperatures, which act as nucleation sites for the disordered bcc phase during cooling and aging.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Since the introduction of the concept of high entropy alloys (HEAs), the number of new explored alloy systems for structural applications has increased dramatically <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. Although the early focus for HEAs was set on achieving a single-phase microstructure, most of the proposed alloys are not able to compete with the existing conventional alloys <ref type="bibr" target="#b1">[2]</ref>. As a consequence the definition of the high entropy alloys was broadened to include complex concentrated alloys (CCAs) with multiphase microstructures as well as alloys without a principal alloying element consisting of only 3 or 4 elements <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. Lately, HEAs and CCAs containing refractory elements (RHEAs and RCCAs) have attracted a lot of attention for high-temperature structural applications <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. However, not every possible combination of elements would form a desirable combination of crystal structures and microstructures, capable of withstanding high mechanical stresses (static, cyclic or timedependent) at elevated temperatures. Ideally, the microstructure of these alloys would demonstrate similarities to established Ni-base superalloys <ref type="bibr" target="#b7">[8]</ref> and consist of fine and homogeneously distributed precipitates or particles at high volume fractions within the matrix phase.</p><p>For instance, Senkov et al. <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref> explored an alloy with superalloylike microstructure in AlMo 0.5 NbTa 0.5 TiAl. This alloy and some of its compositional modifications showed an interpenetrating basketweave nanostructure of disordered bcc and ordered B2 phases with relatively limited ductility of 3-4% in compression at room temperature. In another work, Soni et al. <ref type="bibr" target="#b10">[11]</ref> further improved the ductility at room temperature for Al 0.5 NbTa 0.8 Ti 1.5 V 0.2 Zr, by obtaining a disordered bcc matrix with embedded B2 particles due to a specific heat treatment sequence. Although the formation of such microstructure is attributed to the presence of Zr <ref type="bibr" target="#b8">[9]</ref>, the actual effect of each element on the formation of a superalloy-like microstructure in disordered bcc/ordered B2 alloys remains unknown.</p><p>In this study we show that a superalloy-like microstructure with nano-sized precipitates can be achieved in a less complex and Zr-free Al 0.5 MoTaTi alloy with a density of 9.1 g/cm 3 (determined by Archimedes method, see Tab. 1). The proposed alloy was prepared by repetitive arc melting in inert argon atmosphere using pure elemental bulk materials of Ta, Mo, Ti and Al with purities of 99.9, 99.95, 99.8 and 99.99%, respectively. The chemical composition of the manufactured sample was measured by inductively coupled plasma atomic emission spectroscopy (ICP-AES) and combustion analysis and corresponds to the nominal alloy composition Al 0.5 MoTaTi (see Tab. 1). The as-cast condition, Fig. <ref type="figure" target="#fig_0">1a</ref>, revealed segregation of Ta and Mo within the dendrites while Ti and Al was mainly distributed in the inter-dendritic regions. To overcome the aforementioned segregation issues two different annealing conditions were applied: (i) to insure homogenous distribution of all elements a solution heat treatment was performed at 1673 K for 20 h (sample termed as SHT) and (ii) to promote the formation of equilibrium phases at 1273 K the SHT was followed by an additional aging at 1273 K for 100 h (sample termed as SHT aged).</p><p>Crystal structure characterization of the main phases was done using the Bruker D8 Phaser X-ray diffractometer (XRD) with Co radiation. The lattice parameters were determined using the Nelson-Riley approach with the weighting function 1/2(cot 2 Θ + cot Θ • cos Θ) <ref type="bibr" target="#b11">[12]</ref>. Microstructure was further characterized using scanning electron microscopy (SEM) in the back-scattered electron mode (BSE) using a JEOL JSM-7001F microscope equipped with an Oxford Instruments AZtec X-ray analysis system and by transmission electron microscopy (TEM) in JEOL 2100F FEGTEM. Samples for SEM were ground and polished up to a final step of 1 μm by diamond suspension and followed by OP-U colloidal silica suspension. TEM lamellae were prepared by focused ion beam (FIB) technique using a FEI Quanta 3D FEG SEM microscope. Mechanical properties were determined by hardness testing using a Duramin-A300 hardness tester at room temperature (RT) and by compression testing at 1273 K for each annealed condition. Compression tests were carried out on samples with dimension of 5 × 3 × 3 mm 3 at 1273 K with an initial strain rate of 10 -3 s -1 using a Zwick universal testing device equipped with a Maytec vacuum furnace.</p><p>The high magnification inset image of the as-cast condition in Fig. <ref type="figure" target="#fig_0">1a</ref> depicts particles at the grain boundary and within the grains (shown by red arrows) which are not captured by XRD due to their small volume fraction. These particles are also observed in the heat treated samples as indicated by arrows in Fig. <ref type="figure" target="#fig_1">2a</ref> and<ref type="figure">c</ref> and were found to be rich in Ti and O. Further analysis of these particles by selected area diffraction revealed them to be TiO (Halite, Fm3m) with the lattice parameter a TiO = 0.4192 nm, which is consistent with literature <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref>.</p><p>The microstructure of SHT and SHT aged conditions are shown in Fig. <ref type="figure" target="#fig_1">2a, b</ref> and<ref type="figure">c, d</ref> respectively. Although XRD results indicated a single bcc phase (results not shown), the higher magnification inset BSE images of the Fig. <ref type="figure" target="#fig_1">2a</ref> and<ref type="figure">c</ref> clearly show a two-phase structure, consisting of a darker matrix and brighter precipitate phase appearing as loops and cubes. The difference in the contrast in the BSE images (Fig. <ref type="figure" target="#fig_1">2a</ref> and<ref type="figure">c</ref>) as well as in TEM high angle angular dark field (HAADF) images (Fig. <ref type="figure" target="#fig_1">2b</ref> and<ref type="figure">d</ref>) suggests variation in the chemistry between the matrix and precipitates, implying a concentration of heavier elements in the latter. Aging following the homogenisation heat treatment (Fig. <ref type="figure" target="#fig_1">2d</ref>) promoted the increase in size of both the cubes and loops (from 17 ± 3 nm to 28 ± 11 nm and from 14 ± 2 nm to 26 ± 1 nm, respectively), while reducing their volume fraction compared to the SHT condition from 66% to 32% (Fig. <ref type="figure" target="#fig_1">2b</ref>). It should be noted here, that no precipitates were observed in the as-cast condition by TEM.</p><p>Fig. <ref type="figure" target="#fig_2">3a</ref> shows a HAADF image of the section of the structure of SHT aged condition with loops and cubes appear bright, signifying higher content of large Z elements. High resolution TEM of the matrix and loop regions (Fig. <ref type="figure" target="#fig_2">3b</ref>) along with selected area diffraction (Fig. <ref type="figure" target="#fig_2">3c</ref>) taken along the [001] direction revealed that the matrix is represented by an ordered B2 phase, while both loops and particles are composed of disordered bcc phase. This is also supported by the Fast Fourier Transformation (FFT) images taken from matrix and loop regions, shown as insets in Fig. <ref type="figure" target="#fig_2">3b</ref>. Furthermore, the HRTEM analysis of the interface between the B2 and bcc components (not shown) along with selected area electron diffraction (SAED) results (Fig. <ref type="figure" target="#fig_2">3c</ref>) suggests coherency between the phases: 〈001〉 B2 ∥ 〈001〉 BCC ; {001} B2 ∥ {001} BCC . Finally, the lattice parameters calculated from the SAED were identical within the accuracy of the measurement for the two phases (a B2/BCC = 0.3218 nm) and correlated well with the value obtained from the XRD analysis (a = 0.3210 nm). This finding additionally explains the absence of secondary phases in the XRD results.</p><p>Fig. <ref type="figure" target="#fig_2">3d</ref> and<ref type="figure">e</ref> show a HAADF image of the region of the SHT aged sample and an EDX mapping of this region, respectively, which revealed that the disordered phase is rich in Ta (52 at.%) and Mo (36 at.%) with reduced amounts of Ti (8 at.%) and Al (4 at.%). The cuboidal particles, on the contrary, still possess notable amounts of Ti and Al (21 at.% and 15 at.%, respectively), while Ta and Mo account for approximately 36 at.% and 28 at.%, respectively. This discrepancy may be caused by the fact that while the through-sample loop thickness is most likely close to that of the TEM lamellae, the cuboidal particles are much smaller in size (and thickness) and the analysis volume is likely to include a significant quantity of the Ta (21 at.%) and Mo (23 at.%) dilute matrix.</p><p>The loop structures formed in this alloy are intriguing. They look remarkably similar to one particular type of antiphase boundaries (APBs). APBs are known to separate adjacent ordered domains in ordered superlattices (L1 0 , L1 2 , B2, DO 3 ) of many systems featuring ordering transformations. Examples of such systems include Fe\ \Al <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>, Fe 3 O 4 <ref type="bibr" target="#b16">[17]</ref>, CoPt 3 <ref type="bibr" target="#b17">[18]</ref>, CuAu and many others <ref type="bibr" target="#b18">[19]</ref>. The majority of reported APBs are straight and follow certain crystal directions in predominantly cubic lattices. However, one system is particular: Fe 3 Al has been reported to undergo B2-DO 3 transformation with the first direct observation of the antiphase boundaries performed by Marcinkowski and Brown in 1962 <ref type="bibr" target="#b19">[20]</ref>, where these boundaries appeared very similar to looped structures in the present work. Furthermore, Marcinkowski  and Brown <ref type="bibr" target="#b18">[19]</ref> calculated the energies of the most and least favourable crystal orientations of the APBs and found little difference between them, suggesting that under such conditions there is no preferred crystallographic orientation for APB formation, enabling them to have curved or looped appearance. Similar observation in the same system has revealed similar shape and morphology of the APBs <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b20">21]</ref>. As a consequence, different regions of APBs appear to have varying thickness, while in reality it is a reflection of boundaries inclination towards the observation direction, as shown extensively in discussed literature as well as in our results in Fig. <ref type="figure" target="#fig_2">3a</ref> (two contrasting regions are indicated by arrows). Finally, discontinuation of order on the APBs does not disrupt coherency of the structure across the boundaries (only element ordering), which is consistent with our results that B2 and bcc not only are aligned but also coherent, supporting our hypothesis that the looped structures are indeed related to and based upon anti-phase boundaries. Indeed, recently Yurchenko et al. <ref type="bibr" target="#b21">[22]</ref> reported antiphase boundaries in refractory high entropy alloy AlNbTiVZr that look very similar to those reported in Fe 3 Al system. However, we have observed an anomaly related to the thickness of the loops in our results. Normally, the APBs are atomically thin and can only be detected in certain crystallographic directions <ref type="bibr" target="#b19">[20]</ref>. They also should not have internal structure. The fact that we report the loops to have disordered bcc structure suggests that the APBs are decorated with the bcc precipitates as a result of the long (100 h) annealing at 1273 K. This suggestion leads to three further interpretations. Firstly, the determination of the original position of the APBs within the loops to confirm their existence is challenging due to the formation of a continuous bcc phase, which would reorganise and consume the original boundaries. Secondly, it explains the difference in morphology of the loops and cubes, which have the same bcc structure; their precipitation was highly heterogeneous with loops precipitating on the APBs and cubes within the antiphase domains. Thirdly, it means that for the ordering transition to occur to form B2 matrix, the initial microstructure should be disordered. Unfortunately, available cooling rates failed to stabilize the disordered initial state of the alloy. Nevertheless, it can be anticipated that it would also be bcc structure. Hence, the phase transformation sequence during the casting/annealing in the Al 0.5 MoTaTi system should read as bcc → B2 → B2 + bcc (loops and cubes), featuring both ordering and subsequent reverse disordering transitions (precipitation).</p><p>Cuboidal and spherical precipitates forming superalloy-like microstructures were already reported in several other bcc/B2 HEAs, such as Fe 32 Mn 21 Cr 18 Ni 15 Al 10 or Al 0.7 CoCrFe 2 Ni <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref> and in RHEAs <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref>. Interestingly, in HEAs the cuboidal precipitates having B2 structure are present in bcc matrix, while it is vice versa in RHEAs. It was shown that the microstructure may be reversed in Al 0.5 NbTa 0.8 Ti 1.5 V 0.2 Zr by optimizing the heat treatment sequence <ref type="bibr" target="#b9">[10]</ref>. However, the aforementioned bcc/B2 HEAs do not possess any high-temperature capabilities, since they start to soften substantially at temperatures above 873 K <ref type="bibr" target="#b23">[24]</ref>. For RHEAs, Senkov et al. <ref type="bibr" target="#b8">[9]</ref> attempted to ascertain, which of the elements causes the formation of the nano-sized B2/bcc microstructure. They have shown that Ta, Nb and, up to a certain point, Mo exhibit low solubility in the Zr-and Al-rich ordered B2 phase due to the presence of a miscibility gap. Ti does not seem to play any role in phase separation, because it is soluble in both phases. Decreasing the Zr content resulted in moving the composition outside the aforementioned miscibility gap. However, they also changed the concentrations of Al, Ta and Mo during their investigations as well <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>, so a conclusion on the compositional effect of separate elements may not be appropriate. Combining their findings with our own results allows a different conclusion to be drawn. The existence of the miscibility gap seems to be supported by the content of the heavier elements Ta and Mo, which are both less soluble in the ordered B2 phase in this work. This is in agreement with the findings by Senkov et al. <ref type="bibr" target="#b8">[9]</ref>. A nano-sized B2/bcc microstructure is therefore possible without the presence of either Zr or Nb. Furthermore, the results of Senkov et al. <ref type="bibr" target="#b7">[8]</ref> suggest that Zr isto some extentcompensating for the reduction of Al content in the alloys Al 0.5 Mo 0.5 NbTa 0.5 TiZr and Al 0.25 NbTaTiZr, since both elements are mainly solved in the ordered B2 phase. Nevertheless, further investigations are necessary, to fully rationalise the formation of disordered bcc within a B2 matrix in refractory HEAs and CCAs and whether this can be reversed. The latter one was realized by Soni et al. <ref type="bibr" target="#b10">[11]</ref> through a sequence of three heat treatment steps, namely (i) solution heat treatment at 1473 K for 24 h and slowly cooled down with 10 K/min, (ii) annealing at 1673 K for 20 min and water quenching and (iii) annealing at 873 K for 120 h and water quenching. However, this also limits the maximum capability for elevated temperature applications to 873 K. If the aforementioned third annealing step is performed at 1073 K, discontinuous precipitation of an Al\ \Zr rich hcp phase occurs and an Al and Zr depleted second bcc phase form <ref type="bibr" target="#b24">[25]</ref>.</p><p>During the additional aging heat treatment, the size of the precipitated particles as well as the loop thickness increases from 17 ± 3 nm and 14 ± 2 nm to 28 ± 11 nm and 26 ± 1 nm, respectively. The hardness values, displayed in Table <ref type="table" target="#tab_1">2</ref>, remain mostly constant following the growth in size of the disordered bcc precipitates. The TEM/EDX analysis confirmed that the matrix B2 phase contains 27.8 ± 2/21.5 ± 0.4 at. % Ta and 24.6 ± 1/23.8 ± 0.9 at.% Mo in the SHT/SHT aged condition, respectively. Nevertheless, it was determined that the different size and/ or the changed composition of the B2 phase has an influence on the compression behaviour at 1273 K, as shown in Fig. <ref type="figure" target="#fig_3">4</ref>. While σ 0.2 increases only slightly from 969 MPa to 1085 MPa, the attained elongation is improved by a factor of four. The latter is still relatively small compared to earlier reported compression tests at 1273 K <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b9">10]</ref>, where RHEAs reached at least 45% height reduction. However, none of those alloys have reached a maximum strength σ p of 1139 MPa, with the highest value reported to be 1019 MPa for AlMo 0.5 NbTa 0.5 TiZr 0.5 , which consists of B2 with grain boundary hcp precipitation <ref type="bibr" target="#b8">[9]</ref>. The high strength of the Al 0.5 MoTaTi alloy is most likely related to the Ta and Mo dissolved in the B2 matrix, while the increased elongation in the SHT aged condition is caused either by the lower Ta content in the B2 phase or the larger loop width. While the observed microstructure shows promising superalloy-like microstructural features which can provide the thermal stability of the alloy, further studies on alloy systems with variations in composition and heat treatment may be applied   </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. a) Scanning electron microscopy in the back-scattered electron mode (SEM-BSE) of Al 0.5 MoTaTi in as-cast condition, with the inset showing a higher magnification and arrows indicating TiO particles, and b) EDX mapping for Ta, Mo, Ti and Al.</figDesc><graphic coords="2,102.90,570.27,398.36,146.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Microstructure of Al 0.5 MoTaTi alloy. a) SEM-BSE and b) transmission electron microscopy in high-angle annular dark-field mode (TEM-HAADF) after 1673 K/20 h annealing and c) SEM-BSE and d) TEM-HAADF after 1673 K/20 h + 1273 K/100 h annealing; arrows indicating TiO particles and insets showing higher magnification.</figDesc><graphic coords="3,122.46,53.18,341.71,288.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. a) TEM-HAADF image of the structure after 1673 K for 20 h (arrows indicate regions of loops differently inclined towards the observation direction); b) High resolution TEM images and respective FFT images from matrix and loop regions, indicating B2 and bcc crystal structure, respectively; c) Selected area electron diffraction (SAED) pattern from [001] zone axis of the phases with a schematic pattern of overlapping reflexes; d) TEM-HAADF image from a region comprising matrix, loops and cube particles; (e) EDX maps, showing the distribution of Ta, Ti, Al and Mo elements in the area of the sample shown in (d).</figDesc><graphic coords="4,131.24,53.18,341.71,328.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Compressive true stress vs. true strain for Al 0.5 MoTaTi in SHT and SHT aged condition.</figDesc><graphic coords="5,45.13,53.18,228.19,186.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Chemical composition by ICP-AES, oxygen concentration by combustion analysis and density by Archimedes method of the studied Al 0.5 MoTaTi alloy.</figDesc><table><row><cell>Sample ID</cell><cell cols="3">Chemical composition</cell><cell></cell><cell>Oxygen</cell><cell>Density</cell></row><row><cell></cell><cell>at.%</cell><cell></cell><cell></cell><cell></cell><cell>wppm</cell><cell>g/cm 3</cell></row><row><cell></cell><cell>Al</cell><cell>Mo</cell><cell>Ta</cell><cell>Ti</cell><cell></cell><cell></cell></row><row><cell>As cast</cell><cell>16.9</cell><cell>27.9</cell><cell>29.1</cell><cell>26.1</cell><cell>200</cell><cell>9.1 (± 0.1)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Annealing conditions, lattice parameter a B2/bcc , Vickers hardness, compression properties at 1273 K (yield stress σ 0.2 , fracture stress σ f and fracture strain ε f ) and identified phases of the Al 0.5 MoTaTi alloy.</figDesc><table><row><cell>Sample ID</cell><cell>Annealing condition</cell><cell>a B2/bcc (XRD/TEM)</cell><cell>HV1</cell><cell>σ 0.2 /σ f</cell><cell>ε f</cell><cell>Phases</cell></row><row><cell></cell><cell></cell><cell>nm</cell><cell>GPa</cell><cell>MPa</cell><cell>%</cell><cell></cell></row><row><cell>As cast</cell><cell>-</cell><cell>0.3215/-</cell><cell>6.38 (±0.21)</cell><cell>-</cell><cell>-</cell><cell>B2/bcc, TiO</cell></row><row><cell>SHT</cell><cell>1673 K for 20 h</cell><cell>0.3210/0.3221</cell><cell>6.67 (±0.21)</cell><cell>969/973</cell><cell>1</cell><cell>B2 (matrix), bcc (loops and cubes), TiO</cell></row><row><cell>SHT aged</cell><cell>1673 K for 20 h + 1273 K for 100 h</cell><cell>0.3210/0.3218</cell><cell>6.38 (±0.27)</cell><cell>1085/1139</cell><cell>4.6</cell><cell></cell></row></table><note><p>B2 (matrix), bcc (loops and cubes), TiO</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>D. Schliephake et al. / Scripta Materialia 173 (2019) 16-20</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>to fully exploit the potential of these novel multiphase material systems. Furthermore, extended mechanical tests at various temperatures and strain rates are needed to reveal the deformation mechanisms.</p><p>The authors are thankful for financial support of the <rs type="funder">Australian government via the Department of Industry, Innovation and Science Australia-India Strategic Research Fund</rs> on project <rs type="grantNumber">AISRF53731</rs>. The authors also acknowledge use of facilities within the <rs type="institution">Monash Centre for Electron Microscopy</rs>. D.S. and A.E.M. and A.M. would also like to thank <rs type="person">Dr. Bengt Hallstedt</rs> (<rs type="affiliation">RWTH Aachen, Germany</rs>) for fruitful discussion. D.S and S.O. are grateful to <rs type="person">Alexander Kauffmann</rs> for the technical support with the compression tests.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_NyGHS3a">
+					<idno type="grant-number">AISRF53731</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="2533" to="2536" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="448" to="202" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1142" to="1147" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gorsse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Couzine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">C. R. Phys</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="721" to="736" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Couzinie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="3092" to="3128" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">742</biblScope>
+			<biblScope unit="page" from="762" to="772" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kauffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schliephake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Seemüller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">661</biblScope>
+			<biblScope unit="page" from="206" to="215" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Propuls. Power</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="361" to="374" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="2030" to="2042" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pilchak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="498" to="511" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Soni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">8816</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Riley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Phys. Soc</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="160" to="177" />
+			<date type="published" when="1945">1945</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Aivazov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Sarkisyan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Domashnev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Gurov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inorg. Mater</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1389" to="1391" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Binks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Duffy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Solid State Chem</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="195" to="201" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Sellers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Hyde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>O'brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Wright</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Solids</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="505" to="515" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Swann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Duff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Fisher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. B</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">409</biblScope>
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mckenna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Lazarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ikuhara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leroux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Loiseau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Cadeville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ducastelle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Europhys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="155" to="166" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Regina</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<publisher>ASM Handbook</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Marcinkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">537</biblScope>
+			<date type="published" when="1962">1962</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Yasuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nakano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakajima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ueda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Umakoshi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="5101" to="5112" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">704</biblScope>
+			<biblScope unit="page" from="82" to="90" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Shaysultanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishcev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu</forename><forename type="middle">V</forename><surname>Ivanisenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Zherebstov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">705</biblScope>
+			<biblScope unit="page" from="756" to="763" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="85" to="89" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Soni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Viswanathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="3235" to="3246" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

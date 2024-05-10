@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Implications for the Geochemistry of the Mantle</title>
+				<funder ref="#_4s7uYtp">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Albrecht</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Terrestrial Magnetism</orgName>
+								<orgName type="institution">Carnegie Institution of Washington</orgName>
+								<address>
+									<postCode>20015</postCode>
+									<settlement>Washington</settlement>
+									<region>D.C</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mordeckai</forename><surname>Magaritz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Terrestrial Magnetism</orgName>
+								<orgName type="institution">Carnegie Institution of Washington</orgName>
+								<address>
+									<postCode>20015</postCode>
+									<settlement>Washington</settlement>
+									<region>D.C</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Implications for the Geochemistry of the Mantle</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5F31D4EA13F3ACA1A5176512BEF27881</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Tracer diffusion coefficients of Ca, Sr, Ba, and Co in molten olivine tholeiite basalt have been determined between 1260 ø and 1440øC at I atm. The diffusion coefficients range from 10 -7 to 10 -• cm •' s -x, and the activation energies range from 39 to 44 kcal mol -•. The diffusion coefficients decrease with increasing ionic radius, but the observed relationship does not conform to the Stokes-Einstein relation. The results of our experiments suggest that the characteristic diffusion distances, estimated by the expression (Dt) •/•', exceed I km only for very long times of l0 g years or more. Consequently, chemical diffusion does not contribute significantly to large-scale differentiation and mixing processes in a partially molten mantle. A layer of l-km half width that has been depleted in incompatible trace elements (e.g., by extraction of melt) can be replenished by diffusion from the adjacent material to one-half its original concentration in 3 X 11Y years (or 0.9 in 8 x l0 g years). Diffusive transport is efficient in small-scale processes (&lt;1 km). Diffusion in a partially molten asthenosphere greatly increases the rate of local equilibration, and it contributes significantly to small-scale mixing and contamination processes in magma chambers and conduits.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Recent studies of the earth's upper mantle have favored the idea that it contains a zone of partially molten rock, which is characterized by low velocity and high attenuation ('low Q') of seismic waves <ref type="bibr">[Isacks et al., 1968]</ref>. This zone, often referred to as the asthenosphere, is thought to have a reduced bulk viscosity and increased chemical diffusivity, so that mass transport involving both convection and diffusion is enhanced. The primary motivation for our studies of chemical diffusivities in natural melts has been to elucidate the nature and magnitude of chemical transport in a partially molten mantle. Diffusivity data are needed to evaluate the importance of both mixing and differentiation processes. For example, a partially molten asthenosphere contains vertical temperature and pressure gradients that give rise to chemical potential gradients, which are buffered by the local solid-melt equilibria. Given enough time for diffusive transport, such a system will become chemically differentiated, and this process could be of considerable geochemical importance.</p><p>Another example concerns the possibility of zone refining in the mantle, as has been proposed by several authors <ref type="bibr" target="#b11">[Harris, 1957;</ref><ref type="bibr" target="#b45">Vinogradov et al., 1971;</ref><ref type="bibr" target="#b34">Kay, 1975;</ref><ref type="bibr" target="#b51">Yoder, 1976]</ref>. A zonerefining process requires mixing in the molten zone in order to concentrate the low-melting components and prevent their immediate reincorporation into the solidifying front.</p><p>A third area of interest is the rate of chemical reconstitution of a volume of mantle material from which most (or all) of the melt fraction has been extracted. If a (grain boundary) film of melt remains in the residue after melt removal, diffusion from adjacent regions, not depleted by melt extraction, will tend to restore the original chemical composition of the depleted region.</p><p>Mixing processes in the mantle are likely to involve both convection and diffusion, and it is important to determine their relative importance and whether the two processes interact. If the characteristic length scales differ by several orders of magnitude, the two processes can be thought of as operating independently. On the other hand, if the length scales overlap, convection and diffusion will interact strongly. Our results</p><p>Copyright ¸ 1077 by tne American Geophysical Union. contribute to this problem by establishing an approximate upper limit for the length of diffusion.</p><p>Examples of other applications for which diffusion data are need(:d are ( 1 ) the effect of transport-limited fractional crystallization <ref type="bibr" target="#b0">[Albarede and Bottinga, 1972]</ref>, (2) the range of isotopic equilibration relevant to Rb-Sr dating in igneous rocks, (3) the length scale of chemical gradients in the quenched melt phase of rocks subjected to melting experiments <ref type="bibr" target="#b35">[Kushiro, 1974]</ref>, and (4) the elucidation of the structure of silicate melts. In order to limit the scope of this paper we will discuss only a few of these topics briefly.</p><p>In this paper we report diffusion measurements on a number of divalent cations in an olivine tholeiite melt. These species are essentially nonvolatile and have ionic radii ranging from about 0.7 to 1.7 • <ref type="bibr" target="#b47">[Whittaker and Muntus, 1970]</ref>, and we believe that the mobility of most other divalent cations, both major elements and large-ion lithophile (LIL) trace elements, can be interpolated or extrapolated from our results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>PREVIOUS WORK</head><p>Although much work has been done on diffusion in binary and ternary silicate glasses, only a few measurements have been made on silicate liquids. The number of measurements made on compositional systems that resemble natural melts is even smaller. <ref type="bibr" target="#b2">Bowen [1921]</ref> studied interdiffusion between diopside and plagioclase liquids at about 1500øC and showed that diffusion in the melt is so slow that the Soret effect (diffusion due to a temperature gradient) does not play a significant role in the differentiation of magmas. <ref type="bibr" target="#b23">Sippel [1963]</ref> measured self-diffusion of sodium in a number of minerals and in obsidian glass. <ref type="bibr" target="#b49">Winchell and Norman [ 1969]</ref> measured tracer diffusion of cesium in a melt of a composition somewhat similar to that of basalt. <ref type="bibr" target="#b38">Medford [1973]</ref> determined calcium diffusion in a mugearite melt. <ref type="bibr" target="#b50">Yoder [1973]</ref> determined chemical transport between water-saturated basalt and rhyolite melts and interpreted the resulting concentration gradients as 'most likely due to diffusion in the liquid; however, other mechanisms such as vapor transport, might have been active. <ref type="bibr" target="#b22">' Shaw [1974]</ref> measured water diffusion in obsidian glass. Smith <ref type="bibr">[1974]</ref> measured alkali interdiffusion in basaltic, andesitic, and granitic melts. His diffusion couples were chemically identical except that one side was enriched in one alkali metal, e.g., Na, Paper number 7B0602. and the other side was er•riched in another, e.g., K. Carron <ref type="bibr">[1968]</ref> and <ref type="bibr">Jambon and</ref><ref type="bibr">Carron [1973, 1976]</ref> measured tracer diffusion of alkalis in glasses of granitic (obsidian), albite, and orthoclase compositions.</p><p>All of these studies, except the tracer experiments of <ref type="bibr" target="#b23">Sippel [1963]</ref>, <ref type="bibr" target="#b49">Winchell and Norman [1969]</ref>, <ref type="bibr" target="#b4">Carron [1968]</ref>, and Jambon and <ref type="bibr">Carron [1973</ref><ref type="bibr">Carron [ , 1976]]</ref>, actually involve multicomponent diffusion in complex silicate systems, and such experiments should be properly described by <ref type="bibr" target="#b16">Onsager's [1945]</ref> extension of Fick's laws, because the diffusion flux of each component depends on the chemical potential gradients of all components in the system (for a review and a simplified method of describing such systems, see, <ref type="bibr" target="#b5">Cooper [1974]</ref>). No attempt was made in the above cited multicomponent studies to give such a complete description, and the results are therefore difficult to interpret in detail. In comparison, the phenomenology of tracer diffusion is relatively simple. Except for the varying tracer abundance the system contains no chemical gradients, and the tracer diffusion coefficient can be determined by measuring the concentration profile of the tracer only.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL METHOD</head><p>The starting material was prepared from a sample of olivine   <ref type="bibr">[1974,</ref><ref type="bibr">1975]</ref>, employed diffusion couples that were prepared by joining two capillaries, one doped with the radiotracer and one undoped. The results obtained in this way were found to be similar to but less precise than subsequent measurements made by using the thin source technique. They are therefore not included in this paper but have been discussed by <ref type="bibr" target="#b14">Holmann [1974</ref><ref type="bibr" target="#b15">Holmann [ , 1975] ]</ref>  The thin source method is widely used in diffusion experiments on glasses. When it is used with liquids, it has the disadvantage that some convection may occur in the tracerdoped end zone, especially during the initial heating and remelting of the glass. This difficulty was overcome by letting the diffusion gradient grow sufficiently long, so that the length of the convection zone was relatively insignificant. Nevertheless, it is believed that convection near the end of the tube was the major source of experimental uncertainty.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Several preliminary measurements, reported by Holmann</head><p>Other possible sources of errors include (1) the presence of concave or convex surfaces of the melt at the open ends, thus introducing a departure from the assumed one-dimensional diffusion geometry, (2) the unknown difference in density between liquid and quenched glass, which causes the length of the measured gradient to be in error, (3) departures from strictly isochemical behavior due to the introduction of the tracer and the associated chloride ions, potential loss of Fe to the platinum wall, and loss of volatile elements, especially N a, from the free melt surfaces at the capillary ends, (4) the conceivable presence of undesirable diffusion paths such as those along the boundary between the platinum wall and the melt, and (5) deviations from one-dimensional diffusion caused by a nonuniform source. Effects 1 and 2 are difficult to assess precisely but are believed to cause much smaller errors than does the initial convection mentioned above. An attempt was made to evaluate effect 3. Electron microprobe traverses showed identical Fe contents in the basalt before and after the diffusion experiments. In addition, there was no detectable Fe in the Pt tubes and no Fe gradients in the glass adjacent to the tubes. This result was expected because the runs were made in air, that is, under conditions sufficiently oxidizing to form a mixture of Fe •'+ and Fe •+ and to prevent the formation of Pt-Fe alloy. At the liquidus temperature of about 1270øC the first phase to form is a chrome spinel containing approximately 52% FeO (both Fe :+ and Fe •+ reported as FeO), 16% MgO, 10% Cr:O,, 9% AI:O,, 0.9% TiO:, and 0.9% NiO. Na and K traverses showed less than 10% concentration decrease near the free surfaces (measured at distances of 50-150 um from the surface) compared to the inside of the charges for runs up to 4 days at 1440øC and 6 days at 1300øC. Also it could be shown that for cobalt diffusion this does not affect the diffusion coefficient measurably. This conclusion is based on a comparison with an independent measurement of Co diffusion at 1300øC reported by Hofmann and Brown <ref type="bibr">[1976]</ref>. Effect 4 was ruled out for Ca diffusion by inspection of autoradiograms (described below), which showed a uniform distribution of Ca tracer in the glass and no measurable concentration increase at the Pt wall. Effect 5 is present when the thin source has a nonuniform activity distribution. At first sight it seems that the resulting three-dimensional diffusion would give rise to an error in the measured diffusion coefficient if this effect is ignored. However, <ref type="bibr" target="#b41">Tannhauser [1956]</ref> has proved that this error is zero as long as the sectioning is par.•llel to the source plane. Although the data shown on Figure <ref type="figure">4</ref> were all obtained from runs with sufficiently long diffusion gradients (&gt; 1 cm) to minimize the convective contribution to the total transport (see discussion in the preceding section), the exact amount of the convective transport cannot be evaluated in each run. The disagreement in slope of the linearized activity profiles (see Figure <ref type="figure">3</ref>) between isothermal runs indicates that the major source of error does not lie in the counting statistics and length measurements but in the magnitude of nondiffusive transport, which was shown to be small but significant. We believe that the exact conditions of remelting of the starting glass are not completely reproducible and that the scatter of points, as shown in Figure <ref type="figure">4</ref>, is probably the best measure of the experimental error. We further believe that any systematic error is not larger than this data scatter, because we have been able to reproduce the D value for cobalt at 1300øC to better than 10% by a different technique, in which the radioactive source is introduced by deuteron bombardment and is located in the center of the sample rather than at the surface [Hofmann and</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Brown, 1976].</head><p>There is a small but significant negative correlation between ionic radius and diffusivities, especially for the alkaline earth ions Ca </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APPLICATIONS TO THE GEOCHEMISTRY OF THE MANTLE</head><p>In this discussion we assume that the measured diffusion coefficients are applicable to partial melts in the upper mantle. Thus we ignore the effects of compositional differences, volatile content, and pressure. We believe that these assumptions are justified for the order of magnitude calculations used in this discussion (see the next section). We emphasize the behavior of strontium because of its special importance in isotope geochemistry, but because of the similarity of the diffusion coefficients of the other divalent ions our conclusions are also applicable to a wider range of divalent trace elements in the mantle. Furthermore, preliminary studies on the diffusion of Na, Mn, Sc, and V [Hofmann and Brown, 1976] and unpublished data on Eu, Gd, and AI diffusion indicate that at 1300øC the total variation in diffusivities for most cations in basalt melts is less than 2 orders of magnitude.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effect of Volatiles</head><p>It is well known that volatiles have an important effect on the structure of silicate melts and that consequently, the diffusion coefficient may also be affected. Intuitively, one might expect the diffusivities to increase with increasing water content. <ref type="bibr" target="#b22">Shaw [1974]</ref>  Thus in the absence of direct measurements the available evidence indicates that changes in melt composition and structure, including those caused by volatiles, will not change the diffusion coefficients of alkalis and alkaline earths by more than an order of magnitude. We believe therefore that our assumptions are justified for the purpose of this discussion.</p><p>Still another possible effect of volatiles is transport in a separate vapor phase. This possibility cannot be dismissed in mantle regions where the mantle is otherwise completely solid.</p><p>We believe this effect to be quantitatively small tJecause the bulk of the mantle-derived melts (tholeiites) have very low volatile contents and because cation solubilities tend to be much lower in vapor phases than in silicate melts. Nevertheless, we restrict the subsequent discussion to transport in a partially molten mantle where volatile components will be dissolved in the melt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Characteristic Transport Distances</head><p>In many diffusion processes the transport distance increases with the square root of time, and the relation •/ = (Dt) •/•' is a convenient measure of a characteristic distance (for details the reader is referred to <ref type="bibr" target="#b6">Crank [1975]</ref>). For D = 10 -6 cm •' s -1, a reasonable maximum diffusivity of Sr in basalt melt, one obtains characteristic distances of 5.6 cm, 56 m, and 1.8 km in 1, 106, and 10 • years, respectively. Thus it is immediately clear that equilibration of a partially molten mantle through diffusion is geologically instantaneous on a centimeter scale, rather inefficient on a 1-km scale, and negligibly slow on any scale greater than a few kilometers. Exceptions to this general rule of thumb are likely to be found only in such species as H + and He that are known to diffuse comparatively rapidly in glasses and other materials (see, for example, <ref type="bibr" target="#b8">Frischat [1975]</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Local Equilibrium During Partial Melting</head><p>The effort to determine the composition of the mantle by chemical and isotopic analysis of the volcanic material derived from it depends critically on the assumption of local equilibrium during melting. The validity of this assumption has been questioned by a number of authors [e.g., <ref type="bibr">Harris et al., 1972' O'Nions and</ref><ref type="bibr" target="#b40">Pankhurst, 1974;</ref><ref type="bibr" target="#b24">Sleep, 1974;</ref><ref type="bibr">Bottinga and AIlkgre, 1976]</ref>. Thus it may be questioned, for example, whether the many hundreds of strontium isotope analyses, which have been made in recent years on mantle-derived volcanic rocks, are of any significant value in characterizing the source material of these rocks. Hofmann and <ref type="bibr" target="#b27">Hart [1977]</ref> have discussed the problem in detail, using both experimental data on diffusion in crystals and melts and analytical data from oceanic volcanic rocks. The experimental results suggest that the range of equilibration in a completely crystalline rock will not exceed a few centimeters in times of 106-10 • years. On the other hand, the presence of a melt phase that wets all grain boundaries acts as a local short circuit for equilibration between the solid phases. The rate-limiting step is then the transport between the interior of individual grains and the nearest grain boundary, and the overall rate of solid-liquid equilibration is greatly enhanced over that of a fluid-free mantle. These relationships are quite similar to those found in crustal metamorphic rocks, where the presence of a fluid phase is believed to enhance local equilibration. The range of local equilibration in a partially molten mantle with a stagnant interstitial melt phase would be of the order of 100 m for D = 10 -? cm •' s -• and t = 106 years (or 10 m in 106 years). We believe therefore that the notion of disequilibrium melting in the mantle has perhaps received too much attention, as long as there is no clear-cut evidence in favor of it.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mantle Homogenization Processes</head><p>Volcanism has extracted large quantities of basalt from the earth's mantle, and the chemical processes involved in this (partial melting and fractional crystallization) tend to cause chemical differentiation rather than homogenization. Consequently, it seems inevitable that the mantle from which this volcanic material is extracted becomes chemically (and, given sufficient time, isotopically) heterogeneous. This heterogeneity is the subject of much current research and is believed to be of great importance to a better understanding of the earth's mantle. For example, partial melting will cause a decrease of the Rb/Sr ratio in the residue (if this residue contains clinopyroxene or plagioclase), and the 67Sr/66Sr ratio in a meltdepleted mantle region will grow more slowly than it would in an undepleted region. The largest known volume of depleted mantle with low 67Sr/66Sr ratios is the source of midocean ridge volcanism [e.g., <ref type="bibr" target="#b13">Hart, 1971]</ref>.</p><p>The question to be addressed here is whether the chemical and isotopic inhomogeneities that were caused by igneous processes can be removed by convection and diffusion. Although convection in the mantle cannot be as easily evaluated by simple experimentation as can diffusion, the characteristic length and time scales of the two processes appear to be so grossly different that some general conclusions can be drawn. One possible measure of the size of the earth's convection cells is the size of the surface features that are driven by convection.</p><p>From this consideration one would infer a characteristic cell size of several thousand kilometers. However, this may be misleading because the vertical dimension of the convection cells may be constrained by phase transitions that inhibit vertical movement <ref type="bibr" target="#b21">[Schubert et al., 1975</ref><ref type="bibr" target="#b19">' Sammis, 1976]</ref>  Even smaller dells might exist if' the asthenosphere is relatively thin, perhaps of the Order ofI00 km. Still smaller cells in the asthenosphere are difficult to reconcile with the increasing thickness of the oceanic lithosphere•as a function of age <ref type="bibr" target="#b36">[Leeds et al., 1974;</ref><ref type="bibr" target="#b17">Pollack and Chapman, 1977]</ref>: Foi'example, if a uniform, constant adiabatic temperature profile were achieved due to small-scale convection in the asthenosphere, the system would reach a steady state, and the lithosphere would stop thickening.</p><p>For the remainder of this discussion •we will assume that the typical cell diameter for convection is at least 500 km and that the time for one overturn is of the order of 106 years. Under these circumstances the characteristic transport distances of diffusion and convection differ by at least 3 orders of magnitude, and there is little interaction between th.e two mixing modes except in regions of high shear concentration (such as might exist at the base of the lithosphere or in rising diapirs). Consequently, if we choose a scale of inspection of 10-100 km, which is intermediate between those of convection and diffusion, we expect mixing to be extremely inefficient. This scale is appropriate to single volcanos or oceanic islands. On a smaller scale, convective processes during mantle diapirism, magma segregation, magma chamber formation, -and extrusion will interact significantly with diffusion and result in significant degrees of mixing although not necess..arily in complete homogenization. On a larger •scale, such as might be obtained by averaging the isotopic composition of all islands in, one ocean basin and then comparing the averages from different oceans, we would predict significant mixing due to large-scale con-vection only but again not necessarily a complete homogenization. This predicted pattern coincides with the observed patte[n of isotopic compositions in oceanic volcanic rocks <ref type="bibr">[•ofmann and Hart, 1977]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Homogcneity of Midocean Ridge Basalts</head><p>The isotopic composition of Sr and Pb in midocean ridge basalts varies within much narrower limits than that of oceanic islands [e.g., <ref type="bibr">Sun and Hanson, 1975;</ref><ref type="bibr">Hermann and Hart, 1977]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Vertical Differentiation of the Mantle</head><p>Any large-scale vertical transport by diffusion would require times very much greater than the age of the earth. (Possible exceptions to this rule may be hydrogen and helium.) <ref type="bibr" target="#b30">Hurley [1977]</ref> has discussed examples of possible small-scale vertical differentiation between U and Pb as a result of gravity-induced diffusion or diffusion driven by concentration gradients in regions of varying proportions of partial melt. Vertical cation diffusion moy also be important locally at the base of a thickening lithosphere. A downward zone refining of incompatible elements has been proposed by <ref type="bibr" target="#b34">Kay [1975]</ref> for the base of the oceanic lithosphere. This was discussed by Hofmann and Magaritz <ref type="bibr">[1976]</ref>• who argued that the relatively rapidly thickening Oceanic lithosphere would generate a steady state chemical enrichment zone in the partially molten material. The width of this zone can be estimated by the relation x = D/V (given by <ref type="bibr" target="#b0">Albarede and Bottinga [1972]</ref>), where D is the diffusion coefficient and V is the velocity of the solidification front. For an average growth rate of 0.1 cm/yr for the lithosphere and D = l0 -6 cm • s -x One obtains x = 3m, and the zone-refining process,, as proposed by <ref type="bibr" target="#b34">Kay [1975]</ref>, will not be quantitatively important. On the other hand, the downward zone-refining process may yet be important at the base of very slowly growing old continental lithosphere. verely depletes the source region in many of the LIL elements <ref type="bibr" target="#b10">[Gast, 1968]</ref>. Such repeated melting with nearly constant melt composition can reasonably well account for the major element composition if the melt composition is controlled by quasi-eutectic relations <ref type="bibr" target="#b51">[Yoder, 1976]</ref>. On the other hand, it is not possible to maintain the LIL trace element composition of successive melt fractions in this way. We will therefor•e explore the possibility that LIL elements may be replenished in a sufficiently small source region.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Replenishment era</head><p>In order to obtain an estimate of the feasibility of such a process, we arbitrarily assume the depleted zone to be a layer of 1-km half thickness and infinite extent, in which the concentration of the trace element of interest, such as Ba or Sr, has been reduced to zero, while the surrounding medium retains its original concentration. We assume further tkat owing to a temperature increase or pressure drop the entire system becomes partially molten, so that it now contains a continuous film of interstitial melt. We consider diffusion through the melt only and ignore any effects that are due to presence of solid phases. The combined effect of the presumed errors in these assumptions will be that the magnitude of diffusive replenishment will be overestimated. Even so, the concentration profiles shown in Figure <ref type="figure" target="#fig_6">6</ref> indicate that such a relatively small depleted region cannot be fully replenished within a time spa. n comparable to the age 9f the earth. We conclude that a magma source region, once it is depleted in LIL elements, retains its depleted character permanently and cannot again produce magmas of normal trace element character. This constitutes a very serious objection to models of successive generations of basalts by fractional melting processes <ref type="bibr" target="#b51">[Yoder, 1976]</ref>. in a submarine magma chamber if the hydrothermal circulation system, which is known to have affected many igneous plutons at subsolidus temperatures <ref type="bibr" target="#b42">[Taylor, 1974]</ref>, is also effective at high temperatures before the magma has solidified. The onset of hydrothermal circulation is at present not well understood, but we believe that the anomalously low •60 values for primary igneous phenocrysts from Iceland of Muehlenbachs et al. <ref type="bibr">[1974]</ref> can be explained by hydrothermal alteration in the magmatic stage.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Wall Rock Contamination in a Magma</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>OTHER APPLICATIONS</head><p>Diffusion rates in melt have an important bearing on methodology and the interpretation of results in experimental petrology. We will briefly mention two topics, preparation of homogeneous glasses and quenching problems. The common practice of repeated remelting and regrinding of starting reagent mixes is very effective in producing a homogeneous glass. However, great emphasis is often placed on the necessity of grinding these materials extremely finely. This is almost certainly a waste of effort, and it may actually be counterproductive because of increased chances of contamination during long-term grinding. The reason for this is the extremely high efficiency of diffusion over short distances. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>the melt was allowed to rise in the tube either by capillary action (which filled the tube to a level of 2.5 cm above the liquid level in the crucible) or by suction (which filled the tube to a length of about 10 cm). The melt-filled tube was quenched in air and cut into segments up to 2.5 cm long, and the glass exposed at the ends of each segment was ground flat, polished, and then reannealed at the approximate intended run temperature. The tracer was loaded in small drops as aqueous chloride solution on the polished glass and dried under a heat lamp. The charge, suspended in a horizontal position, was then placed in a furnace preheated to the run temperature. The melt was held in the tube by surface tension. Small drops of melt sometimes leaked around the rim of the tube, and some charges were discarded when this leakage occurred on the radioactive end of the tube.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>DistonceFig. 1 .Fig. 2 .</head><label>12</label><figDesc>Fig. 1. SSCa beta track density (activity) as a function of distance in two thin source experiments, determined by microdensitometry from a nuclear emulsion. The solid lines are calculated diffusion profiles arbitrarily fitted through the midpoint of the measured profiles. Run durations and temperatures are (a) 12.1 hours at 1309øC and (b) 47.75 hours at 1390øC. The discrepancy between measured and calculated profiles is evident in Figure la and nearly absent in Figure lb. duced these variations somewhat. The temperature distribution within the furnace was found to change significantly with the introduction of the Pt crucible holding the diffusion couple, presumably because of changed patterns of air convection within the furnace. The runs on Ba and Co diffusion were made in a bottom-loading furnace (Deltech model DT 31) with MoSi2 (Super Kanthal) heating elements. The temperature was regulated by a Eurotherm Lilliput Miniature temperature controller using a shielded Pt•4Rl•-Pt70Rh80 thermocouple. The temperature was monitored with a separate thermocouple with a digital readout. Regulation precision was better than ñ5øC. Constant run temperatures were reached within 5 min after loading. Run durations of up to 5 days were required in order to obtain diffusion gradients of about 1.5-to 2-cm length. Analysis of the Diffusion Profiles 45Ca emits/• particles of 0.255-MeV energy. The activity distribution in the quenched basalt is thus conveniently determined by recording beta tracks on nuclear emulsions. This method was also used by Towers et al. [1953]. To determine the activity profile of •sCa in the basalt after the diffusion experiment, the glass-filled Pt tube was mounted with epoxy cement in a groove on the surface of an aluminum block. This assembly was hand-ground and polished to remove the upper half of the cylinder and to expose a flat polished section of glass parallel to the long axis of the tube. This was hel•d in</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>TFig. 4 .Fig. 5 .</head><label>45</label><figDesc>Fig. 4. ^rrhenius plot (lOg•o D versus i/T) oeor,mBa• •$r, •Ca, and •%•o dieusion. Triangles represent Co, circles St, and crosses Ba. The measured values for Ca are omitted for clarity. These are shown separately in Figure 5.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>found this to be true for diffusion of water in obsidian. On the other hand, Yoder's [1973] exploratory experiments of interdiffusion between water-saturated basalt and rhyolite at 1200øC and 1 kbar can be used to calculate apparent diffusion coefficients of the order of 10-•-10 -s cm: s -• for SiO:, FeO, CaO, and MgO. Because of the probable strong coupling of the mobility of the other species to the movement of SiO:, these results are not strictly comparable to our tracer diffusion data. Nevertheless, they indicate that the presence of water does not increase the diffusivities drastically. One of the important effects of water on the melt is the depolymerization of the structure. Addition of alkalis or alkaline earths to the melt has a similar effect. Yet comparison of Sr and Ba diffusivities in basaltic and in granitic melts shows nearly identical activation energies and similar absolute values [Hofmann and Magaritz, 1976]. Smith [1974] obtained similar results for alkali diffusion in basalt, andesite, and rhyolite.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>or by an increase in viscosity with depth. Thus several authors conclude that the base of upper mantle convection cells lies at 650or 700-km depth [McKenzie and Weiss, 1975]. Given this constraint, some authors [McKenzie and Weiss, 1975; Richter and Parsons, 1975] argue that two scale• of convection exist, the smaller of which has a cell diameter of a few hundred kilometers. Other authors, such as Houston and De Bremaecker [1975], argue that large flat convection cells are possible.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>Nevertheless, the Sr isotopic data of<ref type="bibr" target="#b46">White et al. [1976]</ref> show clearly that significant isotopic variations do exist along the ridge •at sample distances of less than 100 km. Thus although it is possible to ascribe the relatively small magnitude of iSOtopic variation along a midocean ridge t6 the effects of convective mixing, this mixing process was not sufficient to eliminate th• c6mpositional variations. As more detailed isotopic data become available, it appears feasible to map the isotopic composition of the ocean floor anc• use the characteristics of the mapped inhomogeneities to constraiff the choice of possible convection patterns. Such a map of the isotopic composition of the ocean floor basement could be compared with patterns produced in numerical convection experiments involving inhomogeneous starting materials. Useful in this context are the known and approximately concordant model ages of 1.5-2 X t0 • years of the isotopic variations in oceanic rocks [e.g., Brooks et al., 1976] and the known upper limit of the diffusive transport distance of 1-5 km. Such model calc,ulations could be applied both to the proposed interaction between deep mantle plumes and asthenosphere<ref type="bibr" target="#b20">[Schilling, 1973]</ref> and to the internal mixing of asthenospheric material.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Diffusion from an infinite medium into a depleted layer. C is the concentration in arbitrary units, and x is the distance with the half thickness (1 km) of the layer shown. The concentration profiles are labeled in numbers of years.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>vh/v is the Reynolds number and Sc = v/D is the Schmidt number, estimated by Shaw to be 1.6 X 10 3 and 10 •, respectively; h is the height of the vertical contact; v is the flow velocity (estimated to be 1.6 cm/s -x by Shaw); v is the kinematic viscosity (10 s cm •' s-X); D is the diffusion coefficien• ( 10 -7 cm •' s-X); AC is the concentration difference (in parts per million) between the interior and the exterior of the boundary layb, r; and t• is the density of the magma (yr. Thus a significant degree of contamination is achieved within a geologically short period of time. We note, however, that the validity of this calculation depends on the condition that the concentration gradient in the boundary layer is maintained at an approximately constant value. This is possible only if wall rock dissolves continually in the magma or if the outer boundary concentration is maintained by some other mechanism such as circulating pore fluids. The computation does show that a magma undergoing fractional crystallization becomes more and more susceptible to significant wall rock alteration as the residence time increases and the residual magma volume decreases. This feature has been pointed out to us by C. All•gre (oral communication, 1976) and is borne out by many observations on the isotopic composition of strontium in highly differentiated volcanic rocks. Although we have not presented diffusion data for sodium in this paper, the above calculations are particularly relevant to the problem of spilitization. It has frequently been suggested [e.g., Turner and Verhoogen, 1960] that at least some of the 'excess' sodium in spilitic basalts is present in primary magmatic phases. Holmann and Brown [1976ø g/yr, and a concentration increase of about 1 ppm/yr, or 1%/10 • yr. Again the efficiency of this process depends critically on the continuous availability of sodium at the magma contact. A high-sodium contact could be maintained</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>For example, at temperatures around 1400øC a diffusivity of D = 10 -6 cm •' s-• and a melting time of 100 s yield a characteristic transport distance of 100 •m. Even a very conservative value of D = 10 -6 cm •' s -• reduces this distance only to 10 •m. It is therefore obvious that the essential feature of the method lies' in the number of repetitions of the grinding-melting sequence and not in the fineness of grinding. Concentration, gradients of about 7-#m width have been observed by Kushiro [1974] in the quenched glass bordering olivine crystals in experimental run products. He ascribed this to an invisibly thin rim of quenched olivine formed on the surface of an equilibrium olivine crystal. The gradient in MgO concentration in the glass represents the corresponding MgO depletion in the melt. This interpretation is borne out by the expected characteristic transport distance of 3 #m if the diffusion coefficient remained at 10 -7 cm: s-' for an effective quenching time of 1 s. The total measurable length of the diffusion gradient would be of the order of 2-3 times the 'characteristic' distance ((Dt)•/:), or 6-9 #m. It is also clear that it would require exceedingly fast quenching to eliminate this problem, since a reduction in quenching time of a factor of 10 reduces the length of the gradient only by a factor of 10 divalent cations in basalt melt are of the order of 10-7-10 -6 cm •' s -•. These values are 3-5 orders of magnitude smaller than those for heat diffusivity in the mantle, and chemical diffusion in a partially molten mantle does not contribute significantly to either large-scale differentiation (driven by temperature or pressure gradient or gravitational potential) or large-scale homogenization. On the other hand, diffusion is likely to be important in small-scale processes, such as local enrichment below a continental lithosphere, local equilibration of partially molten rocks, or wall rock contamination of magmas, when transport distances of meters to hundreds of meters are involved. Because all large-scale transport in the mantle must be ascribed to convection, a mapping of the isotopic composition of the ocean floor and oceanic islands should be helpful in elucidating the kinematics of mantle convection.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>tholeiite, 1921 flow of Kilauea, Hawaii, obtained from H. S.</head><label></label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Yoder, Jr. (sample H36b). A major element analysis of this sample follows (remelted powder was analyzed by Nicholas T. Arndt using the electron microprobe at the Geophysical Labo- ratory).</head><label></label><figDesc></figDesc><table><row><cell>SiOn.</cell><cell>49.68</cell></row><row><cell>AI•.O3</cell><cell>12.70</cell></row><row><cell>TiO•.</cell><cell>2.59</cell></row><row><cell>Cr•.O3</cell><cell>0.09</cell></row><row><cell>•Fe as FeO MnO</cell><cell>11.05 0.17</cell></row><row><cell>MgO</cell><cell>9.46</cell></row><row><cell>CaO</cell><cell>10.79</cell></row><row><cell>Na•.O</cell><cell>2.31</cell></row><row><cell>K•.O</cell><cell>0.48</cell></row><row><cell>Total</cell><cell>99.37</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Chemical analyses of other samples from this flow have been reported by Yoder and Tilley [1962]. The rock was ground to a powder by using a shatterbox.</head><label></label><figDesc></figDesc><table /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments. We are grateful to the director and staff of the <rs type="institution">Geophysical Laboratory</rs> for allowing us to use furnaces, the electron microprobe, and other equipment and for giving us much advice and active help with the experiments. H. <rs type="person">S. Yoder</rs>, <rs type="person">Jr.</rs>, contributed the sample of Kilauea basalt, <rs type="person">I. Kushiro</rs> helped to get started with the experiments, and <rs type="person">N. T. Arndt</rs> and <rs type="person">D.C. George</rs> spent much time with us on microprobe analyses. <rs type="person">L. Brown</rs>, <rs type="person">K. D. Burrhus</rs>, <rs type="person">G. L. Davis</rs>, <rs type="person">D. H. Eggler</rs>, <rs type="person">C. G. Hadidiacos</rs>, and <rs type="person">B. O. Mysen</rs> also helped with technical aspects of the experimental work. <rs type="person">B. J. Giletti</rs>, <rs type="person">S. R. Hart</rs>, <rs type="person">D. E. James</rs>, <rs type="person">E. B. Watson</rs>, <rs type="person">G. W. Wetherill</rs>, and <rs type="person">D. J. Whitford</rs> contributed much through discussions and reviews of the manuscript. Financial support was provided by <rs type="funder">National Science Foundation</rs> grant <rs type="grantNumber">GA-40250</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_4s7uYtp">
+					<idno type="grant-number">GA-40250</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Kinetic disequilibrium in trace element partitioning between phenocrysts and host lava, Geochim. Cosmochim</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Albarede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bottinga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="141" to="156" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">All•gre, Geophysical, petrological and geochemical models of the odeanic lithosphere</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bsttinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tectonophysics</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="9" to="60" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Diffusion in silicate melts</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Bowen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="295" to="317" />
+			<date type="published" when="1921">1921</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Holmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>James</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Rb-Sr mantle isochrons from oceanic regions</title>
+		<imprint>
+			<date type="published" when="1976">1976</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="51" to="61" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Autodiffusion du sodium et conductivit6 61ectrique dans les obsicliennes granitiques</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Carron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">C. R. ,Icad. Sci., Ser. D</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page" from="854" to="856" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Vector space treatment of multicomponent diffusion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemical Transport and Kinetics, Carnegie Inst. Wash. Publ</title>
+		<imprint>
+			<biblScope unit="volume">634</biblScope>
+			<biblScope unit="page" from="15" to="30" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<title level="m">The Mathematics of Diffusion</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="1975">1975</date>
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Calculated diffusion coefficients and the growth rate of olivine in a basalt magma</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Donaldson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lithos</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="163" to="174" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Ionic Diffusion in Oxide Glasses</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Frischat</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+			<pubPlace>Transtech, Bay Village, Ohio</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Frischat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Oel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Eine Restaktivierungsmethode zur Bestimmung von Selbstdiffusions-Koeffizienten in FestkSrpern</title>
+		<imprint>
+			<date type="published" when="1966">1966</date>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="195" to="201" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Trace element fractionation and the origin of tholeiitic and alkaline magma types</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Gast</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1057" to="1086" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Zone refining and the origin of potassic basalts, Geochim</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="195" to="208" />
+			<date type="published" when="1957">1957</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Plutonic xenoliths and their relation to the upper mantle</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hutchison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Paul</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phil. Trans. Roy. Soc. London, Set</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="313" to="323" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Sr and Ba contents and Sr isotope ratios of ocean floor basalts</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cs</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phil. Trans. Roy. Soc. London, Set</title>
+		<imprint>
+			<biblScope unit="volume">268</biblScope>
+			<biblScope unit="page" from="573" to="587" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Strontium diffusion in a basalt melt and implications for Sr isotope geochemistry and geochronology</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Holmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Carnegie Inst. Wash. Yearb</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="935" to="941" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Diffusion of Ca and Sr in a basalt melt</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Holmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Carnegie Inst. Wash. Yearb</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="183" to="189" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Theories and problems of liquid diffusion</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Onsager</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inn. N.Y. .qcad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="241" to="265" />
+			<date type="published" when="1945">1945</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">On the regional variation of heat flow, geotherms, and lithospheric thickness</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Pollack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Chapman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tectonophysics</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="279" to="296" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">On the interaction of two scales of convection in the mantle</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Parsons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="2529" to="2541" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">The effects of polymorphic phase boundaries on vertical and horizontal motions in the earth&apos;s mantle, Tectonophysics</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Sammis</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976">1976</date>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="169" to="182" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Iceland mantle plume: Geochemical evidence along Reykjanes Ridge</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Schilling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">242</biblScope>
+			<biblScope unit="page" from="565" to="571" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Role of phase transitions in a dynamic mantle</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Yuen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Turcotte</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. J. Roy. ,tstron. Soc</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="705" to="735" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Diffusion of H20 in granitic liquids: I, Experimental data; II, Mass transfer in magma chambers</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemical Transport and Kinetics, Carnegie Inst. Wash. Publ</title>
+		<imprint>
+			<biblScope unit="volume">634</biblScope>
+			<biblScope unit="page" from="139" to="170" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Sodium self diffusion in natural minerals</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Sippel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="107" to="120" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Segregation of magma from a mostly crystalline mush</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Sleep</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geol. Soc. ,truer. Bull</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="1225" to="1232" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">An experimental study of the diffusion of Na, K and Rb in magmatic silicate liquids</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1974">1974</date>
+			<pubPlace>Eugene</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Univ. of Oreg.</orgName>
+		</respStmt>
+	</monogr>
+	<note>Ph.D. dissertation</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Evolution of the mantle: Geochemical deuterons for in situ production of radioactive tracers</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Holmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Brown ; Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Hanson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Carnegie Inst. Wash. Yearb</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="259" to="262" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+	<note>Diffusion measurements using fast</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">An assessment of local and regional isotopic equilibrium in the mantle</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Holmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Diffusion in silicate melts and glasses</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Holmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Magaritz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Carnegie Inst. Wash. Yearb</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="249" to="259" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Numerical models of convection in the upper mantle</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Houston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Ci</forename><forename type="middle">De</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bremaecker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="742" to="751" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Estimates of possible diffusional effects in trace element separations</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Hurley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Sykes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Seismology and the new global tectonics</title>
+		<imprint>
+			<date type="published" when="1968">1977. 1968</date>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="5855" to="5899" />
+		</imprint>
+	</monogr>
+	<note>J. Geophys. Res.</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">!•tude exp6rimentale de la diffusion des 616ments alcalins K, Rb, Cs dans une obsidienne granitique</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jambon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Carton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">C. R. ,Icad. Sci., Set. D</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="3069" to="3072" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Diffusion of Na, K, Rb, and Cs in glasses of albite and orthoclase composition</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jambon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Carton</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Geochim. Cosmochim</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Acta</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976">1976</date>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="897" to="903" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Chemical zonation of the oceanic mantle</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Eos Trans. ,4GU</title>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">1077</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Melting of hydrous upper mantle and possible generation of andesitic magma: An approach from synthetic systems</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Left</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="294" to="299" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Variations of upper mantle structure under the Pacific Ocean</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Leeds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Knopoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Kausel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="141" to="143" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Speculations on the thermal and tectonic history of the earth</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mckenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Weiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. J. Roy. ,tstron. Soc</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="131" to="174" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Calcium diffusion in a mugearite melt</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Medford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can. J. Earth Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="394" to="402" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Muehlenbachs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Sigvaldason</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Low</surname></persName>
+		</author>
+		<editor>Iceland, Geochim. Cosmochim. ,,tcta</editor>
+		<imprint>
+			<date type="published" when="1974">1974</date>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="577" to="588" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Petrogenetic significance of isotope and trace element variations in volcanic rocks from the mid-Atlantic</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>O'nions</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Pankhurst</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geol</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="297" to="302" />
+			<date type="published" when="1974">1974. 1975</date>
+		</imprint>
+	</monogr>
+	<note>Geology</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Concerning a systematic error in measuring diffusion constants</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Tannhauser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. /tppl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page">662</biblScope>
+			<date type="published" when="1956">1956</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The application of oxygen and hydrogen isotope studies to problems of hydrothermal alteration and ore deposition</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econ. Geol</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="843" to="884" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Diffusion of calcium ion in liquid slag</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Towers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Paris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chipman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Trans. •11ME</title>
+		<imprint>
+			<date type="published" when="1953">1953</date>
+			<biblScope unit="volume">197</biblScope>
+			<biblScope unit="page" from="1455" to="1458" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Verhoogen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Igneous</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Metamorphic</forename><surname>Petrology</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1960">1960</date>
+			<publisher>McGraw-Hill</publisher>
+			<biblScope unit="volume">2</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>nd ed., 594 pp.</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">A physicochemical model for element separation in the differentiation of mantle material</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Vinogradov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Yaroshevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Ilyin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phil. Trans. Roy. Soc. London, Ser. •1</title>
+		<imprint>
+			<biblScope unit="volume">268</biblScope>
+			<biblScope unit="page" from="409" to="421" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Strontium isotope geochemistry of the central North Atlantic: Evidence for the Azores mantle plume</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-G</forename><surname>Schilling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="page" from="659" to="663" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Ionic radii for use in geochemistry</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J W</forename><surname>Whittaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Muntus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geocht&apos;m. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="945" to="956" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The compensation law for diffusion in silicates</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Winchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">High Temp. Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="200" to="215" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">A study of the diffusion of radioactive nuclides in molten silicates at high temperatures</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Winchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Norman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">High Temperature Technology</title>
+		<meeting><address><addrLine>Butterworths, London</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1969">1969</date>
+			<biblScope unit="page" from="479" to="492" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Contemporaneous basaltic and rhyolitic magmas,tmer. Mineral</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Yoder</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1973">1973</date>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="153" to="171" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Generation of Basaltic Magma</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Yoder</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">National Academy of Science</title>
+		<meeting><address><addrLine>Washington, D.C.</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1976">1976</date>
+			<biblScope unit="page">265</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Origin of basalt magmas: An experimental study of natural and synthetic rock systems</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Yoder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Tilley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Petrology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="342" to="532" />
+			<date type="published" when="1962">1962. 1977</date>
+		</imprint>
+	</monogr>
+	<note>Received February</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

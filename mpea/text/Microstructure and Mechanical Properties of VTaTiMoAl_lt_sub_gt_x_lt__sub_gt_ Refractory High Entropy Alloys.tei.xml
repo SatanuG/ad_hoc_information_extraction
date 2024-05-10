@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microstructure and Mechanical Properties of VTaTiMoAl x Refractory High Entropy Alloys</title>
+				<funder ref="#_Bmwsg7K">
+					<orgName type="full">Natural Science Foundation of Liaoning Province</orgName>
+				</funder>
+				<funder ref="#_h9DxUKZ">
+					<orgName type="full">Fundamental Research Funds for Central Universities, Key Laboratory of Basic Research Projects, Department of Education of Liaoning Province</orgName>
+				</funder>
+				<funder ref="#_dYQEvQ5 #_9H2xRh8 #_eZ7C5wX">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Dongxu</forename><surname>Qiao</surname></persName>
+							<email>qiaodongxu@mail.dlut.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Solidification Control and Digital Preparation Technology (Liaoning Province)</orgName>
+								<orgName type="institution">Dalian University of Technology</orgName>
+								<address>
+									<postCode>116024</postCode>
+									<settlement>Dalian</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hui</forename><surname>Jiang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Solidification Control and Digital Preparation Technology (Liaoning Province)</orgName>
+								<orgName type="institution">Dalian University of Technology</orgName>
+								<address>
+									<postCode>116024</postCode>
+									<settlement>Dalian</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaoxue</forename><surname>Chang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Solidification Control and Digital Preparation Technology (Liaoning Province)</orgName>
+								<orgName type="institution">Dalian University of Technology</orgName>
+								<address>
+									<postCode>116024</postCode>
+									<settlement>Dalian</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yiping</forename><surname>Lu</surname></persName>
+							<email>b*luyiping@dlut.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Solidification Control and Digital Preparation Technology (Liaoning Province)</orgName>
+								<orgName type="institution">Dalian University of Technology</orgName>
+								<address>
+									<postCode>116024</postCode>
+									<settlement>Dalian</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Tingju</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="laboratory">Key Laboratory of Solidification Control and Digital Preparation Technology (Liaoning Province)</orgName>
+								<orgName type="institution">Dalian University of Technology</orgName>
+								<address>
+									<postCode>116024</postCode>
+									<settlement>Dalian</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microstructure and Mechanical Properties of VTaTiMoAl x Refractory High Entropy Alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8188A88C682D900C5A641CF23BBCB404</idno>
+					<idno type="DOI">10.4028/www.scientific.net/MSF.898.638</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Refractory high-entropy alloys</term>
+					<term>Microstructure</term>
+					<term>X-ray diffraction</term>
+					<term>Compression property</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A series of refractory high-entropy alloys VTaTiMoAl x with x=0,0.2,0.6,1.0 were designed and produced by vacuum arc melting. The effect of added Al elements on the microstructure and mechanical properties of refractory high-entropy alloys were investigated. The X-ray diffraction results showed that all the high-entropy alloys consist of simple BCC solid solution. SEM indicated that the microstructure of VTaTiMoAlx changes from equiaxial dendritic-like structure to typical dendrite structure with the addition of Al element. The composition of different regions in the alloys are obtained by energy dispersive spectroscopy and shows that Ta, Mo elements are enriched in the dendrite areas, and Al, Ti, V are enriched in inter-dendrite areas. The yield strength and compress strain reach maximum (σ0.2=1221MPa, ε=9.91%) at x=0, and decrease with the addition of Al element at room temperature. Vickers hardness of the alloys improves as the Al addition..</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>High-entropy alloys (HEAs), also named as multi-principal alloys(MPCAs), are new kind of alloys which are composed of five or more elements of equiatomic or near-equiatomic composition <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref>. Owing to the unique design, the alloys generally have a high configurational entropy, which leads to the alloys composed of body-centered-cubic(BCC) and/or face-centered-cubic(FCC) solid solution <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. In addition, HEAs also exhibit a variety of excellent and fascinating properties, such as high strength/hardness, decent ductility, oxidation and wear resistance, high temperature resistant. etc., which attract the attention of researchers <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref>.</p><p>At present, there are two dominating aspects are studied in HEAs, which are Al-Co-Cr-Fe-Ni HEAs and refractory HEAs. Thereinto, the research status of Al-Co-Cr-Fe-Ni HEAs are relatively mature, but the research of refractory HEAs are comparatively skinny. Refractory metals and alloys usually display high melting point. In terms of the experience of a rapid decrease in strength of alloys at temperature is above ~0.6T m , refractory HEAs can enhance the soften temperature and operating temperature compare to superalloys <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>. Concomitantly, refractory HEAs often have high elevated-temperature strength, outstanding temper resistance and other excellent properties in the form of BCC phase <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref>. Therefore, refractory HEAs get a lot of attention as a new candidate for aerospace materials and aircraft material. To date, a number of refractory HEAs were studied and these alloys exhibited many outstanding performances. However, most of these alloys emerge poor room temperature ductility and high density which is the downside of the design <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>.</p><p>In order to get a kind of refractory high entropy alloy with low density and decent room temperature ductility. In this paper, Ta and Mo elements with high melting point and V, Ti, Al elements with low density were used to form a novel series of refractory HEAs of VTaTiMoAl x . And the variation of microstructure and mechanical properties of the series of alloys are investigated. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experiment</head><p>A series of VTaTiMoAl x HEAs (x = 0, 0.2, 0.6,1 and named as Al0, Al0.2, Al0.6, Al1.0, respectively) were prepared by the vacuum arc melting method in the Ti-gettered argon atmosphere with the purity of the raw elemental metals higher than 99.9 wt%. The ingots were remelted at most six times for purpose of homogeneity. The crystal structure of the alloys were characterized via X-ray diffractometry (XRD, EMPYREAN) with Cu radiation target and the scanning range was from 20° to 100° at a speed of 0.106103°/s. The microstructures were expressed by EBSD and compositions were analyzed by EDS equipped in the scanning electron microscope (SEM/Zeiss supra 55). The hardness of the alloys were measured with a Vickers hardness tester (MH-50) under a load of 500 g for 15 s, and at least five points were measured on each sample to ensure the veracity. The room temperature compressive properties were tested on samples of 5×10mm using a testing machine (WPM) with a strain rate of 1×10 -3 /s.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Result and Discussion</head><p>Crystal structure. The XRD patterns of VTaTiMoAl x alloys are presented in Fig. <ref type="figure" target="#fig_0">1</ref></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(a) and (b).</head><p>There all are only simple body-centered cubic(BCC) solid solution phase can be identified in all of the alloys from Fig. <ref type="figure" target="#fig_1">1(a)</ref>. This indicates the addition of Al has little effect on the the phase constitutes of the VTaTiMoAl x HEAs. Although Al has larger negative mixing enthalpy with other refractory elements(Ta,Ti,V,Mo), the high mixing entropy tends to stabilize the solid solution phase rather than intermetallic phase, thus forming the simple BCC solid solution phase. The  Microstructure. The SEM backscattered electron images of the VTaTiMoAl x HEAs are presented in Fig. <ref type="figure" target="#fig_2">2</ref>. As can be noticed, the microstructure of the Al-free VTaTiMo alloys shows the equiaxial dendritic-like grains morphology. With the addition of Al elements, the other alloys(Al0.2, Al0.6, Al1.0) change towards the typical cast dendrite and inter-dendrite structure(denoted as A and B respectively). In addition, according to the EDS analysis results (see Table <ref type="table" target="#tab_1">1</ref>), it can be found that the dendrite region is enriched in Ta and Mo elements while inter-dendrite region is enriched in V, Ti and Al elements. The composition of segregation is caused by relatively large difference of melting point for the five elements and fast cooling speed. The higher melting point elements solidified into dendrite firstly, then the lower melting point elements fill the inter-dendrite. In these SEM images, there are no obvious precipitated phase can be found, which is much possible due to the high entropy effect of HEAs inhibit the formation of intermetallic. This result is consistent with the results of XRD.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="640">IUMRS International Conference in Asia</head><p>Mechanical properties. The compression stress-strain curve of VTaTiMoAl x HEAs at room temperature are presented in Fig. <ref type="figure" target="#fig_3">3</ref>(a). The value of compressive properties such as yield strength(σ 0.2 ), fracture strength(σ b ), plastic strain(ε) and Vickers hardness(HV) are given in Table <ref type="table" target="#tab_2">2</ref>.</p><p>It can be found that the VTaTiMo alloy has the highest yiled strength, fracture strength and compress strain, which are 1221MPa. 1454MPa and 9.93% respectively. And there is a significant reduction of strength and ductility with the increase of Al content. When the mole content of Al reach 1, the VTaTiMoAl alloy is almost completely devoid of ductility. The strength and the ductility reduce concurrently can be explained by the change of microstructure. The microstructure of VTaTiMoAl x alloys transforms from equiaxial dendritic-like grains(x=0) into typical dendrite structure(x=1), and the dendrites become thinner and sharper with the increase of Al content as a whole. However, the Vickers hardness (HV) increase from HV433 to HV510(showed in Fig. <ref type="figure" target="#fig_3">3 (b)</ref>) with the addition of Al, which may be because of the more serious lattice distortion enhance the effect of solution strength.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>A series VTaTiMoAl x high-entropy alloys with BCC solid solution structure were fabricated . The microstructure of the VTaTiMoAl x changes from equiaxial dendritic-like structure at x=0 to typical dendrite structure with Al addition. The VTaTiMo high-entropy alloy possesses decent yield strength 1221MPa. However, this series alloys have poor ductility, and the addition of Al does not give rise to better mechanical properties.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>(b)   shows the magnify of the (110) peaks shows the shift direction of the (110) peaks of the whole series alloys. The lattice constants of the alloys can be calculated based on the angle of each (110) peak, which are 3.22Å, 3.20Å, 3.21Å, 3.21Å corresponding to Al0, Al0.2, Al0.6 Al1.0, respectively. The variation of lattice parameters can be explained because the radius of Al element is lager than V and Mo, but smaller than Ta and Ti. So the addition of Al elements has not caused much changes of lattice constant.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 (</head><label>1</label><figDesc>Fig. 1 (a) the XRD patterns of the alloys of VTaTiMoAl x (b) the magnify for the peaks of (110) of BCC solid solutions.</figDesc><graphic coords="2,79.31,476.95,435.95,149.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 SEM back scattering electron micrographs of the VTaTiMoAl x alloys; (a) Al0, (b) Al0.2, (c) Al0.6 and (d) Al1.0.</figDesc><graphic coords="3,90.33,412.78,414.95,316.65" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 (</head><label>3</label><figDesc>Fig. 3 (a) Compressive stress-strain curves of VTaTiMoAl x alloys. (b) Vickers hardness of VTaTiMoAl x alloys.</figDesc><graphic coords="4,57.83,270.43,479.00,159.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>Chemical composition of different regions of VTaTiMoAl x samples by EDS.</figDesc><table><row><cell cols="2">Alloys Region or phase</cell><cell>V</cell><cell cols="3">Chemical composition (at.%) Ta Ti Mo</cell><cell>Al</cell></row><row><cell></cell><cell>Nominal</cell><cell>25</cell><cell>25</cell><cell>25</cell><cell>25</cell><cell>0</cell></row><row><cell>Al0</cell><cell>dendrite/A</cell><cell>19.77</cell><cell>32.12</cell><cell>19.92</cell><cell>28.20</cell><cell>0</cell></row><row><cell></cell><cell>interdendritic/B</cell><cell>28.89</cell><cell>18.51</cell><cell>31.97</cell><cell>20.62</cell><cell>0</cell></row><row><cell></cell><cell>Nominal</cell><cell>23.81</cell><cell>23.81</cell><cell>23.81</cell><cell>23.81</cell><cell>4.76</cell></row><row><cell>Al0.2</cell><cell>dendrite/A</cell><cell>18.67</cell><cell>32.97</cell><cell>17.18</cell><cell>30.11</cell><cell>1.08</cell></row><row><cell></cell><cell>interdendritic/B</cell><cell>29.72</cell><cell>13.87</cell><cell>35.15</cell><cell>16.67</cell><cell>4.59</cell></row><row><cell></cell><cell>Nominal</cell><cell>21.74</cell><cell>21.74</cell><cell>21.74</cell><cell>21.74</cell><cell>13.04</cell></row><row><cell>Al0.6</cell><cell>dendrite/A</cell><cell>19.93</cell><cell>30.12</cell><cell>19.45</cell><cell>25.21</cell><cell>5.29</cell></row><row><cell></cell><cell>interdendritic/B</cell><cell>27.94</cell><cell>13.45</cell><cell>32.83</cell><cell>13.64</cell><cell>12.14</cell></row><row><cell></cell><cell>Nominal</cell><cell>20</cell><cell>20</cell><cell>20</cell><cell>20</cell><cell>20</cell></row><row><cell>Al1</cell><cell>dendrite/A</cell><cell>20.01</cell><cell>25.08</cell><cell>18.51</cell><cell>25.62</cell><cell>10.78</cell></row><row><cell></cell><cell>interdendritic/B</cell><cell>24.32</cell><cell>16.56</cell><cell>23.94</cell><cell>18.94</cell><cell>16.24</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc>Mechanical properties and Vickers hardness of VTaTiMoAl x alloys.</figDesc><table><row><cell>Alloys</cell><cell>σ 0.2 (MPa)</cell><cell>σ b (MPa)</cell><cell>ε(%)</cell><cell>HV</cell></row><row><cell>Al0</cell><cell>1221</cell><cell>1454</cell><cell>9.93</cell><cell>433.2</cell></row><row><cell>Al0.2</cell><cell>1021</cell><cell>1249</cell><cell>6.81</cell><cell>450.0</cell></row><row><cell>Al0.6</cell><cell>962</cell><cell>1033</cell><cell>4.2</cell><cell>483.3</cell></row><row><cell>Al1</cell><cell>-</cell><cell>735</cell><cell>-</cell><cell>509.5</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This work was supported by the <rs type="funder">National Natural Science Foundation of China</rs> (Nos. <rs type="grantNumber">51134013</rs>, <rs type="grantNumber">51471044</rs> and <rs type="grantNumber">51671044</rs>), the <rs type="funder">Fundamental Research Funds for Central Universities, Key Laboratory of Basic Research Projects, Department of Education of Liaoning Province</rs> (<rs type="grantNumber">LZ2014007</rs>) and the <rs type="funder">Natural Science Foundation of Liaoning Province</rs> (<rs type="grantNumber">2014028013</rs>) <rs type="projectName">Materials Science Forum Vol</rs>. 898</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_dYQEvQ5">
+					<idno type="grant-number">51134013</idno>
+				</org>
+				<org type="funding" xml:id="_9H2xRh8">
+					<idno type="grant-number">51471044</idno>
+				</org>
+				<org type="funding" xml:id="_eZ7C5wX">
+					<idno type="grant-number">51671044</idno>
+				</org>
+				<org type="funding" xml:id="_h9DxUKZ">
+					<idno type="grant-number">LZ2014007</idno>
+				</org>
+				<org type="funded-project" xml:id="_Bmwsg7K">
+					<idno type="grant-number">2014028013</idno>
+					<orgName type="project" subtype="full">Materials Science Forum Vol</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Nanostructured high entropy alloys with multiple principal elements: novel alloy design concepts and outcomes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y G</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Engineering Materials</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="299" to="303" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Microstructural development in equiatomic multicomponent alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J B</forename><surname>Vincent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: A</title>
+		<imprint>
+			<biblScope unit="page" from="213" to="218" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Solid-solution phase formation rules for multi-component alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="534" to="538" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Design of refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Carney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ö</forename><forename type="middle">N</forename><surname>Doğan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Jablonksi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Alman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2653" to="2669" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Physical Properties of High Entropy Alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="5338" to="5345" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Solid solution alloys of AlCoCrFeNiTi x with excellent room-temperature mechanical properties</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page">181904</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">High Temperature Oxidation and Corrosion Properties of High Entropy Superalloys</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Tsao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Murakami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">62</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Microstructure and wear behavior of a refractory high entropy alloy</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Poulia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Georgatis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lekatou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Karantzalis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Refractory Metals and Hard Materials</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="50" to="63" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">On the superior hot hardness and softening resistance of AlCoCrxFeMo0.5Ni high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Hsua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Juana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wangb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Sheuc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">528</biblScope>
+			<biblScope unit="issue">10-11</biblScope>
+			<biblScope unit="page" from="3581" to="3588" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>A</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Microstructure and room temperature properties of a high-entropy TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of alloys and compounds</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="6043" to="6048" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb 25 Mo 25 Ta 25 W 25 and V 20 Nb 20 Mo 20 Ta 20 W 20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1758" to="1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Phase composition and solid solution strengthening effect in TiZrNbMoV high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Si</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Hui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials &amp; Design</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="651" to="660" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Microstructure and compressive properties of NbTiVTaAl x high entropy alloys</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Engineering</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="292" to="298" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

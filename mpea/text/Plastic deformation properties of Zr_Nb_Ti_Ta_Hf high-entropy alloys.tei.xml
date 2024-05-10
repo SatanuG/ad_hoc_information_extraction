@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Plastic deformation properties of Zr-Nb-Ti-Ta-Hf high-entropy alloys</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2015-04-04">04 April 2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">M</forename><surname>Feuerbacher</surname></persName>
+							<email>m.feuerbacher@fz-juelich.de</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institut für Mikrostrukturforschung PGI-5</orgName>
+								<orgName type="institution">Forschungszentrum Jülich GmbH</orgName>
+								<address>
+									<postCode>52425</postCode>
+									<settlement>Jülich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Heidelmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut für Mikrostrukturforschung PGI-5</orgName>
+								<orgName type="institution">Forschungszentrum Jülich GmbH</orgName>
+								<address>
+									<postCode>52425</postCode>
+									<settlement>Jülich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Thomas</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut für Mikrostrukturforschung PGI-5</orgName>
+								<orgName type="institution">Forschungszentrum Jülich GmbH</orgName>
+								<address>
+									<postCode>52425</postCode>
+									<settlement>Jülich</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Plastic deformation properties of Zr-Nb-Ti-Ta-Hf high-entropy alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2015-04-04">04 April 2015</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0F537C231C1ABB363D456A9BDBCCBE53</idno>
+					<idno type="DOI">10.1080/14786435.2015.1028506</idno>
+					<note type="submission">Received 5 February 2015; accepted 6 March 2015</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>high-entropy alloys</term>
+					<term>dislocations</term>
+					<term>plasticity</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We have investigated the plastic deformation properties of single-phase Zr-Nb-Ti-Ta-Hf high-entropy alloys from room temperature (RT) up to 300 °C. Uniaxial deformation tests at a constant strain rate of 10 -4 s -1 were performed, including incremental tests such as stress relaxations, strain-rate changes, and temperature changes in order to determine the thermodynamic activation parameters of the deformation process. The microstructure of deformed samples was characterized by transmission electron microscopy. The strength of the investigated Zr-Nb-Ti-Ta-Hf phase is not as high as the values frequently reported for high-entropy alloys in other systems. At RT we measure a flow stress of about 850 °C. We find an activation enthalpy of about 1 eV and a stress dependent activation volume between 0.5 and 2 nm 3 . The measurement of the activation parameters at higher temperatures is affected by structural changes evolving in the material during plastic deformation.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>High-entropy alloys (HEAs) are metallic solid solutions composed of multiple principal elements, i.e. without a dominating basic component <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. Usually, alloys with 4-9, occasionally up to 20, components are considered. HEAs solidify in a simple bcc, fcc, or, as recently discovered, hexagonal <ref type="bibr" target="#b2">[3]</ref> crystal structure.</p><p>In a multicomponent alloy, the total free energy, besides through the weighted contributions of the constituting elements, is determined by the free energy of mixing, DG mix ¼ DH mix À T DS mix , where ΔH mix is the mixing enthalpy and ΔS mix the mixing entropy. In an equimolar or near equimolar composition, the mixing entropy can become dominant, stabilizing a random solid solution, if the elements are chosen such that the mixing enthalpy is neither too high positive (leading to segregation) nor too high negative (leading to the formation of ordered structures). In the ideal case, the resulting structure is a perfectly disordered solid solution on a crystal lattice. HEAs are thus related to metallic glasses, but in contrast to the latter, they are thermodynamically stable, in particular at high temperatures.</p><p>HEAs were soon recognized as technologically relevant materials due to their high wear and oxidation resistance <ref type="bibr" target="#b3">[4]</ref>, high corrosion resistance <ref type="bibr" target="#b4">[5]</ref> and fatigue endurance limit <ref type="bibr" target="#b5">[6]</ref>, their potential use as diffusion barriers <ref type="bibr" target="#b6">[7]</ref> and soft magnetic materials <ref type="bibr" target="#b7">[8]</ref>, and their attractive mechanical properties. HEAs show a high hardness <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b8">9]</ref> and an appealing combination of high strength and good ductility <ref type="bibr" target="#b9">[10]</ref>. The high hardness and strength are often ascribed to solid-solution strengthening, which is argued to be operative in an extreme form due to the high concentration of solute atoms <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b11">12]</ref>.</p><p>In the present paper, we address the intrinsic plastic properties of a HEA in the system Zr-Nb-Ti-Ta-Hf. We have characterized the plastic behavior of single-phase, near single-crystalline samples. We have measured stress-strain curves, determined thermodynamic activation parameters of the plastic deformation mechanism, and provided an analysis of the deformed material by means of transmission electron microscopy (TEM) and scanning transmission electron microscopy (STEM).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental</head><p>A composition of high-purity raw materials 12.7 at.% Zr, 30.8 at.% Nb, 17.7 at.% Ti, 30.8 at.% Ta, and 8.0 at.% Hf <ref type="bibr" target="#b12">[13]</ref> was arc molten and cast into a cylindrical copper mold. The so-produced rod was recast in a zone-melting setup at a feed rate of 5 mm/h at about 2,300 °C under 400 mbar argon atmosphere. The final ingot consisted of a single phase of body-centered structure, with single-grain sizes between about 0.5 and 1 mm.</p><p>Rectangular cuboidal samples of 1.4 × 1.4 × 3.2 mm 3 were cut from the ingot using a wire saw. Their surfaces were ground on 1,200 grit SiC paper. Plastic deformation experiments were performed in compression along the long sample axis in a modified ZWICK Z050 uniaxial testing system at constant true strain rate under closed-loop control. The strain was measured directly at the sample by a linear inductive differential transducer at an accuracy of ±10 nm.</p><p>Deformation experiments were performed between room temperature (RT) and 300 °C at a strain rate of 10 -4 s -1 . The deformation temperatures around RT were controlled by air conditioning the ambient temperature and at elevated temperatures by a cylindrical furnace equipped with an active temperature-gradient control. During the deformation experiments, we performed temperature-cycling tests, stress-relaxation tests, and strain-rate changes in order to determine the thermodynamic activation parameters of the deformation process.</p><p>The activation volume V was determined by means of stress-relaxation tests, where the total strain is kept constant and the decrease of the stress is measured as a function of the time. The data are evaluated according to <ref type="bibr" target="#b13">[14]</ref> </p><formula xml:id="formula_0">V ¼ kT m s @lnð _ rÞ @r T ;<label>(1)</label></formula><p>where m s is the Schmid factor, k is Boltzmann's constant, T is the deformation temperature, and σ and _ r are the applied stress and stress rate, respectively. The activation enthalpy ΔH was determined from temperature-cycling experiments according to <ref type="bibr" target="#b13">[14]</ref> DH ¼ ÀkT 2 @lnð_ eÞ @r</p><formula xml:id="formula_1">T @r @T _ e ¼ Àm s TV @r @T _ e ;<label>(2)</label></formula><p>where _ e is the strain rate. Specimens for microstructural characterization were prepared by means of a dual beam FEI Helios Nanolab 400S focused ion beam apparatus from the centers of the deformation samples and from undeformed reference samples. Bragg-contrast TEM was carried out using a Philips CM20 transmission electron microscope operated at 200 kV, and STEM work using a probe corrected FEI Titan 80-300 operated at 300 kV and equipped with a high-angle annular dark-field (HAADF) detector.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>Figure <ref type="figure" target="#fig_1">1</ref> shows a typical true stress-true strain curve at RT. The experiment is started at a deformation temperature of 19.6 °C. The sample deforms elastically with an apparent Young's modulus of 79 GPa up to a strain e about 0.8%. The 0.2% yield stress σ 0.2 , i.e. the stress at which the strain deviates by more than 0.2% from the linear elastic behavior, amounts to 822 MPa. The curve continuously develops into a linearly increasing flow stress with a hardening rate of about 2.4 GPa without any yield-point effect. At 2.4%, we halted the crosshead for a stress-relaxation test of two minutes. Subsequently, the sample was unloaded and the temperature was increased to 24.7 °C and after thermal equilibration, the sample was reloaded. As for initial loading, the curve continuously develops toward a linearly increasing flow stress. The hardening rate remains unchanged at 2.4 GPa. The increase of deformation temperature results in a reduction of the flow stress by 12 MPa. At 3.1% strain, another stress-relaxation test is carried out. Deformation is then continued at the same temperature to strain of 10.8%, at which the sample is unloaded. Four more stress-relaxation tests and one strain-rate change (from 10 -4 to 2 × 10 -4 s -1 and back) were carried out. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Philosophical Magazine 3</head><p>Downloaded by [University of Nebraska, Lincoln] at 05:44 04 April 2015</p><p>Figure <ref type="figure" target="#fig_0">2</ref> shows true stress-true strain curves at temperatures between RT and 300 °C. The curve at RT is from a different run than that shown in Figure <ref type="figure" target="#fig_1">1</ref> and reflects the reproducibility of the experiments. The flow stress (measured at a strain of 2%) is higher by 28 MPa and the hardening lower by about 0.5 GPa, corresponding to relative errors of about 4 and 20%, respectively.</p><p>The flow stress decreases with increasing deformation temperature (see also Figure <ref type="figure" target="#fig_3">3</ref>), while the apparent Young's modulus and the hardening rate are essentially  temperature independent. At all temperatures, stress-relaxation tests and temperaturecycling tests were carried out. For the curves at 60 (not shown) to 300 °C, the temperature was first increased by 10 °C and after a stress relaxation at the increased temperature cycled back to the initial temperature. Please note that at 300 °C, the overall shape of the curve differs from that at lower temperatures, and the temperature increase leads to a slight increase in flow stress. At this temperature, a second temperature cycle around 5% was carried out.</p><p>Figure <ref type="figure" target="#fig_3">3</ref> shows the temperature dependence of the 0.2% yield stress σ 0.2 . For the temperatures at which more than one deformation experiment was carried out, the average value is shown. The line is a guide to the eye. The values of σ 0.2 drop from about 840 MPa at RT to 590 MPa at 300 °C.</p><p>Figure <ref type="figure" target="#fig_4">4</ref> depicts the stress dependence of the activation volume determined according to Equation (1) using a Schmid factor m s of 0.5. The values for deformation temperatures below 200 °C (solid squares) follow a single curve and decrease from about 2 nm 3 at 650 MPa to about 0.5 nm 3 at 920 MPa (dashed line). The data were obtained at different strains, ranging from 1.2 to 8.6%. The activation volume in this temperature range is essentially independent of strain and deformation temperature and mainly depends on stress. The values determined at a deformation temperature of 300 °C (open squares) are considerably larger, ranging between about 4 and 4.5 nm 3 , with a slight negative stress dependence.</p><p>Figure <ref type="figure" target="#fig_5">5</ref> shows the temperature dependence of the activation enthalpy ΔH determined according to Equation (2). At temperatures below 100 °C, the values amount to about 1 eV with a scatter of about ±0.1 eV and lie close to a linear temperature dependence (line) with ΔH(T = 0) = 0 eV <ref type="bibr" target="#b14">[15]</ref>. At 200 °C, the determined value is significantly higher and at 300 °C, no activation enthalpy can be determined from the experimental data since we have measured an increase of the flow stress resulting from  an increase in deformation temperature. This would lead to a negative activation enthalpy, which has to be considered unphysical. Careful inspection of Figure <ref type="figure" target="#fig_0">2</ref> reveals that at higher temperatures, stress relaxations lead to a subsequent yield-point effect, i.e. an overshoot of the flow stress upon reloading. This effect occurs at deformation temperatures of 60 °C and higher. We have evaluated the amount of stress overshoot Δσ by interpolating the flow stress over the   stress relaxation and determining the difference between the maximum stress in the overshoot and the interpolated stress. Figure <ref type="figure" target="#fig_7">6</ref> shows the strain dependence of the stress overshoots for the deformation temperatures 60 and 100 °C (the lines are guides to the eye). The overshoots are larger for higher deformation temperature and increase with increasing strain. At both temperatures, an almost linear increase with a slight tendency toward saturation at high strains is found. The overshoots were also evaluated for the higher deformation temperatures of 200 and 300 °C. At these temperatures, generally higher values, ranging between about 8 and 20 MPa, are found. However, we do not find clear strain dependence and the values irregularly scatter without an apparent tendency.</p><p>Figure <ref type="figure" target="#fig_9">7</ref> depicts a series of bright-field Bragg-contrast TEM micrographs. Figure <ref type="figure" target="#fig_9">7</ref>(a) was taken using a (0 0 2) reflection and depicts the typical microstructure of the asgrown material. The dislocation density, estimated by counting dislocation penetration points with the specimen surface, amounts to about 10 10 cm -2 and thus is already high in the undeformed material. Individual dislocations were analyzed by contrast-extinction experiments <ref type="bibr" target="#b15">[16]</ref>, which revealed that the dislocations have Burgers vectors parallel to the [1 1 1] direction. The micrograph in Figure <ref type="figure" target="#fig_9">7</ref>(b) was taken from a sample deformed at RT up to about 7%, imaged using a (0 1 1) reflection. The dislocation density is significantly higher than in the undeformed material. Due to the very high dislocation density, Burgers vector analysis or the quantification of the dislocation density is unfeasible by means of TEM. Figure <ref type="figure" target="#fig_9">7(c</ref>) is a micrograph of a sample deformed at 200 °C up to 9%, imaged using a (0 1 1) reflection. The microstructure is considerably different than for the case of the sample deformed at RT. The overall image contrast is highly mottled, and the dislocation density is lower than in the sample deformed at RT.</p><p>A high-resolution STEM micrograph of the sample deformed at 200 °C up to 9% is shown in Figure <ref type="figure" target="#fig_10">8</ref>(a). The image, which was slightly FFT-filtered for high-frequency noise reduction, was taken in a sample area showing mottled contrast. It is seen that the microstructure is not uniform but diverged into areas of different orientation, which are schematically indicated in Figure <ref type="figure" target="#fig_11">8(b</ref>). In the micrograph, four areas are seen (marked by three crossed double-headed arrows in Figure <ref type="figure" target="#fig_11">8(b)</ref>) that are oriented along the [1 1 1] zone axis, which also corresponds to the globally aligned orientation of the sample. The micrograph however also contains diverse differently oriented areas. Some (marked by Philosophical Magazine double-headed arrows) are tilted along a single axis with respect to the global orientation, so that lattice fringes are seen. Areas showing three sets of fringes, which are contained in the [1 1 1] zone axis, are present. Two areas, labeled 'O' have no specific orientation and therefore appear gray without any observable fringe contrast. The average extension of the areas is about 2-5 nm, and the boundaries are not sharp. This non-uniform microstructure is distinctly different than in the undeformed material, where we find homogeneous orientation throughout the single grains, i.e. over distances in the millimeter range.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The mechanical properties of HEAs are the subject of numerous publications, particularly in the context of high-strength applications <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b16">17]</ref>. Indeed, plastic deformation tests on HEAs frequently show high yield stresses and flow stresses. Zhou et al. <ref type="bibr" target="#b16">[17]</ref> observe a yield stress of 1,500 MPa at RT in compression experiments on equiatomic Al-Cr-Co-Fe-Ni HEAs. The yield stress can be further increased by addition of Ti. Similar results were obtained by Zhang et al. <ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b10">11]</ref>. Li et al. report a RT strength of 1,300 MPa for equiatomic Al-Cu-Co-Cr-Fe-Ni <ref type="bibr" target="#b17">[18]</ref>. Note that the samples that were investigated in these studies were reportedly polycrystalline and contained multiple phases.</p><p>The yield stresses observed in our experiments are significantly lower, amounting to about 850 MPa at RT and decreasing to about 600 MPa at 300 °C. This is a respectable RT strength, but clearly below commercial high-strength materials or bulk metallic glasses <ref type="bibr" target="#b18">[19]</ref>. Therefore, our experiments do not support the notion that high strength is a typical feature of HEAs. The samples used in our experiments were homogeneous and single phased, i.e. free of precipitates and foreign phases. The sample dimensions used are comparable to the extension of single grains of our material. On average, our samples contain 2-10 single grains, and therefore, the effect of grain boundaries on the results should be negligible. In this respect, we consider the plastic behavior observed in our experiments as intrinsic to Zr-Nb-Ti-Ta-Hf HEAs.  M. Feuerbacher et al.</p><p>Senkov et al. <ref type="bibr" target="#b19">[20]</ref> carried out deformation experiments on HEAs in the same alloy system on equiatomic samples produced by arc melting and subsequent hot isostatic pressing. The microstructure was reported to consist of equiaxial dendritic grains of about 100-200 μm. Compression experiments revealed high ductility (up to 50%), a 0.2% yield stress of 929 MPa and linear hardening of 3.8 GPa. Taking the higher strain rate of 10 -3 s -1 into account, these results are comparable to those of the present study. Equiatomic Nb-Mo-Ta-W and V-Nb-Mo-Ta-W, i.e. refractory-metal HEAs including different elements, were also deformed by Senkov et al. <ref type="bibr" target="#b20">[21]</ref>. The Nb-Mo-Ta-W alloy at RT shows a yield stress of 1,058 MPa, which is considerably higher than that found in the present study, and the sample failed at a plastic strain of about 2.0%. The fivecomponent alloy V-Nb-Mo-Ta-W showed an even higher yield strength of 1,246 MPa and failed at a plastic strain of about 1.5%. For both alloys, deformation tests were carried out up to temperatures of 1,600 °C, leading to a decrease of the yield stress (values of 405 and 477 MPa are found for the four-and five-component alloy) and an increase of the ductility.</p><p>In the present study, the thermodynamic activation parameters of a HEA were measured for the first time. In particular, the reported values of the activation volume and the activation enthalpy may be helpful for the identification of the deformation mechanism and for the simulations in a later stage of research. By now, the activation volume may be compared with the average volume per atom V a . With a lattice constant of 0.32 nm, V a assumes about 0.08 nm 3 , which is much smaller than the measured activation volumes ranging between 0.5 and 2 nm 3 .</p><p>We only take the low-temperature results into account, since the occurrence of structural changes during the deformation process impedes the evaluation of the data using Equations ( <ref type="formula" target="#formula_0">1</ref>) and (2) <ref type="bibr" target="#b13">[14]</ref>. Our experiments indicate that at higher temperatures indeed, the structure is not constant: The stress-strain curve at 300 °C has a different overall shape than those at lower temperatures, and temperature cycling to a higher temperature leads to an increase in flow stress. This strongly indicates that structural changes have taken place during the equilibration time, and straightforward evaluation of the data using Equation (2) would lead to a negative activation enthalpy which has to be considered unphysical.</p><p>The occurring structural changes are also reflected in the activation volume data. At 300 °C, the determined values are much higher than the values obtained for 200 °C and below. Up to 200 °C, structural changes apparently occur at a sufficiently low rate, so that the first 10-20 s of stress relaxation, which are used for the evaluation according to Equation (1), are still unaffected, so that the data points follow a consistent curve. At this stage of research, we tend to attribute the higher values obtained at 300 °C rather to structural changes, taking place at such high rates that they affect the stress relaxation right from the beginning, than to a change in deformation mechanism. Similarly, by now we dismiss the data point obtained for the activation enthalpy at 200 °C. Temperature cycling involves an equilibration time of about 30 min, which allows structural changes to occur (see below). Surely, in this respect, also the activation enthalpy data points at lower temperatures have to be regarded with some caution, but they are consistent within the experimental scatter and assume values that are compatible with the imposed strain rate.</p><p>Another indicator for structural changes is the overshoots that occur upon reloading after stress relaxations at temperatures of 60 °C and higher. All relaxations were carried Philosophical Magazine out for two minutes, which shows that changes take place on the timescale of a few minutes. The evaluation of the overshoots (Figure <ref type="figure" target="#fig_7">6</ref>) indicates that structural changes take place faster with increasing temperature. At 60 and 100 °C, the changes evolve over the course of the experiment. The amount of overshoot increases continuously and seems to saturate toward high strains.</p><p>The TEM investigations indicate that the differences in stress-strain behavior at RT (at which no overshoots are observed) and higher temperatures (showing overshoots) are connected with changes in dislocation density. The TEM specimens were prepared from samples that were deformed up to 8 to 10% of strain. At that stage, the samples were unloaded, taken out of the testing machine, and quenched on a cold metal plate. This process takes about two minutes, and therefore, the TEM micrographs reflect a state, which includes structural changes. Since the dislocation density in the samples deformed at temperatures above RT is much lower, we conclude that the structural changes involve the annihilation of dislocations and a subsequent buildup of mobile dislocation density upon reloading. The latter may involve a stress threshold <ref type="bibr" target="#b21">[22]</ref>, which is reflected in the overshooting flow stress. The high-resolution STEM micrographs (Figure <ref type="figure" target="#fig_10">8</ref>) clearly show in which respect the microstructure evolves in the course of plastic deformation: While the structure initially is uniform and homogeneous, it is diverged into areas of different orientation after deformation. These areas are congruently connected; no dislocations are present at their interfaces.</p><p>These conclusions on the structural changes are, however, rather preliminary. Deeper insight should be obtained by dedicated deformation experiments up to different strains with subsequent TEM characterization and by in situ straining experiments in the transmission electron microscope at different temperatures.</p><p>In the literature, it is frequently argued that a solid-solution strengthening mechanism in an extreme form should be operative in HEAs. Yeh et al. <ref type="bibr" target="#b0">[1]</ref>, for example, write that due to the absence of a matrix element, all atoms may be regarded as solute atoms, which should dramatically enhance the strength of HEAs. Zhang et al. <ref type="bibr" target="#b9">[10]</ref> explicitly specify the amount of resulting solid-solution strengthening as proportional to c 1/2 , where c is the concentration of solute atoms.</p><p>However, the interpretation in terms of solid-solution strengthening is not that straightforward. First of all, the concentration of solute atoms exceeds the Friedel limit <ref type="bibr" target="#b22">[23]</ref>, which defines the limit of Friedel statistics, assuming that single obstacles are overcome one at a time. Under common assumptions, the upper limit amounts to c≈10 -4 , which is violated in HEAs not only if all atoms are considered as solute atoms influencing dislocation movement, but also if we make the weaker assumption that only one species needs to be taken into account. Friedel statistics would lead to a concentration dependence of the solid-solution strengthening effect with c 1/2 dependence. The Mott limit, defining the validity of Mott statistics, which assumes weaker obstacles at higher concentrations, ranges between 0.01 and 0.1, is also exceeded in ordinary HEAs. For Mott statistics, according to Nabarro <ref type="bibr" target="#b22">[23]</ref> a c 3/2 dependence (see also <ref type="bibr" target="#b14">[15]</ref>) and, according to a later more detailed treatment by Arsenault, a c 1/2 dependence is expected <ref type="bibr" target="#b23">[24]</ref>.</p><p>The formal definition of a HEA requires that none of the atomic species included constitutes a major component. The requirement of (near) equiatomic composition hence impedes discrimination between the matrix and solute atoms, and the closer a HEA fulfills the formal definition and formation criteria (requiring a narrow atomic size 10 M. Feuerbacher et al.</p><p>distribution <ref type="bibr" target="#b24">[25]</ref>) the less meaningful such a discrimination becomes. Accordingly, it remains undefined with respect to which reference an increase in strength (be it proportional to c 1/2 or c 2/3 ) is effected. Adequate description of the plasticity of HEAs apparently requires a new approach. Rather than defining a contrasting matrix and species of solute atoms, as required in a conventional solid-solution strengthening treatment <ref type="bibr" target="#b25">[26]</ref>, which is in conflict with the definition of HEAs, a scenario should be considered, in which the dislocations move through a strongly corrugated non-periodic potential. The corrugations appear on a length scale comparable to or even smaller than the Burgers vector. To the authors' knowledge, no applicable theory of this kind is available as yet.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>2 M.</head><label>2</label><figDesc>Feuerbacher et al.   </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. True stress-true strain curve of the Zr-Nb-Ti-Ta-Hf high-entropy alloy at RT including six stress-relaxation tests (sharp dips), a temperature change at 2% strain, and strain-rate changes at about 7% strain.</figDesc><graphic coords="5,118.32,387.95,255.35,189.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. (colour online) True stress-true strain curves at temperatures between RT and 300 °C.</figDesc><graphic coords="6,118.32,64.74,255.37,187.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Temperature dependence of the 0.2% yield stress σ 0.2 .</figDesc><graphic coords="6,118.32,404.56,255.37,192.53" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Stress dependence of the activation volume V for temperatures below 200 °C (solid squares) and 300 °C (open squares). The line is a guide to the eye.</figDesc><graphic coords="7,118.32,394.47,255.37,192.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Philosophical Magazine 5</head><label>5</label><figDesc>Downloaded by [University of Nebraska, Lincoln] at 05:44 04 April 2015</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Temperature dependence of the activation enthalpy ΔH. The line represents a linear temperature dependence with ΔH(T = 0) = 0 eV.</figDesc><graphic coords="8,118.32,64.74,255.37,178.70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Strain dependence of the stress overshoots for the deformation temperatures 60 and 100 °C (the lines are guides to the eye).</figDesc><graphic coords="8,118.32,392.88,255.37,194.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>6 M.</head><label>6</label><figDesc>Feuerbacher et al. Downloaded by [University of Nebraska, Lincoln] at 05:44 04 April 2015</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Bright-field Bragg-contrast TEM micrographs. (a) as-grown material, (b) deformed at RT up to about 7%, and (c) deformed at 200 °C up to 9%.</figDesc><graphic coords="9,70.13,470.55,351.94,116.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. (a) High-resolution HAADF-STEM micrograph of the Zr-Nb-Ti-Ta-Hf high-entropy alloy deformed at 200 °C up to 9%, and (b) schematic representation of the differently oriented areas in (a).</figDesc><graphic coords="10,70.13,64.74,353.17,175.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>8</head><label>8</label><figDesc></figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded by [University of Nebraska, Lincoln] at 05:44 04 April 2015</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors thank <rs type="person">Prof. Walter Steurer</rs> for communication of the single-phase composition of the presently investigated HEA, <rs type="person">Marc Heggen</rs> for valuable discussions, <rs type="person">Eva-Maria Würtz</rs> for sample preparation and characterization, and <rs type="person">Maximilian Kruth</rs> for the preparation of TEM specimens.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Disclosure statement</head><p>No potential conflict of interest was reported by the authors.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">299</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J B</forename><surname>Vincent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="issue">377</biblScope>
+			<biblScope unit="page">213</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feuerbacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heidelmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">6308</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Shih</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page">3481</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hemphill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page">5723</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Thin Solid Films</title>
+		<imprint>
+			<biblScope unit="volume">516</biblScope>
+			<biblScope unit="page">5527</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">1455</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">1263</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Miner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metal. Mater. Soc</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page">830</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">2625</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<title level="m">Proc. Eng</title>
+		<meeting>Eng</meeting>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">292</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steurer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>in preparation</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Evans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Rawlings</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Status Solidi B</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">F</forename><surname>Kocks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Argon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Ashby</surname></persName>
+		</author>
+		<title level="m">Thermodynamics and Kinetics of Slip</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Pergamon Press</publisher>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Pashley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Whelan</surname></persName>
+		</author>
+		<title level="m">Electron Microscopy of Thin Crystals</title>
+		<meeting><address><addrLine>Malabar</addrLine></address></meeting>
+		<imprint>
+			<publisher>Krieger Publishing</publisher>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page">181904</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mat. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">498</biblScope>
+			<biblScope unit="page">82</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Inoue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">279</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philosophical Magazine</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page">6043</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>J. Alloys Compd.</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">698</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Haasen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sol. Stat. Phys</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">27</biblScope>
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Less-Common Met</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R N</forename><surname>Nabarro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1972">1972</date>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">257</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Arsenault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Patu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Esterling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">1411</biblScope>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mater</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Forum</title>
+		<imprint>
+			<biblScope unit="volume">561</biblScope>
+			<biblScope unit="issue">565</biblScope>
+			<biblScope unit="page">1337</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Solid solution strenghtening, in Plastic Deformation and Fracture of Materials</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Neuhaeuser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schwink</surname></persName>
+		</author>
+		<editor>R.W. Cahn, P. Haasen and E.J. Kramer</editor>
+		<imprint>
+			<date type="published" when="1993">1993</date>
+			<publisher>VCH Publishers</publisher>
+			<biblScope unit="page">191</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

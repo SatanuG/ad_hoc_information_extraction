@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Experimental and theoretical study of Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V or Cr) refractory high-entropy alloys</title>
+				<funder ref="#_4KJXcab">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_6Fkqn3Y">
+					<orgName type="full">Ministry of Education and Science of the Russian Federation in the framework of Increase Competitiveness Program of NUST «MISiS»</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">World Premier International Research Center Initiative</orgName>
+					<orgName type="abbreviated">WPI</orgName>
+				</funder>
+				<funder ref="#_gGyKRxU">
+					<orgName type="full">Hungarian OTKA</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Matsumae International Foundation</orgName>
+				</funder>
+				<funder ref="#_jtgffYe">
+					<orgName type="full">National 973 Project of China</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">MEXT, Japan</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2014-07-16">16 July 2014</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">É</forename><surname>Fazakas</surname></persName>
+							<email>fazakas.eva@wigner.mta.hu</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">WPI-Advanced Institute for Materials Research</orgName>
+								<orgName type="institution" key="instit2">Tohoku University</orgName>
+								<address>
+									<addrLine>Katahira 2-1-1, Aoba-Ku</addrLine>
+									<postCode>980-8577</postCode>
+									<settlement>Sendai</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Wigner Research Center for Physics</orgName>
+								<orgName type="institution">Hungarian Academy of Sciences</orgName>
+								<address>
+									<postBox>P.O.B. 49</postBox>
+									<postCode>H-1525</postCode>
+									<country key="HU">Hungary</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Bay Zoltán Nonprofit Ltd. for Applied Research</orgName>
+								<address>
+									<addrLine>Fehérvári út 130</addrLine>
+									<postCode>H-1116</postCode>
+									<settlement>Budapest</settlement>
+									<country key="HU">Hungary</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">V</forename><surname>Zadorozhnyy</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">WPI-Advanced Institute for Materials Research</orgName>
+								<orgName type="institution" key="instit2">Tohoku University</orgName>
+								<address>
+									<addrLine>Katahira 2-1-1, Aoba-Ku</addrLine>
+									<postCode>980-8577</postCode>
+									<settlement>Sendai</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Varga</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Wigner Research Center for Physics</orgName>
+								<orgName type="institution">Hungarian Academy of Sciences</orgName>
+								<address>
+									<postBox>P.O.B. 49</postBox>
+									<postCode>H-1525</postCode>
+									<country key="HU">Hungary</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Inoue</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">WPI-Advanced Institute for Materials Research</orgName>
+								<orgName type="institution" key="instit2">Tohoku University</orgName>
+								<address>
+									<addrLine>Katahira 2-1-1, Aoba-Ku</addrLine>
+									<postCode>980-8577</postCode>
+									<settlement>Sendai</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Louzguine-Luzgin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">WPI-Advanced Institute for Materials Research</orgName>
+								<orgName type="institution" key="instit2">Tohoku University</orgName>
+								<address>
+									<addrLine>Katahira 2-1-1, Aoba-Ku</addrLine>
+									<postCode>980-8577</postCode>
+									<settlement>Sendai</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Fuyang</forename><surname>Tian</surname></persName>
+							<email>fuyang@kth.se</email>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="laboratory">Applied Materials Physics</orgName>
+								<orgName type="institution">Royal Institute of Technology</orgName>
+								<address>
+									<addrLine>Stockholm SE-100 44</addrLine>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Institute for Applied Physics</orgName>
+								<orgName type="institution">University of Science and Technology Beijing</orgName>
+								<address>
+									<postCode>100083</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Wigner Research Center for Physics</orgName>
+								<orgName type="institution">Hungarian Academy of Sciences</orgName>
+								<address>
+									<postBox>P.O.B. 49</postBox>
+									<postCode>H-1525</postCode>
+									<country key="HU">Hungary</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="laboratory">Applied Materials Physics</orgName>
+								<orgName type="institution">Royal Institute of Technology</orgName>
+								<address>
+									<addrLine>Stockholm SE-100 44</addrLine>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Experimental and theoretical study of Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V or Cr) refractory high-entropy alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2014-07-16">16 July 2014</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">053468B558F156CE48ACFF862E29F391</idno>
+					<idno type="DOI">10.1016/j.ijrmhm.2014.07.009</idno>
+					<note type="submission">Received 10 May 2014 Accepted 7 July 2014</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Laves phases Mechanical properties Casting Grain boundaries</term>
+					<term>structure Diffraction</term>
+					<term>electron microscopy</term>
+					<term>scanning Ab initio calculations</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We investigated the microstructure and mechanical properties of Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V or Cr) high-entropy alloys (HEA), produced by induction melting and casting in inert atmosphere. The structures of these alloys were studied via X-ray diffractometry and scanning electron microscopy. Results show that Ti 20 Zr 20 Hf 20 Nb 20 V 20 has mainly the body centered cubic (BCC) structure, whereas the BCC matrix of Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 contains small amount of Cr 2 Nb and Cr 2 Hf intermetallic compounds. Ti 20 Zr 20 Hf 20 Nb 20 V 20 alloy shows the high strength and the homogeneous deformation under compression at room temperature. The strength and hardness of Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 alloy are further enhanced by the Cr-containing Laves phases segregated during casting. The structural and mechanical properties remained almost unchanged after a short time (10 min) heat treatment at 573, 773, 973 and 1173 K indicating the resistance to working temperature peaks for these two alloys. Ab initio calculations predict ductile behavior for these and similar refractory HEAs. The theoretically calculated Young's modulus E is in good agreement with the experimental ones.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>In the high-temperature applications, metallic alloys need to satisfy the superior mechanical and functional properties. A recently proposed concept of high-entropy alloys (HEA) <ref type="bibr" target="#b0">[1]</ref>, especially consisting of refractory elements <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref>, opens up the possibilities in the alloy developments satisfying the above demands. HEAs are composed of equiatomic or nearly equiatomic metallic elements, wherein the mixing entropy is maximized, leading to the extended solid solubility and formation of a single or a double-phase structure <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b5">6,</ref><ref type="bibr" target="#b6">7]</ref>. Such solid solutions with multi-principal elements have been found to be kinetically stabilized due to the sluggish diffusion of atoms <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref>, preventing intermetallic compounds from precipitating. It is widely accepted that the formation of refractory-HEAs by casting is facilitated by small atomic size difference as well as small and negative enthalpy of mixing between the constituent elements (Hume-Rothery rule <ref type="bibr" target="#b9">[10]</ref>), which is opposite to bulk metallic glasses which have relatively large atomic size mismatch and negative mixing enthalpy <ref type="bibr" target="#b10">[11]</ref>.</p><p>Using vacuum arc melting technique, Senkov et al. <ref type="bibr" target="#b1">[2]</ref> synthesized near equiatomic-concentration WTaMoNb and WTaMoNbV alloys with single-phase BCC lattice. Since then, many other HEAs based on the refractory elements (Ti, Zr, Hf, V, Nb, Ta, Cr, Mo and W, namely the 4th, 5th, and 6th element groups in the periodic table) have been in the focus of experimental studies <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref>, for instance TiZrHfNbTa <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>, NbZrTiCrMo 0.5 Ta 0.5 <ref type="bibr" target="#b11">[12]</ref>, CrNbTiVZr <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref> and TiZrNbMoV x (x = 0-1.5) <ref type="bibr" target="#b14">[15]</ref> as well as TiZrHf <ref type="bibr" target="#b15">[16]</ref>. The microstructure and mechanical properties of the above HEAs were investigated at different temperatures. del Grosso et al. <ref type="bibr" target="#b16">[17]</ref> employed the Bozzolo-Ferrante-Smith (BFS) method <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b18">19]</ref> to study phase stability of refractory elements.</p><p>In order to further enrich and understand the refractory HEAs, we prepare two new equiatomic multi-component HEAs consisting of the 4th and 5th as well as 4th and 6th element groups, having compositions of Ti 20 Zr 20 Hf 20 Nb 20 V 20 and Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 , respectively. We investigate the effects of V and Cr alloying elements on microstructures and mechanical properties of Ti 20 Zr 20 Hf 20 Nb 20 V 20 and Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 alloys, respectively. As the thermal stability is an important consideration for industrial application of HEAs it is also worthwhile to investigate the annealing effects on the structure and property evolution. In this paper the effects of annealing on the structure and mechanical properties are also investigated.</p><p>Using the ab initio alloy theory <ref type="bibr" target="#b19">[20]</ref>, we calculate and compare the structural and elastic properties of the Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V, Ta, Cr), W 25 Nb 25 Mo 25 Ta 25 as well as W 20 Nb 20 Mo 20 Ta 20 V 20 and Zr 33.3 Hf 33.3 Nb 33.3 refractory HEAs. It has been proved that ab initio alloy theory provides a powerful tool to understand and predict the behavior of materials. For the present refractory HEAs, the chemical compositions are particularly complicated. The common supercell approach to model these systems becomes very cumbersome due to the larger number of components and chemical disorder. On the other hand, the coherent potential approximation (CPA) <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b22">22]</ref> is considered to be an efficient method for studying the substitutional solid solutions. The CPA in combination with the exact muffin-tin orbitals (EMTO) has been assessed in numerous successful applications <ref type="bibr" target="#b19">[20]</ref> and most recently it was used to investigate the phase transitions and the elastic properties of HEAs <ref type="bibr" target="#b23">[23]</ref><ref type="bibr" target="#b24">[24]</ref><ref type="bibr" target="#b25">[25]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental procedure</head><p>The ingots with nominal compositions of Ti 20 Zr 20 Hf 20 Nb 20 V 20 and Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 were prepared by induction melting using mixtures of the high-purity elements (N99.9 at.% purity) in an argon atmosphere purified by Ti-getter. Cylindrical rod samples with a diameter of 3 mm were obtained by re-melting the master alloy of Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 in a quartz tube and subsequent injection into a copper mold in an inert gas atmosphere.</p><p>In the case of Ti 20 Zr 20 Hf 20 Nb 20 V 20 alloy rectangular-shaped castings were produced. In order to examine the thermal stability of the samples, the isochronal annealing was performed at 573, 773, 973 and 1173 K for 600 s. A high vacuum of 2 × 10 -2 Pa was reached and then argon gas was introduced before the annealing.</p><p>The structure of the alloys at cross-sections of the as-cast samples was examined by X-ray diffraction (XRD) with Brucker D8 diffractometer with Cu Kα radiation. The alloy specimens were polished and etched with the mixture of nitric acid (1.40) 30 ml, hydrofluoric acid (40%) 10 ml and water 60 ml. The initial microstructure and the morphologies of the surface of these specimens subjected to mechanical tests were observed using a Hitachi S-4800 Scanning Electron Microscope (SEM). We recorded quantitative chemical analysis using an EDS detector attached to the field emission gun SEM.</p><p>In order to evaluate the mechanical properties the cylindrical and rectangular specimens with an aspect length to width ratio of 2:1 were uniaxially compressed at room temperature until fracture (using a Shimadzu testing machine with 50 kN maximum load). The specimens for compression testing were cut from the 3 mm rods and carefully polished to have a final length of 6 mm, while ensuring that their end planes were parallel to each other. The compression test was performed according to the American Society for Testing and Materials (ASTM) standard (E9-09), at an initial loading rate of 5 × 10 -4 s -1 . The Vickers microhardness was measured on polished cross-section surfaces using a HM211 Mitutoya device. An average of ten measurements has been taken on each sample, on randomly selected places.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Computational methodology</head><p>In the present EMTO-CPA calculations, the one-electron equations were treated within the scalar relativistic and frozen core approximations. We employed the local density approximations <ref type="bibr" target="#b26">[26]</ref> as the exchange-correlation density functional. The Green's function was calculated for 16 complex energy points around the valence states. The basis set included s, p, d, and f states. The irreducible wedge of the BCC Brillouin zone was sampled by 285 inequivalent k points. All calculations were performed for static lattice. The singe-crystal elastic constants were determined according to the standard methodology <ref type="bibr" target="#b19">[20]</ref> and the polycrystalline elastic moduli were obtained via the Voigt-Reuss-Hill averaging method <ref type="bibr" target="#b27">[27]</ref>. We should mention that the present theoretical results correspond to solid solutions and to static conditions, and therefore they are strictly valid at low temperatures and for completely random systems (without significant short range order effects).   Using the rule of mixtures (i.e. Vegard's law <ref type="bibr" target="#b28">[28]</ref>) and the known concentrations of the alloying elements in the BCC phases, one can calculate the crystal lattice parameter a mix of the respective disordered BCC solid solutions: a mix = Σc i a i , where c i and a i are the concentration and lattice parameter of the ith alloying element, respectively. Note that the lattice parameters of BCC Ti, Zr and Hf <ref type="bibr" target="#b11">[12]</ref>  SEM images of the surface of the same alloy sample, after annealing at 1173 K, show typical cast dendrite and interdendrite structures (DR and ID). A Laves HfV 2 phase precipitates from the BCC phase. It can be deduced from the XRD results that the dendrite phase is the BCC solid solution structure while the interdendrite phase must be C15 HfV 2 intermetallic compound. It should be noted that the initial grain size of the BCC phase in as cast state (~13 μm) varies little by the annealing treatment at low temperatures (~13 μm at 573 K, ~12.5 μm at 773 K) but starts increasing at higher annealing temperatures (~69 μm at 973 and ~100 μm at 1173 K).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and discussions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crystal structure by XRD</head><p>In the case of Cr containing alloy the Laves phase appeared in the as cast state already. The cast dendrite and interdendrite structures are shown through the chemical analysis results in Fig. <ref type="figure">3</ref>. Note that the label Cr in Fig. <ref type="figure">3</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanical properties</head><p>The compression test result (Fig. <ref type="figure" target="#fig_5">4</ref>) of the samples heat-treated for short time (10 min) at different possible working temperature peaks shows practically overlapping stress-strain curves, similar to the hardness result (Table <ref type="table" target="#tab_2">3</ref>). This result suggests that these relatively low temperatures and short time annealing produced no substantial phase precipitation in accordance with the XRD graphs (Fig. <ref type="figure">1</ref>). Table <ref type="table" target="#tab_2">3</ref> lists the Young's modulus E, yield stress σ y , fracture strength σ max , plastic strain ε p and Vickers hardness HV 0.1 for the as-cast and heated Ti 20 Zr 20- Hf 20 Nb 20 X 20 (X = V, Cr) alloys.  <ref type="table" target="#tab_2">3</ref> for the as-cast samples were 1170 and 1375 MPa, respectively. The ductility of Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V, Cr) indicated the plastic strain listed in Table <ref type="table" target="#tab_2">3</ref> and the stress versus strain plotted in Fig. <ref type="figure" target="#fig_5">4</ref>. It should be noted that the large ε p for the Ti 20 Zr 20 Hf 20 Nb 20 V 20 alloy exceeds 30% during compression test (see Fig. <ref type="figure" target="#fig_5">4</ref>(a) and Table <ref type="table" target="#tab_2">3</ref>). Some plastic deformability is observed in the case of the Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 alloy as well (ε p ~2-4%), although its yield strength is much higher than that of other alloys. The relative large volume fraction of Laves phase limits ductility of Cr-containing alloy. Under similar ductility, the Ti 20 Zr 20 Hf 20 Nb 20 V 20 alloy exhibits higher strength than that (σ y = 929 MPa) of Ti 20 Zr 20 Hf 20 Nb 20 Ta 20 <ref type="bibr" target="#b3">[4]</ref>. For Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 alloy , the σ y shown in Table <ref type="table" target="#tab_2">3</ref> is about 1322-1457 MPa at different temperatures. At room temperature, the σ y of Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 is relatively large, compared to the available values of refractory HEAs (1058 MPa for TaNbWMo and 1246 MPa for TaNbWMoV <ref type="bibr" target="#b2">[3]</ref>).</p><p>Table <ref type="table" target="#tab_2">3</ref> shows the Vickers hardness HV 0.1 of Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V, Cr) alloys as a function of the annealing temperature. The  Figs. <ref type="figure" target="#fig_9">5(a,</ref><ref type="figure">b,</ref><ref type="figure">c</ref>) and 6(a, b, c) are about the samples of the Ti 20 Zr 20 Hf 20 Nb 20 V 20 alloy before and after annealing at 1173 K. The alloy was deformed to 30% compression strain without fracture which can be seen in Fig. <ref type="figure" target="#fig_9">5</ref>(b) while after annealing at 1173 K some cracks appear in Fig. <ref type="figure">6(b)</ref>. That is confirming good plasticity of this material in as cast state. Figs. <ref type="figure" target="#fig_9">5(c</ref>) and 6(c) show the deformed grains of these samples that were elongated in the radial direction.</p><p>The fracture surface corresponds to ductile inter-crystalline fracture when propagation of the crack took place through the grain body.</p><p>The ductile fracture leads to the formation of dimples of different sizes and morphology, while the brittle fracture occurs by quasicleavage of the Laves phases. The brittle nature of the Laves phases leads to low ductility of the samples. A wide range of the mechanical properties is attainable through different combinations of these two phases: BCC phase as a relatively soft and ductile one while FCC phase (Laves phases) as hard but brittle phases.</p><p>In Vegard's law discussed above is often used to estimate the lattice parameter a mix phase of alloys. Our ab initio predications are slightly larger than a mix for the three refractory HEAs. Hence all alloys show a small but systematic positive deviation relative to Vegard's rule. We note that for all HEAs considered here, the calculated lattice parameter a t is slightly larger than the experiments a e , except for Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 . It is very likely that this deviation is due to the employed frozen-core approximation, which is known to yield somewhat larger lattice parameters as compared to all-electron calculations.</p><p>All HEAs considered here are predicted to be mechanically stable according to the dynamical stability conditions c 44 N 0, c 11 N |c 12 | and c 11 + 2c 12 N 0. For the Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V, Cr, Ta) refractory HEAs, the polycrystalline elastic moduli are very similar. It is found that V has a small effect on B, G and E of Ta 25 Nb 25 W 25 Mo 25 alloys.</p><p>According to Tables <ref type="table" target="#tab_2">3</ref> and<ref type="table" target="#tab_4">4</ref>  Room-temperature compressive mechanical properties for Ti 20 Zr 20 Hf 20 Nb 20 X (X = V, Cr) as-cast and heat-treated alloys, namely Young's modulus (E), yield stress (σ y ), fracture strength (σ max ), plastic strain (ε p ) and Vickers hardness at 1 N load (HV 0.1 ).     The Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V or Cr) alloys show a large elastic and plastic strain limits while the BCC phase is stable against heating for 600 s up to 1173 K.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Alloy</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 (Fig. 1 .</head><label>11</label><figDesc>Fig. 1(a, b) shows the X-ray diffraction patterns of the as-cast and heat-treated Ti 20 Zr 20 Hf 20 Nb 20 V 20 and Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 alloys, respectively. After annealing at 573, 773 and 973 K the Ti 20 Zr 20 Hf 20 Nb 20 V 20 alloy</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>preserves its original BCC phase while an unknown metastable phase formed upon casting dissolves in the BCC one and single-phase BCC structure is observed. At 1173 K a Laves V 2 (Hf, Zr, Ti, Nb) solid solution phase precipitates from the BCC phase (Fig.1(a)). The structure of Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 alloy in the as-solidified state has the BCC phase and two equilibrium Laves phases (Cr 2 Nb and Cr 2 Hf). This triple-phase structure is preserved and remained almost unchanged after annealing (Fig. 1(b)). The Laves phase formation is expected when the atomic size ratio of the largest and smallest elements in the composition exceeds 1.225 [11]. For the Ti 20 Zr 20 Hf 20 Nb 20 V 20 alloy the R Hf /R V is 1.19 whereas the R Hf /R Cr = 1.25 for Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 , and it turns out that the formation of the Cr 2 Hf phase is expected in these alloys.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Fig. 2 shows the SEM images of the surface of the Ti 20 Zr 20 Hf 20 Nb 20 V 20 at as-cast state (a) and after annealing at 573 K (b), 773 K (c), 973 K (d) and 1173 K (e). The Ti 20 Zr 20 Hf 20Nb 20 V 20 alloy preserves its original BCC phase while an unknown metastable phase formed upon casting dissolves in the BCC one and a single-phase BCC structure is observed. SEM images of the surface of the same alloy sample, after annealing at 1173 K, show typical cast dendrite and interdendrite structures (DR and ID). A Laves HfV 2 phase precipitates from the BCC phase. It can be deduced from the XRD results that the dendrite phase is the BCC solid solution structure while the interdendrite phase must be C15 HfV 2 intermetallic compound. It should be noted that the initial grain size of the BCC phase in as cast state (~13 μm) varies little by the annealing treatment at low temperatures (~13 μm at 573 K, ~12.5 μm at 773 K) but starts increasing at higher annealing temperatures (~69 μm at 973 and ~100 μm at 1173 K).In the case of Cr containing alloy the Laves phase appeared in the as cast state already. The cast dendrite and interdendrite structures are shown through the chemical analysis results in Fig.3. Note that the label Cr in Fig.3(a) represents the Laves phase. The results of chemical analysis in as-cast and annealed alloys are given in Table 2. It is found in the case of Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 BCC phase is enriched in Ti, Zr, Hf, and Nb and depleted in Cr. During solidification the Cr enriched in</figDesc><graphic coords="3,103.69,503.09,396.62,222.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>Fig. 2 shows the SEM images of the surface of the Ti 20 Zr 20 Hf 20 Nb 20 V 20 at as-cast state (a) and after annealing at 573 K (b), 773 K (c), 973 K (d) and 1173 K (e). The Ti 20 Zr 20 Hf 20Nb 20 V 20 alloy preserves its original BCC phase while an unknown metastable phase formed upon casting dissolves in the BCC one and a single-phase BCC structure is observed. SEM images of the surface of the same alloy sample, after annealing at 1173 K, show typical cast dendrite and interdendrite structures (DR and ID). A Laves HfV 2 phase precipitates from the BCC phase. It can be deduced from the XRD results that the dendrite phase is the BCC solid solution structure while the interdendrite phase must be C15 HfV 2 intermetallic compound. It should be noted that the initial grain size of the BCC phase in as cast state (~13 μm) varies little by the annealing treatment at low temperatures (~13 μm at 573 K, ~12.5 μm at 773 K) but starts increasing at higher annealing temperatures (~69 μm at 973 and ~100 μm at 1173 K).In the case of Cr containing alloy the Laves phase appeared in the as cast state already. The cast dendrite and interdendrite structures are shown through the chemical analysis results in Fig.3. Note that the label Cr in Fig.3(a) represents the Laves phase. The results of chemical analysis in as-cast and annealed alloys are given in Table 2. It is found in the case of Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 BCC phase is enriched in Ti, Zr, Hf, and Nb and depleted in Cr. During solidification the Cr enriched in</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 2 .Fig. 3 .</head><label>23</label><figDesc>Fig. 2. SEM images of Ti 20 Zr 20 Hf 20 Nb 20 V 20 : (a) surface in the as-cast state, and (b) at 573 K, (c) at 773 K, (d) at 973 K, and (e) at 1173 K in as-annealed states.</figDesc><graphic coords="3,47.23,53.18,509.56,102.10" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 4 (</head><label>4</label><figDesc>a, c) shows the engineering stress (σ) as function of strain ε and Fig. 4(b, d) is the true stress versus curves of the Ti 20 Zr 20 Hf 20 Nb 20 V 20 and Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 alloys obtained during compression testing for as-cast and heat treated alloys. The σ y values given in Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Engineering stress and true stress vs. strain compression curves for the Ti 20 Zr 20 Hf 20 Nb 20 V 20 (a, b) and Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 (c, d) alloys in the as-cast and annealed states.</figDesc><graphic coords="4,77.90,401.16,430.70,324.91" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>the case of the Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 , Figs. 7(a) and 8(a) show cast dendrite and interdendrite structures. It can be deduced from the XRD results that the dendrite phase must be the BCC solid solution structure while the interdendrite structures consist mostly of the two Laves phases. For this alloy ductile (Fig. 7(c)) and brittle (Fig. 8(c)) regions are seen after the compression test on the fracture surfaces. Fig. 7(c) shows dimple fracture of the Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 as cast sample. The sizes of dimples are about 5-10 μm. The large depth of the cavities of the relief shows that the work of destruction of the samples, despite on the presence of a large proportion of the fragile intermetallic phase component, is significant. After annealing at 1173 K this alloy sample shows dimpled fracture. Fracture energy of the Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 and Ti 20 Zr 20 Hf 20- Nb 20 V 20 alloy samples was determined to be 10.4 kJ/cm 3 and 54.4 kJ/ cm 3 , respectively. Theoretical calculations Table 4 shows the lattice parameters, elastic constants, and polycrystalline elastic moduli as well as the valence electron concentration (VEC) of the Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V, Cr, Ta), Ta 25 Nb 25 W 25 Mo 25 , Ta 20 Nb 20 W 20 Mo 20 V 20 and Zr 33.3 Hf 33.3 Nb 33.3 refractory HEAs.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>, our measured Young's modulus is 128 (112) MPa for Ti 20 Zr 20 Hf 20 Nb 20 V 20 (Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 ) whereas the ab initio E is 95 (104.4) MPa. It should note that Ti 20 Zr 20 Hf 20 Nb 20 V 20 is almost a single BCC phase whereas Ti 20 Zr 20 Hf 20 Nb 20 Cr 20 consists of a mixture of BCC and Laves phases. The theoretical results are expected to be valid for the completely random and homogeneous BCC solid</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. SEM images of Ti 20 Zr 20 Hf 20 Nb 20 V 20 in the as-cast state: (a) surface, (b) fracture macroscopic, and (c) fractured microscopic.</figDesc><graphic coords="5,103.58,612.51,396.95,113.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 6 .Fig. 7 .Fig. 8 .</head><label>678</label><figDesc>Fig. 6. SEM images of Ti 20 Zr 20 Hf 20 Nb 20 V 20 after annealing at 1173 K: (a) surface, (b) fractured macroscopic, and (c) fractured microscopic.</figDesc><graphic coords="6,94.79,53.18,396.95,116.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>aFig. 9 .</head><label>9</label><figDesc>Fig. 9. Characteristic surfaces of the Young's modulus for Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V, Cr Ta), Zr 33.3 Hf 33.3 Nb 33.3 , Ta 25 Nb 25 W 25 Mo 25 , and Ta 20 Nb 20 W 20 Mo 20 V 20 . The values on the color scale and on the axes are in GPa. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)</figDesc><graphic coords="7,128.30,339.59,347.47,377.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>The lattice parameter a (pm) of the pure metals and of the BCC phases were presented in the studied Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V, Cr) alloys.</figDesc><table><row><cell>Metal</cell><cell>a</cell><cell>Metal</cell><cell>a</cell></row><row><cell>Ti</cell><cell>327.6</cell><cell>V</cell><cell>330.1</cell></row><row><cell>Zr</cell><cell>358.2</cell><cell>Nb</cell><cell>302.0</cell></row><row><cell>Hf</cell><cell>355.9</cell><cell>Cr</cell><cell>288.4</cell></row><row><cell>HEA</cell><cell>a(Vegard)</cell><cell>a(Exp.)</cell><cell>a(DFT)</cell></row><row><cell>X = V</cell><cell>334.76</cell><cell>338.5</cell><cell>340.07</cell></row><row><cell>X = Cr</cell><cell>332.04</cell><cell>342.9</cell><cell>337.12</cell></row></table><note><p><p>(Vegard)  </p>represents the values of the BCC phases via Vegard's law, (Exp.) stands for the experimental values from the XRD, (DFT) is the calculated results from ab initio.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Quantitative chemical analysis of Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V, Cr) samples in as cast (T = 298 K) and annealed (T = 1173 K) states.</figDesc><table><row><cell>HEA</cell><cell>T (K)</cell><cell>Phase</cell><cell>Composition</cell><cell>Ti</cell><cell>Zr</cell><cell>Hf</cell><cell>Nb</cell><cell>V</cell><cell>Cr</cell></row><row><cell>X = V</cell><cell>298</cell><cell>BCC phase</cell><cell>(at.%)</cell><cell>19.42</cell><cell>20.36</cell><cell>20.47</cell><cell>24.32</cell><cell>15.43</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell>Grain boundaries</cell><cell>(at.%)</cell><cell>20.28</cell><cell>21.12</cell><cell>18.5</cell><cell>22.54</cell><cell>17.56</cell><cell>-</cell></row><row><cell></cell><cell>1173</cell><cell>BCC phase</cell><cell>(at.%)</cell><cell>19.17</cell><cell>19.33</cell><cell>22.58</cell><cell>22.13</cell><cell>16.8</cell><cell>-</cell></row><row><cell></cell><cell></cell><cell>Grain boundaries</cell><cell>(at.%)</cell><cell>20.51</cell><cell>19.18</cell><cell>23.73</cell><cell>22</cell><cell>14.58</cell><cell>-</cell></row><row><cell>X = Cr</cell><cell>298</cell><cell>BCC phase</cell><cell>(at.%)</cell><cell>18.44</cell><cell>21.9</cell><cell>24.26</cell><cell>26.29</cell><cell>-</cell><cell>9.11</cell></row><row><cell></cell><cell></cell><cell>Grain boundaries</cell><cell>(at.%)</cell><cell>18.83</cell><cell>19.92</cell><cell>22.49</cell><cell>15.74</cell><cell>-</cell><cell>23.01</cell></row><row><cell></cell><cell>1173</cell><cell>BCC phase</cell><cell>(at.%)</cell><cell>18.14</cell><cell>19.96</cell><cell>23.03</cell><cell>20.76</cell><cell>-</cell><cell>18.11</cell></row><row><cell></cell><cell></cell><cell>Grain boundaries</cell><cell>(at.%)</cell><cell>14.46</cell><cell>16.24</cell><cell>21.69</cell><cell>15.00</cell><cell>-</cell><cell>32.61</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 4</head><label>4</label><figDesc>Theoretical lattice parameters and elastic properties of refractory HEAs.</figDesc><table><row><cell>HEAs</cell><cell>a t</cell><cell>a mix</cell><cell>a e</cell><cell>B</cell><cell>c 11</cell><cell>c 12</cell><cell>c 44</cell><cell>c′</cell></row><row><cell>Ti 20 Zr 20 Hf 20 Nb 20 V 20</cell><cell>340.1</cell><cell>341.3</cell><cell>338.5</cell><cell>126.6</cell><cell>149.5</cell><cell>115.1</cell><cell>55.0</cell><cell>17.2</cell></row><row><cell>Ti 20 Zr 20 Hf 20 Nb 20 Cr 20</cell><cell>337.1</cell><cell>337.9</cell><cell>342.9</cell><cell>117.2</cell><cell>153.1</cell><cell>99.3</cell><cell>49.2</cell><cell>26.9</cell></row><row><cell>Ti 20 Zr 20 Hf 20 Nb 20 Ta 20</cell><cell>345.7</cell><cell>348.2</cell><cell>340.4</cell><cell>136.3</cell><cell>160.2</cell><cell>124.4</cell><cell>62.4</cell><cell>17.9</cell></row><row><cell>Ta 25 Nb 25 W 25 Mo 25</cell><cell>326.9</cell><cell>330.1</cell><cell>321.3</cell><cell>261.6</cell><cell>413.5</cell><cell>185.6</cell><cell>69.0</cell><cell>114</cell></row><row><cell>Ta 20 Nb 20 W 20 Mo 20 V 20</cell><cell>323.2</cell><cell>324.7</cell><cell>318.3</cell><cell>245.1</cell><cell>380.8</cell><cell>177.3</cell><cell>61.2</cell><cell>102</cell></row><row><cell>Zr 33.3 Hf 33.3 Nb 33.3</cell><cell>356.3</cell><cell>358.6</cell><cell>348.7</cell><cell>113.2</cell><cell>127.5</cell><cell>106.1</cell><cell>57.1</cell><cell>10.7</cell></row><row><cell></cell><cell>c 44 /c′</cell><cell>c 12 -c 44</cell><cell>G</cell><cell>E</cell><cell>v</cell><cell>B /G</cell><cell>A VR</cell><cell>VEC</cell></row><row><cell>Ti 20 Zr 20 Hf 20 Nb 20 V 20</cell><cell>3.200</cell><cell>60.1</cell><cell>34.6</cell><cell>95.0</cell><cell>0.375</cell><cell>3.663</cell><cell>0.154</cell><cell>4.4</cell></row><row><cell>Ti 20 Zr 20 Hf 20 Nb 20 Cr 20</cell><cell>1.827</cell><cell>50.1</cell><cell>38.6</cell><cell>104.4</cell><cell>0.352</cell><cell>3.034</cell><cell>0.043</cell><cell>4.6</cell></row><row><cell>Ti 20 Zr 20 Hf 20 Nb 20 Ta 20</cell><cell>3.491</cell><cell>62.0</cell><cell>37.9</cell><cell>104.1</cell><cell>0.373</cell><cell>3.596</cell><cell>0.176</cell><cell>4.4</cell></row><row><cell>Ta 25 Nb 25 W 25 Mo 25</cell><cell>0.605</cell><cell>116.6</cell><cell>84.4</cell><cell>228.7</cell><cell>0.354</cell><cell>3.097</cell><cell>0.030</cell><cell>5.5</cell></row><row><cell>Ta 20 Nb 20 W 20 Mo 20 V 20</cell><cell>0.602</cell><cell>116.1</cell><cell>75.1</cell><cell>204.5</cell><cell>0.361</cell><cell>3.263</cell><cell>0.031</cell><cell>5.4</cell></row><row><cell>Zr 33.3 Hf 33.3 Nb 33.3</cell><cell>5.351</cell><cell>49.01</cell><cell>29.7</cell><cell>81.89</cell><cell>0.379</cell><cell>3.815</cell><cell>0.298</cell><cell>4.3</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>É. Fazakas et al. / Int. Journal of Refractory Metals and Hard Materials 47 (2014) 131-138</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgment <rs type="person">E. Fazakas</rs> expresses her gratitude to the <rs type="funder">Matsumae International Foundation</rs> and <rs type="affiliation">WPI-Advanced Institute for Materials Research, Tohoku University</rs> for making the 6 month stay in Sendai possible. This work was supported in part by the <rs type="funder">World Premier International Research Center Initiative (WPI)</rs>, <rs type="funder">MEXT, Japan</rs>, the <rs type="funder">Ministry of Education and Science of the Russian Federation in the framework of Increase Competitiveness Program of NUST «MISiS»</rs> (No. <rs type="grantNumber">К2-2014-013</rs>), by the <rs type="funder">Hungarian OTKA</rs> grants <rs type="grantNumber">84078</rs> and <rs type="grantNumber">109570</rs>, and by the <rs type="funder">National 973 Project of China</rs> (Grant No. <rs type="grantNumber">2011CB606401</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_6Fkqn3Y">
+					<idno type="grant-number">К2-2014-013</idno>
+				</org>
+				<org type="funding" xml:id="_gGyKRxU">
+					<idno type="grant-number">84078</idno>
+				</org>
+				<org type="funding" xml:id="_jtgffYe">
+					<idno type="grant-number">109570</idno>
+				</org>
+				<org type="funding" xml:id="_4KJXcab">
+					<idno type="grant-number">2011CB606401</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Nanostructured high-entropy alloys with multiple principal elements: novel alloy design concepts and outcomes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Eng Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="299" to="303" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1758" to="1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb 25 Mo 25 Ta 25 W 25 and V 20 Nb 20 Mo 20 Ta 20 W 20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Microstructure and room temperature properties of a high-entropy TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloy Compd</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page" from="6043" to="6048" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Microstructure and elevated temperature properties of a refractory TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="4062" to="4074" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">FCC and BCC equivalents in as-cast solid solutions of Al x Co y Cr z Cu 0.5 Fe v Ni w high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Ke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Chim Sci Mater</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="669" to="683" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">High-entropy alloys -a new era of exploitation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Forum</title>
+		<imprint>
+			<biblScope unit="volume">560</biblScope>
+			<biblScope unit="page" from="1" to="9" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Entropy-driven phase stability and slow diffusion kinetics in an Al 0.5 CoCrCuFeNi high entropy alloy</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Luan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Q</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="165" to="172" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Sluggish diffusion in Co-Cr-Fe-Mn-Ni high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="4887" to="4897" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hume-Rothery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Smallman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Haworth</surname></persName>
+		</author>
+		<title level="m">The structure of metals and alloys</title>
+		<imprint>
+			<publisher>London: Institute of Metals and the Institution of Metallurgists</publisher>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Stabilization of metallic supercooled liquid and bulk amorphous alloys</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Inoue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="279" to="306" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties of a refractory NbCrMo 0.5 Ta 0.5 TiZr alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A</title>
+		<imprint>
+			<biblScope unit="volume">529</biblScope>
+			<biblScope unit="page" from="311" to="320" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Low-density, refractory multiprincipal element alloys of the Cr-Nb-Ti-V-Zr system: microstructure and phase analysis</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1545" to="1557" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of lowdensity, refractory multi-principal element alloys of the Cr-Nb-Ti-V-Zr system</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A</title>
+		<imprint>
+			<biblScope unit="volume">565</biblScope>
+			<biblScope unit="page" from="51" to="62" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Alloy design and properties optimization of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="830" to="838" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Local atomic structure of a high-entropy alloy: an X-ray and neutron scattering study</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dmowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Egami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall Mater Trans A</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1994" to="1997" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Determination of the transition to the high entropy regime for alloys of refractory elements</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Del Grosso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bozzolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mosca</forename><surname>Ho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloy Compd</title>
+		<imprint>
+			<biblScope unit="volume">534</biblScope>
+			<biblScope unit="page" from="25" to="31" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Composition dependence of bulk alloy properties</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bozzolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ferrante</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev B</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="5971" to="5980" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Method for calculating alloy energetic</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bozzolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ferrante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev B</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="493" to="496" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">The EMTO method and applications in computational quantum mechanics for materials engineers</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<publisher>Springer-Verlag</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Coherent-potential approximation for a nonoverlapping-muffin-tinpotential model of random substitutional alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Györffy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev B</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="2382" to="2384" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Coherent-potential model of substitutional disordered alloys</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Soven</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev</title>
+		<imprint>
+			<biblScope unit="volume">156</biblScope>
+			<biblScope unit="page" from="809" to="813" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Anisotropic lattice distortions in random alloys from first-principles theory</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Abrikosov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Johansson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev Lett</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="156401" to="156405" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Ab initio investigation of high-entropy alloys of 3d elements</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Varga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Delczeg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev B</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="75144" to="075122" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Structural stability of NiCoFeCrAl x high-entropy alloy from ab initio theory</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Delczeg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Varga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev B</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="85128" to="85133" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Ab initio design of elastically isotropic TiZrNbMoV x high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Varga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloy Compd</title>
+		<imprint>
+			<biblScope unit="volume">599</biblScope>
+			<biblScope unit="page" from="19" to="25" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Ground state of the electron gas by a stochastic method</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Ceperley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Alder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev Lett</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="566" to="570" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Thermophysical properties of materials</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Grimvall</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+			<publisher>North-Holland</publisher>
+			<pubPlace>Amsterdam</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Die Konstitution der mischkristalle und die raumfüllung der atome</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Z</forename><surname>Vegard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="17" to="21" />
+			<date type="published" when="1921">1921</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Ideal&quot; engineering alloys</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Nagasako</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kuramoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Chrzan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Rev Lett</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="105503" to="105507" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Relations between the elastic moduli and the plastic properties of polycrystalline pure metals</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Pugh</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Xcii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos Mag</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">367</biblScope>
+			<biblScope unit="page" from="823" to="843" />
+			<date type="published" when="1954">1954</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Critical Poisson&apos;s ratio for plasticity in Fe-Mo-C-B-Ln bulk amorphous steel</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">J</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Mcdermott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Poon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Shiflet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl Phys Lett</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="211905" to="211908" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

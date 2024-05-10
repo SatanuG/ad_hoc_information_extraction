@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Chemical diffusion in melts on the CaMgSi206-CaA12Si208 join under high pressures</title>
+				<funder ref="#_MG9qQpE">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">G</forename><forename type="middle">D E</forename><surname>Kubicki, '</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Muncill</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga'</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Geophysical Laboratory</orgName>
+								<orgName type="institution">&apos;Carnegie Institution of Washington</orgName>
+								<address>
+									<postCode>525</postCode>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="institution">Broad Branch Rd. NW</orgName>
+								<address>
+									<postCode>200 15</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Geology and Geophysics</orgName>
+								<orgName type="institution">Yale Universily</orgName>
+								<address>
+									<postCode>065 11</postCode>
+									<settlement>New Haven</settlement>
+									<region>CT</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Chemical diffusion in melts on the CaMgSi206-CaA12Si208 join under high pressures</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">26F9C91C58028C8D1DCA6415E5D09133</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This study was designed to obtain data on the rates of chemical diffusion between melt couples of diopside to DidOAneO compositian and to determine changes in diffusion rates with temperature and pressure. Chemical diffusion in melts along the join diopside-anorthite can be described as binary (i.e., compositions remain on the join in the diffusion zone) up to a difference of 20 w-t?&amp; between melt couple compositions. For larger concentration differences, mu~ticompo~ent diffusion matrices should be calculated. The diagonal elements of these matrices are similar to the effective binary diffusion coefficients determined from the binary diffusion equation, but the o&amp;diagonal terms are of the same order of magnitude and cannot be neglected. Pressures up to 20 kbars do not change the diffusion coefficients significantly, although a diffusivity maximum may exist near 10 kbars. Activation energies for MgO and A1203 diffusion are consistent with a mechanism of individual ionic species diffusing through the melt.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>THE APPLICATION OF KINETICS in geochemistry is generating a need for experiments designed to determine important kinetic parameters. Kinetic data for chemical diffusion are sparse in systems of geologic interest, and theories of reaction mechanisms have just begun to be generated for geochemical reactions. Movement is now underway toward understanding the kinetics of geochemical reactions as well as their thermodynamics. Since Bowen's early experiments ( BOWEN, 192 1 ), it has been recognized that rates and mechanisms of geochemicaf processes are important for understanding the time evolution of rocks, However, until recently, experimental. work has primarily focused on thermodynamics of geochemical systems, so the kinetic data base is not well developed. This investigation was designed to collect basic data on chemical diffusion in geochemically relevant melts and to study the mechanisms of diffusive transport for these melts.</p><p>The motivation for studying chemical diffusion in melts is that movement of ions across a concentration gradient is an important process in crystal growth, trace element partitioning, and maintenance of local equilibrium in partially molten systems <ref type="bibr" target="#b6">( HOFMANN, 1980 )</ref>. Chemical diffusion is not equivalent to tracer diffusion, which has been extensively studied in materials science and metallurgy, so data is needed for geochemical applications. The work of LASAGA <ref type="bibr">( 1982)</ref> and <ref type="bibr">MUNCILL and</ref><ref type="bibr">LASAGA ( 1387, 1988)</ref> has been directed toward developing an integrated theory of diffusion and crystal growth in simple systems on the plagioclase liquidus; this study is a first step into the kinetics of diffusion in systems with diopside on the liquidus.</p><p>compositions along the diops~de-a~o~hite join (especially near the eutectic) were chosen because they approximate a simplified basaltic melt for our experimental purposes. Viscosities and SiO, cantents in diopside-anorthite eutectic melts are similar to basalts <ref type="bibr" target="#b9">(KUSHIRO, 1980</ref><ref type="bibr" target="#b14">(KUSHIRO, , 1986;;</ref><ref type="bibr">SCARFE, 1973;</ref><ref type="bibr" target="#b15">SCARFE et al., 1983)</ref>, so the diffusive behaviors should be comparable. Simple com~sitions are also preferred because natural rocks have so many components that accurate dif-fusion coefficients for coupled, multi-comp#~ent diffusion are difficult to calculate given the precision of microprobe analysis (the order of the diffusion coefficient matrix is proportional to (n -1 )2 where y1 is the number of independently diffusing components in the system). Further, the samples do not contain Fe which is absorbed into Pt capsules or Na which may be volatilized during the experiment or microprobe analysis. Of course, it is desirable to run experiments on more complex melt compositions to approximate natural systems, but finding reliable diffusion coefficients for the simple diopside-anorthite system is a reasonable first step before attempting to solve complex, multi-component diffusion equations involving nine or more diffusing components.</p><p>Other investigators ( KUWIRO, 1983; WATSON, 198 1) have noted significant pressure effects on cation diffusivities id melts. Network-forming ions in silicic melts exhibit anomalous increases in diffusion coe&amp;cients with pressure, while network-m~ifying cation diffusion coefficients decrease with increasing pressure. The composition dependence of these trends must be understood in order to relate diffusion to melt structure. High-pressure experiments on chemical diffusion should help illuminate this relationship between structure and dynamics and constrain chemical diffusion in magmas within the Earth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL</head><p>Glasses were synthesized from spectroscopic grade oxide and CaCOj powders which were mixed for 15 min under ethanol in an automated mortar and pestle. Decarbonation of CaCO? was accomplished by heating the mixture at 900°C for over 4 h. Fusion of the samples took place at temperatures approximately 50°C above the liquidus for each composition ( 1350 to 1450°C) in a 1 atm F't-wound furnace. The melts were subsequently quenched in water. All glasses were pulverized, ground, and remelted to insure homogeneity. The glasses were crystal-free under the optical microscope and homogeneous within the precision of electron microprobe analysis.</p><p>Diffusion experiments were ;un in a %-inch solid-media pistoncylinder apparatus (Bout and ENGLAND, 1960) with diffusion couples contained with Pt capsules of 3 mm diameter and 6 mm length.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2709</head><p>Crushed glasses were loaded into Pt capsules and precompacted to give a flat boundary between the two compositions. The original interface of the diffusion couple was determined by marking this surface with Pt black and with Boltzmann-Matano analysis of the diffusion profiles. Cross-checking between these two methods allows the center of the diffusion zone to be located within + 100 pm. Experimental run times varied between 0 and 30 min at 1500 to 1650°C (?S°C) measured with a Pt-Pt90RhlO thermocouple uncorrected for pressure. The diffusion experiments were performed in a solid-media piston-cylinder with 2 to 20 kbars (+ 1 kbar) confining pressure (-7% friction). Large relative pressure uncertainties (*SO%) exist therefore in the 2 kbar experiments. However, internally heated pressure vessels were not used because of the high temperatures necessary to melt these compositions. Uncertainty in the low-pressure experiments do not significantly affect the results or conclusions of this paper. Experiments performed in 1 atm furnaces and quenched in water often show the effects of physical mixing that occurs when air bubbles form in the sample and move to escape. Mixing may also occur when the molten sample is moved from the furnace to the quench cup, since any shaking in these low viscosity melts may easily mix the ends ofthe couple. The in situ quench (quench rate = 75"C/ set) in the piston-cylinder eliminates these effects, and large compositional deviations in the high-pressure diffusion profiles were not observed (Fig. <ref type="figure">1</ref>) . Chemical analyses were performed on the MAC-automated electron microprobe at the Geophysical Laboratory. Point traverses of 100 to 200 points were made along the diffusion couple for 2 to 4 mm. All points with total percentages deviating more than f2 percentage points from 100% were rejected. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diffusion coefficients and experimental</head><p>conditions for all runs are given in Table <ref type="table">1</ref>. Temperature and pressure conditions in these experiments are fairly accurate, yet the diffusion coefficients are reliable to only 10%. The reason for this is the uncertainty in the time of diffusion used to calculate the diffusion coefficient. Run times are started from the moment the system reaches TExp and ended when the system is quenched. However, there is some amount of diffusion which takes place during the startup to reach experimental temperature and pressure and while the sample is cooling. "Zerotime" experiments were run to determine the magnitude of these uncertainties for the particular piston-cylinder employed in this work. Figure <ref type="figure">2</ref> shows a diffusion profile for a run which was raised to 1600°C and 2 kbars and quenched immediately upon reaching these conditions. A diffusion zone of 0.1 to 0.3 mm is already formed at t = 0, which is consistent with the width of observed Pt black interfaces for zero-time experiments. Using the larger value, 0.3 mm, and a diffusion coefficient of 1 .O X 1 0m6 cm 2/ set, the amount of time needed to produce this diffusion zone can be calculated from the relationship t= _b X(x/2)2 ( 1 which translates into a run time uncertainty of 60 sec. A time duration of this length is very significant when maximum run times are 1800 set, but the nature of this error would be to lower calculated diffusion coefficients. Hence, the numbers obtained here can be used as a constraint on the upper bound of the diffusion coefficients while realizing the actual value may be up to 10% lower. 2. Diffusion profiles from a "zero-time" experiment which was quenched immediately upon reaching experimental temperature and pressure conditions. Extent of diffusion zone (0.2 to 0.3 mm) gives an estimate of error due lo diffusion before t( 0) of the diffusion experiment.</p><p>Another factor that will tend to increase the value of the calculated dif'&amp;ion coefficient over the actual value is deviation of the probe traverse from the diffusion direction. If the line of the traverse is not parallel to the actual diffusion (i.e., perpendicular to the interface) then the observed length of the diffusion zone will be longer and result in a higher calculated diffusion coefficient. To test the magnitude of this effect, three separate probe traverses were performed on the sample in Fig. <ref type="figure">1</ref>. Calculated diffusion coefficients may vary by as much as 50% if the traverse is significantly off line.</p><p>M. S. Ghiorso (pers. comm.) has noted the effect of sample contraction on the calculated diffusion coefficient as well. Since the melt volume is always greater than the volume of the glass, the actual diffusion zone will be somewhat larger than that measured. This systematic error will tend to lower the calculated diffusion coefficient depending on the volume change (A V) between melt and glass. For diopside and anorthite, the dVwil1 be 6.7 and 5.8 cm3/mol (from 1450 and 1560°C to 25°C) or 8.1 and 5.3 vol%, respectively. The effect on the length of the diffusion profile will be ( AV) 'I3 (approximately 2% in each case). Solving Eqn. ( 1) for L) with a diffusion zone of 1000 Km and run time of 900 set, Di will be lowered by approximately 8% compared to the actual distance, x, that would exist in the melt at high temperature.</p><p>If chemical diffusion between the two compositions is binary, that is, if stoichiometries remain on the join between the two endmembers across the concentration gradient, then diffusion coefficients may be determined individually from their respective concentration profiles. Under the conditions of these ex~~ments, each end of the diffusion couple stays at a constant composition and the diffusion zone grows with time during the experiment. After a time, t. the melt is quenched and the concentration profile may be described by the following equation, which assumes a semi-infinite system BICKI and LASAGA, 1988). More runs and higher pressures are necessary to make a solid determination of the trend. These small changes may have been predicted from the work of KUSHIR~ ( 1980), who noted oniy slight pressure effects on the viscosity of anorthite melts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head><p>From the MgO and Al203 concentration profiles in Fig. <ref type="figure">5</ref>, the assumption of simple binary effusion in this system appears to be justified. The calculated curve fits the data for both elements through the diffusion zone and no "uphill" diffusion is observed. Diffusion coefficients for MgO and A&amp;O3 also are nearly equivalent within experimental error, which is required if simple binary diffusion occurs for these com~sitions.</p><p>To check the stoichiomet~ of the diffusion zone, one of the components (diopside or anorthite) is subtracted from the compositions measured along the diffusion gradient. If diffusion can be described by exchange of stoichiometric amounts of CaMgSizOs and CaAl$izOs then the remainder of the oxide components should stay on a stoichiometric ratio of the component which was not subtracted. For example, after dete~ining the ano~hite component of a point in the diffusion zone from the A&amp;O3 concentration, the ratio of Ga/Mg should equal 1 .O and for Si/Mg it should equal 2.0. Similarly, the diopside content may be found from the MgO content, and the remaining composition should have anorthite ratios of Ca/Al = 0.5 and Si/Al = 1 .O. Figure <ref type="figure">6</ref> shows that the compositions remain on stoichiomet~ at each end of the couple and in the diffusion zone. Simple binary diffusion may be applied in this case.</p><p>Even though the MgO and A1203 diffusion coefficients are equivalent within experimental error for each run in Fig. <ref type="figure" target="#fig_2">4</ref>, L)At is consistently Iower than &amp;so. Network-forming ions typically have lower di~usivity than the network-modi~e~ SO this difference is not too surprising. However, strictly speaking, simple binary diffusion should give the same diffusion coefficient for all ions, so this assumption may only hold within the accuracy of the analytical technique used.</p><p>Further, compositions with higher (A&amp;OS + SiOz) concentrations will be more polymerized and viscous than the opposite end of the diffusion couple, and the lower D AlzO3 may be reflecting this fact as well. Table <ref type="table">1</ref> shows that there is a decrease in the diffusion coefficients of MgO and A1203 from the diopside versus Di8,AnZ0 couple at 1600°C and 10 kbars to the D&amp;Am0 couple under the same conditions. The diffusion rates on either side of the Matano interface must not be exactly the same as would be true in simple binary diffusion, but they are so similar that the deviations from binary stoichiometry in the diffusion profile are not detectable within analytical error.</p><p>To test this hypothesis, experiments have been performed on large initial concentration gradients (e.g., Di vs. Di60An40). The simple binary diffusion assumption does hold reasonably well even for larger concentration gradients. However, measured data points deviate significantly enough that a multicomponent diffusion matrix with terms for interdependent diffusion coefficients (13, as well as I),,) may be employed to analyze couples that have large differences in composition. The aforementioned differences in viscosity between the ends of the diffusion couple may cause these off-join deviations. In this case, it is best not to assume that the L),'s are independent of the concentration of any elements, so the diffusion equation should bc solved in the following manner ( GUPTA and COOPER, 197 1) :</p><formula xml:id="formula_0">XifC3t = $ ('Y Di,( C)aCj/aX)- ,=I</formula><p>A substitution of X = x/2t'i2 is used so that Then, integration over X gives</p><formula xml:id="formula_1">"-I X 2 L;t,( dC;/dX) = -2 s ~(dC~fd~)d~. (6) ,=I -a</formula><p>The diffusion matrix is of order (n -1) where YI = the number of diffusing components and there are (n -1 )2 unknowns ( GUPTA and COOPER, 197 I). The components used here were MgO, A1203, and CaO; SiO1 was used as the dependent component because these profiles have the largest relative errors ( Figs. <ref type="figure">1</ref> and<ref type="figure">5</ref> ) . The data were then fit by linear regression with a 9th-order polynomial (Figs. <ref type="figure" target="#fig_4">7</ref> and<ref type="figure">8</ref>), and the derivatives and integrals necessary for Eqn. (6) were solved analytically to smooth out errors in the microprobe analysis.</p><p>The matrix equation is solved by integrating over three different values of .X along the diffusion profile and solving a system of three equations in three unknowns for each oxide.</p><p>Values for a diffusion matrix of MgO, A1203, and CaO are given in Table <ref type="table" target="#tab_0">2</ref>. The off-diagonal terms in the diffusion coefficient matrix are the same order of magnitude as the D,,, and the diagonal terms are slightly different than the EBDC values quoted in Table <ref type="table">1</ref>. Hence, the full multi-component diffusion matrix should be solved in order to accurately determine diffusivity in melts with large initial concentration gradients. However, off-diagonal terms are determinable in these experiments only when the initial concentration gradient is 40 wt% or greater between the diopside and the anorthite endmember. For most of our experiments, the 20 wt% endmember concentration gradient gives a difference of approximately 1 wt% CaO and SiOz, which does not allow us to accurately fit C(x) because probe error may be as great as &amp;OS wt%. Natural melts rarely involve very large concentration gradients. From studies of crystal growth of feldspars <ref type="bibr">( MUNCILL and LASAGA, 1987)</ref>. a 20 wt% concentration gradient in the quenched glass would be a maximum. With the higher diffusion rates in the diopside-anorthite system, concentration gradients should be even smaller. Thus. although the full multicomponent diffusion matrix is the mathematically correct solution to this problem <ref type="bibr" target="#b4">(GHIORSO, 1987)</ref>, the experimental and analytical errors involved are larger than would FIG. <ref type="figure">8</ref>. Plot similar to Fig. <ref type="figure" target="#fig_4">7</ref> for a diffusion experiment of Di versus Di,aAn40 at 2 kbars and 1600°C run for 750 sec. Note that even with a ADiopside component of 40, the CaO oxide weight percentage changes only by 1.5%. Thus, when the endmember variation in the couple is 20 wt% or less, accurate derivatives and integrals may be calculated for only two of the oxide components in the system. Diffusion may then be treated as a simple binary process with two components f MgO and A1203).  <ref type="figure" target="#fig_4">7</ref>) and Di WIIUS Di.,oAnaO (750 seconds run time; Figure <ref type="figure">8</ref>) at 1600°C, 2 kbars as determined from polynomial fits to concentration profiles (e.g. C(x), Figures <ref type="figure" target="#fig_4">7</ref> and<ref type="figure">8</ref>). Off-diagonal elements LX the "ame order of magnitude as the diagonal terms 50 chemical diffusion, in this case, should be treated as multicomponent diffusian and the effective binary diffusion coefficients quoted in Table <ref type="table">1</ref> should not be applied directly. Diffusivity changes with pressure are negligible up to 20 kbars, which gives an activation volume ( AV,) of approximately zero over this pressure range. The implication from this data is that the melt is not closing the holes which allow ionic migration in the structure. If large, complex ionic species were moving through the melt as stable units, one would expect pressures of 20 kbars to significantly hinder diffusion. Thus, temperature and pressure effects on the rate of diffusion in diopside-anorthite melts both indicate that individual ions are the species involved in the chemical diffusion mechanism.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>Chemical diffusion in the diopside-anorthite system may be described by the simple binary diffusion approximation if the concentration gradient of each component is less than 20 wt%. Effective binary diffusion coefficients decrease from approximately 3 X 10e6 in a Di-DisoAnzo couple to 1 X 10m6 cm*/sec in Di60An40-Di40An60 couple, indicating that diffusion is concentration dependent within this system. For systems with large concentration differences, multicomponent diffusion should be invoked and the entire (n -1 )2 diffusion matrix solved. Off-diagonal terms are relatively high in these diffusion matrices so there is a strong cation diffusion interdependence in these melts. Errors in determining D are also very large due to analytical imprecision and experimental startup times.</p><p>Activation energies of diffusion are similar to bond energies, which is consistent with a diffusion mechanism based on the movement of individual ions through the melt rather than large anionic complexes or polymer chains.</p><p>Pressure effects on the diopside-anorthite melt diffusion coefficients are negligible up to 20 kbars. Any decrease in diffusivity caused by higher pressures is likely to be more than offset by higher temperatures encountered at lower depths.</p><p>Piston-cylinder experiments are useful for studying chemical diffusion even at low pressures to alleviate any problems of physical mixing during the quench stage of the experiment. Melts with low viscosities will physically mix very readily with the escape of air bubbles or movement while quenching the sample. The in situ quench of the piston-cylinder apparatus is more reliable for maintaining the integrity of the experiment than the usual drop quench method employed in 1 atm furnaces.</p><p>Analysis of chemical diffusion in silicate melts is critical for understanding processes such as crystal growth from the atomistic perspective. Combining diffusion experiments with spectroscopic data on melt structures and computer simulations of melts ( KUBICKI and LASAGA, 1989) will allow us to understand the connections between structure and dynamics in silicate melts. With this achieved, we will be one step closer to an integrated theory of crystal growth in silicate melts.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>FIG. 1. Electron microprobe concentration profiles of MgO and A1203, CaO and Si02 (Note: 25% has been subtracted from the SiOz profile) in a DiseAnz,, versus D&amp;An.,,, diffusion couple. Solid lines are least-squares fit to the data using the assumption of simple binary diffusion and Eqn. (2). Deviation of data from best fit curves is less than the analytical uncertainty.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>FIG.2. Diffusion profiles from a "zero-time" experiment which was quenched immediately upon reaching experimental temperature and pressure conditions. Extent of diffusion zone (0.2 to 0.3 mm) gives an estimate of error due lo diffusion before t( 0) of the diffusion experiment.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIG. 4 .</head><label>4</label><figDesc>FIG. 3. Arrhenius plot of In(D) for MgO and AlSO3 versus l/Tfor melts of Di,&amp;n,,0 versus D&amp;An60 composition at 2 kbars. Uncertainty in activation energy calculated is large due to the small temperature range from which diffusion coefficients could be calculated (i.e., 1470 to 165OT). Note that the highest temperature 4's for MgO and At203 are identical so the data point is half-filly.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>FIG. 5. Diffusion profiles of all diffusing components in a couplewith a 40 wt% endmember initial concentration gradient (i.e., Di~oAnzo versus Di,+&amp;,). Figure5aillustrates the network-forming cations (25 wt% has been subtracted from the SiOz profile) and b, the network-modifying cations. Simple binary diffusion and Eqn. (2) fit the data accurately; however, a multicomponent diffusion matrix D may also be extracted from this data set.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIG. 7 .</head><label>7</label><figDesc>FIG.7. Microprobe traverse concentration profile of D&amp;&amp;r, versus Di,&amp;nW diffusion experiment at 2 kbars and 1600°C run for 600 set and 9th-degree polynomial fit to the data. Jumps in analytical data make accurate evaluation of dC/d,r impossible; the derivatives and integrals ofthe smooth polynomial function are used to determine the diffusion coefficient matrix. Fluctuations in the function used to model A&amp;O3 data at large +X result in errors in the calculated D, so care is taken to choose points where the data is accurately fitted by the polynomial when evaluating the integrals and derivatives for solution of the D.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>obtain accurate off-diagonal terms for this matrix. More precise analytical work will be necessary to circumvent this difficulty. For our data, the EBDCs may be applied without the loss of significant accuracy.The activation energies (AE,(MgO) = 327 + 43 and AE,(A120,) = 462 + 96 kJ/mol) obtained for chemical diffusion in these melts are similar to the bond energies of the ions (MgO = -362 and A10 = -508 kJ/mol).The quoted bond energies are for diatomic molecules, so individual Al-0 and Mg-0 bonds in the melt should be somewhat weaker than these values due to O-O repulsion in the coordination polyhedra. Hence, the activation energies are consistent with a diffusion mechanism involving individual ions rather than movement of complex anionic species such as MgO;" or A10c9. An individual ionic diffusion mechanism is also consistent with the results of OISHI et al. ( 198 1) for Ca*+ and A13+ diffusion in calcium alumino-silicate melts as well as the experiments of DUNN(1983)  for O*-in basaltic melts under pressure.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 2 -</head><label>2</label><figDesc>Diffusion coefficient (in cm'/sec) matrices for DilloAnlo vo~sus DiaoAnea (600 seconds run time; Figure</figDesc><table /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments-This</head><p>work was supported by <rs type="funder">National Science Foundation</rs> research grant <rs type="grantNumber">EAR-84-18413</rs>. The W. M. Keck Earth Sciences Research Scholarship (to G. E. Muncill) also provided support. Appreciation is also due to F. <rs type="person">R. Boyd</rs> and the <rs type="institution">Carnegie lnstitution of Washington's Geophysical Laboratory</rs> for use of the highpressure equipment. <rs type="person">Mark Ghiorso</rs>'s review is also gratefully acknowledged.</p><p>Editorial handling: <rs type="person">P. C. Hess</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_MG9qQpE">
+					<idno type="grant-number">EAR-84-18413</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Waterlike transport anomalies in liquid silicates at high T and P by computer simulation techniques</title>
+		<author>
+			<persName><forename type="first">Angellc</forename><forename type="middle">A</forename><surname>Cheeseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tammadd~n</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="87" to="97" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">( 192 I ) Diffusion in silicate melts</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Bowen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">I. Geol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="295" to="317" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Apparatus for phase equilibrium measurements at pressures up to 50 kilobars and temperatures up to 1750°C</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>England</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="741" to="748" />
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Oxygen chemical diffusion in three basaltic liquids at elevated temperatures and pressures</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dunn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1923" to="1930" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Chemical mass transfer in magmatic processes. III. Crystal growth, chemical diffusion and thermal diffusion in multicomponent silicate melts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ghiorso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="291" to="313" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The [D] matrix for multicomponent diffusion</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cooper</forename><forename type="middle">A R</forename><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physica</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="39" to="59" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Diffusion in natural silicate melts: A critical review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics ofh4agmatic Processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="385" to="410" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Molecular dynamics simof plagioclase in igneous systems: One-atmosphere experiments ulations of SiOZ melt and glass: Ionic and covalent models. Amer. and application of a simplified growth model</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Kubiciu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="299" to="330" />
+			<date type="published" when="1988">1988</date>
+			<pubPlace>Mineral</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Kinetics of chemical diffusion in melts from molecular dynamics simulations</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Kubicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eos</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page">1406</biblScope>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Viscosity, density, and structure of silicate melts at high pressures and their petrological applications</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of Magmatic Processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="93" to="120" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Effect of pressure on the diffusivity of networkforming cations in melts of jadeitic compositions</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1415" to="1422" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Crystal-growth kinetics of plagioclase in igneous systems: Isothermal H20-saturated experiments and extension of a growth model to complex silicate melts</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Muncill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="982" to="992" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Analysis of liquid-state interdiffusion in the system CaO-A1203-SO2 using multiatomic models</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Oishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nanba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Amer. Ceramic Sot</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="247" to="253" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Viscosity of basic magmas at varying pressure</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">241</biblScope>
+			<biblScope unit="page" from="101" to="102" />
+		</imprint>
+	</monogr>
+	<note>I973</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Viscosity of partial melts in the upper mantle</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophvs. Res</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="9343" to="9350" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Viscosity-temperature relationships at 1 atm in the system dioside-anorthite</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Wenzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">A</forename><surname>Kauffman D</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983">1983</date>
+			<publisher>Amer. Mineral</publisher>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="1083" to="1088" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Toward a master equation in crystal growth</title>
+		<author>
+			<persName><forename type="first">~a</forename><surname>Lasaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. J. Sci</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="1264" to="1288" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Crystal-growth kinetics WATSON E. B. ( 198 1) Diffusion in maimas at depth in the Earth: The effects of pressure and dissolved HzO</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Muncill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="291" to="301" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Rutile saturation in hydrous siliceous melts and its bearing on Ti-thermometry of quartz and zircon</title>
+				<funder ref="#_SypgFVj">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2007-04-19">19 April 2007</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Leslie</forename><forename type="middle">A</forename><surname>Hayden</surname></persName>
+							<email>haydel@rpi.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Earth &amp; Environmental Sciences</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<postCode>110 8th, 12180</postCode>
+									<settlement>St Troy</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><forename type="middle">Bruce</forename><surname>Watson</surname></persName>
+							<email>watsoe@rpi.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Earth &amp; Environmental Sciences</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<postCode>110 8th, 12180</postCode>
+									<settlement>St Troy</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Carlson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Earth &amp; Environmental Sciences</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<postCode>110 8th, 12180</postCode>
+									<settlement>St Troy</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Rutile saturation in hydrous siliceous melts and its bearing on Ti-thermometry of quartz and zircon</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2007-04-19">19 April 2007</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F307E41BA7B46D4B43577460A3DCD8A6</idno>
+					<idno type="DOI">10.1016/j.epsl.2007.04.020</idno>
+					<note type="submission">Received 17 January 2007; received in revised form 1 April 2007; accepted 5 April 2007</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>rutile</term>
+					<term>solubility</term>
+					<term>diffusion</term>
+					<term>quartz</term>
+					<term>zircon</term>
+					<term>thermometry</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The TiO 2 solubility of rutile-saturated hydrous siliceous melts has been investigated at P = 1 GPa and T = 650-1000 °C for several representative felsic compositions. The dissolution of a rutile crystal into a TiO 2 undersaturated melt provides information on both TiO 2 solubility and Ti diffusion. Results of this study confirm that TiO 2 solubility is strongly dependent on both temperature and melt composition, but not on the amount of H 2 O present. For a given T, TiO 2 content decreases as the melts become more felsic. The solubility of TiO 2 is given by: logðTi; ppmÞ ¼ 7:95</p><p>where T is in K and FM is a melt composition parameter,</p><p>in which the chemical symbols represent cation fractions. Results of dissolution experiments yield an activation energy (E ) for Ti transport in a hydrous felsic melt of 186 ± 27 kJ/mol and a frequency factor, D o , of 3.6 ± 1.2 m 2 /s. These results suggest an activation energy similar to that established for Zr diffusion in similar melts, but with Ti diffusion rates 2-3 orders of magnitude faster.</p><p>Both TiO 2 solubility and Ti diffusion have important applications in geothermometry, particularly in light of new thermometers calibrated for the incorporation of Ti into quartz and zircon. Rutile saturation is improbable in the types of melts where these thermometers are most likely to be useful, and therefore it is important that rutile solubility behavior in these melts to be wellconstrained. TiO 2 activities in silicic melts at typical magmatic temperatures are generally 0.6 or higher, implying that Ti thermometry of out-of-context zircons will rarely underestimate zircon crystallization temperature by more than ∼ 50 °C.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The systematic incorporation of titanium into quartz and zircon has generated two new geothermometers with the potential to be powerful tools in crustal petrology. The calibration of these thermometers requires the coexistence of rutile with quartz or zircon, a scenario that rarely occurs in the types of melts where these thermometers are most likely to be applied. This has resulted in the need to constrain rutile saturation behavior in hydrous siliceous melts in order to better define the actual TiO 2 activity in melts where rutile is not present. Here we present the results of an investigation of rutile solubility as a function of melt composition and temperature over the range of 650-1000 °C at 1 GPa utilizing an approach that also yields information on Ti diffusion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">General approach-thermodynamic analysis</head><p>This project expands on the previous work by Ryerson and Watson <ref type="bibr" target="#b0">[1]</ref> and Green and Adam <ref type="bibr" target="#b1">[2]</ref> on rutile saturation in magmas. The overall objective of this study was to determine the amount of the dissolved essential structural constituent (ESC), TiO 2 , required to saturate felsic melts of various compositions in the accessory mineral of interest, in this case rutile. Rutile saturation represents the simplest possible case in which a single oxide, TiO 2 , is the only ESC.</p><p>If the saturation of a melt in rutile is expressed at equilibrium by TiO rutile 2 X TiO melt 2 then the equilibrium constant is</p><formula xml:id="formula_0">K eq ¼ ½TiO 2 melt ½TiO 2 rutile ¼ a melt TiO 2 a rutile TiO 2 :<label>ð1Þ</label></formula><p>Because rutile is essentially pure TiO 2 , a rutile TiO 2 f 1, so Kia melt TiO 2 , and thus</p><formula xml:id="formula_1">a melt TiO 2 ¼ g melt TiO 2 d X melt TiO 2 ¼ exp ÀDG o RT<label>ð2Þ</label></formula><p>where γ is the activity coefficient and X is the mole fraction of TiO 2 in the melt, and ΔG o is the standard state free energy change for the dissolution reaction, R is the gas constant and T is absolute temperature. If g melt TiO 2 is assumed to be constant, then because of the dependence of K eq on 1/T we should expect the log-linear relationship between Ti concentration in the melt and inverse absolute temperature, as seen in the Ryerson-Watson (R-W) model <ref type="bibr" target="#b0">[1]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Experimental details</head><p>Both natural and synthetic siliceous glasses were used as starting materials in this study (Table <ref type="table" target="#tab_0">1</ref>), along with commercially grown rutile crystals. Both the trondhjemite and S-type peraluminous granite were prepared from oxides, ground under ethanol, and then subjected to three fusion cycles in a Pt crucible at 1400 °C. The intermediate composition glass powder was prepared by mixing equal amounts of finely ground trondhjemite and Lake County Obsidian (LCO), which was also fused at 1400 °C. The glasses were inspected to make sure that no TiO 2 remained undissolved following the fusion cycles. These particular melts were chosen because they not only cover a compositional range in terms of Si content but also have chemically distinct features that may affect rutile solubility, such as a high Na/K ratio in trondhjemite and the strongly peraluminous S-type granite.</p><p>All experiments were run in a piston-cylinder apparatus under hydrous conditions using the assembly illustrated in Fig. <ref type="figure" target="#fig_0">1</ref>. A welded pressure-sealing capsule of either Pt, Au, or Ag 60 Pd 40 was inserted into an oxidized Ni cylinder with several wells. A synthetic, polished rutile crystal was placed in the bottom of the capsule, which was then tightly packed with one of the four powdered silicate glasses. Distilled H 2 O (2-15 wt.%) was added with a syringe, then a metal gasket was placed on top, followed by an oxidized Ni lid. The sample was placed within the assembly so that the center of the capsule would be at the 'hot spot' during the run. Assemblies consisted of NaCl and Pyrex® sleeves with internal filler pieces of crushable MgO, Pyrex®, and fired pyrophyllite. All experiments were run in a 19 mm diameter assembly. Run temperatures were monitored using a W 97 Re 3 -W 75 Re 25 thermocouple. All experiments were run at 1 GPa, over a temperature range of 650-1200 °C and for durations of 2-336 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Analysis</head><p>The Cameca SX 100 electron microprobe was used for all analyses of Ti in hydrous glasses. Analyses were performed with a 40 μm beam at 15 kV accelerating potential and sample currents ranging from 35-55 nA for Ti and 10 nA for major elements. K α X-rays were collected through TAP crystals for Al, Si, Na and Mg; through LPET crystals for K, Ca, and Ti; and through an LiF crystal for Fe. Acquisition times were 60 s for Ti and 20 s for major elements, except Na and K; these elements are quite mobile in hydrous glasses under the electron beam and were measured first and for only 10 s to minimize losses. In order to confirm accurate measurement of Na and K, a test series was run which involved repeat analysis of the same spot. After three repeat analyses, Na and K values remained constant, which indicated that they were not being lost during analysis. Dissolved H 2 O was estimated by difference from a 100% total, which served to confirm the measured amounts of H 2 O added to the capsules prior to the experiments. During X-ray acquisition, two of the five spectrometers were devoted to simultaneous counting of the Ti peak, and the peaks were averaged at the end of the analysis to obtain a concentration. These analytical procedures resulted in a detection limit of ∼ 50 ppm Ti, which was well below the Ti concentrations in the lowest temperature experiments (where Ti ≈ 300 ppm). Although Ti detectability was not an analytical problem, the potential for secondary fluorescence of Ti was a concern that needed to be addressed. Analytical problems were encountered in preliminary experiments that involved growth of rutile crystals from glassy starting materials that had been predoped with (dissolved) TiO 2 . Attempts were made to analyze the glass following precipitation of rutile, but  the crystals were very small and dispersed throughout the glass, which led to significant secondary fluorescence of Ti in rutile during analysis of nearby glass. This led to the current experimental design involving the dissolution of a large single crystal at one end of the capsule. To avoid secondary fluorescence effects near the rutile crystal, analytical traverses were initiated at least 100-150 μm from the crystal/glass interface, extending roughly along the axis of the generally cylindrical sample to capture the entire diffusion profile.</p><p>Analyses were made every ∼ 100 um, to obtain approximately 35-40 data points along the length of the sample and to avoid overlap of analysis spots. Continuous analytical traverses were not possible in experiments run at temperatures below the liquidus of major phases; in these cases the glass was analyzed in selected spots near the rutile under the same operating conditions described above. Complete EMP analyses for selected runs are given in Table <ref type="table" target="#tab_1">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Rutile solubility</head><p>The solubility of rutile was obtained by the dissolution of a rutile crystal and subsequent diffusion of TiO 2 into the melt. The estimated titanium concentration at the crystalmelt interface, C o , is the amount of Ti that can be dissolved in the melt at the run temperature. Complete results are given in Fig. <ref type="figure">2</ref>. Because of the variable H 2 O content of the 30+ experiments, values have been normalized to correspond to an anhydrous melt. Rutile solubility is a function of both temperature and melt composition, so a compositional parameter is required to systematically describe the results. The R-W model for rutile solubility employs the parameter FM, which also proved suitable for describing the solubility behavior in this study. FM is a compositional parameter given by FM ¼ 1  Si d NaþKþ2ðCaþMgþFeÞ</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Al</head><p>where chemical symbols represent cation fractions. The quasi-thermodynamic rationale for the parameter is given by Watson and Harrison <ref type="bibr" target="#b5">[6]</ref> and Ryerson and Watson <ref type="bibr" target="#b0">[1]</ref>.</p><p>The solubility data are generally coherent and the variations with temperature and melt composition are highly systematic. As seen in Figs. <ref type="figure">2</ref> and<ref type="figure">3</ref>, there is, as expected, indeed a log-linear relationship between Ti concentration and T -1 . A new solubility model for rutile was determined by a multi-variable least squares analysis for temperature and melt composition for 31 experiments and is given as logðTi; ppmÞ ¼ 7:95ðF0:</p><formula xml:id="formula_2">09Þ À 5305ðF103Þ T þ 0:124ðF0:023ÞFM<label>ð3Þ</label></formula><p>(1σ errors) which provides a good fit to the data. This extended portion of the R-W model deviates somewhat from the original version; for example, a melt with an FM value of 1.5 at 750 °C is expected to have a saturation value of ∼ 900 ppm Ti compared to ∼1800 ppm Ti as predicted by the original R-W model. However, it is important to bear in mind that the R-W calibration was for much more mafic melt compositions, and the application to the silicic melts of interest here requires significant extrapolation. Given the differences between the two models, the question arises of how far beyond the range of compositions covered in this study can the Hayden-Watson (H-W) model be safely extrapolated?</p><p>The difference between the two models is primarily the result of the overall fit of data in the R-W model being heavily influenced by the high temperature data for mafic compositions (FM ≥ 4). There are clearly two distinct trend lines in the R-W data; one for hightemperature mafic compositions and a second for lower temperature silicic compositions. The combination of these silicic low-temperature R-W data with the new H-W data would form a consistent band of data over the entire spectrum of silicic compositions. Thus the H-W solubility model can be safely extrapolated to silicic compositions beyond the scope of this study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Effect of composition on TiO 2 solubility</head><p>The dependence of TiO 2 solubility on FM is illustrated in Fig. <ref type="figure" target="#fig_2">4</ref>. For a given temperature, TiO 2 solubility increases as FM increases, or as the melt becomes more basic. For a given melt composition as represented by FM, rutile solubility increases with temperature. The compositional effects are greater at higher temperatures, with solubility values converging as melts approach the liquidus. As previously mentioned, the starting glass compositions were selected not only for their range of FM values but also because they represented variety in both alkali composition (mole fraction Na/K) and in alumina saturation index, or ASI (mole fraction Al 2 O 3 /[CaO + Na 2 O + K 2 O]). It does not appear that the Na/K value alone is a factor in determining TiO 2 solubility at a given temperature. As expected, TiO 2 solubility does show a relationship with ASI, where solubility is relatively constant for ASI N 1, then shows a significant increase as the melt transitions to an alumina-undersaturated state. This is the result of a TiO 2 dissolution mechanism that involves the complexation of titanate with mono-and divalent cations present in excess of that required for charge balance of Al 3+ in 4-fold coordination <ref type="bibr" target="#b2">[3]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Effect of H 2 O on TiO 2 solubility</head><p>The rutile solubility model of Ryerson and Watson <ref type="bibr" target="#b0">[1]</ref> adequately described both anhydrous and hydrous data without explicitly including H 2 O melt contents, and it was thus concluded that H 2 O has little effect on rutile solubility. All of the experiments in this study were hydrous, including melts both saturated and undersaturated in H 2 O, and the results were also sufficiently well modeled without including a parameter for H 2 O content, suggesting little or no effect on solubility. Several experiments were conducted to specifically examine the effect of variable water content on rutile solubility. RS-37 and -38 were run with the S-type granite composition at 900 °C and 1 GPa for durations of 2.5-100 h with water contents of ∼12 and ∼ 7 wt.%, respectively (with 12 wt.% being the approximate solubility of H 2 O in the melt at these conditions). RS-41 and -42 were also run in S-type granite at the same P-T conditions but with water contents of ∼2.5 and ∼4 wt.%, respectively. Runs RS-9 and -20 had also been run in S-type granite at 900 °C and contained ∼ 9 and ∼ 6 wt.% H 2 O respectively. Results of these experiments confirm that water content does not have a significant effect on rutile solubility over the range examined.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Diffusion</head><p>In experiments run at temperatures above the majorphase liquidus, dissolution of the large rutile crystal resulted in a Ti concentration profile in the glass that is characteristic of diffusion as the transport mechanism (Fig. <ref type="figure" target="#fig_3">5a</ref>). These profiles provide information necessary to calculate diffusion coefficients for Ti in these melts. Because of interference from major mineral phases, not all experiments yielded systematic diffusion profiles. There is also significant scatter in the diffusivity values, and the data gleaned from this study should be considered preliminary.</p><p>To compute a diffusion coefficient from the data, the experiments were assumed to conform to the following boundary conditions: the rutile/melt interface at x = 0 is fixed; the rutile and melt are semi-infinite regions, with the glass having some uniform background concentration. The solution of Fick's Second Law for these initial and boundary conditions is given by</p><formula xml:id="formula_3">C ðx;tÞ ¼ C o þ ðC b À C o Þerf x 2 ffiffiffiffiffi Dt p<label>ð4Þ</label></formula><p>where C (x,t) is the concentration of Ti at a distance x from the crystal-glass interface at time t, C o is the The assumption of a stationary boundary is not entirely accurate, since the Ti present in the melt has become available as a result of the dissolution of the rutile. However, this proves to be insignificant here as the movement of the boundary is extremely small compared to the length of the diffusion profile.</p><p>In addition to computing D by fitting the profile to Eq. ( <ref type="formula" target="#formula_3">4</ref>), we have also linearized the profile by inverting the data through the error function. Concentration data are recast as</p><formula xml:id="formula_4">erf À1 C x;t À C o C b À C o ¼ x 2 ffiffiffiffiffi Dt p<label>ð5Þ</label></formula><p>where the solubility, C o , is a variable within a limited range. These transformed data are plotted against x and the fit of the line is determined by a least squares regression. The data are reduced using a succession of trial C o values close to the value measured by EMP. The value of C o that yields a zero intercept of the line is the Ti solubility in the melt. Once the value of C o is determined, the slope of the corresponding line is equal to 1= ffiffiffiffiffiffiffi ffi 4Dt p , and determination of D requires only the known value of t. This data treatment is shown in Fig. <ref type="figure" target="#fig_3">5b</ref>.</p><p>Calculated values of D and their associated errors are given in Table <ref type="table" target="#tab_2">3</ref> and shown in Fig. <ref type="figure" target="#fig_4">6</ref>. All diffusion experiments contained between ∼ 5 and 12 wt.% H 2 O. The effect of variable H 2 O content on diffusivity is not likely to be significant under these experimental conditions. Previous work by Watson <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref> indicates that most of the increase in log D occurs over the first 2-3 wt.% of dissolved H 2 O before reaching a plateau between 4 and 6 wt.%. Therefore water content was not a variable of concern in characterizing Ti diffusion in these melts. These data define the Arrhenius relationship D = D o exp(-E/RT), in which the activation energy, E, is equal to 186 ± 27 kJ/mol and the frequency factor, D o , is 3.6 ± 1.2 m 2 /s.</p><p>Both titanium and zirconium are important trace elements in thermometry of granitic rocks. The solubility and diffusion behavior of Zr in hydrous granitic melts has been well characterized <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b5">6]</ref>. It is worth noting that the preliminary data for diffusivity of Ti indicates that diffusion is 2-3 orders of magnitude faster than that of Zr (Fig. <ref type="figure" target="#fig_4">6</ref>). The implications of Zr being the slower diffusing species are significant to the crystallization thermometer for Ti in zircon recently developed by Watson et al. <ref type="bibr" target="#b6">[7]</ref>. Zircon growth from a melt is rate-limited by Zr diffusion. Ti diffusion is faster and therefore Ti can diffuse away from the advancing crystal-melt interface of the growing zircon, precluding accumulation of dissolved Ti and local rutile saturation in the diffusive boundary layer <ref type="bibr" target="#b7">[8]</ref> and thus precluding disequilibrium in Ti partitioning between the zircon and the melt.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Applications to Ti thermometry</head><p>While there are few direct thermometry applications of this work due to the infrequent occurrence of rutile in igneous systems, it has important implications for the recently developed geothermometers based on Ti incorporation in quartz and zircon.</p><p>The Ti-in-quartz (or TitaniQ) <ref type="bibr" target="#b8">[9]</ref> and Ti-in-zircon thermometers <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11]</ref> are two experimentally based geothermometers that define a log-linear relationship between Ti concentration in the respective mineral and inverse absolute temperature. Each geothermometer was calibrated in the presence of rutile, thus with a TiO 2 = 1. The most accurate application of these thermometers to rutile-absent systems requires accounting for sub-unity a TiO 2 , which can be constrained by the solubility model and presented here. The thermometers when adjusted for a rutile-absent system are</p><formula xml:id="formula_5">T ð -CÞ ¼ À3765 log X Qtz Ti a TiO 2 h i À 5:69 À 273<label>ð6Þ</label></formula><p>and T ð-CÞ ¼ À4800 log½X Zrc Ti þ log½a SiO2 À log½a TiO2 À 5:711</p><formula xml:id="formula_6">À 273<label>ð7Þ</label></formula><p>for Ti-in-quartz and Ti-in-zircon, respectively. As seen in Eq. ( <ref type="formula" target="#formula_5">6</ref>), the Ti-in-quartz thermometer is relatively straightforward in terms of the adjustment for the a TiO 2 of the system. In the case of the Bishop Tuff rhyolite, there is good agreement between the a TiO 2 predicted by the solubility model (0.58-0.60), the a TiO 2 determined empirically by Wark, et al. <ref type="bibr" target="#b11">[12]</ref>, and the estimated a TiO 2 based on Fe-Ti oxide pairs (0.63 ± 0.03).</p><p>The Ti-in-zircon thermometer has important implications for understanding the conditions of the Hadean Earth <ref type="bibr" target="#b9">[10]</ref>, in addition to its more general applications to thermometry of crustal rocks. These Hadean zircons are no longer associated with their original host material, and their coexistence with rutile cannot be established. Additionally, given the nature of the application, magma temperature is unknown. However, generally speaking, magma temperature is well correlated with magma composition, as described by a melt's FM value. If FM is known, magmatic temperature can be inferred and the corresponding rutile solubility can be read off of the contours (see <ref type="bibr" target="#b9">[10]</ref>, supporting online materials for further discussion). This a TiO 2 should be consistent with any other constraints based on the presence or absence of other Ti-bearing minerals such as ilmenite or sphene.</p><p>The common occurrence of these Ti-bearing phases indicates that a TiO 2 is typically fairly high in most rocks. However the assumption of a TiO 2 = 1 to rutile-absent crustal rocks or detrital zircons can result in temperature estimates that are too low by as much as ∼70 °C for an actual a TiO 2 = 0.5. This is particularly significant when considering the implications of the crystallization temperatures of the  Hadean zircons in regards to the conditions of the early Earth. The refined rutile solubility model not only allows for a more accurate estimate of a TiO 2 to specific systems, but when applied to a wide variety of representative rocks, confirms that for most igneous and metamorphic rocks existing today, generally a TiO 2 ≥ 0.5 (Table <ref type="table" target="#tab_3">4</ref>). In order to calculate a TiO 2 for glassy compositions, the temperature of the melt must be known or approximated and the FM must be determined from major element analysis. The solubility model will yield the amount of Ti required for melt saturation at the given conditions, and a TiO 2 is determined by assuming Henrian behavior-i.e., dividing the measured levels of Ti in the glass by the amount required for saturation, a TiO 2 ¼ Ti glass measured Ti glass saturated :</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>The principal conclusions of this study are:</p><p>1) The saturation behavior of titanium in hydrous siliceous melts over the temperature range 650°to 1000 °C deviates somewhat from the Ryerson-Watson model, which was calibrated for more mafic compositions. Solubility data from this study are systematic and can be modeled as a function of temperature and melt composition using the parameter FM. 2) Variable water content does not appear to have affect TiO 2 solubility. Melts ranging from water saturated (∼ 12 wt.%) down to ∼ 2 wt.% H 2 O showed virtually no difference in TiO 2 melt concentrations. 3) Diffusion coefficients calculated from titanium concentration profiles adjacent to a rutile/melt interface produce a (preliminary) activation energy (E) of 186± 27 kJ/mol and frequency factor (D o ) of 3.6±1.2 m 2 /s for systems containing at least ∼5% H 2 O. This activation energy is quite similar to that reported for zirconium diffusion in hydrous granitic melts <ref type="bibr" target="#b3">[4]</ref>, however for a given temperature Ti diffusion is 2-3 orders of magnitude faster than Zr diffusion. 4) TiO 2 activities in silicic melts at typical magmatic temperatures are generally 0.6 or higher, which means that Ti thermometry of out-of-context zircons will rarely underestimate zircon crystallization temperature by more than ∼ 50 °C.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Piston-cylinder assembly (left) and capsule design (right).</figDesc><graphic coords="3,73.64,67.29,392.73,174.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .Fig. 3 .</head><label>23</label><figDesc>Fig. 2. Least-squares multi-variable calibration of rutile solubility model for siliceous melts. Solid line represents the solubility curve for a melt of FM = 1.5 based on the solubility equation.</figDesc><graphic coords="4,59.92,67.29,183.57,149.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Effect of melt composition (FM) on rutile solubility.</figDesc><graphic coords="5,52.10,517.78,190.75,152.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Example of diffusion profile in glass. Run RS-11, standard error function fit. R 2 = 0.9979 (a) Linearized profile of run RS-11 (b).</figDesc><graphic coords="6,46.71,67.29,210.19,350.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Diffusivity of Ti vs. Zr in comparable melts. Zr diffusion data from Harrison and Watson ([4]).</figDesc><graphic coords="7,47.74,504.68,199.39,155.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Electron probe microanalysis of glass starting materials</figDesc><table><row><cell></cell><cell cols="3">Trondhjemite S-type granite LCO</cell><cell>Intermediate mix</cell></row><row><cell>SiO 2</cell><cell>70.94</cell><cell>75.45</cell><cell>75.64</cell><cell>73.29</cell></row><row><cell>TiO 2</cell><cell>0.23</cell><cell>0.12</cell><cell>0.10</cell><cell>0.17</cell></row><row><cell cols="2">Al 2 O 3 14.99</cell><cell>15.85</cell><cell>13.62</cell><cell>14.31</cell></row><row><cell>FeO</cell><cell>1.35</cell><cell>0.55</cell><cell>0.70</cell><cell>1.03</cell></row><row><cell>MgO</cell><cell>0.72</cell><cell>0.16</cell><cell>0.07</cell><cell>0.391</cell></row><row><cell>CaO</cell><cell>3.46</cell><cell>0.48</cell><cell>0.35</cell><cell>.91</cell></row><row><cell>Na 2 O</cell><cell>5.96</cell><cell>2.84</cell><cell>3.34</cell><cell>4.65</cell></row><row><cell>K 2 O</cell><cell>1.44</cell><cell>1.80</cell><cell>2.26</cell><cell>1.85</cell></row><row><cell>FM</cell><cell>2.17</cell><cell>0.79</cell><cell>0.96</cell><cell>1.44</cell></row><row><cell>ASI a</cell><cell>0.968</cell><cell>1.246</cell><cell>1.066</cell><cell>1.046</cell></row><row><cell>Na/K</cell><cell>6.289</cell><cell>2.398</cell><cell>2.247</cell><cell>3.820</cell></row><row><cell cols="5">a Alumina Saturation Index, molar Al 2 O 3 /(CaO + Na 2 O+ K 2 O).</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Microprobe analyses of selected rutile-saturated glasses</figDesc><table><row><cell>Run No.</cell><cell>RS10</cell><cell>RS8</cell><cell>RS13</cell><cell>RS16</cell><cell>RS11</cell><cell>RS9</cell><cell>RS14</cell><cell>RS12</cell><cell>RS21</cell><cell>RS15</cell><cell>RS25</cell><cell>RS26</cell><cell>RS27</cell></row><row><cell>Starting composition</cell><cell cols="2">Trondhjemite</cell><cell></cell><cell></cell><cell cols="2">S-type granite</cell><cell></cell><cell>LCO</cell><cell></cell><cell></cell><cell cols="2">Intermediate mix</cell><cell></cell></row><row><cell>T (°C)</cell><cell>1000</cell><cell>900</cell><cell>800</cell><cell>700</cell><cell>1000</cell><cell>900</cell><cell>800</cell><cell>1000</cell><cell>900</cell><cell>800</cell><cell>1000</cell><cell>900</cell><cell>800</cell></row><row><cell>SiO 2</cell><cell>65.33</cell><cell>66.44</cell><cell>68.34</cell><cell>70.07</cell><cell>70.93</cell><cell>70.56</cell><cell>71.41</cell><cell>71.17</cell><cell>71.82</cell><cell>72.09</cell><cell>68.1</cell><cell>68.5</cell><cell>68.75</cell></row><row><cell>TiO 2</cell><cell>0.99</cell><cell>0.70</cell><cell>0.23</cell><cell>0.09</cell><cell>0.84</cell><cell>0.61</cell><cell>0.2</cell><cell>0.54</cell><cell>0.39</cell><cell>0.2</cell><cell>0.79</cell><cell>0.64</cell><cell>0.25</cell></row><row><cell>Al 2 O 3</cell><cell>13.92</cell><cell>14.25</cell><cell>12.99</cell><cell>14.05</cell><cell>14.59</cell><cell>14.19</cell><cell>13.22</cell><cell>13.32</cell><cell>13.44</cell><cell>13.91</cell><cell>14.26</cell><cell>13.06</cell><cell>13.49</cell></row><row><cell>FeO</cell><cell>0.58</cell><cell>0.65</cell><cell>0.23</cell><cell>0.35</cell><cell>0.41</cell><cell>0.3</cell><cell>0.02</cell><cell>0.27</cell><cell>0.2</cell><cell>0.03</cell><cell>0.55</cell><cell>0.22</cell><cell>0.22</cell></row><row><cell>MgO</cell><cell>0.51</cell><cell>0.57</cell><cell>0.59</cell><cell>0.17</cell><cell>0.15</cell><cell>0.17</cell><cell>0.24</cell><cell>0.06</cell><cell>0.08</cell><cell>0.13</cell><cell>0.41</cell><cell>0.35</cell><cell>0.29</cell></row><row><cell>CaO</cell><cell>3.19</cell><cell>3.21</cell><cell>3.06</cell><cell>1.96</cell><cell>0.94</cell><cell>0.97</cell><cell>1.06</cell><cell>0.43</cell><cell>0.57</cell><cell>0.57</cell><cell>1.97</cell><cell>1.81</cell><cell>1.9</cell></row><row><cell>Na 2 O</cell><cell>4.59</cell><cell>4.28</cell><cell>5.08</cell><cell>5.33</cell><cell>2.55</cell><cell>2.33</cell><cell>2.77</cell><cell>3.14</cell><cell>3.14</cell><cell>3.41</cell><cell>4.1</cell><cell>4.2</cell><cell>4.45</cell></row><row><cell>K 2 O</cell><cell>1.39</cell><cell>1.48</cell><cell>1.51</cell><cell>1.54</cell><cell>3.56</cell><cell>3.75</cell><cell>4.21</cell><cell>2.55</cell><cell>2.35</cell><cell>2.51</cell><cell>1.93</cell><cell>2</cell><cell>2.11</cell></row><row><cell>H 2 O</cell><cell>9.50</cell><cell>8.42</cell><cell>7.97</cell><cell>6.44</cell><cell>6.03</cell><cell>7.12</cell><cell>6.87</cell><cell>8.06</cell><cell>8.01</cell><cell>7.15</cell><cell>7.89</cell><cell>9.22</cell><cell>8.54</cell></row><row><cell>Total</cell><cell>100</cell><cell>100</cell><cell>100</cell><cell>100</cell><cell>100</cell><cell>100</cell><cell>100</cell><cell>100</cell><cell>100</cell><cell>100</cell><cell>100</cell><cell>100</cell><cell>100</cell></row><row><cell>FM</cell><cell>1.874</cell><cell>1.810</cell><cell>1.976</cell><cell>1.569</cell><cell>0.787</cell><cell>0.807</cell><cell>0.792</cell><cell>0.970</cell><cell>0.952</cell><cell>0.966</cell><cell>1.495</cell><cell>1.500</cell><cell>1.521</cell></row></table><note><p>Normalized to 100%. H 2 O calculated by difference. Average of 15-30 analysis spots.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc></figDesc><table><row><cell cols="2">Diffusivity of Ti</cell><cell></cell><cell></cell></row><row><cell>Experiment</cell><cell>Temperature</cell><cell>Duration</cell><cell>Diffusivity</cell></row><row><cell></cell><cell>(°C)</cell><cell>(h)</cell><cell>(m 2 /s)</cell></row><row><cell>RS-8</cell><cell>900</cell><cell>100</cell><cell>2.23E-12 ± 2.85E-13</cell></row><row><cell>RS-9</cell><cell>900</cell><cell>100</cell><cell>7.00E-13 ± 6.57E-14</cell></row><row><cell>RS-11</cell><cell>1000</cell><cell>20</cell><cell>4.97E-12 ± 1.54E-13</cell></row><row><cell>RS-15</cell><cell>800</cell><cell>336</cell><cell>9.05E-13 ± 2.51E-13</cell></row><row><cell>RS-25</cell><cell>1000</cell><cell>24</cell><cell>1.59E-12 ± 2.23E-13</cell></row><row><cell>RS-27</cell><cell>800</cell><cell>72</cell><cell>1.42E-13 ± 3.44E-14</cell></row><row><cell>RS-28</cell><cell>1200</cell><cell>2</cell><cell>1.27E-10 ± 2.16E-11</cell></row><row><cell>RS-29</cell><cell>1200</cell><cell>2</cell><cell>1.34E-10 ± 7.25E-11</cell></row><row><cell>RS-31</cell><cell>850</cell><cell>48</cell><cell>1.07E-12 ± 1.75E-13</cell></row><row><cell>RS-36</cell><cell>950</cell><cell>25</cell><cell>1.36E-12 ± 8.11E-14</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 TiO</head><label>4</label><figDesc>The first group of rocks are amongst those used in the calibration of the Ti-in-zircon thermometer of Watson and Harrison<ref type="bibr" target="#b9">[10]</ref>. The range of TiO 2 activities were calculated using the new solubility model and published data for TiO 2 content of glasses, major element compositions, and approximate known temperature ranges. The second group of rocks are rhyolites which were analyzed by EMP at RPI. The range of crystallization temperatures for these rocks are based on Ti-in-quartz and Zr-in-sphene thermometry<ref type="bibr" target="#b16">[17]</ref>.</figDesc><table><row><cell cols="2">2 activities of select rocks</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Sample</cell><cell>TiO 2 glass</cell><cell>FM</cell><cell>T range</cell><cell>a TiO 2</cell></row><row><cell></cell><cell>(ppm)</cell><cell></cell><cell>(°C)</cell><cell></cell></row><row><cell>Taylor Creek</cell><cell>1103</cell><cell>1.45</cell><cell>775-840</cell><cell>0.66 ± 0.28</cell></row><row><cell>rhyolite [13]</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Taupo[14]</cell><cell>3000</cell><cell>2.01</cell><cell>810-860</cell><cell>1.16 ± 0.34</cell></row><row><cell>Alid volcanics</cell><cell>1200</cell><cell>1.91</cell><cell>840-900</cell><cell>0.34 ± 0.11</cell></row><row><cell>[15]</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Yellowstone</cell><cell>1567</cell><cell>1.64</cell><cell>800-900</cell><cell>0.58 ± 0.38</cell></row><row><cell>melt incl. [16]</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Bishop Tuff</cell><cell>425</cell><cell>1.5</cell><cell>730</cell><cell>0.60</cell></row><row><cell>rhyolite I [9]</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Bishop Tuff</cell><cell>900</cell><cell>1.5</cell><cell>800</cell><cell>0.58</cell></row><row><cell>rhyolite II [9]</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Lund [17]</cell><cell>890</cell><cell>1.4</cell><cell>754-814</cell><cell>0.70 ± 0.28</cell></row><row><cell>Fraction [17]</cell><cell>497</cell><cell>1.4</cell><cell>734-786</cell><cell>0.51 ± 0.18</cell></row><row><cell>Toiyabe [17]</cell><cell>656</cell><cell>1.4</cell><cell>754-762</cell><cell>0.69 ± 0.03</cell></row><row><cell>Hiko [17]</cell><cell>844</cell><cell>1.6</cell><cell>748-763</cell><cell>0.86 ± 0.08</cell></row><row><cell>Fish Canyon [17]</cell><cell>802</cell><cell>1.5</cell><cell>746-772</cell><cell>0.81 ± 0.13</cell></row><row><cell>Vista lava [17]</cell><cell>648</cell><cell>1.5</cell><cell>739-783</cell><cell>0.64 ± 0.19</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>L.A. Hayden, E.B. Watson / Earth and Planetary Science Letters 258 (2007) 561-568</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported by the <rs type="funder">National Science Foundation</rs> under grant number <rs type="grantNumber">EAR 0440228</rs> to <rs type="person">E.B. Watson</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_SypgFVj">
+					<idno type="grant-number">EAR 0440228</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p>Supplementary data associated with this article can be found, in the online version, at doi:10.1016/j. epsl.2007.04.020.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Rutile saturation in magmas: implications for Ti-Nb-Ta depletion in island-arc basalts</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ryerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="225" to="239" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Pressure effect on Ti-or P-rich accessory mineral saturation in evolved granitic melts with differing K 2 O/ Na 2 O ratios</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Adam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lithos</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="271" to="282" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The influence of TiO 2 on the structure and derivative properties of silicate melts</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ryerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Virgo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1150" to="1165" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Kinetics of zircon dissolution and zirconium diffusion in granitic melts of variable water content</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="66" to="72" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Diffusion in volatile-bearing magmas</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Volatiles in Magmas</title>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Mineralogical Society of America</publisher>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="volume">30</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Zircon saturation revisited: temperature and composition effects in a variety of crustal magma types</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="295" to="304" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Crystallization thermometers for zircon and rutile</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Wark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="413" to="433" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Kinetic disequilibrium in trace element partitioning between phenocrysts and host lava</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Albarede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bottinga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="141" to="156" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">TitaniQ: a titanium-in-quartz geothermometer</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Wark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page" from="743" to="754" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Zircon thermometer reveals minimum melting conditions on earliest earth</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">308</biblScope>
+			<biblScope unit="page" from="841" to="844" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">New thermodynamic models and revised calibrations for the Ti-in-zircon and Zr-in-rutile thermometers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ferry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint/>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Pre-eruption recharge of the Bishop magma system</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Wark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hildreth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Spear</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Cherniak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geology</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="235" to="238" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Volatiles and lithophile elements in Taylor Creek rhyolite: constraints from glass inclusion analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Duffield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1628" to="1645" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Lack of volatile gradient in the Taupo plinian-ignimbrite transition: evidence from melt inclusion analysis</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Dunbar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Kyle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="612" to="618" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Comagmatic A-type granophyre and rhyolite from the Alid Volcanic Center</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Lowenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Clynne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Bullen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1707" to="1721" />
+			<date type="published" when="1997">1997</date>
+			<pubPlace>Eritrea, Northeast Africa</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Low-δ 18 O rhyolites from Yellowstone: magmatic evolution based on analyses of zircons and individual phenocrysts</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">N</forename><surname>Binderman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Valley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="1491" to="1517" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Hayden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Wark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Thermobarometer For Sphene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Goldschmidt</forename><surname>Abstract</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006">2006</date>
+			<pubPlace>Melbourne, Australia</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

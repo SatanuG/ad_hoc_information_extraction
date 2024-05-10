@@ -1,0 +1,1830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Monazite solubility implications for the of felsic magmas and dissolution kinetics: thorium and light rare earth chemistry</title>
+				<funder ref="#_mP5UuMR">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Robert</forename><forename type="middle">P</forename><surname>Rapp</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Geology</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<postCode>12180-3590</postCode>
+									<settlement>Troy, New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><forename type="middle">Bruce</forename><surname>Watson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Geology</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<postCode>12180-3590</postCode>
+									<settlement>Troy, New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Monazite solubility implications for the of felsic magmas and dissolution kinetics: thorium and light rare earth chemistry</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">12E5589025B278D6A9C8A0DAD2B51371</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A series of monazite dissolution experiments was conducted in a hydrous (1-6 wt.%) granitic melt at 8 kbar over the temperature range 1,000-1,400 ~ C. A polished cube of monazite was immersed in a natural obsidian melt and allowed to partially dissolve. Electron microprobe traverses perpendicular to the crystal-melt interface revealed concentration gradients in the LREEs and P. Diffusivities of the LREEs and P were calculated from these profiles, yielding the following Arrhenius relations for the LREEs: D--0.23 exp(-60.1 kcal mol 1/RT) at 6% water D=2.30 x 107 exp(-122.1 kcal mol-1/RT) at 1% water These results demonstrate the importance of dissolved water on REE diffusion. Phosphorus diffusivities are nearly identical to those of the rare-earths, suggesting that P diffusion charge-compensates REE diffusion. The concentration of LREEs required for monazite saturation in these melts is given by the level of dissolved LREEs at the crystal-melt interface. These values also show a dependence on dissolved water, with LREE~a,=60 ppm at 6% H~O when extrapolated down to 700 ~ C, and LREE~,t = 30 ppm at 1% HzO. Calculated dissolution rates based on the above parameters indicate that minute (&lt; 30 pm diameter) monazite crystals will be readily digested by an enclosing anatectic magma under reasonable geologic conditions (i.e., T = 700-800 ~ C and &gt; 2% H20), whereas larger (&gt; 50 pm) crystals will likely be residual over the duration of an anatectic event. The low solubility of monazite in this melt suggests that the LREE depletion observed in some felsic differentiation suites may be the result of monazite crystallization. Limited experimental and geochemical/petrologic evidence indicates that compositional changes in the melt accompanying differentiation decrease the solubility of monazite drastically. Kinetic and chemical constraints may also lead to localized monazite saturation and inclusion in major phases or even other accessories. Variations in the REE composition of monazite fi'om different parageneses probably reflects the REE pattern of the parent melt, and may be due to gradational differences in the stability of individual or subgroup REE-complexes as a function of melt composition. Particularly important in this regard seems to be the lime + alkali/ alumina balance of the melt and its volatile content.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General</head><p>Igneous petrologists and geochemists presently place great reliance on the rare-earth elements as petrogenetic indicators, and on the radioactive decay of U and Th as geochronologic tracers in rocks of granitic composition. In proposing trace element models for REE fractionation during granite petrogenesis, theorists acknowledged the potentially critical importance of certain accessory minerals (zircon, apatite, sphene, monazite, allanite, etc.) that strongly partition these elements <ref type="bibr" target="#b16">(Gast 1968;</ref><ref type="bibr" target="#b61">Shaw 1970;</ref><ref type="bibr" target="#b2">Arth 1976;</ref><ref type="bibr" target="#b21">Hanson 1978)</ref>. A poor understanding of the behavior of these phases and their effects on the trace element chemistry of granites is an inherent weakness in direct applications of these theoretical models, Because granitic rocks in general contain a more richly varied accessory mineral assemblage than basaltic rocks, the number of viable petrogenetic models for granitoids will be difficult to restrict until a better understanding of the role of accessory minerals in such systems has been achieved.</p><p>Similarly, the well documented occurrence of inherited ages in zircons <ref type="bibr" target="#b78">(Williams et al. 1983;</ref><ref type="bibr">Pidgeon and Aftalion 1978)</ref> of anatectic granites indicates that the U and Th decay systematics may be disturbed and their interpretation complicated by the effects of residual accessory minerals. The similarity in the geochemical properties of the Ce subgroup of the REE's (La-Sm, LREEs, REce) and Th, and the yttrium sub-group (Gd-Lu, HREEs, REy) and U indicates that in many cases the same accessory minerals influence the distribution of the REEs and the radioactive elements <ref type="bibr">(Pagel 1984;</ref><ref type="bibr" target="#b40">Mineyev 1960;</ref><ref type="bibr" target="#b57">Sawka and Chappell 1985;</ref><ref type="bibr" target="#b79">Yeliseyeva 1977;</ref><ref type="bibr">Baranov and Du Lieh-Tieu 1961)</ref>.</p><p>Recent experimental research aimed at understanding the behavior of accessory phases places more complete and severe constraints on the effects of these minerals on the trace element chemistry of granitic melts. To date, comprehensive studies have been completed on zircon, apatite and sphene <ref type="bibr" target="#b19">(Green and Watson 1982;</ref><ref type="bibr">Harrison and</ref><ref type="bibr">Watson 1983, 1984;</ref><ref type="bibr" target="#b70">Watson 1979</ref><ref type="bibr" target="#b71">Watson , 1980;;</ref><ref type="bibr">Watson and Capobianco 1982;</ref><ref type="bibr">Watson and Green 1981;</ref><ref type="bibr" target="#b74">Watson and Harrison 1983)</ref>. In this paper we report the results of a similar study examining the role of monazite ((LREE, Th)PO4). First, though, a review of the composition and geologic occur-fence of monazite, considered both in isolation and in the context of the overall accessory mineral assemblage in granites (sensu lato), seems worthwhile in order to form a suitable background for discussion of the experimental observations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>REE-bearing accessory minerals in granites</head><p>The idea that much of the REEs, U and Th of granitic rocks are contained in the accessory mineral assemblage is well substantiated <ref type="bibr" target="#b34">(Lyakhovich 1967;</ref><ref type="bibr" target="#b17">Gavrilova and Turanskaya 1958;</ref><ref type="bibr">Vainshtein et al. 1956a</ref><ref type="bibr">Vainshtein et al. , b, 1955;;</ref><ref type="bibr">more recently Yeliseyeva 1977;</ref><ref type="bibr" target="#b20">Gromet and Silver 1983;</ref><ref type="bibr">Fourcade and Allrgre 1981 ;</ref><ref type="bibr" target="#b39">Miller and Mittlefehldt 1982)</ref>. The accessory mineral assemblage contains, in addition to the rareearth minerals proper (i.e. allanite, monazite, xenotime), a group of more commonly occurring minerals, mainly Cabearing, in which the rare earths occur as isomorphous admixtures. Principal among these minerals are garnet, epidote, apatite, sphene, fluorite, and zircon. <ref type="bibr" target="#b34">Lyakhovich (1967)</ref> and <ref type="bibr" target="#b17">Gavrilova and Turanskaya (1958)</ref> have shown that in allanite or monazite bearing granites, the bulk of the whole rock's REE (up to 90%) is concentrated in 2 or 3 accessory minerals, allanite or monazite and either sphene, zircon, or fluorite, +apatite. The remaining 10-60% of the bulk REEs, U, and Th not accommodated by these minerals and other less abundant members of the accessory assemblage (i.e. uraninite, thorite, gadolinite, euxenite, bastnaesite, and a myriad of others) will be retained by the major rock forming minerals <ref type="bibr" target="#b34">(Lyakhovich 1967;</ref><ref type="bibr" target="#b17">Gavrilova and Turanskaya 1958;</ref><ref type="bibr" target="#b42">Mittlefehldt and Miller 1983)</ref>.</p><p>The individual phases of the accessory assemblage show a complex dependence on one another. For example, an antipathetic relationship has been observed between monazite and both allanite and sphene <ref type="bibr" target="#b34">(Lyakhovich 1967;</ref><ref type="bibr" target="#b37">Mackie 1928;</ref><ref type="bibr" target="#b36">McAdams 1936)</ref>; in granites enriched in monazite or allanite, other accessory phases such as apatite, sphene, fluorite and garnet have a much lower REE content, but are characterized by a higher REy content relative to the same minerals from monazite/allanite poor granites. Since Goldschmidt's time, it has been recognized that there is a number of REE-bearing minerals that concentrate a definite rare-earth assemblage. <ref type="bibr" target="#b18">Goldschmidt and Thomassen (1924)</ref> and <ref type="bibr" target="#b56">Sahama and Vahatalo (1941)</ref> distinguished several types of REE-bearing minerals on the basis of their REE compositional variations. These were (1) cerium-selective minerals, in which the mineral preferentially incorporated the lighter rare earths (La-Sm), (2) yttrium selective minerals, which preferred Y and the heavier rare earths Gd-Lu, and (3) complex minerals, whose REE assemblage showed no apparent preference. They also recognized that within these groups, there were significant variations in the relative proportions of the individual REEs.</p><p>The reasons for these fundamental groupings were addressed by Murata and co-workers <ref type="bibr" target="#b43">(Murata et al. 1953</ref><ref type="bibr" target="#b44">(Murata et al. , 1957</ref><ref type="bibr" target="#b45">(Murata et al. , 1958))</ref>, who stressed the importance of petrochemical controls such as geologic environment and melt composition on the REE distribution among the accessory minerals of felsic rocks. At the same time, a research group led by Semenov <ref type="bibr" target="#b59">(Semenov 1958;</ref><ref type="bibr">Semenov and Barinski 1958)</ref> was emphasizing the importance of crystallochemical factors such as mineral structure and ionic radius and the limita-tions they impose on the capacity for isomorphism. They related the RE composition of a mineral to the coordination type of the REEs in the mineral's structure; for example, REE-bearing minerals with a coordination of 6-8 (i.e. zircon, xenotime) are yttrium selective, whereas those with a coordination of 10-12 are cerium selective minerals (perovskite, monazite, bastnaesite). Complex RE-bearing minerals, such as allanite, sphene, and apatite, possess a more extensive capacity for isomorphism.</p><p>As the quantity and quality of accessory mineral analyses increased, it became apparent that the same accessory mineral possessed a characteristic REE pattern dependent upon its paragenesis. <ref type="bibr">Vainshtein et al. (1956a, b)</ref>, in comparing the REE composition of monazites from pegmatites with those from their associated granites, identified 2 types of monazite-bearing granites. In one, the REE pattern of pegmatitic monazites was virtually identical to that of granitic monazites, but in the other a "pegmatite effect" was noted in which the pegmatitic monazite was enriched in the heavier lanthanides Nd, Sm, Gd and Th and depleted in La, Ce and Pr relative to the granitic monazites. A similar effect was noted by <ref type="bibr" target="#b45">Murata et al. (1958)</ref> in monazites from successively crystallized zones of granite pegmatites. This phenomenon was further substantiated for monazite and generalized to include apatite, epidote, sphene, and allanite by <ref type="bibr" target="#b13">Fleischer (1965)</ref>. More recently, <ref type="bibr" target="#b58">Sawka et al. (1984)</ref> and <ref type="bibr">Michael (1985, in prep.)</ref> have identified zoned allanites in which the rims are depleted in the LREEs (and enriched in HREEs) relative to the cores of the crystal, and <ref type="bibr" target="#b1">Amli (1975)</ref> has observed the same kind of zoning in pegmatitic xenotimes.</p><p>It is evident, therefore, that the structure of an accessory mineral is neither the only nor the most important factor determining its REE assemblage; an important role is played by the geochemical nature of the magma from which the mineral crystallized. The crystallochemical structure of an accessory mineral determines the possible variety of cations in it, whereas the actual composition within this framework is determined by the activities of the individual trace elements in the melt, For example, thorite (ThSiO~) has a cerium composition, with a large solubility ~ for Ceand Nd-rich components (ionic radii 1.09 A, 1.08 A respectively, where Th has an ionic radius of 1.08 A; <ref type="bibr" target="#b77">Whittaker and Muntus 1970)</ref>. Likewise, xenotime, (YPO4), shows a large solubility for the HREEs Dy, Er, and Yb, whose ionic radii (1.11 A, 1.08 ,~, 1.06 A respectively for 8-fold coordination) are the closest of the lanthanides to yttrium (1.10 ,~). Thus Goldschmidt's concept of selective behaviour in an accessory retains its significance for a particular sub-group (i.e. monazite is always REce selective, and xenotime is always REv selective), but the detailed REE composition is determined by the petrochemical environment. Ideally, REbearing minerals showing complex behavior will reflect the melt RE assemblage from La-Lu, while selective minerals will reflect either the REco or REv pattern of the melt. In actuality, all gradations between selective and complex behavior in RE-bearing accessory minerals exist.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Monazite as an accessory phase</head><p>Monazite is a rare-earth phosphate with a Ce-selective composition, though there is considerable variation in the relative proportions of the individual light rare earths (Table <ref type="table" target="#tab_0">1</ref>). In addition to the rare earths, monazite invariably contains Th (2-30%) through the following substitutions:</p><p>Th4+ +Si4+~REE3+ +p5+, Th4+ +CaZ+~__2REE2+</p><p>i.e., monazite also contains the isomorphous molecules of huttonite (Th SiO4) and cheralite (Th, Ca)PO~. Apparently, the monazite lattice has little difficulty in accepting RE ions with ionic radii between those of Ce and Ca, and the smallest which can fill the (La, Ce) position without strain are of the size of Gd or Tb; beyond this limit selectivity is probably very strong <ref type="bibr" target="#b29">(Jensen 1966)</ref>. Thus, minor but variable amounts of the HREE and Y also occur 0-11%). Monazite most frequently occurs as an accessory mineral in biotite granites, syenitic and granitic pegmatites, quartz veins and carbonatites, as well as charnockites, migmatites and paragneisses. The reader is referred to <ref type="bibr" target="#b48">Overstreet (1967)</ref> for a more comprehensive study of the geologic occurence of monazite. Systematic variations in the REE compositions of monazites from different parageneses, anticipated by <ref type="bibr">Vernaadskii (1924)</ref> and confirmed by <ref type="bibr">Vainshtein et al. (1956a</ref><ref type="bibr" target="#b68">Vainshtein et al. ( , 1956b</ref><ref type="bibr" target="#b66">Vainshtein et al. ( , 1955) )</ref> and <ref type="bibr" target="#b43">Murata et al. (1953</ref><ref type="bibr" target="#b44">Murata et al. ( , 1957</ref><ref type="bibr" target="#b45">Murata et al. ( , 1958) )</ref> were clearly demonstrated by <ref type="bibr" target="#b13">Fleischer (1965)</ref> in a compilation of all existing monazite analyses. In a plot of La/Nd versus ~, (La + Ce + Pr), representative of the degree of LREE enrichment, the effects of the geochemical environment on the REE composition of monazite are made obvious (Fig. <ref type="figure">1</ref>). In addition to the aforementioned "pegmatite effect" of Vainshtein, monazites from quartz veins, alkalic rocks and carbonatites show successive enrichment in the lightest lanthanides of the Ce subgroup, and depletion in the middle rare earths relative to granitic monazites.</p><p>Recent geochemical studies of the REEs in granitic rock suites have indicated that LREE depletion often accompanies progressive differentiation, with the more felsic members of apparently comagmatic series being relatively poorer in the lanthanides La-Gd than their less felsic end members <ref type="bibr">(McCarthy and Kable 1977;</ref><ref type="bibr" target="#b5">Condie 1978 ;</ref><ref type="bibr" target="#b42">Mittlefehldt and Miller 1983;</ref><ref type="bibr" target="#b39">Miller and Mittlefehldt 1982;</ref><ref type="bibr" target="#b11">Emmermann et al. 1975;</ref><ref type="bibr">Peterson 1980)</ref>. These authors have alluded to or suggested the possibility that an extremely LREE-rich accessory mineral such as monazite or allanite has con-  <ref type="bibr" target="#b14">Fleischer and Altschuler (1969)</ref>, <ref type="bibr" target="#b17">Gavrilova and Turanskaya (1958)</ref>, <ref type="bibr" target="#b24">Heinrich et al. (1960)</ref>, <ref type="bibr" target="#b32">Lee and Bastron (1967)</ref>, <ref type="bibr" target="#b35">Lyakhovich and Barinskii (1961)</ref>, <ref type="bibr" target="#b33">Lyakhovich (1962</ref><ref type="bibr" target="#b34">Lyakhovich ( , 1967))</ref>, <ref type="bibr" target="#b39">Miller and Mittlefehldt (1982)</ref>, <ref type="bibr" target="#b43">Murata et al. (1953</ref><ref type="bibr" target="#b44">Murata et al. ( , 1957</ref><ref type="bibr" target="#b45">Murata et al. ( , 1958))</ref>, <ref type="bibr" target="#b48">Overstreet (1967)</ref>, <ref type="bibr" target="#b53">Pavlenko et al. (1958)</ref>, <ref type="bibr" target="#b66">Vainshtein et al. (1955</ref><ref type="bibr">Vainshtein et al. ( , 1956a, b), b)</ref>, <ref type="bibr" target="#b80">Yeskova and Ganseyev (1964)</ref>, and <ref type="bibr" target="#b83">Zayats and Kuts (1964)</ref> trolled the REE distribution and abundance during crystal fractionation or partial melting. The close relationship between the REEs and U and Th has important implications for the distribution of heat -producing elements in the crust <ref type="bibr">(Sawka et al. 1985, in prep.)</ref>. Considering the documented occurrence of inherited zircons and the relatively low concentrations of LREE in granitoids, suggesting a low solubility for monazite, it is not unlikely that monazite will also behave in a refractory manner. For example, <ref type="bibr" target="#b76">Weber et al. (1985)</ref>, in petrogenetic modelling of the St. Malo migmatite dome in France, attribute the high Th content in the leucosome to the presence of residual monazite, and in the diatexite (mixed leucosome and melanosome) to the presence of monazite inclusions in the biotite of entrapped melanosome fragments. Residual monazite, with its considerable allotment of Th in particular but also U, could be important in the generation of heat from granitoid source regions as well.</p><p>This experimental study is an attempt to shed light on the questions of (1) LREE depletion accompanying the differentiation of some felsic magmas, and (2) REE fractionation during granite genesis. Geologic evidence suggests that monazite may play a central role in these processes. An assessment of the stability of monazite in granitic melts, while addressing these problems, will also be relevant to the distribution of heat producing elements in the continental crust.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General approach</head><p>Although the overall accessory mineral assemblage will influence the behaviour and composition of individual accessory phases (i.e., accessory minerals have an effect on one another), experimental techniques require the simplification of natural systems. In situations in which one phase can be identified as controlling the bulk of a whole rock's trace element content (i.e. Zr and zircon, LREEs and monazite), experimental study of this phase in isolation can be directly relevant to geologic problems. In cases where accessory mineral compositions overlap (i.e. monazite and apatite) comparison of the results from individual studies may give an indication of their interdependence.</p><p>A framework for experimental research on accessory mineral behavior in felsic melts has been established in previous studies of zircon, sphene and apatite, here applied to monazite, in which certain fundamental parameters crucial to the stability of these minerals have been quantified. These "fundamental accessoryphase parameters" <ref type="bibr" target="#b75">(Watson and Harrison 1984)</ref> are 1) solubilities of accessory phases in granitoid melts, 2) kinetic properties such as intracrystalline diffusivities and mineral dissolution rates, and (3) equilibrium mineral-melt partition coefficients.</p><p>The range of experimental run temperatures (1,000-1,400 ~ C) is by necessity considerably above those of direct geologic interest (650-900 ~ C) but because a systematic (Arrhenius) dependence of chemical reactions on temperature can be expected, down-temperature extrapolation of the fundamental parameters should provide numbers relevant to natural systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Details</head><p>A series of monazite dissolution experiments was conducted in a piston-cylinder apparatus at 8 kilobars pressure over a temperature range of 1,000~ ~ C. A polished ~ 1 mm cube of monazite (composition given in Table <ref type="table" target="#tab_2">2a</ref>) was immersed in a slightly peraluminous granitic melt (Lake County obsidian; composition given in Table <ref type="table" target="#tab_2">2b</ref>) containing 1-6% HzO , and allowed to partially dissolve. This experimental configuration facilitates measurement of some of the fundamental accessory phase parameters.</p><p>The charges were sealed in Pt-capsules, which were enclosed in 1/2" or 3/4" assemblies consisting of NaC1 outer sleeves and Pyrex, with internal filler pieces of crushable AlzOa (top of assembly) and Pyrex and unfired pyrophyllite (bottom of assembly). Run duration ranged from 4 h (1,400 ~ C) to 2 weeks, with run-up and quench times (~10 minutes and 10 seconds, respectively) essentially instantaneous in comparison. Temperature was monitored using a W97 Rea -Wvs Re2s thermocouple. The duration, water content, and temperature of each experiment is summarized in Table <ref type="table" target="#tab_3">3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ana@sis</head><p>Upon quenching, the experimental charges were sectioned and polished for electron microprobe analysis of the glass adjacent to the undissolved monazite cube. Concentration gradients in P and the REEs in this region were characterized using the ETEC Autoprobe facility of the State University of New York at Albany. In addition, a few duplicate analyses <ref type="bibr">(MONDIS 11 and 15,</ref><ref type="bibr">MONDIS 11 REV)</ref> were performed on the Cameca microprobe system at Lamont Doherty Geological Observatory, under similar operating conditions. An accelerating voltage of 20 kv and a sample current of 75 gA was necessary in order to characterize the generally low concentrations of these elements in the quenched melt. In order to minimize damage to the glass, increase counting times, and thereby improve the counting statistics, the electron beam spot was shaped into a bar approximately 10 by 2 microns, oriented parallel to the monazite-melt interface. Traverses away from this boundary into the glass were carried out by displacing the sample relative to the bar beam (or vice versa, for low temperature runs), allowing measurement of concentration versus distance relationships. Counting 0.17 (H20) 307 times were usually 40-60 s, though lower temperature runs required counting times as long as 100 s to achieve suitable statistical precision. A PET analyzing crystal with an At-flow counter was used to detect phosphorus K~ x-rays, whereas the L~ x-rays of the rare-earths were analyzed with the LiF crystal detector coupled with a sealed Xe-counter. Peak overlap and peak-background considerations for the REEs indicated that conditions were best suited for analysis of Ce, La and Sin, but caused considerable problems for Nd.</p><p>The problem of suitable standards for conversion of the raw counts is exacerbated by the low concentrations of the REEs and P in the glass, suggesting a generally low solubility for monazite. For Sm and La, a synthetic standard containing 2.5 wt.% of these elements in a silicate glass matrix was employed. For Ce and Nd, the well-known <ref type="bibr" target="#b9">Drake and Weill (1972)</ref> standards, available at Lamont-Doherty, were used; otherwise, the monazite itself was used as a working standard. All data were corrected for matrix effects by the method of <ref type="bibr" target="#b4">Bence and Albee (1968)</ref>. The possibility of a secondary fluorescence effect <ref type="bibr" target="#b25">(Heinrich 1978)</ref> next to the monazite cube was taken into consideration by making a "blank couple" by sectioning, polishing and binding slabs of monazite and Lake County obsidian. Microprobe traverses on this blank couple under identical analytical conditions as those of the experiments revealed secondary fluorescence effects for the REEs that were confined to the first 10 microns, whereas P fluorescence was observed out to about 20 lam. For high temperature runs, these intervals were simply disregarded; lower temperature runs, with shorter diffusion profiles, required corrections of about 5% to the raw count rate within these intervals.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General data treatment</head><p>It was mentioned previously that the simplified geometry of these experiments allows easy determination of certain of the fundamental parameters. This configuration can be modelled by assuming that the monazite-glass interface (x = 0) can be represented by a fixed plane sheet, with the monazite and obsidian glass considered as semi-infinite regions initially at some uniform and zero (or finite background) concentration, respectively. Even though the monazite/melt interface will retreat as dissolution proceeds over the course of the experiment, this distance will be very short in relation to the length of the diffusion profile. Thus the monazite is a plane sheet source of diffusants (REEs and P), and the solution to Fick's Second Law for boundary and initial conditions is given by:</p><formula xml:id="formula_0">Cx,t = Co erfc (x/4l/-4Dt)</formula><p>where C~,t is the concentration of diffusant at a distance x (cm) from the interface at time t (s), Co is the concentration at the interface (i.e., the saturation level for the diffusant of interest), and D is the diffusivity (cm2/s). The data can be linearized by inversion through the error function, and the concentration data are recast as:</p><p>x/4l/~tt = erf -1 (1 -C,, JCo).</p><p>This model requires that one estimate the value of Co (concentration at saturation of diffusant), and then the inverse error function for each value of (1-Cx,#Co) is plotted against x. The best fit line to the data is then determined by the cubic least squares regression method of <ref type="bibr" target="#b81">York (1966)</ref>. Better approximation of Co will yield Y-intercepts closer to zero, and the Co value with an intercept closest to zero is the best estimate of the saturation concentration. The slope of the best fit line determined in this manner will be equal to (21~)-1, and since time t is known, the diffusivity D can be directly calculated. The reliabilty of the results can be improved by disregarding the portion of the profile beyond a Cx, t less than 10% of Co, since this asymptotic segment of the curve has the greatest degree of uncertainty associated with it because the signal to background ratio is lowest.</p><p>The model thus provides information on the diffusivity and saturation concentration for the element being analyzed. This treatment is exemplified by Fig. <ref type="figure" target="#fig_0">2</ref> for Ce at 1,300 ~ C and 6% water. It should be mentioned that lower temperature runs, due to lower Co values and shorter diffusion distances, will necessarily have greater associated uncertainties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diffusion of monazite components in the melt</head><p>Rare-earth diffusivities. Diffusivities for Ce, La, and Sm  <ref type="table" target="#tab_3">3</ref> and plotted on an Arrhenius type diagram in Fig. <ref type="figure">3</ref>; the error bars, where shown, are 2-sigma uncertainties derived from the linear regression analysis. Otherwise, the magnitude of uncertainty is confined to the size of the data point. The fairly good fit of the Arrhenius lines for 6% H20 define an activa-  and 4% H20 plot between these two lines, with Arrhenius parameters intermediate between those at 1% and 6% H20.</p><p>Diffusivities for the individual REEs (Ce, La, Sm and Nd) are essentially identical within exprimental error, so that no fractionation of these elements takes place as a result of different transport rates in the melt. It should be emphasized that chemical diffusivities have been measured, i.e. diffusion in response to a chemical potential gradient. Comparison with Ce tracer diffusivities measured in obsidians (Ea=l17.2+5.7kcalmo1-1, Do=6.72+0.99) containing 0-0.3 wt.% H20 <ref type="bibr" target="#b28">(Jambon 1982</ref>) by extrapolation indicates chemical diffusivities that are slower by 0.5-1.5 orders of magnitude, depending upon the temperature.</p><p>Besides providing empirical data for problems in geochemical kinetics (see summaries by <ref type="bibr" target="#b27">Hofmann (1980)</ref> and <ref type="bibr" target="#b72">Watson (1986)</ref>), the determination of diffusivities and the Arrhenius parameters gives insight into the structural (physico-chemical) properties of silicate melts. In this regard, the pronounced effects of dissolved HzO on diffusivities, noted in previous studies <ref type="bibr" target="#b28">(Jambon 1982;</ref><ref type="bibr" target="#b70">Watson 1979;</ref><ref type="bibr" target="#b22">Harrison and Watson 1983)</ref>, indicates that the addition of H20 to a silicate magma decreases its degree of polymerization (thus, viscosity) by the reaction of molecular H20 with bridging oxygens of the melt to form hydroxyl groups <ref type="bibr" target="#b63">(Stolper 1982;</ref><ref type="bibr" target="#b0">Acocella et al. 1984)</ref>.</p><p>Any elementary kinetic process with an activation barrier, i.e., the transport process of diffusion, can be examined through the concept of transition state theory (TST, <ref type="bibr" target="#b12">Eyring 1935)</ref>. In this case, the activated complex is the diffusant molecule or atom; although A H* (i.e., E,) largely deter-309 -8-  <ref type="figure">4</ref>. Arrhenius-type diagram for phosphorus diffusion coefficients calculated from P gradients adjacent to the same monazite grains as for the REEs. The dashed lines are the corresponding REE diffusivities; the same H20 dependence and similar Arrhenius parameters (activation energies, frequency factors) are evident for phosphorus diffusion as for the rare-earths mines the rate of diffusion, the entropy of activation, AS*, can be used as an indicator of the configuration of the activated complex <ref type="bibr" target="#b30">(Lasaga 1981)</ref>. Substitution of the Arrhenius parameters at 6% H20 into the Eyring expression for the entropy of activation results in a negative value for AS4:(-1.9 to -4.6 cal/mol-~ while the appropriate parameters at 1% H20 and 0.3% H20 <ref type="bibr" target="#b28">(Jambon 1982</ref>) yield a positive value for AS+. Simplistically, in a relatively depolymerized melt with 6% H20, a decrease in entropy upon entering the activated state probably stems from the restricted motion imposed by the binding of the reactant molecules of the melt. Due to the higher degree of polymerization at low water contents, the activated complex during diffusion actually leads to an increase in the "disordering" of the melt, thus a positive A S* is calculated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phosphorus diffusivities. Measurements of P diffusivities by</head><p>this method yield results that are essentially the same as for the REEs in the same run. Fig. <ref type="figure">4</ref> shows the well-correlated Arrhenius lines for P; the REE diffusivities are shown as dashed lines for comparison. The Arrhenius parameters calculated for these lines at 6% and 1% water are Ea= 58.8_+3.2 kcal mo1-1, +0 22 2 l, Do=0.17_o:1o cm sec-and E,= 106.6+3.8 kcal tool -1, Do =1 n+l.s _ ~.v 0.6 x105cm 2 sec -1, respectively.</p><p>The evidence suggests that the REEs and P are coupled in some way during diffusion, either as a charge-compensating effect or some type of REE 3 + -PO 3-complexing. <ref type="bibr" target="#b26">Henderson et al. (1985)</ref> have stated that diffusion in natural silicate melts is dependent on the proportion of network modifying cations. Their data for the divalent and trivalent ions Fe, Mn, Co, Eu, and Ba are consistent with diffusion of these elements as complexes or molecular entities, especially when considering that (1) the diffusivities are in-dependent of ionic radius, and (2) the activation energies are high (see Figs. 8-10 of <ref type="bibr" target="#b26">Henderson et al. 1985)</ref>. Likewise, <ref type="bibr" target="#b10">Dunn (1982)</ref> and <ref type="bibr" target="#b46">Nelson and White (1980)</ref> have speculated that metal-oxygen complexes are involved in oxygen diffusion, and <ref type="bibr" target="#b47">Nelson et al. (1983)</ref> cite optical and vibrational spectroscopic evidence for the existence of transition metal "quasi-molecular entities" in silicate glasses. Of more immediate relevance is the suggestion of <ref type="bibr" target="#b55">Ryerson and Hess (1978)</ref> that the REE 3+ -PO 3-(or CO3, C13, F3 etc.) complexing alters significantly mineral-liquid distribution coefficients by modification of the melt structure upon the addition of minor components such as P2Os and volatiles O.e., F, C1, CO2).</p><p>Although we do not wish to imply that the REEs and P (or F, C1, CO2) diffuse as large molecular complexes, it seems clear that the transport of these elements in the melt is coupled in some manner. The idea of REE 3+-PO~-charge compensation during diffusion is given further support by examination of Fig. <ref type="figure">5</ref>. At each interval along the x-axis (distance from xl.-melt interface), the concentrations of P and the REEs are in the proportions required by the stoichiometry of monazite. A reasonable scenario has quasi-static REE3+-PO 3-complexes present in a felsic melt, whereas in the activated state for diffusion they exist as discrete but associated ions. Distance from interface ()Jm)</p><p>Fig. <ref type="figure">5</ref>. The component model diffusion profiles for monazite dissolution experiment ~ i 1. The curves for P, Ce, La, Nd, and Sm are based on microprobe data, while the HREEs and Pr have been estimated. The area under each curve is proportional to the amount of each element that has dissolved into the melt from the monazite. The sum of these areas for the REEs is in the appropriate proportions, with respect to phosphorus, as observed in natural monazite. This relationship is maintained at any point along the curve at any distance x from the interface. For reference, the calculated P profile based on monazite stoichiometry with the measured REE concentration curves is also shown</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Monazite solubility</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General approach</head><p>Monazite will dissolve in a granitic magma until the melt has reached the saturation level of dissolved components (RE-oxides, P205), or conversely, monazite will begin to crystallize when the concentration of dissolved monazite components (RE203) exceeds this same saturation level in the melt. This relationship can be given by the reaction: Perhaps an intermediate step exists in which rare-earthphosphate complexes are formed <ref type="bibr">(Zhirov et al. 1961)</ref>. Like any chemical reaction, this can be expressed thermodynamically with an equilibrium constant:</p><formula xml:id="formula_1">[(REE) PO4] z ..... ire K(eq) -[gEE203]melt [P2Os]melt 1 [REE20 3]melt [P2Os]melt</formula><p>This simplistic interpretation is inadequate because the varied composition of monazite requires that the activities of ThOz, SiO2 and CaO be considered, since these components are common substitutes for the REEs in monazite. Furthermore, the activites of the individual REEs may vary significantly. Our present understanding of the thermodynamics of silicate melts is not complete enough to allow first-principles calculation of activities in such a system. These problems can be circumvented if it is assumed that saturation with respect to an accessory phase may be limited by the activity in the melt of a single, low-abundance component that is essential to the structure of the mineral of interest <ref type="bibr" target="#b75">(Watson and Harrison 1984</ref>). These components have been called "essential structural constituents" (ESC's) by <ref type="bibr" target="#b64">Sun and Hanson (1975)</ref>; for monazite, the ESC's would  <ref type="bibr">Montel (1985, in prep.)</ref>. This point is for a melt with 74.3% SiOz and an agpaitic coefficient of 0.92, in comparison with LCO at 76% and 0.85, respectively be the light rare-earth elements (La-Sm) as a group. The other components of monazite are either present in magmas at sufficiently high concentrations to stabilize monazite (i.e., P2Os), or are not essential for monazite to be present (i.e. CaO, SiOa, THO2, HREEs, U3Oa etc.). This approach, successfully applied in previous experimental studies of accessories, allows a determination of the solubility of monazite by measuring the amount of dissolved LREEs in melt in equilibrium with monazite. The temperature dependence of monazite solubility can then be understood by assessing the LREE distribution between monazite and melt over a range in temperatures, expressd thermodynamically as: a~REE2O3 will vary with melt composition, this relationship will hold only for melts of the same composition, so that a complete understanding of monazite solubility requires that a range of melt compositions eventually be tested. With a constant melt composition, and with the concentration of LREEzO3 in monazite being fairly constant at about 60 wt.%, all that is required for determination of the temperature dependence of monazite solubility in this melt is the LREE concentration level at saturation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. LREE Saturation</head><p>The dissolution experiments provide values for the saturation concentration in the melt of individual REEs by assuming that the equilibrium saturation level is reached instantaneously at the crystal-melt interface, and is approximated by the Co values derived from the model diffusion curves. These quantities are tabulated in Table <ref type="table" target="#tab_3">3</ref> and plotted in Fig. <ref type="figure">6</ref>. In order to demonstrate that these values represent equilibrium concentrations, a partial reversal experiment (MONXLZ 11 REV) was also conducted in which monazite was forced to crystallize from an oversaturated melt. This involved mixing about 15% of finely powered monazite with Lake County obsidian. This run was taken up to 1,400 ~ C for 21 h in an initial heating step, and the temperature was then dropped to 1,200 ~ and held there for 10 days before quenching. The glass enclosing the crystallized monazite was then analyzed for the REEs by electron microprobe at numerous points. These values are plotted as open boxes on Fig. <ref type="figure">6</ref>, and support the contention that the Co values from the dissolution experiments give a good approximation of the equilibrium condition. A full reversal of the dissolution experiments would have involved decreasing the amount of monazite powder initially added to the melt until monazite no longer crystallized, but since the results of the partial reversal matched so well, this seemed unnecessary.</p><p>The saturation levels for the total LREEs (La-Gd) at 1%o and 6% water content split the observed field for the range in total REE abundances in granitic rocks. The upper and lower portions in the field of REE abundances in granites (s.1.), on either side of the experimental saturation field, are to a large extent probably attributable to differences in LREE saturation as a function of bulk melt chemistry.</p><p>The upper portion of the field may also contain a significant contribution from residual, entrained monazite, which would give a rock an apparently LREE oversaturated signature. When the individual LREEs are examined, it is seen that in terms of the level of saturation, Ce &gt; La &gt; Sm, and that the trend for Sm diverges slightly at lower temperatures, from the essentially parallel trends for Ce and La, so that falling magmatic temperature may fractionate the heavier members of the REco sub-group from the lighter members. The few data points for neodymium indicate saturation levels that are approximately equal to lanthanum. In general, though, the broad flat diffusion gradients for Nd were a poor fit to the error function model. This may be due to either peak overlap problems or a more complex diffusion mechanism for this element; as yet this problem remains unexplained.</p><p>Data for the saturation level of P2Os in these runs again demonstrates the limitations imposed on this component by the REEs. The Co values for P205 in this study are much lower (generally_&lt;0.5X) than the Co values arrived at in the apatite dissolution experiments of <ref type="bibr" target="#b23">Harrison and Watson (1984)</ref>. For example, at 1,100~ and 6% HzO PzO 5 saturation during apatite dissolution is 0.35 wt.%, whereas an apparent P205 saturation level of 0.17 wt.% is indicated by our study. In apatite, P205 is the ESC, whereas for monazite the LREEs are the ESC, and P205 can be considered as being present in sufficiently high amounts in the melt so that monazite will crystallize, given that enough LREEs are present (i.e., the melt is LREE saturated).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. Monazite-melt partitioning of LREEs</head><p>The solubility of monazite in this melt is arrived at by summing the Co values for Ce, La, and Sin, and estimating the contributions of the other LREEs by interpolation. Neodymium is assumed to be approximately equal to La, while Pr and Gd together are assumed to equal the contribution from Sin. These are the ~LREE values plotted in Fig. <ref type="figure">6</ref> for 1% and 6% H20. The enhanced solubility of monazite at higher water contents cannot be ascribed to the presence of an increased number of cation sites <ref type="bibr" target="#b28">(Jambon 1982)</ref>, as proposed for zircon solubility <ref type="bibr" target="#b22">(Harrison and Watson 1983)</ref>, if the REEs are present as charge-balanced phosphate complexes. However, a relatively depolymerized melt with 6% water may be effective in breaking up such complexes, by providing alternative structural sites for the REEs.</p><p>Partition coefficients for the LREEs as a group, as outlined in the thermodynamics discussion, are given by simply dividing the LREE concentration of monazite by its solubility in this melt, given by the level of LREEs required for saturation. These results, for a range of reasonable geological temperatures at both 1% and 6% H20, are listed in Table <ref type="table" target="#tab_5">4</ref>. These values are consistent with estimates made by <ref type="bibr" target="#b5">Condie (1978)</ref> and <ref type="bibr" target="#b39">Miller and Mittlefehldt (1982)</ref> for LREE partitioning by monazite. Partition coefficients for the individual LREEs, it is argued, cannot be accurately assessed, since we cannot be certain that the composition of the monazite used in these experiments has an equilibrium REE pattern for a melt of this composition. It seems highly unlikely that we could fortuitously reproduce the exact conditions of formation which gave this monazite its REE pattern. Monazite crystallization experiments over  <ref type="bibr" target="#b19">Green and Watson (1982)</ref> for apatite and <ref type="bibr" target="#b74">Watson and Harrison (1983)</ref> for zircon) could provide individual REE monazitemelt partition coefficients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Applications</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Monazite dissolution</head><p>With the requisite information (LREE diffusivities, monazite solubility), choice of an appropriate model will allow us to calculate dissolution rates for monazite crystals of various sizes under a variety of geologically relevant conditions. Down-temperature extrapolation of these parameters based on Arrhenius relations provides us with suitable numbers.</p><p>To model monazite dissolution, the solution to the diffusion equation for the region bounded internally by a sphere of radius r= a has been used, with boundary and initial conditions as given by <ref type="bibr" target="#b22">Harrison and Watson (1983)</ref>:</p><p>C=Co r=a t&lt;_O C=0 r&gt;a t=O and the solution is <ref type="bibr" target="#b6">(Crank 1975)</ref>:</p><formula xml:id="formula_2">Cx, t-C1 = (Co -C1)a/r erfc [(r-a)/2 ~1</formula><p>This is a modification of the expression of <ref type="bibr" target="#b7">Carslaw and Jaeger (1959)</ref> that allows for consideration of a background concentration in the melt, C1. Co is the concentration of LREEs at the monazite/melt interface (r--a) determined by the solubility. The mass of LREEs in monazites of 5, 10, and 50 gm radius is first determined, and then diffusion is allowed to proceed until the integrated mass of LREE dissolved in the melt equals this initial mass. The time required for this process to go to completion is that required for complete dissolution of the crystal. Inherent assumptions in the application of the above equation are discussed by <ref type="bibr" target="#b22">Harrison and Watson (1983)</ref>, but this approach gives results accurate within one per cent.</p><p>Calculations at 1% and 6% H20 for a range of possible magmatic temperatures and a background LREE concentration of zero are represented in Fig. <ref type="figure">7</ref>. The time required for monazite dissolution in a 6% HzO-bearing melt can be considered rapid (r= 10 gin, (t&lt; 100,000 yr) or even instantaneous (r=5 pm, t&lt; 50,000 yr) in a geological time frame for anatexis, whereas larger monazite grains (r= 50 gm) will need upwards of 10 Ma and thus will more likely be residual. In an anatectic melt containing 1% HzO, even minute monazite grains have a strong possibility of being residual, due to the combined effects of slower diffusivities and lower monazite solubility. Of course, these esti- </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>\\\</head><p>,, :</p><formula xml:id="formula_3">0 1 2 3 4 5 6 7 8 9 10</formula><p>log t (years) Fig. <ref type="figure">7</ref>. Relationship between temperature and time required for the complete dissolution of monazite crystals of 5,10, and 50 gm radii in both a relatively dry (1% H20,curves in upper right) and wet (6% HeO, lower left) felsic melt. These dissolution rates are calculated on the basis of a spherical diffusion model for the LREEs, with a zero background concentration mates represent lower limits, since granitoid source regions can be expected to contain a non-zero background concentration of LREEs, which increase the time required for dissolution.</p><p>Residual monazite, retained in granitoid source regions, may be responsible for the generation of substantial radiogenic heat <ref type="bibr" target="#b57">(Sawka and Chappell 1985)</ref>; entrained in anatectic melts, it will substantially obscure REE petrogenetic interpretations <ref type="bibr" target="#b39">(Miller and Mittlefehldt 1982)</ref> and Sm-Nd and Th-Pb geochronometers. The magnitude of these effects seems critically dependent on the form, the grain size in particular, taken by monazite; minute monazite crystals (&lt; 30 [am diameter) would probably be rapidly absorbed in an anatectic melt, and would not survive unless effectively armored from the melt by enclosure in refractory, biotite rich-selvages <ref type="bibr" target="#b76">(Weber et al. 1985)</ref> or as inclusions in other potentially refractory phases such as apatite <ref type="bibr" target="#b51">(Pigorini and Veniale 1968</ref>). Otherwise, restite monazite would be restricted to those grains in the source large enough to survive over the duration of the anatectic event (~30-100 pm diameter). This conclusion is drawn on the assumption that the crystal actually "sees" the melt. This is certainly valid for accessory occurrences at grain junctions, though not necessarily true for inclusions of accessories in major mineral phases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Monazite crystallization</head><p>Monazite will crystallize only when the host melt has reached the saturation level for the LREEs. It is obvious by inspection of Fig. i that this condition is encountered under a wide variety of petrologic environments and felsic magma compositions. It is likewise apparent that monazite possesses a characteristic composition that reflects the REE chemistry of its parent magma. How can the experimental evidence presented here account for these observations ?</p><p>Light rare-earth element depletion has been reported in the more differentiated members of felsic magma series in calc-alkaline granitoids, peraluminous granitoids, alkaline intrusives, and trondjhemites, as well as in differentiated leucosomes of migmatites. At least in some of these instances, the presence of monazite has been observed (i.e., <ref type="bibr" target="#b42">Mittlefehldt and Miller 1983;</ref><ref type="bibr" target="#b76">Weber et al. 1985)</ref> or inferred <ref type="bibr" target="#b38">(McCarthy and Kable 1978)</ref>. For example, in the peraluminous Sweetwater Wash pluton, <ref type="bibr" target="#b42">Mittlefehldt and Miller (1983)</ref> contend that LREE saturation was reached at concentrations as low as 15 ppm Ce (20-30 ppm LREEs) in the last-stage melts of this felsic differentiation sequence, and that monazite was a liquidus phase throughout most of the crystallization process. On the other hand, <ref type="bibr" target="#b17">Gavrilova and Turanskaya (1958)</ref> and <ref type="bibr" target="#b67">Vainshtein (1956)</ref> argue that the bulk of the REEs are separated from a granitic magma not during the initial stages of magmatic crystallization, but only "after the crystallization of the bulk of the alumino-silicates and during the stage after the last of the alkali minerals were formed (biotite)" <ref type="bibr" target="#b17">(Gavrilova and Turanskaya 1958)</ref>, implying that the REEs in the residual melt were closely bound to the accumulated alkalies in a volatile rich environment.</p><p>Once again, the form taken by monazite in these rocks is an important clue to this problem. A large proportion of monazite in monazite-bearing granites occurs as minute (&lt; 25 gm dia.) to submicroscopic inclusions in major phases (feldspars and micas), the most common host for these inclusions being biotite <ref type="bibr" target="#b76">(Weber et al. 1985;</ref><ref type="bibr" target="#b42">Mittlefehldt and Miller 1983;</ref><ref type="bibr" target="#b17">Gavrilova and Turanskaya 1958)</ref>. Furthermore, <ref type="bibr" target="#b17">Gavrilova and Turanskaya (1958)</ref> note that the REE composition in quartz and feldspar, which hold 40-60% of the whole rock REEs, closely resembles the REE composition in monazite of these rocks, and they suggest the possibility that the constituents of monazite enter the structure of quartz and feldspar hosts as molecule-sized disseminations.</p><p>The occurrence of monazite inclusions predominantly in biotite can be taken to imply either that monazite is an early crystallizing phase, assuming biotite is also, or that these inclusions are residual monazite, enclosed in refractory biotite. Its occurence in the major phases quartz and feldspar suggest that its crystallization history was not so limited. These observations can be reconciled if one considers the local environment, separate from the overall differentiation processes of the bulk magma. <ref type="bibr" target="#b19">Green and Watson (1982)</ref> and <ref type="bibr" target="#b23">Harrison and Watson (1984)</ref> have suggested that a kinetic phenomenon, the ~ snow plow effect," may induce local saturation in incompatible elements adjacent to a growing crystal as a consequence of simultaneous rapid crystal growth and slow diffusion in the melt of the stability-limiting component of an accessory mineral. They propose that the sluggish transport of P205 away from a growing feldspar causes such a "pile-up" and local precipitation of apatite, explaining the common presence of tiny apatite inclusions in plagioclase of P2Os-undersaturated magmas. We have made the same sort of calculations for the pile-up of LREEs adjacent to an advancing feldspar phenocryst (Fig. <ref type="figure">8</ref>). These results indicate that, depending on temperature, local saturation in monazite occurs rapidly (1 X 10 5 --8 X 10 6 S), with a pile-up gradient in LREEs from 5-50 gm long. Thus, due to kinetic limitations, monazite crystallization can occur without the bulk melt being saturated in these components. Likewise, chemical gradients in the vicinity of growing biotite phenocrysts may produce the same effect. Localized alkali depletion near a crystalliz- Fig. <ref type="figure">8</ref>. Results of calculations illustrating the "pileup" of LREEs at the surfaces of feldspars growing in a felsic melt at 800 C and 900 C with an assumed growth rate of I x 10 -9 cm/s. The equation of <ref type="bibr" target="#b62">Smith et al. (1955)</ref> as explained in <ref type="bibr" target="#b23">Harrison and Watson (1984)</ref> describes this phenomenon. The variables are: k=crystal/liquid partition coefficient for the LREEs between feldspar and melt, q = l-k, R = linear crystal growth rate (cm-s-1) of feldspar, D = diffusivity of the LREEs (cm2-s-1), t = time, Ci = LREE concentration at infinite distance (x) from crystal ing biotite may reduce monazite solubility in the adjacent melt, inducing monazite crystallization and leading to its eventual inclusion in the biotite host. Regardless of how it actually occurs, monazite crystallization is obviously a viable mechanism for the LREE depletion often observed in felsic differentiates. Certain inferences about the effects of changing melt composition on monazite solubility can be drawn from petrologic and geochemical studies of monazite-bearing granites. As mentioned previously, there is a very close geochemical affinity between calcium and the cerium earths in rare-earth bearing minerals. In studies of accessory mineral seperates from granitic rocks of the Mt. Wheeler mine area, Nevada, <ref type="bibr" target="#b31">Lee and Dodge (1964)</ref> and <ref type="bibr" target="#b32">Lee and Bastron (1967)</ref> have shown that the CaO content of the rock, largely dependent on the proximity of intruded limestone country rock, has an important influence on the accessory mineral assemblage and the degree of fractionation of the REEs. The typical Ca-rich assemblage (&gt;1.8% CaO) and calcium-poor assemblage (&lt; 0.7%) are apatite + allanite +sphene + epi-dote+magnetite, and monazite+garnet+ilmenite, respectively. Similar assemblages were noted by these authors in granitic rocks of Yosemite Valley. The CaO content of the whole rock also bears a striking relationship to the ~ (La + Ce+ Pr) value of monazite and allanite, with the higher values occurring in rocks with the higher CaO content. Furthermore, when the ThO2 contents of the monazites are plotted against their ~ values, thorium content is shown to decrease with increasing sigma (and therefore with the increasing CaO of the host rock). This suggests that end member (i.e., Ce, La, Pr) monazite partitions Th less strongly than its less pure equivalents. An extrapolation of this trend would reach the compositional field of skarn and carbonatite monazites, which characteristically contain less than 1% ThO2 and ~ values greater than 80% <ref type="bibr" target="#b44">(Murata et al. 1957;</ref><ref type="bibr" target="#b24">Heinrich et al. 1960)</ref>. The predominance of the lightest rare-earth elements in alkalic rocks and carbonatites, indicate that the processes that form these alkali-rich rocks are unusually efficient in fractionating the rare-earth elements. <ref type="bibr">Vainshtein et al. (1961)</ref> have examined the relative content of the individual Ce-earths and their dependence on the petrochemical characteristics of granites, syenites and nepheline syenites by comparison of the Ce/Nd ratio against SiO2 content, Na20, KzO, Na20 + K20, and Na20 + K20/ A1203. Variation in the Ce/Nd ratio shows no regular relationship between rare-earth composition and silica content, both within an individual group (i.e. all granites and syenites, or all nepheline syenites), or between granites and syenites on the one hand, and nepheline syenites on the other. However, of 13 granites and syenites analyzed, only one had a Ce/Nd ratio above 3.0, while more than half of the 12 nepheline syenites possessed such ratios. No direct relationship is observed between the alkali content (% Na20, or % K20) and the Ce/Nd ratio in these rocks, either. The distribution of the rare earths is quite definitely dependent upon the ratio (K20+Na20)/A12Oa, with an increase in Ce/Nd generally following an increase in this parameter. This correlation is seen to be especially good for rocks in which the CaO content is low, whereas the few exceptions to this trend are noted in those samples with a high CaO content.</p><p>These observations give an indication of the effects of the bulk melt chemistry on the saturation concentrations of the bulk and individual LREEs from La-Nd, which in turn reflects the solubility and composition of monazite as a function of melt composition. Initial results of monazite crystallization experiments bear out these inferences. <ref type="bibr">Montel (1985, in prep.)</ref> has shown that Ce-monazite solubility in a synthetic melt with 68% SiOz is stongly dependent on melt agpaicity (molar Na20+K;O/A1203), with solubility increasing with a increase in this parameter. Simi-larIy, <ref type="bibr" target="#b54">Rapp et al. (1986)</ref> have found that in monazite saturated melts with similar SiO2 contents, monazite solubility is highest in melts with a greater CaO content and higher molar (CaO + K20 + Na20)/A1203. An excess of calcium and the alkalis beyond that required to charge-compensate tetrahedrally coordinated aluminum may allow the formation of complex lime-alkali-silicate-phosphate molecules of the REEs in the melt. These same melts also have higher Ce: Sm and dissolved Th than their less calcic counterparts. The so-called "pegmatite effect", whereby later crystallizing monazites are enriched in the heavier Ce-group members (Nd, Sm, Gd) relative to the earlier crystallized monazite, may reflect a lower Ce: Sm ratio in the more evolved melt. This effect may be further enhanced by falling magmatic temperature, as the experimental data indicate that samarium "saturation" (representative of the heavier members of the Ce-subgroup) decreases in the melt with decreasing temperature relative to Ce and La.</p><p>Finally, the high degree of fractionation of the rare earths observed in many geochemical processes can occur only if these elements are in the form of complexes, since these will differ more from one another than will their ionic states <ref type="bibr" target="#b41">(Mineyev 1963)</ref>. Sulfate and carbonate complexes are involved in certain classical methods of separating the rare earths into cerium and yttrium groups <ref type="bibr" target="#b82">(Yost et al. 1947)</ref>. <ref type="bibr" target="#b41">Mineyev (1963)</ref> suggests from theoretical, experimental, and geological evidence that REE fractionation can be caused by changes in the relative stability of REE complexes with ligands such as F-, CI-, CO~ , and <ref type="bibr">PO~-, and Schilling and Winchester (1967)</ref> suggest the possibility that REE fractionation during late-stage differentiation is controlled by REE-complexing in a volatile rich environment.</p><p>The preceding discussion leads to the conjecture that fractionation of the individual REEs, apparent in the broad compositional range exhibited by monazite (and other REbearing phases), is a consequence of the bulk and volatile chemistry of the crystallizing medium affecting the stability of REE-complexes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>The principal conclusions of this study are:</p><p>(1) Rare earths diffusing away from a dissolving monazite are charge-compensated by concurrent phosphorus diffusion, with Arrhenius relations given by: 2-,+6 04-2 S-1 6% H20: D=0. J-olo5 cm -exp(--60A_+10.1 kcal. mol-I/RT) 1% H20: +7 s 1 .exp(122.1 +14.1 kcal. D=2.3_oi 2 x 107 cm 2 stool 1/RT) These relations show the significant effects of dissolved water. The apparently coupled REE-P diffusion lends support to the idea that these elements exist in a melt as complexes, although it is not likely that they diffuse as such.</p><p>(2) Solubility of monazite likewise shows a dependence on the HzO content of the melt; LREE saturation in the melt defines monazite solubility; typical values are: at 700 ~ and 6% H20, conc. LREEs,,~60 ppm; at 750~ and 1% H20, conc. LREEs,t = 50 ppm. The saturation levels for the individual LREEs indicate that C~at of Ce &gt; La &gt; Sin. This limited solubility makes monazite crystallization a possible means by which certain felsic differentiation suites become progressively depleted in the LREEs and Th. These results are likewise consistent with the concept of decreasing monazite solubility with continued differentiation (i.e., increasing SiOz, decreasing temperature, <ref type="bibr">CaO, MgO, FeO, etc.)</ref>.</p><p>(3) Calculations utilizing the REE and phosphorus diffusion data indicate that small (&lt;30 txm diameter) monazite grains will probably dissolve geologically instantaneously under most reasonable conditions for crustal anatexis; larger grains (&gt; 50 lain) will probably be residual.</p><p>Moreover, due to the sluggish transport properties of the REEs in this felsic melt, local saturation in LREEs and monazite precipitation can occur, accounting for the common observation of minute monazite inclusions in major, rock-forming phases. Localized chemical gradients adjacent to crystallizing biotite may produce the same phenomenon.</p><p>(4) The REE composition of monazite may reflect changes in the relative stability of LREE complexes as a function of melt composition, complexes of the lightest rare earths (La + Ce + Pr) being more stable in a less evolved, less polymerized melt.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>(Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Cerium concentration profile in glass adjacent to a monazite crystal at 1,300 C for 16.5 h. Counts were collected on cerium for 40 s at stepped intervals away from the crystal-glass interface; these raw counts were corrected for background and standardized to give the corresponding concentration values. The dashed curve represents the best-f~t line of the diffusion model. The model provides an estimate of Co, the saturation level of the analyte element, by extrapolation of the model curve to x = 0</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Ea) of 60.1 4-10.1 kcal-mol-~ and frequency factor (Do) of 0.23 +6.o4 ~_2 -o.o5 cm sec -1, Runs with 1% HzO indicate a much higher Ea of 122.1 _+ 14.1 kcal tool -a and a Do of 2.3 +7.5 -o.2 • 107 cruz sec 1. The runs containing 2%</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>REE203 .... -~-P205 .... ~-2 (REE)PO4 ........</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>Monazite solubility (i.e. LREE saturation) systematics in obsidian. Individual saturation concentration levels (Co's) are shown for Ce, La, and Sm in 6% water-bearing runs, with the open boxes representing the saturation level measured in the single crystallization (=reversal) experiment (MONXLZ 4+ ll). Also shown is the line representing total LREE saturation as a function of temperature for 6% water-bearing obsidian, and a dotteddashed line representing LREE saturation at 1% water. The rectangle in the lower right encloses the range in LREE concentration in granites over a feasible temperature range. The closed box represents the solubility of pure Ce-end member monazite under water saturated conditions (~ 10%) at 2 kbar measured by</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>linear dependence between T-I and In om .... ite ] melt ~ is predicted. Since it is expected that ~LREE203/aLREE203 ]</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Monazite composition (LREE, Th)PO 4</figDesc><table><row><cell>La/Nd</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>Composition of startin : materials (wt.% oxide)</figDesc><table><row><cell cols="2">(a) monazite</cell><cell cols="2">(b) Lake County obsidian</cell></row><row><cell>CaO</cell><cell>0.05</cell><cell>SiO2</cell><cell>76.01</cell></row><row><cell>P205</cell><cell>29.68</cell><cell>A1203</cell><cell>13.00</cell></row><row><cell>La203</cell><cell>6.49</cell><cell>FeO</cell><cell>0.70</cell></row><row><cell>Ce203</cell><cell>26.57</cell><cell>MgO</cell><cell>0.09</cell></row><row><cell>Pr203</cell><cell>3.98</cell><cell>CaO</cell><cell>0.52</cell></row><row><cell>Nd203</cell><cell>15.87</cell><cell>TiO2</cell><cell>0.11</cell></row><row><cell>Sm203</cell><cell>6.81</cell><cell>K20</cell><cell>4.81</cell></row><row><cell>Eu203</cell><cell>0.32</cell><cell>Na20</cell><cell>3.65</cell></row><row><cell>Gd203</cell><cell>4.64</cell><cell>L.O.I.</cell><cell></cell></row><row><cell>Y2Oa</cell><cell>1.80</cell><cell></cell><cell></cell></row><row><cell>ThO 2</cell><cell>1.21</cell><cell></cell><cell></cell></row><row><cell>U308</cell><cell>0.26</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>Run information and results : LREE and P diffusivities and saturation levels Fig.3. Arrhenius-type plot of diffusion coefficients calculated from REE gradients adjacent to a partly dissolved monazite over the range of experimental conditions. Data points represent averaged value of Ce, La, and Sm, some Nd, analyses. Error bars represent 2-sigma; otherwise this error is contained in the width of the point. The well-correlated lines indicate that diffusion is the dominant transport process. The effect of dissolved water on element mobility is obvious and systematic, with E, decreasing progressively from 1-6% H20</figDesc><table><row><cell></cell><cell cols="3">Temp. Duration H20</cell><cell>Dp</cell><cell></cell><cell></cell><cell>Co</cell><cell cols="2">DLREE</cell><cell></cell><cell></cell><cell>Co, LREEs (ppm)</cell></row><row><cell>Run</cell><cell>(~ C)</cell><cell cols="2">(• 104 s) (wt.%)</cell><cell>(cm2-s -1)</cell><cell></cell><cell></cell><cell>(wt.% P205)</cell><cell cols="2">cm2_s-1)</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Ce</cell><cell>La</cell><cell>Nd</cell><cell>Sm</cell></row><row><cell>MONDIS 4</cell><cell>1,100</cell><cell>6.4</cell><cell>5.8</cell><cell cols="2">+1 1 X 7.57_oi 9 10-</cell><cell>11</cell><cell>0.17</cell><cell cols="5">+0.88 7.22_o.79 x 10 -li</cell><cell>1,430</cell><cell>940</cell><cell>707</cell><cell>576</cell></row><row><cell>MONDIS 5</cell><cell>1,000</cell><cell>25.0</cell><cell>6.0</cell><cell cols="3">1.48_+0.77 x 10 ll</cell><cell>0.095</cell><cell>1 As .~u</cell><cell>-0.41</cell><cell cols="3">• 10-11</cell><cell>675</cell><cell>442 -</cell><cell>185</cell></row><row><cell>MONDIS 6</cell><cell>1,200</cell><cell>19.44</cell><cell>2.0</cell><cell cols="3">6.30+~ ~ x 10 -~1</cell><cell>0.20</cell><cell cols="5">+1.5 4.79_1.2 x 10 11</cell><cell>1,503 /,183 1,010</cell><cell>867</cell></row><row><cell>MONDIS 7</cell><cell>1,100</cell><cell>18.24</cell><cell>2.1</cell><cell cols="3">t ?~+o.51 x/0 -it ..... 0.46</cell><cell>0.13</cell><cell cols="2">1 12 ~ " -0.18</cell><cell cols="3">x 10 li</cell><cell>976</cell><cell>675 -</cell><cell>286</cell></row><row><cell>MONDIS 8</cell><cell>1,200</cell><cell>45.12</cell><cell>1.0</cell><cell>t as ..... o.3o</cell><cell cols="2">x 10 -11</cell><cell>0.15</cell><cell cols="5">+0.40 10 11 -o,3o •</cell><cell>1,220</cell><cell>876 -</cell><cell>516</cell></row><row><cell cols="2">MONDIS 10 1,100</cell><cell>17.28</cell><cell>4.0</cell><cell cols="3">os +3'~ x m-l~ .... 1.6 -~</cell><cell>0.17</cell><cell cols="5">+3.1 10 Xl 4.85_ 1.9 x</cell><cell>1,120</cell><cell>760</cell></row><row><cell cols="2">MONDIS 11 1,200</cell><cell>11.88</cell><cell>6.0</cell><cell cols="3">2.75+o~ x 10 -1~</cell><cell>0.32</cell><cell cols="4">34+I.3 9 -0.82 x</cell><cell>10-1o</cell><cell>2,243 1,695 1,115</cell><cell>i ,307</cell></row><row><cell cols="2">MONDIS 12 1,100</cell><cell>69.84</cell><cell>1.0</cell><cell cols="3">1.20_+0.85 x 10 -i2</cell><cell>0.12</cell><cell cols="3">i 2A+1-6 . v-on x</cell><cell cols="2">10-12</cell><cell>747</cell><cell>505</cell></row><row><cell cols="2">MONDIS 15 1,000</cell><cell>25.92</cell><cell>3.9</cell><cell cols="3">2.56+~h v x 10 -ii</cell><cell>0.084</cell><cell cols="5">1 2~+o.6o 10-al . v_o.4i x</cell><cell>615</cell><cell>210</cell><cell>336</cell><cell>170</cell></row><row><cell cols="2">MONDIS 16 1,200</cell><cell>12.42</cell><cell>4.0</cell><cell cols="3">1.68+0.10x 10 lo</cell><cell>0.31</cell><cell cols="5">1 12+~0.29 10-10 ' -0.23 x</cell><cell>1,990 -</cell><cell>-</cell></row><row><cell cols="2">MONDIS 19 1,300</cell><cell>5.94</cell><cell>1.0</cell><cell cols="3">1.23+o~ x 10 -1~</cell><cell>0.35</cell><cell cols="5">2.51 +0.37 10 lO -o.31x</cell><cell>2,938 1,836 2,380</cell><cell>1,170</cell></row><row><cell cols="2">MONDIS 20 1,300</cell><cell>5.94</cell><cell>2.0</cell><cell cols="3">2.7___0.25 x 10 -1~</cell><cell>0.49</cell><cell cols="5">39+0.89 10-1o 9 -0.74 x</cell><cell>3,346 -</cell><cell>2,715</cell><cell>1,695</cell></row><row><cell cols="2">MONDIS 21 1,300</cell><cell>5.94</cell><cell>6.0</cell><cell cols="3">1.0___0.15 • 10 -9</cell><cell>0.78</cell><cell cols="4">8 T ~+1"i 9 J-o.gs x</cell><cell>10 -l~</cell><cell>4.383 3,345 3,280</cell><cell>2,660</cell></row><row><cell cols="2">MONDIS 23 1,400</cell><cell>1.662</cell><cell>1.0</cell><cell cols="3">1.38_+o1~% X 10 -9</cell><cell>0.77</cell><cell cols="2">2,77•</cell><cell></cell><cell></cell><cell>10 9</cell><cell>4,418 3,950 3,224</cell><cell>2,091</cell></row><row><cell cols="2">MONDIS 25 1,400</cell><cell>1.662</cell><cell>4.0</cell><cell cols="3">4.15+o~ x 10 -9</cell><cell>0.94</cell><cell cols="5">+036 4.47_s x 10 -9</cell><cell>--</cell><cell>--</cell><cell>--</cell><cell>2,968</cell></row><row><cell cols="2">MONDIS 26 1,400</cell><cell>1.662</cell><cell>6.0</cell><cell>4.25+~</cell><cell cols="2">x 10 -9</cell><cell>1.05</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>9,095 5,090 -</cell><cell>5,380</cell></row><row><cell>MONXLZ.</cell><cell>1,200</cell><cell>89.40</cell><cell>6.6</cell><cell>-</cell><cell></cell><cell></cell><cell></cell><cell>-</cell><cell></cell><cell></cell><cell></cell><cell>2,280 1,745 1,080</cell><cell>1,340</cell></row><row><cell>REV. 11</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 4 .</head><label>4</label><figDesc>Monazite -melt partition coefficients</figDesc><table><row><cell>Temp</cell><cell>kD</cell><cell></cell></row><row><cell>(~</cell><cell></cell><cell></cell></row><row><cell></cell><cell>t % HzO</cell><cell>6% H20</cell></row><row><cell>650</cell><cell>6.4 x 104</cell><cell>1.9 x 104</cell></row><row><cell>700</cell><cell>2.3 x 104</cell><cell>9.3 x 103</cell></row><row><cell>750</cell><cell>a.t x 104</cell><cell>4.5 x 103</cell></row><row><cell>800</cell><cell>6.5 x 103</cell><cell>2.3 x 103</cell></row><row><cell>850</cell><cell>3.3 x 103</cell><cell>1.3 x 10 a</cell></row><row><cell cols="3">a range of conditions (similar to those performed by</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements. This work was supported by the Division of</head><p>Earth Sciences of the <rs type="funder">National Science Foundation</rs>, through grant <rs type="grantNumber">EAR82-12453</rs>. The authors wish to thank <rs type="person">T.M. Harrison</rs> and <rs type="person">C.F. Miller</rs> for constructive comments and advice throughout the period of this research, as well as <rs type="person">K.E. Davis</rs> for microprobe assistance. We also wish to thank the official reviewers for their thoughtful and constructive comments.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_mP5UuMR">
+					<idno type="grant-number">EAR82-12453</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The nature of dissolved water in sodium silicate melts and its effect on various properties</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Acocella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tomozawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Non-Cryst Solids</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="355" to="372" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Mineralogy and rare-earth geochemistry of apatite and xenotime from the Gloserheia granite pegmatite</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Amli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Mineral</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="607" to="620" />
+			<date type="published" when="1975">1975</date>
+			<pubPlace>Froland, southern Norway</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Behavior of trace elements during magmatic processes-a summary of theoretical models and their applications</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Arth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Res US Geol Surv</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="41" to="47" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Geochemistry of uranium and thorium in the granites of the Kyzyltan Massif</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Baranov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lieh-T'ien</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1180" to="1191" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Empirical correction factors for the electron microanalysis of silicates and oxides</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Bence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Albee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="382" to="403" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Geochemistry of Proterozoic granitic plutons from New Mexico</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Condie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Geol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="131" to="149" />
+			<date type="published" when="1978">1978</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<title level="m">The Mathematics of Diffusion. 2nd ed</title>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Conduction of heat in solids</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Carslaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Jaeger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1959">1959</date>
+			<publisher>Oxford University Press</publisher>
+			<biblScope unit="page">510</biblScope>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">An introduction to the rock-forming minerals : nonsilicates</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Deer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zussman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1966">1966</date>
+			<pubPlace>London</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Longham Group</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">New rare-earth element standards for electron microprobe analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Weill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Geol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="179" to="181" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Oxygen diffusion in three silicate melts along the join diopside-anorthite</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Dunn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="2293" to="2299" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Petrologic significance of rare-earths distribution in granites</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Emmermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Daieva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schneider</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="267" to="283" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The activated complex and the absolute rate of chemical reactions</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eyring</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Rev</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="65" to="82" />
+			<date type="published" when="1935">1935</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Some aspects of the geochemistry of yttrium and the lanthanides</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Fleischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Aeta</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="755" to="772" />
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The relationship of the rareearth composition of minerals to geologic environment</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Fleischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">S</forename><surname>Altschuler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">732</biblScope>
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Trace element behavior in granite genesis: a case study-the calc-alkaline plutonic association from the Querigut complex</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fourcade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Allegre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="177" to="195" />
+			<date type="published" when="1981">1981</date>
+			<pubPlace>Pyrenees, France</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Trace element fi&apos;actionation and the origin of tholeiite and alkaline magma types</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Gast</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="1057" to="1086" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Distribution of rare-earths in rock-forming and accessory minerals of certain granites</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Gavrilova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Turanskaya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="163" to="169" />
+			<date type="published" when="1958">1958</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Geochemische Verteilungsgesetze der elemente III. Roentgenspektrographische Untersuchungen fiber die Verteilung der seltenen Erdmetalle in Mineralen</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Goldschmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Thomassen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Norske Vidensk Akad Mat Naturw Klasse No</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="50" />
+			<date type="published" when="1924">1924</date>
+		</imprint>
+	</monogr>
+	<note>Skr</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Crystallization of apatite in natural magmas under high pressure hydrous conditions, with particular reference to orogenic rock series</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="96" to="105" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Rare-earth element distributions among minerals in a granodiorite and their petrogenetic implications</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Gromet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Silver</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="925" to="939" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The application of trace elements to the petrogenesis of igneous rocks of granitic compositon</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Hanson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="26" to="43" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Kinetics of zircon dissolution and zirconium diffusion in granitic melts of variable water content</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="66" to="72" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The behavior of apatite during crustal anatexis: equilibrium and kinetic considerations</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">1477</biblScope>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Relationship between geology and composition of some pegmatitic monazites</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Heinrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Borup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Levinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="222" to="231" />
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Electron Beam X-ray Microanalysis</title>
+		<author>
+			<persName><forename type="first">Kfj</forename><surname>Heinrich</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1978">1978</date>
+			<publisher>Van Nostrand Reinhold</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Structural controls and mechanisms of diffusion in natural silicate melts</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Lowry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="263" to="272" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Diffusion in natural silicate melts: a critical review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of Magmatic Processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Princeton, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton Univ Press</publisher>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="volume">385</biblScope>
+			<biblScope unit="page">417</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Tracer diffusion in granitic melts: experimental results for</title>
+		<author>
+			<persName><forename type="first">A ;</forename><surname>Jambon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Cs</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ca</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sr</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geophys Res</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="10797" to="10810" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note>Ce, and Eu to 1300 C and a model of calculation</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Distribution patterns of rare-earth elements in cerium rich minerals</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Jensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Norsk Geologisk Tidsskrift</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="9" to="19" />
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Transition state theory</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Kinetics of Geochemical Processes</title>
+		<imprint>
+			<publisher>Mineral Soc Am</publisher>
+			<date type="published" when="1981">1981</date>
+			<biblScope unit="volume">8</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Accessory minerals in some granitic rocks in California and Nevada as a function of calcium content</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fcw</forename><surname>Dodge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Mineral</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="1660" to="1669" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Fractionation of rare-earth elements in allanite and monazite as related to geology of the Mt. Wheeler mine area, Nevada</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bastron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="339" to="356" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Rare-earth elements in the accessory minerals of granitoids</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Lyakhovich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="39" to="55" />
+			<date type="published" when="1962">1962</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Distribution of rare-earths among the accessory minerals of granites</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Lyakhovich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="691" to="696" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Characteristics of the rareearth assemblages in the accessory minerals of granitoids</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Lyakhovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Barinskii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="495" to="509" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The accessory minerals of the Wolf Mountain granite</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Mcadams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Mineral</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="128" to="135" />
+			<date type="published" when="1936">1936</date>
+			<pubPlace>llano County, Texas</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The heavier accessory minerals in the granites of Scotland</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Mackie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Edinburgh Geol Soc Trans</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="22" to="40" />
+			<date type="published" when="1928">1928</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">On the behavior of rare-earth elements during partial melting of granitic rocks</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ejd</forename><surname>Kable</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Geol</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="21" to="29" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Depletion of light rare-earth elements in felsic magmas</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Mittlefehldt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="129" to="133" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Certain geochemical peculiarities of the radioactive rare-earth minerals</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Mineyev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="156" to="166" />
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Geochemical differentiation of the rare-earths</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Mineyev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1129" to="1149" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Geochemistry of the Sweetwater Wash Pluton, California: implications for ~ anomalous&quot; trace element behavior during differentiation of felsic magmas</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Mittlefehldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="109" to="124" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Systematic variation of rare-earths in monazite</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Murata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rose</forename><surname>Hj</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Carron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="292" to="300" />
+			<date type="published" when="1953">1953</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Systematic variation of rare-earth elements in cerium-earth minerals</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Murata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rose</forename><surname>Hj</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Carron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Glass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="141" to="161" />
+			<date type="published" when="1957">1957</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Composition of monazites from pegmatites in eastern Minas Gerais, Brazil</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Murata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">V</forename><surname>Dutra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Teixeira</forename><surname>Da Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Branco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="1958">1958</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Transition metal ions in silicate melts-I. manganese in sodium silicate melts</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="887" to="893" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Transition metal ions in glasses: network modifiers or quasimolecular complexes</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Furukawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mat Res Bull</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="959" to="966" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The geologic occurrence of monazite</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Overstreet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">US geol Surv Prof Paper</title>
+		<imprint>
+			<biblScope unit="volume">530</biblScope>
+			<biblScope unit="page">327</biblScope>
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The mineralogy and geochemistry of uranium, thorium and rare-earth elements in two radioactive granites of the Vosges</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pagel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mineral Mag</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="149" to="161" />
+			<date type="published" when="1982">1982</date>
+			<pubPlace>France</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Rare-earth element fractionation and petrogenetic modelling in charnockitic rocks</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Petersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Southwest Norway. Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">980</biblScope>
+			<biblScope unit="page" from="161" to="172" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">L&apos;apatite accessoria nella diverse facies litologiche delle formationi granitoidi della Val Sersera (Vercelli</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pigorini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Veniale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rendiconti Soc Ital Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">32</biblScope>
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Cogenetic and inherited zircon U-Pb systems in granites; Paleozoic granites of Scotland and England</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Pidgeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aftalion</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geol J (Liverpool)</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Bowes</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="183" to="220" />
+		</imprint>
+	</monogr>
+	<note>Crustal evolution in northwestern Britain and adjacent regions. Spec Issue</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Certain regularities in the behavior of rare earths and yttrium in magmatic and post-magmatic processes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Pavlenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Vainshtein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Turanskaya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="357" to="380" />
+			<date type="published" when="1958">1958</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Monazite and allanite in the crust: implications to the distribution of the LREEs, Y, U and Th</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Rapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ryerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EOS</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="16" to="386" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Implications of liquid-liquid distribution coefficients to mineral-liquid partitioning</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ryerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Hess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="921" to="932" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">X-ray spectrographic study of the rare-earths in some Finnish eruptive rocks and minerals</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Sahama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vahatalo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull Comm Geol Finland</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="50" to="83" />
+			<date type="published" when="1941">1941</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The distribution of radioactive heat in I-and S-type granites residual source regions: implications to high heat flow areas in the Lachlan fold belt</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Sawka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Chappell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Australia. Aust J Earth Sci</title>
+		<imprint>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Light rare-earth element zoning in sphene and allanite during granitoid fractionation</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Sawka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Chappell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Norrish</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="131" to="134" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Relationship between composition of rareearths and compostion and structure of minerals</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Semenov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="163" to="169" />
+			<date type="published" when="1958">1958</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">The composition characteristics of the rare-earths in minerals</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Semenov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Barinskii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="398" to="419" />
+			<date type="published" when="1958">1958</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Trace element behavior during anatexis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">243</biblScope>
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">A mathematical analysis of solute redistribution during solidification</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Tiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Rutter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Physics</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="723" to="744" />
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Water in silicate glasses: An infrared spectroscopic study</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stolper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Origin of Ross Island basanitoids and limitations on the heterogeneity of mantle sources for alkali basalts and nephelinites</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Hanson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page">106</biblScope>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Rare-earth fractionation and magmatie processes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Schilling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Winchester</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Mantles of the Earth and terrestrial planets Intersci Publ</title>
+		<editor>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Runcorn</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="page" from="267" to="283" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The distribution of rare-earths in monazite</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Vainshtein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tugarinov</forename><surname>Ai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Turanskaya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dokl Akad Nauk SSSR I</title>
+		<imprint>
+			<biblScope unit="volume">04</biblScope>
+			<biblScope unit="page" from="268" to="271" />
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Distribution of the rare-earths in monazites of granitoids</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Vainshtein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Tugarinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Turanskaya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dokl Akad Nauk SSR</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="691" to="692" />
+			<date type="published" when="1956">1956</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Regularities in the distribution of rare-earths in certain minerals</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Vainshtein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Tugarinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Turanskaya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="159" to="178" />
+			<date type="published" when="1956">1956b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Vernadskii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dokl Akad Nauk SSR, Ser I</title>
+		<imprint>
+			<biblScope unit="page">35</biblScope>
+			<date type="published" when="1924">1924</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Zircon saturation in felsic liquids: Experimental data and applications to trace element geochemistry</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page">419</biblScope>
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Some experimentally-determined zircon/liquid partition coefficients for the rare-earth elements</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="895" to="897" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Chemical diffusion in magmas: an overview of experimental results and geochemical applications</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Physical Geomistry</title>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">L</forename><surname>Perchuk</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Berlin Heidelberg New York Tokyo</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1986">1986</date>
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Phosphorus and the rare-earth elements in felsic magmas: an assessment of the role of apatite</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Capobianco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochem Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="2349" to="2358" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Zircon saturation revisited: Temperature and composition effects in a variety of crustal magma types</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="295" to="304" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Accessory minerals and the geochemical evolution of crustal magmatic systems: a summary and prospectus of experimental approaches</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Earth Planet Int</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="19" to="30" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Trace element behavior during migmatization: evidence for a complex meltresiduum-fluid interaction in the St. Malo migmatitic dome (France)</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barbery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cuney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Martin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="52" to="62" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Ionic radii for use in geochemistry</title>
+		<author>
+			<persName><forename type="first">Ejw</forename><surname>Whittaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Muntus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="945" to="956" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Compston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Chappell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Zircon and monazite U-Pb systems and the histories of Z-type magmas</title>
+		<meeting><address><addrLine>Berridale Batholith, Australia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1983">1983</date>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="76" to="97" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Content and distribution of uranium, thorium, yttrium and the rare-earths in accessory minerals in granitoids</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">P</forename><surname>Yeliseyeva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemsitry</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="37" to="49" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Rare-earth elements in accessory minerals of the Vishnev Mountains</title>
+		<author>
+			<persName><forename type="first">Yeskova</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ganseyev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="1152" to="1163" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Least-squares fitting of a straight line</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>York</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Phys</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="1079" to="1086" />
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+		<title level="m" type="main">The rare-earths and their compounds</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Yost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Russell</forename><forename type="middle">H</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Garner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1947">1947</date>
+			<publisher>Wiley</publisher>
+			<biblScope unit="page">42</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Rare-earth elements in the accessory minerals of gneisses of the Ukrainian crystalline shield</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Zayats</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">P</forename><surname>Kuts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1209" to="1210" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Lavrent2)ev YG (1961) Geochemistry of rare-earth elements in pegmatites of northern Karelia</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Zhirov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Bandurkin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1107" to="1118" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,674 @@
+[
+    {
+        "melt": "volatile-bearing magmas",
+        "diffusing_species": "volatiles",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "volatile-free magmas",
+        "diffusing_species": "EBDCs",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "magmatic liquids",
+        "diffusing_species": "dissolved volatiles",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "alkali silicate glasses",
+        "diffusing_species": "alkali",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "silicic",
+        "diffusing_species": "H2O",
+        "test_temperature": 750.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "silicic",
+        "diffusing_species": "H2O",
+        "test_temperature": 850.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": null,
+        "diffusing_species": "H2O",
+        "test_temperature": 850.0,
+        "diffusivity": 1e-13,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": null,
+        "diffusing_species": "H2O",
+        "test_temperature": 850.0,
+        "diffusivity": 1e-11,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": null,
+        "diffusing_species": "H2O",
+        "test_temperature": 980.0,
+        "diffusivity": 1.3e-11,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": null,
+        "diffusing_species": "H2O",
+        "test_temperature": 650.0,
+        "diffusivity": 1e-12,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": null,
+        "diffusing_species": "H2O",
+        "test_temperature": 950.0,
+        "diffusivity": 1e-11,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "obsidian",
+        "diffusing_species": "H2O",
+        "test_temperature": 850.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "obsidian",
+        "diffusing_species": "D2O",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "rhyolitic glass",
+        "diffusing_species": "H2O",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "albitic glass",
+        "diffusing_species": "H2",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "hydrous albite",
+        "diffusing_species": "hydrogen",
+        "test_temperature": 1000.0,
+        "diffusivity": 8e-08,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "basaltic",
+        "diffusing_species": "water-related species",
+        "test_temperature": 1300.0,
+        "diffusivity": 3.4e-06,
+        "SiO2": 50.6,
+        "TiO2": null
+    },
+    {
+        "melt": "sodium aluminosilicate",
+        "diffusing_species": "CO2",
+        "test_temperature": 1200.0,
+        "diffusivity": null,
+        "SiO2": 60.0,
+        "TiO2": null
+    },
+    {
+        "melt": "haplobasaltic",
+        "diffusing_species": "CO2",
+        "test_temperature": 1350.0,
+        "diffusivity": null,
+        "SiO2": 53.0,
+        "TiO2": null
+    },
+    {
+        "melt": "rhyolitic",
+        "diffusing_species": "CO2",
+        "test_temperature": 1050.0,
+        "diffusivity": 2.4e-12,
+        "SiO2": 76.5,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "CO2",
+        "test_temperature": 800.0,
+        "diffusivity": 6.5e-08,
+        "SiO2": 76.4,
+        "TiO2": null
+    },
+    {
+        "melt": "dacitic",
+        "diffusing_species": "CO2",
+        "test_temperature": 800.0,
+        "diffusivity": null,
+        "SiO2": 63.5,
+        "TiO2": null
+    },
+    {
+        "melt": "basaltic",
+        "diffusing_species": "CO2",
+        "test_temperature": 1300.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic obsidian",
+        "diffusing_species": "CO2",
+        "test_temperature": 1050.0,
+        "diffusivity": 6.2e-07,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "lunar ultramafic",
+        "diffusing_species": "sulfur",
+        "test_temperature": 1300.0,
+        "diffusivity": 6.6e-12,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "andesite",
+        "diffusing_species": "sulfur",
+        "test_temperature": 1100.0,
+        "diffusivity": 3.2e-08,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "obsidian",
+        "diffusing_species": "sulfur",
+        "test_temperature": 1100.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "rhyolite",
+        "diffusing_species": "sulfur",
+        "test_temperature": 800.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "rhyolite",
+        "diffusing_species": "sulfur",
+        "test_temperature": 900.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "CaO-Al2O3-SiO2",
+        "diffusing_species": "fluorine",
+        "test_temperature": 1300.0,
+        "diffusivity": 1e-09,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "CaO-Al2O3-SiO2",
+        "diffusing_species": "fluorine",
+        "test_temperature": 1600.0,
+        "diffusivity": 4e-09,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "jadeite",
+        "diffusing_species": "fluorine",
+        "test_temperature": 1200.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "jadeite",
+        "diffusing_species": "fluorine",
+        "test_temperature": 1400.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "albite",
+        "diffusing_species": "fluorine",
+        "test_temperature": 1200.0,
+        "diffusivity": 2.3e-09,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "Na2O-CaO-Al2O3-SiO2",
+        "diffusing_species": "chlorine",
+        "test_temperature": 1100.0,
+        "diffusivity": 0.00034,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "rhyolitic and dacitic melts",
+        "diffusing_species": "Cl",
+        "test_temperature": 1100.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "obsidian",
+        "diffusing_species": "Cl",
+        "test_temperature": 800.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "obsidian",
+        "diffusing_species": "Cl",
+        "test_temperature": 900.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "obsidian",
+        "diffusing_species": "Cl",
+        "test_temperature": 1000.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "obsidian",
+        "diffusing_species": "Cl",
+        "test_temperature": 1100.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "haplogranitic melt",
+        "diffusing_species": "Cl",
+        "test_temperature": 650.0,
+        "diffusivity": null,
+        "SiO2": 74.6,
+        "TiO2": null
+    },
+    {
+        "melt": "haplogranitic melt",
+        "diffusing_species": "Cl",
+        "test_temperature": 900.0,
+        "diffusivity": null,
+        "SiO2": 74.6,
+        "TiO2": null
+    },
+    {
+        "melt": "natural obsidian",
+        "diffusing_species": "Cl",
+        "test_temperature": 850.0,
+        "diffusivity": null,
+        "SiO2": 77.9,
+        "TiO2": null
+    },
+    {
+        "melt": "natural obsidian",
+        "diffusing_species": "Cl",
+        "test_temperature": 1400.0,
+        "diffusivity": null,
+        "SiO2": 77.9,
+        "TiO2": null
+    },
+    {
+        "melt": "tholeiitic basalt",
+        "diffusing_species": "He",
+        "test_temperature": 1350.0,
+        "diffusivity": null,
+        "SiO2": 49.7,
+        "TiO2": null
+    },
+    {
+        "melt": "tholeiitic basalt",
+        "diffusing_species": "Ne",
+        "test_temperature": 1350.0,
+        "diffusivity": null,
+        "SiO2": 49.7,
+        "TiO2": null
+    },
+    {
+        "melt": "tholeiitic basalt",
+        "diffusing_species": "Ar",
+        "test_temperature": 1350.0,
+        "diffusivity": null,
+        "SiO2": 49.7,
+        "TiO2": null
+    },
+    {
+        "melt": "tholeiitic basalt",
+        "diffusing_species": "Kr",
+        "test_temperature": 1350.0,
+        "diffusivity": null,
+        "SiO2": 49.7,
+        "TiO2": null
+    },
+    {
+        "melt": "tholeiitic basalt",
+        "diffusing_species": "Xe",
+        "test_temperature": 1350.0,
+        "diffusivity": null,
+        "SiO2": 49.7,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Cs",
+        "test_temperature": 750.0,
+        "diffusivity": null,
+        "SiO2": 73.0,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Cs",
+        "test_temperature": 700.0,
+        "diffusivity": null,
+        "SiO2": 76.0,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Ca",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Na",
+        "test_temperature": 700.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Zr",
+        "test_temperature": 1200.0,
+        "diffusivity": null,
+        "SiO2": 76.4,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Zirconium",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Phosphorus",
+        "test_temperature": 1100.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Phosphorus",
+        "test_temperature": 1300.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Silica",
+        "test_temperature": 1000.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Silica",
+        "test_temperature": 1100.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Silica",
+        "test_temperature": 1200.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Silica",
+        "test_temperature": 1400.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "halogenated",
+        "diffusing_species": "Zr",
+        "test_temperature": null,
+        "diffusivity": 100.0,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "peralkaline rhyolitic and dacitic",
+        "diffusing_species": "Si",
+        "test_temperature": 1.0,
+        "diffusivity": null,
+        "SiO2": 1.0,
+        "TiO2": null
+    },
+    {
+        "melt": "peralkaline rhyolitic and dacitic",
+        "diffusing_species": "Si",
+        "test_temperature": 1.0,
+        "diffusivity": 5.0,
+        "SiO2": 1.0,
+        "TiO2": null
+    },
+    {
+        "melt": "basaltic magmas",
+        "diffusing_species": "CO2",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "basaltic magmas",
+        "diffusing_species": "H2O",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "basaltic magmas",
+        "diffusing_species": "He",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "basaltic magmas",
+        "diffusing_species": "Ar",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic magmas",
+        "diffusing_species": "H2O",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic magmas",
+        "diffusing_species": "CO2",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "various melts and glasses",
+        "diffusing_species": "CO2",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "magmatic melts",
+        "diffusing_species": "sulfur",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "molten andesite",
+        "diffusing_species": "H2O",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "molten silicates",
+        "diffusing_species": "halogens (F and Cl)",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "soda-lime aluminosilicate",
+        "diffusing_species": "CI",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": 56.0,
+        "TiO2": null
+    },
+    {
+        "melt": "basic slag",
+        "diffusing_species": "F",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": 40.0,
+        "TiO2": null
+    },
+    {
+        "melt": "albite",
+        "diffusing_species": "F-O interdiffusion",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "jadeite",
+        "diffusing_species": "F-O interdiffusion",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "haplogranitic",
+        "diffusing_species": "CI",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "obsidian",
+        "diffusing_species": "CI",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Cs, Ca, Na",
+        "test_temperature": 700.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Zr, P, Si",
+        "test_temperature": 1100.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "granitic",
+        "diffusing_species": "Zr, P",
+        "test_temperature": 800.0,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    },
+    {
+        "melt": "albite glass",
+        "diffusing_species": "hydrogen",
+        "test_temperature": null,
+        "diffusivity": null,
+        "SiO2": null,
+        "TiO2": null
+    }
+]

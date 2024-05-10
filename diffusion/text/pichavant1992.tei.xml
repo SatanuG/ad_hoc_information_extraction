@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Apatite solubility in peraluminous liquids: Experimental data and an extension of the H~rison-Watson model</title>
+				<funder ref="#_5k7UKCs">
+					<orgName type="full">NSERC</orgName>
+				</funder>
+				<funder ref="#_vGKxsYn">
+					<orgName type="full">DBT</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><surname>Michel~chavant</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Centre de Recherche sur la Synth&amp;e et la Chimie des Min&amp;raux</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>1A rue de la Fkrollerie, 4507i, Orl6ans Cedex 02</addrLine>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Lindar</forename><surname>Rjchard'</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Centre de Recherche sur la Synth&amp;e et la Chimie des Min&amp;raux</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>1A rue de la Fkrollerie, 4507i, Orl6ans Cedex 02</addrLine>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<address>
+									<region>WA</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Earth Sciences</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>5 rue Kessler</addrLine>
+									<postCode>63038</postCode>
+									<settlement>Clermont-Fenand</settlement>
+									<country>France &apos;</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">Dalhousie University</orgName>
+								<address>
+									<postCode>B3H 355</postCode>
+									<settlement>Halifax</settlement>
+									<region>NS</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Apatite solubility in peraluminous liquids: Experimental data and an extension of the H~rison-Watson model</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">83E712F150226BEE15D7F92E200B3D93</idno>
+					<note type="submission">Received February 25, 1992; accepted in revisedform July 14, 1992</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>New experimental data at 750-lOOO"C, 2-5 kbar, and for peraluminous melt compositions show a dramatic increase of apatite solubilities and phosphorus melt contents when compared to metaluminous or peralkaline compositions (HARRISON and WATSON, 1984). The formation of Jumino-phosphate units in peraluminous melts qu~i~tively explains our data. A new apatite solubility model, incorporating the data for the aluminous region, is presented. Application of this model to examples of ~~urnin~us felsic suites is-discussed. -</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>HIGH PHOSPHORUS contents, some as high as 0.5 wt% PzOf , have been recognized worldwide in peraluminous felsic suites (e.g., ADAM and GAGNY, 1986; CHAROY 1986; <ref type="bibr" target="#b16">PICHAVANT et al., 1987</ref><ref type="bibr">PICHAVANT et al., ,1988a,b;,b;</ref><ref type="bibr">~~ACKENZIE~~ al., 1988;</ref><ref type="bibr" target="#b8">KONTAK, 1990;</ref><ref type="bibr" target="#b23">SCAILLET, 1990)</ref>. These high P205 concentrations are ap parenfly inconsistent with the apatite solubility data of Watson and coworkers (WATSON and CAPOBIANCO, 198 1; HAR-RISON and WATSON, 19841, determined for both peralkaline and m~uminous melt ~rn~sition~ According to the model of HARRISON and WATSON ( 1984 ) , apatite saturation in felsic melts is dependent primarily on temperature, melt SiO, content, and is independent of pressure (in the range of crustal pressures) or melt Hz0 content (in the range 0 to 10 wt% H20). The model predicts apatite solubiities that are very small for crustal temperatures and melt compositions (e.g., 0.02 wt% P,O, for a melt with 75 wt% SiOz at 800°C; <ref type="bibr" target="#b7">HARRISON and WATSON, 1984 )</ref> . As an attempt to understand the discrepancy between calculated and analyzed phosphorus contents, an experimental program aimed at determining the solubility of apatite in peraluminous compositions was undertaken. We present here the experimental results and interpretations of the first part of this program, together with a new model for apatite SolubiIity that incorporates the results for peraIuminous compositions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>METHODS</head><p>Two types of experiments were carried out in order to test for reversibility: dissolution and crystallization experiments. In the diisolution experiments, apatite solubilities were determined by dissolution of the starting apatite crystals in a melt (WATSON and CA-POBIANCO, 1981; HARRISON and WATSON, 1984).Inthe crystallization experiments, apatite nucleated and grew from an apatite oversaturated melt.</p><p>For the dissolution experiments, natural apatites from Durango, Mexico with a com~ition close to Ca,( PO&amp;F were used. The apatites were crushed and sieved to a grain size between 35 pm and 75 pm to ensure an homogeneous population and to reduce problems of apatite contamination during electron microprobe analysis of experimental glasses. These apatites were mixed with a synthetic Pand Ca-free metaluminous haplogranitic gel of composition close to the 2 kbar water-saturated Qz-Ab-Or minimum (TUTTLE and BOWEN, 1958). In a few experiments, the natural P-rich (0.53 wt% P,Os) pet-aluminous obsidian glass from Macusani, Peru <ref type="bibr" target="#b16">(PICHAVANT et al., 1987</ref><ref type="bibr" target="#b21">(PICHAVANT et al., , 1988b) )</ref> was used instead of the synthetic gel. For tie crystallization experiments, a synthetic P-and Ca-bearing glass was prepared by repeated I atm fusion of a synthetic Ca-bearing ( 1 wt% CaO) metaluminous granitic gel and an evaporated KH#&amp; solution. The synthetic Ca-and P-doped glass had a molar Ca/P of 1.5 7 f 0.24 (Ca J P = 1.67 in apatite). An~u~te crystals were added in both forward and reversal ex~men~ to generate aluminous melt commotions. The andalusites from Macusani, Peru have a composition close to the Al$SiOs endmember <ref type="bibr">(PlCiiAVANT et al., 1988a)</ref> and they were also crushed and sieved to 35-75 pm. Experiments without and&amp;site were also conducted to compare with the andalusite added experiments and with previous studies (HARRISON and WATSON, 1984). All runs were performed with 10 wt% doubly distilled water added. Charges of approximately 40 mg were prepared and loaded into Au or Pt capsules (length between 20 and 30 mm, diameter 2.5 mm, and wall thickness 0.2 mm).</p><p>Two internally heated gas vessels working horizontally with either Ar or N2 pressure media were used in this study. In both vessels, temperatures were measured with thermocouples calibrated against known melting points (NaCi and Ag). Temperature uncertainties include thermal gradients, ~b~tion errors, and daily functions and are better than + 10°C in most experiments (Table <ref type="table" target="#tab_0">1</ref>). Pressures were read on electronic gauges periodically calibrated against Heist Bourdon tube manometers and are known to within iS0 bar. Although no attempt was made to control oxygen fug&amp;y, the intrinsic oxygen fugacity of both vessels is known to be close to the MnO-MnsO., buffer, implying that oxidizing conditions prevailed in our experiments (see <ref type="bibr" target="#b19">SCAILLET et al., 1992)</ref>. Quenching was performed by switching off the power, resulting in a temperature drop larger than 3OO'C during the first 5 min. Additional information on the experimental conditions is given in Table <ref type="table" target="#tab_0">1</ref>.</p><p>Capsules were weighed after the experiments to teat for leaks. Thes were then opened and their products were examined by petrographic techniques and analyzed with electron microprobe. Two electron microprobe8 operating at the Universit6 de Nancy, a CAlvIECA CA-MEBAX and a CAMECA SX-50 were used. Glasses we= analyzed for their major elements using the CAME BAX pro&amp; under the following conditions 15 KV, 6-8 nA, 6 set on peak, and ZAF  <ref type="bibr">, 1987)</ref>. Molar Al/(2Ca + K + Na) values of glasses were used to calculate A/CNK, except for experiments with the Macusani glass (A/CNK = molar A1/(2Ca + K + Na + Li), Li data taken from <ref type="bibr" target="#b16">PICHAVANT et al., 1987)</ref>. Statistical dispersion on A/CNK ranges between 0.02 and 0.04, depending on sample. Propagation error calculations (electron microprobe uncertainties as in PICHAVANT, 1987) yield one standard deviation between 0.015 and 0.02 for A/CNK. In this study, a constant one standard deviation of 0.025 was adopted for A/CNK (Table <ref type="table" target="#tab_0">1</ref>). Phosphorus in the glasses was analyzed separately with the SX-50 instrument under the following conditions: TAP crystal, 15 KV, 20 nA, 30 set on peak, and I5 background, Macusani glass as a standard, and using the PAP correction procedure. The detection limit for phosphorus under these conditions is about 200 ppm P205 ( ANCEY et <ref type="bibr">al., 1978)</ref>.</p><p>Calculated one standard deviation errors for phosphorus are mostly below 500 ppm, but can be as high as 3600 ppm in case of run #6 (Table <ref type="table" target="#tab_0">1</ref>). The interference between the second order Ca K@ peak and the P Ka peak results in an overestimation of phosphorus concentrations in calcic melts, experimentally determined to be +150 ppm PzOs per wt% CaO. However, for melt CaO contents as in this study ( ~4.5 wt%, Table <ref type="table" target="#tab_0">1</ref> ), the associated error is in all cases smaller than the one standard deviation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS AND DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Data and Modelling</head><p>The experiments, mostly of the dissolution type, were carried out at 2 and 5 kbar and in the temperature range of 750 to 1000°C (i.e., for the three temperatures of 777, 858, and 985-1000°C). Phosphorus concentration profiles of 100-200 pm length were measured systematically around the relict apatites (Fig. <ref type="figure" target="#fig_0">1 a</ref>). Only dissolution experiments that yielded flat phosphorus profiles, suggesting a close approach to equilibrium (e.g., <ref type="bibr">HARRISON and WATSON,</ref><ref type="bibr">l984)</ref>, are considered in this paper (Table <ref type="table" target="#tab_0">1</ref>). In addition, the crystallization (reversal) experiments performed at 858°C and 2.02 kbar (Table <ref type="table" target="#tab_0">1</ref>, runs #4 and 5), provide independent evidence of nearequilibrium phosphorus concentrations in our experimental glasses, because the analytical results for the reversals are in general agreement (Fig. <ref type="figure">2</ref>) with the dissolution runs (Table <ref type="table" target="#tab_0">1</ref>, run #3).</p><p>Apatite was observed as a relict phase in all charges that initially contained it. However, in certain experiments, all starting andalusite crystals were completely dissolved, indicating undersaturation of the melt with respect to A12Si05. At 1000°C, charges seeded with andalusite reacted to corundum-bearing assemblages, with corundum appearing as large, euhedral, hexagonal plates (Fig. <ref type="figure" target="#fig_0">1 c</ref>). Aluminum concentration profiles around the relict andalusite crystals (Fig. <ref type="figure" target="#fig_0">1 b</ref>) never show any gradient that could be attributed to slow Al diffusion into the melt, in contrast with P around apatite (see later). This indicates that Al diffisivity is orders of magnitude faster than P under our experimental conditions and for our melt compositions. Kinetics of equilibration between apatite and melt were evaluated from apatite dissolution experiments of relatively short durations ( 160 h), performed at 9OO"C, 2.05 kbar, with synthetic gel plus andahtsite starting materials, and for different HZ0 activities. These experiments yielded well-defined phosphorus diffusion profiles around relict apatite crystals similar to those characterized by <ref type="bibr" target="#b7">HARRISON and WATSON ( 1984)</ref>. For H20-saturated conditions (melt HZ0 content of about 6 wt%), the phosphorus diffusion coefficient calculated from the profiles is 1.37 -IO-" cm'/sec, in agreement with diffisivities extrapolated from higher temperatures <ref type="bibr" target="#b7">(HARRISON and WATSON, 1984 )</ref>. For HzO-undersaturated conditions (melt HZ0 content of about 3 wt%), a diffusion coefficient of 7.15 -lo-'* cm*/sec was obtained from the profiles, thus confirming the strong positive dependence of phosphorus diffusivity with melt HZ0 content <ref type="bibr" target="#b7">(HARRISON and WATSON, 1984)</ref>. In addition, no great change of the phosphorus apatite/melt interface concentration was observed between these two experiments. As a result, conditions of PHZO = 5 kbar were chosen for experiments below 900°C in order to facilitate approach of the equilibrium PzO~ melt concentration in a reasonable amount of time.</p><p>Two parallel crystallization experiments were performed from the Ca-and P-doped glass with and without andalusite seeds (Table <ref type="table" target="#tab_0">1</ref>, runs #4 and 5 ). Contrasting results were observed: abundant apatite crystallized in the andalusite-absent experiment but is lacking in the andalusite-bearing experiments. When present, apatite appears as homogeneously distributed euhedral prismatic crystals (Fig. <ref type="figure">Id</ref>). The presence of apatite in the crystallization experiment indicates no major nucleation and growth problems for this phase under our experimental conditions and with our starting materials.  <ref type="table">I</ref> ), showing the coexisting residual apatite (light) and andalusite (dark) crystals embedded in natural granitic glass (Macusani, Table <ref type="table" target="#tab_0">1</ref>). (c) Run product #6, I OOO"C, 2 kbar (Table <ref type="table">I</ref> ), showing residual apatite crystals (light) and crystallized acicular corundum, embedded in synthetic granitic glass. (d) Run product #4, 858°C 2.02 kbar, showing the euhedral morphology and distribution of crystallized apatite in synthetic granitic glass.</p><p>Furthermore, this implies apatite undersaturation in the andalusite-bearing charge. The analytical data for the glasses (anhydrous basis) are given in Table <ref type="table" target="#tab_0">1</ref>. For metaluminous melt compositions (run #9, A/CNK = l.OO), P205 melt = 0.23 wt% at 985"C(Table <ref type="table" target="#tab_0">1</ref> ), a value significantly higher than the 0.10 wt% predicted from the <ref type="bibr" target="#b7">HARRISON and WATSON ( 1984)</ref> model (hereafter noted as P20Fw). We attribute this discrepancy between our results and previous studies mainly to large experimental differences in both HZ0 content and pressure, and, to a lesser extent, to the uncertainties of the model at low temperatures, elevated Si02 contents, and small apatite solubilities <ref type="bibr">( WAT-SON and CAPOBIANCO, 1981;</ref><ref type="bibr" target="#b7">HARRISON and WATSON, 1984)</ref>. Melts having equilibrated with andalusite are strongly peraluminous with A/CNK ranging between 1.08 and 1.27 (Table <ref type="table" target="#tab_0">1</ref>). For a given temperature, P205 melt increases with A/CNK, as shown, for example, by the 1OOO'C experiments (Table <ref type="table" target="#tab_0">1,</ref><ref type="table">runs #9,</ref><ref type="table">8,</ref><ref type="table">7,</ref><ref type="table">6)</ref>.</p><p>At 777'C, P205 melt is more than fifty times higher in melts saturated in andalusite (A/CNK = 1.27) than in equivalent metaluminous melts ( P205 melt = 0.88-1.20 wt% P205, Table <ref type="table" target="#tab_0">1</ref>; P205 HW = 0.012-0.022 wt% PZOs ). The apatite saturation limit for the Macusani glass at 777°C ( I .20 wt% PZOs, Table <ref type="table" target="#tab_0">1</ref>) is more than twice the starting P205 concentration (0.53 wt% PzOs), in agreement with the absence of apatite microphenocrysts in this P-rich obsidian glass <ref type="bibr">( PICHAVANT et al., 1987)</ref>. At lOOO"C, P205 melt reaches values higher than 3.5 wt%, and melt compositions are no longer granitic ( SiOZ around 65 wt%, A/CNK = 1.23-l .26, Table <ref type="table" target="#tab_0">1</ref>). Note that, in one of the crystallization experiments (Table <ref type="table" target="#tab_0">1</ref>, run #5 ), the melt is undersaturated with respect to apatite. Thus, the 0.79 wt% P205 melt value is a minimum for the apatite saturation at 858°C and A/CNK = 1.22, in agreement with the other experiments at the same temperature (Fig. <ref type="figure">2</ref>). CaO melt concentrations increase with P205 melt values. For runs #l, 3, and 9, the Ca/P ratio is that expected from apatite stoichiometry.</p><p>All other experiments are characterized by Ca/P ratios slightly lower than apatite.</p><p>For some experiments (runs #2,4, 5), this can be related to the composition of the starting products (Ca/P = 0.52 for Macusani glass, <ref type="bibr" target="#b16">PICHAVANT et al., 1987;</ref><ref type="bibr"></ref> 1.57 It: 0.24 for the Ca-and P-doped glass, see previous discussion ) . Preferential partitioning of Ca towards the vapour phase relative to P would also account for lower Ca/P ratios in melt than in apatite.</p><p>Saturation of the melt with respect to AIZSiOs is observed for A/CNK values of 1.27 and 1.26 at 777 and lOOO"C, respectively. Note, however, that the same value of A/CNK at 777 and 1000°C is the result of markedly different A1203, CaO, and P205 melt contents. In contrast, A1$i05 saturation was not achieved in experiments carried out at 858'C (A/ CNK values &lt; 1.22). An A/CNK value of 1.32 was obtained for an andalusite dissolution experiment, performed in parallel with run #7 (Table <ref type="table">I</ref>), but without apatite added. Abundant relict andalusite and euhedral corundum were encountered in the latter experiment, whereas no such Al-rich phases are present in the products of run #7 (Table <ref type="table">I</ref>), in agreement with the respective A/CNK values of these two parallel experiments ( 1.32 and 1.23). Therefore, dissolution of apatite in run #7 promoted dissolution of A12Si05. Saturation of the melt in A12Si05 is thus dependent on the addition of phosphorus.</p><p>The following conclusions can be drawn from the data: ( 1) apatite solubilities and P205 melt contents are dependent on A/CNK in the peraluminous field (Fig. <ref type="figure">2);</ref><ref type="figure"></ref> (2) for agiven A/CNK value, apatite solubilities increase with temperature, and (3) the rate of increase of apatite solubility, as a function of A/CNK, increases with temperature. In addition, the 1000°C data are characterized by a wide range of SiOz melt values ( 79-64 wt%, Table <ref type="table" target="#tab_0">1</ref>) . This suggests that Si02 should also be considered as an important parameter controlling apatite solubility in the peraiuminous field, as observed in metaluminous and peralkaline compositions <ref type="bibr" target="#b7">(HARRISON and WATSON, 1984)</ref>. This information has been incorporated in a model aimed to describe the solubility of apatite in peraluminous melt compositions. The solubility of apatite can be expressed as the sum of two terms: PZOS PMR = P20FW + P*OF,</p><p>(1) ~=AU(Na+K+2Ca+Li), molar, T(!IP)~, T(AP)PMR = temperatunz calculated using, respectively, the formulation of <ref type="bibr" target="#b7">Harrison and Watson (1984)</ref> and the formulation of this study for apatite volubility; T(Zr) = temperature calculated using the solubility of zircon <ref type="bibr" target="#b25">(Watson and Harrison, 1983</ref>):</p><formula xml:id="formula_0">P2epMR = flinty</formula><p>of apatite caieulattd from T(B) using the form&amp;ion developed in this study.</p><p>where P20 5 PMR represents the apatite solubility calculated with the new formulation. P,Orw is the solubility calculated from the formulation of <ref type="bibr" target="#b7">HARRISON and WATSON ( 1984)</ref>, and P*Of;e' represents the increase of phosphorus content in the melt that results from higher apatite solubilities in peraluminous melts. The experimental data of this study were fitted from Eqn. ( <ref type="formula">1</ref>). An Arrhenius-type formulation was chosen for the second term: PrOpe' = (A/CNK -1) exp(cu/T-t PSiO, + y),</p><p>(2)</p><p>where LY, 8, and y are constants, Tis the absolute temperature, and SiO* is the silica weight fraction in the melt (0.75 for a melt with 75 wtW SiO*). A block-wise global inversion of the data has been carried out (PROVOST, 1989) using the following 1 d values: SiOz , 1% relative; P20J melt as in Table <ref type="table" target="#tab_0">1</ref>; T is one half of the error reported in Table <ref type="table" target="#tab_0">1</ref>; and A/CNK 0.025 absolute (see previous discussion). This yields values of cy = -5900 + 965, p = -3.22 ? 1.67, y = 9.31 + 0.77. The USD (unidimensional standard deviation) is low (0.628), which indicates that the data are correctly represented by the model However, USD is significantly lower than 1, suggesting that some errors may have been overestimated. Appli~tions of the model are illustrated in Fig. <ref type="figure">2</ref>. Calculated apatite solubilities as a function of A/CNK are shown for a melt with 72 wt% SiOz and in the 700-1000°C range.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Implications for Melt Structure</head><p>The results presented here demonstrate an increase of the apatite solubility and PzOs melt with increasing A/CNK, hence peraluminous, character of the melt. There is also a coupling between AlzSiOs and apatite solubility. Phosphorus in me~uminous melts may form PO:-units mostly excluded from the ~uminosilicate network f MYSEN et al., 198 1; LON-DON, <ref type="bibr">1987;</ref><ref type="bibr" target="#b13">MYSEN, 1988)</ref>. In contrast, AlO; units chargebalanced by alkali of alkaline-earth cations are essential components of the network in quartzo-feldpathic melts <ref type="bibr" target="#b13">( MYSEN, 1988)</ref>. However, little is known concerning the structural position of additional Al cations, not charged-balanced by alkali or alkaline-earth cations, that are characteristic of peraluminous melts. The present experiments suggest that these Al cations may complex with phosphorus to form aluminophosphate units. Such complexes having the AlPOi stoichiometry have been proposed from spectroscopic studies of metaluminous ( MYSEN et al., 198 1) and peraluminous melts <ref type="bibr">(CAN and HESS, 1989)</ref>. AlPO, groups are also found in stable mineral phases such as berlinite (AlPOd) and amblygonite f LiAlP04( OH,F)]. Phosphorus-bea~ng analogues of feldspars have also been synthesized <ref type="bibr" target="#b20">(SIMPSON, 1977)</ref>) and numerous examples of such compositions have been discovered in nature <ref type="bibr" target="#b10">(LONDON et al., 1990)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Application to Peraluminous Felsic Magmas</head><p>A number of magmatic peraluminous felsic suites have been selected to illustrate the application of the model presented earlier. They include two examples of highly felsic compositions (Gangotri, Higher Himalayas, and Macusani Volcanics, Peru), the C~menellis pluton from the Carnubian batholith, and two examples of more mafic compo-sinons (Strathbogie, Lachland Fold Belt, and South Mountain batholith, Nova Scotia). For each suite, selected data are given for the whole-rock chemistry, together with the results of the calculated models (Table <ref type="table" target="#tab_2">2</ref>). The P20s contents of melts are calculated from the model presented in this paper ( P20PMR) and are compared to the Pro5 whole-rock data for each suite (Table <ref type="table" target="#tab_2">2</ref>). The temperature choosen for the calculation of the model values [ T(Zr), Table <ref type="table" target="#tab_2">21</ref> is the temperature calculated from the zircon solubility model of WAT- <ref type="bibr">SON and HARRISON ( 1983)</ref> and from using the whole-rock data. It is worth noting that in all cases, the PrOrw values [calculated from <ref type="bibr" target="#b7">HARRISON and WATSON, 1984</ref> and for T = T(Zr)] are much lower than P,Os whole rock. This illustrates difficulties when applying the model of <ref type="bibr" target="#b7">HARRISON and WATSON ( 1984)</ref> to peraluminous compositions. In particular, use of their model <ref type="bibr" target="#b7">(HARRISON and WATSON, 1984)</ref> yields magmatic temperatures that are in all cases unrealistic, i.e., &gt;lOOO"C (Table <ref type="table" target="#tab_2">2</ref>). This is unlikely to be due to an accumulation of restitic apatite because there is no evidence from T(Zr) values (Table <ref type="table" target="#tab_2">2</ref>) of similar accumulation of restitic zircon. In addition, quenched peraluminous liquids (yet undersaturated with respect to apatite) such as the Macusani glasses (Table <ref type="table" target="#tab_2">2</ref>) have a phosphors content over 150 times greater than P,O?" values (0.003 wt%), demonstrating that the model of <ref type="bibr" target="#b7">HARRISON and WATSON ( 1984)</ref>   <ref type="bibr">PICHAVANT et al., 1988a)</ref>. In spite of the larger scatter compared to the previous example, our model still represents a major improvement to the formulation of <ref type="bibr" target="#b7">HARRISON and WATSON ( 1984)</ref>.</p><p>However, in some cases (Carnmenellis, Straththbogie, South Mountain, Table <ref type="table" target="#tab_2">2</ref>), significant deviations from measured P205 values are apparent. Our model systematically overestimates the whole-rock phosphorus content. Consequently, magmatic temperatures calculated for these suites are in the SOO-600°C range, i.e., too low for these rocks. In contrast, the 7'( Zr) magmatic temperatures yield much higher values (average 700-800°C range, Table <ref type="table" target="#tab_2">2</ref>) which can be considered reasonable. Deviation of our model from expected values can arise from a large number of reasons, and we have selected only a few possibilities for detailed discussion in this paper.</p><p>First, our model requires the use of compositional data for the melt phase. These may be difficult to extract from wholerock data, especially in the case of plutonic suites. If the wholerock data does not closely represent a frozen liquid, erroneous results would be obtained. Two typical cases can be considered: ( 1) when there are aluminous restitic mine&amp;s; and (2) when there is apatite a~umulation.</p><p>In the first case, the presence of a significant prounion of pe~uminous restitic minerals in the rock would result in an increase in the A/ CNK value compared to that of the melt. The model would then calculate P205 values which are too high, as observed in Table <ref type="table" target="#tab_2">2</ref>. In the second case, where apatite accumulation has occurred, the model would predict correct P205 values for the melt; however, it would underestimate the measured whole-rock P205 content. From the data given in Table <ref type="table" target="#tab_2">2</ref>, it is difficult to conclude on the presence or absence of peraluminous restitic material in these suites. On the other hand, the T(Zr) data from Table <ref type="table" target="#tab_2">2</ref> suggests that accumulation of accessory minerals was not significant.</p><p>Second, in this paper we have demonstrated the role of a compositional parameter (A/CNK), in addition to SiO, content of the melt, in controlling apatite solubilities. The possibility that additional compositional parameters, still unrecognized, have a significant effect on apatite solubilities should also be considered. The present experiments have been interpreted in terms of the formation of alumino-phosphate complexes. The formation of these complexes is likely to be controlled by the activity of Al203 in the melt (aAlz0,). (A/ CNK can be viewed as a compositional substitute for aAlzO, ). Since aA1203 is presumably dependent on composition in natural silicate melts (e.g., <ref type="bibr" target="#b13">MYSEN, 1988)</ref>, a complex dependence of apatite ~lubilities with whole-rock chemistry in the ~raluminous field is expected. Our experiments with natural peraluminous compositions <ref type="bibr" target="#b22">(RICHARD et al., 1992)</ref> show an effect of the Fe3+/Fe2+ of the melt on apatite solubility. For a given set of experimental and compositional conditions, lowering the Fe3+/Fe2+ ratio of the melt (by lowering f02) results in a decrease of the apatite solubility <ref type="bibr" target="#b22">(RICHARD et al., 1992)</ref>. ThisfOz effect may provide a simple explanation for the overestimation of the wholerock phosphorus contents with our model in Table <ref type="table" target="#tab_2">2</ref>.</p><p>The eievated apatite solubilities found in this study necessitates a reevaluation of the widespread conception of the restitic nature of apatite in ~raIuminous granitic melts formed by crustal anatexis <ref type="bibr" target="#b25">(WATSON and CAPOBIANCO, 198 1;</ref><ref type="bibr" target="#b2">CHAPPELL et al., 1987)</ref>. From our 777'C data, melts saturated with an aluminum silicate in the source region must have PzOs in excess of 1 wt% for apatite to be residual. Given the range of Pz05 in crustally derived magmas (~0.5 wt%, Table <ref type="table" target="#tab_2">2</ref>)) most of their apatites should be considered as magmatic rather than restitic. In addition, the interpretation of Harker type diagrams with PzO, should be made with caution. Elevated P205 such as that found in some peraluminous felsic granites and voicanics (Table <ref type="table" target="#tab_2">2</ref>) may indicate fractionation processes controlled by melt structure rather than source rock processes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>We conclude by emphasizing the contrast between peraluminous compositions, on one hand, and metaluminous and peralkaline compositions concerning apatite solubilities, on the other. We have demonstrated in this contribution the important increase of the solubility of apatite as a function of the A/CNK parameter in melts of peraluminous composition. The proposed model represents a useful extension of the HARRISON and WATSON ( f984) formulation; however, it does not completely account for all possible compositions. Hence, additional experiments aimed at evaluating other compositional parameters are required <ref type="bibr" target="#b22">(RICHARD et al., 1992)</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 1 .</head><label>1</label><figDesc>FIG. 1. Photomicrographs of run products. (a) to (c): SEM backscattered electron images of apatite dissolution experiments; (d): microphotograph of an apatite crystallization experiment. (a) Run product #3,858"C, 5 kbar (Table 1 ), showing the distribution of residual apatites (light crystal) embedded in synthetic granitic glass. (b) Run product #2,777"C, 5.02 kbar (TableI), showing the coexisting residual apatite (light) and andalusite (dark) crystals embedded in natural granitic glass (Macusani, Table1). (c) Run product #6, I OOO"C, 2 kbar (TableI), showing residual apatite</figDesc><graphic coords="3,35.78,67.01,495.72,371.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>cannot be ap plied to felsic peraluminous compositions. The Gangotri pluton represents the best-fit example to the P205 melt model. Calculated PzOs melt values are within 1000 ppm of PzO~ whole-rock contents. Magmatic temperatures have been calculated with our model, and the results [ T(AP)PMR = 587-704"C, Table 21 represent a realistic range for the crystallization of this granite ( SCAILLET et al., 199 1). Both the calculated zircon and apatite temperatures are in general agreement f T(Zr) = 644-706"C, Table 21. For the Macusani volcanics, the P205 melt model reproduces fairly well the measured whole-rock P205 values. Magmatic temperatures [ 7'( AP) PMR = 673-747*C] are again realistic when compared to reported values (</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . Experimental results run # T P duration starting results ('Cl (bar) (hours) products 1 777 t16 5020 168 2 777 f16 5020 168 3 856 ?lO 5000 401 4 656 +6 2020 426 5 658 f6 2020 426 6 1000 f5 2000 165 7 1000 +6 2000 163 6 965 f5 2000 162 9 965 +5 2000 162 G, Ap, And Ap, And Mac, Ap, And Ap, And G, nP, And AP Ca-P-Glass AP Ca-P-Glass, And And G, Ap, And Ap, And, Cm G, Ap, And AP G, Ap. And AP G. AP AP P,05 men CaO melt SiO, melt AICNK CaP ww 0.682 f0.015 1 ,196 f0.034 1.16 iO.035 0.45 f0.02 0.79 f0.03 3.79 f0.36 3.31 iO.16 1.41 f0.06 0.23 kO.014 l.lM0.05 1.151-0.04 1.46f0.04 0.471to.05 0.65f0.02 4.36i0.13 3.66i0.13 1.72f0.07 0.32f0.03 ww 75.26 1.27 1.65 70.72 1.27 1.22 74.43 1.19 1.62 76.42 1.06 1.32 76.16 1.22 1.35 64.90 1.26 1.46 65.42 1.23 1.46 72.49 1.13 1.55 76.57 1 .oo 1.76 G=gel: Ap=apatita; And=andalusite; Mac=Macusani glass; Ca-P-Glass=glass doped with Ca and P; AICNK=AII(Na+K+2Ca+Li) molar. All experiments are of dissolution type except # 4 and 5 (crystallrzation). Analytical data for the glass are given on an anhydrous basis. Resulrs include glass present in all experiments. See text for further explanation. correction</head><label>1</label><figDesc>procedure. Various silicate standards were used. To minimize alkali migration problems, a spot size of IO-15 pm was employed; and Na and K values were slightly corrected upwards using secondary hydrous glass standards of known K,O, Na20 values (see</figDesc><table /><note><p><p>RCHAVANT,</p>1987; PKHAVANT et al.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>Examples of PzOs behavior in some peraluminous felsic suites</figDesc><table><row><cell></cell><cell cols="2">sukes</cell><cell></cell><cell></cell><cell>whole rock</cell><cell></cell><cell></cell><cell>model</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>SiO,</cell><cell>Fe&amp;</cell><cell>A/CNK</cell><cell>P*4</cell><cell>T(AP)HW</cell><cell>T(AP)PMR</cell><cell>TW)</cell><cell>P,Q</cell><cell>FWI</cell></row><row><cell></cell><cell></cell><cell></cell><cell>wl%</cell><cell>wt%</cell><cell></cell><cell>wt%</cell><cell>('C)</cell><cell>('C)</cell><cell>('C)</cell><cell>WI%</cell></row><row><cell cols="2">GANGOTRI,</cell><cell></cell><cell>71.59</cell><cell>0.94</cell><cell>1.16</cell><cell>0.41</cell><cell>1083</cell><cell>679</cell><cell>706</cell><cell>0.49</cell></row><row><cell cols="3">HIGHER HIMALAYA</cell><cell>73.06</cell><cell>0.40</cell><cell>1.16</cell><cell>0.26</cell><cell>1040</cell><cell>567</cell><cell>667</cell><cell>0.33</cell></row><row><cell cols="3">Scailles 1990</cell><cell>73.92</cell><cell>0.69</cell><cell>1.12</cell><cell>0.30</cell><cell>1065</cell><cell>704</cell><cell>644</cell><cell>0.20</cell></row><row><cell cols="3">MACUSANI VOLCANICS</cell><cell>71.60</cell><cell>1.36</cell><cell>1.12</cell><cell>0.27</cell><cell>1031</cell><cell>673</cell><cell>739</cell><cell>0.42</cell></row><row><cell>Pichavant</cell><cell cols="2">et al., 1988b</cell><cell>72.32</cell><cell>0.67</cell><cell>1.16</cell><cell>0.53</cell><cell>1133</cell><cell>747</cell><cell>665</cell><cell>0.33</cell></row><row><cell cols="3">CARNMENELLIS,</cell><cell>71.97</cell><cell>2.11</cell><cell>1.24</cell><cell>0.23</cell><cell>1015</cell><cell>566</cell><cell>766</cell><cell>0.94</cell></row><row><cell cols="2">~RNUBIAN</cell><cell>BATHOLITH</cell><cell>72.45</cell><cell>1.76</cell><cell>1.26</cell><cell>0.27</cell><cell>1039</cell><cell>566</cell><cell>730</cell><cell>0.81</cell></row><row><cell cols="2">Charoy, 1986</cell><cell></cell><cell>73.40</cell><cell>0.91</cell><cell>1.31</cell><cell>0.29</cell><cell>1056</cell><cell>579</cell><cell>626</cell><cell>0.50</cell></row><row><cell cols="3">STRATHBCGIE</cell><cell>70.10</cell><cell>3.88</cell><cell>1.19</cell><cell>0.18</cell><cell>969</cell><cell>556</cell><cell>627</cell><cell>1.07</cell></row><row><cell cols="3">LACHLAND FOLD BELT</cell><cell>73.60</cell><cell>2.68</cell><cell>1.15</cell><cell>0.17</cell><cell>997</cell><cell>596</cell><cell>810</cell><cell>0.67</cell></row><row><cell cols="3">white and Chappell, 1988</cell><cell>76.35</cell><cell>1.14</cell><cell>1.15</cell><cell>0.13</cell><cell>992</cell><cell>569</cell><cell>712</cell><cell>0.36</cell></row><row><cell cols="3">SOUTH MOUNTAIN</cell><cell>67.55</cell><cell>4.24</cell><cell>1.17</cell><cell>0.19</cell><cell>940</cell><cell>566</cell><cell>795</cell><cell>0.67</cell></row><row><cell cols="2">BATHOLITH,</cell><cell></cell><cell>70.10</cell><cell>2.97</cell><cell>1.20</cell><cell>0.14</cell><cell>941</cell><cell>567</cell><cell>760</cell><cell>0.77</cell></row><row><cell cols="3">Ham et al., 1989, 1990</cell><cell>74.12</cell><cell>1 so</cell><cell>1.31</cell><cell>0.33</cell><cell>1076</cell><cell>522</cell><cell>707</cell><cell>0.66</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>-The assistance of <rs type="person">A. Rouillier</rs> during the early stages of the experimental work in CRPG, Nancy, is appreciated. Thanks are due to <rs type="person">R. Mouchel</rs> for help with the experiments and analyses, to <rs type="person">J. M. Claude</rs> and <rs type="person">0. Rouer</rs> for assistance with the electron microprobes, and to <rs type="person">A. Provost</rs> for the block-wise inversion program. Backscattered electron images were performed on the <rs type="institution">SEM of the Pole Technologique d'Auvergne, Clermont-Ferrand</rs>. Program supported by <rs type="funder">DBT</rs> (Cont~bution <rs type="grantNumber">CNRS-DBT-INSU No. 471</rs>). L. R. Richard is supported in part by an <rs type="funder">NSERC</rs> <rs type="grantName">operating grant</rs> to <rs type="person">D. B. Clarke</rs>. Reviewed by <rs type="person">P. Hess</rs>, <rs type="person">D. London</rs>, <rs type="person">B. Mysen</rs>, and <rs type="person">B. Watson</rs>. Editorial handling: <rs type="person">G. Faure</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_vGKxsYn">
+					<idno type="grant-number">CNRS-DBT-INSU No. 471</idno>
+				</org>
+				<org type="funding" xml:id="_5k7UKCs">
+					<orgName type="grant-name">operating grant</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Apport $ la mitallog6nie de I&apos;&amp;ain-tungsttne. Cas de la mine de Ribeira (Tras OS Montes, Portugal )</title>
+		<author>
+			<persName><forename type="first">Adam</forename><forename type="middle">D</forename><surname>Gagny C</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="44" to="460" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note>L&apos;expression mineralogique du phosphore dans les leucogranites</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Application des methodes statistiques en microanalyse</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ancey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bastenaire</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Tixier R</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">&apos;~~crua~a~yse, Microscopie Ele~troniq~e d Balayage</title>
+		<editor>
+			<persName><forename type="first">F</forename><surname>Maurice</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Les Editions de Physique</publisher>
+			<date type="published" when="1978">1978</date>
+			<biblScope unit="page" from="323" to="347" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The importance of residual source material (restite) in granite petrogenesis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Chappell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J R</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wyborn</forename><forename type="middle">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Pefrol. 28, I</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="138" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The genesis oftbe Cornubian batholith (southwest England): The example of the Cammenelhs pluton</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Charoy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="57" to="604" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Phosphorus effects upon the structure of potassium aluminosilicate glass: Inference from Raman and NMR</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">C</forename><surname>Hess P</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EOS</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page">1375</biblScope>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Lithogeochemistry of the eastern portion of the South Mountain batholith</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Ham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Corey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mac-Donald M</forename><forename type="middle">J A</forename><surname>Horne R</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nova Scotia. IV. S. Dept. Mines and Energy Open File Rep</title>
+		<imprint>
+			<biblScope unit="page" from="89" to="90" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Lithoge~hemist~ of the western portion of the South Mountain batholith</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Ham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Corey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J A</forename><surname>Horne R</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nova Scotia. N. S. Dept. Mines and Energy Open File Rept</title>
+		<imprint>
+			<biblScope unit="page" from="90" to="97" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The behaviour of apatite during crustal anatexis: Equilibrium and kinetic considerations</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">B</forename><surname>Watson E</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1468" to="1477" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">The East Kemptville muscovite-topaz leucogranite. I: Geological setting and whole-rock geochemistry. Canadian Mineral</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Kontak</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="787" to="825" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Internal differentiation of rare-element pegmatites: Effects of boron, phosphorus, and fluorine. Geochim. Cosmochim</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>London</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="403" to="420" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Phosphorus in alkali feldspars of rare-element granitic pegmatites. Ca-Pradian Mineral</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>London</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cerny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Loomis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="77" to="786" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Origin of alkali-feldspar granites: An example from the Poimena Granite, no~h~ern</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sun</forename><forename type="middle">S S</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>l988</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Australia</forename><surname>Tasmania</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ge~~~lirn</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Cosm~him</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="2507" to="2524" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Structure and Properties of&apos;Siiica&amp;e Mel&amp;s</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mysen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The structural role of phosphorus in silicate melts</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ryekson</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Virgo D</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="106" to="117" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Effects of B and HZ0 on liquidus phase relations in the haplogranite system at I kbar</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pichavant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1056" to="1070" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The Macusani glasses, SE Peru: Evidence for chemical fractionation in peraluminous magmas</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pichavant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Valencia Herrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boulmier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Briqueu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Joron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Juteau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Marin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Michard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M F</forename><surname>Sheppard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Treuil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vernet</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Magmatic Processes</title>
+		<imprint>
+			<date type="published" when="1987">1987</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="359" to="373" />
+		</imprint>
+	</monogr>
+	<note>ed. B. 0. MYSEN</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">a) The Miocene-Pliocene Macusani volcanics, SE Peru I. Mineralogy and magmatic evolution of a two-mica aluminosilmate-bearing ignimbrite suite</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pichavant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Kontak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clark</forename><forename type="middle">A H</forename><surname>Valencia Herrera J</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="300" to="324" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">( 199 I ) Tourmaline, biotite and muscovite stability in felsic peraluminous liquids</title>
+		<author>
+			<persName><forename type="first">!</forename><surname>Scaillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pichavant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EOS</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">311</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Improvements of the Shaw membrane technique for measurement and control offH* at high temperatures and pressures</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Scaillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pxhavant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Roux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Humbert</forename><forename type="middle">G</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L&amp;yre</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="647" to="655" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Aluminium phosphate variants of felspar</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Simpson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The Miocene-Pliocene Macusani v&amp;a&amp;s, SE Peru II. Geochemistry and origin of a felsic peraluminous magma</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pichavant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Kontak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Briqueu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clark</forename><forename type="middle">A H</forename><surname>Valencia Herrera J</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Co~trib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="325" to="338" />
+			<date type="published" when="1988">1988b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Effects of temperature, composition and for on apatite soiubility and phosphorus behaviour in peraluminous granitic melts</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Provost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>P~chavant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Goldschmidt Conference</title>
+		<meeting><address><addrLine>Reston, A-90</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1989">1989. 1992</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">328</biblScope>
+		</imprint>
+	</monogr>
+	<note>Abstract</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Structure et geochimie dun leucogranite en rCgime de collision continentale: L&apos;exemple du massif de Gangotri-Badrinath (Himalaya du Garhwal)</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Scaillet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nancy. Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1" to="355" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+		<respStmt>
+			<orgName>Institut National Polytechnique de Lorraine</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Origin of granite in the light of experimental studies in the system NaAlSi~O~-~lSi~O~-SiO~-HzO</title>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">F</forename><surname>Tuttle 0</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">L</forename><surname>Bowen N</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geoi. Sot. Amer. Mem</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<date type="published" when="1958">1958</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Zircon saturation revisited: Temperature and composition effects in a variety of crustal magma types</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">J</forename><surname>Capobianco C</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">M</forename><surname>Harrison T</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochtm. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="295" to="304" />
+			<date type="published" when="1981">198 1. 1983</date>
+		</imprint>
+	</monogr>
+	<note>Earth Planet. Sci. Lett.</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Some supracrustal (Stype) granites of the Lachlan fold belt</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J R</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">W</forename><surname>Chappell B</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Roy. Sot. Edinburgh</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="169" to="181" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

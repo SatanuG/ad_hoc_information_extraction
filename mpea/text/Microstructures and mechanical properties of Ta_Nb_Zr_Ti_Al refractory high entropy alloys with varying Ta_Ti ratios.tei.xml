@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microstructures and mechanical properties of Ta-Nb-Zr-Ti-Al refractory high entropy alloys with varying Ta/Ti ratios</title>
+				<funder ref="#_rY9wMa9">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ya-Guang</forename><surname>Dong</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Shang</forename><surname>Chen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Nan-Nan</forename><surname>Jia</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Qiu-Hong</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Liang</forename><surname>Wang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yun-Fei</forename><surname>Xue</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Ke</forename><surname>Jin</surname></persName>
+							<email>jinke@bit.edu.cn</email>
+							<idno type="ORCID">0000-0001-7697-0466</idno>
+						</author>
+						<author>
+							<affiliation>
+								<orgName>1 School of Materials Science and Engineering, Beijing Institute of Technology, </orgName>
+								<address><addrLine>Beijing 100081, China Beijing 10081, China Beijing 100081, China</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 2 Institute of Advanced Structure Technology, Beijing Institute of Technology, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 3 Advanced Research Institute of Multidisciplinary Science, Beijing Institute of Technology,</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microstructures and mechanical properties of Ta-Nb-Zr-Ti-Al refractory high entropy alloys with varying Ta/Ti ratios</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">53D7E90615EFAD56B0CB89AA7EC2A0BF</idno>
+					<idno type="DOI">10.1007/s42864-021-00111-8</idno>
+					<note type="submission">Received: 30 March 2021 / Revised: 6 June 2021 / Accepted: 6 June 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Refractory high entropy alloys</term>
+					<term>Microstructure</term>
+					<term>Mechanical properties</term>
+					<term>Strength-ductility balance</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The refractory high entropy alloys (RHEAs) containing disordered body-centered cubic (BCC) and ordered BCC (B2) structures often exhibit high strength but low ductility at room temperature, even in the compressive tests. In this study, (Ta 25-x Nb 25 Zr 25 Ti 25+x ) 95 Al 5 (x = 0, 5, 10) RHEAs are fabricated to investigate the compositional dependence of the microstructures and mechanical properties. All the three alloys exhibit a single BCC structure at the as-cast and solution-treated states, while the basket weave-like microstructures consisting of cuboidal and strip-like phases are formed after aging at 600 °C. The microstructure of the aged alloys is sensitive to the compositions: only disordered BCC1 + BCC2 dual phases are observed in the (Ta 25 Nb 25 Zr 25 Ti 25 ) 95 Al 5 alloy; additional B2 phases are formed by replacing 5 at% Ta with Ti; a complex microstructure containing BCC1 + BCC2 + B2 + Omega phases are identified in the (Ta 15 Nb 25 Zr 25 Ti 35 ) 95 Al 5 alloy. Although replacing Ta with Ti results in a reduction of compressive yield strength from 1762 to 1243 MPa, the fracture strain is greatly enhanced from 7.3 to 44.3%, indicating that the strength-ductility balance can be tuned to a large extent in this RHEA system.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>High entropy alloys (HEAs) have attracted increasing research attention due to their outstanding mechanical properties <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref> and unique physical properties <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>. Among this new family of alloys, refractory HEAs (RHEAs) have been considered as one of the promising candidates for future high-temperature structural materials, aiming at overcoming the service temperature limit of commercial Ni-based superalloys <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref>.</p><p>Extensive previous investigations have demonstrated that introducing secondary phases with coherent interfaces to the matrix is an important method to strengthen HEAs. For the HEAs with disordered face-centered cubic (FCC) structure, the ordered FCC (L1 2 ) precipitates in the Ni-Co-Fe-Cr-Ti-Al alloys enhance their strength without significant loss in ductility <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref>. For the RHEAs with body-centered cubic (BCC) structure, most reported alloys containing disordered BCC and ordered BCC (B2) phases exhibit a basket-weave-like microstructure consisting of cuboidal, spherical, and/or strip-like morphologies <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref>, which is similar to some FCC-L1 2 dual-phases Ni-based superalloys <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref>, and usually brings them high strength. For example, the equiatomic AlNbTiZr alloy, consisting of a B2 matrix and Zr 5 Al 3 precipitates, has a compressive yield strength of 1579 MPa <ref type="bibr" target="#b26">[27]</ref>. With the addition of Mo and Ta elements, the AlMo 0.5 NbTa 0.5 TiZr alloy is composed of continuous channels of B2 matrix and periodic cuboidal and plate-like BCC precipitates, achieving an ultrahigh yield strength of 2197 MPa but a low fracture strain of 4.7% <ref type="bibr" target="#b20">[21]</ref>. The morphology and mechanical properties of such coherent BCC/B2-structured RHEAs can be modified via tuning the composition and annealing process. For example, reducing the Al concentration in this alloy may result in the spherical BCC-structured precipitates uniformly distributed in the B2 matrix, exhibiting a higher yield strength of 2350 MPa but lower fracture strain of 3.2% <ref type="bibr" target="#b20">[21]</ref>. A special phase inversion, from the B2 matrix and cuboidal BCC precipitates to the BCC matrix with discrete B2 precipitates, can be observed in the Al 0.5 NbTa 0.8 Ti 1.5 V 0.2 Zr alloy after annealing at 600 °C for 120 h, which improves the fraction strain from 4.7% to 16.9% while keeping a high yield strength of over 1300 MPa <ref type="bibr" target="#b27">[28,</ref><ref type="bibr" target="#b28">29]</ref>. Recently, a novel Al 0.4 Nb 0.5 Ta 0.5 TiZr 0.8 alloy containing cuboidal B2 precipitates in BCC matrix is designed with a compressive yield strength of 1232 MPa and a fracture strain of ~ 10% <ref type="bibr" target="#b29">[30]</ref>. Overall speaking, although the BCC/B2 structured RHEAs have exhibited high yield strengths, their fracture strain (even in the compressive tests) has usually been low (&lt; 10%) at room temperature, which strongly limits their potential practical applications.</p><p>A series of Ta 25-x Nb 25 Zr 25 Ti 25+x RHEAs have been designed to tune their Pugh's ratio and Poisson's ratio by the replacement of Ta with Ti, achieving a better strengthductility trade-off <ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref>. Furthermore, it has been reported that the addition of 5.88 at% Al in equiatomic TaNbZrTi alloy can cause the formation of BCC/B2 dual-phases <ref type="bibr" target="#b20">[21]</ref>, although high Al concentrations may deteriorate the ductility of RHEAs, as evidenced in HfNbZrTiAl x <ref type="bibr" target="#b34">[35]</ref> and Al x Ti 50-x VNbMo <ref type="bibr" target="#b35">[36]</ref>. Inspired by the previous alloy design strategies, in this study, 5 at% Al element is added into Ta-Nb-Zr-Ti alloys, i.e., (Ta 25-x Nb 25 Zr 25 Ti 25+x ) 95 Al 5 (x = 0, 5, 10). Their microstructures and mechanical properties are investigated, showing that the strength and ductility can be tuned to a large extent by controlling the Ta/Ti ratio and annealing treatments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Experimental</head><p>The alloys with three designed compositions, (Ta 25-x Nb 25 Zr 25 Ti 25+x ) 95 Al 5 (x = 0, 5, 10), were fabricated, and are denoted in short as Ta 25 Ti 25 , Ta 20 Ti 30 , and Ta 15 Ti 35 in the following text, respectively. The Ta, Nb, Zr, Ti, and Al elemental metals with the purity of &gt; 99.9% were used as raw materials, which were mixed by arc melting in the Ti-gettered high purity argon atmosphere. The as-cast ingots were flipped and re-melted at least six times with electromagnetic stirring, to enhance chemical homogeneity. The as-cast alloys were solution-treated (ST) at 1300 °C for 24 h, followed by water quenching, and denoted as ST-1300/24 in the following text. The alloys were then aged at 600 °C for 6, 12, and 24 h, which were depicted as 600-6, 600-12, and 600-24, respectively. During the heat treatment, all samples were wrapped in a Ta foil, and were sealed in the evacuated argon-backfilled quartz tubes.</p><p>The phases of the alloys were identified using X-ray diffraction (XRD, D8 Advance, Bruker) with Cu Kα radiation in a 2θ range from 20° to 90°. The microstructures were characterized using a Zeiss Supra55 scanning electron microscope (SEM) coupled with backscatter electron (BSE) spectrometry. Transmission electron microscopy (TEM) observations of the aged samples were performed with FEI Talos F200X microscopy operated at 200 kV with an energy dispersive spectrometer (EDS), and the TEM samples were prepared using ion milling after mechanical grounding down to the thickness of 30 μm. Room temperature compression tests were performed using an Instron machine under a strain rate of 1 × 10 -3 s -1 , and the test specimens are in the shape of a cylinder (Φ4 × 6 mm).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Microstructure of the as-cast and solution-treated alloys</head><p>The XRD patterns of the as-cast Ta 25 Ti 25 , Ta 20 Ti 30 and Ta 15 Ti 35 alloys are shown in Fig. <ref type="figure" target="#fig_1">1a</ref>. All the peaks can be indexed with a BCC structure. The lattice constants (a) are determined as: Ta 25 Ti 25 (a = 0.3344 ± 0.0001 nm), Ta 20 Ti 30 (a = 0.3353 ± 0.0002 nm), and Ta 15 Ti 35 (a = 0.3363 ± 0.0002 nm). The increment of lattice constants with decreasing Ta/Ti ratio may be ascribed to the larger atomic radius of Ti (0.146 nm) than Ta (0.143 nm) <ref type="bibr" target="#b30">[31]</ref>. Figure <ref type="figure" target="#fig_1">1b</ref>-d show the representative SEM-BSE images of the three as-cast alloys, in which the dendrite and interdendrite regions can be clearly identified due to constitutional segregation during solidification. The compositions determined with EDS analyses are listed in Table <ref type="table" target="#tab_0">1</ref>, according to which the dendrite regions are Nb-and Ta-enriched, due to their higher melting points, while the interdendrite regions are Zr-and Al-enriched. The distribution of Ti element seems to be relatively uniform in all the three as-cast alloys.</p><p>The XRD patterns and SEM-BSE images of the solutiontreated alloys are shown in Fig. <ref type="figure">2</ref>. As shown in Fig. <ref type="figure">2a</ref>, all the XRD patterns exhibit a single BCC structure, with no peaks observed corresponding to secondary phases. The microstructures consist of equiaxed grains without notable dendrite features and secondary phases, as shown in Fig. <ref type="figure">2b-d</ref>. The average grain size ranges from 130 to 542 μm with decreasing Ta/Ti ratio. The SEM-BSE images of the aged alloys are shown in Fig. <ref type="figure">4</ref>. After aging for 6 h and 12 h, the three alloys exhibit similar basket-weave-like microstructures, and no secondary phase aggregation is observed at grain boundaries, as shown in Fig. <ref type="figure">4a-f</ref>. This basket-weave-like morphology is similar to several RHEAs reported in literatures, such as AlMo 0.5 NbTa 0.5 TiZr <ref type="bibr" target="#b19">[20]</ref> and Al 0.5 NbTa 0.8 Ti 1.5 V 0.2 Zr alloys <ref type="bibr" target="#b28">[29]</ref>, and may be induced from spinodal decomposition due to the miscibility gap between Ta and Zr, as well as the ordering processes related to the presence of Al <ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref>. The distinct secondary phase aggregation occurs after 24 h aging, especially when more Ta is replaced with Ti, as shown in Fig. <ref type="figure">4g-i</ref>. Slight secondary phase aggregation around grain boundaries can be observed in the Ta 25 Ti 25 alloy; micron-scale secondary phase aggregation is formed inside the grains in the Ta 20 Ti 30 alloy; at least three phases, corresponding to the bright, grey, and dark regions, can be identified in the Ta 15 Ti 35 alloy.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Microstructure of the aged alloys</head><p>The detailed microstructural features of these aged alloys are characterized using TEM, as shown in Figs. <ref type="figure">5</ref> and<ref type="figure" target="#fig_3">6</ref>. For the Ta 25 Ti 25 alloy aged for 6 h, according to the high-angle annular dark field-scanning transmission  electron microscope (HAADF-STEM) image and EDS results in Fig. <ref type="figure">5a,</ref><ref type="figure">c</ref>, the basket-weave-like microstructure is composed of bright cuboidal (Nb, Ta)-rich and dark strip-like (Al, Zr)-rich phases. The Ti element seems to be distributed uniformly in this alloy. Further atomicscaled HAADF image and the corresponding Fast Fourier Transforms (FFT) pattern, shown in Fig. <ref type="figure">5b</ref>, suggest that both the bright and dark phases are BCC structured, but strong local disorder appears at the boundary regions, which may be attributed to clustering of Zr with the largest atomic radius (0.160 nm) among the constituent elements. Similar features have been observed in the equiatomic HfNbZrTa alloy due to the clustering of Hf and Zr elements <ref type="bibr" target="#b36">[37]</ref>. Prolonged aging till 24 h does not change the basket-weave-like morphology, compositional distribution, and the average size of cuboidal phases (47 nm) in this alloy, as shown in Fig. <ref type="figure">5d-f</ref>. The basket-weave-like microstructure and elemental distribution in the Ta 20 Ti 30 alloy after 24 h aging are similar to those observed in the Ta 25 Ti 25 alloy, as shown in Fig. <ref type="figure" target="#fig_3">6a-c</ref>. However, the average size of cuboidal (Nb, Ta)rich phases in the Ta 20 Ti 30 alloy (85 nm) is larger than that in the Ta 25 Ti 25 alloy. More importantly, a strong superlattice reflection of B2 phases coherent with the BCC matrix can be clearly seen in the SAED pattern, as shown in Fig. <ref type="figure" target="#fig_3">6b</ref>. In other words, replacing Ta with Ti seems to promote the B2 ordering with the same amount of Al addition.</p><p>With further replacement of Ta into Ti, the average size of the cuboidal phases rises to 103 nm, and the microstructure of Ta 15 Ti 35 alloy aged for 24 h consists of the cuboidal (Nb, Ta)-rich BCC, strip-like (Ti, Al, Zr)-rich B2, and discrete (Al, Zr)-rich Omega phases, as shown in Fig. <ref type="figure" target="#fig_3">6d-f</ref>, consistent with the XRD result in Fig. <ref type="figure" target="#fig_0">3c</ref>. It should be noted that, unlike the B2 phases, the Omega phases are poor in Ti element, which are marked in Fig. <ref type="figure" target="#fig_3">6f</ref> with orange dashed circles. Besides those in the BCC-structured Ti alloys <ref type="bibr" target="#b37">[38,</ref><ref type="bibr" target="#b38">39]</ref>, the Omega phases are usually formed with the collapse of the {111} planes of B2 phases under annealing in the metastable B2-type Ti alloys <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref>. The Omega phases have also been found in many BCC/B2-structured RHEAs, such as Al 10 Nb 15 Ta 5 Ti 30 Zr 40 <ref type="bibr" target="#b41">[42]</ref> and Al 0.5 NbTa 0.8 Ti 1.5 V 0.2 Zr <ref type="bibr" target="#b42">[43]</ref>. Overall speaking, replacing Ta with Ti will diminish the stability of the BCC structure in this alloy system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Mechanical properties</head><p>The compressive mechanical properties of the ST-1300/24 and 600-24 samples are shown in Fig. <ref type="figure">7</ref>. The ST-1300/24 alloys exhibit good compressive ductility without fracture during loading. Their yield strength σ 0.2 is reduced from 1304, 1112, to 973 MPa with the substitution of Ta with Ti. After aging at 600 °C for 24 h, the yield strength is enhanced up to 1762, 1509, and 1243 MPa of the Ta 25 Ti 25 , Ta 20 Ti 30 , and Ta 15 Ti 35 alloys, respectively. As mentioned above, although high strengths are commonly seen in the RHEAs containing basket-weave-like BCC/B2 microstructures, most previous alloys exhibited very low compressive ductility (&lt; 10%) <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b43">44]</ref>. Here, in contrast, the forming for B2 and Omega phases reduces the yield strength but greatly enhances the ductility ε, from 7.3% for Ta 25 Ti 25 , 21.6% for Ta 20 Ti 30 to 44.3% for Ta 15 Ti 35 alloy.</p><p>This unusual microstructural dependence on the mechanical properties may be attributed to the following factors. First, it has been reported that both the Pugh's ratio and Poisson's ratio increase with substitution of Ti for Ta in the Ta 25-x Nb 25 Zr 25 Ti 25+x base alloys, suggesting an enhanced ductility and stability of the solid against shear deformation <ref type="bibr" target="#b33">[34]</ref>. Second, since the atomic size of Ti is larger than that of Ta, replacing Ta with Ti leads to slight reduction of atomic mismatch from 4.78% of Ta 25 Ti 25 alloy to 4.67% of Ta 15 Ti 35 alloy, calculated according to the atomic-size difference Delta <ref type="bibr" target="#b44">[45]</ref> and the parameters in Ref. <ref type="bibr" target="#b30">[31]</ref>, and therefore caused a reduced solid solution strengthening. Moreover, although the content of each phase can hardly been quantified, the content of B2 phase in Ta 15 Ti 35 could be less than that in Ta 20 Ti 30 , since the Omega phases observed in Ta 15 Ti 35 alloy may be transformed from the B2 phases, which has been commonly observed in the metastable Ti alloys <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref>. Furthermore, according to the TEM observations, the average size of cuboidal phases increases from 47 to 103 nm with decreasing Ta/Ti ratio, indicating lower density of interfaces to hinder the dislocation gliding, which may also result in better deformation capability. It needs to be noted that, although considerable compressive ductility has been achieved, the present alloys still hold near-zero tensile ductility according to our tensile tests. Recently, it has been proposed that RHEAs with a compressive ductility larger than 30% may also possess measureable tensile ductility <ref type="bibr" target="#b45">[46]</ref>. However, our results show that the Ta 15 Ti 35 alloy with a compressive ductility over 44% fractures before yielding in the tensile tests, which may be due to complicated correlation between yield strength and ductility of multi-phases RHEAs. Therefore, further efforts are desired to improve the tensile properties of this series of RHEAs to broaden their application fields.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Conclusion</head><p>In the present study, the microstructures and mechanical properties of three RHEAs, (Ta 25-x Nb 25 Zr 25 Ti 25+x ) 95 Al 5 (x = 0, 5, 10), have been investigated at their as-cast, solution-treated, and aged states. At the solution-treated state, single-phase BCC structures with equiaxed grain microstructures are observed in all the three alloys, but the average grain size increases from 130 to 542 μm with decreasing Ta/Ti ratio. After aging at 600 °C for 6 h and 12 h, the three alloys exhibit a similar basket-weave-like microstructure. Extension of the aging time to 24 h results in considerable differences in the microstructures and mechanical properties between the three alloys: the average size of cuboidal phases increases from 47 to 103 nm with decreasing Ta/Ti ratio, while, more importantly, B2 and B2/Omega phases are formed when 5 and 10 at% of Ta is replaced with Ti, respectively. Although the mechanical properties are similar of these alloys at their solution-treated states, significant differences are observed after aging. The Ta 25 Ti 25 alloy exhibits the highest strength of 1762 MPa but very limited ductility below 10%; on the contrary, the Ta 20 Ti 30 and Ta 15 Ti 35 alloys exhibit lower yield strength (1509 and 1243 MPa, respectively) but much higher fracture strain, achieving over 40% for Ta 15 Ti 35 . These results demonstrate a large space to tune the strength and ductility in this RHEA system, which may broaden the scope of their potential application fields.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 3</head><label>3</label><figDesc>Figure3shows the XRD patterns of the three alloys aged at 600 ℃ for different periods. After 6 h aging, the Ta 25 Ti 25 and Ta 20 Ti 30 alloys still exhibit a single BCC structure, while two sets of BCC peaks can be observed in the Ta 15 Ti 35 alloy. With increasing the aging time to 12 h, the peaks of secondary BCC phases can be observed in both the Ta 25 Ti 25 and Ta 20 Ti 30 alloys, while a B2 phase can be identified in the Ta 15 Ti 35 alloy. After 24 h aging, no further change is observed in the XRD patterns of the Ta 25 Ti 25 and Ta 20 Ti 30 alloys, while an Omega phase can be identified in the Ta 15 Ti 35 alloy.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 a</head><label>1</label><figDesc>Fig. 1 a XRD patterns and b-d SEM-BSE images of the three as-cast alloys</figDesc><graphic coords="3,85.06,57.76,425.16,339.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 aFig. 3 Fig. 4 Fig. 5 a</head><label>2345</label><figDesc>Fig. 2 a XRD patterns and b-d SEM-BSE images of the three ST-1300/24 alloys</figDesc><graphic coords="4,85.06,57.76,425.16,338.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 6 a</head><label>6</label><figDesc>Fig. 6 a HAADF-STEM image, b SAED pattern, and c EDS mapping results of Ta 20 Ti 30 alloy aged at 600 °C for 24 h. d HAADF-STEM image, e SAED pattern, and f EDS mapping results of Ta 15 Ti 35 alloy aged at 600 °C for 24 h</figDesc><graphic coords="6,85.06,57.76,425.16,266.04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,85.06,57.76,425.16,314.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="5,85.00,420.46,425.28,265.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="7,53.86,57.76,487.56,191.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Chemical compositions (at%) of the three as-cast alloys by the SEM-EDS analysis</figDesc><table><row><cell>Alloy</cell><cell>Region</cell><cell>Element (at%)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>Ta</cell><cell>Nb</cell><cell>Zr</cell><cell>Ti</cell><cell>Al</cell></row><row><cell>Ta 25 Ti 25</cell><cell>Dendrite</cell><cell>21.4</cell><cell>26.5</cell><cell>18.7</cell><cell>29.4</cell><cell>4.0</cell></row><row><cell></cell><cell>Interdendrite</cell><cell>7.5</cell><cell>16.8</cell><cell>35.0</cell><cell>31.7</cell><cell>9.0</cell></row><row><cell>Ta 20 Ti 30</cell><cell>Dendrite</cell><cell>21.2</cell><cell>26.4</cell><cell>18.8</cell><cell>29.4</cell><cell>4.2</cell></row><row><cell></cell><cell>Interdendrite</cell><cell>6.5</cell><cell>15.7</cell><cell>36.6</cell><cell>31.8</cell><cell>9.4</cell></row><row><cell>Ta 15 Ti 35</cell><cell>Dendrite</cell><cell>17.9</cell><cell>27.7</cell><cell>16.7</cell><cell>33.8</cell><cell>3.9</cell></row><row><cell></cell><cell>Interdendrite</cell><cell>7.2</cell><cell>18.9</cell><cell>30.1</cell><cell>36.5</cell><cell>7.3</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was financially supported by the <rs type="funder">National Natural Science Foundation of China</rs> (Grant No. <rs type="grantNumber">11905008</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_rY9wMa9">
+					<idno type="grant-number">11905008</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Author contributions Ya-Guang Dong wrote the draft; Ya-Guang Dong, Shang Chen, Nan-Nan Jia, and Qiu-Hong Zhang collected the data; Liang Wang, Yun-Fei Xue, and Ke Jin contributed to conceive the idea of the study. All authors contributed to the writing the revisions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declarations</head><p>Conflict of interest The authors declare no conflict of interest. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Nanostructured high-entropy alloys with multiple principal elements: novel alloy design concepts and outcomes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chang</forename><surname>Sy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Eng Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">299</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Microstructural development in equiatomic multicomponent alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vincent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page">213</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Temperature dependence of the mechanical properties of equiatomic solid solution alloys with face-centered cubic crystal structures</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Pharr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page">428</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Enhanced strength-ductility synergy in ultrafine-grained eutectic high-entropy alloys by inheriting microstructural lamellae</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">489</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Microstructural and mechanical behavior of a CoCrFeNiCu 4 non-equiatomic high entropy alloy</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page">35</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A new strategy to design eutectic high-entropy alloys using simple mixture method</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Des</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page">101</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Directly cast bulk eutectic and near-eutectic high entropy alloys with balanced strength and ductility in a wide temperature range</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ruan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page">143</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Tailoring the physical properties of Nibased single-phase equiatomic alloys by modifying the chemical complexity</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Sales</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Stocks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Samolyuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Daene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2016">2016. 20159</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Electronic transport and phonon properties of maximally disordered alloys: from binaries to high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Pei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Stocks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page">2857</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb 25 Mo 25 Ta 25 W 25 and V 20 Nb 20 Mo 20 Ta 20 W 20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">698</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Microstructure and elevated temperature properties of a refractory TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">4062</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Size-dependent plasticity in an Nb 25 Mo 25 Ta 25 W 25 refractory high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Spolenak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page">85</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">NbTaV-(Ti, W) refractory high-entropy alloys: experiments and modeling</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng, A</title>
+		<imprint>
+			<biblScope unit="volume">674</biblScope>
+			<biblScope unit="page">203</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A single-phase bcc highentropy alloy in the refractory Zr-Nb-Ti-V-Hf system</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feuerbacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lienig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<biblScope unit="page">40</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A novel HfNbTaTiV high-entropy alloy of superior mechanical properties designed on the principle of maximum lattice distortion</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page">109</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Phase, microstructure and related mechanical properties of a series of (NbTaZr)C-Based high entropy ceramics</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ceram Int</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">14341</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A precipitation-hardened highentropy alloy with outstanding tensile properties</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Nieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">An</forename><forename type="middle">K</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">187</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Precipitation behavior and its effects on tensile properties of FeCoNiCr high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Nieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page">41</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Ripening of L1 2 nanoparticles and their effects on mechanical properties of Ni 28 Co 28 Fe 21 Cr 15 Al 4 Ti 4 high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A</title>
+		<imprint>
+			<biblScope unit="volume">772</biblScope>
+			<biblScope unit="page">138803</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Characterization of the microstructure of the compositionally complex alloy Al 1 Mo 0.5 Nb 1 Ta 0.5 Ti 1 Zr 1</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Welk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rea</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Sosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Viswanathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Compositional variation effects on the microstructure and properties of a refractory high-entropy superalloy AlMo 0.5 NbTa 0.5 TiZr</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pilchak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Des</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page">498</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The effect of Al on the formation and stability of a BCC-B2 microstructure in a refractory metal high entropy superalloy system</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Whitfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Pickering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Owen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materialia</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">100858</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Elucidating the microstructural development of refractory metal high entropy superalloys via the Ti-Ta-Zr constituent system</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Whitfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Pickering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Christofidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">818</biblScope>
+			<biblScope unit="page">152935</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The effect of lattice misfit on the dislocation motion in superalloys during hightemperature low-stress creep</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Koizumi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">17</biblScope>
+			<biblScope unit="page">4623</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Optimal precipitate shapes in nickel-base γ-γ′ alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Van Sluytman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Pollock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">1771</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A correlative multidimensional study of γ′ precipitates with Ta addition in Re-containing Ni-based single crystal superalloys</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page">68</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of a novel refractory AlN-bTiZr high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">H</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Q</forename><surname>Dai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Technol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">1309</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Microstructural design for improving ductility of an initially brittle refractory high entropy alloy</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Soni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">8816</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Phase inversion in a two-phase, BCC+B2, refractory high entropy alloy</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Soni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dasari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="page">89</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Coherent precipitation and stability of cuboidal nanoparticles in body-centered-cubic Al</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno>0.4 Nb 0.5 Ta 0.5 TiZr 0.8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">190</biblScope>
+			<biblScope unit="page">40</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>refractory high entropy alloy</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Compositional design of strong and ductile (tensile) Ti-Zr-Nb-Ta medium entropy alloys (MEAs) using the atomic mismatch approach</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A</title>
+		<imprint>
+			<biblScope unit="volume">742</biblScope>
+			<biblScope unit="page">762</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Equiatomic and non-equiatomic Ti-Zr-Nb-Ta refractory medium entropy alloys</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+		<respStmt>
+			<orgName>Queenslan: The University of Queensland</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Cuboid-like nanostructure strengthened equiatomic Ti-Zr-Nb-Ta medium entropy alloy</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Q</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Fabijanic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Joseph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Qu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Matsumura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A</title>
+		<imprint>
+			<biblScope unit="volume">798</biblScope>
+			<biblScope unit="page">140169</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Temperature dependence of mechanical and thermodynamic properties of Ti (25+x) Zr 25 Nb 25 Ta (25-x) (x ≤ 20) refractory high entropy alloys: influences of substitution of Ti for Ta</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">T</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Y</forename><surname>Tang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys B</title>
+		<imprint>
+			<biblScope unit="volume">606</biblScope>
+			<biblScope unit="page">412851</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Effect of Al addition on structural evolution and mechanical properties of the Al x HfNbTiZr high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>Mater Today Communs</publisher>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">242</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Design of novel low-density refractory high entropy alloys for high-temperature applications</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Q</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">W</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A</title>
+		<imprint>
+			<biblScope unit="volume">755</biblScope>
+			<biblScope unit="page">318</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Structural-disorder and its effect on mechanical properties in single-phase TaNbHfZr high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steurer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page">87</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Phase separation and formation of omega phase in the beta matrix of a Ti-V-Cu alloy</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Devaraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Bettles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Muddle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">2981</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Mechanical instabilities in the bcc lattice and the beta to omega phase transformation</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Fontaine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">275</biblScope>
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The formation of ordered ω-related phases in alloys of composition Ti 4 Al 3 Nb</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bendersky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Boettinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Biancaniello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shoemaker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall Mater</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">931</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Evolution of B2 (ω) region in high-Nb containing TiAl alloy in intermediate temperature range</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page">32</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Banerjee R. Phase stability and microstructure evolution in a ductile refractory high entropy alloy Al 10 Nb 15 Ta 5 Ti 30 Zr 40</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Soni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzinie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materialia</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">100569</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Phase stability as a function of temperature in a refractory high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Soni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Viswanathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mater Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page">3235</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Microstructure and Properties of Aluminum-containing refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Jom</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">2030</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Solid-solution phase formation rules for multi-component alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv Eng Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">534</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Correlations to improve room temperature ductility of refractory complex concentrated alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Rao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater Sci Eng A</title>
+		<imprint>
+			<biblScope unit="volume">820</biblScope>
+			<biblScope unit="page">141512</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

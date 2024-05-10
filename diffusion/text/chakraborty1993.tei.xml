@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Chemical diffusivity of boron in melts of haplogranitic composition</title>
+				<funder ref="#_bBWDFZ9">
+					<orgName type="full">CNRS-INSU</orgName>
+				</funder>
+				<funder ref="#_XmtHhfr #_7Z5Bf93">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Sumit</forename><surname>Chakraborty</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Centre de Recherches Petrographiques et Geochimiques</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>BP 20</addrLine>
+									<postCode>54501</postCode>
+									<settlement>Vandoeuvre-les-Nancy Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Donald</forename><forename type="middle">B</forename><surname>Dingwell, '</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Centre de Recherches Petrographiques et Geochimiques</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>BP 20</addrLine>
+									<postCode>54501</postCode>
+									<settlement>Vandoeuvre-les-Nancy Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Marc</forename><surname>Chauss~don~ '</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Centre de Recherches Petrographiques et Geochimiques</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>BP 20</addrLine>
+									<postCode>54501</postCode>
+									<settlement>Vandoeuvre-les-Nancy Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bayerisches</forename><surname>Geoinstitut</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Centre de Recherches Petrographiques et Geochimiques</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>BP 20</addrLine>
+									<postCode>54501</postCode>
+									<settlement>Vandoeuvre-les-Nancy Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Universitiit</forename><surname>Bayreuth</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Centre de Recherches Petrographiques et Geochimiques</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>BP 20</addrLine>
+									<postCode>54501</postCode>
+									<settlement>Vandoeuvre-les-Nancy Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Postfach</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Centre de Recherches Petrographiques et Geochimiques</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>BP 20</addrLine>
+									<postCode>54501</postCode>
+									<settlement>Vandoeuvre-les-Nancy Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">W-8580</forename><surname>Rayreuth</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Centre de Recherches Petrographiques et Geochimiques</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>BP 20</addrLine>
+									<postCode>54501</postCode>
+									<settlement>Vandoeuvre-les-Nancy Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Germany</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Centre de Recherches Petrographiques et Geochimiques</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>BP 20</addrLine>
+									<postCode>54501</postCode>
+									<settlement>Vandoeuvre-les-Nancy Cedex</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Chemical diffusivity of boron in melts of haplogranitic composition</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6448E9ACE5FC672A539147F4902AA714</idno>
+					<note type="submission">Received March 6, 1992; accepted in revised form September 27, I992</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A~~~-~erni~</head><p>Asiatic of B in synthetic melts of hapl~~tic composition have been measured by the diffusion couple technique at 1 atm between 1200-1600°C. The compositional profiles were measured by ion microprobe and modelled using the Boltzmann-Matano formalism to retrieve compositionally dependent interdiffision coefficients.</p><p>At the experimental conditions, &amp;OS is found to exchange primarily with SiO, and the interdiffusion coefficient increases with increasing replacement of Si by B in the melt. No isotopic fractionation of boron was observed in the diffusion zone at the experimental conditions. The compositional dependence of di~sivity increases with decreasing temperature. The activation energy of Dillon ( -70 kcal) is similar to that for viscous flow in melts of the same composition and is relatively insensitive to B content between l-10 w-t% B203 in the melt. However, the addition of the initial 1 wt% B203 to a haplogranitic melt appears to dramatically lower the activation energy for these processes from -100 kCa1 to -70 kCal. Thus, common geochemical concentrations of B may affect petrogenesis of granitic rocks by their influence on these transport properties. Some implications of these results for crystal growth and dissolution in B-bearing melts and boron isotopic variation of granitic melts have been discussed. If diffusion is the mte-limiting process, boron isotopic heterogeneity may be maintained in granitic melts at magmatic temperatures on time scales of millions of years on a millimeter scale. The influence of small amounts of B on transport properties may also contribute toward resolution of an enigma regarding emplacement mechanisms of peraluminous granites. I~ODU~ON THE GEOCHEMICAL SIGNIFICANCE of B has been receiving increasing attention in recent years. It has been shown that the B content of late-stage fluids during the evolution of granite-pegmatite systems may be as high as 5-10 wt% ( LON-DON, 1986a). A body of experimenta data now exists on some ~uilib~um properties of B-bearing melts of geological relevance. For example, experiments have shown that the addition of B lowers both the solidus and liquidus temperatures of water-saturated granitic melts <ref type="bibr" target="#b5">(CHORLTON and MARTIN, 1978;</ref><ref type="bibr">PICHAVANT, 198 1, 1987)</ref>, shifts the composition of minimum melting in the haplogranite system to more albite-rich compositions <ref type="bibr" target="#b44">( PICHAVANT, 1987)</ref>, and increases the solubility of water in melts in the haplogranitic system <ref type="bibr" target="#b24">( HOLTZ et al., 1993)</ref>. The influence of B on the differentiation trends of granite-pegmatite systems has been investigated by LONDON and coworkers <ref type="bibr">(LONDON, 1987;</ref><ref type="bibr">LON-DON et al., 1988</ref><ref type="bibr">, 1989)</ref>.</p><p>Boron also plays a role in the evolution of geological systems via its influence on transport processes. In particular, because of strong partitioning of B into the fluid phase under many geological conditions, B and its isotopes are used as indicators of fluid-rock interaction and to test for open-system behavior. As an example, <ref type="bibr">VAN</ref>  <ref type="bibr" target="#b52">BERGEN ( 1980)</ref> considers me~irnen~~ ~ndidie~te to be produced by reaction between Al minerals and B from a melt. Several examples of production of B-rich minerals by reaction between granitic melts and metasediments are illustrated by <ref type="bibr">MANNING and PKHAVANT ( 1983)</ref>. The formation of tourmaline-rich gem pockets in miarolitic pegmatites has been shown to be con-trolled by the av~lability of B (LONDON, i986b). In order to quantitatively understand such reaction systems and the time scales on which they occur, it is necessary to have data on diffusivities and other transport properties in B-bearing granitic melts. We have begun studying the effect of B on several physical properties in the haplogranite system <ref type="bibr">( DINGWELL et al., 1992;</ref><ref type="bibr">KNOCHE et al., 1993;</ref><ref type="bibr">H~LTZ et al., 1993)</ref>. Here, we present experimental determination of interdiffusion coefficients in B-bearing haplogranite systems and discuss the possible geological implications of the data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL METHOD</head><p>Diffusion coefficients were measured in this study using the diffusion couple technique, in which a set of synthetic glasses were used as starting endmembers. The glasses were prepared by melting specified amounts of NazC09, KFOs, AlzOJ, SiO?, and H3BOJ. The starting compositions were chosen such that the dehydrated, decarbonated equivalents represent 5 and 10 wt% additions of BzO, to a haplogranite composition (designated HPG8) near the 1 kbar (p&amp;O) ~ud~terna~ minimum com~sition in the system SiQ-NaAISi&amp;-KAlSisOs-H20. The HPG8 glass is that of <ref type="bibr">Hor_rz et al. ( 1993)</ref>.</p><p>The B-bearing glasses were prepared by fusing the corresponding powder mixes directly for several hours at 1600°C in a 75 cm3 thinwalled Pt crucible in a MoSi, box furnace. The products of this fusion were bubble-rich. To eliminate the bubbles and ensure homogeneity and full reaction, the crucibles were transferred to a second MoS&amp; box furnace equipped with a concentric cylinder viscometer. The samples were fused again at 1600°C and stirred at 20, 50, or 100 rpm using a PtWRhzO spindle for several hours. The clear, transparent, bubble-free products of this process were allowed to cool slowly to less than 400°C in the furnace and then removed to cool to room temperature. Cylinders (8 mm diameter) of the glass were cored from the crucible using diamond drill bits and were sawn into disks 2 mm in thickness. Further detaih regarding the preparation methods may be found in <ref type="bibr" target="#b14">DINGWELL et al. ( 1992)</ref>. The disks were polished on both ends to a final grit size of 0.25 pm using diamond polishing compounds.</p><p>Samples of the glasses were analysed by solution-based ICP-AES, electron and ion microprobes. The results of the analyses are presented in Table <ref type="table">1</ref>. The compositions measured by the different methods agree well with each other. No inhomogeneity was observed in multiple spot analyses in the electron and ion microprobes. The details of the analytical methods in the ion microprobe are discussed below.</p><p>For the diffusion experiments, two doubly polished glass cylinders were placed inside thick-walled Pt capsules, which were sealed to cylindrical form at the base and had Pt lids welded at the top. The sealing of the bottom of the capsule, as well as polishing of the bottom surface of the glass disk, was found necesmry to prevent the formation of bubbles from trapped air and consequent disruption of the diffusion interface. During the diffusion experiment, this assembly was suspended vertically in a MoSir furnace by a Pt wire.</p><p>The duration of the runs were selected to be short enough that the concentrations at the ends of the couple were not a&amp;&amp;d by diffusion and long enough that the concentration profiles could be measured in the ion microprobe without distortion due to spatial averaging. Temperatures were monitored by a Pt-Rh (TYPE S) thermocouple whose junction was adjacent to the capsule wall. These temperatures have been determined to be the same as those recorded by a thermocouple whose junction was inside the capsule. Desired run temperatures were attained within a minute of inserting the samples in the furnace. In all cases, temperatures were controlled to within a degree of the desired run temperature for the entire run duration. The runs were quenched by vertically retracting the samples from the furnace. Temperatures dropped to about 400°C within 10 s, to 200°C within 1 min, and to 100°C within 2 min of quenching the run, as monitored by an internal thermocouple in a similar assembly. The uncertainty in run durations due to these heating up and cooling times are negligible even for the shortest runs and are not dealt with any further. Independence of retrieved diffusivities on run duration supports this assertion. The run products were mounted in epoxy and sectioned perpendicular to the interface, polished down to 0.25 pm and prepared for analysis in the ion-/electron microprobe. The run conditions at which experiments were performed in this study, along with the starting endmember compositions, are given in Table <ref type="table" target="#tab_1">2</ref>. Although an explicit time series of diffusion couple experiments was not performed on these melts, we believe diffusion to have been the dominant mechanism of mass transport in these experiments because of ( 1) the regularity in the shape of the concentration profiles and their reproducibility in parallel traverses, and (2) the reproducibility of diffusion data obtained from two experiments performed at slightly different times (albeit not different enough to test the constancy of VDt). Moreover, time series experiments, as well as two dimensional maps of intensity of X-ray fluorescence from different elements on diffusion couples with similar melts and experimental design (S. <ref type="bibr">Chakraborty et al., unpubl. data)</ref>, showed diffusion to be the dominant mechanism of mass transport.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ANALYTICAL TECHNIQUE</head><p>The primary analytical instrument used in this study was a Cameca Ims-3f ion microprobe at CRPG-Nancy. Some Si profiles were measured using a Cameca SX-50 electron microprobe at Bayreuth.</p><p>In the ion microprobe, the quenched glasses from the diffusion couple experiments were analysed for B, Na, K, Al, and Si. Samples were sputtered with a IOkV O-primary beam of 0.1 nA intensity and =2 pm diameter. Positive secondary ions were analysed at o 1000 mass resolution and 60 f 10 V energy filtering. The counts were converted to concentrations by comparison with a set of natural and synthetic Si-rich glasses. The B content of the glasses used as standards varied from IO ppm to several wt%. The concentration profiles were obtained by analysing at 5 pm steps in an automated mode. The lengths of the diffusion profiles were 150-500 pm. <ref type="bibr">Calculations (after GANGULY et al., 1988)</ref> show that there would be no distortion of the concentration profile due to spatial averaging effect for these profile lengths and beam conditions (2 pm diameter; 5 pm step size). Traverses along parallel directions yield identical profiles, suggesting that there was no major physical disturbance of the interface while the glass was molten during the diffusion experiment. Thermal expansivity data obtained on the same glass samples (KNOCHE <ref type="bibr">et al., 1993)</ref> across the glass transition temperature indicates that the maximum correction in the length of the profile due to contraction on quenching would be on the order of 2.0% for these melts. This would imply that the diffusivities retrieved from concentration profiles measured on the glass are likely to be lower than the true diffusivities by approximately 4%</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCENTRATION PROFILES</head><p>The concentration profiles measured by the ion microprobe show several interesting features. First, all runs in this study show the presence of significant concentration gradients for B and Si, only minor gradients for Al, and none for K and Na (Fig. <ref type="figure">la</ref>) after the diffusion anneal. For all further discussion, the elemental concentrations are recast as oxides ( B203 and Si02) and concentration profiles and fluxes of an element will refer to those for the corresponding oxide unless otherwise specified. If the concentrations of B203 and SiOa are normalized to their initial difference (i.e., are forced to vary between 0 and 1 from one end of the couple to the other), it is found that the diffusive loss/gain of Bz03 at any spatial coordinate along the diffusion zone is almost exactly balanced by the gain/loss of SiOz (Fig. <ref type="figure">lb</ref>). A measure of the amount of B203 lost or gained from one side of any plane parallel to the interface is given by the area under the concentration-distance profile, assuming there is no concentration gradient parallel to the interface. The assumption is consistent with the observation of identical profiles on traverses along parallel directions. Such calculations show that the flux of Bz03 at any point is almost completely compensated by a counterfhtx of SiO,. A plot of the diffusion path (Fig. <ref type="figure">2</ref>) illustrates that the diffusion in these experiments involved primarily an exchange of Bz03 for SiO, , A1203 participating only to a minor extent in this process. These observations suggest that under the run conditions, B in the melt exchanges primarily with Si and not with Al.</p><p>Secondly, the shapes of the profiles are strongly asymmetric for the lower temperature runs and become progressively more symmetric at higher temperatures. This would imply decreasing concentration dependence of diffisivity with increasing temperature, as is found to be the case in a more quantitative treatment of the profiles in the next section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>THEORETICAL MODEL AND RETRIEVAL OF DIFFUSION COEFFICIENTS</head><p>The observations above suggest that despite the presence of five oxide components in the melt, the diffusive exchange in the present set of experiments involved primarily Bz03 and SiO, . The concentration profiles may therefore be treated as being the product of a binary exchange and may be modelled as such to a very good approximation. Diffusion coefficients as a function of composition may be retrieved from a binary diffusion couple experiment using the well-known ~l~mann-Juno formalism <ref type="bibr" target="#b39">(MATANO, 1933)</ref>. According To locate the Matano interface for the experimental profiles, the term on the leeft-hand size of Eqn. 4 was computed for all points in the diffusion zone, resulting in a distribution [say, Z(X)] of differences in area as a function of distance. The value of X corresponding to the minimum in Z(X) was determined to be the location of the Matano interface. Then, Eqn. 1 was used with standard numerical procedures to calculate derivatives and integrals to obtain diffusivities as func- tions of composition. The normal procedure of Boltzmann-Matano analysis would involve fitting a smooth curve through the data points before computation of areas and slopes for the calculation of diffusivities. However, ( 1) the density of points in our profiles were high enough, and (2) the quality of analyses were good enough to ensure smoothness that the analyses on a traverse themselves could be treated as a digitized profile without further smoothing by curve fitting. This allows us to reduce one source of error in the Boltzmann-Matano analysis. Thus, the errors in the calculation of diffusivity should arise primarily from the errors in the measurement of composition. Propagating this error through Eqn. act (Tderiv, and 'Tinleg are the standard deviations on the mea- sured concentrations, the calculated derivatives, and integral, respectively. The standard deviation on the measurement of concentration is higher for low B contents. Taking the range of standard deviation of 0.1-S% (high B contents to low B contents) for the measurement of the B concentration, we obtain an uncertainty of -lo-45% in the retrieved diffusivities using Eqns. 5-7. This analysis propagates the analytical uncertainties through the process of numerical calculations to estimate the errors. There are additional uncertainties associated with the numerical techniques themselves, which for the current purposes are likely to be relatively small. An estimate of the total uncertainty may be obtained by checking the reproducibility of the data. Such a comparison between results from runs HPGBD-1 and HF'GBD-3 shows estimated errors are approximately 20% at Si02/(B203 + Si02) = 0.95 and 26% at Si02/( B203 + Si02) = 0.975, which is consistent with the formal error analysis, indicating that most of the errors do indeed arise from the measurement of concentration.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS AND DISCUSSION</head><p>Before discussing the diffusion data and their implications, it is perhaps useful to clarify the distinction between the quantities being measured and those being modelled. The analytical measurements performed on the glasses are sensitive to total elemental (or isotopic, in the case of the ion microprobe) concentrations, irrespective of their valence state (e.g., the measurements do not distinguish between boron present as elemental B or B3+). Because of our knowledge of the nature of bonding in these materials, we interpret these abundances to be those of specific valence states of the concerned elements and express the analyses conveniently in terms of oxides so that we obtain "actual components" <ref type="bibr" target="#b20">(GIBBS, 1928;</ref><ref type="bibr" target="#b51">THOMPSON, 1959)</ref> or "building units" (a concept originally developed to describe vacancies in ionic crystals; (see e.g., <ref type="bibr">KROGER, 1974)</ref>. The convenience referred to above results from the fact that now we have a set of components that can be independently added or subtracted from the system. In other words, the constraint of charge balance is now built into the definition of these components and so we do not have to explicitly impose these constraints when dealing with problems of mass flux. It is also necessary to have such components that are free to move in order to be able to even define a diffusion potential (e.g., <ref type="bibr" target="#b40">ONSAGER, 1945 )</ref>, without which a thermodynamic description of fluxes and forces is not possible. The important point to note from this is that the amount of oxygen incorporated in these descriptions in terms of oxide components is inferred to be that required to maintain overall charge neutrality: it is not directly measured. Thus, while we gain in terms of operational convenience in dealing with fluxes and forces (diffusion potential), we may lose in terms of insight into microscopic mechanisms. This, of course, is the benefit of the thermodynamic method, as long as the formulation is consistent it is valid irrespective of the microscopic mechanism(s) of the diffusion process.</p><p>Specifically in terms of the diffusion process studied in this work, the above discussion implies the following. The concentration or flux of B203 (as an example, the statements below hold for any other oxide component as well) at any spatial coordinate or time is directly related to the charge compensated concentration or flux of the concerned cation (B3+ in this case) but not necessarily to that of oxygen; the oxygen of these oxide components may simply be charge balancing entities. The evidence for the flux of O2 is only indirect and inferred. A real chemical analysis of the amount of O2 in the melt may reveal the presence of excess or deficient 02. The excess may be in the form of dissolved molecular 02, for example. Similarly, a possibility for compensation of deficit formal charge (which is what we have) would be through the occurrence of partially ionic bonds and varying polarizability of the different atoms (in fact, the Si-0 bonding is known to be only partially ionic). Note that such excesses or deficits need be present only on the order of parts per million or less in order to influence a random walk process such as diffusion; the analogous role of vacancies in crystalline materials is proof of that. This is of central importance in inferring diffusion mechanisms from macroscopic, phenomenological treatments of diffusion flux. While we have directly measured cation fluxes, we have artificially imposed a mechanism, that of charge balance by flux of 02, to treat it. In reality, the diffusive mechanism may involve any complex mode of charge compensation: motion of oxygen anions, motion of oxygen anions coupled with homogeneous reactions between anionic oxygen and dissolved molecular 02, distortion of the valence shells of oxygen anions, and coupled motion of cations in opposing directions are some possibilities; any combination of these various processes are also possible. Thus, in discussing the diffusion data, it is best to treat the O2 that goes into building the oxide components as a fictive charge compensating entity. In a rigorous sense then, we recognize the fact that the diffusion coefficients obtained in this work give us directly the rate of net charge compensated exchange of cations, independent of the underlying mechanism. Any observations regarding the mobility of O2 are only inferred and, therefore, less certain. Thus, the microscopic mechanisms underlying the exchange of unequally charged cations (which has to involve some charge compensating role of anions in the absence of coupling with fluxes of other cations) may not necessarily be uniquely constrained from the current data set. In as much as oxygen is the only anion available, it may be stated with a fair degree of certainty that the exchanging component is ( B203-Si02) = B20Si-' . Note that the choice of component over species is intentional; this states the fact that the exchange of two B3+ and one 02-for one Si4+ is the net effect of the diffusion process, even though the actual mechanism may involve any number of species and intermediate steps.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Composition and Temperature Dependence of Diffusivity</head><p>Diffusivities as a function of composition and temperature are given in Table <ref type="table">3</ref>. It is clear from the data that the diffusivity increases with increasing replacement of SiOz by B203 in the melt. Note that the diffusivities could not be determined for the extreme terminal compositions on either end of a couple because it is difficult to accurately determine the small slopes in the concentration profiles at these points. Figure <ref type="figure">3</ref> illustrates the increase of diffusivity with decreasing SiOz in the melt. It is seen that the compositional dependence is similar within the resolution of the experimental data up to 1400°C but decreases with increasing temperature beyond that. At 16OO"C, the diffusivity is practically independent of composition over the range of composition investigated. Figure <ref type="figure">4</ref> illustrates (e.g., ELPHICK et al., 1985) that this composition dependence causes the asymmetry in the measured diffusion profiles with the help of two profiles calculated using retrieved diffusivities. The profiles were calculated using the solution for diffusion in semi-infinite media <ref type="bibr" target="#b9">(CRANK, 1975 )</ref>, the experimental run times and a constant diffusivity corresponding to a composition at a particular point along the measured profile. It is shown that the calculated profile using the diffusivity retrieved for a SiO,-rich composition fits the data at the Si02-rich end quite well, but the diffusivity used is too slow to fit the B203-rich end. Similarly, the diffusivity retrieved for a B203-rich composition is too fast'to fit the data at the SiOz-rich end. The temperature dependence of diffusivity is illustrated in Fig. <ref type="figure">5</ref> in a conventional Arrhenius plot for a seiected composition (approximately 3 wt?'~ B$&amp;). The activation energies (Q) and preexponential factors (II,-,) in obtained by a linear fit to the data in Fig. <ref type="figure">5</ref> are given in Table <ref type="table" target="#tab_4">4</ref>, along with those for another composition. It is found that unlike diffusivity, the activation energy remains practically unchanged with increasing B content of the melt over the com~sitionai range accessible to m~u~ment.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Tracer Diffusivity of Boron</head><p>The diffusivity measured in this study is strictly the exchange diffusivity of B and Si, represented as BZ03 and SiOz, which should be some compositionally weighted sum of the B, Si, and 02 tracer diffisivities at the same compositions, assuming that the thermodynamic mixing between Bz09 and SiOz in these melts at the high temperatures of the experiments is not too far from ideai. Several models (mathematically, simply different weighting schemes) for relating such interdiffusion coetficients to tracer diffusivities are available (for example, DARKEN, 1948; HARTLEY and <ref type="bibr" target="#b24">CRANK, 1949;</ref><ref type="bibr" target="#b7">COOPER, 1965</ref>; LASAGA, t 979 1. b-respective of the choice of the model, it is seen that as the con~ntration of one component diminishes, the interdifhtsion coefficient in the system approaches the tracer diffusivity of that component. Depending on the choice of the model, different physical justifications for this may be provided. In the current system, the diffisivities obtained at the most B203-poor compositions should therefore be similar to B tracer diffusion coefficients in melts of the same composition. The B tracer diffusivity is expected to be faster than, but perhaps within a log unit, of the Si tracer diffusivity at the same composition at the high temperatures of these experiments ( DINGWELL, 1990). The tracer di&amp;sivity of Si in a melt may be related to the viscosity of the melt by the Eyring equation ( GLASSTONE et al., 194 I ) and calculations for a wide variety of melts using reasonable estimates of jump distances (see, for example, <ref type="bibr">SNIMIZU and KUSHIRO, 1984;</ref><ref type="bibr" target="#b13">DINGWELL, 1990)</ref> show the relationship to be a useful approximation. The jump distances used in these studies are the diameter of the oxygen ion (2.8 nm). Smaller jump distances are extremely unlikely for tetrahedrally coordinated cations; larger jump distances will not invalidate the conclusions that follow. Diffusivities calculated using the Eyring equation and viscosity data from <ref type="bibr" target="#b14">DINGWELL et al. ( 1992)</ref> are slower than those measured in this study at all conditions where comparison is possible. The difference between the measured f -B tracer) and calculated ( -Si tracer) difhrsivities range from a factor of 4 to an order of magnitude, which is consistent with expectations following the line of reasoning outlined above. We emphasize that the above calculation of B tracer diffusivity is only approximate in that the thermodynamic mixing between Bz03 and Si02 components in the melt is unlikely to be strictly ideal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Relation between Boron Diffusivity and Viscosity</head><p>As the diffusive exchange of B203 and SiOz is likely to be rate-limited by the breaking of the Si-0 bonds, which also controls viscosity, it should be interesting to compare measured activation energies of viscous flow ( DINCWELL et al., 1992) with those for diffusion measured in this work. In this connection, it is important to note that the viscosities were only measured at discrete points along the composition axis (the endmember compositions of diffusion couples). On the other hand, diffusivities could be measured continuously at intermediate compositions, except at the endmember compositions. Therefore, it is not possible to compare activation energies for the two processes at exactly the same compositions.</p><p>We have plotted the activation energies for the two processes as a function of composition in Fig. <ref type="figure" target="#fig_8">6</ref>. The plot brings out two very interesting features. Firstly, the activation energy for the two processes are similar (not same) over the range of 1 -10% added B203 along the haplogranite-BzOs join. The activation energies for viscosity ( 1 u = +2 Kcal) are perhaps always somewhat higher than those for diffusivity ( 1 u = +5 Kcal). This suggests that the rate-controlling microscopic mechanism (the major energy barrier) for viscous flow is probably the same as that for the diffusive exchange BzOs-Si02 in these melts. Note that this allows for differences in the mechanisms of the two processes in detail, as indeed there must be for two different processes such as diffusion and viscous flow: viscous flow is a relative motion of adjacent portions of a liquid; diffusion is a relative motion of its different constituents <ref type="bibr" target="#b40">( ONSAGER, 1945</ref> ) . Thus, for viscous flow, for example, a contribution to the overall activation energy in addition to that due to the rupture of Si-0 bonds could be from the energy required to form the new volume into which the flow unit will move <ref type="bibr">( GLASSTONE et al.,</ref><ref type="bibr">194 1)</ref> . The plot further shows that this rate-controlling mechanism does not change significantly enough to affect the energy barriers to viscous and diffusive flow beyond experimental resolution over this concentration ( I-10 wt% added BzOs) and temperature range. Even the activation energy for viscous flow for the natural Macusanite composition <ref type="bibr">( DINGWELL et al., 1992)</ref> is identical within error of measurement to these activation energies. This allows activation energies for viscosity and the diffusion process studied here to be approximately interchangeable and complement each other. This is particularly useful for compositions in which the activation energy for one of the processes cannot be, or has not been, measured. Within this context, the second important observation is that the activation energy of viscous flow measured for HPG8 (0 wt% B203 added) is much higher than all the other activation energies, including the activation energy for diffusion in a melt with 1 wt% B203 added to it. Given the similarity of activation energies at the other compositions, it seems reasonable to conclude that the addition of the initial (less than 1 wt% ) B203 to the melt causes a dramatic decrease in the activation energy for both diffusion and viscous flow for these melts. Further addition of B203 seems to affect diffusivity (this study) and viscosity ( DINGWELL et al., 1992) but not the activation energy for these processes over the compositional and temperature range investigated.</p><p>This observation is of geochemical significance because the BzOs content of most natural granitic melts is likely to be less than 1 wt%. Such low concentrations are unlikely to significantly affect equilibrium behavior, but the large effect of small amounts of B on the transport properties could have a marked influence on the geological evolution of granitic systems. Some of the possibilities have been discussed below. For applications to natural systems, it is important to note that the viscosity measurements extend from 1600°C down to 638°C ( DINGWELL et <ref type="bibr">al., 1992)</ref> and the behavior is Arrhenian over this temperature range. If the approximate equivalence of activation energies for the two processes hold over this range of temperatures, then this gives us reasonable confidence for extrapolation of the diffusivity data to lower temperatures as well.</p><p>Given the significance of the proposed approximate equivalence of activation energies for interdiffusion of Bz03-Si02 and viscous flow, an experimental test of the predictions would be particularly useful. Such an opportunity is afforded by the recent measurements of B tracer diffusivity in a natural rhyolitic obsidian glass (LCO) by <ref type="bibr" target="#b2">BAKER ( 1992)</ref>. The composition of the glass is very similar to the synthetic HPG-8 composition used in this work as the B-free endmember of the diffusion couples. Therefore, the diffusivities in the two glasses should he directly comparable. Because of the different experimental technique used, BAKER ( 1992) could directly measure the tracer diffusivity of B in the B-free melt (e.g., HPG-8 of this work), which was not possible in this study because of the problem with obtaining diffusion data at terminal compositions, as discussed above. Recall from the discussion in the previous section that at these B-free compositions the tracer diffusivity of B should be almost the same as the exchange diffusivity of BzO'-Si02.</p><p>Because of the approximate equivalence of activation energies of viscosity and diffusivity discussed above, one would predict from the viscosity data that the activation energy for BzOs-Si02 exchange diffusion in the B-free composition should be close to 100 Kcal. The measured activation energy for B tracer diffusion by BAKER ( <ref type="formula">1992</ref>) is 95.6 Kcal, in excellent agreement with expectation based on the preceding arguments. Thus, the outcome of this comparison of prediction with experimental data is in complete agreement with our preceding discussion that the addition of the initial 1 wt% Bz03 causes dramatic decrease of activation energies for diffusivity and (by inference) viscosity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Isotopic versus Elemental Homogenization Rates</head><p>Similar to other stable isotope systems, isotopic fractionations between the two B isotopes, "B and "B decrease with temperature. However, nonzero fractionations are still observed at magmatic temperatures; a value of 2.6k has been found between tourmaline and aqueous vapor at 750°C <ref type="bibr" target="#b41">(PALMER et al., 1992)</ref>. This fractionation is supposed to result from the preferred incorporation of B in trigonai coordination (B"') rather than B in tetrahedral coordination (B") in tourmaline, B"' being enriched in "B relative to B", with an isotopic fractionation of =23%0 at 25'C <ref type="bibr">( UKIHANA et al., 1977)</ref>. B"' and B'" are present in silicate melts in relative proportions depending on several parameters such as bulk composition, B content, or pressure; B"' is usually the more abundant in silica-rich melts <ref type="bibr" target="#b42">( PICHAVANT, 198 1;</ref><ref type="bibr" target="#b18">GEISINGER et al., 1988)</ref>. During chemical diffusion of B in melts, isotopic fractionations can be envisaged because of possible differences in diffusivities between B"' and B'". Though the present set of experiments were not designed with this objective, such isotopic variations were not found, and the ' 'B / "B ratios of charges are constant within ? I .5%0 across the diffusion zone (Fig. <ref type="figure" target="#fig_9">7</ref>). This implies either ( 1 ) at the high temperatures of the experiments the isotopic fractionations between B"' and B" are &lt; 1.5'%0, or (2) there was no strong change of coordination of B across the diffusion zone, or (3 ) isotopic ratios equilibrate faster than elemental concentration gradients. We conclude from this that at least for the HPG8-B203 system, the diffusivities obtained in this study may be used to calculate the homogenization rates of specific isotopes as well as elements (sum of all isotopes) in the presence of a concentration gradient. There have been some suggestions recently in the literature that in the presence of an elemental concentration gradient, the diffusion coefficient for the homogenization of gradients in isotope ratios may be different from those of the elemental concentration gradients ( LESHER, 1990; VAN DER <ref type="bibr" target="#b53">LAAN et al., 1990)</ref>. We would like to emphasize, however, that the flux equations governing the homogenization of isotopic ratios are different from those governing the homogenization of elements or isotopes. This would lead to different rates of homogenization of isotopic ratios, depending on the boundary conditions of the problem, even if the diffusivities controlling the process are the same as those for elemental and isotopic homogenization.</p><p>An example of this may be found in <ref type="bibr" target="#b10">CYGAN and LASAGA ( 1985)</ref> for the case of diffusion in a semi-infinite medium with a constant surface composition. They give the equation describing the evolution of concentration gradients (their Eqn. 1, taken from CRANK, I975 ), which is different from the equation for the evolution of isotopic ratios (their Eqn. 7) during the same process.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>GEOLOGICAL APPLICATIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Crystal Growth and Dissolution Rates in Melts</head><p>Diffusion in melts has been shown to affect geological processes such as rates of crystal growth and dissolution and the rate and extent of mixing of magmas of dissimilar compositions (e.g., <ref type="bibr" target="#b54">WATSON, 1982;</ref><ref type="bibr">HARRISON and</ref><ref type="bibr">WATSON, 1983, 1984;</ref><ref type="bibr" target="#b55">ZHANG et al., 1989;</ref><ref type="bibr">BAKER, 1990, 199 1)</ref>. Assuming that the relationships found in this study hold for chemically more complex natural melts (which includes those containing water) and at lower temperatures relevant to granite-pegmatite petrogenesis, some possible implications of the results for geological systems are discussed below.</p><p>The simplest forms of growth rate theory indicate that crystal growth rates from a melt for diffusion-controlled growth would be proportional to the square root of the diffusivity of the rate controlling species in the melt (see KIRK-PATRICK, 1975, for a review). In more complicated theories of crystal growth (e.g., <ref type="bibr" target="#b30">LASAGA, 1982;</ref><ref type="bibr">GHIORSO, 1987 )</ref> , although the proportionality is lost, the dependence of crystal growth rates on the square root of diffusivity is retained. It is likely that the diffusion-controlled growth rates of many silicates would be rate-limited by the rate of transport of Si in the melt (e.g., <ref type="bibr" target="#b54">WATSON, 1982)</ref>. In such cases, the increase of diffusivity of Si in the presence of small amounts of B will enhance the growth rates and promote the formation of coarse-grained rocks. Note that the small amount of B necessary to cause this is very unlikely to significantly affect liquidus phase relations; this is observed experimentally <ref type="bibr">(MAN-NING and PICHAVANT, 1983</ref>) and expected theoretically. The theoretical expectation stems from the fact that the thermodynamic mixing properties of B would have to be unrealistic for very small amounts of B to have activities large enough to affect phase relations significantly. Thus, the amount of undercooling, unlike diffisivity, would not be affected by the presence of this amount of B. At constant temperature (below the liquidus), in the absence of a buffer for B activity (e.g., tourmahne in a two mica granite), the amount of B in the residual melt would increase with progressive crystallization, leading to a further enhancement of ditisivity and hence crystal growth rates. Cooling during crystallization would add complexity to this crystallization pattern. Such a role of B has been envisaged to have contributed toward the formation of rare metal ore units in the Tanco pegmatite, Manitoba ( LONDON, 1986a).</p><p>The instability of a crystal face dissolving in a melt is directly proportional to the diffusivity of the rate-limiting species in the melt according to some theories (e.g., <ref type="bibr" target="#b3">CAHN, 1967)</ref>. The coupling of the chemical diffusivity of B to that of Si would imply a relatively slow diffusion rate (compared to say, alkalies) and a correspondingly increased kinetic stability of borosilicate crystals like tourmaline in granitic melts at high temperatures.</p><p>It is of particular concern how the presence of water may affect the conclusions above because almost all granitic systems contain water, and it is known to have a strong influence on both transport and equilibrium properties of silicate melts. Increasing water greatly reduces viscosity (e.g., <ref type="bibr" target="#b48">SHAW, 1963)</ref> and enhances diffusivity (e.g., BAKER, 199 1) in granitic melts. These effects are qualitatively in the same direction as those due to B. Quantitatively, a comparison of results from the above studies on the effect of water with those from this study and <ref type="bibr" target="#b14">DINGWELL et al. ( 1992)</ref> for the effect of B show that the effect of addition of 1 mol of Hz0 is much stronger than that due to 1 mol of Bz03. This leads to the possibility of another interesting role of B in influencing transport properties. It has been shown that addition of B increases the solubility of water in granitic melts <ref type="bibr" target="#b24">( HOLTZ et al., 1993)</ref>. If there is sufficient B present in a natural melt to cause this (see comments regarding effect of B on phase relations above), the effect of B on transport properties would be greatly enhanced. This is because, in addition to the direct effects of B on transport properties, there would be an indirect influence resulting from the incorporation of additional water in the melt in the presence of B. This coupled role of B and water has the potential to cause large nonlinear enhancement of transport properties of granitic melts; quantitative evaluation of such a role through direct experiments in the future would be of interest.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Boron Isotope Variation in Melts</head><p>The processes that control the B isotope composition of granitic melts, reported as 6"B values, are still largely unconstrained. In granitic magmas, B is present either as dissolved B with solubilities of several wt% B203 ( PICHAVANT, 198 1) or as a constituent of tourmaline crystals present in the melt. Tourmaline crystals contain = 10 wt% Bz03 and are, in most cases, the only significant B-bearing mineral. The tourmaline crystals are either relic minerals formed during metamorphism of B-rich source rocks at around 300°C <ref type="bibr" target="#b46">(REYNOLDS, 1965)</ref> and preserved in the melts because of their high thermal stability or magmatic minerals which have been shown to crystallise from peraluminous granitic melts at SOO-700°C at 1 kbar. Thus, variations of S"B values of the melt are likely to be due to ( 1) variations of the b"B of the source rock, inherited directly in relic minerals and/or associated isotopic fractionations during melting and (2) possible isotopic distillation of the melt during tourmaline crystallization, if a significant B isotope fractionation between tourmaline and melt exists. Whether tourmaline crystals, enclaves, and inclusions in granitic melts retain the 6 ' 'B values inherited from the source rocks during partial melting or acquire them during their residence in the melt depends on the diffusivity of B in these phases and granitic melts, in the presence of a concentration gradient. If the present results can be extrapolated to lower temperatures and natural granitic compositions, then B isotopic heterogeneity in a granitic melt at 700°C can be maintained at the millimeter scale for time scales on the order of millions of years, provided that no physical mixing is added to diffusion. This is consistent with the observation of 6 ' 'B variations of 2-3%o between different magmatic tourmaline crystals from the same thin section in the Manaslu and Gangotri Himalayan leucogranites <ref type="bibr">(CHAUSSIDON et al.,</ref><ref type="bibr">199 1)</ref>. This range of 6"B values is smaller but similar to that found in the High Himalaya Crystalline (HHC), the formation believed to be the source of the Manaslu Granite <ref type="bibr">( FRANCE-LEFORT, 1988 )</ref>. Duration of magma segregation and transport is estimated to be less than 5 Ma <ref type="bibr" target="#b12">(DENIEL et al., 1987;</ref><ref type="bibr">COPELAND et al., 1990)</ref>, which, according to the present diffusion data, would allow maintenance of isotopic heterogeneity between different batches of melt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effect of Boron on Transport Properties and Implications for Granite Emplacement</head><p>A key problem that often arises in the study of peraluminous granites is associated with the mechanism of melt extraction and emplacement. The viscosities of the melts inferred from field observations are often inconsistent with calculated viscosities of these melts using standard algorithms (e.g., <ref type="bibr" target="#b49">SHAW, 1972)</ref>, the calculated viscosities being much too high. Specific examples of this problem are provided by the High Himalayan leucogranites, like the Manaslu or the Gangotri-Badrinath plutons. In a study of the Gangotri pluton, SCAILLET et al. <ref type="bibr">( 1990)</ref> argued that the laccolith-like shape, emplacement at shallow levels well removed from inferred source regions, low amounts of restite material, and low percentage of partial melting deduced from geochemical studies are all consistent with a low-viscosity melt that was very efficiently segregated from the source region. Field evidence such as penetrative magmatic layering and progressive detachment of xenoliths of host rocks observed at the edges of the granite without any major disturbance of the foliation also argue for the emplacement of a relatively fluid melt. On the other hand, they also state that the inferred viscosities for these melts based on models are much too high to be consistent with such emplacement mechanisms and go on to speculate the potential role of B or F in reducing the viscosities. Other mechanisms such as reduction of melt viscosities resulting from fluxing of the source regions by volatiles have also been considered. Note also that in a recent publication, CLEMENS and MAWER ( 1992) argue that alternate interpretations of some of these structural and geochemical features are possible that do not require particularly fluid melts.</p><p>However, in the context of this study, it is interesting to note that all of these granites have primary magmatic tourmaline indicating that the melts were saturated in B. Present whole-rock B contents of these granites are high (e.g., 0.2 wt% for Gangotri; M. PICHAVANT, pers. commun.), and this is likely to be a minimum because of the tendency of B to strongly partition into fugitive late-stage fluid phases. The likely role of very small ( &lt; 1 wt% ) amounts of B in affecting transport properties as inferred in this work, especially in the presence of water, makes it necessary to take this effect into consideration in calculation of viscosities of these granitic melts. Even if this does not account quantitatively for the discrepancy between the calculated viscosities and those inferred from field observations, it would certainly contribute towards it.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>FIG. I. (a) Compositional profiles measured for run lHPGBD1 in the ion microprobe. The vertical scale, in wt%, is the same in all the subplots. The elements on the vertical axes refer to the corresponding oxide concentrations. Only BrOr and SiOr show significant concentration gradients in the diffusion zone; AirOr shows only a minor change in ~n~otmtion. (b) Com~itioo~ profiles of BrOs (solid symbols) and SiO, (open symbols) with the concentrations normalized to the difference in their own concentrations across the diffusion couple. Solid hoe is calculated by adding these B203 and SiOz concentrations at each point along the profile. The conceotratioos are seen to add up to approximately I .O along the entire diffusion zone.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>c') is the BzO3-Si0, exchange di&amp;&amp;vity at the composition C, t is the duration of the diffusion anneal, and X is the spatial coordinate normal to and centered at the Matano interface. The Matano interface is defined the composition variable C is normalized to vary between 0 and 1 between the ends of the diffusion couple. This is achieved by defining variables of the form c= C(i) -Gn c*cl, (3) for both BzOr and SiOr, where C,R and C, refer to the undisturbed compositions at the two terminal ends of the diffusion couple, respectively, and C(i) is the concentration at any given point. The definition of Matano interface in Eqn.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>FIG.2. Change of BrOr concentration plotted against the corresponding change of AlrO, concentration (both in wt%). Note that the scale on the vertical and the horizontal axes are the same.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>FIG, 3. Diffusivity (normalized to the diffusivity at the same temperature at 1 wt% added B203) plotted against wt% added B203. The symbols for different temperatures are explained in the legend. Numbers beside the temperature, where they occur, indicate the wt% added B,O, in the B-rich terminal member of the diffusion couple.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>FIG. 4. Concentration (normalized to endmembers) of B203 (ci r- cles) and SiOz (cross) in a profile from run #HPGBD 1. The solid and dashed lines are calculated diffusion profiles for the run conditions using difl'usivities retrieved in this work. The solid line ftts the data on the silica poor side (Ieft) but is too fast to fit the Si-rich side; the dashed line fitting the Si-rich side (right ) is too slow to fit the points on the B-rich side. The ho~zonta~ axis is in microns centered at the calculated Matano interface.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>Arrhenius plot of logarithm of diffusivity against inverse temperature in kelvins. The diffusivities are far a melt with 3 wt% added Bz03, which is a median BzOJ content for the melts studied in this work. The uncertainty of each data point is approximately the size of the symbols.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>FIG. 6 .</head><label>6</label><figDesc>FIG. 6. Activation energy for viscous flow (from DINGWELL et al., 1992) and diffusivity (this work) plotted against wt% added B203 to a haplogranitic melt. Also shown for comparison is the activation energy for B tracer diffusion in a rhyolitic melt measured by BAKER ( 199 I ) . See text for more details.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>FIG. 7 .</head><label>7</label><figDesc>FIG. 7. The isotopic ratio B 'l/B lo vs. distance across the diffusion zone in one of the diffusion couple experiments (HPGBDZ). The isotopic ratio shows no fractionation along the diffusion zone (the interface is approximately at the middle of the distance scale). The larger error bars to the right are a consequence of higher analytical uncertainties with decreasing B contents.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table I Chemical analysts of sting glasses S,Oz 77.90 75.18 71.07(4) 79.10 78.68 78.22 ALO, 11.89 11.79 11.60) 12.07 12.33 12.77 N%O 4.53 4.66 4.2X3) 4.60 4.88 4.66 R,O 4.17 3.92 3.95X7) 4.23 4.10 4.35 B,O, 4.35 8.92(9) Total 98.48 99.90 99.78 100.00 lOO.00 loo.0 The analyses are by melhods dcxribzd in Pichavant (1987) performed at CRPGCNRS Nancy. The numbers in the second row in each column are dx proportion of oxides other than B,O, nonmrlil*d to 100%. The numbxs in parcnrheses describe the spread in data due to analytical uncenainties for each component.</head><label>I</label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 Summary of run conditions</head><label>2</label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>I R Table 3</head><label>R3</label><figDesc></figDesc><table><row><cell>.un #</cell><cell>Temp</cell><cell>wt%SiOJ</cell><cell>D(cm%)</cell></row><row><cell></cell><cell>("C)</cell><cell>(B,O,+SiO,)</cell><cell></cell></row><row><cell>FGBD-I</cell><cell>1400</cell><cell>0.950</cell><cell>1.78E-10</cell></row><row><cell></cell><cell></cell><cell>0.962</cell><cell>1.47E-10</cell></row><row><cell></cell><cell></cell><cell>0.975</cell><cell>1.33E-10</cell></row><row><cell cols="2">IPGBD-2 1300</cell><cell>0.904</cell><cell>1.86E-10</cell></row><row><cell></cell><cell></cell><cell>0.906</cell><cell>1.41E-10</cell></row><row><cell></cell><cell></cell><cell>0.908</cell><cell>1.28E-10</cell></row><row><cell></cell><cell></cell><cell>0.924</cell><cell>1.24E-10</cell></row><row><cell></cell><cell></cell><cell>0.928</cell><cell>1.22E-10</cell></row><row><cell></cell><cell></cell><cell>0.930</cell><cell>9.948-l 1</cell></row><row><cell></cell><cell></cell><cell>0.933</cell><cell>9.16E-11</cell></row><row><cell></cell><cell></cell><cell>0.945</cell><cell>7.39&amp;11</cell></row><row><cell></cell><cell></cell><cell>0.961</cell><cell>6.59B11</cell></row><row><cell></cell><cell></cell><cell>0.963</cell><cell>6.02E-11</cell></row><row><cell></cell><cell></cell><cell>0.968</cell><cell>3.478-11</cell></row><row><cell></cell><cell></cell><cell>0.975</cell><cell>2.91E-11</cell></row><row><cell></cell><cell></cell><cell>0.980</cell><cell>3.20E-11</cell></row><row><cell></cell><cell></cell><cell>0.988</cell><cell>2.528-11</cell></row><row><cell></cell><cell></cell><cell>0.991</cell><cell>2.348-l 1</cell></row><row><cell></cell><cell></cell><cell>0.997</cell><cell>2.888-l 1</cell></row><row><cell cols="2">SPGBD-3 1400</cell><cell>0.948</cell><cell>1.43E-10</cell></row><row><cell></cell><cell></cell><cell>0.951</cell><cell>1.43E-10</cell></row><row><cell></cell><cell></cell><cell>0.956</cell><cell>1.42E-10</cell></row><row><cell></cell><cell></cell><cell>0.961</cell><cell>1.33E-10</cell></row><row><cell></cell><cell></cell><cell>0.%7</cell><cell>l.l6E-10</cell></row><row><cell></cell><cell></cell><cell>0.975</cell><cell>9.888-l 1</cell></row><row><cell></cell><cell></cell><cell>0.983</cell><cell>8.838-11</cell></row><row><cell></cell><cell></cell><cell>0.989</cell><cell>8.21E-11</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 4 Activation energy and pre-exponential factors as functions of composition in haplogranite -B,O, melts Composition Activation energy. Pre-exponential factor Regnssion fSiOJ(B,O,+SiOJ]</head><label>4</label><figDesc></figDesc><table><row><cell></cell><cell>Q (cd)</cell><cell>D,, cm&amp;c</cell><cell>coefficient, ?</cell></row><row><cell>0.97</cell><cell>68,958+4.87</cell><cell>0.1368(-.q, ,)</cell><cell>0.99</cell></row><row><cell>0.99</cell><cell>76,383+5.2</cell><cell>0.8943(+".,,,)</cell><cell>0.99</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Ackno~ledg~e~is-Francois</head><p>Holtz is thanked for arranging for chemical analyses at Nancy. Discussions with <rs type="person">Charles Ross</rs> fl regarding the statistical propagation of errors were helpful. <rs type="person">Hubert Schulze</rs> is thanked for preparing the polished glass disks. Comments from <rs type="person">J. Ganguly</rs> helped clarification of some technical details. Official reviews from <rs type="person">Don Baker</rs> and an anonymous reviewer helped improve the clarity of presentation significantly. Part of this work was supported by <rs type="funder">CNRS-INSU</rs> grant <rs type="grantNumber">DBT no. 9 1 5.39</rs>. This is contribution <rs type="institution">CNRS-INSU</rs> no. <rs type="grantNumber">5 18</rs> and <rs type="grantNumber">CNRS-CRPG no. 957</rs>.</p><p>Editorial handling: <rs type="person">P. C. Hess</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_bBWDFZ9">
+					<idno type="grant-number">DBT no. 9 1 5.39</idno>
+				</org>
+				<org type="funding" xml:id="_XmtHhfr">
+					<idno type="grant-number">5 18</idno>
+				</org>
+				<org type="funding" xml:id="_7Z5Bf93">
+					<idno type="grant-number">CNRS-CRPG no. 957</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Chemical interdiffusion of dacite and rhyolite: Anhydrous measurements at 1 atm. and 10 kbar, application of transition state theory, and dit%ion in zoned magma chambers</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Minera!. Pefroi</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="407" to="423" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">I99 1) Interdiffusion of hydrous dacitic and rhyolitic melts and the efficacy of rhyolite contamination of dacitic enclaves</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mi~erai. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="462" to="473" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Tracer diffusion of network formers and multicomponent diffusion in dacitic and rhyolitic melts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="17" to="63" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">On the morphological stability of growing crystals</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cahn</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">ln Crystal Growth (ed. H. S. PEISER</orgName>
+			</affiliation>
+		</author>
+		<imprint>
+			<date type="published" when="1967">1967</date>
+			<pubPlace>Pergamon</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">1) Boron isotope variations of tourmalines from the Himalayan leucogranites, their possible source rocks, and their alteration products in the Bay of Bengal</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chaussidon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Palmer</forename><forename type="middle">M</forename><surname>France Lanord C</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eos</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">524</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">The effect of boron on the granite solidus</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Chorlton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">F</forename><surname>Martin R</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1978">1978</date>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="239" to="244" />
+			<pubPlace>Canadian Mineral</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Granitic magma transport by fracture propagation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Clemens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tectonophysics</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="page" from="339" to="360" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Model for multicomponent diffusion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Glasses</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="55" to="56" />
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Age and cooling history of the Manaslu granite: Implication for Himalayan tectonics</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cope~and</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Harrix~n</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Fort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. VolcanoI. Geotherm. Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="33" to="50" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<title level="m">The Mathematics of ~r~~~o~, 2nd</title>
+		<imprint>
+			<publisher>Oxford Univ. Press</publisher>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Self-diffusion of magnesium in garnet at 7SO&apos;C to 900°C</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">T C</forename><surname>Cygan R</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. J. Sci</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="328" to="350" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Diffusion mobility and their interrelation through free energy in binary metallic systems</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Darken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Amer. Inst. Mineral. Metals</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="184" to="194" />
+			<date type="published" when="1948">1948</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Isotopic study of the Manaslu granite (Himalaya, Nepal): Inferences on the age and source of Himalayan leucogranites</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Deniel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vidal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Le Fort P</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="78" to="92" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effects of structural relaxation on cationic tracer diffusion in silicate melts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="209" to="211" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<author>
+			<persName><forename type="middle">B</forename><surname>Dingwell D</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kn~che R.</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">L</forename><surname>Webb S</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Pichavant M</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The effect of Bz03 on the viscosity of haplogranitic melts</title>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="457" to="503" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Experimental dete~ination of cation di~sivities in alumin~ili~te garnets 1. Experimental methods and interdiffusion data</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Elphjck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ganguly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">P</forename><surname>Loomis T</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="36" to="44" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Crustal melting and granite genesis during the Him~ayan collision orogenesis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>France-Lanord</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Fort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Roy. Sec. Ed~nbu~h</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="183" to="195" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Convolution effect in the determination of compositional profiles and diffusion coefficients by microprobe step scans</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ganguly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chakraborty</forename><forename type="middle">B S</forename><surname>Bha~~acharya R</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="90" to="909" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Thermochemistry and structure of glasses along the join NaAiSi30s-NaB&amp;Or. Geochim. Cos-m~him</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Geisinger</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Oestrike R</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Navrotsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">J</forename><surname>Kirkpatrick R</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="2405" to="2424" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Chemical mass transfer in magmatic processes III. Crystal growth, chemical diffusion, and thermal diffusion in multicomponent silicate melts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ghiorso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol. %</title>
+		<imprint>
+			<biblScope unit="page" from="29" to="313" />
+		</imprint>
+	</monogr>
+	<note>I987</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">The Collected of Works ofJ</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Gibbs</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1928">1928</date>
+			<publisher>Yale Univ. Press</publisher>
+			<biblScope unit="volume">I</biblScope>
+			<pubPlace>Willard Gibbs</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<author>
+			<persName><surname>Glasstone S</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Laidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eyrinc~</forename><forename type="middle">J H</forename><surname>Er K</surname></persName>
+		</author>
+		<title level="m">The Theory o!Rate Processes</title>
+		<imprint>
+			<publisher>M~raw-Hill</publisher>
+			<date type="published" when="1941">1941</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Kinetics of zircon dissolution and zirconium diffusion in granitic melts of variable water content</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">B</forename><surname>Watson E</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="66" to="72" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The behavior of apatite during crustal anatexis: ~uiiib~um and kinetic considerations</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">B</forename><surname>Watson E</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="467" to="1477" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Effects of F, B203 and P,Os on the solubility of water in haplogranite melts compared to natural silicate melts</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Hartley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Holtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Behrens H</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">818</biblScope>
+			<date type="published" when="1949">1949. 1993</date>
+		</imprint>
+	</monogr>
+	<note>Trans. Faraday Sot.. in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Fundamental studies on the ion-exchange separation of boron isotopes</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kak~hana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kotaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shohei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nomura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Okamotq</forename><forename type="middle">N</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull Chem. Sot. Japan</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="158" to="163" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Crystal growth from the melt: A review</title>
+		<author>
+			<persName><forename type="middle">J</forename><surname>Kirkpatrick R</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineraf</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">3975</biblScope>
+			<biblScope unit="page" from="798" to="798" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">A partial molar volume for 824 in haplogranitic melts</title>
+		<author>
+			<persName><surname>Knoche R</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Canadian Minerul</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="56" to="569" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Krceer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">TOP ~her~~str_v ~~lrnpe~~~t Crystals. 2nd ed. North-Holland</title>
+		<imprint>
+			<date type="published" when="1974">1974</date>
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Multicomponent exchange and diffusion in silicates</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="455" to="469" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Toward a master equation in crystal growth</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. J. Sci</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="1264" to="1288" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Decoupling of chemical and isotopic exchange during magma mixing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Lecher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">344</biblScope>
+			<biblScope unit="page" from="235" to="237" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Magmatic-hydrothermal transition in the Tanco rare-element pegmatite: Evidence from fluid inclusions and ph~~uilib~um experiments Amer. Mineral</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>London</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986">1986</date>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="376" to="395" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>London</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Formation of tourmalinaricb gem pockets in miarolitic pegmatites</title>
+		<imprint>
+			<date type="published" when="1986">1986</date>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="396" to="405" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Internal ditIerentiation of rare-element peg-matit= Effects of boron, pbosphorus, and fluorine</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Lonwn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ge~him. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="403" to="420" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Meltvapor solubilities and elemental partitioning in peraluminous ~nit~~atite systems Ex~~rn~n~ results with Macusani glass at 200 MPa</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>L~ncon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Morgan</forename><forename type="middle">L G B</forename><surname>Hervig R</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Vi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="360" to="373" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>London</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Vi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">L</forename><surname>Herv~g R</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note>undersaturated experiments with Macusani glafs + Hz0 at 200</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">and the internal diffe~ntiation of granitic pegmatites. Contrib</title>
+		<author>
+			<persName><surname>Mpa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">17</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The role of fluorine and boron in the generation of granitic melts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A C</forename><surname>Manning</surname></persName>
+		</author>
+		<author>
+			<persName><surname>P~chavant M</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Migmatites, Melting and ~etam~rpbism</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Atherton</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Gribble</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Shiva Publishing</publisher>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">On the relation between the dill%on-coefficients and concentrations of solid metals. (The nickel-copper system)</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Matano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Japan. J. Phys. &amp;</title>
+		<imprint>
+			<biblScope unit="page" from="199" to="212" />
+			<date type="published" when="1933">1933</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Theories and problems of liquid diffusion</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Onsager</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. N.Y. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="241" to="265" />
+			<date type="published" when="1945">1945</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Experimental destination of fractionation of r&apos;B/&apos;% between tourmaline and aqueous vapor: A temperature and pressure dependent isotopic system</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Palmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lonwn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">A</forename><surname>Babb H</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="123" to="129" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">An experimental study of the effect of boron on a water saturated baplogranite at 1 kbar vapor pressure</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pichavant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol. X</title>
+		<imprint>
+			<biblScope unit="page" from="430" to="439" />
+			<date type="published" when="1981">198 1</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Melt fluid interaction deduced from studies of silicate-B,O,-Hz0 systems at 1 kbar</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pichavant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull Mineral</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="201" to="211" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Effects of B and Hz0 on liquidus phase relations in the haplo8ranite system at 1 kbar</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pichavant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1056" to="1070" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Petrogenesis of tourmaline granites and topaz granites: The contribution of experimental data</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>P~chavant</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Manning D</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Earth Planet. Interiors</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="31" to="50" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Geocbemical behavior of boron during the metamorphism of carbonate rocks</title>
+		<author>
+			<persName><forename type="middle">C</forename><surname>Reynolds R</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1101" to="1114" />
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Badrinath-Gangotri plutons (Garhwal, India): Petrolo&amp;al and geochemical evidence for fractionation processes in a high Himalayan leucogranite</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>~caillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>~n~-~no~</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lefort</forename><forename type="middle">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Volcan. Geotherm. Res</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="163" to="188" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Obsidian-H,0 viscosities at 1000 and 2000 bats in the temperature range 700&quot; to 900°C</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">&amp; Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="6337" to="6343" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Viscosities of magmatic liquids: An empirical method of prediction</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. J. Sci</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="870" to="893" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Diffusivity of oxygen in jadeite and diopside melts at high pressures</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kushiro I</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1295" to="1303" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Local equilibrium in me&amp;somatic processes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Researches in Ge~hemistry</title>
+		<imprint>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<date type="published" when="1959">1959</date>
+			<biblScope unit="page" from="427" to="457" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Grandidierite from aluminous metasedimentary xenoliths within acid volcanics, a first record in Italy</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Van Bergen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mineral. Mag</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="65" to="658" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Preliminary comparison of chemical and self diffusion for K and Ca in andesite and rhyolite melts</title>
+		<author>
+			<persName><forename type="first">Laan</forename><forename type="middle">S</forename><surname>Van Der</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wasserburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Wyllie</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Zhang Y</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eos</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">652</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Basalt contamination by continental crust: Some experiments and models</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="73" to="87" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Diffusive crystal dissolution</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

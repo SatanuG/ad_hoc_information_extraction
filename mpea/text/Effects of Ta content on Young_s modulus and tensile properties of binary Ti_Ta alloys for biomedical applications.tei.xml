@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effects of Ta content on Young&apos;s modulus and tensile properties of binary Ti-Ta alloys for biomedical applications</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Ying</forename><forename type="middle">Long</forename><surname>Zhou</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Production Systems Engineering</orgName>
+								<orgName type="institution">Toyohashi University of Technology</orgName>
+								<address>
+									<addrLine>1-1 Hibarigaoku-cho</addrLine>
+									<postCode>441-8580</postCode>
+									<settlement>Toyohashi</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Mitsuo</forename><surname>Niinomi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Production Systems Engineering</orgName>
+								<orgName type="institution">Toyohashi University of Technology</orgName>
+								<address>
+									<addrLine>1-1 Hibarigaoku-cho</addrLine>
+									<postCode>441-8580</postCode>
+									<settlement>Toyohashi</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Toshikazu</forename><surname>Akahori</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Production Systems Engineering</orgName>
+								<orgName type="institution">Toyohashi University of Technology</orgName>
+								<address>
+									<addrLine>1-1 Hibarigaoku-cho</addrLine>
+									<postCode>441-8580</postCode>
+									<settlement>Toyohashi</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effects of Ta content on Young&apos;s modulus and tensile properties of binary Ti-Ta alloys for biomedical applications</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">51084FD3AD1395D873754240209CDA3D</idno>
+					<idno type="DOI">10.1016/j.msea.2003.12.011</idno>
+					<note type="submission">Received 29 July 2003; received in revised form 5 December 2003</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Young&apos;s modulus</term>
+					<term>Microstructure</term>
+					<term>Ti-Ta alloy</term>
+					<term>Solution treatment</term>
+					<term>Tensile property</term>
+					<term>Biomedical implant material</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The effects of Ta content on the microstructures, dynamic Young's modulus and tensile properties of the quenched Ti-Ta alloys were investigated for biomedical applications. The microstructures were examined using a scanning electron microscopy (SEM) and an X-ray diffraction (XRD) analysis. The results indicate that the microstructures of the quenched binary Ti-Ta alloys are sensitive to Ta content. The Ti-Ta alloys exhibit lamellar HCP martensite (␣ ) structure at a Ta content below 20%, needle-like orthorhombic martensite (␣ ) structure at a Ta content between 30-50%, metastable ␤ + ␣ structure at a Ta content of 60%, and single metastable structure at a Ta content above 60%. The dynamic Young's modulus and tensile properties of the binary Ti-Ta alloys depend strongly on Ta content. Ti-30% Ta and 70% Ta alloys have much lower modulus and a good combination of high strength and low modulus among all the studied Ti-Ta alloys. They have the great potential to become new candidates for biomedical applications.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The demand for biomedical implant materials is greatly increasing nowadays because of the rapid growth of population ratio of the aged people in the representative countries <ref type="bibr" target="#b0">[1]</ref>. The conventional implant materials such as stainless steels, Co-Cr alloys, Ti and its alloys have been widely used in the medical field for many years. However, these materials can potentially cause some health problems because of the release of toxic metal ions <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>, and lead to the resorption of adjacent bone tissues due to the great difference in modulus between the implant device and adjacent bone tissues <ref type="bibr" target="#b3">[4]</ref>.</p><p>The ideal biomedical implant materials should possess an excellent biocompatibility, good corrosion resistance, high strength and low elastic modulus (near to that of a human bone to the greatest extent). In order to achieve those goals, considerable efforts have been devoted by material scientists and engineers. The excellent biocompatibility and superior corrosion resistance of pure Ti and pure Ta have been extensively evaluated and recognized by many medical researchers <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>. As early as 1940, Burke <ref type="bibr" target="#b4">[5]</ref> successfully introduced pure Ta for surgical implants such as sutures, bone screws and plates. And since 1950s, pure Ti as surgical implant materials and medical instrumentation has been put into medical applications in the United States and England <ref type="bibr" target="#b10">[11]</ref>. However, the poor mechanical properties of pure Ti and pure Ta have restricted their extensive applications. The metallurgical practices have proven that alloying can improve the mechanical properties over either of its constituent pure metals. On the basis of first principal calculation using the discrete variation cluster method (DVM), Song et al. <ref type="bibr" target="#b11">[12]</ref> have calculated the binding energies between titanium and various alloying elements, from which the strength and modulus are then estimated. They suggested that Ta has the potential to enhance the strength, and to reduce the modulus of Ti alloys at the same time. On the other hand, it has been proven that the corrosion capacity of the Ti-40% Ta and 50% Ta alloys in the simulated biological solution surpasses that of Ti-6Al-4V alloy, which is used as a standard biomaterial <ref type="bibr" target="#b12">[13]</ref>. And it has been found that there is no difference in biocompatibility between Ti-5% Ta alloy and pure Ti <ref type="bibr" target="#b13">[14]</ref>. Therefore, Ti-Ta alloys are expected to be promising biomaterials due to their superior comprehensive properties. Up to now, little experimental investigation has been attempted although it is of significance to research on the effects of Ta content on the modulus and strength of binary Ti-Ta alloys.</p><p>The purpose of this study is to take Ti-Ta alloys as a subject with the emphasis on the research into effects of Ta content on the dynamic Young's modulus and tensile properties of binary Ti-Ta alloys, attempting to find a binary Ti-Ta alloy that gives a good balance of low modulus and high strength for biomedical applications, and also to provide useful data for developing new Ti alloys.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental procedure</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Material preparation</head><p>The binary Ti-Ta alloys with Ta contents varied from 10 to 80 mass% (hereafter, 'mass%' will be referred to as '%') were designed and prepared from high purity sponge Ti (99.5%) and sheet Ta (99.95%) in the appropriate proportions. Before melting, the constituents were cleaned with methanol to remove possible surface contaminants, and a definite amount of oxygen getter was melted in the furnace, which had been evacuated and flushed five times with purified argon. Melting was carried out in a high purity argon atmosphere by a tri-arc furnace with water-cooled copper hearth. Owing to the big difference in the melting point (Ti: 1953 K, Ta: 3273 K) and density (Ti: 4.51 g/cm 3 , Ta: 16.6 g/cm 3 ) between the two pure metals, and owing to the relatively large two-phase (liquid and solid) field in the binary Ti-Ta phase diagram <ref type="bibr" target="#b14">[15]</ref>, the designed alloys were melted more than ten times, and each time was held in the molted state for 3-4 min. At the same time, the oval ingots were flipped between each melting in order to further promote the chemical homogeneities of the designed alloys.</p><p>All ingots were homogenized in vacuum at 1273 K for 21.6 ks to eliminate the as-cast microscopic segregation, and then rolled into the plates of 3 mm thick by a total reduction of 80% in thickness. The rolled plates were subjected to a solution treatment at 1223 K, which is above the ␤ transus temperature, for 3.6 ks followed by a rapid quenching in ice water (STQ).</p><p>The compositions of the designed alloys were checked by comparing the weights of the initial materials with those of the ingots. The weight loss rates were found to be between 0.3% and 0.65%. The average densities of the designed alloys (Table <ref type="table" target="#tab_0">1</ref>) were measured by the measurement device for dynamic Young's modulus, and the differences between the calculated and measured densities were found to be 0.29-0.68%. These comparisons indicate that the actual composition of each alloy is very close to its nominal composition. The chemical analysis of some typical Ti-Ta alloys (Table <ref type="table" target="#tab_1">2</ref>) further confirms this inference. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Material characterization</head><p>The microstructures of the studied alloys were investigated by an SEM. The samples for the microstructure characterization were ground, polished and etched in a chemical solution. This solution is composed of 5 vol.% HF, 10 vol.% HNO 3 and 85 vol.% H 2 O for the alloys with Ta content ≤40% and 15 vol.% HF +10 vol.% HNO 3 +75 vol.% H 2 O for the other alloys. The phase identification was performed on bulk samples using an XRD analysis operated at 40 kV and 30 mA at room temperature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Young's modulus measurement</head><p>Dynamic method to measure elastic properties is commonly employed because of the non-destructive nature of the measurement, simple operating procedures and geometrically simple specimens. This method is based on the measurement of the fundamental resonant frequencies of the material during vibration to determine its elastic properties. The dynamic modulus measured by this method is more accurate than the static modulus measured by a tensile test <ref type="bibr" target="#b15">[16]</ref>. Hence, the dynamic method was used to determine the moduli of Ti-Ta alloys in this study.</p><p>Rectangular bar specimens with a cross-section of 10 mm × 2 mm and a length of 55 mm, the longitudinal directions of which are parallel to rolling direction, were machined from the solution treated plates. They were ground, polished, and then used to determine the dynamic Young's modulus at room temperature by the resonance vibration method. During the measurement, the specimen was supported horizontally at its nodal points by two pairs of fine nickel wires. The sample was driven electrostatically in flexural vibration. The dynamic Young's modulus, E, was calculated according to the following equation <ref type="bibr" target="#b16">[17]</ref>. </p><formula xml:id="formula_0">E = 0.9694mL 3 f 2 r wd 3 (1)</formula><p>where m, L, w and d are the mass, the length, the width and the thickness of specimens, respectively; and f r is the intrinsic resonance frequency.</p><p>For each designed Ti-Ta alloy, six pieces of specimens were used for the measurement of the dynamic Young's modulus in order to minimize the experimental errors caused by the measurement and possible chemical inhomogeneity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Tensile test</head><p>Tensile specimens have a thickness of 2 mm, a width of 3 mm and a gage length of 12 mm with their longitudinal directions parallel to rolling direction. They were ground and polished after machining from the solution treated plates. For each designed Ti-Ta alloy, 2-3 pieces of specimens were prepared. The strain gage was attached at the gage section of each specimen to measure the strain change during tensile test. The uniaxial tensile tests were conducted at a crosshead speed of 8.33 × 10 -6 m/s at room temperature in air using an Instron type machine. The ultimate tensile strength, yield strength at 0.2% offset and elongation at fracture were correspondingly determined.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Material characterization 3.1.1. Phase identification</head><p>XRD analysis results obtained in this study are shown in Fig. <ref type="figure" target="#fig_0">1</ref>. It can be seen that the crystal structures of quenched binary Ti-Ta alloys are sensitive to Ta content. The quenched Ti-Ta alloys exhibit hexagonal (HCP) structure (␣ ) at Ta content below 20%, and orthorhombic structure (␣ ) at Ta content from 30 to 50%. When the Ta content increases to 60%, a large amount of metastable BCC structure (␤) and a small amount of ␣ structures are detected. When Ta content exceeds 60%, the alloys comprise entirely retained ␤ phase.</p><p>It is well accepted that four nonequilibrium phases, namely, ␣ , ␣ , and metastable ␤ phase exist in Ti alloys <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref>. The phase with HCP structure can be formed either quenching from the ␤ filed or during aging of the quenched Ti alloys. The former is designated as ath phase, and the latter is designated iso phase. The supersaturated solid solution phases ␣ and ␣ are formed by a rapid quenching from the ␤ field, and are referred to as martensites <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref>. Their formation depends on composition and quenching rate from the ␤ field. The martensite start temperature (M s ) and finish temperature (M f ) are composition-dependent, and decrease with increasing solute concentration <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>. When the M f drops below room temperature, the original ␤ phase is partly transformed, and when the M s falls below room temperature, the martensite transformation is completely suppressed and the ␤ phase is entirely retained <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>. Fedotov et al. <ref type="bibr" target="#b17">[18]</ref> reported that, in Ti-Ta system, the quenched alloys have the hexagonal (␣ ) martensitic structure with Ta content up to 26%; the orthorhombic (␣ ) martensite with Ta content in the range of 26-52%; the ␣ + (␤ + ath ) from 52 to 65% Ta; and the single metastable BCC ␤ structure when Ta content is larger than 65%. However, Bywater et al. <ref type="bibr" target="#b18">[19]</ref> found the martensitic phase, i.e. HCP (␣ ) with a Ta content up to 22%, and the orthorhombic (␣ ) with 23-53% Ta. In spite of the slight discrepancy in the reported compositional boundary between ␣ and ␣ , the present results are within the common range of agreement between <ref type="bibr" target="#b17">[18]</ref> and <ref type="bibr" target="#b18">[19]</ref>, indicating the correctness of the present results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2.">Microstructural characteristic</head><p>As identified by the XRD analysis, three types of structures: ␣ , ␣ and ␤ phases exist in the studied Ti-Ta alloys. The microstructures of some typical Ti-Ta alloys are shown in Fig. <ref type="figure" target="#fig_1">2</ref>. The microstructural morphologies corresponding to various phases in the Ti-Ta alloys change with increasing Ta content, as summarized in Table <ref type="table" target="#tab_2">3</ref>. Combining the XRD results, it can be seen from Fig. <ref type="figure" target="#fig_1">2</ref>(a) and (b) that the martensite ␣ formed in Ti-10% Ta and 20% Ta alloys shows lamellar structure. Parallel but coarse arrays of plates, which are subdivided into many fine platelets, exist in Ti-10% Ta alloy (Fig. <ref type="figure" target="#fig_1">2(a)</ref>), whereas many colonies exist  ␣ with lenticular shape in Ti-40% Ta alloy, which is irregularly arranged in different size and featured with obvious surface relief. When Ta content is increased to 60%, ␤ phase and ␣ phase coexist and exhibit equiaxed structure, and the very fine ␣ structure is disorderly distributed within the grains (Fig. <ref type="figure" target="#fig_1">2(d)</ref>). As the XRD results indicate, only ␤ phase appears and no martensite exists when Ta content is above 60%. It can be seen from Fig. <ref type="figure" target="#fig_1">2</ref>(e) and (f) that the recrystallization in the Ti-70% Ta and 80% Ta alloys have not fully finished during the solution treatment. This could be related to the increased recrystallization temperatures of the Ti-Ta alloys with the addition of alloying element Ta. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Effect of Ta content on Young's modulus of binary Ti-Ta alloys</head><p>The measured dynamic Young's modulus of quenched binary Ti-Ta alloys is shown as a function of Ta content (Fig. <ref type="figure" target="#fig_2">3</ref>). It can be seen that the dynamic Young's modulus first decreases nearly linearly with increasing Ta content, and reaches a valley value of 69 GPa at 30% Ta. Then, it gradually increases and gets to 88 GPa at 50% Ta, and followed by a gradual drop and reaches another valley value of 67 GPa at 70% Ta. Afterwards, a further increase in Ta content leads to an increase in Young's modulus approaching to that of pure Ta.</p><p>There are different reports on Young's moduli of the various phases in Ti alloys. It was reported that the phase has the highest Young's modulus, the ␣ phase has a lower modulus than the ␣ phase, and the ␤ phase has the lowest <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28]</ref>. However, Ho et al. <ref type="bibr" target="#b28">[29]</ref> found that the martensite ␣ phase with 7.5% Mo has the lowest modulus among ␣ , ␣ and ␤ phases in Ti-Mo system whereas Hao et al. <ref type="bibr" target="#b25">[26]</ref> reported that the ␣ and ␤ phases have nearly the same Young's modulus in the Ti-29Nb-l3Ta-4.6Zr alloy. Hao's report is consistent with the present study. The discrepancy among the reported as well as the present measured Young's modulus could be caused by the intrinsic effect of different alloying elements on modulus <ref type="bibr" target="#b11">[12]</ref>.</p><p>It is well known that Young's modulus, one of the intrinsic natures of materials, is determined by the bonding force among atoms. This bonding force is not only related to the crystal structure but also to the distances among atoms, and it can be affected by alloying addition, heat treatment and plastic deformation <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref>. Since the same heat treatment and plastic deformation were carried out in this study, and Young's modulus is not sensitive to grain size and morphology of materials <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b29">30]</ref>, for the present alloys with the given phases, the elastic modulus mainly depends on its chemical composition, i.e. Ta content. The degree of supersaturation of the alloy increases with the addition of Ta content when the crystal structure is kept unchanged. This supersaturation degree inevitably leads to the variation of the lattice parameters and unit-cell volume of its crystal structure. Accordingly, the resulting variations in distances among the atoms alter the modulus of the alloys. The lattice parameters of the martensite ␣ , ␣ and metastable ␤ phases in the present STQ Ti-Ta alloys are determined by the analysis of XRD patterns. The unit-cell volumes of those phases are then calculated according to their lattice parameters, and are plotted with the variation of Ta content as shown in Fig. <ref type="figure" target="#fig_3">4(a-c</ref>), respectively. It can be seen from Fig. <ref type="figure" target="#fig_3">4</ref>(a) that the unit-cell volume of ␣ phase expands linearly with increasing Ta content. In contrast, those of ␣ and metastable ␤ phases contract approximately linearly with addition of Ta content. Since the smaller the unit-cell volume, the stronger the binding force among the alloying atoms and the matrix atoms <ref type="bibr" target="#b11">[12]</ref>. Therefore, the increased unit-cell volume with Ta content explains the decreased Young's modulus of martensite ␣ with increasing Ta content, and the decreased unit-cell volume with Ta content accounts for the increased Young's modulus of martensite ␣ and metastable ␤ phases with increasing Ta content.</p><p>The Young's modulus of a multiphase alloy is mainly determined by the modulus of its individual phase and by their volume fractions <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26,</ref><ref type="bibr" target="#b27">28]</ref>. For a two-phase alloy, the Young's modulus can be predicted as</p><formula xml:id="formula_1">E = V 1 E 1 + (1 -V 1 )E 2<label>(2)</label></formula><p>where E, E 1 and E 2 are the Young's moduli of the two-phase alloy, the phases 1 and 2, respectively, and V 1 is the volume fraction of the phase 1. In this study, Ti-60% Ta alloy is composed of ␣ and metastable ␤ phases. Its Young's modulus can be estimated as follows. The volume fractions of the martensite ␣ and metastable ␤ phases are calculated to be 36.6% and 63.4%, respectively, by the XRD patterns as described by Lopata and Kula <ref type="bibr" target="#b32">[33]</ref>. The Ta contents in the ␣ and mestable ␤ phases in Ti-60% Ta alloy were detected to be 62.6% and 63.5%, respectively, by the energy dispersive analysis through X-ray spectroscopy (EDAX) analyzer. The Young's moduli of ␣ phase with 62.6% Ta and mestable ␤ phase with 63.5% Ta can be obtained by the extrapolation to be 106 and 50 GPa, respectively, assuming the linear relationship between the Young's modulus and corresponding unit-cell volume. Thus, the Young's modulus of the Ti-60% Ta alloy is predicted to have a value of 71 GPa. Although this value is slightly lower than the measured Young's modulus value (82 GPa), it does reasonably suggest that the Young's modulus of the two-phase Ti-Ta alloy approximately satisfies the mixture law.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Tensile properties</head><p>The measured tensile strength, yield strength and elongation at fracture are summarized in Fig. <ref type="figure" target="#fig_4">5</ref>. Both the tensile strength and yield strength of all the studied Ti-Ta alloys are much higher than those of pure titanium, and varies between 510 and 690 MPa for the former, and 400 and 610 MPa for the latter. As an example, it can be seen that the tensile strength is 510 MPa at 10% Ta, and increases with increasing Ta content, then decreases after Ta content exceeds 30% and reaches a valley value of 530 MPa at 50% Ta. Afterwards, it increases again and reaches the peak value of 690 MPa at 60% Ta. Continuing increasing Ta content slightly decreases the strength of the alloys.</p><p>The variation in the strength of the Ti-Ta alloys with Ta content is due to the change in the microstructures caused by Ta content. Within the range of Ta content from 10% to 20%, a single ␣ phase exists in the alloys. As mentioned above, the degree of supersaturation of martensite ␣ increases with increasing Ta content. Accordingly, the effect of solid solution strengthening in the single ␣ phase is also improved. Additionally, the finer plate microstructure of ␣ phase in Ti-20% Ta alloy over Ti-10% Ta alloy also contributes to the increased strength of Ti-20% Ta alloy.</p><p>Within the range of Ta content from 30 to 50%, a single ␣ phase appears in the alloys. The strength of single ␣ phase should have increased with increasing Ta content if the same analysis as for single ␣ phase were made. However, the strength keeps unchanged or even slightly decreases with Ta content. The reason for this decrease is unclear, and hence further investigation is needed.</p><p>When Ta content exceeds 60%, single ␤ phase exists. The improved solution effect with Ta content and finer ␤ grains in Ti-80% Ta alloy than in Ti-70% Ta alloy are assumed to be the reasons why the former has a higher strength than the latter. For the Ti-60% Ta alloy, the highest strength among all the studied alloys is observed. It is proposed that the combination of the solid solution strengthening and the precipitation strengthening should be responsible for the highest strength of this alloy.</p><p>On the contrary to the change trend of strength, the elongation at fracture of the studied alloys initially decreases with increasing Ta content, then increases with the appearance of martensite ␣ phase, and reaches the highest value at 50% Ta. Finally, it drops again when ␤ phase appears. This phenomenon is consistent with the ordinarily observed strength-ductility relationship, i.e. when the yield strength increases, the ductility accordingly decreases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>As stated in the introduction, the ideal biomedical implant materials are required to have high strength and low modulus (near to that of a human bone to the greatest extent). In orthopedic applications, a useful parameter is the elastic admissible strain, defined as the strength-to-modulus ratio. The higher the admissible strain, the more desirable the materials for such applications <ref type="bibr" target="#b11">[12]</ref>. A brief summary of mechanical properties of some implant materials together with some typical Ti-Ta alloys in the present study is provided in Table <ref type="table" target="#tab_3">4</ref>. It can be seen from Table <ref type="table" target="#tab_3">4</ref> that Ti-30% Ta and 70% Ta alloys have much lower modulus (almost one half of the modulus value of Ti-6Al-4V alloy) and obviously higher strength-to-modulus ratios than the existing implant materials such as the commercial pure Ti, ASTM F75, V3 16 and Ti-6Al-4V alloy. Thus, these two Ti-Ta alloys are thought to have the great potential to become new candidates for biomedical applications. However, further research is needed and it is quite possible to further improve these ratios. As we know; Young's modulus is not sensitive to grain size <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b29">30]</ref>, but the tensile strength is <ref type="bibr" target="#b35">[36,</ref><ref type="bibr" target="#b36">37]</ref>. Practically, the tensile strength can be further increased by grain refinement without varying Young's modulus. In this study, the cold rolling process with intermediate heat treatments was employed to destroy the original cast structure of the small lab-scale ingots. Therefore, the studied alloys have a relatively large grain size. For example, the average grain sizes of the STQ samples in the Ti-50% Ta and 60% Ta alloys, measured by the line-intercept method on the optical metallographs, are found to be between 60 and 80 m. If the breakdown forging process in the ␤ field is performed on the ingots, much finer grains can be obtained because the breakdown forging process in the ␤ field with dynamic recrystallization can destroy the coarse cast structure of the ingots from various directions. This is why Hao et al. <ref type="bibr" target="#b25">[26]</ref> reported the STQ specimens of the forged Ti-29Nb-l3Ta-4.6Zr alloy have a fine grain size of 25-55 m.</p><p>On the other hand, the properties of corrosion resistance and biocompatibility of the alloys are also important for biomedical applications. The biocompatibility of a certain metal or an alloy depends firstly on the corrosion rate and the toxicity of the metal ions <ref type="bibr" target="#b37">[38]</ref>. Ti-Ta alloys are formed by solid solutioning of pure Ti and pure Ta. It has already been demonstrated that the solid solutioning process does not destroy the corrosion-proof mechanism of pure Ti and pure Ta, and does not produce any toxicity <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b13">14]</ref>. On the contrary, the corrosion resistance of Ti-Ta alloys is superior to that of pure Ti, and increases with increasing Ta content <ref type="bibr" target="#b38">[39]</ref>. Although some preliminary experiments have been performed and revealed the superior corrosion resistance and excellent biocompatibility of some Ti-Ta alloys, we are now doing more work to confirm the expected superiorities of these properties in the Ti-Ta alloys.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>(1) Microstructures of binary Ti-Ta alloys are sensitive to Ta content. The quenched alloys exhibit lamellar martensite (␣ ) structure at a Ta content below 20%, needle-like orthorhombic martensite (␣ ) structure at a Ta content from 30 to 50%, metastable ␤ + ␣ structure at a Ta content of 60%, and single metastable ␤ structure at a Ta content above 60%. (2) Ta content has a strong effect on Young's modulus and tensile properties of binary Ti-Ta alloys. Ti-30% Ta alloy with martensite ␣ phase and Ti-70% Ta alloy with metastable phase have much lower modulus, and a good combination of low modulus and high strength among all the studied Ti-Ta alloys under the given solution treatment. They have the great potential to become new candidates for biomedical applications.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. XRD patterns of the Ti-Ta alloys in bulk materials.</figDesc><graphic coords="3,353.58,69.96,142.68,298.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Microstructures of the Ti-Ta alloys by SEM. in Ti-20% Ta alloy, and parallel and much finer plates are located in each colony, as indicated by arrows in Fig. 2(b). The martensite ␣ formed in 30-50% Ta alloys takes the needle-like structure. Fig. 2(c) shows the typical martensite</figDesc><graphic coords="4,103.01,69.96,397.08,481.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Variation of dynamic Young's modulus with content (mass%).</figDesc><graphic coords="5,72.64,69.96,178.56,140.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Variation of unit-cell volumes with Ta content (mass%).</figDesc><graphic coords="5,324.13,69.96,201.60,413.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. of tensile properties with Ta content (mass%).</figDesc><graphic coords="6,62.76,69.96,214.56,150.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Measured average densities of the studied Ti-Ta alloys</figDesc><table><row><cell>Alloy code</cell><cell>Density (g/cm 3 )</cell></row><row><cell>Ti-10% Ta</cell><cell>4.82</cell></row><row><cell>Ti-20% Ta</cell><cell>5.23</cell></row><row><cell>Ti-30% Ta</cell><cell>5.71</cell></row><row><cell>Ti-40% Ta</cell><cell>6.30</cell></row><row><cell>Ti-50% Ta</cell><cell>7.03</cell></row><row><cell>Ti-60% Ta</cell><cell>7.92</cell></row><row><cell>Ti-70% Ta</cell><cell>9.17</cell></row><row><cell>Ti-80% Ta</cell><cell>10.68</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Chemical compositions of some typical Ti-Ta alloys</figDesc><table><row><cell>Alloy code</cell><cell>Ta (%)</cell><cell>O (%)</cell><cell>Ti (%)</cell></row><row><cell>Ti-10% Ta</cell><cell>10.0</cell><cell>0.075</cell><cell>Balance</cell></row><row><cell>Ti-30% Ta</cell><cell>29.6</cell><cell>0.088</cell><cell>Balance</cell></row><row><cell>Ti-50% Ta</cell><cell>49.7</cell><cell>0.071</cell><cell>Balance</cell></row><row><cell>Ti-70% Ta</cell><cell>69.9</cell><cell>0.034</cell><cell>Balance</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Constitutional phases and their morphologies of the Ti-Ta alloys</figDesc><table><row><cell>Ta content (%)</cell><cell>Formed phase</cell><cell>Morphology</cell></row><row><cell>10-20</cell><cell>␣</cell><cell>Lamellar</cell></row><row><cell>30-50</cell><cell>␣</cell><cell>Needle-like</cell></row><row><cell>60</cell><cell>␤ + ␣</cell><cell>Equiaxed ␤ + needle-like ␣</cell></row><row><cell>70-80</cell><cell>␤</cell><cell>Equiaxed ␤ + unrecrystallized</cell></row><row><cell></cell><cell></cell><cell>structure</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Mechanical properties of some implant materials typical Ti-Ta alloys The C.P. Ti means commercial pure Ti, the modulus of which<ref type="bibr" target="#b33">[34]</ref> is static modulus measured by a tensile test.</figDesc><table><row><cell>Alloy code</cell><cell>Elastic modulus (GPa)</cell><cell>Tensile strength (MPa)</cell><cell>Ratio of strength-to-modulus</cell></row><row><cell>C.P. Ti [34]</cell><cell>103</cell><cell>240-550</cell><cell>2.33-5.34</cell></row><row><cell>ASTM F75 [35] (Co-Cr-Mo)</cell><cell>220</cell><cell>655-690</cell><cell>2.98-3.14</cell></row><row><cell>V316 [35] (stainless steel)</cell><cell>379</cell><cell>965</cell><cell>2.55</cell></row><row><cell>Ti-6Al-4V [35]</cell><cell>124</cell><cell>896</cell><cell>7.23</cell></row><row><cell>Ti-6Al-7Nb [34]</cell><cell>114</cell><cell>900-1050</cell><cell>7.89-9.21</cell></row><row><cell>Ti-l3Nb-13Zr (aged) [34]</cell><cell>79-84</cell><cell>973-1037</cell><cell>11.58-13.13</cell></row><row><cell>Ti-30% Ta (this study)</cell><cell>69</cell><cell>587</cell><cell>8.51</cell></row><row><cell>Ti-70% Ta (this study)</cell><cell>67</cell><cell>600</cell><cell>8.96</cell></row><row><cell>Note:</cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The first author acknowledge <rs type="person">Y.L. Hao</rs>, associate <rs type="person">Prof</rs>. of the <rs type="affiliation">Institute of Metal Research, Chinese Academy of Sciences, P.R. China</rs> for his helpful advice during the experiment, and the special gratitude is expressed to <rs type="person">Dr. Li He Qian</rs>, research fellow of <rs type="affiliation">Toyohashi University of Technology</rs> for his useful suggestions and comments during the manuscript modification.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niinomi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. 33A</title>
+		<imprint>
+			<biblScope unit="page">477</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Steinemann</surname></persName>
+		</author>
+		<title level="m">Evaluation of Biomaterials</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="1" to="34" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Pen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Brody</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">208</biblScope>
+			<biblScope unit="page">297</biblScope>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Sumner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Galantle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Orthop. Relat. Res</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="page" from="202" to="212" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Burke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can. Med. Assoc. J</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">125</biblScope>
+			<date type="published" when="1940">1940</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Bothe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Beaton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Davenport</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Surg. Gynecol. Obstet</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">598</biblScope>
+			<date type="published" when="1940">1940</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bone Joint Surg. 33A</title>
+		<imprint>
+			<biblScope unit="page">473</biblScope>
+			<date type="published" when="1951">1951</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Solar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Pollack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Korostoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomed. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">217</biblScope>
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Plenk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schider</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+			<publisher>Pergamon Press</publisher>
+			<biblScope unit="page">355</biblScope>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Matsuno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yokoyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Watari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Uo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawasaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">1253</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="page">134</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">I</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">260</biblScope>
+			<biblScope unit="page">269</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Trillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ortiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dickerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Villa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Stafford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Murr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Sci. Mater. Med</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">283</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Prigent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pellen-Mussi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cathelineau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bonnaure-Lallet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomed. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">200</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Phase Diagram of Binary Titanium Alloys, ASM International</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Murry</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987">1987</date>
+			<pubPlace>Metal Park, OH</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Entwistle</surname></persName>
+		</author>
+		<title level="m">Physical Examination of Metals</title>
+		<editor>
+			<persName><forename type="first">B</forename><surname>Chalmmers</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Quareel</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Edward Arnold, London</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1960">1960</date>
+			<biblScope unit="page" from="487" to="550" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niinomi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kuroda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fukunaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Suzuki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. 34A</title>
+		<imprint>
+			<biblScope unit="page">1007</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Fedotov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Chelidez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu</forename><forename type="middle">K</forename><surname>Kovneristyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Sanadze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Met. Metall</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page">109</biblScope>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Bywater</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Christian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Philos. Mag. A</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">1249</biblScope>
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Bagariatskii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Nosova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Tagunova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tech. Phys</title>
+		<imprint>
+			<biblScope unit="page">1014</biblScope>
+			<date type="published" when="1959">1959</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">The Physical Metallurgy of Titanium Alloys</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Collings</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984">1984</date>
+			<publisher>ASM, Metals Park</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Flower</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R F</forename><surname>West</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">712</biblScope>
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Moffat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Larbalestier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Trans. 19A</title>
+		<imprint>
+			<biblScope unit="page">1677</biblScope>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Dobronmyslov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Elkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scripta</forename><surname>Mater</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page">905</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Welsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page">77</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niinomi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kuroda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Fukunaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Suzuki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. 33A</title>
+		<imprint>
+			<biblScope unit="page">3137</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Ju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Chern Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Oral Rehabil</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">314</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Fan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Metall. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1427</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">F</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Ju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Chern Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">2115</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Cui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Metallography</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heat</forename><surname>Treatments</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Mechanical Industry Press of China</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Dieter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mechanical</forename><surname>Metallurgy</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mcgraw-Hill</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976">1976</date>
+			<pubPlace>Tokyo</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. AIME</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="page">68</biblScope>
+			<date type="published" when="1946">1946</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Lopata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Kula</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. TMS-MME</title>
+		<imprint>
+			<biblScope unit="volume">233</biblScope>
+			<biblScope unit="page">288</biblScope>
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Niinomi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">243</biblScope>
+			<biblScope unit="page">231</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mater</forename><surname>Eng</surname></persName>
+		</author>
+		<author>
+			<persName><surname>April</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+			<biblScope unit="page">27</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ledbetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Z</forename><surname>Daffa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Z. Metallkd</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page">195</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Z</forename><surname>Boccaccini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Z. Metallkd</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Williams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fundamental Aspects of Biocompatibility</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="1981">1981</date>
+			<publisher>CRC Press</publisher>
+			<pubPlace>Boca Raton, FL</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>De Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Robin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">4280</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

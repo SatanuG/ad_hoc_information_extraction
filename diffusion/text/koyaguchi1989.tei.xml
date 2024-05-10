@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Chemical gradient at diffusive interfaces in magma chambers</title>
+				<funder ref="#_X8QzU9C">
+					<orgName type="full">Japan Society for the Promotion of Science</orgName>
+				</funder>
+				<funder ref="#_t8Ertbw">
+					<orgName type="full">Ministry of Education and Culture, Japan</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Takehiro</forename><surname>Koyaguchi</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Geology</orgName>
+								<orgName type="department" key="dep2">Faculty of Science</orgName>
+								<orgName type="institution">Kumamoto University</orgName>
+								<address>
+									<postCode>860</postCode>
+									<settlement>Kumamoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Chemical gradient at diffusive interfaces in magma chambers</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">55B3338230C93AD235324596862203EB</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The results of high pressure experiments on diffusion and Soret separation in natural silicate melts show that the diffusive behaviour between natural silicic and marie magmas can be approximately modelled as if the system were a binary mixture of SiO 2 and other components such as MgO + FeO + CaO. Steady state compositional profiles across a diffusive interface between silicic and mafic magma layers are calculated on the basis of phenomenological relationships for the fluxes of chemical species and heat in the binary mixtures, using the experimental data of diffusion and Soret coefficients in natural silicate melts. The compositional profiles show a curvature with a minimum SiO2 value within the interface due to the Soret effect and temperature dependence of diffusion coefficient. The compositional gradient at the lower half of the diffusive interface is similar to that resulting from the Soret separation of a marie melt regardless of the composition of the silicic magmas. These results suggest that picritic magma can be formed in the interracial region between the marie and silicic magma layers. The compositional gradient explains chemical variation of marie to picritic inclusions in a mixed andesite of the Abu Volcano Group, Japan.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>This study of the compositional gradients between silicic and mafic magma layers was motivated by observations from an andesitic lava (ABU-24 lava) of the Abu Volcano Group, Southwestern Japan <ref type="bibr">(Koyaguchi 1986a)</ref>. Abundant (_&gt;~0 vol.%) marie inclusions are found in this lava, and they have compositions which cannot be easily explained by fractional crystallization or magma mixing. One possibility is that these inclusions were derived from the interfacial region between silicic and underlying basaltic magmas in a zoned chamber. Thus their peculiar characteristics might be attributable to diffusive processes at the interfacial zone between the main magmas. The purpose of this paper is to investigate by experiment and theory the sort of compositions which might be generated at such interfaces.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Marie inclusions in ABU-24 lava</head><p>The inclusions are spheroidal and have sizes up to 20 cm in diameter. They are nearly aphyric with &lt; 5 vol. % of olivine phenocrysts and rarely clinopyroxene microphenocrysts in groundmass of euhedral hornblende, clinopyroxene, magnetite, biotite, feldspar, apa-Present address: Department of Earth Sciences, University of Cambridge, Downing Street, Cambridge CB2 3EQ, United Kingdom tite and glass. Textural evidence, such as crenulate margins, finegrained rims, positive correlation between groundmass grain-size and inclusion size, and acicular crystals, suggests that the inclusions are droplets of marie magma chilled against a lower temperature magma.</p><p>Whole rock compositions of 15 inclusions were determined by XRF using the analytical method of <ref type="bibr" target="#b17">Matsumoto and Urabe (1980)</ref>. Compositions of the inclusions form a trend in the variation diagrams with SiO2 from 44 to 48 wt% (Fig. <ref type="figure">t</ref>). As SiOz decreases, FeO, MgO, CaO, K20 and P205 increase, and AlzO3 and Na20 decrease. The silicic end of this trend approaches the composition of the effusive Abu basalts (e.g. ABU-25) (Fig~ 1). The least silicic end is much more magnesian (MgO = 14%) than any effusive Abu basalts and is of picritic composition.</p><p>Compositional variation of the inclusions cannot be explained by in situ differentiation of each inclusion after disaggregation, such as diffusion between a marie droplet and the host in a liquid state (e.g. <ref type="bibr" target="#b6">Heiken and Eichelberger 1980)</ref> and gas filterpressing during crystallization of inclusions <ref type="bibr" target="#b0">(Bacon 1986)</ref>. If these processes played a role, each inclusion should be chemically zoned from core to margin (see <ref type="bibr" target="#b6">Heiken and Eichelberger 1980;</ref><ref type="bibr" target="#b0">Bacon 1986</ref>). On the contrary, the chemical composition is uniform within a single inclusion in ABU-24 lava.</p><p>Compositional variation of the inclusions is distinct from the fractional crystallization trend or the mixing trend of the prarental Abu basalt and dacite (Fig. <ref type="figure">1</ref>). It is characterized by higher MgO content than any Abu effusive lavas, suggesting that the magma of the inclusions cannot be produced from the Abn effusive magma by fractional crystallization or magma mixing of any of the erupted pairs.</p><p>The inclusions are nearly aphyric, and there is no observation indicating any phenocryst accumulation. The picritic inclusions are richer in incompatible elements (e.g. K and P) than the Abu basalts. This fact also supports that the composition cannot be explained by addition of olivine and/or clinopyroxene phenocrysts to the Abu basalts.</p><p>There are several possible hypotheses for origin of the picritic inclusions. For example, we cannot eliminate a possibility that the picritic magma was another parental magma from a different source. The hypothesis, however, does not give any reasonable explanations of the observation that the picritic magma occurs only as inclusions in an andesitic lava. It seems that additional mechanisms are needed to account for the picritic magma. It is not the main scope of this paper to assess all the hypotheses from the petrochemical viewpoint. I concentrate here on a specific process which can occur within the interfacial zone between mafic and silicic magmas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Investigated model</head><p>The model investigated here includes the diffusion processes that occur between convecting mafic and silicic magma layers, including thermal (Soret) diffusion. The boundary condition is that of a magma chamber consisting of two  layers (Fig. <ref type="figure">2a</ref>). Denser, hotter basalt underlies the silicic magma, and stratified convective layers, separated by a thin diffusive interface, are formed (e.g. <ref type="bibr" target="#b21">Turner 1979</ref>). The temperature and composition of each layer is homogenized by convection, while heat and mass transfers across the interface are essentially by molecular diffusion. If the volume of the interfacial zone is sufficiently small compared to the volumes of the convective layers, the temperature and compositional gradients reach a steady state before the temperature and composition of the convective layers change significantly. Because both the temperature and compositional gradients are externally imposed by the upper and lower major layers, the compositional profile within the interfacial zone is generally different from either that of isothermal diffusion or steady-state Sorer separation. It is difficult to produce compositional gradients under the above boundary condition in a laboratory. Accordingly, the compositional gradient will be numerically estimated using diffusion and Soret coefficient data.</p><p>Although a considerable body of data has been accumulated on tracer diffusivities of both major and trace elements in silicate melts (see summaries <ref type="bibr" target="#b7">by Hofmann 1980)</ref>, these values cannot be directly applied to a chemical mixing process in which the flux of one component may be affected by that of others. The experimental results of diffusion between natural mafic and silicic magmas <ref type="bibr" target="#b24">(Watson 1982</ref>) and those of Soret diffusion in multicomponent silicate melts <ref type="bibr" target="#b23">(Walker et al. 1981;</ref><ref type="bibr" target="#b22">Walker and DeLong 1982;</ref><ref type="bibr" target="#b13">Lesher 1986;</ref><ref type="bibr" target="#b14">Lesher and Walker 1986)</ref> suggest that diffusion of FeO, MgO and CaO is apparently controlled by that of SiO2. This does not necessarily mean that these elements travel in silicate melts as oxides. However, it does have the consequence that the diffusion between the silicic and mafic melts can be treated as binary diffusion of SiO2 and FeO + MgO + CaO, so long as the compositional variation due to the diffusion process is under consideration. In order to complete the calculation, data on diffusion behaviour in natural mafic and silicic melts as a binary mixture are needed.</p><p>Experiments of isothermal diffusion couples between natural silicic and mafic magmas and those of Sorer separation of a mafic magma were carried out in this study, so that some important characteristics of the "binary" diffusion and Sorer coefficients are evaluated. Secondly, possible steady state compositional gradients within diffusive interfaces are numerically investigated. Finally, these results are applied to the compositional variation of the mafic to picritic inclusions from the Abu Volcano Group.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Experiments</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.l Isothermal diffusion couples between marie and silicic magmas</head><p>The procedures and results of five representative runs (Runs-10, 34, 35, 36 and 38) are described below.   <ref type="table">1</ref>. <ref type="bibr">35,</ref><ref type="bibr">36 and 38</ref> were performed using a dacite (ABU-1) and basalt (ABU-25) pair from the Abu Volcano Group. Run-10 was performed using a rhyolite (ACH-26) and basalt (WAK-10) pair from Niijima Island, Japan. Petrographic descriptions of these lavas are given by <ref type="bibr">Koyaguchi (1986a, b)</ref>. Their chemical compositions are listed in Table <ref type="table" target="#tab_1">2</ref>. Starting materials were fine-grained ( &lt; 5 gm) powders of glass made from the above rocks, except for ACH-26 which could not be completely melted, so that small amounts of quartz crystals remained. Runs-10, 34 and 35 were performed dry. Run-36 was performed for the pair of dry basalt glass and hydrous dacite glass (ABU-I+4wt% H20) which was separately synthesized.</p><p>Run-38 was performed using a dry glass pair plus 13 wt% H20 and are believed to have been under an H20-saturated condition.</p><p>Analyzed by H. Haramura a XRF data recalculated to give a total 100% b Total Fe as Fee</p><p>The two powders of contrasting composition were packed endto-end in the cylindrical axial cavity (3 mm diameter and 8 mm depth) of a 3.8 mm graphite rod. The interface of the two powders was initially flat and sharp. The graphite capsule was sealed in a platinum capsule. Capsules were positioned vertically in the furnace with the mafic material at the base.</p><p>Experiments were performed in a piston-cylinder apparatus at 10 Kb for 2 h. Runs-10 and 35 were made at 1500 ~ C, Runs-34 and 36 at 1300 ~ C, and Run-38 at 1200 ~ C. A tapered graphite heater in a 3/4 inch furnace assembly <ref type="bibr" target="#b12">(Kushiro 1976</ref>) was used to reduce the temperature gradient to less than 10 degrees within the charge. The temperature was measured with a Pt/ Pt9oRh,o thermocouple without correction for the effect of pressure on the e.m.f.</p><p>After the run, the charge was sliced longitudinally and the polished charge was analyzed by electron probe microanalysis (the JOEL JCXA-733 of the Ocean Research Institute of University of Tokyo). The analytical procedure was similar to that given by <ref type="bibr" target="#b18">Nakamura and Kushiro (1970)</ref>, and the correction procedure of <ref type="bibr" target="#b2">Bence and Albee (1968)</ref> was applied. Analyses were made at intervals of several tens of gm. An enlarged electron beam (20 gm in diameter) was used to reduce the loss of alkalies and H20.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>The SiO 2 vs distance diagrams for Runs-34, 35, 36 and 38 are shown in Fig. <ref type="figure">3</ref>, where the profiles of different runs are superimposed by fixing the position of the Matano interface: the imaginary plane on each side of which Sx dc has the same value, where x is the longitudinal distance and c is the concentration (see <ref type="bibr" target="#b20">Shewmon 1963)</ref>. The profiles, except for that of Run-36, are asymmetric, indicating that the diffusion rate is greater in basaltic melt than in dacitic melt. The slopes of the profiles of equivalent run duration become less steep under wet conditions and with increasing temperature. These compositional and temperature dependencies are observed in the profiles of all the oxides.</p><p>Diffusion distances (the distances where the compositional gradient is observed) of Fee, MgO and CaO are nearly the same as that of SiO2 in all the runs. The similarities in diffusion distances are illustrated in SiO2 vs Fee, MgO and CaO diagrams (Fig. <ref type="figure">4</ref>). The nearly linear relationship among the above four oxides in these diagrams suggests similar "effective binary diffusion coefficients" (see  The shapes of the diffusion profiles of TiO2 and P2Os are similar to those ofFeO, MgO and CaO. However, diffusion distances of these elements are slightly shorter than SiO2 (Fig. <ref type="figure">4</ref>), suggesting slightly smaller diffusion rates of these elements than that of SlOg.</p><p>Alkalies show different behaviour. ~ Uphill diffusion" of K20 is observed in the basalt-dacite runs, especially in Run-34 (Fig. <ref type="figure">5</ref>); KzO in the basaltic melt decreases towards the interface, and K20 in the dacitic melt increases, even though the initial dacite melt has a higher K20 content than the basaltic melt. The uphill diffusion becomes less obvious or even disappears in the runs under wet conditions (Runs-36 and 38) (Fig. <ref type="figure">5c</ref> and<ref type="figure">d</ref>), and at high temperature under dry conditions (Run-35) (Fig. <ref type="figure">5b</ref>). The uphill diffusion of alkalies is not observed in Run-10. SiO2 and alkali contents of Run-10 show nonlinear (S-shaped) relations in SiO2 vs alkalies diagrams (Fig. <ref type="figure">4b</ref>). Diffusion distances of alkalies are longer than that of SiO2, suggesting larger diffusivities of alkalies. Downhill diffusion of A1203 is observed in Run-10 (Fig. <ref type="figure" target="#fig_3">6</ref>); A1203 in the rhyolitic melt decreases towards the interface, even though the initial rhyolitic melt has a lower Distance (mm) Fig. <ref type="figure">7</ref>. Diffusion profile of H20 (Run-36) which was estimated by subtracting total wt% from 100%. M =position of the Matano interface in Fig. <ref type="figure">3</ref> A1203 content than the basatic melt. No uphill diffusion is observed in the basaltic melt. H20 content after the run could not be measured directly, and was estimated by subtracting total wt% from 100%. Totals for water-free equivalent glasses varied by less than 1 wt% absolute within a single analytical session, and no systematic dependence on bulk composition was observed. Variations between sessions occasionallly exceeded this value (up to 3 wt% absolute). Thus difference in totals within a single session is believe to represent difference in HzO content, although absolute values contain a significant error. The gradient in H20 content can be observed in the charge of Run-36 for more than 3 mm around the boundary of basalt and dacite (Fig. <ref type="figure">7</ref>), while that in SiO2 is about I mm (Fig. <ref type="figure">3</ref>). This observation suggests that the diffusion of H20 is not controlled by the diffusion of SiO2, but is much more rapid than SiO2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evaluation of diffusion coefficient</head><p>The experimental results show that the binary diffusion model between SiO2 and FeO + MgO + Ca 9 can be applied to the Abu samples. The apparent diffusion coefficient can be determined from the profile of SiO2 with the method of Boltzmann and Matano (see <ref type="bibr" target="#b20">Shewmon 1963)</ref>. The diffusion coefficient is affected by SiO2 and H20 contents, and temperature.</p><p>Under dry conditions and H20-saturated conditions, the logarithm of the diffusion coefficient decreases linearly as SiO2 content increases at a given temperature (Fig. <ref type="figure">8</ref>); for example, from 10-s to 10-lo cm2/s with SiO2 increasing from 50 to 75 wt% at 1500 ~ C. Similar correlations also have been observed in previous studies (e.g. <ref type="bibr" target="#b24">Watson 1982;</ref><ref type="bibr" target="#b14">Lesher and Walker 1986)</ref>.</p><p>The diffusion coefficient of the HzO-saturated run (-38) is much larger (by up to two orders) than those of dry runs <ref type="bibr">(-34 and -35)</ref>, even though the temperature of Run-38 (1200 ~ C) is lower than those of Run-34 and -35 (1300~ C and 1500 ~ C, respectively) (Fig. <ref type="figure">8</ref>).</p><p>H20 content is commonly thought to be higher in silicic magma than in mafic magma. If so, the compositional differences of SiO2 and H20 affect the diffusion coefficient in the opposite sense. In fact, in the experiment for the dry basalt and hydrous dacite melts pair (Run-36), the diffusion coefficient for SiO2 is nearly cosntant from basalt to dacite (Fig. <ref type="figure">8</ref>). Accordingly, a constant diffusion rate from basalt to dacite will be assumed in the calculations in the next section.</p><p>A crude temperature dependence of the diffusion coefficient at 55 wt% SiO2, is observed among the dry experiments of this study and <ref type="bibr" target="#b24">Watson (1982)</ref> (Fig. <ref type="figure">9</ref>), which will be considered in the calculations. The relationship between the diffusion coefficient (D) and temperature ( <ref type="formula">7</ref>) is approxi-mated by log D (cm2/s) = 3.6-18 000/T(K)</p><p>(1)</p><p>which is shown by a dashed line in Fig. <ref type="figure">9</ref>. The experimental results show that diffusion of H20 is a much more rapid process than other oxides, and is not controlled by Si diffusion. The diffusion coefficient of SiO2 of Run-36 is larger than that of the run under dry condition at the same temperature (Run-34) throughout the chemical range from basalt to dacite (Fig. <ref type="figure">8</ref>), although the basalt glass in Run-36 initially contains no water. This fact suggests that H20 (or H +) diffused rapidly from dacite melt to basalt melt independently, and the concentration gradient of H20 affected the subsequent diffusion processes of the other elements in Run-36. Diffusivity of elements other than Si cannot be calculated from diffusion profiles. However, by application of an approximate relation x= (Dt) 1/2 (where x is diffusion distance and t is time) to Run-36 a value of about 10 -5 cm2/s can be obtained for the effective diffusion coefficient of H20.</p><p>Diffusion of H20 in obsidian glass and silicic melts has been studied at a wide range of temperature (95 ~ C-1000 ~ C) (review by <ref type="bibr" target="#b7">Hofmann 1980</ref>). The experimental resuits show that the relationship between effective diffusion coefficient and temperature is approximated as logD = --2-5000/T</p><p>(2)</p><p>The present results is consistent with this. Thus the diffusion coefficient of H20 and its temperature dependence will be assumed as Eq.( <ref type="formula">2</ref>) in the calculations in the next section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Soret separation of mafic melts</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Procedure</head><p>The experimental procedure of <ref type="bibr" target="#b23">Walker et al. (1981)</ref> was essentially followed. Differences in experimental procedures are as follows.</p><p>Excess Fe metal was not placed in the capsule. The Mo capsule (about 7 mm in depth) with glass powder ABU-25 and H20 (7 wt%) was sealed in a platinium capsule. After the run a significant increase of Fe was not observed in the Mo or Pt capsules. The charge was run for 98 h, at 13.5 Kb with the configuration of hot top (1400 ~ C) and cold base. The temperature of the hot top during the experiment was controlled using a W95Re5 / Wv4Rez6 thermocouple. A thin (500 ~tm) alumina sleeve separated the thermocouple and Pt capsules preventing reaction. Separate calibration of temperature gradient indicates that the gradient was stronger at the cold end than around the hot end and that the temperature of the cold base was 1220 ~ C_+ 50 ~ C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head><p>Figure <ref type="figure">10</ref> gives compositional gradients in glass after Run-52. Small amounts of olivine and clinopyroxene are found at the cold base. H20 content, which is roughly estimated by subtracting total wt% of EPMA analysis from 100%, is about 4 wt%, indicating that H20 may have leaked from the charge to some extent during the considerably long run time.</p><p>The sign of the Soret coefficients of all the oxides other than AlzOs is the same as in previous dry experiments (e.g. <ref type="bibr" target="#b22">Walker and DeLong 1982)</ref>. The compositional gradients are more remarkable at the cold end than the hot end, probably because of the non-linear temperature profile in the capsule. The A1203 content has its maximum value be-I49 Run-52 high T ( 1400~ S i 02 .... ," 9 "."" .' 9 "-.. , 9 ."-9 9 9 ".'."  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>tO.</head><p>~**'.'. *..~j .~ P20 5 "" ""'""'"".'""":''''''""""'"Y" "".</p><p>Soret separation in a mafic melt at 13.5 Kb with H20=</p><p>7 wt% for 98 h (Run-52). The temperature of the hot top is 1400 ~ C. The temperature difference is about 180 ~ tween the cold and hot ends. Similar profiles of A1203 have been reported by <ref type="bibr" target="#b13">Lesher (1986)</ref>. The sign of the Sorer coefficient of A1203 is not uniform among the previous experiments; for example, it is positive in a low-alkali lunar picritic melt <ref type="bibr" target="#b23">(Walker et al. 1981)</ref>, but negative in an oceanic basaltic melt <ref type="bibr" target="#b22">(Walker and DeLong 1982)</ref>. In Fig. <ref type="figure">10</ref>, the cold base is enriched in P2Os, indicating that the Soret coefficient has a positive sign (same as FeO, MgO and CaO) in the present sample. A maximum in P2Os profiles has been observed in some silicate melts (D. Walker, personal communication). Because H20 seems to have partly escaped from the capsule during the run, it is impossible to determine the sign of Soret coefficient of H20.</p><p>It is reasonably assumed that the olivine and clinopyroxene crystallization occurred around the cold base, because the temperature of the hot top (1400 ~ C) is substantially higher than the liquids of the basalt, while that of the cold base can be below the liquids (the liquids of the ABU-25 basalt with 5 wt% H20 is about 1200~ C at 13.5 Kb). Enrichment in MgO, FeO and CaO due to Soret diffusion would have also enhanced crystallization of these minerals. Crystallization experiments in a temperature gradient <ref type="bibr" target="#b15">(Lesher and Walker 1988)</ref> have shown that a compositional gradient in the pure liquid layer at high temperatures is consistent with that produced under completely above liquidus conditions. The existence of the crystals is unlikely to invalidate qualitative estimations of Sorer coefficient.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Evaluation of Soret coefficient</head><p>The present result shows that the general trend of the Soret separation in the previous dry experiments is not affected by the existence of H20 ; the binary diffusion model between SiO2 and FeO + MgO + CaO can be applied under the wet conditions. In the calculations of the next section, therefore, the Soret coefficient of SiO2 will be used. The present result is not appropriate for the quantitative estimation of the Soret coefficient, because the duration of the experiment (98 h) may be too short for the system to reach a steady state, and because crystallization at the cold base would have modified the glass composition. According to the previous dry experiments, where the achievement of steady-state Soret separation and the absence of phase separation were carefully tested, the Soret coefficient is -10 -2 to -10 -3 (o C-1) in a wide range in compositions from picrite to rhyolite, and no systematic temperature dependence has been observed (e.g. <ref type="bibr" target="#b14">Lesher and 'Walker 1986;</ref><ref type="bibr" target="#b13">Lesher 1986</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Steady state compositional profile within diffusive interfaces</head><p>In the case of a binary non-electrolyte liquid solution the so-called phenomenological relationships for the flux of chemical species 1, J1, can be written in the form (De Groot and Mazur 1962):</p><formula xml:id="formula_0">J1 = --pD grad C1-pC~(1-C~)STD grad T<label>(3)</label></formula><p>where p is density, Ca is mass fraction of component 1, D is diffusion coefficient and Sr is Soret coefficient. When the flux of the species reaches the steady state, div J1 is zero, namely J1 is constant. The calculation requires an assumed temperature profile across the interface. Laboratory observations suggest that the diffusive interface consists of three parts: a central purely diffusive core, and two unstable boundary layers, one above and one below the core <ref type="bibr">(Linden and Schirtcliffe 1978)</ref>. This means that the temperatures of' the top and bottom of the diffusive core are generally higher and lower than those of the upper and lower layers, respectively. The temperature of the top and the bottom of the core are assumed to be 1000 and 1200 ~ C, respectively, and the gradient is assumed to be linear at 102~ C/cm following the analysis of <ref type="bibr" target="#b8">Huppert and Sparks (1980)</ref>.</p><p>Substituting St, grad T, and Eq. ( <ref type="formula">1</ref>) as D, the steadystate compositional gradient can be numerically obtained (Fig. <ref type="figure">11</ref>). The horizontal axis of Fig. <ref type="figure">11</ref> indicates both temperature and distance between the maflc and silicic magma layers (2 cm); however, the absolute values of distance depend on the assumed temperature gradient.</p><p>In Fig. <ref type="figure">11</ref> a the mass fractions of SiO2 in mafic and silicic magma layers are assumed to be 0.5 and 0.7, respectively. The SiO2 content is a function of temperature alone for a given St. The profile shows a curvature due to the temperature dependence of the diffusion coefficient. It is notable that the SiO2 content initially decreases towards the silicic layer in the higher temperature (mafic) half of the interface for a reasonable range of Sr (-10 2 to -10-3o C-1). The contents of FeO, MgO and CaO, which constitute the counter part of SiO2, would initially increase towards the silicic magma in the diffusive interface, though the silicic magma is depleted in these elements. The minimum in calculated SiO2 content within the interface is accounted for as follows. The Soret effect causes a flux of SiO2 towards the hot end according to the second term of Eq. (3). The absolute value of this term exponentially increases from the cold to hot end because of the temperature dependence of D. Because the flux is uniform throughout the interface at a steady state, the first term should decrease from the cold to hot end and have the opposite sign of the second term to compensate the change of the second term. Accordingly, the compositional gradient should decrease and eventually have the opposite sign from the cold to hot end, so that the 8i02 content has a minimum value. Whether the reverse compositional gradient is formed depends on the mangitude of the change of the second term; large temperature dependence of D and large absolute value of Sr cause the reverse compositional gradient.</p><p>In Fig. <ref type="figure">11</ref> b profiles of SiO 2 content are drawn for a fixed Sr (-5x 10 .3o C -1) and mass fraction of SiO 2 of high-T magma (0.5), varying mass fraction of SiO2 of low-T magma from 0.5 to 0.8. The profile for J= 0 is also drawn in Fig. <ref type="figure">11</ref> b. The most important feature of the results is that the compositional profiles have the same gradient as the profile for J= 0 in the high temperature half of the diffusive interface, regardless of the mass fraction of the low temperature melt (0.5-0.8). Considering that steadystate Soret separation experiments are under J= 0 condition, this may suggest that the compositional gradient similar to that resulting from the experiments is produced at the high temperature half of the interface; however the compositional gradient for elements other than SiO2, FeO, MgO and CaO cannot be estimated because the above calculation assumes binary diffusion between SiO2 and FeO + MgO + CaO.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Application to multi-layer system</head><p>In the two-layer system, the region where the above compositional gradient is formed would be trivial in nature, judging from the thickness of the assumed diffusive interface (&lt; several cm). The total thickness of the zone where the compositional gradient is formed can be much thicker than the thickness of a diffusive interface itself in a multi-layer system, which consists of n convective layers separated by (n-1) interfaces (Fig. <ref type="figure">2b</ref>). The compositional gradient can reach a steady state within the zone between the first and the n'th layer (" the interfacial zone" hereafter), before the compositions and temperatures of the first and the n'th layers change. The compositional and temperature gradients within the interfacial zone are the same as those within the single diffusive interface except that the diffusive interfaces are separated by (n-2) homogeneous convective layers in the interfacial zone.</p><p>Because the diffusivity of the heat is much greater than that of chemical species, the thickness of interfacial zone should be much smaller than the main magma layers for the compositional profile of the interfacial zone to approach steady state on a short time-scale compared to the temperature change of the main layers (H~, H,~&gt;Hz+...+H,-1 in Fig. <ref type="figure">2b</ref>). Consequently, relatively small volumes of magma would be expected to have compositions controlled by Soret effects.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Limitations of the model</head><p>The calculations were carried out on the basis of some assumptions and simplifications. The following three complications should be borne in mind when applying the model to geological situations.</p><p>(1) In the lower half of the interface, temperature decreases upward, and the composition becomes more marie upward as chemical separation develops. Both the gradients in SiO2 and temperature induce an unstable density stratification within the interfacial zone. The density stratification, however, can be stabilized if H20 is supplied from the upper silicic layer.</p><p>The gradient in H20 content within the diffusive core is estimated in a similar way to that of SiO2, using Eq.(2) instead of Eq. (1) (Fig. <ref type="figure" target="#fig_8">12</ref>). Because the value or sign of the Sorer coefficient of H20 is not known, the profiles for a wide range in Sr (between_+ 10 .2o C 1) are drawn. The H20 contents of silicic and mafic magmas are assumed to be 5 and t wt%, respectively. Unlike the case of SiO2, H20 content monotonically increases from mafic to silicic magma regardless of the sign of St. Presumably the difference between H20 and SiO2 profile results from difference in the temperature dependences of their diffusion coefficients. Unless the absolute value of the Soret coefficient of HzO is greater than that of SiO2 by more than an order of magnitude, H20 content increases within the interfacial This gradient stabilizes density stratifications within the interfacial zone because of a large partial molar volume of H20 in magmas.</p><p>(2) Unless the lower magma is substantially superheated, both the temperature and compositional gradients lead to crystallization within the interfacial zone under dry conditions. The crystallization would impede the formation of a compositional gradient due to Sorer diffusion (cf. <ref type="bibr" target="#b15">Lesher and Walker 1988)</ref>. The effect of crystallization also would be reduced by supply of H20 from the upper layer, because the addition of H20 largely decreases liquidus temperatures of mafic magmas.</p><p>(3) In the present model temperature or compositional dependences of Sr have not been considered on the basis of the previous dry experiments. In fact if the solution is approximated to be ideal, Sr is dependent on lIT 2 (e.g. <ref type="bibr" target="#b14">Lesher and Walker 1986)</ref>. In this case the temperature dependence of Sr (by less than a few factors for several hundred degrees) is negligible compared with that of D (by orders of magnitude). In the contrary, in the region where non-ideal effects are significant (e.g. around the spinodal surfaces), Sr can be dependent on temperature and composition, which can modify results of calculation. This effect has not been evaluated at present, because non-ideal features of silcate melts are not fully understood. More experimental studies on thermal diffusion, especially those under wet conditions, are needed in order to quantitatively evaluate the above complications. Nevertheless the present "first order" calculations are sufficient to demonstrate that the diffusion processes in the interfacial zone between silicic and mafic magmas are affected by a temperature gradient, and a chemical gradient similar to Soret separation can be produced under some conditions. In all the diagrams except for that of K20, the chemi-cal variations of the inclusions are consistent with those of the Soret experiment. Two magmatic situations have been identified where a temperature gradient survives, so that a significant Soret separation occurs: the margin of a convective magma chamber (e.g. <ref type="bibr" target="#b22">Walker and DeLong 1982)</ref> and the diffusive interface between convective magma layers <ref type="bibr" target="#b19">(Schott 1983)</ref>. Recent thermal boundary layer analyses, however, have shown that the magma residence time in the boundary layer at the margin of the magma chamber is so brief that little Sorer separation results <ref type="bibr" target="#b4">(Carrigan and Cygan 1986)</ref>. The boundary condition of a double-diffusive system, as described by <ref type="bibr" target="#b19">Schott (1983)</ref>, also would be untenable for the following reasons. In his model a layered structure where colder and more mafic convective magma layers overlie a hotter and less mafic layer is formed from an initially homogeneous mafic magma chamber. This structure, however, is unstable, because the upper layers are denser than the lower ones, and there is no mechanism to stabilize the density stratification in his model.</p><p>Thus the occurrence and chemical variation in the inclusions can be explained in the diffusion model at the interface. Injection of basaltic magma into the dacitic magma chamber results in separated layers of basalt and dacite. Subsequently an interracial zone with a compositional gradient similar to that due to Soret separation was formed; SiO2 content initially decreases upwards in the lower half of the interface.</p><p>According to the method of <ref type="bibr" target="#b3">Bottinga and Weill (1970)</ref>, the densities of the most mafic magma of the inclusions (1100 ~ C) and ABU-25 basalt (1200 ~ C) are 2.78 and 2.71 g/ cm 3, respectively; Fe 3 § 2 + + Fe 3 +) (atomic ratio) = 0.1 under dry condition was assumed. The density stratification within the interface is unstable under the dry condition. However, the density of inclusion magma can be less than ABU-25 by the addition of more than 1.5 wt% HzO at 5 Kb. The stratification would be stable, if the dacite has a higher H20 content than the basalt by several wt%.</p><p>When the magma ascends through a conduit, the dacite/ basal.t stratification is disrupted <ref type="bibr" target="#b9">(Koyaguchi 1985;</ref><ref type="bibr" target="#b1">Blake and Ivey 1986)</ref>. Mafic magma in the interface is disaggregated and solidified in the host to become inclusions.</p><p>There may be alternative hypotheses as mentioned in the introduction. Furthermore, inconsistency in KzO gradient suggests that an additional mechanism may have opperated. However, the general compositional trend of the inclusions, which is consistent with that due to the Soret separation, and the occurrence of inclusilons in the mixed andesite would support the present model.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Fig.1. SiO 2 variation diagrams of the Abu volcanic rocks and inclusions from ABU-24 andesite lava. Smallfilled circles, core of inclusion, Crosses rim of inclusion; Core and rim analyses of one inclusion are tied by a line.Large filled and open circles represent Fe-type and Si-type rocks inKoyaguchi (1986a), respectively. Fe-type rocks are consequences of fractional crystallization of a magnesian alkali olivine basalt, and Si-type ones are those of mixing of basalt and dacite. Solid lines are mixing lines between the basalt and dacite obtained by a linear least square program (seeKoyaguchi (t986a)  for detailed discussion). Filled star, ABU-25; Open star, ABU-I. Chemical variation produced by the Soret separation experiment is shown by arrows (hot to cold end)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig</head><label></label><figDesc>Fig. 4a,b. SiO2 variation diagrams of glass compositions, a The dacite/basalt pair (Run-34); b the rhyolite/basalt pair (Run-10)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 6 .</head><label>6</label><figDesc>Fig.5 a-d. Diffusion profiles for K20 (wt%) along the longitudinal direction of charges of 35, 36 and 38, showing "uphill  diffusion"    </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 8 .Fig. 9 .</head><label>89</label><figDesc>Fig.8. Diffusion coefficient for SiO 2 determined by Bortzmann-Matano analyses against SiO 2 content (wt%). Filled squares, Run-t0; Filled triangles, Run-34; Filled circles, Run-35, Open sqares, Run-36; Open circles, Run-38. Zone with horizontal lines (W-1300 ~ C), runs at t300~ compiled from<ref type="bibr" target="#b24">Watson (1982)</ref>; Zone with vertical lines (W-1200 ~ C), runs (dry) at 1200~ compiled from<ref type="bibr" target="#b24">Watson (1982)</ref> </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig.</head><label></label><figDesc>Fig.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>Fig. lla, b. Calculated gradient in SiO 2 content within the diffusion interface between the silicic and marie magma convective layers, grad T=102 (o C/cm) is assumed, a profiles for varying Soret coefficients; b profiles for varying SiO2 mass fraction of the low-temperature magma. For details see text</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 12 .</head><label>12</label><figDesc>Fig. 12. Calculated gradient in H20 content with in the diffusive interface between hydrous silicic and less hydrous mafic magma convective layers, grad T= 102 (~ C/cm) is assumed</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>4</head><label></label><figDesc>Application to mafic inclusions in the Abu mixed lava In Fig. 1 the chemical variations produced by the Soret separation experiment of ABU-25 basalt are shown by arrows.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>SiO 2 variation diagrams of the Abu volcanic rocks and inclusions from ABU-24 andesite lava. Smallfilled circles, core of inclusion, Crosses rim of inclusion; Core and rim analyses of one inclusion are tied by a line.</figDesc><table /><note><p><p><p><p><p>Large filled and open circles represent Fe-type and Si-type rocks in</p>Koyaguchi (1986a)</p>, respectively. Fe-type rocks are consequences of fractional crystallization of a magnesian alkali olivine basalt, and Si-type ones are those of mixing of basalt and dacite. Solid lines are mixing lines between the basalt and dacite obtained by a linear least square program (see</p>Koyaguchi (t986a)  </p>for detailed discussion). Filled star, ABU-25; Open star, ABU-I. Chemical variation produced by the Soret separation experiment is shown by arrows (hot to cold end)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Chemical compostions of rocks used as starting materials</figDesc><table><row><cell>Temperature</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Profile</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>Sample :~</cell><cell>ABU-1 a</cell><cell>ABU-25</cell><cell>ACH-26</cell><cell>WAK-10</cell></row><row><cell></cell><cell>SiO2</cell><cell>64.92</cell><cell>47.14</cell><cell>76.12</cell><cell>49.53</cell></row><row><cell></cell><cell>TiO2</cell><cell>0.46</cell><cell>1.65</cell><cell>0.07</cell><cell>1.14</cell></row><row><cell></cell><cell>A12Oa</cell><cell>17.54</cell><cell>14.68</cell><cell>13.31</cell><cell>16.97</cell></row><row><cell></cell><cell>Fe203</cell><cell>n.d.</cell><cell>4.86</cell><cell>0.74</cell><cell>3.26</cell></row><row><cell>I</cell><cell>FeO</cell><cell>3.92 b</cell><cell>5.33</cell><cell>0.24</cell><cell>9.40</cell></row><row><cell></cell><cell>MnO</cell><cell>0.09</cell><cell>0.16</cell><cell>0.06</cell><cell>0.21</cell></row><row><cell></cell><cell>MgO</cell><cell>2.14</cell><cell>10.49</cell><cell>0.21</cell><cell>5.14</cell></row><row><cell></cell><cell>CaO</cell><cell>5.19</cell><cell>10.71</cell><cell>1.14</cell><cell>10.22</cell></row><row><cell></cell><cell>Na20</cell><cell>3.01</cell><cell>2.81</cell><cell>4.62</cell><cell>2.39</cell></row><row><cell></cell><cell>KzO</cell><cell>2.66</cell><cell>1.19</cell><cell>2.78</cell><cell>0.42</cell></row><row><cell>(b)</cell><cell>P2Os H20</cell><cell>0.07 n.d.</cell><cell>0.50 0,77</cell><cell>0.04 0.39</cell><cell>0.16 1.21</cell></row><row><cell></cell><cell>total</cell><cell>100.00</cell><cell>100.29</cell><cell>99.72</cell><cell>100.05</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Multi-layer System</head><label></label><figDesc></figDesc><table><row><cell></cell><cell></cell><cell>Slllclc magma</cell><cell>I</cell></row><row><cell>H 1</cell><cell cols="2">Convective layer</cell></row><row><cell></cell><cell>, 9</cell><cell>,,,. .... , ,-. ,</cell></row><row><cell cols="3">H2 ~2 ............ : ................ ~.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Int~rfeclal ~_1 -~,.,,.,. ~ ....... : .................... 1- zone Marie magma</head><label></label><figDesc></figDesc><table><row><cell></cell><cell></cell><cell></cell><cell>?</cell><cell>r l</cell><cell>-1_</cell><cell>i</cell></row><row><cell>H.</cell><cell>Convective layer</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell cols="2">H 1, Hn &gt;&gt; Ha+ .-. +Hn_I</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="7">Fig. 2 a, b. Schematic illustration of the considered boundary condi-</cell></row><row><cell cols="7">tion of the diffusion process between a stratified silicic/mafic</cell></row><row><cell cols="7">magma layer, a Two-layer system; b multi-layer system. Multi-</cell></row><row><cell cols="3">layer system is discussed in section 3</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="6">Table 1. Conditions for isothermal diffusion experiments</cell></row><row><cell>Run</cell><cell>mafic</cell><cell>silicic</cell><cell>T</cell><cell>P</cell><cell></cell><cell>duration</cell></row><row><cell>4+</cell><cell>end</cell><cell>end</cell><cell>(~</cell><cell cols="2">(Kb)</cell><cell>(h)</cell></row><row><cell>10</cell><cell>WAK-t0</cell><cell>ACH-26</cell><cell>1500</cell><cell>10</cell><cell></cell><cell>2</cell></row><row><cell>34</cell><cell>ABU-25</cell><cell>ABU-1</cell><cell>1300</cell><cell>10</cell><cell></cell><cell>2</cell></row><row><cell>35</cell><cell>ABU-25</cell><cell>ABU-1</cell><cell>1500</cell><cell>10</cell><cell cols="2">2</cell></row><row><cell>36</cell><cell>ABU-25</cell><cell>ABU-I +</cell><cell>1300</cell><cell>10</cell><cell cols="2">2</cell></row><row><cell></cell><cell></cell><cell>4%H20"</cell><cell></cell><cell></cell><cell></cell></row><row><cell>38</cell><cell>ABU-25</cell><cell>ABU-1</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>+13%H20</cell><cell>+13%H20</cell><cell>1200</cell><cell>10</cell><cell cols="2">2</cell></row><row><cell cols="2">" Hydrous glass</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">Procedure</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">Experimental conditions are listed in Table</cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments. The high-pressure experiments were carried out in the <rs type="institution">University of Tokyo and Kyoto University</rs>. I thank <rs type="person">I. Kushiro</rs>, <rs type="person">T. Fujii</rs>, <rs type="person">Y. Tatsumi</rs>, and <rs type="person">R.S.J. Sparks</rs> for their continued encouragement and discussion during the study. Part of this study was carried out while I was a Visiting Fellow at <rs type="institution">Department of Earth Sciences, University of Cambridge</rs>. I am grateful for the financial support from <rs type="funder">Japan Society for the Promotion of Science</rs>, which made the visit possible. Part of the expense of this study was supported by <rs type="grantName">Scientific Research Grant</rs>, <rs type="funder">Ministry of Education and Culture, Japan</rs> (Grant No. <rs type="grantNumber">32103007</rs>). Reviews by <rs type="person">H.E. Huppert</rs>, <rs type="person">D. Walker</rs>, <rs type="person">C.E. Lesher</rs>, <rs type="person">C.R. Bacon</rs> and <rs type="person">M. Ogawa</rs> were very helpful.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_X8QzU9C">
+					<orgName type="grant-name">Scientific Research Grant</orgName>
+				</org>
+				<org type="funding" xml:id="_t8Ertbw">
+					<idno type="grant-number">32103007</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Magmatic inclusions in silicic and intermediate volcanic rocks</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Bacon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geophys Res</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="6091" to="6112" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Magma-mixing and the dynamics of withdrawal from stratified reservoirs</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Blake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Ivey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Volcanol Geotherm Res</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="153" to="178" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Empirical correction factors for the electron microanalysis of silicates and oxides</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Bence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Albee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="382" to="403" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Densities of liquid silicate systems calculated from partial molar volumes of oxide components</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bottinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Weill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sci</title>
+		<imprint>
+			<biblScope unit="volume">269</biblScope>
+			<biblScope unit="page" from="169" to="182" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Implication of magma chamber dynamics for Soret-related fractionation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Carrigan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Cygan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geophys Res</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="11451" to="11461" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<author>
+			<persName><forename type="first">De</forename><surname>Groot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Mazur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+		<title level="m">Non equilibrium thermodynamics</title>
+		<meeting><address><addrLine>North-Holland, Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1962">1962</date>
+			<biblScope unit="page">510</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Eruption at Chaos Crage, Lassen Volcanic National Park, California</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Heiken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Eichelberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Volcanol Geotherm Res</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="443" to="481" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Diffusion in natural silicate melts: a critical review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of magmatic processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Princeton</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="385" to="417" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The fluid dynamics of a basaltic mamga chamber replenished by influx of hot, dense ultrabasic magma</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Huppert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rsj</forename><surname>Sparks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="279" to="289" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Magma mixing in a conduit</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koyaguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Volcanol Geotherm Res</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="365" to="369" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Textural and conpositional evidence for magma mixing and its mechanism, Abu volcano group, Southwestern Japan</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koyaguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="33" to="45" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Evidence for two-stage mixing in magmatic inclusions and rhyolitic lavla domes on Niijima Island</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koyaguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Japan. J Volcanol Geothermal Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">98</biblScope>
+			<date type="published" when="1986">1986b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Changes in viscosity and structure of melt of NaA1Si206 composition at high pressures</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geophys Res</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="6347" to="6350" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effects of silicate liquid composition in mineralliquid element partitioning from Soret diffusion studies</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geophys Res</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="6123" to="6141" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Solution properties of silicate liquids from thermal diffusion experiments</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1397" to="1411" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Cumulate maturation and melt migration in a temperature gradient</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geophys Res</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="10295" to="10311" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The diffusive interface in double-diffusive convection</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Linden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tgl</forename><surname>Shirtcliffe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Fluid Mech</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="417" to="432" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">An automatic analysis of major elements in silicate rocks with X-ray fluorescence spectrometer using fused disc samples</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Matsumoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Urabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Jpn Assoc Mineral Petrol Econ Geol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="272" to="278" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+	<note>in Japanese</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Compositional relations of coexisting orthpyroxene, pigeonite and augite in a tholeiitic andesite from Hakone volcano</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="265" to="275" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Thermal diffusion and magmatic differentiation: A new look at an old problem</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull Mineral</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="247" to="262" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Diffusion in solids</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Shewmon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1963">1963</date>
+			<publisher>McGraw-Hill</publisher>
+			<biblScope unit="page">203</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Buoyancy effect in fluids</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Turner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1979">1979</date>
+			<publisher>Cambridge University Press</publisher>
+			<biblScope unit="page">368</biblScope>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Sorer separation of mid-ocean ridge basalt magma</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Delong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="231" to="240" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Sorer separation of lunar liquids</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Hays</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc Lunar Planet Sci Conf XII</title>
+		<meeting>Lunar Planet Sci Conf XII</meeting>
+		<imprint>
+			<date type="published" when="1981">1981</date>
+			<biblScope unit="page" from="991" to="999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Basalt contamination by continental crust: Some experiments and models</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="73" to="87" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microstructure and Compressive Properties of NbTiVTaAl x High Entropy Alloys</title>
+				<funder ref="#_aZMXjXa">
+					<orgName type="full">National Natural Science Foundation of China (NNSFC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory for Advanced Metals and Materials</orgName>
+								<orgName type="institution" key="instit1">High-entropy Alloys Research Center</orgName>
+								<orgName type="institution" key="instit2">University of Science and Technology Beijing</orgName>
+								<address>
+									<postCode>100083</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+							<email>drzhangy@ustb.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory for Advanced Metals and Materials</orgName>
+								<orgName type="institution" key="instit1">High-entropy Alloys Research Center</orgName>
+								<orgName type="institution" key="instit2">University of Science and Technology Beijing</orgName>
+								<address>
+									<postCode>100083</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">University of Tennessee</orgName>
+								<address>
+									<postCode>37996-2200</postCode>
+									<settlement>Knoxville</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">University of Tennessee</orgName>
+								<address>
+									<postCode>37996-2200</postCode>
+									<settlement>Knoxville</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microstructure and Compressive Properties of NbTiVTaAl x High Entropy Alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3A06E698615EB526631E51DAE1BB657C</idno>
+					<idno type="DOI">10.1016/j.proeng.2012.03.043</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>High entropy alloy</term>
+					<term>solid solution</term>
+					<term>yield strength</term>
+					<term>ductility</term>
+					<term>solid solution strengthening</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The novel refractory high entropy alloys with the compositions of NbTiVTaAl x were prepared under a high-purity argon atmosphere and their microstructure and compressive properties at room temperature were investigated. Despite containing many constituents, all alloys had a single solid solution phase with body-centered cubic (BCC) structure, and possessed high compressive yield strength and ductility, which should be attributed to solid solution strengthening.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Recently, high-entropy alloys (HEAs), defined as alloys that generally have at least 5 major metallic elements and each of which has an atomic percentage between 5 % and 35% <ref type="bibr" target="#b0">[1]</ref>, have attracted increasing attentions. According to the regular solution model, the alloys have very high entropy of mixing, which makes HEAs usually form FCC and/or BCC solid solutions rather than intermetallic compounds or other complex ordered phases, and the total number of phases is well below the maximum equilibrium number allowed by the Gibbs phase rule <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. In the past decade, a number of these HEAs have been explored</p><p>with excellent properties such as high strength, better room temperature ductility, good resistances to wear and high thermal stability, but few HEAs can meet the requirements of aerospace industry <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref>.</p><p>According to empirical rule, a rapid decrease in strength of HEAs occurs at temperatures above 0.6T m , where T m is the melting temperature. To date, HEAs research has emphasized systems mainly based on the transition metals such as Cr, Mn, Fe, Co, Ni, Ti and Cu, and hardly any HEAs can be used at the temperature above 1273K <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b9">10]</ref>. In view of the excellent softening resistance, it is reasonable to explore high entropy alloys with high melting point. Recently American researchers have explored some refractory HEAs, composed of some transition metal elements with high melting temperature such as Ta, W, Nb, Mo and V <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>. However, these alloys exhibit high density and low plastic strain. In this work, the lighter elements, Al and Ti, are selected to decrease the density and improve the ductility, thus the novel refractory HEAs, NbTiVTaAlx, are explored and their microstructure and mechanical properties are investigated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental procedure</head><p>Alloy ingots with nominal composition of NbTiVTaAl x (x values in molar ratio, x = 0, 0.2, 0.5, and 1.0, denoted by Al0, Al0.2, Al0.5 and Al1.0, respectively) were prepared by arc melting the mixtures of high-purity metals with the purity better than 99 wt% under a Ti-gettered high-purity argon atmosphere on a water-cooled Cu hearth. The alloys were remelted several times and flipped each times in order to improve homogeneity. The prepared alloy buttons with about 11 mm thick and 30 mm in diameter were cut into appropriate form for investigating their microstructure and compressive properties.</p><p>Microstructure investigations of alloys were carried out by X-ray diffraction (XRD) using a PHILIPS APD-10 diffractometer with Cu K radiation. Cylindrical samples of 3 mm × 6 mm were prepared for room compressive tests and investigated using MTS 809 materials testing machine at room temperature with a strain rate of 2 × 10 4 s 1 . The morphologies of cross sections and fracture surfaces were examined using a ZEISS SUPRA 55 scanning electron microscope (SEM) with energy dispersive spectrometry (EDS). Figure <ref type="figure" target="#fig_0">1</ref>(a) and (b) show the XRD patterns of the specimens for NbTiVTaAl x alloy series. From Fig. <ref type="figure" target="#fig_0">1</ref>(a), only BCC solid solution phase can be detected in all alloys, indicating that the addition of Al has little effect on the phase constitution of this type of HEAs, and the crystal-plane indices of BCC structure corresponding to diffraction peaks can be identified and marked in XRD patterns. This may be ascribed to the high entropy effect. For these alloys, high entropy of mixing ( S mix ) caused by multi-principal elements significantly lower G mix , which will make random solid solution easily form and more stable than intermetallic compounds or other ordered phases during solidification.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head><p>The magnified image of (110) for BCC reflections is shown in Fig. <ref type="figure" target="#fig_0">1(b)</ref>. It is noticed that the (110) peak shifts towards lower 2 as the Al contents increase, which indicates that the Al addition can cause the decrease of lattice parameters of NbTiVTaAl x alloys. Obviously, Al element has similar atomic radius to three elements of Nb, Ti and Ta, but Al has a distinctly larger atomic radius than V (see Table <ref type="table">1</ref>), which will affect the extent of lattice distortion and change the lattice constants of alloys. Figure <ref type="figure" target="#fig_1">2</ref> shows the microstructures of NbTiVTaAl x alloys. It can be seen that the microstructure of Al0 alloy consists of equiaxial dendritic-like grains, and Al0.25, Al0.5, and Al1.0 alloys exhibit typical cast dendritic microstructure with the Al contents increase. For all four alloys, the grain sizes are rather lager, and the different regions show different morphology and crystal orientation due to the nonuniform temperature gradient during solidification.</p><p>In our previous work <ref type="bibr" target="#b12">[13]</ref>, the parameter and the atomic size difference have been proposed to predict the solid solution formation in multicomponent alloys, and 1.1, 6.6 % should be expected as the criteria for forming HE stabilized solid-solution phase. The parameter and are expressed as <ref type="bibr" target="#b12">[13]</ref>:</p><formula xml:id="formula_0">m m i x mix T S H<label>(1) 2 1 (1 /</label></formula><p>)</p><formula xml:id="formula_1">n i i i c r r (2)</formula><p>Where H mix is the enthalpy of mixing and S mix is the entropy of mixing; Tm is the melting point of alloy, which is calculated using the rule of mixtures ( 1 ( )</p><formula xml:id="formula_2">n m i mi i T c T )</formula><p>, n is the elemental number of the alloys, c i is the atomic percent of the ith element, r i is the atomic radius of the ith element, (</p><formula xml:id="formula_3">1 n i i i r cr</formula><p>) is the average atomic radius of the alloy. In this work, the parameters and of NbTiVTaAl x alloys are calculated according to Eq. ( <ref type="formula" target="#formula_0">1</ref>) and ( <ref type="formula">2</ref>), and the corresponding results are listed in Table <ref type="table" target="#tab_0">2</ref>. The calculation required physicochemical and thermodynamic parameters for the constituent elements are obtained from Ref. <ref type="bibr" target="#b13">[14]</ref>, some of them are given in Table <ref type="table">1</ref>. Clearly, the parameters and of studied alloys are met the criteria for forming HE stabilized solid solution phase ( 1.1, 6.6 %), thus the studied alloys are inclined to form solid solution phase during solidification. The curves of and as a function of Al contents are plotted in Fig. <ref type="figure" target="#fig_2">3</ref>. It can be seen that the values, reflecting the competitive relationship between S mix and H mix , decrease from 117.461 to 2.215 with Al addition, which indicates that the effect of mixing of entropy on solid solution weaken; while the atomic size difference reaches the maximum (3.424 %) as x = 0.25, subsequently, values decrease with Al contents increase as x &gt; 0.25. Moreover, in NbTiVTaAl x alloys, three constituent elements of Nb, V, Ta exhibit BCC structure (see Table <ref type="table">1</ref>), and Al element usually is considered as a BCC stabilizer, all of which facilitate the formation of BCC structure in the studied alloys. Guo et al. <ref type="bibr" target="#b14">[15]</ref> proposed that valence electron concentration (VEC) can control the phase stability for BCC or FCC solid solution; FCC phases are found to be stable at higher VEC <ref type="bibr" target="#b7">( 8)</ref> and BCC phases are stable at lower VEC (&lt; 6.87). The VEC for multicomponent alloys can be defined as:</p><formula xml:id="formula_4">1 VEC ( ) n i i i c VEC (3)</formula><p>Where (VEC) i is the VEC of the ith element. The VEC for constituent elements of the studied alloys are taken from Ref. <ref type="bibr" target="#b14">[15]</ref> and the calculated VEC of Al0, Al0.25, Al0.5 and Al1.0 are 4.75, 4.65, 4.56 and 4.40, respectively. The relationship between VEC and Al contents of alloys is shown in Fig. <ref type="figure" target="#fig_2">3(b)</ref>. All studied alloys possess lower VEC, thus BCC phase is stable.  Figure <ref type="figure" target="#fig_3">4</ref>(a) shows the compressive engineering stress-strain curves of room temperature test for NbTiVTaAl x alloys. All alloys exhibit high yield compressive strength and good plastic deformation. The yield strength of Al0, Al0.25, Al0.5 and Al1.0 are 1092 MPa, 1330 MPa, 1012 MPa and 991 MPa, respectively. After yielding, the strength of alloys increase continuously and the samples of alloys do not break under about 50% compressive strain. The relations between yield strength, elastic modulus and Al contents for studied alloys are shown in Fig. <ref type="figure" target="#fig_3">4(b)</ref>. It can be seen that when the Al content increases to x = 0.25, the maximum yield strength increase to 1330 MPa; while the further addition of Al element can make yield strength decrease. This variation tendency of yield strength is similar to that of atomic size difference. Moreover, the elastic modulus of studied alloys changes slightly with the Al addition. The high yield strength of these alloys likely is attributed to solid solution strengthening.</p><p>For NbTiVTaAl x alloys with single BCC structure, each atom can be expected as a solute atom and it can randomly occupy the crystal lattice site of alloy. Nevertheless these solute atoms with different sizes and properties can interact with each other and elastically distort the crystal lattice, which induce the formation of local elastic stress field. The interactions between these local elastic stress fields and the stress field of dislocations in alloy will hinder dislocation movements, and cause the increase of strength. In general, the relation between the strengthening ( ) and solute concentration (c) is expressed as <ref type="bibr" target="#b15">[16]</ref>:</p><formula xml:id="formula_5">n c</formula><p>(4) Here n 0.5. Compared with the traditional crystal materials, the concentration of solute for NbTiVTaAl x HEAs is extremely high, so these alloys exhibit high compressive strength. On the other hand, the strengthening caused by atomic size mismatch will increase with the increase of atomic size difference. In NbTiVTaAl x HEAs, the atomic size difference reach a maximum as x = 0.25, the corresponding compressive yield strength of Al0.25 alloy also is the highest, which implies that the effect of atomic size mismatch on the strength is very notable in NbTiVTaAl x HEAs.</p><p>Figure <ref type="figure" target="#fig_4">5</ref> shows the morphologies of the fractographs of the deformed sample for Al0 alloy. The lateral surface of the deformed sample under 50% compressive strains is shown in Fig. <ref type="figure" target="#fig_4">5(a)</ref>. It can be seen that the sample with the barrel-like form does not fracture after compressive deformation, but some surface cracks, marked by the arrows, are observed. Besides, the sample exhibits slightly nonuniform deformations, which may be ascribed to inhomogeneous microstructures. As a contrast, the secondary electron image and backscatter electron images of the deformed sample with 30% compressive strains are shown in Fig. <ref type="figure" target="#fig_4">5 (b</ref>) and (c), respectively, no cracks can be observed in both surface and insider. Deformed grains that were elongated in the radial direction can be seen in Fig. <ref type="figure" target="#fig_4">5 (c</ref>). The similar morphologies have also been observed in Al0.25, Al0.5 and Al1.0 alloys. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p>A new series of NbTiVTaAl x high entropy alloys have been successfully prepared, which all have simple phase structures and exhibit obvious dendrite structures. The phase formation rule of them has been discussed, based on the parameters of , and VEC. It is concluded that these alloys possess excellent BCC solid-solution formation ability. All alloys have high compressive yield strength and ductility (no fracture under 50% strains), which should be attributed to solid solution strengthening.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 (</head><label>1</label><figDesc>Fig. 1 (a) XRD patterns of the as-solidified NbTiVTaAl x (x=0, 0.25, 0.5, and 1) alloys; (b) the detailed scans for the peaks of (110) of BCC solid solutions.</figDesc><graphic coords="2,56.78,420.80,401.83,153.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 SEM backscatter images of the (a) Al0, (b) Al0.25, (c) Al0.5and (d) Al1.0 alloys.</figDesc><graphic coords="3,79.94,327.92,343.67,232.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 (</head><label>3</label><figDesc>Fig. 3 (a) The curves of and as a function of Al contents for NbTiVTaAl x (x=0, 0.25, 0.5and 1) alloys; (b) the relation between VEC and Al contents of alloys.</figDesc><graphic coords="5,267.86,60.68,184.45,167.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 (</head><label>4</label><figDesc>Fig. 4 (a) The compressive engineering stress-strain curves of NbTiVTaAl x (x = 0, 0.25, 0.5 and 1.0) alloys; (b) compressive test results for these alloys.</figDesc><graphic coords="5,46.70,280.22,405.19,150.79" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 The morphologies of the fractographs of the deformed sample for Al0 alloy. (a) The lateral surface of the deformed sample under 50% compressive strains; the secondary electron image and backscatter electron images of the deformed sample with 30% compressive strains are shown in (b) and (c), respectively.</figDesc><graphic coords="6,98.54,308.60,329.89,220.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 2 .</head><label>2</label><figDesc>The calculated parameters based on Eq. (1) and (2).</figDesc><table><row><cell>Alloys</cell><cell>H mix (KJ/mol)</cell><cell>S mix (J/k.mol)</cell><cell>(%)</cell><cell></cell></row><row><cell>NbTiVTa</cell><cell>-0.25</cell><cell>11.53</cell><cell>3.34</cell><cell>117.46</cell></row><row><cell>NbTiVTaAl 0.25</cell><cell>-4.82</cell><cell>12.71</cell><cell>3.42</cell><cell>6.47</cell></row><row><cell>NbTiVTaAl 0.5</cell><cell>-8.40</cell><cell>13.15</cell><cell>3.30</cell><cell>3.71</cell></row><row><cell>NbTiVTaAlV 1</cell><cell>-13.44</cell><cell>13.38</cell><cell>3.16</cell><cell>2.22</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Available online at www.sciencedirect.com</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors would like to acknowledge financial support by the <rs type="funder">National Natural Science Foundation of China (NNSFC</rs>, No.<rs type="grantNumber">50971019</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_aZMXjXa">
+					<idno type="grant-number">50971019</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Nanostructured high-entropy alloys with multiple principal elements: Novel alloy design concepts and outcomes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T T</forename><surname>Shun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="299" to="303" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Microstructure and compressive properties of multicomponent Al x (TiVCrMnFeCoNiCu) 100-x high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="page" from="260" to="265" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Solid-solution phase formation rules for multi-component alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="534" to="538" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Phase Change and Mechanical Behaviors of Ti x CoCrFeNiCu 1-y Al y High Entropy Alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Gan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of ASTM International</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Solid solution alloys of AlCoCrFeNiTi x with excellent room-temperature mechanical properties</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page">181904</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Microstructure and wear behavior of Al x Co1 .5 CrFeNi 1.5 Ti y highentropy alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wang</forename><forename type="middle">W</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S J</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="6308" to="6317" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effect of aging temperature on microstructure and properties of AlCoCrCuFeNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Kou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="266" to="269" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effect of temperature on mechanical properties of Al 0.5 CoCrCuFeNi wrought alloy</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">490</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="160" to="165" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Microstructures and compressive properties of multicomponent AlCoCrFeNiMo x alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wang</forename><forename type="middle">A</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J]. Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">527</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="6975" to="6979" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Mechanical performance of the Al x CoCrCuFeNi highentropy alloy system with multiprincipal elements</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1263" to="1271" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb25Mo25Ta25W25 and V20Nb20Mo20Ta20W20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1758" to="1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Refractory high-entropy alloys</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Prediction of High-entropy Stabilized Solid-solution in Multi-component Alloys</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Chem. Phys</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Introduction to solid state physics</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kittel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<publisher>Wiley</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Effect of valence electron concentration on stability of fcc or bcc phase in high entropy alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="103505" to="103505" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Microstructural Characteristics and Mechanical Behaviors of AlCoCrFeNi High-Entropy Alloys at Ambient and Cryogenic Temperatures</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Forum</title>
+		<imprint>
+			<biblScope unit="volume">688</biblScope>
+			<biblScope unit="page" from="419" to="425" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

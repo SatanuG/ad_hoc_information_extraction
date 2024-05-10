@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Magmatic sulfur compounds and sulfur diffusion in albite melt at 1 GPa and 1300-1500 ؇C</title>
+				<funder ref="#_a6yA5MV">
+					<orgName type="full">National Science Foundation</orgName>
+					<orgName type="abbreviated">NSF</orgName>
+				</funder>
+				<funder ref="#_NUnm57E">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">K</forename><forename type="middle">Tobias</forename><surname>Winther</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Earth and Environmental Sciences</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<addrLine>West Hall G17, 110 8 th Street</addrLine>
+									<postCode>12180-3590</postCode>
+									<settlement>Troy</settlement>
+									<region>New York</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><surname>Bruce Watson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Earth and Environmental Sciences</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<addrLine>West Hall G17, 110 8 th Street</addrLine>
+									<postCode>12180-3590</postCode>
+									<settlement>Troy</settlement>
+									<region>New York</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gerald</forename><forename type="middle">M</forename><surname>Korenowski</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<addrLine>110 8 th Street</addrLine>
+									<postCode>12180-3590</postCode>
+									<settlement>Troy</settlement>
+									<region>New York</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Magmatic sulfur compounds and sulfur diffusion in albite melt at 1 GPa and 1300-1500 ؇C</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8DEDD449FBE50A9B3DCBBE218A1D019E</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The speciation and diffusion of sulfur in nominally dry albite melt at 1300-1500 ЊC has been investigated by analyzing glasses formed in piston-cylinder runs using electron microprobe, micro-Raman, infrared-, UV-, and visible-light-spectroscopy, and other techniques. The sulfate ion is very stable in the albite melt even at low and is the dominant f o2 species in all glasses. In the presence of graphite the glass acquired a characteristic strong violet color, as a consequence of conversion of some of the sulfate to S and S radical</p><p>anions. The equilibration between S and S was rapid and both radicals were found to</p><p>be very stable at elevated temperatures. Both S , S , and sulfide diffuse faster then the</p><p>sulfate anion, so these species will control the diffusion process when present. In violetcolored albite glass in which some of the sulfur is S and S , the diffusion coefficient for</p><p>bulk sulfur diffusion was found to be:</p><p>where T is the temperature in K and R the gas constant. This relation defines D values significantly lower than those determined for sulfur in dry andesite, dacite, and rhyolite melt, in which the diffusion is controlled by sulfide. The reason for this difference is the higher degree of melt polymerization, the stabilization of sulfate over sulfide in the albite melt, and the slow diffusion of S and S radical anions compared to sulfide.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Sulfur is present in small but significant quantities in magmas of a wide variety of compositions (e.g., <ref type="bibr" target="#b3">Carroll and Rutherford 1988)</ref>. During magma ascent and crystallization, sulfur can be ''partitioned'' in several ways: sulfur-bearing minerals such as pyrrhotite and anhydrite may crystallize; an immiscible sulfur melt may form; sulfur may be incorporated as a trace element in many minerals <ref type="bibr" target="#b26">(Ricke 1960)</ref>; and it may enter the volatile phase, which can be either trapped in fluid inclusions or ultimately released to the environment <ref type="bibr" target="#b15">(Kress 1997)</ref>.</p><p>The diffusion of sulfur in magmas is important in controlling formation of bubbles and sulfur-bearing phases. However, the different dissolved species have different rates of diffusion and knowing the speciation therefore becomes critical. Additionally, the different species have different solubilities in the magmas, which determine the onset and growth of different magmatic sulfur minerals and bubbles; the different species also have different partitioning between melt and crystalline/vapor phases, and they have different roles in the overall melt structure and * E-mail: winther@cat.rpi.edu thus influence the physical properties of the melt in different ways.</p><p>Sulfur exists in six different oxidation states; however, only four of them, namely Ϫ2, Ϫ1, 0, and ϩ6, are commonly found in natural environments on earth and only two (Ϫ2 and ϩ6) are common in silicate melts <ref type="bibr" target="#b0">(Baker and Rutherford 1996)</ref>. Many sulfur-bearing species have been reported from natural systems including: SO , S 6ϩ , 2Ϫ 4 S 2Ϫ , COS, CS 2 , SO 2 , SO 3 , S , S , H 2 S, S, H 2 SO 4 (e.g.,</p><formula xml:id="formula_0">Ϫ Ϫ 2 3</formula><p>Baker and Rutherford 1996; <ref type="bibr" target="#b7">Cotton et al. 1976;</ref><ref type="bibr" target="#b8">Fincham and Richardson 1954;</ref><ref type="bibr" target="#b11">Gerlach and</ref><ref type="bibr">Nordlie 1975a and</ref><ref type="bibr">1975c)</ref>. The S 2Ϫ anion can substitute for O 2Ϫ in the silicate network whereas S 6ϩ can form SO . Many studies 2Ϫ 4</p><p>have addressed the speciation and solubility of sulfur in magmatic systems (e.g., <ref type="bibr" target="#b1">Bradbury 1983;</ref><ref type="bibr" target="#b3">Carroll and Rutherford 1988;</ref><ref type="bibr" target="#b11">Gerlach and</ref><ref type="bibr">Nordlie 1975a, 1975c;</ref><ref type="bibr" target="#b12">Haughton et al. 1974;</ref><ref type="bibr" target="#b20">Mathez 1976;</ref><ref type="bibr" target="#b22">Mysen and Dick 1977;</ref><ref type="bibr" target="#b23">Mysen and Popp 1980;</ref><ref type="bibr" target="#b25">Poulson and Ohmoto 1990)</ref>. Only a few studies have addressed the diffusion of the various species in magmatic systems. The paper by <ref type="bibr" target="#b0">Baker and Rutherford (1996)</ref> is based on dissolution of anhydrite and pyrrhotite into a rhyolite melt. Their experimental setup makes coupled diffusion involving calcium and sulfur or iron and sulfur unavoidable. In addi- tion, the presence of a multivalent element like iron raises questions as to its potential influence on the oxidation state of sulfur. Previous work by <ref type="bibr" target="#b30">Watson et al. (1993)</ref> and <ref type="bibr" target="#b29">Watson (1994)</ref> was of limited scope and restricted to diffusion of the sulfide ion. The focus of this work is to study the diffusion of sulfur in a simple silicate melt. Albite was chosen as the melt composition because it contains few elements, none of which occur in different oxidation states in nature. The experiments were set up using a diffusion couple consisting of two glasses with identical compositions, except for a trace amount of sulfur in one of them. It became clear that all the sulfur-doped glass produced contained trace amounts of carbon impurities. There were several potential sources of carbon contamination: organic solvents used for grinding; fine dust from the air; and diffusion from the graphite furnace used in the experimental setup. Sulfur-free glasses were fired in air at high temperatures (up to ϳ1000 ЊC), and in general did not contain carbon; however, the sulfur-bearing glass could not be fired as this would cause a sulfur loss. As carbon is present in most natural systems the carbon contamination makes the experiments more relevant to geological problems, and we decided to characterize the system rather than attempting to eliminate the carbon contamination. In this way the two main objectives of this paper became:</p><p>(1) characterize the S compounds present in albite with S-C-O-H, and (2) investigate sulfur diffusion in this system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL PROCEDURE</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Starting materials</head><p>Synthetic albite was made from high purity SiO 2 , Al 2 O 3 , and Na 2 CO 3 (Table <ref type="table" target="#tab_0">1</ref>). In some cases, 1000-4000 ppm Si was replaced by equal stoichiometric amounts of Zr and Ge (introduced as ZrO 2 and GeO 2 ), whereas 1000-2000 ppm Al was replaced by equal stoichiometic amounts of Ga (added as Ga 2 O 3 ). The Zr, Ge, and Ga diffusion profiles were used to mark the original interface in the diffusion couples. The starting material was melted two times in a platinum crucible in air at ϳ1300 ЊC for 15 min. The CO 2 was lost from the carbonate during this process. Before, between, and after melting the material, it was carefully homogenized by grinding in an agate mortar with high-purity ethanol.</p><p>Synthetic albite glass with dissolved sulfur was made by first producing an albite glass as described above, except for a minor sodium deficit. Then Na 2 SO 4 was added to achieve the correct sodium level. This sample was melted two times at 1400 ЊC, 1 GPa for 1 h and homogenized before and between the melting by grinding in an agate mortar with high-purity ethanol. To ensure retention of sulfur in the sulfur-bearing samples, they were not fired at high temperature in air after the grinding in alcohol. This may have caused the presence of traces of residual carbon in the sample. In addition, lint from the air seems to have caused some minor carbon contamination. In some samples some of the Na 2 O was replaced by NaNO 3 , introducing a total of 1000-2000 ppm NO 2 to the sample. The nitrate helped oxidize the carbon to form CO 2 rather than graphite.</p><p>The diffusion couple was made by filling the lower part of the capsule with albite powder and placing a piece of polished, sulfur-doped glass above it. Ground, sulfurdoped glass was packed around the glass piece. If both sides of the diffusion couple contained sulfur, the material with the lower sulfur concentration was packed as a powder in the lower part of the capsule. Some experiments were done using other materials such as albite with graphite or barite to investigate the formation of radicals rather than obtaining only diffusion data. All starting materials were dried for at least 12 h at 105-110 ЊC prior to the experiment. In a few cases, sulfur-free starting materials were dried at 700 ЊC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental technique</head><p>High-pressure experiments were performed in a 0.75Љ (19 mm) piston-cylinder apparatus. In diffusion experiments, the sample capsules were made from hard alumina lined on the outside with an oxidized iron sleeve (Fig. <ref type="figure" target="#fig_0">1</ref>). This sleeve helped maintain the structural integrity of the sample after the experiment, and the Fe 2 O 3 was intended to keep the environment oxidized. It was, however, not always the case that the iron oxide was preserved throughout the experiment. The capsules were placed inside crushable alumina parts fitting into a graphite furnace. In synthesis runs the powder was placed inside the crushable alumina, either with or without a hard alumina container. Outside the graphite furnace was a Pyrex glass sleeve, a salt cylinder, and a sheet of lead foil. The temperature was controlled using a W-Re thermocouple.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analytical methods</head><p>The samples were analyzed using an electron microprobe (JEOL 733 Superprobe). An expanded electron beam (20 or 30 m in diameter) was used with 15 kV acceleration voltage and a cup current of 12-75 nA. Currents up to 125 nA were used for measuring the sulfur peak position. For peak position measurements, an exact focusing of the beam on the surface is essential because  of its effect on the sample-detector geometry. If the sample is out of focus an apparent shift in the peak position by as much as 0.052 Њ 2 angle can occur (0.1 mm on the PET crystal spectrometer on the JEOL microprobe used). Potentially, pits burned in the surface of the sample could cause a change in the position of surface and thereby in the apparent peak position, and beam damage to the sample could cause changes in the sulfur speciation. However, repeated wavelength scans at the same position showed that the peak did not change position when the sample was damaged. What did change was the count rate of sulfur, which goes up with increased damage whereas the background count rate remains the same thereby giv-ing results that are too high. This change in apparent sulfur concentration was found to be larger than what could be expected as a result of decreasing sodium content in the glass alone. A Perkin-Elmer FTIR was used to obtain spectra of doubly polished glass disks. Micro Raman spectra were obtained using a T64000 Raman Spectrum system from JOBIN YVON-SPEX with a 514 nm laser. A few spectra were obtained using a Nicolet Raman 950 system with a 1064 nm laser. UV and visible-light spectra were obtained on a Hitachi U-2000 spectrophotometer running against air and scanning the wavelength range 150-1100 nm. An ESR (Electron Spin Resonance) spectrum was obtained from a Varian E9 ESR system using a time constant of 0.3 s, a modulation amplitude of 0.5 G, a microwave power of 0.02 W, and a scan time of 8 min.</p><p>The diffusion coefficients were determined by minimizing the difference between the observed data and an ideal diffusion profile calculated with the diffusion coefficient, the interface position, the high concentration, and the low concentration as variables to be optimized.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL RESULTS: SULFUR COMPOUNDS</head><p>The conditions and results of selected runs are shown in Tables <ref type="table" target="#tab_1">2</ref> and<ref type="table" target="#tab_2">3</ref>. Glasses of albite and sulfate-bearing albite are clear or slightly cloudy. If a graphite seed is planted in a sulfate-bearing glass and maintained at 1400 ЊC and 1 GPa for 1 h, a violet halo 40-90 m in diameter develops around the seed, reflecting the diffusion of carbon and/or oxygen and reaction with the sulfate. The size of the halo suggests that it is controlled by a species diffusing more or less with the same speed as sulfur, which could be oxygen. Over time, a carbon-bearing glass, especially after re-homogenization, will develop a strong characteristic violet color throughout. If a diffusion couple is prepared with violet, sulfur-bearing glass placed against clear sulfur-free glass, the violet color will not fade to clarity until the very end of the diffusion profile (Ͻ100 ppm S), and the sulfur-bearing part remains violet even after runs of 50 h. As shown below, this color is attributed to the presence of S and S radical anions.</p><formula xml:id="formula_1">Ϫ Ϫ 2 3</formula><p>Most of the glass samples used fall in one of the following categories: albite; albite with sulfate; albite with sul- Note: 0408-10 were done in one experiment. 0415-18 were done in one experiment. 0422-25 were done in one experiment with the capsule slightly below the furnace center. The following experiments had graphite or carbon bearing compounds added on purpose: 0313, 0315, 0409, 0410, 0414, 0417, 0418, 0421, 0422, 0423, 0424, and 0511. In all other cases any carbon that may be present originated as ''uncontrolledЉ contamination.</p><p>fate and graphite; albite with sulfate and nitrate; and albite with sulfate, carbon dioxide, and nitrate. The nitrate was introduced into some samples in an attempt to maintain oxidized conditions. The samples were investigated using many techniques as described below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Infrared (FTIR) spectroscopy</head><p>All FTIR spectra collected show an OH absorption peak around 3510 cm Ϫ1 . The sulfur-bearing glasses show in addition a CO 2 peak at 2350 cm Ϫ1 . The 3510 cm Ϫ1 OH stretching absorption band was used to estimate the water content using the calibration of <ref type="bibr" target="#b28">Silver and Stolper (1989)</ref>. Sulfur-free glass (sample 1018) has 0.05 wt% water, whereas the sulfur-bearing glasses (samples 0107, 0219, and 0307) have 0.09-0.11 wt% water. The sulfur-bearing glasses are expected to have higher water contents because they were not fired in air at high temperature (which causes sulfur loss). Using the absorptivity coefficient of <ref type="bibr" target="#b9">Fine and Stolper (1985)</ref>, the concentrations of CO 2 were calculated: The sulfur-free glass (1018) has 0 ppm; the non-violet sulfur-bearing glass (0107) has 78 ppm; and the violet sulfur-bearing glass has 100 ppm. These CO 2 levels are considered typical for the sulfurbearing glasses with carbon impurities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Thermal stability</head><p>Violet glass samples were heated in air. At approximately 900 ЊC the violet color started to diminish within an hour; this was accompanied by the formation of bubbles. The violet color was stable in air at 700 ЊC for at least 11 days. At elevated pressure, the violet color was stable to temperatures above 1500 ЊC. These experiments show that the violet color is associated with a volatile component that is stable at high temperatures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Microprobe analyses: Sulfur peak positions</head><p>The location of the sulfur peak position changes by approximately 0.052 Њ 2 (0.10 mm on the PET crystal on the JEOL microprobe spectrometer used) when the immediate environment of the sulfur atom changes <ref type="bibr" target="#b3">(Carroll and Rutherford 1988)</ref>. This change corresponds to a change from sulfide (S 2Ϫ ) to sulfate (S 6ϩ ). The shape and location of the sulfur peak was measured over the range 171.80 to 172.18 mm for samples and standards of sulfides and sulfates. The ratio of sulfide to sulfate in the sample was estimated by minimizing the difference between the peak observed for the sample and a peak calculated as a linear combination of the peaks for barite and sphalerite standards. This ratio was converted to a percentage of sulfide. The percentage of sulfide is based on the assumption that all sulfur is present as sulfide or as sulfate; if other species like S and S are present,</p><formula xml:id="formula_2">Ϫ Ϫ 2 3</formula><p>this percentage becomes percent sulfide equivalents.</p><p>The results in Table <ref type="table" target="#tab_3">4</ref> provide some representative examples of sulfur peak positions and calculated sulfide percentages in various glasses and standards. The results show that the peak position does not differ significantly between violet (e.g., sample 0313) and colorless (e.g., sample 0628) sulfate-bearing glasses. If the violet color is caused by S and S (as suggested by the spectro-</p><formula xml:id="formula_3">Ϫ Ϫ 2 3</formula><p>scopic analyses discussed below) this probably means that the concentration of S and S radical anions is rel-</p><formula xml:id="formula_4">Ϫ Ϫ 2 3</formula><p>atively low and that sulfate is the dominant sulfur species.</p><p>It is likely that the lack of change in sulfur peak position reflects a similarity in peak positions of S , S , and sul-</p><formula xml:id="formula_5">Ϫ Ϫ 2 3</formula><p>fate. Exactly what peak position these species have is difficult to evaluate because there are no pure standards. However, given that elemental sulfur has a peak position corresponding to 85% sulfide it is likely that S and S</p><formula xml:id="formula_6">Ϫ Ϫ 2 3</formula><p>have peak positions that also fall close to the sulfide peak. Table <ref type="table" target="#tab_3">4</ref> also shows that sulfur diffused into graphite (sample 0313) has a peak position corresponding to a high sulfide content, indicating formation of carbon sulfides (most likely CS 2 ). Violet sulfur ϩ carbon-bearing glass 90 m from a graphite source (Experiment 0313, 4-7% sulfide) or a few tens of mircometers away from sheets of metallic Ti and Zr (Experiment 0613, 8-13% sulfide) show that even this close to reducing materials the sulfur is maintained as sulfate rather than sulfide. The implication is that the sulfate is very stable under the experimental conditions, even at very low values of . f o2</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Visible and ultraviolet light absorption spectroscopy</head><p>Samples of albite glass, albite glass containing carbon, albite glass with sulfate (few violet spots), and albite glass with both carbon and sulfur (with the characteristic violet color) were investigated by both visible and UV spectroscopy. The albite glass shows a large absorbance in the UV range. The spectrum of the violet glasses exhibits two strong absorption peaks not found in any of the other samples, one at 570 nm and one at 400 nm. Combined with the Raman spectroscopy data discussed below, these absorption bands are attributed to S and Ϫ 3 S , respectively <ref type="bibr" target="#b5">(Clark et al. 1983)</ref>. S could potentially</p><formula xml:id="formula_7">Ϫ Ϫ 2 4</formula><p>have been present in the samples; however, the characteristic absorption band of S was not observed.</p><p>Ϫ 4</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Raman spectroscopy</head><p>Presented in Figure <ref type="figure" target="#fig_1">2</ref> are representative vibrational Raman spectra of the glasses. The results from all the Ra-   The presence of the normally very weak overtone Raman scattering coupled with the fact that the excitation wavelength of 514.5 nm lies within the wings of both the 400 and 570 nm absorption bands of S and S , respectively,</p><formula xml:id="formula_8">Ϫ Ϫ 2 3</formula><p>implies that scattering from S and S is the result of the</p><formula xml:id="formula_9">Ϫ Ϫ 2 3</formula><p>resonance-enhanced Raman effect. Additional evidence for the resonance-enhanced Raman effect with 514.5 nm excitation comes from experiments using an excitation wavelength of 1064 nm. When a 1064 nm excitation source is used, none of the bands assigned to S and</p><formula xml:id="formula_10">Ϫ 2</formula><p>S were observed in the Raman spectra. Several other</p><formula xml:id="formula_11">Ϫ 3</formula><p>Raman shifts are only observed in spectra from the violet glasses (514.5 nm excitation). These are the 264, 718,  917, 1313, 1348, 1546, 1576, 1937, and 1944 cm Ϫ1 shifts that for the most part are weak peaks in the Raman spectra. Depolarization ratios were also obtained for the S Ϫ 2 and S symmetric stretching fundamental peaks. The de-</p><formula xml:id="formula_12">Ϫ 3</formula><p>polarization ratio, , is defined as the ratio of scattered light intensities with polarizations that are perpendicular and parallel to the plane polarized excitation light (I ⊥ /I // ). For a perfectly symmetrical stretch, will be zero and for a strongly asymmetric vibrational mode it will be nearly 0.75. The scattering from both of these fundamentals yields a depolarization ratio of 0.5. Such a depolarization ratio would not be inconsistent with one end of S and S being bound more strongly to the melt struc-</p><formula xml:id="formula_13">Ϫ Ϫ 2 3</formula><p>ture than the other end.</p><p>The sulfate group, SO , is also present in the glasses 2Ϫ 4</p><p>as seen from the X-ray peak positions. However, because there is no resonance Raman effect for the sulfate at 514.5 nm excitation and the concentration is low, the characteristic Raman spectrum of sulfate is not observed in the spectra obtained from the glasses. S could also poten- </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Electron spin resonance (ESR)</head><p>Electron spin resonance, ESR (or electron paramagnetic resonance, EPR) is a well-established technique for studying free radicals with a single unpaired electron. Exposing the sample to a strong magnetic field makes it possible to increase the energy separation between the two spin states of the unpaired electron. The sample absorbs electromagnetic energy at the frequency corresponding to the energy splitting between the two spin states. Sample 0426 (powdered violet glass) generated a good ESR spectrum showing that the sample actually does contain unpaired electrons. The spectrum shows evidence for the presence of two overlapping spectra implying two distinct radicals. The data are consistent with S-ions in a rhombic environment with a g tensor g 1 ϭ 2.037, g 2 ϭ 2.020, and g 3 ϭ 1.992. There is, in addition, an overlapping weaker spectrum. The stronger spectrum compares well with the data of <ref type="bibr" target="#b19">Lunsford and Johnson (1973)</ref> reported for S . However, to prove this result pos-Ϫ 3 itively it would be necessary to prepare 34 S-doped samples, which was not done.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Sulfur compounds</head><p>Sulfate is stabilized over sulfide at values of that f o2 are two orders of magnitude lower in an Na 2 O-3SiO 2 melt than in an andesite-dacite melt <ref type="bibr" target="#b3">(Carroll and Rutherford 1988;</ref><ref type="bibr" target="#b0">Baker and Rutherford 1996)</ref>. This large increase in stability primarily reflects the effect of having different elements available (or not available) for forming sulfide bonds: Na and Si have a far smaller tendency to form sulfides than metals like Fe and Mn, which are present in natural andesites and dacites. Although a natural magma will form sulfides at values of close to the Ni-NiO f o2 buffer <ref type="bibr" target="#b0">(Baker and Rutherford 1996)</ref>, albite melt may not. Instead reactions of the following type can take place:</p><formula xml:id="formula_14">ϩ Ϫ 3C ϩ 2MSO ↔ 3CO ϩ (2MO) ϩ S (1) 4 2 2 ϩ Ϫ 9C ϩ 6MSO ↔ 9CO ϩ (6MO) ϩ S (2) 4 2 3</formula><p>where M is Na 2 , Al ⅔ , or Si ½ . These reactions are in agreement with the observation that S and S are formed and</p><formula xml:id="formula_15">Ϫ Ϫ 2 3</formula><p>the amount of CO 2 is higher in the violet than in the nonviolet sulfur-bearing glasses, although only by a few tens of parts per millions. However, as CO 2 diffuses relatively fast through the melt, some of the CO 2 generated will be lost. Although the radical anions S and S are not that</p><formula xml:id="formula_16">Ϫ Ϫ 2 3</formula><p>common, they are found in ultramarine blue and S is</p><formula xml:id="formula_17">Ϫ 3</formula><p>found in small quantities in lazurite (lapis lazuli) <ref type="bibr" target="#b5">(Clark et al. 1983)</ref>.</p><p>In samples containing residual graphite as well as CO 2 , the is probably at 1400 ЊC more than 3 log units below f o2 Ni-NiO <ref type="bibr" target="#b14">(Huebner 1971)</ref>. At this Nagashima and Kat-f o2 sura <ref type="bibr">(1973)</ref> reported that less than 20% of the sulfur in an Na 2 O-3SiO 2 melt is sulfate whereas the remainder is sulfide. However, the albite melt studied here has sulfate as the dominant sulfur species at this . The difference f o2 can be a result of differences in the level of trace elements (like iron), or it could arise because in albite melt every Na is paired with an Al, which does not happen in the Na 2 O-3SiO 2 melt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Concentration of S and S</head><formula xml:id="formula_18">Ϫ Ϫ 2 3</formula><p>Figure <ref type="figure">3</ref> shows a diffusion profile with the combined S and S radical anion (relative) concentration plotted</p><formula xml:id="formula_19">Ϫ Ϫ 2 3</formula><p>in addition to total sulfur concentration. The S and S</p><formula xml:id="formula_20">Ϫ Ϫ 2 3</formula><p>peak intensities were measured relative to a Si-O-Si Raman peak at 476 cm Ϫ1 and used to estimate the relative concentration of these species. Because the ratio between the two species, S and S , is constant along a diffusion</p><formula xml:id="formula_21">Ϫ Ϫ 2 3</formula><p>profile at a given temperature, Figure <ref type="figure">3</ref> shows only a combined S ϩ S concentration plotted on an arbitrary</p><formula xml:id="formula_22">Ϫ Ϫ 2 3</formula><p>scale. It is seen that the variations in S ϩ S concentra-</p><formula xml:id="formula_23">Ϫ Ϫ 2 3</formula><p>tion mimics the variations in ''sulfide'' concentration along the profile and it cannot be ruled out that the ''sulfide'' measured using the X-ray peak shift is actually S and S . Given that the S ϩ S concentration cannot</p><formula xml:id="formula_24">Ϫ Ϫ Ϫ Ϫ 2 3 2 3</formula><p>exceed the total sulfur measured with the microprobe, and that the highest S ϩ S concentrations are measured at</p><formula xml:id="formula_25">Ϫ Ϫ 2 3</formula><p>a point in the diffusion profile where the total sulfur is 400 ppm, the concentration of S ϩ S must at all times</p><formula xml:id="formula_26">Ϫ Ϫ 2 3 FIGURE 3.</formula><p>Example of sulfur diffusion profile from sample 1030. The solid black line shows the calculated profile used in finding the D-value. At selected points the ''sulfide'' concentration has been calculated from the X-ray peak position assuming that the observed peak is a combination of the peaks for sulfate (barite) and sulfide (sphalerite). In reality a substantial amount of this calculated ''sulfide'' is likely to be S and S . The relative</p><formula xml:id="formula_27">Ϫ Ϫ 2 3</formula><p>variations in S and S are shown on an arbitrary scale (right)</p><formula xml:id="formula_28">Ϫ Ϫ 2 3</formula><p>because there have been no absolute concentration measurements of these species.</p><p>be below that level. In a sample with 1400 ppm total sulfur, the data in Figure <ref type="figure">3</ref> show that the ''normal'' violet glass has less than 200 ppm of S ϩ S . Even at this</p><formula xml:id="formula_29">Ϫ Ϫ 2 3</formula><p>concentration level the sample has a strong violet color. Some samples without the violet color have X-ray peaks indicating that part of the sulfur is present as sulfide, e.g., 0626 containing nitrite shows 9% ''sulfide'' whereas clear areas of 0107 show 7% ''sulfide''. This means that not all of the apparent ''sulfide'' is caused by S and S .</p><formula xml:id="formula_30">Ϫ Ϫ 2 3</formula><p>Sulfur attachment to melt structure The depolarization ratios for the main S and S peaks</p><formula xml:id="formula_31">Ϫ Ϫ 2 3</formula><p>are both measured around 0.50-0.52 in the albite glass.</p><p>Because S is a diatomic molecule the fundamental Ra-Ϫ 2 man band should be polarized (depolarization ratio 0) for the free ion. The bent S anion has been found to have</p><formula xml:id="formula_32">Ϫ 3</formula><p>a depolarization ratio of 0.23 in a liquid solution <ref type="bibr" target="#b4">(Clark and Cobbold 1978)</ref>. Using a simplistic model in which the increase in depolarization ratio is attributed to the bonding of one end of S or S with the silicate frame-</p><formula xml:id="formula_33">Ϫ Ϫ 2 3</formula><p>work, we can estimate the degree to which S or S is</p><formula xml:id="formula_34">Ϫ Ϫ 2 3</formula><p>bound in the glasses. Because these results are obtained on glasses, not directly on the melt, there is no direct proof that these hypothesized attachments reflect the structure of the melt at higher temperature. However, it is very likely that an anion like S or S , would form</p><formula xml:id="formula_35">Ϫ Ϫ 2 3</formula><p>some sort of bond to structural elements in the melt.</p><p>If <ref type="bibr">[S]</ref> is the concentration of a free (mobile) sulfurbearing species (e.g., S , S , SO 2Ϫ 4 , or S 2Ϫ ) and [N] is</p><formula xml:id="formula_36">Ϫ Ϫ 2 3</formula><p>the concentration of suitable attachment sites in the network, the equilibrium of the reaction S ϩ N ↔ SN deter-mines how many S units are in average free to move at any given time and how many units are tied to the melt structure. This equilibrium has an equilibrium constant K ϭ [SN]/([S][N]). In this simplistic model, the depolarization ratio can be used (at least qualitatively) to estimate this ratio: if [SN] ϭ 0 the depolarization ratio would be close to zero (no asymmetry), whereas if the more molecules are bound in one end (higher [SN]) then the depolarization ratio is higher. Spectra have been obtained from samples with various S and S concentrations and they have all shown the</p><formula xml:id="formula_37">Ϫ Ϫ 2 3</formula><p>same depolarization ratios, indicating that the ratio [SN]/ [S] is constant based on the above assumptions. This implies that the [N] term is dominant. Therefore the number of available sites where the sulfur species can bind is very large compared to the amount of sulfur present. The depolarization ratio was also found to be the same near the low sulfur concentration end of the diffusion profile in sample 1030. If the bonding to the network were slow, this part of the diffusion profile should be dominated by ''free'' sulfur species. However, the data imply the opposite.</p><p>The bond-making/bond-breaking reaction must take place rapidly compared to the rate of diffusion. A rapid ''reaction'' rate means that significant changes may have time to occur during quenching and that detailed in-situ (high temperature) spectroscopic studies will be required to achieve a full understanding of these aspects of melt structures and diffusion. This type of work is important from the point of view of understanding how much of the sulfur is actively diffusing and how fast the ''truly free'' sulfur diffuses.</p><p>The presence of carbon (resulting in the formation of S and S ) and/or the presence of Fe possibly promoting</p><formula xml:id="formula_38">Ϫ Ϫ 2 3</formula><p>more sulfide in the melt (sulfide solubility increases with Fe in the melt, <ref type="bibr" target="#b12">Haughton et al. 1974 and</ref><ref type="bibr" target="#b20">Mathez 1976)</ref>, helps change the state of sulfur so the overall diffusivity increases. This illustrates how the entire chemical environment, not just parameters like the level, determines f o2 the ''physical behavior'' of elements like sulfur.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL RESULTS: SULFUR DIFFUSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Activation energy of diffusion</head><p>Figure <ref type="figure">3</ref> shows an example of a sulfur diffusion profile and Table <ref type="table" target="#tab_1">2</ref> summarizes the results. Experiments at 1400 ЊC and 1 GPa were performed with different run times and with different sulfur concentrations in each end of the diffusion couples: approximately 0-400, 400-1200, and 0-1200 ppm. The results show that the diffusion coefficients do not change significantly with either time or concentration within the ranges investigated. They also show that the results are reproducible. Experiments were performed at 1300, 1400, and 1500 ЊC (Fig. <ref type="figure" target="#fig_4">4</ref> and Table <ref type="table" target="#tab_1">2</ref>). The results can be fitted to an Arrhenius-type relation given by the equation D ϭ D 0 exp(-Q/RT), from which the activation energy, Q (ϭ 458.1 Ϯ 50.8 kJ/mol), and pre-exponential factor, D 0 (ϭ 14.7 Ϯ 39.1 m 2 /s), have  <ref type="bibr">Baker and Rutherord (1996)</ref>. The remaining data are from <ref type="bibr" target="#b30">Watson et al. (1993)</ref>.</p><p>been calculated, with r 2 ϭ 0.988. The calculations are based on average values from Table <ref type="table" target="#tab_1">2</ref>. At 1642 ЊC this activation energy and pre-exponential factor give a diffusion coefficient close to the value calculated from the data of <ref type="bibr" target="#b0">Baker and Rutherford (1996)</ref> for sulfur diffusion in a dry rhyolitic melt at 13-200 kPa and buffered at MNO (short for MnO-Mn 3 O 4 ). However, their equation was not calibrated above 1100 ЊC, so the significance of the similarity is uncertain. At lower temperatures their D values become larger than the values found here. This difference is due probably to the different melt composition and to the possible difference in sulfur species involved in the diffusion. Interestingly, the new sulfur diffusitivities for albite resemble earlier values for dry obsidian obtained under reducing conditions <ref type="bibr" target="#b29">(Watson 1994</ref>) and for dry rhyolite obtained under very oxidizing (in air) conditions <ref type="bibr" target="#b0">(Baker and Rutherford 1996)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Species diffusing</head><p>Five different species could be participating in the diffusion observed in the experiments: S , S , S 2Ϫ , SO , calculated from the sulfate/sulfide ratio based on the Xray peak shift and the total sulfur concentration. As explained previously, part of this ''sulfide'' may actually be S and S if their X-ray peak falls close to the sulfide</p><formula xml:id="formula_39">Ϫ Ϫ 2 3</formula><p>peak position. The amount of sulfate is total sulfur minus the ''sulfide'' (not shown on Figure <ref type="figure">3</ref>). It is remarkable that in sample 1030 (Fig. <ref type="figure">3</ref>), the S Ϫ 2 ϩ S and ''sulfide'' goes up in the diffusion zone and</p><formula xml:id="formula_40">Ϫ 3</formula><p>does not drop until the very end of the diffusion profile. This can be interpreted to mean that S and S diffuse</p><formula xml:id="formula_41">Ϫ Ϫ 2 3</formula><p>faster than the sulfate, which, in view of size and charge arguments, is not unreasonable.</p><p>In some other profiles (samples 0124 and 0126) the sulfide/sulfate ratio stays more constant throughout the diffusion profile and apparently these samples have experienced a faster equilibration between S /S and sul-</p><formula xml:id="formula_42">Ϫ Ϫ 2 3</formula><p>fate; variations in the may cause this. These profiles f o2 also show diffusion coefficients lower than sample 1030, consistent with the conclusion that sulfate diffuses more slowly than S and S .</p><formula xml:id="formula_43">Ϫ Ϫ 2 3</formula><p>Samples 0702, 0707, and 0718 (Table <ref type="table" target="#tab_1">2</ref>) contained an oxidant (NaNO 3 ) and were less strongly violet then the other samples. These samples show larger diffusion coefficients, however, perhaps because the oxidant forms dissolved water by combining with hydrogen in the setup. <ref type="bibr" target="#b0">Baker and Rutherford (1996)</ref> concluded that under all but the most oxidizing (in air) conditions, the principal species diffusing is the sulfide ion (S 2Ϫ ). As seen in this study are thus compatible with the results of <ref type="bibr" target="#b0">Baker and Rutherford (1996)</ref>: the diffusion is dominated by sulfide, S , and S , whereas SO diffuses very slowly. In</p><formula xml:id="formula_44">Ϫ Ϫ 2Ϫ 2 3 4</formula><p>albite, where sulfate is the dominating species, the overall diffusion is very slow-slower, in fact, than any of the other melts shown in Figure <ref type="figure" target="#fig_4">4</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>The 3S 2 ↔ 2S 3 reaction</head><p>The S /(S •S ) Raman peak size ratio varies by 5%</p><formula xml:id="formula_45">Ϫ Ϫ Ϫ 2 2 3</formula><p>across the profile shown for sample 1030 in Figure <ref type="figure">3</ref>, and that there are no systematic trends in the variations. Any apparent variations most likely reflect analytical uncertainties. Because the larger S is likely to move more Ϫ 3 slowly than the smaller but similarly charged S , this Ϫ 2 result shows that the equilibration between the two species is fast relative to the diffusion process. A possible reaction between the two species is:</p><formula xml:id="formula_46">(xMO) ϩ ϩ 3S ↔ (xMO) ϩ 2S Ϫ Ϫ 2 3</formula><p>(3)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effective diffusion radius</head><p>There could be two different reasons why the albite shows lower D values than any of the other melts: (1) the diffusion is controlled by different sulfur species and/or FIGURE 5. Effective diffusion radius shown as a function of temperature. This radius is not the actual physical radius of the diffusing species. The effective diffusion radius is used as a tool for comparing differences in diffusivity after having eliminated the effect of differences in melt viscosity. The melt viscosities used in the calculations were based on <ref type="bibr" target="#b2">Bottinga and Weill (1972)</ref> assuming that there is no change with pressure and that all melts are dry. All experiments, except for the rhyolite, were done at 1 GPa, whereas the rhyolite was investigated at lower pressure. If the pressure effect is taken into account, the 1 GPa values will move to larger radii, more than the rhyolite values will, making the difference between the rhyolite and the rest larger (based on results from <ref type="bibr" target="#b27">Scarfe et al. 1979</ref>). If the small amounts of water in the albite melt is taken into account, the albite line will move to larger radii values corresponding to a slower viscosity adjusted diffusion, separating it from the rest of the melts. All viscosity calculations were based on coefficients for the 0.75-0.81 mole fraction SiO 2 range.</p><p>(2) the albite melt is significantly more polymerized, and has a much higher viscosity, than the other melts. Although the Stokes-Einstein equation does not provide a reliable tool for calculating diffusion coefficients in melts of this type (e.g., <ref type="bibr" target="#b17">Liang et al. 1996)</ref>, it is reasonable to assume that there still will be an inverse proportionality between diffusion coefficients and melt viscosity. The Stokes-Einstein equation has been rearranged to provide an ''effective diffusion radius,'' r ϭ kT/6D, where k is the Boltzmann constant, T is the temperature in K, is the viscosity, and D the diffusion coefficient. The radius calculated here does not correspond to the radius of the actual species diffusing and is exclusively used as a tool for comparing differences in diffusivities over and above the effect of viscosity: The larger the effective diffusion radius the slower the effective diffusivity. Figure <ref type="figure">5</ref> shows a plot where the effective diffusion radius is plotted as a function of temperature for some of the melts shown in Figure <ref type="figure" target="#fig_4">4</ref>. If the relationship between viscosity and temperature is the same as the relationship between the diffusion coefficient and viscosity, all lines should be horizontal in this diagram. The lines for sulfur in dry rhyolite and obsidian are, within error, horizontal. The slope of the line for S /S -bearing albite may result from the un- S over temperature, suggesting that at higher tempera-</p><formula xml:id="formula_47">Ϫ 3</formula><p>tures there is more of the smaller (and faster diffusing) S . Given the uncertainty on the determinations of dif-</p><formula xml:id="formula_48">Ϫ 2</formula><p>fusion coefficients and melt viscosities the ''viscosity-corrected diffusivity'' of sulfur in albite melt is only slightly slower than it is in obsidian and dry dacite. The dry rhyolite <ref type="bibr" target="#b0">(Baker and Rutherford 1996)</ref>, despite a composition almost identical to the obsidian, has a somewhat higher diffusivity. This difference could be caused by differences in sulfur speciation and experimental techniques. If the S and S are the rate-controlling species for diffusion</p><formula xml:id="formula_49">Ϫ Ϫ 2 3</formula><p>in the albite melt, and if sulfide is primarily controlling the diffusion in the obsidian and the dacite, then it appears that the sulfide has a similar or slightly higher rate of diffusion. This conclusion does not, however, take into account how large a fraction of the sulfur is present as very slow-diffusing sulfate.</p><p>Based on the results presented in Figure <ref type="figure">5</ref>, the effective diffusion radius is 8.4 ϫ 10 Ϫ13 m for sulfide-controlled diffusion, 1.5 ϫ 10 Ϫ12 m for S /S -dominated diffusion,</p><formula xml:id="formula_50">Ϫ Ϫ 2 3</formula><p>and much larger still for sulfate-controlled diffusion. This effective diffusion radius takes into account the effect of size as well as bonding to the melt structure. The effective diffusion radius of S /S is a factor 1.8 higher than for</p><formula xml:id="formula_51">Ϫ Ϫ 2 3</formula><p>sulfide. The real radius, not effective diffusion radius, of an S atom (likely to equal the smallest radius of an S-S Ϫ or S-S-S Ϫ molecule) is 1.6 times larger than the radius of an S 2Ϫ ion. Taking all uncertainties into account there is no real difference between the values of 1.6 and 1.8. This result indicates that size is a large part of the explanation for the difference in diffusivity. Raman spectroscopy has shown that the S /S molecules with a valence</p><formula xml:id="formula_52">Ϫ Ϫ 2 3</formula><p>of Ϫ1 do form bonds to the glass structure (and presumably as well to the melt structure); these bonds are, however, likely to be weaker than the bonds formed to the sulfide ion with a valence of Ϫ2. On the other hand, the S /S radical anions are longer than the round sulfide ion</p><formula xml:id="formula_53">Ϫ Ϫ 2 3</formula><p>and thus are hindered in their diffusion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>Sulfur can occur in magmas as sulfate, sulfide, S or</p><formula xml:id="formula_54">Ϫ 2</formula><p>S . The melt composition, in particular the presence or Ϫ 3 absence of chalcophile elements, and the determine f o2 which sulfur species will be present. It was found that in the presence of carbon under reducing conditions, the radical anions S or S form in low concentrations. The sulfate diffuses significantly more slowly than the other species (sulfide, S , or S ), which means that at high</p><formula xml:id="formula_55">Ϫ Ϫ 2 3</formula><p>and in the absence of chalcophile elements the diffu-f o2 sion of sulfur slows down significantly. To compare diffusivities in melts of different compositions an ''effective diffusion radius'' was calculated. Although the Stokes-Einstein equation is known to be invalid for this type of melt, it is assumed that the inverse relationship between melt viscosity and diffusivity nevertheless holds. In this way the calculated radius does not correspond to the actual radius of the species diffusing but it serves as a gauge of viscosity-independent diffusion. It is suggested that these ''effective diffusion radii'' can be used to estimate the diffusion coefficients in any melt as long as the melt viscosity can be estimated accurately at the temperature in concern.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 1 .</head><label>1</label><figDesc>FIGURE 1. Diagram of the cell used in the experimental setup. The outer diameter, Ø, is shown in millimeters.</figDesc><graphic coords="3,104.50,88.00,225.14,288.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 2 .</head><label>2</label><figDesc>FIGURE 2. Raman spectra comparing albite glasses with and without sulfur and carbon. To improve the clarity of this figure the y axis is logarithmic and the pure albite glass signal has been multiplied by a factor 10.</figDesc><graphic coords="6,87.85,88.00,227.23,209.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>2 S</head><label>2</label><figDesc>man experiments are summarized in Table5. Pure albite glass exhibits Raman shifts of 476, 588, 810, and 1096 cm Ϫ1 , which are associated with Si-O-Si and Al-O-Si stretching and bending vibrational modes. In addition to the albite glass peaks, the Raman spectra from violetcolored, sulfur-bearing glasses exhibit an enhanced background-scattering level and Raman shifts, which are assigned to fundamental and overtone vibrations of S and Ϫ . Using the work of<ref type="bibr" target="#b6">Clark and Franks (1975)</ref> and ClarkϪ  3   et al. (1983)  as a basis for the assignment, the fundamental and the first two overtones for the S and S sym-</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>present in the samples. Using the 1064 nm laser line for excitation, one might expect resonanceenhanced Raman scattering due to S because it possess-Ϫ 4 es a strong electronic absorption band in the red wavelength region. However, none of the characteristic peaks of S were found(384, 439, 518, and  815 cm Ϫ1 ; Clark Ϫ 4 and Cobbold 1978). CS 2 has two characteristic lines, 655 and 796 cm Ϫ1 (Hibben 1939); however, neither line was observed.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>FIGURE 4 .</head><label>4</label><figDesc>FIGURE 4. Arrhenius type plot showing the relationship between temperature and diffusion coefficients for various magma compositions. Albite data are from this study. Rhyolite (dry in air, dry at MNO and 7% water) is fromBaker and Rutherord  (1996). The remaining data are from<ref type="bibr" target="#b30">Watson et al. (1993)</ref>.</figDesc><graphic coords="9,105.50,88.00,223.12,218.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>2 ϩ</head><label>2</label><figDesc>. The fastest-diffusing form will have a major influence on the overall diffusion rate. There are three ways by which we can gain insight into what species are actually responsible for the mass transport: variations in sulfide/sulfate ratios along the diffusion profile; variation in bulk diffusion with different degrees of violet coloration; and variations in the Raman intensity of the S and SϪ Ϫ 2 3peaks along the diffusion profile. Figure3shows a diffusion profile where total sulfur, sulfide, and relative S Ϫ S are shown as a function of distance. The sulfide is Ϫ 3</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>Figure 4, their results indicate that in very oxidized samples the diffusion rate is roughly 2 orders of magnitude slower, showing that the SO is very slowly diffusing. The albite 2Ϫ 4 melt investigated here contains very little (if any) sulfide, even at very low , and S and S must diffuse signifthe SO group. The results found in 2Ϫ 4</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>temperature dependence of the D value: The value at 1400 ЊC is well determined whereas only a couple of results exist for other temperatures. It could also reflect a change in the relative amounts of S andϪ 2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 .</head><label>1</label><figDesc>Microprobe analyses* of starting materials Note: The sulfur-bearing glass contain approximately 0.1% H 2 O while the sulfur-free glass contain approximately 0.05%. The sodium values are slightly low due to volatilization of sodium during analysis.</figDesc><table><row><cell>Sample</cell><cell>Albite</cell><cell>Albite (with S)</cell></row><row><cell>SiO 2</cell><cell>68.2</cell><cell>68.4</cell></row><row><cell>Al 2 O 3</cell><cell>19.3</cell><cell>19.6</cell></row><row><cell>Na 2 O</cell><cell>11.1</cell><cell>11.3</cell></row><row><cell>ZrO 2</cell><cell>0.12</cell><cell>0.01</cell></row><row><cell>GeO 2</cell><cell>0.18</cell><cell>0.00</cell></row><row><cell>Ga 2 O 3</cell><cell>0.14</cell><cell>0.00</cell></row><row><cell>FeO</cell><cell>0.00</cell><cell>0.01</cell></row><row><cell>S</cell><cell>0.00</cell><cell>0.11</cell></row><row><cell>Total</cell><cell>99.0</cell><cell>99.4</cell></row></table><note><p>* In weight percent.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2 .</head><label>2</label><figDesc>Run conditions and results of selected diffusion experiments</figDesc><table><row><cell></cell><cell>Temperature</cell><cell>Pressure</cell><cell>Time</cell><cell>High sulfur</cell><cell>Low sulfur</cell><cell>Sulfur D</cell><cell>Zirconium D</cell></row><row><cell>Run id.</cell><cell>(ЊC)</cell><cell>(GPa)</cell><cell>(h)</cell><cell>(ppm)</cell><cell>(ppm)</cell><cell>(10 Ϫ14 m 2 /s)</cell><cell>(10 Ϫ14 m 2 /s)</cell></row><row><cell>0124</cell><cell>1400</cell><cell>1.04</cell><cell>5</cell><cell>325</cell><cell>0</cell><cell>6.39</cell><cell>3.25</cell></row><row><cell>0126</cell><cell>1400</cell><cell>1.04</cell><cell>5</cell><cell>994</cell><cell>457</cell><cell>5.81, 5.92</cell><cell>2.38</cell></row><row><cell>0214</cell><cell>1400</cell><cell>1.04</cell><cell>50</cell><cell>433</cell><cell>0</cell><cell>5.03, 6.96</cell><cell>0.87, 1.65</cell></row><row><cell>0217</cell><cell>1400</cell><cell>1.05</cell><cell>50</cell><cell>1140</cell><cell>479</cell><cell>4.62, 6.72</cell><cell>1.09, 2.74</cell></row><row><cell>0221</cell><cell>1400</cell><cell>1.03</cell><cell>50</cell><cell>1107</cell><cell>0</cell><cell>4.62, 4.24</cell><cell>2.65, 3.30</cell></row><row><cell>0310</cell><cell>1300</cell><cell>1.05</cell><cell>68</cell><cell>1026</cell><cell>1</cell><cell>1.00</cell><cell>1.2</cell></row><row><cell>0314</cell><cell>1500</cell><cell>1.05</cell><cell>5</cell><cell>1126</cell><cell>44</cell><cell>52.9</cell><cell></cell></row><row><cell>0702</cell><cell>1400</cell><cell>1.00-1.08</cell><cell>9.28</cell><cell>1239</cell><cell>0</cell><cell>11.2, 28.1</cell><cell></cell></row><row><cell>0707</cell><cell>1400</cell><cell>1.10</cell><cell>4.00</cell><cell>1185</cell><cell>0</cell><cell>11.6, 19.0</cell><cell></cell></row><row><cell>0718</cell><cell>1400</cell><cell>1.09</cell><cell>4.00</cell><cell>1366</cell><cell>10</cell><cell>64.9</cell><cell></cell></row><row><cell>1030</cell><cell>1400</cell><cell>1.07-1.08</cell><cell>9.62</cell><cell>1398</cell><cell>0</cell><cell>22.5</cell><cell></cell></row><row><cell cols="7">Note: Samples 0702, 0707, and 0718 contain sodium nitrate and were less strongly violet than the other samples.</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 3 .</head><label>3</label><figDesc>Run conditions of selected synthesis runs and runs for investigating the sulfur sepciation Si ϩ Al ϩ Na 2 SO 4</figDesc><table><row><cell></cell><cell>T</cell><cell>P</cell><cell>Time</cell><cell>Sulfur</cell><cell></cell></row><row><cell>Run id.</cell><cell>(ЊC)</cell><cell>(GPa)</cell><cell>(h)</cell><cell>(ppm)</cell><cell>Comments</cell></row><row><cell>0107</cell><cell>1400</cell><cell>1.05</cell><cell>1.0</cell><cell>ഠ1500</cell><cell>clear except few violet spots</cell></row><row><cell>0219</cell><cell>1400</cell><cell>1.08</cell><cell>1.0</cell><cell>ഠ1500</cell><cell>violet glass</cell></row><row><cell>0307</cell><cell>1400</cell><cell>1.08</cell><cell>1.0</cell><cell>ഠ1500</cell><cell>violet glass</cell></row><row><cell>0313</cell><cell>1400</cell><cell>1.07</cell><cell>4.0</cell><cell>0/20 000</cell><cell>albite w/2% sulfate in graphite container</cell></row><row><cell>0315</cell><cell>1400</cell><cell>0.99</cell><cell>13.4</cell><cell>0</cell><cell>0.8% graphite, black</cell></row><row><cell>0316</cell><cell>1400</cell><cell>1.05</cell><cell>1.0</cell><cell>ഠ1500</cell><cell>homogenized in water (no ethanol)</cell></row><row><cell>0317</cell><cell>1400</cell><cell>1.05</cell><cell>1.0</cell><cell>ഠ1500</cell><cell>homogenized in water (no ethanol)</cell></row><row><cell>0408</cell><cell>1400</cell><cell>1.05</cell><cell>4.0</cell><cell></cell><cell>barite-albite no graphite</cell></row><row><cell>0409</cell><cell>1400</cell><cell>1.05</cell><cell>4.0</cell><cell></cell><cell>barite-albite w/675 ppm C as graphite</cell></row><row><cell>0410</cell><cell>1400</cell><cell>1.05</cell><cell>4.0</cell><cell></cell><cell>barite-albite w/8000 ppm C as graphite</cell></row><row><cell>0414</cell><cell>1400</cell><cell>1.05</cell><cell>1.0</cell><cell></cell><cell>albite with 675 ppm C as CO 2</cell></row><row><cell>0415</cell><cell>1400</cell><cell>1.05</cell><cell>2.0</cell><cell></cell><cell>albite above albite w/Ga, Ge, and Zr</cell></row><row><cell>0416</cell><cell>1400</cell><cell>1.05</cell><cell>2.0</cell><cell></cell><cell>barite-albite no graphite</cell></row><row><cell>0417</cell><cell>1400</cell><cell>1.05</cell><cell>2.0</cell><cell></cell><cell>barite-albite w/675 ppm C as CO 2</cell></row><row><cell>0418</cell><cell>1400</cell><cell>1.05</cell><cell>2.0</cell><cell></cell><cell>barite-albite w/675 ppm C as graphite</cell></row><row><cell>0421</cell><cell>1400</cell><cell>1.05</cell><cell>1.0</cell><cell></cell><cell>albite w/675 ppm CO 2 , 1000 ppm excess O 2 from NaNO 3 and Zr, Ge,</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Ga</cell></row><row><cell>0422</cell><cell>1400</cell><cell>1.05</cell><cell>2.0</cell><cell></cell><cell>barite-albite w/CO 2 (0421)</cell></row><row><cell>0423</cell><cell>1400</cell><cell>1.05</cell><cell>2.0</cell><cell></cell><cell>barite-albite w/675 ppm graphite, no Pt</cell></row><row><cell>0424</cell><cell>1400</cell><cell>1.05</cell><cell>2.0</cell><cell></cell><cell>as 0423 but with Pt sleeve</cell></row><row><cell>0425</cell><cell>1400</cell><cell>1.05</cell><cell>2.0</cell><cell></cell><cell>barite-albite (decarbonated at 1093 ЊC)</cell></row><row><cell>0426</cell><cell>1400</cell><cell>1.05</cell><cell>1.0</cell><cell></cell><cell>re-melting of 0316 and 0317</cell></row><row><cell>0506</cell><cell>1400</cell><cell>1.05</cell><cell>16.8</cell><cell></cell><cell>barite/albite heated to Ͼ900 ЊC</cell></row><row><cell>0511</cell><cell>1400</cell><cell>1.06</cell><cell>1.0</cell><cell></cell><cell>albite w/675 ppm C as CO 2 plus NO x</cell></row><row><cell>0613</cell><cell>1400</cell><cell>1.05</cell><cell>1.25</cell><cell></cell><cell>violet S-bearing albite glass in capsule w/Zr lid and Ti bottom. Color</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>vanished near metal.</cell></row><row><cell>0618</cell><cell>1400</cell><cell>1.04</cell><cell>1.0</cell><cell></cell><cell>violet glass ϩ Al 2 O 3 ϩ SiO 2 ϩ NaNO 3</cell></row><row><cell>0626</cell><cell>1400</cell><cell>1.06</cell><cell>1.0</cell><cell></cell><cell>albite w/Na 2 NO 3 , NaSO 4 , Al 2 O 3 , SiO 2</cell></row><row><cell>0627</cell><cell>1400</cell><cell>1.06</cell><cell>1.0</cell><cell></cell><cell>albite w/Na 2 NO 3 , NaSO 4 , Al 2 O 3 , SiO 2</cell></row><row><cell>0628</cell><cell>1400</cell><cell>1.05</cell><cell>1.0</cell><cell></cell><cell>0626 ϩ 0627</cell></row><row><cell>1018</cell><cell>1400</cell><cell>1.10</cell><cell>1.0</cell><cell>0</cell><cell>albite (no sulfur)</cell></row><row><cell>1213</cell><cell>1400</cell><cell>1.04</cell><cell>3.0</cell><cell></cell><cell>albite ϩ</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>TABLE 4 .</head><label>4</label><figDesc>Examples of sulfur peak positions in different standards and samples</figDesc><table><row><cell></cell><cell></cell><cell>Peak</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>position</cell><cell></cell><cell></cell></row><row><cell></cell><cell>Total</cell><cell>relative</cell><cell>%</cell><cell></cell></row><row><cell></cell><cell>sulfur</cell><cell>to barite</cell><cell>Sulfide</cell><cell></cell></row><row><cell>Sample</cell><cell>(ppm)</cell><cell>(mm)</cell><cell>(est.)</cell><cell>Interpretation</cell></row><row><cell>ZnS</cell><cell></cell><cell>ϩ0.109</cell><cell>100</cell><cell></cell></row><row><cell>PbS</cell><cell></cell><cell>ϩ0.101</cell><cell>95</cell><cell></cell></row><row><cell>FeAsS</cell><cell></cell><cell>ϩ0.094</cell><cell>89</cell><cell></cell></row><row><cell>FeS 2</cell><cell></cell><cell>ϩ0.088</cell><cell>82</cell><cell>The covalent bond makes pyrite different from the above sulfides</cell></row><row><cell>S, yellow</cell><cell></cell><cell>ϩ0.088</cell><cell>ϳ87</cell><cell>S-S bonds</cell></row><row><cell>S, orange</cell><cell></cell><cell>ϩ0.079</cell><cell>ϳ83</cell><cell>S-S bonds, larger spacing</cell></row><row><cell>SrSO 4</cell><cell></cell><cell>ϩ0.005</cell><cell>Ϫ2</cell><cell>S-O bonds, ''typical'' sulfate.</cell></row><row><cell>BaSO 4</cell><cell></cell><cell>0.000</cell><cell>0</cell><cell>S-O bonds, ''typical'' sulfate.</cell></row><row><cell>0107</cell><cell>1589</cell><cell>Ϫ0.004</cell><cell>7</cell><cell>almost clear glass</cell></row><row><cell>0126, profile B, point 3</cell><cell>448</cell><cell>ϩ0.001</cell><cell>7</cell><cell>0% of max. sulfur</cell></row><row><cell>0126, profile B, point 9</cell><cell>482</cell><cell>Ϫ0.011</cell><cell>1</cell><cell>0% of max. sulfur</cell></row><row><cell>0126, profile B, point 15</cell><cell>618</cell><cell>ϩ0.002</cell><cell>3</cell><cell>29% of max. sulfur</cell></row><row><cell>0126, profile B, point 17</cell><cell>878</cell><cell>Ϫ0.009</cell><cell>1</cell><cell>73% of max. sulfur</cell></row><row><cell>0126, profile B, point 19</cell><cell>980</cell><cell>ϩ0.004</cell><cell>2</cell><cell>97% of max. sulfur</cell></row><row><cell>0126, profile B, point 23</cell><cell>984</cell><cell>ϩ0.012</cell><cell>5</cell><cell>100% of max. sulfur</cell></row><row><cell>0313, 30 m into graphite</cell><cell>2339</cell><cell>ϩ0.090</cell><cell>76</cell><cell>Sulfide, e.g., CS 2</cell></row><row><cell>0313, 90 m from graphite</cell><cell>3282</cell><cell>ϩ0.01</cell><cell>7</cell><cell>Even close to the graphite sulfate dominates; sulfate is very stable.</cell></row><row><cell>(dark rim between violet glass</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>and graphite)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>0313, 1040 m from graphite</cell><cell>1952</cell><cell>ϩ0.010</cell><cell>4</cell><cell>Violet glass.</cell></row><row><cell>0613, very near Zr metal</cell><cell>1300</cell><cell>Ϫ0.004</cell><cell>9</cell><cell></cell></row><row><cell>0613, very near Ti metal</cell><cell>1151</cell><cell>Ϫ0.002</cell><cell>13</cell><cell></cell></row><row><cell>0626</cell><cell>1421</cell><cell>ϩ0.002</cell><cell>10</cell><cell></cell></row><row><cell>0628, Clear glass</cell><cell>944</cell><cell>ϩ0.009</cell><cell>10</cell><cell></cell></row><row><cell>1030, profile 6, point 23</cell><cell>1399</cell><cell>ϩ0.003</cell><cell>12</cell><cell>99% of max. sulfur</cell></row><row><cell>1030, profile 6, point 33</cell><cell>1189</cell><cell>ϩ0.011</cell><cell>20</cell><cell>83% of max. sulfur</cell></row><row><cell>1030, profile 6, point 38</cell><cell>694</cell><cell>ϩ0.020</cell><cell>33</cell><cell>63% of max. sulfur</cell></row><row><cell>1030, profile 6, point 43</cell><cell>446</cell><cell>ϩ0.037</cell><cell>41</cell><cell>38% of max. sulfur</cell></row><row><cell>1030, profile 6, point 47</cell><cell>339</cell><cell>ϩ0.016</cell><cell>39</cell><cell>20% of max. sulfur</cell></row><row><cell>1030, profile 6, point 49</cell><cell>412</cell><cell>ϩ0.099</cell><cell>80</cell><cell>14% of max. sulfur</cell></row><row><cell>1030, profile 6, point 53</cell><cell>202</cell><cell>ϩ0.104</cell><cell>86</cell><cell>6% of max. sulfur</cell></row></table><note><p>Note: Barite peak position 171.906 mm. For diffusion profiles the location within the profile is given as a percent of the sulfur in the doped half of the diffusion couple.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>TABLE 5 .</head><label>5</label><figDesc>Summary of selected Raman peaks and their interpretation</figDesc><table><row><cell></cell><cell>Depolar-</cell><cell></cell><cell></cell><cell></cell><cell>Albite</cell><cell>Albite</cell><cell></cell><cell></cell><cell>Albite</cell><cell></cell></row><row><cell></cell><cell>ization</cell><cell></cell><cell>Albite</cell><cell>Albite</cell><cell>w/CO 2 ϩ</cell><cell>w/CO 2 ϩ</cell><cell>Albite</cell><cell>Albite</cell><cell>w/S ϩ C</cell><cell></cell></row><row><cell>Peak (cm Ϫ1 )</cell><cell>ratio,</cell><cell>Albite</cell><cell>w/C</cell><cell>w/CO 2</cell><cell>NO x</cell><cell>H 2 O</cell><cell>w/S</cell><cell>w/S ϩ C</cell><cell>by spot</cell><cell>Interpretation</cell></row><row><cell>color</cell><cell></cell><cell>clear</cell><cell>black</cell><cell>black</cell><cell>clear</cell><cell>milky</cell><cell>clear</cell><cell>violet</cell><cell>violet</cell><cell></cell></row><row><cell>215</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>-</cell><cell>x</cell><cell></cell></row><row><cell>241</cell><cell>0.31</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell></cell><cell></cell></row><row><cell>264</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell>x</cell><cell></cell></row><row><cell>377-400</cell><cell></cell><cell>x</cell><cell>x</cell><cell>x</cell><cell>x</cell><cell></cell><cell>x</cell><cell></cell><cell></cell><cell></cell></row><row><cell>476</cell><cell>0.00</cell><cell>X</cell><cell>X</cell><cell>X</cell><cell>X</cell><cell></cell><cell>X</cell><cell>( x )</cell><cell></cell><cell>Si-O-Si</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>bending</cell></row><row><cell>481</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>535-540</cell><cell>0.52</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>X</cell><cell></cell><cell>S (v) Ϫ 3</cell></row><row><cell>5 8 5</cell><cell></cell><cell>x</cell><cell>x</cell><cell>x</cell><cell>x</cell><cell></cell><cell>x</cell><cell></cell><cell></cell><cell></cell></row><row><cell>583-588</cell><cell>0.52</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>X</cell><cell></cell><cell>S (v) Ϫ 2</cell></row><row><cell>702</cell><cell></cell><cell></cell><cell>x</cell><cell>x</cell><cell>x</cell><cell></cell><cell>x?</cell><cell></cell><cell></cell><cell></cell></row><row><cell>793-810</cell><cell></cell><cell>X</cell><cell>x</cell><cell>x</cell><cell>x</cell><cell></cell><cell>x</cell><cell>x</cell><cell></cell><cell>Si-O-Si or Si-O-Al</cell></row><row><cell>9 8 0</cell><cell></cell><cell>x</cell><cell>x</cell><cell>x</cell><cell>x</cell><cell>x</cell><cell>x</cell><cell>( x )</cell><cell></cell><cell>Si-O Ϫ</cell></row><row><cell>988</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1066</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1094</cell><cell></cell><cell>X</cell><cell>x</cell><cell>x</cell><cell>x</cell><cell>x</cell><cell>X</cell><cell></cell><cell></cell><cell>Si-O-Si</cell></row><row><cell>1094-1101</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>X</cell><cell>X</cell><cell>S (2v) Ϫ 3</cell></row><row><cell>1122 (sharp)</cell><cell></cell><cell>x</cell><cell>X</cell><cell>x</cell><cell>x</cell><cell>x</cell><cell>(x)</cell><cell>x</cell><cell>x</cell><cell></cell></row><row><cell>1184-1187</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell>x</cell><cell>S (2v) Ϫ 2</cell></row><row><cell>1313</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell></cell><cell></cell></row><row><cell>1348</cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell>CO 2</cell></row><row><cell>1355-1362</cell><cell></cell><cell></cell><cell>x</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1546</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell></cell></row><row><cell>1576</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell></cell></row><row><cell>1581-1585</cell><cell></cell><cell></cell><cell>X</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1599</cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1625</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>S (3v) Ϫ 3</cell></row><row><cell>1634</cell><cell></cell><cell></cell><cell>(x)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell></cell><cell>OH Ϫ</cell></row><row><cell>1755</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell>S (3v) Ϫ 2</cell></row><row><cell>1937</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell></cell><cell></cell></row><row><cell>1944</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>x</cell><cell></cell></row><row><cell>2106</cell><cell></cell><cell>x</cell><cell>x</cell><cell></cell><cell></cell><cell>-</cell><cell>x</cell><cell>-</cell><cell>-</cell><cell></cell></row><row><cell>background</cell><cell></cell><cell>flat</cell><cell>flat</cell><cell>flat</cell><cell>flat</cell><cell>flat</cell><cell>weak slope</cell><cell>slope</cell><cell>slope</cell><cell></cell></row></table><note><p><p>X ϭ very strong peak; X ϭ strong peak; x ϭ peak visible; (x) ϭ occasionally visible; blank field ϭ no peak. If the position was outside the range scanned it is marked with an ''-''. Peak identifications based on</p><ref type="bibr" target="#b10">Fuxi 1992;</ref><ref type="bibr" target="#b13">Hibben 1939;</ref><ref type="bibr" target="#b16">Kubicki and Stolper 1995;</ref><ref type="bibr" target="#b21">Meites 1963.</ref> </p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Downloaded from https://pubs.geoscienceworld.org/msa/ammin/article-pdf/83/11-12_Part_1/1141/3604137/1141.pdf by Wesleyan University user</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This work was supported by <rs type="funder">NSF</rs> grant no. <rs type="grantNumber">EAR-9406914</rs> to <rs type="person">E.B. Watson</rs>. <rs type="person">Daniel Moore</rs> and <rs type="person">Daniele Cherniak</rs> are thanked for their contributions to this work. <rs type="person">Leslie Baker</rs> and <rs type="person">Simon Poulson</rs> are thanked for their valuable comments. The following are thanked for their assistance with analytical work: <rs type="person">Tom Apple</rs> (RPI-spectroscopy techniques) , <rs type="person">Peter Codella</rs> (<rs type="projectName">GE-Raman</rs>), <rs type="person">Steve Crichton</rs> (<rs type="affiliation">RPI-FTIR</rs>), <rs type="person">Todd Przybycien</rs> and <rs type="person">Samir Sane</rs> (<rs type="affiliation">RPI-Raman</rs>), <rs type="person">Joseph Warden</rs> (<rs type="projectName">RPI-ESR spectrum and interpretation</rs>), <rs type="person">David Wark</rs> (<rs type="grantNumber">RPI-microprobe</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_a6yA5MV">
+					<idno type="grant-number">EAR-9406914</idno>
+					<orgName type="project" subtype="full">GE-Raman</orgName>
+				</org>
+				<org type="funded-project" xml:id="_NUnm57E">
+					<idno type="grant-number">RPI-microprobe</idno>
+					<orgName type="project" subtype="full">RPI-ESR spectrum and interpretation</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Sulfur diffusion in rhyolite melts</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rutherford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contributions to Mineralogy and Petrology</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="335" to="344" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Pyrrhotite solubility in hydrous albite melts</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Bradbury</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983">1983</date>
+			<biblScope unit="page">136</biblScope>
+			<pubPlace>University Park, Pennsylvania</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Pennsylvania State University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.D. thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The viscosity of magmatic silicate liquids: a model for calculation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bottinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Weill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Science</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="438" to="475" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Sulfur speciation in hydrous experimental glasses of varying oxidation state: results from measured wavelength shifts of sulfur X-rays</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Carroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rutherford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Mineralogist</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="845" to="849" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Characterization of Sulfur Radical Anions in solutions of Alkali Polysulfides in Dimethylformamide and Hexamethylphosphoramide and in the Solid State in Ultramarine Blue</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J H</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Cobbold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inorganic Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="3169" to="3174" />
+			<date type="published" when="1978">1978</date>
+			<pubPlace>Green, and Red</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">On the nature of the sulfur chromophores in ultramarine blue, green, violet, and pink and of the selenium chromophore in ultramarine selenium: characterization of radical anions by electronic and resonance Raman spectroscopy and the determination of their excited-state geometries</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J H</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Dines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kurmoo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inorganic Chemistry</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="2766" to="2772" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The Resonance Raman Spectrum of Ultramarine Blue</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J H</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Franks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Physics Letters</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="69" to="72" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Calculation of the ground state electronic structures and electronic spectra of di-and trisulfide radical anions by the scattered wave-SCF-X alpha method</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Cotton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Harmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Hedges</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976">1976</date>
+			<publisher>American Chemical Socciety</publisher>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="1417" to="1424" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The behaviour of sulphur in silicate and aluminate melts</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J B</forename><surname>Fincham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D</forename><surname>Richardson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Proceedings of the Royal Society of London, Series A, Mathematical and Physical Series</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="page" from="40" to="61" />
+			<date type="published" when="1954">1954</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The speciation of carbon dioxide in sodium aluminosilicate glasses</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stolper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contributions to Mineralogy and Petrology</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="105" to="121" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Optical and Spectroscopic Properties of Glass</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fuxi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+			<publisher>Springer-Verlag</publisher>
+			<biblScope unit="page">283</biblScope>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">b) The C-O-H-S gaseous system, part II: temperature, atomic composition, and molecular equilibria in volcanic gases</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Gerlach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Nordlie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Science</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page" from="395" to="410" />
+			<date type="published" when="1975">1975. 1975. 1975</date>
+		</imprint>
+	</monogr>
+	<note>American Journal of Science</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Solubility of sulfur in mafic magmas</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Haughton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Roeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Skinner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic Geology</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="451" to="467" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">The Raman Effect and its Chemical Applications</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Hibben</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1939">1939</date>
+			<publisher>Reinhold Publishing Corporation</publisher>
+			<biblScope unit="page">544</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Buffering techniques for hydrostatic systems at elevated pressures</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Huebner</surname></persName>
+		</author>
+		<editor>G.C. Ulmer</editor>
+		<imprint>
+			<date type="published" when="1971">1971</date>
+			<publisher>Springer-Verlag</publisher>
+			<biblScope unit="page" from="123" to="178" />
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Research techniques for high pressure and high temperature</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Magma mixing as a source for Pinatubo sulphur</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kress</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">389</biblScope>
+			<biblScope unit="page" from="591" to="593" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Structural roles of CO 2 and [CO 3 ] 2 -in fully polymerized sodium aluminosilicate melts and glasses</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Kubicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Stolper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochimica et Cosmochimica Acta</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="683" to="698" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Diffusion in silicate melts: I. Self diffusion in CaO-Al 2 O 3 -SiO 2 at 1500ЊC and 1</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Gpa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochimica et Cosmochimica Acta</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="4353" to="4367" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Electron paramagnetic resonance study of S formed on magnesium oxide</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lunsford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Johnson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Chemical Physics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="2079" to="2083" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Sulfur solubility and magmatic sulfides in submarine basalt glass</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Mathez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="4269" to="4276" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Handbook of Analytical Chemistry</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Meites</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1963">1963</date>
+			<publisher>McGraw Hill Book Co., Inc</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Solubility of volatiles in silicate melts under the pressure and temperature conditions of partial melting in the upper mantle</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J B</forename><surname>Dick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">proceedings of the American Geophysical Union Chapman conference on partial melting in the Earth&apos;s upper mantle</title>
+		<meeting>the American Geophysical Union Chapman conference on partial melting in the Earth&apos;s upper mantle</meeting>
+		<imprint>
+			<date type="published" when="1977">1977. 1977</date>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+		</imprint>
+	</monogr>
+	<note>Magma genesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Solubility of sulfur in CaMgSi 2 O 6 and NaAlSi 3 O 8 melts at high pressure and temperature with controlled and</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Popp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Science</title>
+		<imprint>
+			<biblScope unit="volume">280</biblScope>
+			<biblScope unit="page" from="78" to="92" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The solubility of sulfur in Na 2 O-SiO 2 melts under various oxygen partial pressures at 1100, 1250 and 1300ЊC</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nagashima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Katsura</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bulletin of the Chemical Society of Japan</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="3099" to="3103" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">An evaluation of the solubility of sulfide sulfur in silicate melts from experimental data and natural samples</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Poulson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ohmoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chemical Geology</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="57" to="75" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Ein beitrag zur geochemie des schwefels</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ricke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochimica et Cosmochimica Acta</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="35" to="80" />
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Changes in Viscosity and Density of Melts of Sodium Disilicate, Sodium Metasilicate, and Diopside Composition with Pressure</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Virgo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Report of the Director</title>
+		<imprint>
+			<date type="published" when="1978">1979. 1978-1979. 1978</date>
+			<publisher>Carnegie Institution</publisher>
+		</imprint>
+	</monogr>
+	<note>Yearbook</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Water in Albitic Glass</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stolper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Petrology</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="667" to="709" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Diffusion in volatile bearing magmas</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mineralogical Society of America Reviews in Mineralogy</title>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="371" to="411" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Initial report on sulfur diffusion in magmas</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Wark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Delano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EOS</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page">620</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

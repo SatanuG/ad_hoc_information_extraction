@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Diffusive crystal dissolution</title>
+				<funder ref="#_eS48kNX #_hEqdgAR #_zFWc7GQ">
+					<orgName type="full">National Science Foundation</orgName>
+					<orgName type="abbreviated">NSF</orgName>
+				</funder>
+				<funder ref="#_ZMmxjkr">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_qtEpFdw">
+					<orgName type="full">DOE</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Youxue</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><surname>Walker</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Charles</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Lamont-Doherty Geological Observatory and Department of Geological Sciences</orgName>
+								<orgName type="institution">Columbia University</orgName>
+								<address>
+									<postCode>10964</postCode>
+									<settlement>Palisades, New York</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Division of Geological and Planetary Sciences</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<postCode>170-25, 91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Diffusive crystal dissolution</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">5EF4CE3331F5EDD6299BAFFAD0D22D51</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Crystal dissolution may include three component processes: interface reaction, diffusion and complications due to convection. We report here a theoretical and experimental study of crystal dissolution in silicate melt without convection. A reaction-diffusion equation is developed and numerically solved. The results show that during non-convective crystal dissolution in silicate melt, the interface melt composition reaches a constant or stationary "saturation" composition in less than a second, hence interface reaction is not the rate-determining step and crystal dissolution in silicate melt is usually diffusion-controlled. Crystal dissolution experiments (designed to suppress convection) show that the concentration profiles of all components propagate into the melt according to the square root of run duration, and that the dissolution distance is also proportional to the square root of run duration. Thus our experiments confirm that the dissolution is diffusion controlled, which is consistent with our numerical calculations. For some principal equilibrium-determining components, concentration profiles conform approximately to the analytical solution of the diffusion equation with a constant effective binary diffusion coefficient. Diffusive dissolution rates (which are inversely proportional to square root of time) can thus be predicted from the phase equilibria and the effective binary diffusion coefficients. To predict steady-state convective dissolution rates, the thickness of the boundary layer must be known. If the convective compositional boundary layer thickness around a dissolving crystal aggregate or near the wall of a magma chamber during convection is about 2 cm or larger, then convective dissolution would rarely result in any significant alteration of original melt. Our dissolution experiments also illustrate the complexity of the diffusion process. Uphill diffusion is common, especially during olivine dissolution into andesitic melt where a majority of the components show the effect of diffusion up their own concentration gradients. Uphill diffusion has implications to the understanding of crystal zoning, and suggests caution is required in applying least squares mass balance analysis to magmatic rocks affected by processes involving diffusion.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>An understanding of the processes by which crystals dissolve is necessary for the study of many geological processes, such as the partial melting of mantle and crustal rocks, and the subsequent contamination of these magmas once they leave their source region. Previous studies of crystal dissolution encompass both theoretical and experimental approaches. <ref type="bibr" target="#b22">Kirkpatrick (1975)</ref>, <ref type="bibr" target="#b13">Dowty (1980)</ref>, and <ref type="bibr">Kirkpatrick (198l)</ref> reviewed the theoretical background of crystal growth, much of which can also be applied to crystal dissolution. Two processes, reaction at the crystal-melt interface and diffusion in the melt (or in the crystal), happen simultaneously during non-convective crystal dissolution. The dissolution rate (or the growth rate) may be controlled by either interface reaction or diffusion. If the reaction at the crystal-melt interface is slow compared to diffusion in the melt (or crystal), or no diffusion is necessary, the process is controlled by the rate of interface reaction; otherwise, if diffusion in the melt (or the crystal) is necessary and is slow compared to the attachment and detachment of atoms at the interface, the process is controlled by diffusion. The coupling of interface reaction and diffusion makes it very difficult to analytically treat even the non-convective crystal dissolution (or growth) problem. <ref type="bibr" target="#b29">Lasaga (1982)</ref> was the first to consider the coupling of interface reaction and diffusion through a crystal growth equation in which the growth rate (or interface reaction rate) was related to time or interface concentration. (Prior to <ref type="bibr" target="#b29">Lasaga 1982</ref>, analytical treatment of crystal dissolution either assumed constant growth rate or used a Stephan approach, i.e., t-t/2 dependence of growth rate.) Lasaga obtained a solution for the interface composition in the form of an integral equation by using a Laplace transform with respect to x (instead of t as in the usual approach). The solution can be applied to any system if the growth rate can be written as a function of melt composition.</p><p>Experimental studies of crystal dissolution have been conducted by <ref type="bibr" target="#b54">Watson (1982a)</ref>; <ref type="bibr" target="#b50">Tsuchiyama and Takahashi (1983)</ref>; <ref type="bibr">Harrison and</ref><ref type="bibr">Watson (1983, 1984)</ref>; <ref type="bibr" target="#b12">Donaldson (1985)</ref>; Kuo and <ref type="bibr" target="#b24">Kirkpatrick (1985)</ref>; <ref type="bibr" target="#b33">Marvin and Walker (1985)</ref>; <ref type="bibr">Tsuchiyama (1985a, b)</ref>; <ref type="bibr" target="#b6">Brearley and Scarfe (1986)</ref>. Among them, <ref type="bibr" target="#b50">Tsuchiyama and Takahashi (1983)</ref>, <ref type="bibr" target="#b33">Marvin and Walker (1985)</ref> and <ref type="bibr">Tsuchiyama (1985a, b)</ref> examined the kinetics of partial melting at the mutual boundary of two crystals or of crystal dissolution into finite melt reservoirs. These studies differ significantly from what we will report in this paper and will not be discussed further. <ref type="bibr" target="#b54">Watson (1982a)</ref> determined experimental dissolution rates of quartz, feldspar, and a synthetic granite in basaltic melt. He noted uphill diffusion and addressed its significance in the selective contamination of mantle-derived magmas. <ref type="bibr" target="#b12">Donaldson (1985)</ref> determined the dissolution rates of olivine, plagioclase and quartz in basaltic melt. <ref type="bibr" target="#b24">Kuo and Kirkpatrick (1985)</ref> studied the dissolution rate of forsterite, diopside, enstatite, and quartz in the system Di-Fo--SiO 2 at 1 atmosphere. They all found that the dissolution rate was time-independent (explained by free convection in the experimental charge) and independent of crystallographic orientation. <ref type="bibr">Harrison and</ref><ref type="bibr">Watson (1983, 1984)</ref> investigated the kinetics of zircon and apatite dissolution in felsic melt. <ref type="bibr" target="#b6">Brearley and Scarfe (1986)</ref> studied dissolution of natural olivine, pyroxene, spinel, and garnet in a natural alkali basaltic melt and found concentration profiles to be time-independent and concluded also that the dissolution rate was time-independent. They also tried to obtain diffusivities from their steady-state concentration profiles and found that the diffusivities thus obtained depend not only on temperature and pressure, but also on the dissolution rate.</p><p>All the above experimental studies, with the exception of <ref type="bibr">Harrison and</ref><ref type="bibr">Watson (1983, 1984)</ref>, have examined crystal dissolution where convection operated in the melt. Convection leads to the constant dissolution rates and to the development of steady-state concentration profiles, as obtained by <ref type="bibr" target="#b54">Watson (1982a)</ref>, <ref type="bibr" target="#b24">Kuo and Kirkpatrick (1985)</ref> and <ref type="bibr" target="#b6">Brearley and Scarfe (1986)</ref>. These dissolution rates can be applied to natural systems only if the convection regimes in natural and experimental systems are similar.</p><p>We report in this paper studies of crystal dissolution which address non-convective crystal dissolution. We first evaluate the relative importance of interface reaction through numerical solution of the reaction-diffusion equation. We then examine the diffusive aspect of crystal dissolution both by analytical solution to the diffusion equation and by experiments designed to suppress convection. Finally we apply our results by extrapolation to natural magmatic systems, where convection is usually present and complicates dissolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interface reaction</head><p>Two processes occur simultaneously during non-convective crystal dissolution into a melt of different composition. Interface reaction, the attachment and detachment of atoms at the crystal-melt interface, determines the intrinsic maximum dissolution rate. Meanwhile, diffusion, the transport of mass to and from the interface, determines whether this maximum rate can be attained. Because diffusion rates influence interface composition which, in turn, determines the degree of saturation at the interface and thus the interface reaction rate, the two processes are coupled and it is their interplay that controls dissolution. It is important, therefore, to ascertain the conditions under which one or the other of these two processes controls the dissolution rate.</p><p>In order to examine the relative roles of reaction at the crystal-melt interface and diffusion in the melt, a reaction-diffusion equation is developed which treats both interface reaction and diffusion in the melt simultaneously. The equation is then solved numerically to evaluate the relative importance of interface reaction and diffusion for magmatic 493 conditions. This approach differs from that of <ref type="bibr" target="#b29">Lasaga (1982)</ref> in that we relate the reaction rate to diffusion through the degree of saturation at the interface so that we can determine the relative roles of interface reaction and diffusion in a general way. However, mathematically, our numerical solution can be viewed as a special case of Lasaga's master solution.</p><p>The strategy to develop a reaction-diffusion equation is as follows: First the interface reaction rate equation is expressed in terms of the degree of saturation at the interface. Then the degree of saturation of the melt (including interface melt) is shown to satisfy a diffusion equation if deviation from equilibrium is not great.</p><p>The interface reaction rate for continuous dissolution can be expressed as (e.g., <ref type="bibr" target="#b23">Kirkpatrick 1981</ref>): V~ = f ao v e-AG"/RT ( e-AGc/RT --1)</p><p>(1</p><formula xml:id="formula_0">)</formula><p>where V~ is the crystal dissolution rate, AGa and v are the activation energy and vibrational frequency of the activated transition complex, AGe is the difference in partial molar free energies of the dissolving species between liquid and crystalline states, f is the fraction of sites available, ao is the distance between subsequent layers of the crystal, R is the gas constant and T is the temperature in Kelvin. Notice this equation is different from the equation for crystal growth by a negative sign. The crystal dissolution rate V~ in (1) refers to the rate at which a fixed point in the crystal moves relative to the crystal-melt interface. However, when discussing diffusion in the melt it is important to establish the rate at which the interface moves relative to the melt (or a fixed point in the melt). This rate is hereafter referred as the melt growth rate. To dissolve a crystal layer of some thickness, a thicker layer of melt will be produced if the crystal is denser than the melt. As such, the melt growth rate exceeds than the crystal dissolution rate. Specifically the melt growth rate differs from the crystal dissolution rate by a constant equal to the ratio of crystal density over melt density. Multiplying both sides of (1) by this density ratio transforms the crystal dissolution rate into the melt growth rate (denoted as V).</p><p>The degree of saturation (denoted as w) is defined as:</p><formula xml:id="formula_1">w = e ~/RT<label>(2)</label></formula><p>where the exponential term is analogous to chemical affinity of reaction <ref type="bibr" target="#b11">(Denbigh 1966)</ref>. w is a function of melt composition which varies with distance away from the interface. It may also refer to the degree of metastable saturation (possible metastable saturation will be discussed later). For simplicity, "saturation" or "equilibrium" (with quotation marks) is used in this sense to include the case for metastable equilibrium. Now by defining:</p><formula xml:id="formula_2">V~ (T) = hfao v e-~,/RT (3)</formula><p>where h is the ratio of the crystal density over melt density, and by substituting (2) and ( <ref type="formula">3</ref>) into (1), we can write:</p><formula xml:id="formula_3">1 1</formula><p>where w0 is the degree of "saturation" at the interface. V~ in ( <ref type="formula">4</ref>) is a function of temperature but is assumed to be independent of Wo. At a fixed temperature w can be written as a function of the concentrations of the participating com-ponents:</p><formula xml:id="formula_4">w =f(Ci, C2 ..... C,)<label>(5)</label></formula><p>which can be linearly approximated near the "equilibrium" state by:</p><formula xml:id="formula_5">w ~ 1 + ki(C i --C e) = k i C -A (6) i=1 i</formula><p>The superscript "e" indicates the concentration at "equilibrium" and A and k~'s are constants at fixed temperature.</p><p>At constant temperature we have:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>~w ~ ~C~ g t ~ kl</head><p>(7) i=l</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Ot</head><p>The diffusion equation for component i during planar dissolution in an interface-fixed reference frame can be written</p><formula xml:id="formula_6">asl Ci 0 (Di c~ Ci'~ _ V c~ Ci ~t -Ox \ c~x } c~x (8)</formula><p>where x is the distance in the melt away from the interface, D~ is the diffusivity of component i, and V is the melt growth rate. Combining ( <ref type="formula">7</ref>) and ( <ref type="formula">8</ref>) gives:</p><formula xml:id="formula_7">~w ~ /-~3w\ Ow c~t = ~xx ~D ~x )--V-ffxx (9)</formula><p>where <ref type="formula">10</ref>) is a weighted average of D~ in (8) and can be regarded as an effective binary diffusion coefficient (EBDC). Using EBDC is a simplified approach in describing multicomponent diffusion by treating all other components in the system as one "component" and hence reducing the system to effective binary or pseudobinary <ref type="bibr" target="#b8">(Cooper 1968;</ref><ref type="bibr" target="#b19">Hofmann 1980)</ref> when complete diffusion data are not available.</p><formula xml:id="formula_8">~ D i ~ Ci kl 3x /3_ i-1 (10) i k i ~ C i ~x ~=~ /~ in (</formula><p>The complete reaction-diffusion equation sought in this section consists of the following set of equations: Eq. ( <ref type="formula" target="#formula_15">9</ref>), where V is defined by (4), with the following initial and boundary conditions~ :</p><p>1 The reaction-diffusion equation at variable temperature which is a function of time can be written as:</p><formula xml:id="formula_9">3w c3 /_Ow\ c~w &amp; ~k i 3A - D-- --V--+ ~ Ci -- x&gt;0, t&gt;0 cgt c~x~ cgx) ,gx ~=~ ~t ,~t</formula><p>where V is given by ( <ref type="formula">4</ref>) and initial and boundary condition at x=0 are the same as (ll). The boundary condition at x= oo is:</p><formula xml:id="formula_10">w,==o~ =(i~1 k, Cil~= |</formula><p>where C~I~=~ is a constant; but k/s and A are not. This reactiondiffusion equation can be solved numerically given temperature as a function of time and V, A, and k~'s as a function of temperature where woo is the initial degree of "saturation" of the melt, and w, is the degree of "saturation" of a melt whose composition is the same as that of the crystal (see Table <ref type="table" target="#tab_0">1</ref> for the calculation). Condition (1 lb) requires that the melt reservoir is "infinite" compared to the diffusion distance.</p><p>The reaction-diffusion equation can be made dimensionless by replacing x and t with V, x/D and V 2 t/D respectively.</p><p>Assuming I1, and/) are constant, it can be solved numerically given values for w~ and woo using either <ref type="bibr" target="#b29">Lasaga's (1982)</ref> method or an algorithm to solve a differential equation.</p><p>Results of the numerical calculations are shown in Fig. <ref type="figure">1</ref>, which plots the evolution of the degree of "saturation" at the interface and the scaled dissolution rate Vl/~/a as a function of dimensionless time ~(= V, 2 t/D). Because the relative precision of electron microprobe analyses is usually no better than 1% for most of the major oxide components of a glass sample, for all practical purposes, the interface composition can be regarded at "saturation" when w Jx-0 exceeds 0.99 (see Fig. <ref type="figure">1 a</ref>). Likewise, when V]/~/a exceeds 0.99, (i.e. V~a]/D/t) the dissolution rate can be regarded as inversely proportional to the square root of time, implying that crystal dissolution is totally diffusion-controlled Calculated ws is from the 1 atm basaltic melt saturation surface and the composition of a melt whose composition is the same as the crystal. (w~ at higher pressure is higher.) For example, w~ for olivine is calculated from: As ws decreases, the initiation period increases. Consider the case for ws_&gt; 1.5 (see Table <ref type="table" target="#tab_0">1</ref> for values of ws for basaltic melts), the dissolution is totally diffusion controlled at z &gt;_ 200. For a V, of 0.034 cm/s appropriate for diopside (calculated from data of diopside dissolution in its own melt at 1393 ~ 1412 ~ C, Kuo and <ref type="bibr" target="#b24">Kirkpatrick 1985)</ref>, and 15 between 10 .9 and 10 .6 cm2/s at magmatic temperatures <ref type="bibr" target="#b19">(Hofmann 1980)</ref>, the real critical time t*, corresponding to z* =200, is 0.0002 to 0.2 s. Hence the real critical time, representing the amount of time necessary for dissolution to become effectively diffusion controlled, is a trivial time interval at either laboratory or natural conditions. If the values of V, for other crystals are comparable in magnitude to that of diopside (certainly this warrants more investigation), it may be generally concluded that the interface composition reaches a constant or stationary "saturation" composition in less than a second and that dissolution thereafter will be essentially diffusion controlled. Only when Va is very small (less than one hundredth that for diopside), or ws is very close to 1 (i.e., at a temperature near the liquidus of the dissolving crystal), or D is 104 times greater, will the initiation period be long enough to be important and measurable. This analysis demonstrates that the common assumption that the interface melt is near "saturation" during dissolution is valid under most circumstances. Therefore the driving force for crystal dissolution is the very small undersaturation which usually is not directly measurable. This is because the parameter V, is very large (i.e., the dissolution rate of a crystal into its own melt is very large) and the diffusivity is very small. If a crystal dissolves into its own melt, heat conduction and interface reaction happen simultaneously. Replacing chemical diffusivity by the thermal diffusivity tr which is about 0.01 cruZ/s, it can be estimated that the critical time for the dissolution to be controlled by heat conduction is about 30 min. The characteristic thermal diffusion distance during this time is ~ 4 cm. Therefore if the experimental duration is shorter than 30 min or if the charge is smaller than 4 cm along the direction of heat conduction, dissolution is not controlled by heat conduction.</p><p>There are two important assumptions we have made in deriving the reaction-diffusion equation and in producing our numerical results. The first is the linear dependence of the degree of saturation on melt composition, Eq. ( <ref type="formula">6</ref>), and the second is the treatment of diffusion in the melt as effectively binary although I5 is for a multicomponent species. To take a more rigorous approach, detailed information about the saturation surfaces and the diffusion coefficient matrices would be required, which is not available at present. One would think that the assumption of 15 being approximately constant is not valid because included in 15 are some components that may diffuse uphill. This question will be addressed later using experimental results (Fig. <ref type="figure" target="#fig_12">15</ref>) and it will be shown that w can be approximately described by effective binary diffusion. We believe that additional constraints on non-linearity and cross-term diffusion will not change our qualitative conclusion that crystal dissolution rate is diffusion controlled under realistic laboratory and natural time scales for dissolution. Experimental results presented in later sections confirm that diffusion is the controlling mechanism for moderately superheated dissolution when convection is suppressed.</p><p>The mass transport rate during convective dissolution is usually faster than during diffusive dissolution. Interface reaction might become the rate-limiting step if vigorous convection leads to a very thin boundary layer. However, this would occur only when the characteristic diffusion distance (DI/Dt*) is reduced to 0.5 ~t or less since D~ g (where t* is the critical time) is about 0.5 g. The development of such a thin boundary layer would require very vigorous convection difficult to achieve in either laboratory or natural settings. Thus interface reaction is usually not the ratedetermining step during convective dissolution as well.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analytical solution to diffusive crystal dissolution</head><p>Having established that non-convective crystal dissolution is diffusion controlled, it is now instructive to obtain analytical solutions for diffusive crystal dissolution. In an interfacefixed reference frame, binary diffusion in melt adjacent to a dissolving crystal can be written as: crystal, D is the binary diffusion coefficient, V is the melt growth rate and L is the melt growth distance. Equation (12a) can be transformed to an ordinary differential equation using the Boltzmann transformation <ref type="bibr" target="#b10">(Crank 1975)</ref>, i.e. replacing both x and t by a single variable q(=x/2l//t), which is possible because V is inversely proportional to the square root of t. Therefore concentration versus x/~tt should be time-independent, implying that concentration profiles propagate into melt according to the square root of time regardless of the compositional dependence of the diffusion coefficient. The solution of (12) for constant D is:</p><p>C-Co erfc(_~_al/erfc(_a )</p><formula xml:id="formula_11">(13)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Co-C~o \2l/Dt I/</head><p>where Co is concentration at the interface (assumed to achieve a stationary concentration in less than one second as established in the previous section), and the parameter a satisfies:</p><formula xml:id="formula_12">~/~ae ~2 erfc(-a) = b (14a) where b = Co -C~ (14b)</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C,-Co</head><p>The relationship between a and b is plotted in Fig. <ref type="figure" target="#fig_2">2</ref>. In a multi-component system the binary diffusion coefficient D can be replaced by an effective binary diffusion coefficient (EBDC) for any component which can be approximately characterized by effective binary diffusion, yielding relations analogous to Eq. ( <ref type="formula">12</ref>) through (14). However, the diffusional behavior of some components, for instance, the alkalies during quartz and feldspar dissolution into basaltic melt <ref type="bibr" target="#b54">(Watson 1982a)</ref>, cannot be described by effective binary diffusion with constant EBDC's. In such cases the above solutions are not applicable. The diffusion equation for such a component includes non-negligible cross terms due to the effects of other components. However, because of the inverse relationship of melt growth rate to the square root of time, it can be shown that the diffusion equation for such a component can also be parameterized by tl=x/2l~t (even if every element in the diffusion coefficient matrix depends on concentration), and therefore, the concentration profile should still propagate into melt according to square root of time 2.</p><p>Relations ( <ref type="formula">12</ref>) and ( <ref type="formula">14</ref>) permit us to predict diffusive dissolution rates if we know initial melt and crystal composition, the interface melt composition and the diffusion coefficient. In particular, we can qualitatively predict the relative diffusive dissolution rates for various minerals if we assume EBDC's do not vary significantly during the dissolution process. Because the dissolution rate is proportional to a and a varies positively with b (Fig. <ref type="figure" target="#fig_2">2</ref>), crystal dissolution rates increase with b. Therefore, increasing ICs-Co[ or decreasing ]Co-Co ] will decrease the dissolution rate. if the compositional "difference" between the mineral and the interface melt is larger at similar Co, b will be smaller, thus the dissolution rate will be smaller. For this reason, a pure forsterite is expected to dissolve more slowly in a basaltic melt than Fo90 or Fo70. (Intuitively, during pure forsterite dissolution it is more difficult to transport the excess MgO away from the interface and hence the dissolution rate is slower.) Comparisons between pyroxene and olivine dissolution rates are more difficult because there are significant differences in the interface compositions at the same temperature (i.e. a difference in the numerator of b). However, pyroxene compositions are much closer to basaltic compositions than olivine; thus the denominator terms often dominate the b parameter. As such the dissolution rates of pyroxenes in basaltic melt are often greater than those of olivines except at temperatures close to the pyroxene saturation temperature where Co-Co becomes very small and controls the value of b. Therefore, at low pressures and at moderate undersaturation, mineral dissolution rates will follow the following order: Opx, cpx, plag &gt; olivines, spinels &gt; accessory minerals (apatite, zircon, etc.) (15a) In cases involving solid solutions: intermediate members &gt; pure end members (15 b) At first glance these predictions for dissolution rates may seem counterintuitive. One might suppose that the driving forces for crystal dispersal would be dependent on the chemical differences between melt and crystals, but our analytical results highlight the importance of solubility in modifying this expectation. Thus zircon is slow to dissolve in silicate melts because of its low solubility as shown by <ref type="bibr" target="#b17">Harrison and Watson (1983)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental procedures and analytical methods</head><p>Experiments to examine dissolution of crystals (San Carlos olivine, synthetic pure forsterite, diopside, spinel, quartz and rutile) in a natural andesite melt were performed under controlled laboratory 2 If the diffusion coefficient matrix for a multi-component system is constant, the solution to Eq. ( <ref type="formula">12</ref>) can be applied to each "eigen" vector in composition space <ref type="bibr" target="#b9">(Cooper 1974</ref>) with D being replaced by an eigen value of the diffusion coefficient matrix. Therefore the concentration of any component i in the melt is a combination of the solution for the "eigen" vectors, namely:</p><formula xml:id="formula_13">" L x--g Ci=Ci~+ ~ ui~erfc(X--~l/erfc(~l ~:1 X2l/Ajt] 2~/)~jt/</formula><p>Therefore the concentration profile for component i propagates into melt according to square root of time  <ref type="table" target="#tab_1">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dissolution experiments</head><p>All experiments were run at 5-23 kb in a piston-cylinder apparatus to insure good crystal-melt contact and to prevent melt vesiculation. Figure <ref type="figure">3</ref> depicts our experimental geometry, which insures that diffusion is one-dimensional, that at least one side is convection-free due to gravitational stability, and that a negligible amount of melt exchanges between the two sides of the crystal due to the tight fit of the crystal wafer in the capsule. A natural andesite rock powder was fused twice at 1300 ~ C and 1 bar QFM for ~2 h to produce glass starting material. Crystal grains were sawed into wafers 20(~1000 g thick (no attention was paid to crystallographic orientation). The wafers were then ground into cylindrical disks 2 mm in diameter which fit tightly into graphite capsules 9.5 or 6.5 mm long. Capsule length was dictated by run duration to insure that the melt reservoir was effectively infinite compared to the developing diffusion profiles. When possible, a shorter capsule was used to minimize temperature differences within the experimental charge. The disks were horizontally oriented and packed with vitreous rock powder (to be remelted during the experiment) on one side or both sides. The capsules were enclosed in alumina sleeves and then encased in a 3 cm long graphite heater of ~0.64 cm inner diameter. Pyrex glass served both as the pressure medium and to insulate the furnace from the carbide core. Table <ref type="table" target="#tab_2">3</ref> lists the run conditions for our crystal dissolution experiments. Run pressures reported in Table <ref type="table" target="#tab_2">3</ref> are nominal pressures with "piston-out" procedure initially over-pressurized to ~ 15 kb for 5 kb runs and by ~ 5 kb for runs at higher pressures. Run temperatures were monitored and controlled by a Pt-Ptg0Rhl0 thermocouple input to a Eurotherm 984 control system. Temperature fluctuations in the charge during a run were usually _+0.5 ~ C once the stable running temperature was reached, which usually took ~ 30 s. The temperature difference from center to bottom of the charge inside the capsule was calibrated by measuring interface melt composition of olivines at center and bottom of the charge and using olivine saturation "thermometer" <ref type="bibr" target="#b38">(Roeder and Emslie 1970;</ref><ref type="bibr" target="#b27">Langmuir and Hanson 1981)</ref>. This difference is ~25 ~ C for the 9.5 mm capsule at run temperature of 1400 ~ C, equivalent to a temperature gradient of ~ 8 ~ C/mm.</p><p>Each charge was quenched to below the solidus of the melt in 1 ~ 2 s by shutting off power to the piston-cylinder apparatus. After extraction the charge was mounted in an epoxy disc, ground to reveal the widest axial section, and polished for examination.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analytical methods</head><p>Major element concentrations in the quenched melt and crystal were analyzed using an automated CAMECA electron microprobe at Lamont-Doherty Geological Observatory. The analytical conditions were similar to those of <ref type="bibr" target="#b41">Sack et al. (1987)</ref> except that we used a single beam current of 25 nA. When especially good NazO analyses were desired, we either used a 5 nA beam current for Na, similar to <ref type="bibr" target="#b41">Sack et al. (1987)</ref>, or rastered the beam.</p><p>One charge was analyzed for trace elements by secondary ion mass spectrometry carried out with the IMS 3f microprobe at MIT. Analytical procedures were similar to those of <ref type="bibr" target="#b30">Lesher (1986)</ref> following those set forth in <ref type="bibr" target="#b46">Shimizu and Hart (1982)</ref>. One exceptionally good Na20 profile (for @ 212, Fig. <ref type="figure" target="#fig_7">7</ref>) was analyzed this way.  Note: All the runs used LML 30-1, an andesite rock powder, as starting composition for melt. T1 (~ C): measured thermocouple temperature with the following two corrections, rounded to the nearest 5 ~ C. One correction is based on the distance of thermocouple junction to the cap of graphite capsule. This correction, however, must be viewed as approximate because the thermocouple junction itself is ~ 1 mm in diameter and the temperature gradient in that part of the furnace is estimated at 50 ~ C/ram. The second correction is based on the distance of the crystal-melt interface to the center of the capsule (when the capsule is centered in the heater). The temperature gradient inside the capsule is ~ 8 ~ C/mm at 1400 ~ C P: measured pressure in kbar T2 (~ C): temperature calculated from 1 atm olivine saturation surface and interface melt composition assuming interface melt is at saturation. The calculation is only done for 5 kb runs because at this pressure the oversaturation correction (~ 17 ~ C, see discussion) and the pressure correction (3 ~ 6 ~ C/kb: 3~176 C from <ref type="bibr" target="#b4">Bender et al. 1978</ref>; 5~ on average using data from <ref type="bibr" target="#b15">Ford et al. 1983</ref>) almost cancel one another out. At higher pressures, the pressure correction may introduce considerable error. These calculated temperatures may not reflect actual temperatures in the experimental charges as closely as they do relative temperature differences among the different runs Cryst: Crystal used in experiments, where OL = San Carlos olivine, FO = synthetic pure forsterite, DI = diopside, SP = spinel, Q T= quartz, R T= futile Pos: crystal position in experimental charge, where Mid = Middle and Bot = Bottom X,: initial thickness of the crystal wafer in microns XI: directly measured final thickness of the crystal wafer AX: dissolution distance which is the difference between X~ and Xf (If the crystal wafer is surrounded by melt on both sides, AX is half the difference) t: run duration MgO: MgO wt% of the interface melt, which indicates the difference of the in situ temperature during dissolution of the same mineral a the same as the above column;</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental results</head><p>cannot be determined b There is a small melt reservoir on the other side of the crystal wafer into which part of the crystal has been dissolved. The real AX for one side should be smaller c There might be a misreading of the micrometer by 1 grid unit, resulting in a smaller initial thickness by 25 g dissolved, the sharpness of the interface at the 1 tx scale is remarkable indicating that the dissolution process is very uniform. Because the interfaces are sharp in the charges we will be discussing, the distance from the interface is well defined except in the presence of cracks.</p><p>Many experimental charges cracked subparallel to the crystal-melt interfaces during quench and decompression. The cracks are often in the glass adjacent to the interface. When measuring concentration profiles, it is difficult to estimate the real distance across a crack. In these cases, a number of profiles were measured where the same crack was encountered at different distances from the interface. These profiles were then combined into one composite profile, permitting us to define distance across the crack more accurately.</p><p>Quench magnetite crystals of less than 2 IX in dimension are present in most charges. They show good octahedral morphology and are distributed throughout the glassy part of the charge. In some of the olivine dissolution charges magnetite crystals are more concentrated near the olivinemelt interface, possibly due to the high FeO concentrations there.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dissolution rates</head><p>The amount of a crystal wafer dissolved during an experiment was estimated by two methods. The first was a direct measurement of the thickness of the crystal wafer before and after the run. Because of the variability in the thickness of a wafer and uncertainties in measuring this thickness accurately, the errors from direct measurement are usually 5 ~t-30 g which is relatively large compared to the dissolu- </p><formula xml:id="formula_14">~( ~C -C ~) d x = ~L ~C ~-L C ~ (16,</formula><p>where C and p are concentration and density, respectively. The integration is performed over distance x from 0 to infinity. The subscripts "oo" and "s" have the same meaning as those in Eq. ( <ref type="formula">14</ref>). Ls is the crystal dissolution distance and L is the glass (melt) growth distance. As we discussed earlier, L differs from Ls by the ratio of the crystal density over glass (melt) density. Because the concentration and distance we measure are those in the glass at room tempera-499  <ref type="formula">16</ref>) should also be the glass density at room temperature which is not available. We therefore estimate P/P~o from the melt density relationship <ref type="bibr" target="#b36">(Nelson and Carmichael 1979)</ref> at run temperature which may not apply exactly. The left hand side of ( <ref type="formula">16</ref>) can also be calculated by assuming p/p~ = 1 and the maximum error of that term can thus be estimated. For " n o r m a l " (i.e. monotonic) profiles, the relative error in this term is usually less than 5%. However, for those profiles which contain minima or maxima, C -C o o may change from positive to negative and the integral in ( <ref type="formula">16</ref>) can be viewed as the summation of two terms, one positive and one negative. The summation results in a small value for the integral; therefore the relative error is large.</p><p>Once the left hand side integral term is determined, L, can be estimated with only small uncertainties if Coo is small compared to Cs, and L can be estimated if C~ is small compared to C a . All these taken into account, the relative error in estimating L or L~ from " n o r m a l " profiles is about 5o/0 -10%, which is better than our direct measurement. Table <ref type="table" target="#tab_3">4</ref> lists the dissolution distance estimated by the two methods. These estimates agree very well when the relative error in direct measurement is small. Crystal dissolution distance determined from " n o r m a l " concentration profiles is plotted against the square root of run duration for San Carlos olivine, synthetic pure forsterite, and diopside in Fig. <ref type="figure">5</ref>. The linear dependence of the dissolution distance upon ] / t demonstrates that the dissolution is diffusion controlled, that convection in the experi-  <ref type="table" target="#tab_2">3</ref> ::L 60 X 40 20 mental charges is suppressed, and that the interface reaction kinetics are not the rate-determining step during crystal dissolution experiments longer than 15 min, consistent with our numerical calculations. From Fig. <ref type="figure">5</ref>, the dissolution rate (which is inversely proportional to time) of diopside at ~1300~ is greater than that of San Carlos olivine (~ Fo90) which, in turn, is slightly greater than that of forsterite at the same temperature. The relative dissolution rates for diopside, olivine, and spinel can also be compared in experiment ~ 231 (~ 1375 ~ C and 13 kb). The dissolution rate of diopside is greater than that of olivine, which, in turn, is greater than that of spinel. Finally, the dissolution rate of San Carlos olivine is found to be greater than that of rutile from experiment 4~ 236. All these relations are consistent with our earlier conclusions based upon theoretical considerations (Eq. 15).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Concentration profiles</head><p>Two or more profiles perpendicular to an interface were analyzed in each experimental charge. If a crystal wafer has melt on both sides, profiles on both sides of the crystal were measured. Figure <ref type="figure">6</ref> includes a schematic diagram of such profiling in one charge (#e 212), along with an example for MgO. Figure <ref type="figure">6</ref> shows that the experimental charge is horizontally homogeneous: that is, concentration along a line parallel to the interface is constant within error; and that concentration profiles in the melt adjacent to the crystal are symmetric about the crystal. Other experimental charges show similar horizontal homogeneity and symmetry (if both sides are surrounded by melt). Melt on the upper side of olivine crystal (Fig. <ref type="figure">6</ref>) is gravitationally stable, therefore it does not convect. The symmetry of melt composition about the dissolving olivine suggests that during olivine dissolution into andesitic melt, even the gravitationally unstable side is free of convection. No zonation was detected in the remaining part of the crystals by electron microprobe analysis after the dissolution experiments.</p><p>A few of the charges did show horizontal heterogeneity and/or non-symmetry about the crystal. In these charges, bits of graphite were commonly found intruding melt caused by mechanical deformation during the run. If the problem was not severe, we usually characterized the profile in the middle of the charge or away from the visual disturbance, otherwise the run was classified as unsuccessful and not examined further.</p><p>An interesting, but disturbing, feature of Fig. <ref type="figure">6b</ref> is that the compositional profile for MgO bends as it approaches the interface. It occurs in other charges for MgO and in MgO concentration first increases gradually as the interface is approached, but then decreases suddenly within about 10 g of the interface. The decrease is not caused by secondary fluorescence within the olivine crystal during microprobe analysis as this would increase (rather than decrease) the MgO concentration. This feature is believed to be a consequence of crystal overgrowths upon the wafer during quench. We have shown numerically that after an initiation period of less than 1 s, the interface melt is essentially at saturation with respect to the crystal; therefore, a decrease in temperature during quench will result in oversaturation with respect to, and hence crystallization of, the crystal that was previously dissolving. Therefore, overgrowths on the crystal will always occur during quench but the amount of growth will depend on the quenching rate, interface reaction rate, the diffusivities and the temperature from which the charge is quenched. (One of the reasons that we chose to use andesitic melt was that the quench effect was small.) MgO is strongly depleted near the interface by olivine overgrowth and is easily observed. By mass balance, a one micron overgrowth of olivine (Fo80) will deplete the glass (melt) within 10 p by an average of 3.5% MgO. Therefore, the depletion in Fig. <ref type="figure">6b</ref> can be explained by 0.1 g-0.2 la of olivine overgrowth, which is too small a zone to be measured by electron microprobe.</p><p>Quench growth complicates the study of zonation profiles in the glass adjacent to a crystal, especially in crystal growth experiments because continuous growth and quench profiles are superimposed and additive. The two differ in that the quench profile is shorter. Crystal dissolution experi- </p><p>, . ments have profiles which are opposing so that the quench phase growth profile is more easily separable from the dissolution profile. But care should be taken in trying to distinguish them.</p><formula xml:id="formula_16">a 0 1 2 3 4 5 6 1 2 3 4 YJ2",/t X/24t</formula><p>Because the bend near the interface is not part of the diffusion profile produced during dissolution experiments, we exclude it from subsequent analysis. The term interface composition refers to the melt composition at the interface during dissolution, and is calculated by extrapolation using either a polynomial or visual fit of the diffusion profile not affected by quench.</p><p>Figures 7-13 are plots of concentration vs normalized distance (x/2~) in the glass adjacent to dissolving crystals of San Carlos olivine, synthetic forsterite, diopside, spinel, quartz and rutile in an andesitic melt. Figures 8-10 include two or more experimental runs of varying duration at the same temperature and pressure. Using normalized distance is a means of comparing profiles produced from differing run duration if the process is strictly diffusion controlled.</p><p>The profiles are identical within error on such plots when the interface compositions are the same (interface compositions can be used as an internal calibration of run temperature) except for slightly larger uncertainties in the FeO profiles caused by quench magnetites.</p><p>It should be noted that many components do not show the expected monotonic concentration profiles but contain "anomalous" minima or maxima (uphill diffusion) in the    profiles. Concentration profiles for these components on plots using normalized distance are also independent of run duration, which again demonstrates diffusion control. Therefore all the concentration profiles in Figs. 8-10 demonstrate that convection in the melt is not operative and that interface reaction is unimportant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Uphill diffusion and compositional path</head><p>The observed diffusion behavior of major components during diffusive dissolution of various minerals in andesitic melt      During San Carlos olivine and synthetic forsterite dissolution in andesitic melt, only MgO, A1203, Cr, and SiO2 show the expected monotonic diffusion profiles (Figs. 74). The profiles of alkalies show maxima and those of other major (CaO, FeO, TiO2) and trace components (V, Sc, Sr, Zr, Y and Ce) show minima. For example, the CaO profiles for the San Carlos olivine and synthetic forsterite dissolution and the FeO profiles for forsterite dissolution have prominent minima in the middle of the profiles. The concentrations of both CaO and FeO increase toward the interface even though the concentrations of these components are low in the dissolving crystals. Barring "anomalous" diffusion, one would expect concentrations to decrease approaching the interface. The anomalous diffusion profiles of these components are indicative of uphill diffusion, i.e. diffusion up their own concentration gradients. The alkalies diffuse uphill toward more polymerized melt (away from the olivine-melt interface) while all other components diffuse uphill toward less polymerized melt.</p><formula xml:id="formula_17">2 N N N N TiO 2 UHD(L) N UHD(L) N N A1203 N N N N UHD(M) a FeO UHD(L) UHD(L) UHD(L)N UHD(L) MgO N N N N UHD(L) CaO UHD(L) N UHD(L) N UHD(L) Na20 UHD(M) UHD(M) - UHD(M) K20 UHD(M) UHD(M) UHD(M) UHD(M) UHD(M) Refrun@ 212,</formula><p>During diopside dissolution in andesitic melt (Fig. <ref type="figure">10</ref>), SiO2 contents are almost constant. MgO, CaO, A120 3 and TiO2 show "normal" diffusion profiles. FeO diffuses uphill toward the less polymerized melt and the alkalies diffuse uphill toward the more polymerized melt.</p><p>During spinel dissolution in andesitic melt (Fig. <ref type="figure" target="#fig_10">11</ref>), only SiOz, A1203, and MgO show normal diffusion profiles. TiO2, FeO and CaO diffuse uphill toward less polymerized melt. The alkalies diffuse uphill toward more polymerized melt.</p><p>During quartz dissolution in andesitic melt (Fig. <ref type="figure" target="#fig_11">12</ref>) only K20 among all the major components shows strong uphill diffusion toward the more polymerized melt. The Na20 profile is surprisingly short.</p><p>During rutile dissolution in andesitic melt (Fig. <ref type="figure">13</ref>), only SiO 2 and TiO 2 behave normally. All other major components diffuse uphill. Among them, FeO, MgO and CaO diffuse uphill towards less polymerized melt, and the alkalies and A1203 diffuse uphill towards more polymerized melt.</p><p>Summarizing the above information, we have the following:</p><p>(1) During diffusive dissolution of a mineral, the diffusion of various components can be divided into three groups. One is a principal equilibrium-determining component for the dissolving crystal which does not necessarily have to be a major element in silicate melts (such as Zr during zircon dissolution). Another group is the non-participating components, which are only trace constituents of the dissolving mineral. The third group involves the participating but not equilibrium-determining components (such as Si during zircon dissolution). A principal equilibriumdetermining component (if there is one) for mineral saturation is expected to behave "normally" and can be approximately characterized as effectively binary. Such components are essential constituents of the dissolving mineral and play the most important role in the saturation of the dissolving mineral. They are: MgO during olivine (Fo # &gt; 50) dissolution; MgO and CaO during diopside dissolution; A120 3 during spinel dissolution; SiO2 during quartz dissolution and TiO2 during futile dissolution. The participating and non-participating elements which include some major elements as well as trace elements can show either "normal" or uphill diffusion.</p><p>(2) SiO 2 usually shows normal diffusion profiles.</p><p>(3) If uphill diffusion occurs, the alkalies diffuse uphill toward more polymerized melt, while MgO, CaO, Sr, TiO2, FeO, MnO (by inference to FeO), V, Sc, Y, and Ce diffuse uphill toward less polymerized melt. The uphill diffusion of alkalies toward more polymerized melt is consistent with the reports of <ref type="bibr" target="#b42">Sato (1974)</ref>, <ref type="bibr" target="#b54">Watson (1982a)</ref> and <ref type="bibr" target="#b14">Fisk (1986)</ref>. FeO enrichment near olivine-melt interface (less polymerized melt) has been noted by <ref type="bibr" target="#b12">Donaldson (1985)</ref>. However, the result of CaO which diffuses uphill toward a melt of lower SiO2 during olivine and spinel dissolution differs from the experimental results of <ref type="bibr" target="#b14">Fisk (1986)</ref> who found CaO to be enriched in the higher SiO2 and lower AlzO 3 melt formed during the interaction of basaltic melt with a harzburgite. We do not know how to reconcile this difference although we note that Fisk's data showed some scatter and that he did not measure the full concentration profile. Uphill diffusion of other components, including MgO, TiO2, Sr, V, Sc, Y, and Ce, has not been reported previously, although in theory every component can be made to diffuse up its own concentration gradient <ref type="bibr" target="#b1">(Anderson 1981)</ref>.</p><p>We can conclude from the uphill diffusion behavior of these components that the alkalies partition strongly into more polymerized melt, while most other elements, including MgO, CaO, Sr, TiOz, FeO, MnO (by inference to FeO), Sc, V, and Ce partition preferentially into a less polymerized melt. These results are consistent with two-liquid partitioning studies <ref type="bibr" target="#b53">(Watson 1976;</ref><ref type="bibr" target="#b39">Ryerson and Hess 1978)</ref> and Soret diffusion studies <ref type="bibr" target="#b30">(Lesher 1986)</ref>. Therefore the diffusion behaviors of non-participating components can be qualitatively predicted using results from two-liquid partitioning or Soret diffusion studies. However, to quantitatively predict their diffusion behavior (such as their interface concentration, where the maxima or minima would occur and what the maxima or minima are), we must await the solution of the full diffusion matrix, including the cross-term coefficients.</p><p>Because of the uphill diffusion of certain components and differences in diffusion rates, the melt concentration profiles produced during dissolution are not simple mixtures of initial melts and crystals. In other words, the melt composition does not follow a linear path in composition space between the initial melt and crystal. This non-linearity is evident upon examination of our concentration profiles in Figs. 7-13. It can also be studied using other kinds of diagrams. For example, Fig. <ref type="figure" target="#fig_3">14</ref> is the ol-di-silica ternary projection after <ref type="bibr" target="#b51">Walker et al. (1979)</ref>. On such a diagram, the minerals being dissolved are conveniently located at the apices, and the compositional effect of adding a mineral is easily seen. The melt composition path during olivine dissolution shown in Fig. <ref type="figure" target="#fig_3">14</ref> is curved and the point of strongest curvature corresponds to the minimum for the CaO profile (Fig. <ref type="figure" target="#fig_7">7a</ref>). The melt composition first moves from the initial melt toward a mixture of olivine and silica, and near the interface it moves toward a mixture of olivine and diopside instead of towards a pure olivine composition. Therefore, the melt composition seems to be produced by the addition of more than one mineral even though only one mineral is dissolving. During diopside dissolution, the melt composition path is much less curved and moves roughly towards the diopside apex (Fig. <ref type="figure" target="#fig_3">14</ref>). This apparent linearity results from the fact that only one major component, FeO, shows strong uphill diffusion and this one component is grouped together with MgO in calculating the diagram. Thus the non-linearity does not show up strongly in this particular view of composition space. The melt composition path during quartz dissolution is slightly curved but moves roughly toward the silica apex.</p><p>Since many components may diffuse uphill, one may conclude that the degree of saturation of the melt, w as defined in (2) and described by (9), could not be described by effective binary diffusion. That is, the effective binary diffusion coefficient defined by (10) would not be approximately constant. However, one should recall that w is mostly determined by the principal equilibrium-determining component, while only affected in a minor way by those w is calculated from experimental concentration profiles of :~ 212 (olivine/andesite, 1285 ~ C, 5.5 kb, 5 h). w behaves approximately "normally" despite the fact that many components show uphill diffusion components which show uphill diffusion. In other words, k, for the principal equilibrium-determining component is much greater than k~ for other components in Eq. ( <ref type="formula">6</ref>). Fig-</p><p>ure 15 plots w (see Table <ref type="table" target="#tab_0">1</ref> for calculation) versus x/2]//t for experiment 4~ 212. It can be seen that w behaves approximately "normally", similar to the diffusion profile of MgO. The/) as defined in (10) can be found from the profile in Fig. <ref type="figure" target="#fig_12">15</ref> and determined to be 4.8 x 10 -s cm2/s, similar to the EBDC of MgO (5.3 x 10-s cm2/s, see later discussion on EBDC).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Discussion and applications</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Extraction of EBDC's</head><p>Diffusion-controlled dissolution experiments provide a powerful tool for studying the diffusion process. Because the crystal-melt interface is well-defined, distance from the interface can be determined on the electron microprobe to a precision of 1 g. The concentration profiles presented in Figs. 8-10 (which plot concentration profiles for two or more runs) show negligible inter-run error using normalized distance x/2]/tt, demonstrating good analytical precision and experimental reproducibility. It is common practice to calculate an effective binary diffusion coefficient (EBDC) for single components in multi-component systems although its applicability is limited. This calculation can be done in a straightforward way using data from diffusive dissolution experiments for any component that does not show uphill diffusion, either by fitting a non-linear least squares curve using Eq. ( <ref type="formula">13</ref>) to the concentration profile and thus obtaining one EBDC for each profile, or by using Boltzmann-Matano analysis <ref type="bibr" target="#b44">(Shewmon 1963</ref>) to obtain the EBDC as a function of concentration. Equation ( <ref type="formula">13</ref>) fits "normal" profiles fairly well but not exactly. For example, as shown by Fig. <ref type="figure">16</ref>, when MgO diffusion profiles are fit by ( <ref type="formula">13</ref>), there are small, but systematic deviations in the data arrays above and below the best fit curves in the higher SiO2 and lower SiO2 portions of the MgO concentration profiles. Thus the inherent error in the fit arises more from systematic problems in describing the array by ( <ref type="formula">13</ref>) than from scatter in experimental data. If one tries to ascribe these systematic problems to the compositional dependence of the EBDC of MgO (i.e., Boltzmann-Matano analysis) a higher MgO EBDC is extracted for higher SiO2 melts (i.e., more polymerized melt) -a result which appears intrinsically unreasonable because experimental evidence shows that the diffusivities decrease as the degree of polymerization of the melt increases <ref type="bibr" target="#b19">(Hofmann 1980;</ref><ref type="bibr" target="#b54">Watson 1982a;</ref><ref type="bibr">Lesher and Walker 1986a)</ref>. Thus, even relatively well-behaved components such as MgO appear to hint in their diffusivities at the complex interdependence of the chemical and diffusion potentials of all the components upon one another's gradients -which is manifested so emphatically in the uphill diffusion phenomenon. (Therefore Boltzmann-Matano analysis is not applicable because the EBDC's, in principle, are not only functions of concentrations of all components, but also functions of the concentration gradients of other components due to cross term diffusion effects.) Nevertheless these errors are small for MgO (total variation of EBDC in a complete profile using Boltzmann-Matano analysis is about a factor of 2, and average EBDC's between different runs agree within 40%; see Fig. <ref type="figure" target="#fig_7">17</ref>) and instructive comparative information can be obtained from EBDC's calculated by Eq. ( <ref type="formula">13</ref>). However for components which do show uphill diffusion, neither effective binary diffusion with constant EBDC nor Boltzmann-Matano analysis adequately describes their diffusion behaviors. The EBDC's would change from positive to negative using Boltzmann-Matano analysis, which is physically unreasonable. To describe the uphill diffusion phenomenon, multicomponent chemical diffusion must be considered. In principle, this problem is tractable and methods of analysis are available (e.g., <ref type="bibr" target="#b16">Ghiorso 1987)</ref>. However, in practice, the problem for natural silicate melts (e.g., andesitic liquid) is complicated because at least eight components (SiO2, TiO2, A12Oa, FeO, MgO, CaO, Na20, K20) must be considered and thus the diffusion coefficient matrix contains 49 elements. An attempt to invert for these coefficients showed that, although many cross-coefficients were non-zero, they were poorly constrained by the data. Fig. <ref type="figure" target="#fig_7">17</ref>. EBDC (cruZ/s) of SiOa, A120 3 and MgO for olivine and forsterite dissolution into andesitic melt at 5 kb vs 1000/T in an Arrhenius plot. The temperature is calculated from olivine saturation surface at 1 atm (4th column in Table <ref type="table" target="#tab_2">3</ref>). Best fit straight lines are also shown way to acquire the experimental data needed for more thorough treatment of multicomponent diffusion in andesite liquid. The results of this more complete treatment will be presented in a subsequent report. However, even with this accomplished, EBDC's still give practical and useful constraints on diffusion distances and dissolution rates in magmatic liquids. Such information has direct applicability to a wide range of immediately relevant petrologic problems.</p><p>We discuss some of these applications in subsequent sections. EBDC's obtained from our diffusive crystal dissolution experiments using ( <ref type="formula">13</ref>) are listed in Table <ref type="table" target="#tab_12">6</ref>. Uncertainties for EBDC's depend on the analytical error, whether or not the component is well described by effective binary diffusion, how large a portion of the profile in terms of normalized distance is affected by the quench crystal growth, and if Note: The EBDC's are for oxide components in ~t2/s. Run # : Included in parenthesis is the crystal for which the dissolution distance is measured and near which the profile is considered. Relative errors (at 1 a level) from the curve fitting are small, usually less than 10%. However, a more realistic measure of errors comes from inter-run comparisons and can be estimated from Fig. <ref type="figure" target="#fig_7">17</ref> --</p><p>the EBDC cannot be calculated because of uphill diffusion or because the concentration is almost constant; a Cr diffusion coefficient is 3.6 g2/s; b TiOz diffusion coefficient is 8.2 g2/s convection is present. Such uncertainties are difficult to estimate. Nevertheless, based on data scatter in various plots and on other considerations, the relative error for EBDC's is estimated at _+ 30%.</p><p>Dissolution of different minerals not only modifies the chemical composition of the original melt, but also sets up different compositional gradients. Therefore EBDC's are expected to correlate somewhat with the minerals being dissolved. The question is to what extent the EBDC's change with different minerals and whether it is appropriate to use EBDC's extracted from diffusive dissolution experiments of one mineral to predict the diffusive dissolution of another mineral or, in general, to estimate the diffusion in similar melts but different compositional gradients. Table <ref type="table" target="#tab_13">7</ref> lists 3 groups of EBDC data for comparison. In each group temperature and pressure are similar but the minerals being dissolved are different. With the notable exception of the olivine-quartz group at 1300 ~ C and 5 kb, the EBDC's for different minerals agree with one another within a factor of 2-3, which is only slightly larger than the uncertainties of our EBDC data. The olivine-quartz group is an extreme case in that the SiO2 content in the melt changes from 52% at the olivine-melt interface to more than 70% at the quartz-melt interface. Diffusivities are expected to change by more than a factor of 10 in that SiO2 concentration range <ref type="bibr">(Watson 1982 a;</ref><ref type="bibr" target="#b31">Lesher and Walker 1986 a)</ref>. Therefore the change in the EBDC can be attributed to a change in chemical composition. For the other two groups, the change in SiO2 content is much less drastic and that change is often balanced by another potential network-forming component (high SiO2 by low A1203 for diopside, low SiO2 by high A1203 for spinel, and low SiO2 by high TiO2 for rutile). These results suggest that EBDC's depend more on chemical compositions than an compositional gradients for the principal equilibrium-determining components or for the components which behave normally. The EBDC's of MgO, A1203, and SiO 2 during San Carlos olivine and synthetic pure forsterite dissolution at 5 kb are plotted in Fig. <ref type="figure" target="#fig_7">17</ref> on an Arrhenius diagram to show the temperature dependence of the EBDC's. The best-fit lines on such a plot for the three components are parallel, implying that the activation energies of the three components are similar, ~ 55 Kcal/mol, which compares favorably with the results of <ref type="bibr" target="#b32">Lesher and Walker (1986b)</ref>. The scatter on this diagram can be used to gain some estimate of the magnitude of the relative errors on EBDC's. Figure <ref type="figure" target="#fig_13">18a</ref> through 18c are summary plots of EBDC's extracted from all our experiments. The plots indicate little, if any, pressure dependence of EBDC's for MgO, A1203 and SiO2 in andesitic melt at 1300 ~ 1400 ~ C. The EBDC's obtained from this study can be compared with EBDC's obtained in previous studies, although diffusivities in some of these previous works were not extracted correctly and cannot be directly compared (see later discussion). Considering differences in run conditions and melt compositions, the SiO2 diffusivity during quartz dissolution into andesitic melt determined in this study (2.8 x 10 -9 cmZ/s at 1300 ~ C and 5.5 kb) agrees well with that for quartz dissolution into basaltic melt (0.9 x 10 -9 cm2/s at 1300 ~ C and 1 atm for the stirred runs) determined by <ref type="bibr" target="#b54">Watson (1982a)</ref>, and that extracted from rhyolite-dacite interdiffusion couples (1 • 10 -9 cm2/s at 1300 ~ C and 5 kb) by <ref type="bibr" target="#b3">Baker (1988)</ref>. <ref type="bibr" target="#b3">Baker's (1988)</ref> results are comparable to these for quartz dissolution because the interface melt composition in these latter experiments is rhyolitic. Dsio2 (8 x 10-s cmZ/s) obtained from Soret diffusion study <ref type="bibr">(Lesher and Walker 1986a)</ref> for Mt. Hood andesite at 1475 ~ C (average temperature) and 10 kb agrees within a factor of 2 with that extrapolated from this study (1.7 • 10-v cm2/s) for olivine dissolution into andesitic melt at 1475~ C and 5 kb). The limited data seem to suggest that the EBDC's obtained from diffusive crystal dissolution are not only internally consistent, but also comparable with those obtained by other methods at similar conditions. Therefore we can apply The temperature is the calculated temperature (4th column of Table 3) for ~ 5 kb runs with olivine crystal and the nominal temperature (2nd column of Table <ref type="table" target="#tab_2">3</ref>) for all other runs EBDC's extracted from diffusive dissolution studies to other general diffusion problems of systems of similar compositions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Caveat on extracting EBDC's</head><p>There is considerable confusion in the literature over extracting EBDC's from dissolution experiments. Some authors <ref type="bibr" target="#b6">(Brearley and</ref><ref type="bibr" target="#b6">Scarfe 1986, and</ref><ref type="bibr" target="#b24">Kuo and</ref><ref type="bibr">Kirkpatrick 1983)</ref> have tried to extract EBDC's from steady-state diffusion profiles during crystal dissolution in which they recognized that the steady-state was caused by free convection.</p><p>The following equation was used to extract EBDC's:</p><formula xml:id="formula_18">C~ = 1 + {1-k~ e-"X/D (17) Ci</formula><p>where the subscript l refers to the liquid and i refers to the initial liquid, k is the distribution coefficient between crystal and melt, and u is assumed to be the steady-state 507 dissolution rate. There are several difficulties with the application of (17) to crystal dissolution data. The first is that (17) represents the solution for steady-state, non-convective, constant-rate crystal growth where u should be the constant crystal growth rate. When the same equation is used for crystal dissolution, u must be taken as the negative of dissolution rate. As such Eq. ( <ref type="formula">17</ref>) does not approach a constant value when the concentration profile does at large x; therefore ( <ref type="formula">17</ref>) is not an appropriate solution for describing steady-state diffusive dissolution. This conclusion reflects the impossibility of developing a steady state during strictly diffusive dissolution except in the trivial case of constant Cz. This impossibility is a fundamentally different characteristic of the dissolution as opposed to the crystallization process. In crystallization, a steady state can be reached eventually through the operation of interface equilibrium as the crystal forms. The crystal "finds" the appropriate solute level (unless saturation effects intervene), which is the same as the melt far away <ref type="bibr" target="#b0">(Albarede and Bottinga 1972;</ref><ref type="bibr" target="#b28">Lasaga 1981)</ref>. Diffusion and interface motion respond by partitioning the solute between crystal and melt, to produce a steady state. However in dissolution, the arbitrary choice of disequilibrium crystal composition insures that no steady state will develop. The applicability of ( <ref type="formula">17</ref>) is limited at best.</p><p>Experimentally, however, steady states are observed to form during crystal dissolution when free convection is possible in addition to diffusion. The difficulty with applying (17) in such situations is that u can no longer be directly associated with the rate of change of crystal size measurements. The u which makes (17) a viable description of diffusive-advective dissolution data must be positive. Because the dissolution rate alone used in ( <ref type="formula">17</ref>) is negative, it cannot be u. However, the advection rate associated with free convection can be positive and larger than the dissolution rate. Adding the rates of dissolution and advection, the right side of (17) can converge to a constant value at large x and describe a steady state. But the u of interest -an amalgam of the dissolution and advection rates -is no longer physically measurable. What is measurable is the slope of the plot of log[(C,-C,)/(Co-Cz)] versus x. This slope will be -u/D where u is the composite of diffusion and advection rates. But until u can be calculated from its component rates (only the dissolution rate being directly measurable), D cannot be properly extracted from the data by ( <ref type="formula">17</ref> D/u has the dimensions of length and can be regarded as a scale thickness for the diffusive boundary layer between the dissolving crystal and the homogeneous, well stirred, distant liquid. Low chemical diffusivity can keep the chemical boundary layer profile (D/u) adjacent to a dissolving crystal thin, but so can advection by increasing u. <ref type="bibr">Equation (18)</ref> shows that apparent EBDC's extracted from observations of the dissolution rate and the boundary layer thickness (D/u) using Eq. ( <ref type="formula">17</ref>) will be unrealistically low.</p><p>For a particular liquid composition, the diffusivity of a given component at fixed P, T should be constant. <ref type="bibr">Brear-ley and Scarfe (1986)</ref> noted the nonconstancy of their EBDC's in a particular alkali basalt at one P, T: "The apparent diffusivities positively correlate with the dissolution rate, which suggests that the stability of the mineral is an important factor to consider when deriving diffusion coefficients from these experiments." <ref type="bibr">(Brearley and Scarfe 1986, in the abstract)</ref>. Part of this problematic observation can probably be traced to the questionable application of Eq. ( <ref type="formula">17</ref>). The EBDC's were probably extracted by multiplying the value D/u gained from analysis of the data using ( <ref type="formula">17</ref>) by the dissolution rate. Because D/u varied little in their experiments, their EBDC's were forced to correlate with the dissolution rates. In our strictly diffusion-controlled experiments (where we do not use [173 in the analysis), we see quite subdued variations of EBDC's at one P, T compared to those of up to a factor of 36 found with inappropriate use of ( <ref type="formula">17</ref>) in advection-diffusion of spinel and diopside dissolution experiments. Of course, we cannot confirm that this large variation in EBDC's is an artifact of the calculation process, because it is not possible to accurately extract the EBDC's from advection-diffusion experiments by (17).</p><p>We do not wish to imply that there should be no variation in the EBDC's at one P, T. It is reasonable to expect EBDC variations to correlate with dissolution rate, because the dissolution rates are controlled to some extent by the diffusivities. In fact, we do see nontrivial variations in the EBDC's at one P, T in our data. The question is how does this happen in, for instance, a single andesite melt? The EBDC variations in our experiments arise because the melt through which the MgO, for example, diffuses is not of identical composition during the dissolution of each of the different minerals, even though the melt at some distance is the same in each case. Furthermore the concentration gradients adjacent to the crystals during the dissolution of different crystals are variable. The variations of EBDC's have nothing directly to do with the mineral stabilities or interface reaction kinetics (for example, the slow dissolution rates of zircon and apatite in silicate melts are due to their solubilities, the diffusivities will not be proportionally reduced by the slow dissolution rates). Melt EBDC's do not depend on mineral properties but on those of the liquid. The apparent dependence of EBDC on the mineral being dissolved is indirect, due to controls on the chemistry of the melt adjacent to the crystal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Convective dissolution rate</head><p>The following approximate method may be utilized for analyzing dissolution and diffusion in a convective regime as steady-state is reached. The diffusion in such a convective regime can be characterized as occurring across a steadystate boundary layer which, in turn, is characterized by a boundary layer thickness (6). Although this boundary layer thickness does not vary with time (definition of steady-state), it may vary from place to place due to convection patterns. In this case, the average is used to characterize the boundary layer. Because the motion of melt relative to the crystal decreases gradually to zero at the interface, the only mechanism of mass transport at the interface is diffusion <ref type="bibr" target="#b28">(Lasaga 1981)</ref>. Therefore Eq. ( <ref type="formula">12e</ref>) is always applicable at the interface. According to the definition of 6:</p><formula xml:id="formula_19">fi = (C 0o --Co)/(O C/O x)x = 0 (19)</formula><p>Combining ( <ref type="formula">19</ref>) and (12e), we have</p><formula xml:id="formula_20">V-D Co -Coo = b D (20) 6 C~-C0 6</formula><p>Parameter b in ( <ref type="formula">20</ref>) is defined in (14b). The above equation is similar to Eq. ( <ref type="formula">13</ref>) of <ref type="bibr" target="#b24">Kuo and Kirkpatrick (1985)</ref>, and it applies also to diffusive dissolution if 6 is viewed as the time-dependent diffusion layer thickness. The convective dissolution rate is therefore a function of initial melt and crystal compositions, interface melt composition, the EBDC, and the boundary layer thickness. Applying (20) we can estimate the diffusivities of a component or dissolution rate of a crystal in a given natural or laboratory system, for instance, in the results of <ref type="bibr" target="#b6">Brearley and Scarfe (1986)</ref>. D can be calculated with known 6 (calculated from concentration profiles) and V. The D thus calculated differs from that of <ref type="bibr" target="#b6">Brearley and Scarfe (1986)</ref> by a factor of 1/b which is likely to be greater than 1 for their experiments, and to be different for different minerals. With known D, V, and 6, even the advection rate (u-V) can be estimated using ( <ref type="formula">17</ref>). This kind of exercise may not provide accurate EBDC's and advection rates, however, because boundary layer thicknesses vary and concentration profiles are likely to be nonsymmetric (for the spherical case) or horizontally heterogeneous (for the one-dimensional case). From Eq. ( <ref type="formula">17</ref>) the convective dissolution rate is proportional to the parameter b rather than the parameter a of diffusive dissolution. But this does not affect our discussion about relative dissolution rates from an earlier section because b is positively correlated to a, as long as the boundary layer thickness during the dissolution of different minerals is similar. Kuo and <ref type="bibr" target="#b24">Kirkpatrick (1985)</ref> observed higher dissolution rates for diopside than those for forsterite, which is consistent with our conclusion. <ref type="bibr" target="#b6">Brearley and Scarfe (1986)</ref> observed that cpx dissolves faster than olivine at low pressure and spinel dissolves slower than olivine and pyroxenes. They also found that at higher pressures where cpx is the liquidus phase, cpx dissolves slower than olivine when experimental temperature is only slightly higher than the liquidus, and faster than olivine when experimental temperature is significantly higher than the liquidus temperature. These results are all consistent with our predictions if the full Eq. ( <ref type="formula">20</ref>) is used because at temperatures close to the liquidus, the interface melt near cpx is similar to the initial melt composition, which results in a lower dissolution rate for the liquidus phase (cpx).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Estimate of interface composition and predictability of the dissolution rates</head><p>Diffusive dissolution distances can be calculated by (12b) from the EBDC of a well-behaved component and the parameter a which depends on the initial crystal and melt compositions and the interface melt compositions. Dissolution distances thus obtained are compared with observed dissolution distances (or those calculated from mass balance) in Table <ref type="table" target="#tab_3">4</ref>. The good agreement between them illustrates the applicability of the formula. Convective dissolution rates given by ( <ref type="formula">20</ref>) depend also on the EBDC, initial melt and crystal compositions and interface melt compositions, as well as the boundary layer thicknesses. Therefore, the interface compositions are important parameters in estimating diffusive and convective dissolution rates. We have shown that the degree of "saturation" at the interface is essentially 1 after an initiation period of less than a second. One would expect, then, that the interface composition could be predicted from phase equilibria. This is indeed the case for rutile (which is a pure stoichiometric mineral) dissolution where the interface TiO2 concentration of 20.8% (from second order polynomial fitting of TiO2 profile of 41: 236, Fig. <ref type="figure" target="#fig_9">19</ref>) agrees very well with the predicted 21.2% using the data of <ref type="bibr" target="#b40">Ryerson and Watson (1987)</ref>. However, the Fe--Mg exchange coefficient KD calculated from measured compositions of olivine and the interface melt is about 0.2 during San Carlos olivine dissolution and about 0.01 during dissolution of synthetic pure forsterite. Because equilibrium KD's are about 0.3 +0.03 <ref type="bibr" target="#b38">(Roeder and Emslie 1970)</ref>, the initial crystal is not in equilibrium with the interface melt for olivine dissolution. This discrepancy can be explained by two possibilities. One is that true local equilibrium may have been achieved between interface crystal and interface melt compositions. Microprobe analysis may not have sufficient resolution to reveal this interface crystal layer, which the slowness of diffusion in a crystal insures will be very thin (furthermore, quench overgrowth complicates the resolution of the thin interface layer). A second possibility, granting the compositional quasi-immutability of the crystal on the dissolution time scale, is that the crystal cannot be in stable equilibrium with the melt given the arbitrary choice of the dissolving crystal (which is a solid solution). For example, consider the Fa-Fo binary system shown in Fig. <ref type="figure" target="#fig_9">19</ref>. The dissolving crystal, Si, can never be in equilibrium with the melt at To or any other lower temperature. The equilibrium crystal will be Se. (The run temperature is chosen to be lower than the solidus of the crystal in order to avoid internal decomposition.) The free energy surface for liquid and solid solutions are shown schematically in upper diagram of Fig. <ref type="figure" target="#fig_9">19</ref>. Because G for crystal S~ is fixed at To due to the lack of compositional exchange, 509 juxtaposition of Si and melt at To will lead to accommodation of their coexistence via a metastable equilibrium 3, as suggested by the dashed-dot curve on the G-x diagram. Therefore, in this case the interface composition approaches the metastable equilibrium melt L I rather than the equilibrium melt L e at To. The metastable melt Ly has a higher liquidus, or higher MgO, than the stable equilibrium melt L e. Nevertheless, we expect KD&lt;0.3 in this case because the starting crystal composition Si is even farther from the equilibrium crystal Se than the metastable melt L s is from the stable equilibrium melt Le (Fig. <ref type="figure" target="#fig_9">19</ref>). (Note that this kind of metastable equilibrium situation will not happen if the dissolving mineral is a pure stoichiometric mineral, such as rutile, quartz, or zircon.)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>G(To}</head><p>To choose between the case of true local equilibrium or metastable equilibrium, an experiment (# 222) was run in which an olivine crystal was centered in the graphite heater with about 50 g of rock powder on one side and an "infinite" reservoir on the other side. The melt on the thin side should approach the equilibrium composition (assuming the small liquid mass becomes easily saturated) and can be compared to the interface melt on the "infinite" reservoir side. The interface melt on the "infinite" side was found to have higher MgO and FeO and thus had a higher saturation temperature by about 17 ~ C. That is, the interface melt was oversaturated with respect to the equilibrium melt at To, as predicted for metastable equilibrium. (The higher FeO is due to uphill diffusion.) Therefore, the interface melt composition is not at equilibrium saturation but rather at a metastable saturation. However, our experiment cannot distinguish whether the interface melt composition is precisely at Ly or at some other metastable composition between L e and Ly. The metastability of the interface melt suggests that crystal-melt interface equilibrium is not established instantaneously as the melt and crystal come into contact. It also makes precise prediction of interface melt composition impossible, even if phase equilibria are known, though the error due to this may be small.</p><p>The second impediment to predicting the interface melt composition is the complicated diffusion behavior of a multi-component system. The composition of the melt does not move along linear paths between initial melt and crystal compositions in composition space as dissolution proceeds (Fig. <ref type="figure" target="#fig_3">14</ref>). If it did, interface compositions could be predicted from known phase diagrams as the intersection of the straight line composition path and the liquidus surface of the melt in composition-temperature space, ignoring the small oversaturation. This point is illustrated by the ternary system Ab-An-Di in Fig. <ref type="figure" target="#fig_2">20</ref> (ignoring any non-ternary behavior). During anorthite dissolution in an initial melt A at 1300 ~ C, the interface melt composition after the initiation period should be B (or a little oversaturated with respect to B) if the composition paths were linear. Unfortunately this is not the case. The possible interface melt composition may be somewhere within region C because Na diffuses away from the low-Si interface. Therefore, even if phase equilibria are known, and even if the interface melt composition is near saturation (ignoring the small oversaturation), the interface composition still cannot be evaluated 3 We call it metastable equilibrium because it represents a local minimum of the Gibbs free energy at the interface. Because the only component that can be exchanged in this case is Si, only the chemical potential for this component in the two phases needs to be equal at this metastable equilibrium  <ref type="bibr">(1980)</ref> after <ref type="bibr" target="#b5">Bowen (1915)</ref> with revision by <ref type="bibr" target="#b43">Schairer and Yoder (1960)</ref>, <ref type="bibr" target="#b37">Osborn and Tait (1952)</ref> and <ref type="bibr" target="#b25">Kushiro (1973)</ref>. When anorthite crystals are dissolving in liquid A at 1300 ~ C, the interface melt is found at C rather than B because of uphill and differential rate of diffusion Therefore, we conclude that the interface melt composition need not be in stable equilibrium with the initial crystal composition (even in a binary system), nor is it predictable for all the components in a multi-component system. Having belabored all this, is it still possible to approximate the stationary interface melt concentrations of some components so that dissolution rate can be estimated? (After all, our mathematical analysis in previous sections demonstrated that a stationary composition should be reached quickly and the interface melt concentration of only one component is enough to estimate the dissolution rate.) The answer is yes because there is usually one component that plays a determining role in the stability of a crystalline phase in a multi-component system. Such a component may have small opportunity for compositional variation because isopleths for this component usually approximate liquidus isotherms in composition space. For instance, An and Di saturation isotherms are nearly An and Di isopleths respectively in Fig. <ref type="figure" target="#fig_2">20</ref>. Thus An interface concentration during An dissolution at 1300 ~ C can be roughly estimated to be at 30-36%. Another example is MgO interface concentration during dissolution of olivine. Following <ref type="bibr" target="#b38">Roeder and Emslie (1970)</ref> and <ref type="bibr" target="#b27">Langmuir and Hanson (1981)</ref>, olivine saturation in basaltic melt can be described as: Kd Mg~ (MgO + KD FeO) = 66.67 where MgO and FeO are in cation mole percent, Ko is almost constant (0.3) and K~ g~ is a function of temperature and pressure. Other components have little effect upon olivine saturation. Therefore given the temperature (and pressure), the whole term inside the brackets can be evaluated as 66.67/Kd Mg~ FeO does not affect olivine saturation as much as MgO does. 1% FeO is equivalent to only 0.3 mole% MgO (0.17 wt%) in determining the saturation of olivine. Therefore, with FeO poorly estimated (from initial melt and crystal compositions) we can still estimate interface MgO with reasonable precision. At 1300 ~ C, if interface FeO is about 6~9 mole% (or 8 12 wt%), interface MgO will be 15.8-16.7 mole% (or 11.5 12.2 wt%). Interface MgO concentration during olivine dissolution can be better estimated than interface anorthite concentration during pure anorthite dissolution. In general, the more important the component is in determining the saturation surface of the dissolving crystal, the better the estimate of the interface concentration for the component (for example, TiO2 concentration at the interface can be estimated fairly well during rutile dissolution). Therefore we can estimate the dissolution rate and dissolution distance during diffusive crystal dissolution using (12b) and phase saturation data. Data on the saturation surfaces of many crystalline phases at different pressures are needed not only for the understanding of crystallization sequences (equilibrium processes), but also for predicting dissolution rates (kinetic processes).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Convective dissolution and magma contamination</head><p>During convective dissolution, the least determined parameter involved in estimating dissolution rates by ( <ref type="formula">20</ref>) is the boundary layer thickness 5, which is not only difficult to determine but may also vary considerably from place to place near the same dissolution interface. Using 5 as a parameter, the dissolution rate V can be plotted against bD (Fig. <ref type="figure" target="#fig_16">21</ref>). The thickness must be determined independently in order to estimate the convective dissolution rate. Better understanding of the convection regime about a dissolving crystal (or aggregate in the case of xenolith digestion) or at the reactive margins of a magma chamber is required. <ref type="bibr" target="#b7">Clark et al. (1987)</ref> estimated a typical compositional boundary layer thickness of 20 cm adjacent to the wall of a magma chamber. If so, for D= 10-7-10 -8 cm2/s for basaltic melt and b=0.1-0.3, the dissolution rate in a magma chamber digesting crustal rocks is 0.0015 to 0.05 cm/year. These estimates are much lower than experimentally determined convective dissolution rates <ref type="bibr">(Kuo and Kirkpatrick 1983 ;</ref><ref type="bibr" target="#b6">Brearley and Scarfe 1986)</ref> due to a thicker boundary layer. Dissolution of 10 m of crustal rocks requires 20000-700000 years. Such low dissolution rates would rarely produce significant contamination of magmas with mass diffusivities less than 10-v cmZ/s. Mass diffusivities for komatiitic melts are likely to be 100 times greater due to higher temperature and lower silica content of these magmas. Moreover, boundary layer thicknesses adjacent to conduit walls or surface channels would be 100 times smaller due to vigorous convection accompanying turbulent flow. These two factors will make dissolution rates ten thousand times faster for these mag-_&gt; mas. For example, the erosion of a decimeter deep channel .a in the continental crust by a continuous komatiite flow O 0.10 would take 0.02-0.7 years. However, this erosion rate is much lower than the thermal erosion rate of 7 m/day sug-0.00 gested by <ref type="bibr">Huppert and Spark (1985)</ref> who considered the 0.2o melting (instead of dissolution) of the wall rock controlled by heat transfer.</p><p>~ 0.10 Because a continuous heat supply is necessary for a mag-O ma body to remain a liquid at its boundaries (so that it 0.00 can dissolve wall rocks or xenoliths), the most likely situa--0.10 tions for rock dissolution are for xenoliths engulfed by the 0.20 magma and in conduits through which the magma is ascending. The contamination ratio (ratio of the volume of x 0.10 the dissolved wall rock or xenolith to the melt parcel) can be written in the following general form: 0.00</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A* Vt/U -O.lO</head><p>where A is the total surface area of the wall rock or xenoliths o.2o in contact with the melt, V is the dissolution rate, t is the O 0.10 time scale for dissolution and U is the total volume of the ,~ melt. Large xenoliths are not efficient in contaminating the .a 13,. 0.00 melt both because they do not remain in the magma for long, unless neutrally buoyant, and because of the small -0.10</p><p>A/U ratio. Using an analysis similar to that of <ref type="bibr" target="#b52">Walker and Kiefer (1985)</ref>, xenolith digestion through crystal dissolution only is not an effective process for contaminating magma, except in the stagnant local region near a xenolith. Digestion of many small (e.g. centimeter size or smaller) xenoliths will be a more effective contamination mechanism if a physical mechanism of xenotlith comminution and dispersal operates (such as melting of the xenolith at grain boundaries if its temperature can be raised high enough). Such a process is limited only by the thermal budget of the magma body.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Interpretation of least squares analysis</head><p>The common occurrence of uphill diffusion during diffusive crystal dissolution suggests that the mineral proportions discovered by least squares analyses of complementary liquid fractions may be misleading if diffusion is involved in melt genesis. The melt gains extra components of compositional variability through diffusive separation, in addition to the linear mixing of the actual mineral into the melt.</p><p>For example, we have tried to reproduce the melt compositional variation in olivine dissolution run # 212 (initial melt is andesitic) by seeking linear combinations of common minerals with the initial melt (Fig. <ref type="figure" target="#fig_17">22</ref>). Nontrivial amounts of clinopyroxene, orthopyroxene, and plagioclase in addition to olivine are required to reproduce the melt compositional variations which are generated by diffusive olivine dissolution alone. An almost constant cpx to olivine ratio of about 1-2 would be required. The abundances of some trace elements in the melt (# 212), such as high Sc, V, Y (due to uphill diffusion) and high Cr (due to high Cr in olivine), are also mysteriously consistent with, or apparently require, an addition of high-Ca pyroxene. Of course, in this case we know that other minerals are not physically involved, but diffusion kinetics is. Uphill diffusion can occur during crystal growth as well as during crystal dissolution, although the two processes do not strictly mirror one another. One way in which they differ is that crystal composi- If Mg # 90 is used, the least squares fit is much less satisfactory (especially for FeO) and even higher ratios of other minerals to olivine are found tion responds to the melt composition during crystal growth, but not during crystal dissolution. Thus, the exact characteristics of the uphill diffusion effects during residual melt petrogenesis accompanying crystal growth are difficult to predict from our dissolution experiments, which simply highlight the need to be aware of such complications. When examining compositional variations in natural glasses, one does not know which minerals are involved in the fractionation. Those are usually what one seeks to discover by least squares analyses. If diffusion kinetics are involved, then a least squares analysis may not give either realistic mineral assemblages or the right mineral proportions involved in melt genesis. For example, the residual melt (glass) sampled in an oceanic gabbro may not be simply related to bulk magma composition by least squares analysis of removing crystallizing minerals.</p><p>The observed diffusion profiles also have ramifications for the study of crystal zonation and for cumulate rocks.</p><p>Most importantly, the bulk magma composition may not be inferred from the zoned crystal or crystal assemblage without a full understanding of the diffusion behavior in a multi-component silicate melt system, if diffusion played some role in the processes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>We studied two of the three basic component parts of the dissolution process: reaction at the crystal-melt interface and diffusion into the melt. The role of interface reaction has been evaluated numerically and has been found to be relatively unimportant in controlling crystal dissolution rates in silicate melts. Interface kinetics are important only when dissolution temperatures are close to the liquidus of the dissolving crystal, during which it is difficult for the interface composition to reach the stationary "saturation" composition. In most cases crystal dissolution is diffusioncontrolled when there is no convection; and is controlled by diffusion across the boundary layer when there is convection. We have also shown experimentally that the concentration profiles of the chemical components during crystal dissolution propagate into the melt according to, and the dissolution distance increases with, the square root of run duration. This documents control by diffusion. Diffusive dissolution can be mathematically analyzed and diffusive dissolution rates can be estimated using saturation conditions and the EBDC of a principal equilibrium-determining component.</p><p>Our dissolution results can be applied by extrapolation to natural magmatic systems if convection and other possible complications (e.g., more complex geometry) can be adequately addressed. Convective dissolution rates can be predicted if we know the boundary layer thickness, as well as the EBDC, the initial melt and crystal compositions, and the interface melt compositions. It is found that dissolution alone may not be sufficient to alter magma compositions except during the percolation of melt through wall rocks, if convective compositional boundary layer thickness around ascending magma is 20 cm or greater. Wall-rock dissolution is likely to be subordinate to melting during the crustal contamination of a mantle-derived magma.</p><p>Our experiments also provide a method for study of the complicated diffusion process. Our data show that uphill diffusion is the rule rather than the exception, especially during olivine dissolution. Therefore, caution is necessary in modelling trace element zonation in phenocrysts, and in interpreting least squares mass balance analysis, because diffusion may be involved. Solution of the full diffusion matrix of natural silicate melts is required to rigorously model these processes in detail, but much qualitative insight into chemical diffusion in magmas is provided by direct study of mineral dissolution and treatment of experimental data as presented here.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Fig. 1 a, b. Evolution of the degree of saturation at the interface and the dissolution rate. a degree of saturation at the interface vs dimensionless time; b dissolution rate vs time. Fig. 1 b is essential-the same as a but it shows how V]~ reaches a constant. The ly constant a is calculated from Eq. (3) by replacing C with w. The constant is used to scale the vertical variable so that it approaches 1 as time increases</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>and FeO ~ are MgO and FeO cation mole percent in olivine and K Mg~ is the simple partition coefficient of MgO between olivine and melt. The effect of SiO2 on w has been ignored. Calculations used experimental data summarized in Weaver and Langmuir (in press) b m means the crystal melts at the temperature (Fig. i b). The period before Vl/~/a reaches 0.99 is hereafter called the initiation period and the time at which this is satisfied is defined as the critical time. From the dimensionless critical time (denoted as z*) inferred from Fig. 1 b we can calculate the real critical time (denoted as t*) in seconds if Va and /5 are known. Further, from Fig. 1 b it is seen that the critical time depends on ws but is insensitive to woo (although the diagram shows only the cases where w|our result shows that the critical time at woo =0.9999 is similar to that at w|</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Plot of a vs b where b = ~/~ ae "2 erfc(-a)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4</head><label>4</label><figDesc>Figure 4 presents two photomicrographs of an interface between San Carlos olivine and glass (44= 212) viewed in reflected light. The interface is nondiffuse and straight. In three dimensional view, the interface must thus be almost perfectly planar. Because about 50 p of the crystal have</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig.</head><label></label><figDesc>Fig. 4a, b. Photomicrographs of an experimental charge (# 212). a whole view of the charge. San Carlos olivine is at the center of the charge. About 3 x 4 ram. b a blow up of the interface. Notice the interface is sharp and straight. The width is about 300 g</figDesc><graphic coords="8,44.00,65.56,200.64,445.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>Fig. 5. Dissolution distance vs square root of run duration. In parentheses is calculated temperature (~ C), column 4 in Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig</head><label></label><figDesc>Fig. 6a, b. A detailed MgO concentration profile in the glass of Run :~ 212 (T= 1285 ~ C, P=5.5 kb). a the distribution of the analyzed points. Dashed lines are traverses; a dot is an analyzed single point above the olivine crystal and a cross is a point below the olivine crystal, b the concentration profiles of all the analyzed points, including the traverses (dashed lines in a)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. a Major element concentration (wt%) profiles for olivine dissolution into andesitic melt (# 212, T = 1285 ~ C; P = 5.5 kb) vs x/2]~t (in Ix/l/s) in melt where x is distance from crystal-melt interface. Na20 is analyzed by ion microprobe at MIT. b Trace element concentration (ppm) profiles for # 212. Trace elements are analyzed at MIT. Sr, Y and Zr are repeated in two analyses and they are compared in the diagram with date of analysis in parenthesis. Rb and Ce are given in relative concentration where concentration far away is defined to be 1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Concentration profiles for two experiments of olivine dissolution into andesitic melt (#216 and #219, T=1250~ P = 5.5 kb) vs x/2]/~. Run duration is in parentheses 9 The agreement of the concentration profiles suggests that Soret effect is negligible for run duration up to 23 h for # 219 which is the longest of all the experiments</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. Concentration profiles for three experiments of forsterite dissolution into andesitic melt (# 226, # 227, and # 228, T= 1285 to 1300 ~ C; P= ~5 kb) vs x/2]/~t</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 11 .</head><label>11</label><figDesc>Fig. 11. Concentration profiles a spinel dissolution experiment in andesitic melt (# 231, T= 1385 ~ C; P= 13 kb) vs x/21~. SiO* = SiO2 + 100-Total</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 12 .</head><label>12</label><figDesc>Fig. 12. Concentration profiles for a quartz dissolution experiment in andesitic melt (# 234, T= ~ 1300 ~ C; P=5.5 kb) vs x/2]~. Notice change in scale for K20 profile to show the broad minimum at x/21/t = 1.2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 15 .</head><label>15</label><figDesc>Fig. 14. OL-DI-SILICA triangular plot of composition paths calculated by the Walker et al. (1979) formula during dissolution of olivine, diopside and quartz</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 18 .</head><label>18</label><figDesc>Fig. 18. EBDC (cm2/s) of SiO2, AlzO 3 and MgO for all experiments.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head></head><label></label><figDesc>). Using the measured dissolution rate instead of u will probably give values of D that are too small (of the wrong sign)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head></head><label></label><figDesc>Fig. 20. A ternary phase diagram Di-Ab-An showing the effect of multi-component diffusion. The diagram is adapted from Morse(1980)  after<ref type="bibr" target="#b5">Bowen (1915)</ref> with revision by<ref type="bibr" target="#b43">Schairer and Yoder (1960)</ref>,<ref type="bibr" target="#b37">Osborn and Tait (1952)</ref> and<ref type="bibr" target="#b25">Kushiro (1973)</ref>. When anorthite crystals are dissolving in liquid A at 1300 ~ C, the interface melt is found at C rather than B because of uphill and differential rate of diffusion</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Fig. 21 .</head><label>21</label><figDesc>Fig. 21. Calculated dissolution rate vs diffusion coefficient during convective dissolution for a range of boundary layer thicknesses</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Fig. 22 .</head><label>22</label><figDesc>Fig. 22. Hypothetical fraction of oliv, cpx, opx, plag necessary to reproduce melt composition in the diffusion boundary layer produced by olivine dissolution alone (# 212), plotted against x/2~tt ~t/~s). Composition of the minerals used in the least (in squares analysis: Mg # 80 for marie minerals and An85 for plagioclase.If Mg # 90 is used, the least squares fit is much less satisfactory (especially for FeO) and even higher ratios of other minerals to olivine are found</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Parameter Ws a of some minerals at different temperatures</figDesc><table><row><cell>T (o C)</cell><cell>1200</cell><cell>1300</cell><cell>1400</cell><cell>1500</cell><cell>Liquidus (o c)</cell></row><row><cell>OL(FO90)</cell><cell>4.3</cell><cell>3.0</cell><cell>2.2</cell><cell>1.6</cell><cell>1770</cell></row><row><cell>DIOP</cell><cell>2.4</cell><cell>1.5</cell><cell>m b</cell><cell>m</cell><cell>1391</cell></row><row><cell>PL(AN60)</cell><cell>1.9</cell><cell>1.4</cell><cell>m</cell><cell>m</cell><cell>1333</cell></row><row><cell>a</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc></figDesc><table><row><cell cols="3">. Starting compositions</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>LML</cell><cell>LML u</cell><cell>Olivc</cell><cell>Fors</cell><cell>Diop</cell><cell>Sp</cell><cell>Qtz</cell><cell>Rt</cell></row><row><cell></cell><cell>DCP a</cell><cell>Probe</cell><cell>Probe</cell><cell>Probe</cell><cell>Probe</cell><cell>Probe</cell><cell>Probe</cell><cell>Probe</cell></row><row><cell>SiO 2</cell><cell>56.1</cell><cell>56.5</cell><cell>40-41</cell><cell>42.7</cell><cell>55.2</cell><cell>0.02</cell><cell>99.92</cell><cell>0.1</cell></row><row><cell>TiO2</cell><cell>1.18</cell><cell>1.24</cell><cell>0</cell><cell>0</cell><cell>0.0l</cell><cell>0.01</cell><cell>0</cell><cell>99.2</cell></row><row><cell>A120 ~</cell><cell>17.7</cell><cell>18.0</cell><cell>0.03</cell><cell>0</cell><cell>0.37</cell><cell>71.2</cell><cell>0.03</cell><cell>0.5</cell></row><row><cell>FeO</cell><cell>7.03</cell><cell>6.71</cell><cell>8-11</cell><cell>0.3</cell><cell>0.65</cell><cell>0.82</cell><cell>0.01</cell><cell>0.2</cell></row><row><cell>MgO</cell><cell>3.93</cell><cell>3.96</cell><cell>48 51</cell><cell>56.8</cell><cell>17.63</cell><cell>27.5</cell><cell>0</cell><cell>0.05</cell></row><row><cell>MnO</cell><cell>0.127</cell><cell>0.13</cell><cell>0.15</cell><cell>0</cell><cell>0.08</cell><cell>0.1</cell><cell>0</cell><cell>0</cell></row><row><cell>CaO</cell><cell>7.51</cell><cell>7.73</cell><cell>0.1</cell><cell>0</cell><cell>25.57</cell><cell>0</cell><cell>0</cell><cell>0</cell></row><row><cell>Na20</cell><cell>3.86</cell><cell>3.75</cell><cell>0</cell><cell>0</cell><cell>0.23</cell><cell>0</cell><cell>0</cell><cell>0</cell></row><row><cell>K20</cell><cell>1.70</cell><cell>1.7</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell></row><row><cell>P205</cell><cell>0.39</cell><cell>0.38</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0.01</cell><cell>0</cell></row><row><cell>Sum</cell><cell>99.5</cell><cell>100.1</cell><cell>-</cell><cell>99.8</cell><cell>99.74</cell><cell>99.65</cell><cell>99.97</cell><cell>100.1</cell></row><row><cell cols="6">a Unpublished Lamont data for natural rock powder (LML 30-1) by DC plasma analysis</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5">b Electron microprobe analysis on glass prepared from rock powders</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">c San Carlos olivine composition is variable, Fo88-91</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>2mm</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>3cm</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>ALUMINA</cell><cell cols="2">~]]]]] CRYSTAL</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">ROCK POWDER ~</cell><cell>PYREX GLASS</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>GRAPHITE</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="4">Fig. 3. Sketch of the experimental configuration within a 1/2" piston</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="2">cylinder pressure vessel</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="5">conditions. The compositions of starting materials are listed in</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Table</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Run summary</figDesc><table><row><cell>Run @</cell><cell>T 1</cell><cell>P</cell><cell>T 2</cell><cell>Cryst</cell><cell>Pos</cell><cell>Xi</cell><cell>X I</cell><cell>AX</cell><cell>t (sec)</cell><cell>MgO</cell></row><row><cell>212</cell><cell>1290</cell><cell>5.5</cell><cell>1285</cell><cell>OL</cell><cell>Mid</cell><cell>726 _+ 10</cell><cell>631+2</cell><cell>48 ___5</cell><cell>18000</cell><cell>11.3</cell></row><row><cell>216</cell><cell>1290</cell><cell>5.5</cell><cell>1250</cell><cell>OL</cell><cell>Mid</cell><cell>838 _+2</cell><cell>818-+10</cell><cell>10 _+5</cell><cell>900</cell><cell>10.05</cell></row><row><cell>219</cell><cell>1270</cell><cell>5.5</cell><cell>1250</cell><cell>OL</cell><cell>Bot</cell><cell>802 -+17</cell><cell>725_+8</cell><cell>79 +19</cell><cell>81220</cell><cell>10.05</cell></row><row><cell>222</cell><cell>1285</cell><cell>5.5</cell><cell>1302</cell><cell>OL</cell><cell>Bot</cell><cell>510 -+4</cell><cell>470-+20</cell><cell>40 -+20</cell><cell>8340</cell><cell>12.15</cell></row><row><cell>223</cell><cell>1305</cell><cell>10.5</cell><cell>-</cell><cell>DI</cell><cell>Bot</cell><cell>638 _+20</cell><cell>598-+5</cell><cell>40 ___20</cell><cell>4190</cell><cell>8.1</cell></row><row><cell>225</cell><cell>1305</cell><cell>10.5</cell><cell>-</cell><cell>DI</cell><cell>Bot</cell><cell>648 ___8</cell><cell>622_+7</cell><cell>26 -+11</cell><cell>890</cell><cell>8.0</cell></row><row><cell>226</cell><cell>1305</cell><cell>5.5</cell><cell>1285</cell><cell>FO</cell><cell>Bot</cell><cell>373 _+23</cell><cell>345-t-12</cell><cell>28 __+26</cell><cell>895</cell><cell>11.15</cell></row><row><cell>227</cell><cell>1305</cell><cell>5.5</cell><cell>1300</cell><cell>FO</cell><cell>Bot</cell><cell>456 _+9</cell><cell>431 -+ 5</cell><cell>25 -+ 10</cell><cell>8995</cell><cell>12</cell></row><row><cell>228</cell><cell>1315</cell><cell>5</cell><cell>1300</cell><cell>OL</cell><cell>Mid</cell><cell>401 + 13</cell><cell>390-+3</cell><cell>11 -+ 13</cell><cell>2400</cell><cell>12.1</cell></row><row><cell>228</cell><cell>"</cell><cell>"</cell><cell>1300</cell><cell>FO</cell><cell>Mid</cell><cell>495 -+ 13</cell><cell>475_+ 5</cell><cell>20 -+ 14</cell><cell>a</cell><cell>12.1</cell></row><row><cell>229</cell><cell>1215</cell><cell>5</cell><cell>1185</cell><cell>OL</cell><cell>Bot</cell><cell>584c-+25</cell><cell>608_+15</cell><cell>--24c-+29</cell><cell>3600</cell><cell>7.25</cell></row><row><cell>231</cell><cell>1365</cell><cell>13</cell><cell></cell><cell>OL</cell><cell>Bot</cell><cell>301 _+ 10</cell><cell>246_+6</cell><cell>55b-+ 12</cell><cell>1 780</cell><cell>13.2</cell></row><row><cell>231</cell><cell>1385</cell><cell>~</cell><cell>--</cell><cell>SP</cell><cell>Mid</cell><cell>273 __+ 10</cell><cell>245-+ 5</cell><cell>14 _+ 6</cell><cell>a</cell><cell>5.95</cell></row><row><cell>231</cell><cell>1365</cell><cell>"</cell><cell>-</cell><cell>DI</cell><cell>Top</cell><cell>1024 _+33</cell><cell>882-+10</cell><cell>142b-+ 34</cell><cell>a</cell><cell>10.8</cell></row><row><cell>234</cell><cell>1300</cell><cell>5</cell><cell>-</cell><cell>QT</cell><cell>Top</cell><cell>597 -+13</cell><cell>603-+5</cell><cell>--6 -+14</cell><cell>3600</cell><cell>1.5</cell></row><row><cell>235</cell><cell>1350</cell><cell>5</cell><cell>1350</cell><cell>OL</cell><cell>Top</cell><cell>267 -+25</cell><cell>250-1-5</cell><cell>17 +25</cell><cell>1 100</cell><cell>14.5</cell></row><row><cell>236</cell><cell>1375</cell><cell>15</cell><cell></cell><cell>OL</cell><cell>Top</cell><cell>260 -+ 10</cell><cell>157___ 10</cell><cell>103b-+ 14</cell><cell>1 800</cell><cell>16.0</cell></row><row><cell>236</cell><cell>"</cell><cell>a</cell><cell>-</cell><cell>RT</cell><cell>Bot</cell><cell>398 +8</cell><cell>350_+20</cell><cell>48 -+22</cell><cell>a</cell><cell>4.6</cell></row><row><cell>239</cell><cell>1400</cell><cell>5.5</cell><cell>1420</cell><cell>OL</cell><cell>Mid</cell><cell>438 +10</cell><cell>170+70</cell><cell>134 +35</cell><cell>4800</cell><cell>19.0</cell></row><row><cell>242</cell><cell>1375</cell><cell>21.5</cell><cell>-</cell><cell>DI</cell><cell>Top</cell><cell>428 -+13</cell><cell>372-+10</cell><cell>56 -+16</cell><cell>1810</cell><cell>7.7</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Dissolution distances</figDesc><table><row><cell>Run #</cell><cell>L (meas)</cell><cell>L (MB)</cell><cell>L (calc)</cell></row><row><cell>212(OL)</cell><cell>48 _+5</cell><cell>51 ___2</cell><cell>48_+5</cell></row><row><cell>216(OL)</cell><cell>10 ___2</cell><cell>7.6+0.4</cell><cell>8_+1</cell></row><row><cell>219(OL)</cell><cell>77 +19</cell><cell>72 -+4</cell><cell>65_+7</cell></row><row><cell>222(OL)</cell><cell>40 _+20</cell><cell>45 _+2</cell><cell>47_+5</cell></row><row><cell>223(DI)</cell><cell>40 -+20</cell><cell>40 _+2</cell><cell>38_+4</cell></row><row><cell>225(DI)</cell><cell>26 +_11</cell><cell>18 -+1</cell><cell>17_+2</cell></row><row><cell>226(FO)</cell><cell>26 -+26</cell><cell>10 -+1</cell><cell>12-+2</cell></row><row><cell>227(FO)</cell><cell>25 _+10</cell><cell>36 _+2</cell><cell>38-+4</cell></row><row><cell>228(OL)</cell><cell>11 +13</cell><cell>26 -+2</cell><cell>25_+3</cell></row><row><cell>228(FO)</cell><cell>20 +14</cell><cell>24 -I-2</cell><cell>23-1-3</cell></row><row><cell>229(OL)</cell><cell>-2 4 -+29</cell><cell>7 -+1</cell><cell>7-+1</cell></row><row><cell>231 (OL)</cell><cell>55a-+ 12</cell><cell>34 +7</cell><cell>32-+10</cell></row><row><cell>231(SP)</cell><cell>14 -+11</cell><cell>10 _+0.5</cell><cell>9-+0.7</cell></row><row><cell>231(DI)</cell><cell>142"_+ 34</cell><cell>79 -+2</cell><cell>74_+5</cell></row><row><cell>234(QT)</cell><cell>18 +14</cell><cell>15 +3</cell><cell>18-+4</cell></row><row><cell>235(OL)</cell><cell>24 +25</cell><cell>25 -+2</cell><cell>26-+4</cell></row><row><cell>236(OL)</cell><cell>103 a_+14</cell><cell>60 -+3</cell><cell>~70</cell></row><row><cell>236(RT)</cell><cell>48 -+22</cell><cell>22 +_2</cell><cell>21-+2</cell></row><row><cell>239(OL)</cell><cell>134 _+35</cell><cell>120 _+5</cell><cell>110_+10</cell></row><row><cell>242(DI)</cell><cell>56 +16</cell><cell>47 +4</cell><cell>48_+4</cell></row></table><note><p><p>Note: Run # : Included in parenthesis is the crystal for which the dissolution distance is measured and near which the profile is considered, where OL= San Carlos olivine, FO = synthetic pure forsterite, DI = diopside0 SP = spinel, Q T= quartz, R T= rutile; L (meas):</p>directly measured dissolution distance in microns; L (MB): dissolution distance calculated from mass balance; L (calc): dissolution distance calculated from L=2a(Dt)l/Z/h Density used in the calculation: andesitic glass 2.7; olivine and diopside 3.3; spinel 3.58; quartz 2.65; rutile 4.25 a The real measured distance should be smaller than that because of a small melt reservoir on the other side which absorbs some crystal thickness ture (Pgl . . . . t .... temperature &gt;pmelt at run temperature), the density in (</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>58 57 t + 4".~"" ++ + +</head><label></label><figDesc></figDesc><table><row><cell></cell><cell cols="7">56 t _~ +,,+Ooo</cell><cell></cell><cell></cell><cell></cell><cell cols="2">o+</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>53</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="5">4-#216 (15 rain)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>9 eoe</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>9</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="5">~ #'219 (22.6 hr}</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>52j'1</cell><cell></cell><cell>,</cell><cell></cell><cell>,</cell><cell></cell><cell>,</cell><cell></cell><cell cols="3">, . ,</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>p</cell><cell cols="8">/ 131 1 t.+ 4-+:2 . ~4-4-+ +</cell><cell></cell><cell></cell><cell cols="2">+ +</cell><cell cols="2">10,~ 9%. 9 8 p6~</cell><cell>,</cell><cell>.</cell><cell>,</cell><cell>.</cell><cell>,</cell><cell>.</cell><cell>,</cell><cell>.</cell><cell>,</cell><cell>.</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>5"t</cell><cell></cell><cell></cell><cell></cell><cell cols="2">+%~</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>4</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>+++</cell><cell></cell><cell></cell><cell>+e</cell><cell>+</cell></row><row><cell></cell><cell>1.0</cell><cell>9</cell><cell>,</cell><cell>9</cell><cell>,</cell><cell>9</cell><cell>,</cell><cell>9</cell><cell>,</cell><cell>9</cell><cell>,</cell><cell>9</cell><cell>3</cell><cell>-</cell><cell>,</cell><cell>-</cell><cell>,</cell><cell>-</cell><cell>,</cell><cell>9</cell><cell>,</cell><cell>9</cell><cell>,</cell><cell>-</cell></row><row><cell></cell><cell>19</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>8</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>18</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>4"++</cell><cell></cell><cell></cell><cell>4-</cell><cell>4-</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>~7 16</cell><cell cols="2">4-/ f r</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="12">8.0d 7.5 ~ "~' ++--+~r ++ + + 9 +</cell></row><row><cell></cell><cell>15</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>7"0 1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>14</cell><cell>9</cell><cell>,</cell><cell>.</cell><cell>+</cell><cell>.</cell><cell>,</cell><cell>.</cell><cell>,</cell><cell>.</cell><cell>,</cell><cell>.</cell><cell>6.5</cell><cell>-</cell><cell>,</cell><cell>-</cell><cell>,</cell><cell cols="4">......</cell><cell></cell><cell></cell><cell>-</cell></row><row><cell></cell><cell></cell><cell></cell><cell>1</cell><cell></cell><cell>2</cell><cell></cell><cell>3</cell><cell cols="2">4</cell><cell></cell><cell>5</cell><cell></cell><cell>0</cell><cell></cell><cell>1</cell><cell></cell><cell>2</cell><cell></cell><cell>3</cell><cell></cell><cell>4</cell><cell></cell><cell>5</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">X/2~/t</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">x/2qt</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_12"><head>Table 6 .</head><label>6</label><figDesc>EBDC</figDesc><table><row><cell>Run 4~</cell><cell>DMgO</cell><cell>DAI203</cell><cell>Dsio2</cell><cell>Dc~o</cell></row><row><cell>212(OL) a</cell><cell>5.3</cell><cell>3.3</cell><cell>2.0</cell><cell>-</cell></row><row><cell>216(OL)</cell><cell>4.3</cell><cell>1.4</cell><cell>2.5</cell><cell>-</cell></row><row><cell>219(OL)</cell><cell>3.0</cell><cell>1.6</cell><cell>1.0</cell><cell>-</cell></row><row><cell>222(OL)</cell><cell>6.6</cell><cell>4.2</cell><cell>2.3</cell><cell>-</cell></row><row><cell>223(DI)</cell><cell>4.4</cell><cell>2.5</cell><cell></cell><cell>8.6</cell></row><row><cell>225(DI)</cell><cell>5.1</cell><cell>3.8</cell><cell>-</cell><cell>9.5</cell></row><row><cell>226(FO)</cell><cell>6.0</cell><cell>2.6</cell><cell>1.7</cell><cell>-</cell></row><row><cell>227(FO)</cell><cell>7.1</cell><cell>3.0</cell><cell>2.6</cell><cell>-</cell></row><row><cell>228(OL)</cell><cell>8.5</cell><cell>4.0</cell><cell>2.2</cell><cell>-</cell></row><row><cell>228(FO)</cell><cell>9.4</cell><cell>4.7</cell><cell>2.6</cell><cell></cell></row><row><cell>229(OL)</cell><cell>1.8</cell><cell>1.1</cell><cell>0.57</cell><cell>-</cell></row><row><cell>231 (OL)</cell><cell>11.4</cell><cell>8.5</cell><cell>3.6</cell><cell>-</cell></row><row><cell>231(se)</cell><cell>8.5</cell><cell>3.8</cell><cell>2.5</cell><cell>-</cell></row><row><cell>231(DI)</cell><cell>10</cell><cell>7.3</cell><cell>-</cell><cell>22</cell></row><row><cell>234(QT)</cell><cell>0.2</cell><cell>0.42</cell><cell>0.28</cell><cell>0.21</cell></row><row><cell>235(OL)</cell><cell>12</cell><cell>7.0</cell><cell>5.0</cell><cell></cell></row><row><cell>236(OL)</cell><cell>24</cell><cell>16</cell><cell>12</cell><cell></cell></row><row><cell>236(RT) b</cell><cell>-</cell><cell>-</cell><cell>5.5</cell><cell></cell></row><row><cell>239(OL)</cell><cell>20</cell><cell>12</cell><cell>9.4</cell><cell>-</cell></row><row><cell>242(DI)</cell><cell>18</cell><cell>10</cell><cell>-</cell><cell>26</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_13"><head>Table 7 .</head><label>7</label><figDesc>Dependence of EBDC on the minerals being dissolved</figDesc><table><row><cell>Mineral</cell><cell>Dsio2</cell><cell>OAl2O 3</cell><cell>DMg O</cell><cell>Deao</cell><cell>Ref Run 4~</cell></row><row><cell cols="4">Andesitic melt at T~ 1300 ~ C and P~5 kb</cell><cell></cell><cell></cell></row><row><cell>Oliv</cell><cell>2.3</cell><cell>4.2</cell><cell>6.6</cell><cell>-</cell><cell>222</cell></row><row><cell>Quartz</cell><cell>0.28</cell><cell>0.42</cell><cell>0.20</cell><cell>0.21</cell><cell>234</cell></row><row><cell cols="4">Andesitic melt at Tg 1375 ~ C and P~ 13 kb</cell><cell></cell><cell></cell></row><row><cell>Oliv</cell><cell>3.6</cell><cell>8.5</cell><cell>11</cell><cell>-</cell><cell>231</cell></row><row><cell>Diop</cell><cell>-</cell><cell>7.3</cell><cell>10</cell><cell>22</cell><cell>231</cell></row><row><cell>Spinel</cell><cell>2.5</cell><cell>3.8</cell><cell>8.5</cell><cell>-</cell><cell>231</cell></row><row><cell cols="4">Andesitic melt at T~ 1375 ~ C and P~ 15 kb</cell><cell></cell><cell></cell></row><row><cell>Oliv</cell><cell>12</cell><cell>16</cell><cell>24</cell><cell>-</cell><cell>236</cell></row><row><cell>Rutile</cell><cell>5.5</cell><cell>-</cell><cell>-</cell><cell></cell><cell>236</cell></row><row><cell cols="3">Note: Unit for EBDC is •2/S</cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="6">Although the nominal temperatures for # 231 and # 236 are simi-</cell></row><row><cell cols="6">lar, the difference in the interface MgO concentrations near olivine</cell></row><row><cell cols="6">crystals suggests that temperature for =~ 236 is ~ 40 ~ C higher than</cell></row><row><cell>for # 231</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_14"><head></head><label></label><figDesc>Fig. 19. A sketch phase diagram and Gibbs free energy vs composition for a binary solid solution system showing metastable equilibrium. Starting crystal and melt compositions are S~ and L~. Equilibrium crystal and melt compositions are Se and Le. Possible interface melt composition is between the equilibrium composition Le and the metastable saturation composition L I</figDesc><table><row><cell cols="4">\ /J'J,</cell></row><row><cell>I</cell><cell>I</cell><cell>I</cell><cell>I</cell></row><row><cell></cell><cell>•</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>;</cell><cell>'</cell></row><row><cell>To</cell><cell>',1/</cell><cell>t/ Se</cell><cell>! Si</cell></row><row><cell>T</cell><cell></cell><cell></cell><cell></cell></row><row><cell>t</cell><cell>I</cell><cell>I</cell><cell>I</cell></row><row><cell>Fo</cell><cell>X Fo</cell><cell></cell><cell>Fo</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgement. This work has benefited from discussions with <rs type="person">Drs. N. Shimizu</rs>, and <rs type="person">D. Christie</rs>. Thanks are due to <rs type="person">N. Shimizu</rs> who did the ion microprobe analysis, <rs type="person">Sandy Bromble</rs> who helped in electron microprobe analysis, and <rs type="person">Peter McNutt</rs> for technical assistance. <rs type="person">Drs. G. Harlow</rs> and <rs type="person">T.J. Shankland</rs> provided some crystals used in this study. <rs type="person">Drs. E.B. Watson</rs> and <rs type="person">J. Ryan</rs> are thanked for their insightful and constructive reviews. Questions raised by <rs type="person">Drs. M. Ghiorso</rs>, <rs type="person">C. Langmuir</rs>, <rs type="person">G. Muncill</rs>, <rs type="person">E.M. Stolper</rs> and <rs type="person">C. Zhu</rs> helped clarifying some of the concepts. Daily interactions with Lamont students and research staff contributed in many ways to this manuscript. <rs type="person">C. Straub</rs> helped in typing the paper. Patty Catanzaro helped in drafting the diagrams. This work is supported by <rs type="funder">NSF</rs> (Grant <rs type="grantNumber">OCE85-11017</rs>, <rs type="grantNumber">EAR85-13693</rs>, and <rs type="grantNumber">EAR87-07536</rs>) and <rs type="funder">DOE</rs> (Grant <rs type="grantNumber">DE-FG02-84ER13287</rs>). Lamont-Doherty Geological Observatory Contribution No. <rs type="grantNumber">4484</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_eS48kNX">
+					<idno type="grant-number">OCE85-11017</idno>
+				</org>
+				<org type="funding" xml:id="_hEqdgAR">
+					<idno type="grant-number">EAR85-13693</idno>
+				</org>
+				<org type="funding" xml:id="_zFWc7GQ">
+					<idno type="grant-number">EAR87-07536</idno>
+				</org>
+				<org type="funding" xml:id="_qtEpFdw">
+					<idno type="grant-number">DE-FG02-84ER13287</idno>
+				</org>
+				<org type="funding" xml:id="_ZMmxjkr">
+					<idno type="grant-number">4484</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Kinetic disequilibrium in trace element partitioning between phenocrysts and host lava</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Albarede</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bottinga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="141" to="156" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Diffusion in electrolyte mixtures</title>
+		<author>
+			<persName><forename type="first">Anderson</forename><surname>De</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Reviews in Mineralogy</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kirkpatrick</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="211" to="260" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Washington</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Mineral Soc Am</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Chemical diffusion in intermediate to silicic melts: effects of pressure and fluoridation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EOS</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page">511</biblScope>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Petrogenesis of basalts from the project FAMOUS area: experimental study from 0 to 15 kbars</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Bender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">N</forename><surname>Hodges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Bence</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="277" to="302" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The crystallization of haplobasaltic, haplodioritic and related magmas</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Bowen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sci</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="161" to="185" />
+			<date type="published" when="1915">1915</date>
+		</imprint>
+	</monogr>
+	<note>th Ser</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Dissolution rates of upper mantle minerals in an alkali basalt melt at high pressure: an experimental study and implication for ultramafic xenolith survival</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brearley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Petrol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1157" to="1182" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Steady state double-diffusive convection in magma chambers heated from below</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Spera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Yuen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Magmatic processes: physiochemical principles</title>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1987">1987</date>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="289" to="305" />
+		</imprint>
+		<respStmt>
+			<orgName>University Park</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The use and limitations of the concept of an effective binary diffusion coefficient for multi-component diffusion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mass transport in oxides</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Wachtman</surname><genName>Jr</genName></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Franklin</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1968">1968</date>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page">84</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Vector space treatment of multicomponent diffusion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Giletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Yoder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Yund</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Geochemical transport and kinetics. Carnegie Inst Washington PuN</title>
+		<imprint>
+			<biblScope unit="volume">634</biblScope>
+			<biblScope unit="page" from="15" to="30" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">The mathematics of diffusion</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+			<publisher>Oxford Univ Press</publisher>
+			<biblScope unit="page">414</biblScope>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">The principles of chemical equilibrium</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Denbigh</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1966">1966</date>
+			<publisher>Cambridge Univ Press</publisher>
+			<biblScope unit="page">494</biblScope>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The dissolution rate of olivine, plagioclase, and quartz in a basaltic melt</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Donaldson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mineral Mag</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="683" to="693" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Crystal growth and nucleation theory and the numerical simulation of igneous crystallization</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dowty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of magmatic processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New Jersey</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="419" to="486" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Basalt magma interaction with harzburgite and the formation of high-magnesium andesites</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Fisk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys Res Lett</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="467" to="670" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Olivine-liquid equilibria: temperature, pressure and composition dependence of the crystal/liquid cation partition coefficients for Mg, Fe 2+, Ca and Mn</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Ford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Craven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Fisk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Petrol</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="256" to="265" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Chemical mass transfer in magmatic processes. III. Crystal growth, chemical diffusion and thermal diffusion in multicomponent silicate melts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ghiorso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="291" to="313" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Kinetics of zircon dissolution and zirconium diffusion in granitic melts of variable water content</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="66" to="72" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The behavior of apatite during crustal anatexis: equilibrium and kinetic considerations</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1467" to="1477" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Diffusion in natural silicate melts: a critical review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of magmatic processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New Jersey</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="385" to="389" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Emplacement and cooling of komatiite lavas</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Huppert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rsj</forename><surname>Sparks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">T</forename><surname>Arndt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<biblScope unit="page">1952</biblScope>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Komatiites, I. eruption and flow</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Huppert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rsj</forename><surname>Sparks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Petrol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="694" to="725" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Crystal growth from the melt: a review</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kirkpatrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Mineral</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="798" to="814" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Kinetics of crystallization of igneous rocks</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kirkpatrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Reviews of Mineralogy</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kirkpatrick</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">389</biblScope>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Kinetics of crystal dissolution in the system diopside-forsterite-silica</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Washington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mineral</forename><surname>Soc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Am</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L-C</forename><surname>Kirkpatrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sci</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="51" to="90" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The system anorthite-diopside-albite: determination of compositions of coexisting phases</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Carnegie Inst Washington Yearb</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="502" to="505" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Some possible geochemical consequences of in situ fractionation in a boundary layer</title>
+	</analytic>
+	<monogr>
+		<title level="j">Langmuir CH</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page">385</biblScope>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note>EOS</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Calculating mineral-melt equilibria with stoichiometry, mass balance, and single-component distribution coefficients</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Langmuir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Hanson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Thermodynamics of minerals and melts: advances in physical geochemistry 1</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Newton</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Navrotsky</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Wood</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York Berlin Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1981">1981</date>
+			<biblScope unit="page" from="247" to="271" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Implication of a concentration dependent growth rate on the boundary layer crystal-melt model</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="429M" to="434" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Toward a master equation in crystal growth</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sci</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="1264" to="1288" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Effects of silicate liquid composition on mineralliquid element partitioning from Soret diffusion studies</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geophys Res</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="6123" to="6141" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Solution properties of silicate liquids from thermal diffusion experiments</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geoehim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1397" to="1411" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Chemical diffusivities of natural silicate liquids from thermal (Soret) diffusion studies</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EOS</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page">409</biblScope>
+			<date type="published" when="1986">1986b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A transient heating event in the history of a highland troctolite from Apollo 12 soil 12033</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">B</forename><surname>Marvin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc Lunar Planet Sci Conf 15th Part 2</title>
+		<meeting>Lunar Planet Sci Conf 15th Part 2</meeting>
+		<imprint>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note>Suppl 90:C412 C429</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Basalts and phase diagrams: an introduction to the quantitative use of phase diagrams in igneous petrology</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Morse</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980">1980</date>
+			<publisher>Springer</publisher>
+			<biblScope unit="page">493</biblScope>
+			<pubPlace>Berlin Heidelberg New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Convection in aid of adcumulus growth</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Morse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Petrol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1183" to="1214" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Partial molar volumes of oxide components in silicate liquids</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ise</forename><surname>Carmichael</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="117" to="124" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The system anorthite-diopside-albite</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Osborn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Tait</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sci Bowen</title>
+		<imprint>
+			<biblScope unit="volume">250</biblScope>
+			<biblScope unit="page">433</biblScope>
+			<date type="published" when="1952">1952</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Olivine-liquid equilibrium</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Roeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Emslie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="275" to="289" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Implications of liquid-liquid distribution coefficients to mineral-liquid partitioning</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ryerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Hess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page">932</biblScope>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Rutile saturation in magmas: implications for Ti--Nb--Ta depletion in island-arc basalts</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ryerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="225" to="239" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Experimental petrology of alkalic lavas constraints on cotectics of multiple saturation in natural basic liquids</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Sack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ise</forename><surname>Carmichael</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Diffusion coronas around quartz xenoerysts in andesite and basalt from Tertiary volcanic region in northeastern Shikoku</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="49" to="64" />
+			<date type="published" when="1974">1974</date>
+			<pubPlace>Japan</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The nature of residual liquids from crystallization, with data on the system nepheline-diopside-silica</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Schairer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Yoder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am J Sci</title>
+		<imprint>
+			<biblScope unit="volume">258</biblScope>
+			<biblScope unit="page">83</biblScope>
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Diffusion in solids</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Shewmon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1963">1963</date>
+			<publisher>McGraw-Hill</publisher>
+			<biblScope unit="page">203</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Trace element incorporation into growing augite phenocryst</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">289</biblScope>
+			<biblScope unit="page" from="575" to="577" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Application of the ion microprobe to geochemistry and cosmochemistry</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Rev Earth Planet Sci</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="483" to="526" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">A mathematical analysis of solute redistribution during solidification</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Tiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Rutter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can J Phys</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="723" to="745" />
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Dissolution kinetics of plagioclase in the melt of system diopside-albite-anorthite and origin of dusty plagioclase in andesites</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tsuchiyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Partial melting kinetics of plagiocalse-diopside pairs</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tsuchiyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="12" to="23" />
+			<date type="published" when="1985">1985 b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Melting kinetics of a plagioclase feldspar</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tsuchiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Takahashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page">354</biblScope>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Abyssal tholeiites from the Oceanographer Fracture Zone</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Delong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="111" to="125" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Xenolith digestion in large magma bodies</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Kiefer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc Lunar Planet Sci Conf 15th Part 2</title>
+		<meeting>Lunar Planet Sci Conf 15th Part 2</meeting>
+		<imprint>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note>Suppl 90:C585 C590</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Two-liquid partitioning coefficients: experimental data and geochemical implications</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="119" to="134" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Basalt contamination by continental crust: some experiments and models</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page">87</biblScope>
+			<date type="published" when="1982">1982a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Melt infiltration and magma evolution</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="236" to="240" />
+			<date type="published" when="1982">1982b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Calculation of mineral-melt equilibrium</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Weaver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Langmuir</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput Geosci</title>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

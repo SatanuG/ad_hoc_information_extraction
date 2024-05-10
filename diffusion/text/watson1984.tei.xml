@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">THE JOURNAL OF GEOLOGY</title>
+				<funder ref="#_6qr5x3A">
+					<orgName type="full">Earth Sciences Division of the National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="1984-03">March 1984</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">E</forename><surname>Bruce</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Geology</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<postCode>12181</postCode>
+									<settlement>Troy</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Stephen</forename><forename type="middle">R</forename><surname>Jurewicz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Geology</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<postCode>12181</postCode>
+									<settlement>Troy</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">THE JOURNAL OF GEOLOGY</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="1984-03">March 1984</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7A6510CD0981C1B132E1A63CE1FC422D</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A series of three experiments was made at ~1250°C and 10 kbar in which a 1-gram reservoir of molten oceanic tholeiite was maintained in contact with one end of a 6.5 mm diameter cylinder of partially-molten, fine-grained granite. Detailed microprobe analysis (450 spots total) of the quenched samples revealed progressive basalt/granite interaction as run duration increased from 0.75 to 8 to 24 hours. Interdiffusion of melt components is limited for structure-controlling species such as Si4 + and Al3 + and for divalent cations, which all mix over a zone less than 0.5 mm wide in 24 hours at run conditions. In contrast, K and Na are extremely mobile, resulting in considerable uptake of K by the basalt melt and eventual loss of Na from the basalt to the granite by "uphill" diffusion. The chemical diffusivity of K in the basalt can be accurately estimated at 3 x 10 8 cm2/sec for the specific experimental conditions used. Although this value is somewhat lower than previous estimates of K chemical and tracer diffusivity in molten basalt, it is nevertheless high enough to cause significant K contamination of the basalt well beyond the SiO2 mixing zone. Sodium mobility is clearly much higher than that of K: in the 24-hour run, the basalt reservoir reached a state of near-uniform depletion in Na20 by 30% relative to the initial value of 3.0 wt %. The migration of Na into the already Na-rich granite partial melt indicates that the activity coefficient of this element is lower in silicic melts than in basic ones, and that Na depletion (combined with K uptake) may be expected as basaltic magmas ascend through the continental crust.</p><p>Bowen 1928, chapter X). Similar studies have continued to the present day (e.g.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>It has been recognized for some time that the ascent of mantle-derived magmas through the continental crust can be accompanied by significant uptake of crustal components. Early evidence for such magma "contamination" came from field and petrographic observations of felsic host rocks or xenoliths partially assimilated into invading magma (see examples cited by <ref type="bibr" target="#b8">Holmes 1936</ref> and by E. BRUCE WATSON AND STEPHEN R. JUREWICZ basalt with felsic minerals of the continental crust. A principal conclusion of the study was that, for circumstances in which crustal materials are partially fused by contacting basaltic magma, selective contamination of the basalt is indeed likely, particularly in the case of potassium but generally for all elements and isotopes whose liquid-state diffusivities are higher than that of SiO2 (roughly 10 10 cm2/ sec at basalt liquidus temperatures). Although the experimental results constitute necessary input for quantitative models of the rates and pathways of basalt/crust interaction, the study was by no means complete. In particular, it raised two questions relating to the behavior of alkalies that could not be addressed on the basis of the data acquired. The first question concerns the chemical diffusivity of potassium in initially low-K basaltic magma (a number needed for K contamination-rate calculations); the second relates to the transient "partitioning" of sodium between contacting but miscible basaltic and felsic melts. Because Na was shown to diffuse "uphill" into the more silicic melt, Watson (1982) pointed out the possibility that partially-melted crustal xenoliths and wall rock can actually deplete a contacting basaltic magma in Na, even when the felsic melt is initially more sodic than the basalt.</p><p>The experiments described in this paper were carried out in an attempt to answer the questions outlined above through laboratory simulation of chemical interaction between molten tholeiite and partially-molten crustal xenoliths.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL METHODS</head><p>Rationale.-Two "design" factors were given high priority in this study; namely, that (1) the experiments would involve natural materials rather than the generally simplified systems used by <ref type="bibr">Watson (1982)</ref>, and (2) the scale on which the experiments were done would be sufficiently large to provide a basalt reservoir of semi-infinite dimension with respect to K transport even over run durations up to 1 day. (Only in this way could an accurate K diffusivity measurement be assured.)</p><p>The overall experimental philosophy of this study was different from that of our previous work, in which a large number of experiments was done and each characterized by only two or three microprobe traverses.</p><p>Here, only three experiments were performed, but each was analyzed in great detail.</p><p>Details of the Techniques.-The primary challenge in the execution of the experiments was to maintain a large reservoir of molten basalt in contact with partially-molten, felsic crustal rock for variable time periods up to 24 hours. In previous 1-atmosphere experiments, we have used crucibles containing as much as 30 grams of basalt melt (Watson 1982), but this approach has significant drawbacks: in addition to the cumbersome aspects of handling so much molten material, the lack of confining pressure inevitably leads to vesiculation of any feldspathic material placed in the basalt reservoir for the purpose of examining chemical interaction. We decided, therefore, to adapt a three-quarterinch piston-cylinder assembly for the purpose at hand so the experiments could be made at elevated pressure. The assembly design and sample arrangement are shown in figure <ref type="figure">1</ref>. The set-up is basically a three-quarter-inch NaCl-Pyrex-crushable A1203 assembly in which the bottom filler piece (normally Pyrex + crushable A1203) has been replaced by a 6.5-mm diameter cylinder of fine-grained (0.5 mm) quartz/2-feldspar/biotite granite (see table 2 for analysis). The top surface of the granite cylinder, in contact with the basalt reservoir during the experiment, is initially polished to 1-micron grit. At the start of a run, the basalt itself consists of 500-600 mg powdered oceanic tholeiite glass, prepared by multiple fusion of a well-analyzed rock powder (see table <ref type="table">1</ref>) and packed into the assembly as shown. The cylindrical reservoir is confined by the granite at the bottom, by a graphite tube at the sides, and by a graphite disk on top.</p><p>Due to the significant vertical temperature gradient within the piston-cylinder assembly, the W-Re thermocouple tip just above the graphite top piece (fig. <ref type="figure">1</ref> Analysis.-Over 450 major-element microprobe analyses were made on the three samples, and the vast majority of these were on the samples run for 8 and 24 hours. The analyses were obtained by energy-dispersive techniques using the ETEC Autoprobe facility of the State University of New York at Albany. Operating at 15 kV accelerating potential and a specimen current of 2 nA, the SiLi detector recorded about 80,000 total counts (all elements) in 100 seconds at each analysis spot. The total counts for each element were determined by comparison with spectra of standard materials (using Tracor Northern software), and Bence-Albee matrix corrections were applied to compute final concentrations. Of principal interest in the analysis was the documentation of changes in basalt chemistry relative to the starting composition; for this reason, chips of the starting glass were repeatedly analyzed during each analysis session, such that 60 "reference" spots were interspersed with the 450 real data points. The standard checks confirmed the   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>validity of intraand inter-session comparison of analyses without the application of any "drift" correction.</head><p>Due to the large mass of the experimental charges, it was not possible to quench the basalt to a homogeneous glass. Quench crystals up to about 5 microns in maximum dimension pervaded the basalt, except at the margins and in those regions where the SiO2 content exceeded about 53 wt % due to interaction with the granite. The presence of quench crystals necessitated the general use of a defocussed electron beam to ensure "bulk" analyses representative of the mass of quench crystals. A beam spot size of 80 microns was used for analysis of both the unknowns and the basalt glass secondary standard (although the standard was found to give identical count rates with a focussed beam). The primary difficulty posed by the quench crystals was in obtaining a sufficiently good polish on the sample surface that microprobe traverses of fixed step interval could be made without encountering serious imperfections in the surface. Many, if not most, analyses in regions containing quench crystals have oxide sums that are low by up to 2.5%. This is not regarded as a serious drawback, however, so no normalization to 100% totals was made before plotting the data.</p><p>It will be obvious shortly that most of our reported spot analyses are part of traverses across the quenched basalt reservoir starting at the granite/basalt interface. On each sample, 4 to 6 such traverses were made, the total length and step interval of which were predetermined by reconnaissance spot analyses. Isolated analyses were also made at numerous locations within the basalt reservoir beyond the zone of obvious contamination from the granite. The partial melt of the granite itself was also well analyzed, with particular emphasis on the region 2 mm or less from the interface with the basalt. Because of the numerous undissolved crystals present, few linear traverses on the granitic glass were possible.  <ref type="table">1</ref>). Due to the microcrystalline character of the run products, however, the apparent concentrations of some oxides are slightly different from those in the starting glass: Alumina and FeO, in particular, are 5% (relative) high on average, Na20 is 10% high, and MgO is 5% low. As revealed in table 1 and figure 3, SiO2 concentration also appears slightly low relative to the starting glass, but this difference is attributable entirely to the generally low oxide sums of the analyses of quench-crystal masses (see "analysis" section above). The reason for the systematic analytical differences in A1203, Na20, FeO, and MgO is probably related to the "topography" of the unknown sample surface and/or to the small-scale heterogeneity of the X-ray emitting region. Whatever the exact cause of the differences, they are very small in relation to the real changes in alkali concentration discussed below. In any case, the microcrystalline quenched basalt of the 45-minute experiment can serve in place of the starting glass as a reference composition against which to compare the much longer runs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS AND DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General</head><p>Table <ref type="table" target="#tab_2">2</ref> summarizes analyses of granite partial melts (glasses) in the region 2 mm or less from the contact with basalt. These are mean values of 15-24 analysis spots on each sample, whose standard deviations reveal considerable heterogeneity in the partial melt compositions. This heterogeneity, combined with the systematic changes in melt composition with run duration, indicates that "internal" equilibrium within the partially-molten granite was not reached. Observed textural and chemical changes suggest that biotite melting occurs virtually instantaneously (resulting in an initially low-SiO2 melt) and is followed by rapid adjustments in feldspar abundance and composition; dissolution of quartz, on the other hand, is quite sluggish. The residual (but clearly still disequilibrium) assemblage in the 24-hour run consists of generally sieve-textured feldspars of K-rich oligoclase and anorthoclase compositions, along with large, rounded grains of quartz and occasional Fe-Ti oxide.</p><p>Transient Two-Liquid Equilibrium.-Like all the basalt/felsic melt interdiffusion experiments described by <ref type="bibr">Watson (1982)</ref>, those of the present study exhibit behavior that may appropriately be termed "transient twoliquid equilibrium." The use of this descriptive phrase is based on the well-known fact that trace and major components of stably coexisting silicate melts show a (sometimes substantial) preference for one melt relative to the other (Watson 1976; <ref type="bibr" target="#b12">Ryerson and Hess 1978)</ref>. This preference is a direct demonstration that the activity coefficients of most components vary markedly with melt composition (or, perhaps more specifically, with SiO2 content as the primary determinant of melt structure). It makes sense, then, that when two structurally-dissimilar melts such as basalt and granite (broadly construed) are brought into contact and begin to mix by diffusion, the various components will individually attempt to establish a distribution between the two melts that resembles a twoliquid equilibrium. The extent to which this distribution is actually achieved in the case of any given component depends upon the diffusivity of that component and of any others that must move simultaneously to maintain local charge balance. It also depends upon the time scale over which the contacting melts remain structurally distinct, a factor affected primarily by the diffusivity of SiO2 (and perhaps A1203). Thus, if the principal structure-controlling (network-forming) species are slow-moving relative to other species, considerable redistribution or selective diffusional transfer of components may take place during the interdiffusion process. The overall pattern of redistribution can be expected to resemble that of a stable two-liquid equilibrium, which is characterized in large part by the preference of alkalies for the relatively more silicic melt and of divalent and more highly-charged cations for the basic melt (Watson 1976; Ryerson and Hess 1978). In the case of contacting basaltic and granitic melts, the two-liquid type distribution is "transient" in the sense that, once established by relatively rapid transfer of network-BEHAVIOR OF ALKALIES modifying melt components, it will persist only as long as the structure-controlling species do not completely mix.</p><p>Watson (1982) was able to extract SiO2 diffusivities from a number of interdiffusion experiments. Although inter-experiment variability and some negative dependence upon SiO2 concentration were obvious, an average value of 3 x 10-10 cm2/sec at 1250°C is typical. This value is very low relative not only to previously-measured diffusivities of networkmodifying cations (10-7 to 10-5 cm2/sec at 1250°; see Hofmann 1980), but also to recently determined tracer and chemical diffusivities of oxygen (roughly 10-6 cm2/sec at 1250°C; <ref type="bibr" target="#b5">Dunn 1982</ref><ref type="bibr">Dunn , 1983))</ref>. Considerable diffusive exchange between contacting basaltic and silicic melts should thus be expected, inasmuch as the distinct melt structures are long-lived relative to the transport times of many components.</p><p>An important point to consider in the present study is that the extent to which any given component is actually redistributed between contacting melts depends not only upon its diffusivity but also upon its activity-melt composition relation (as reflected in its twoliquid partition coefficient). Calcium, magnesium, and iron are relatively fast-moving species, but extensive basalt -&gt; granite flux is not expected simply because the activity coefficients of Ca, Mg, and Fe are much lower in molten basalt than in molten granite (cf. Watson 1976; Ryerson and Hess 1978). Once transient equilibrium with respect to these elements has been established, it is reasonable that the steepness of their concentration gradients in the interfacial region should mimic the SiO2 distribution-in fact, the Ca, Mg, and Fe profiles are not diffusion gradients at all, but activity coefficient gradients.</p><p>The principles outlined above apply equally well to the alkalies, but because the initial distributions of these elements between molten basalt and granite require significant adjustment in order to approach transient equilibrium, there is far more transport of alkalies than of divalent cations across the basalt/granite interfacial region.</p><p>Behavior of Potassium.-The concentration profiles shown in figure <ref type="figure">3</ref> clearly demonstrate a substantial flux of potassium from granite partial melt into basalt, and also confirm that K diffusivity is considerably higher than that of SiO2. The potassium flux can be viewed as an attempt by the system to establish transient equilibrium with respect to K20. Even though potassium is preferentially partitioned into the more silicic of two coexisting melts, the basalt reservoir is initially almost potassium-free, so that extensive "downhill" diffusion is required during the approach to transient equilibrium. The progressive and selective diffusion of potassium into the basalt reservoir is evidenced by an exponential "tail" on the concentration profiles that increases the length with increasing run duration, always well beyond the zone of SiO2 mixing.</p><p>The potassium concentration profiles provide the opportunity to calculate the chemical diffusivity of K in molten basalt at the experimental conditions. Although it is not strictly valid to assume a constant concentration of K20 at the basalt/granite interface, or even a fixed interface position, it is clear from figure 3 that these assumptions are not bad. Just beyond the zone of SiO2 mixing, the K20 content of the basalt is virtually constant through time at about 1 wt %, and the broadening of the interfacial region, as measured by the mixing distances of elements other than K (Si in particular), is small relative to the K transport distance. Thus, we can apply the solution to Fick's second law for diffusion into a semi-infinite medium from a surface at which the diffusant concentration is held constant:</p><formula xml:id="formula_0">Ct,x/Co =-1 -erf[x/2(Dt)1/2]</formula><p>where Ct,x is the potassium concentration at time t (sec) and distance x (cm) from the interface, Co is the interface concentration, and D is the diffusivity in cm2/sec. Diffusivities were calculated from the individual concentration gradients by fitting least-squares (majoraxis) lines to the linearized profiles [inverse erf(1 -Ct,x/Co) vs. x] and solving for D from the slope, which is 1/(4Dt)1/2. The results of the diffusivity calculations are summarized in table 3, from which it is obvious that there is good agreement not only among different scans on the same sample but also among the three samples: experiments of .75, 8, and 24 hours yield average diffusivities of 3.4, 1.7, and 4.7 x 10-8 cm2/sec, respectively. This inter-experiment consistency is   <ref type="table">1</ref> and<ref type="table" target="#tab_2">2</ref>). We would thus anticipate a tendency for the system to adjust by "uphill" diffusion of Na into the granitic partial melt, causing depletion of Na in the basalt relative to the initial concentration of 3.0 wt % Na20. As noted in the "Analysis" section, the microcrystalline quenched basalt gives BEHAVIOR OF ALKALIES high microprobe values for Na20 even in regions unaffected by diffusion (3.3 wt % on average relative to the known value of 3.0 wt %), but in spite of this analytical inaccuracy, the changes in Na distribution with increasing run duration are unequivocal. In the 8-hour run, there is only a slight depletion of Na from the basalt reservoir in the region nearest the granite. After 24 hours, however, the depletion has increased in magnitude to about 30% of the Na originally present and in extent to include most of the basalt reservoir. As figure <ref type="figure">3</ref> shows, the Na20 concentration in the basalt of the 24-hour run is only about 2.3 wt % in the region 3 mm or less from the contact. At the point most distant (4.5 mm) from the granite, where good quenched glass is found, the Na20 concentration is 2.6 wt %.</p><p>The lack of well-defined sodium diffusion gradients precludes accurate estimation of Na chemical diffusivity, but an approximate minimum value can be calculated from the results of the 24-hour experiment by use of the approximation x =(Dt)1/2. If we set x at 0.5 cm (i.e., the length of the basalt reservoir) and t at 24 hours, we obtain a diffusivity of 3 x 10-6 cm2/sec, which is in remarkably good agreement with the data summarized by Hofmann (1980). Taken at face value, however, this number is not altogether satisfying: in the first place, if such a high diffusivity operated early in the experiments, it would cause more pronounced Na depletion in the basalt of the 8-hour experiment than is actually observed. We attribute the discrepancy not to a timedependent diffusivity but to the fact that the SiO2 content of the granite partial melt increases with time (see table <ref type="table" target="#tab_2">2</ref>). This change causes an increasing structural contrast between basalt and granite partial melt, and consequently a time-dependent two-liquid partition coefficient that increasingly favors the granite partial melt. In this interpretation, the two melts are very close to transient equilibrium with respect to Na at the start of the experiments, but as the melt within the granite cylinder becomes more siliceous, Na is more strongly partitioned into it. As shown in table 2, the Na content of the felsic melt is highest in the 24-hour experiment, which follows from the observed depletion in Na of the basalt reservoir. No detailed balance of Na flux out of the basalt and into the granite is possible, however, because the proportions and compositions of residual feldspars in the granite are also in a state of change.</p><p>The other curious aspect of the observed sodium mobility is that it is so much higher than that of potassium. Some difference in the intrinsic diffusivities of Na+ and K would not be surprising in view of their differing ionic radii, but chemical diffusion processes like those of the present study must incorporate a charge-balance mechanism. As previously suggested, a flux of potassium into the basalt could be charge-compensated by migration of divalent species into the granite partial melt. Sodium, of course, could also play this role, but it is clear that the eventual net sodium flux out of the basalt is much greater than that of potassium in. The question remains, then, as to what species serves as charge-compensator during sodium transport. Because the basalt reservoir experiences no demonstrable gains in major elements other than potassium, it seems necessary to conclude that the sodium loss is accompanied by oxygen loss. The oxygen diffusivities reported by <ref type="bibr" target="#b5">Dunn (1982</ref><ref type="bibr">Dunn ( , 1983</ref>) are indeed high enough for this mechanism to work, but why it apparently does not operate during K transport remains unknown. Perhaps the coupled loss of oxygen and sodium from the basalt melt is facilitated by the relatively high proportion of non-bridging oxygens, whereas combined potassium-oxygen loss from the more polymerized silicic melt is energetically less favorable.</p><p>Another conceivable mechanism for balancing the "uphill" flux of Na is diffusion of H + or H20 +, produced by the early breakdown of biotite, from the granite partial melt into the basalt. While we believe this mechanism did operate to some extent (mainly because of the more extensive growth of quench crystals in the 24-hour experiment), it cannot have been the sole charge-compensating process-too few hydrogen-bearing species could be produced from the &lt;5% modal biotite in the granite, and the salt/ Pyrex/crushable A1203 assemblies contain no other source of hydrogen. Sodium diffusivity does not appear to be similarly limited, enabling rapid establishment of a basalt/felsic melt sodium distribution mimicking that of a stable two-liquid equilibrium.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>The results support the previous suggestion of Watson (1982) that basaltic magmas originating in the subcontinental mantle are susceptible to selective contamination during their ascent through the crust. In light of the relatively low K diffusivity determined in this study, selective uptake of K by continental basalts may be somewhat less efficient than previously supposed, but it remains a process worthy of consideration in instances of extensive xenolith formation and partial assimilation.</p><p>Loss of sodium to xenoliths or country rock, a process hypothesized previously but not well documented for geologically realistic compositions, now appears to be quite plausible. Its effectiveness under any given circumstances will depend upon a number of factors, including the surface area of partially-molten crustal rock exposed to the basalt, the exposure time, and chemical parameters such as the Na20 and SiO2 contents of the felsic partial melt. Should selective Na depletion occur in a mantle-derived basic magma, the possible consequences are of a quite different nature from those of selective potassium uptake-it is possible, for example, that subsequent phase equilibria, concerning in particular the composition of plagioclase, could be significantly altered.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>FIG. l.-Piston-cylinder assembly used for basalt/granite interaction experiments.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>FIG. 2.-Sectioned and polished samples from the 0.75-, 8-, and .24-hour experiments (left to right). Note regions of quench crystal growth (vis-</figDesc><graphic coords="4,64.32,285.12,357.84,330.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Features of the Data.-Because the focus of this study is on the behavior of alkalies specifically, the distributions of most other elements are not represented in the summary diagrams of the microprobe traverses (fig. 3). The distribution of Si02 is shown because, due to its slow-moving nature, this component provides a useful "reference frame" by which to gauge the changes in concentration of Na and K. The other major elements-Ti, Al, Fe, Mg, and Ca-FIG. 3.-Composite concentration vs. distance diagrams for alkalies and silica. The traverses indicated by the white lines in figure 2 have been "compressed" into a single profile for each oxide. Light dashed lines indicate concentrations of oxides in starting glass for reference. See text for discussion. E. BRUCE WATSON AND STEPHEN R. JUREWICZ gradients equally as abrupt as that of SiO2 in the region of the basalt/granite interface (see discussion below concerning transient twoliquid equilibrium). Moreover, within the uncertainty of the broad-beam microprobe analyses, the non-alkali major elements are homogeneously distributed throughout the basalt reservoirs beyond the narrow region of SiO2 mixing, and their average concentrations are indistinguishable from one run to the next (see table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>diffusion of K into the basalt is actually rate-limited by diffusion into the granite of some intrinsically slower charge-balancing species. Inasmuch as pressure effects on diffusion are generally small (Watson 1981), we favor the second explanation. It seems likely, in fact, that the flux of K into the basalt is charge-compensated by a flux of divalent cations into the granite partial melt. As noted earlier, few systematic traverses across the melt regions of the granite were possible, but the concentrations of Ca, Mg, and Fe are clearly high (by up to 50% above "ambient" level) in the region within 500 microns of the interface with basalt. Relatively low diffusivities for these charge-compensating species in the silicic melt would thus provide a plausible explanation for the unusually low transport rate of K in the basalt. Any gradients in Ca, Mg, and Fe concentration in the basalt would not necessarily be detectable, however, because relatively few of each species are required to compensate the charge imbalance created by motion of K: Only half as many Ca2+ + Mg2 + + Fe2+ ions must diffuse out of the basalt as K+ ions dif-</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>These experiments have confirmed the operation of selective diffusion processes, specifically involving Na and K, during chemical interaction of molten tholeiitic magma with partially-molten crustal xenoliths. Selective transfer of these elements is made possible by chemical diffusivities that are high in relation to that of the principal melt structure-controlling component, SiO2. Potassium was found to be effectively transferred from felsic partial melt to basalt, while sodium migration was in the opposite sense, depleting the basalt in Na through diffusion up a concentration gradient. The effective diffusivity of potassium can be accurately fixed at 3 x 10-8 cm2/sec, a value lower than previous measurements and possibly indicative of diffusion-rate limitation by divalent charge-balancing species of relatively low diffusivity in the felsic melt.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 THOLEIITIC BASALT ANALYSES 1 2 3 4 5 SiO2 49.91 50.1 (.4) 48.9 (.9) 48.7 (.8) 48.8 (1.0) TiO2 1.64 1.5 (.1) 1.5 (.2) 1.4 (.1) 1.5 (.1) A1203 16.12 15.7 (.1) 16.4 (.3) 16.4 (.3) 16.3 (.4) FeOa 9.52 9.4 (.3) 9.8 (.5) 9.9 (.4) 9.6 (.5) MgO 8.58 8.5 (.2) 8.1 (.3) 8.1 (.4) 8.3 (.5) CaO 10.83 10.7 (.2) 10.7 (.3) 10.6 (.4) 10.9 (.3) Na20</head><label></label><figDesc></figDesc><table><row><cell>K20 P205 MnO</cell><cell>2.90 .18 .15 .17</cell><cell>3.0 (.2) .15(.1) n.d. n.d.</cell><cell>3.3 (.2) .14(.1) n.d. n.d.</cell><cell>3.3 (.2) .14(.1) n.d. n.d.</cell><cell>2.4 (.3) .15 (.1) n.d. n.d.</cell></row><row><cell>Total</cell><cell>100.00</cell><cell>99.1</cell><cell>98.8</cell><cell>98.5</cell><cell>98.0</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>NoTE.-Numbers in parentheses are standard deviations. n.d. = not determined 1. Wet chemical analysis supplied by S. E. DeLong of S.U.N.Y. at Albany, normalized to 100% total. 2. Mean of 60 microprobe analyses of the starting glass used in this study (see text). 3-5. Microprobe analyses of microcrystalline quench products of the 45-minute, 8-hour, and 24-hour experiments, respectively. Each analysis represents the mean of at least 20 spot measurements made beyond the region of interaction with the granite [except with respect to Na20 in the 24-hour run (see text)]. a Total iron as FeO.</head><label></label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 2 COMPOSITION OF BULK GRANITE AND OF PARTIAL MELTS WITHIN THE GRANITE CYLINDERS Bulk</head><label>2</label><figDesc></figDesc><table><row><cell>Run Duration</cell><cell>45 min</cell><cell>8 hours</cell><cell>24 hours</cell><cell>granite</cell></row><row><cell>No. of Analyses</cell><cell>15</cell><cell>17</cell><cell>24</cell><cell>5</cell></row><row><cell>SiO2 TiO2 A1203</cell><cell>59.3 (3.4) .8( .6) 17.6 ( .9)</cell><cell>63.2 (2.0) .9( .4) 16.5 (1.4)</cell><cell>64.3 (1.9) .5( .4) 17.8 (1.1)</cell><cell>74.1 .2 13.9</cell></row><row><cell>FeOa</cell><cell>5.0 (2.2)</cell><cell>4.1 (1.1)</cell><cell>2.9 (1.0)</cell><cell>1.2</cell></row><row><cell>MgO</cell><cell>1.8(1.0)</cell><cell>1.3( .5)</cell><cell>.9( .8)</cell><cell>.2</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>TABLE 3 SUMMARY OF CALCULATED DIFFUSIVITY VALUES FOR POTASSIUM IN MOLTEN THOLEIITE AT 12500C AND 10 KBAR (SEE TEXT) D, cm2/sec x 108 45-minute expt</head><label>3</label><figDesc></figDesc><table><row><cell>,</cell><cell></cell></row><row><cell>4 traverses</cell><cell>3.0</cell></row><row><cell></cell><cell>2.1</cell><cell>mean = 3.4</cell></row><row><cell></cell><cell>4.6</cell></row><row><cell></cell><cell>4.0</cell></row><row><cell>8-hour expt,</cell><cell></cell></row><row><cell>4 traverses</cell><cell>2.3</cell></row><row><cell></cell><cell>1.7</cell><cell>mean = 1.7</cell></row><row><cell></cell><cell>1.1</cell></row><row><cell></cell><cell>1.6</cell></row><row><cell>24-hour expt,</cell><cell></cell></row><row><cell>5 traverses</cell><cell>3.1</cell></row><row><cell></cell><cell>5.4</cell></row><row><cell></cell><cell>1.9</cell><cell>mean = 4.7</cell></row><row><cell></cell><cell>6.4</cell></row><row><cell></cell><cell>6.7</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>This content downloaded from 128.135.012.127 on November 07, 2016 19:29:27 PM All use subject to University of Chicago Press Terms and Conditions (http://www.journals.uchicago.edu/t-and-c).</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>ACKNOWLEDGMENTS.-We are grateful to <rs type="person">K. E. Davis</rs> and <rs type="person">T. M. Harrison</rs> for their constructive reviews of the manuscript. This work was supported by the <rs type="funder">Earth Sciences Division of the National Science Foundation</rs>, under grant no. <rs type="grantNumber">EAR80-25887</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_6qr5x3A">
+					<idno type="grant-number">EAR80-25887</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>BEHAVIOR OF ALKALIES</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">A note on the natural fusion of granite: Am. Mineral</title>
+		<author>
+			<persName><forename type="first">Al-Rawi</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Carmichael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S E</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1967">1967</date>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1806" to="1814" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">The evolution of the igneous rocks</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Bowen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1928">1928. 1956</date>
+			<publisher>Dover Press</publisher>
+			<biblScope unit="page">334</biblScope>
+		</imprint>
+	</monogr>
+	<note>reprinted by</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Columbia River volcanism: the question of mantle heterogeneity or crustal contamination</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Lugmair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Mcdougall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="2483" to="2499" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Neodymium and strontium isotope evidence for crustal contamination of continental volcanics</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Evensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Nions</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">202</biblScope>
+			<biblScope unit="page" from="743" to="747" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Primitive and contaminated basalts from the southern Rocky Mountains</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Doe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Lipman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Hedge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kurasawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="142" to="156" />
+			<date type="published" when="1969">1969</date>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Oxygen diffusion in three silicate melts along the join diopside-anorthite</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dunn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="2293" to="2300" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Oxygen chemical diffusion in three basaltic liquids at elevated temperatures and pressures: Geochim</title>
+	</analytic>
+	<monogr>
+		<title level="j">Cosmochim. Acta</title>
+		<imprint>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Diffusion in natural silicate melts: a critical review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of Magmatic Processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Princeton</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="385" to="417" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Transfusion of quartz xenoliths in alkali basic and ultrabasic lavas, southwest Uganda</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holmes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mineral. Mag</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="408" to="421" />
+			<date type="published" when="1936">1936</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Xenoliths of gneisses and the conformable, clot-like granophyres in the marginal border group</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Kays</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Mcbirney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Goles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Skaergaard intrusion, East Greenland: Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="265" to="284" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Melting of acid xenoliths into a basanite: an approach to the possible mechanisms of crustal contamination</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Maury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bizouard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="275" to="286" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Strontium isotope studies related to petrogenesis in the Caledonian basic igneous province of NE Scotland</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Pankhurst</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Jour. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="115" to="143" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Implications of liquid-liquid partition coefficients to mineralliquid partitioning</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ryerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Hess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="921" to="932" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

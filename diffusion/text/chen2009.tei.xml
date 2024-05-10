@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Clinopyroxene dissolution in basaltic melt</title>
+				<funder ref="#_XufuHM7 #_XRwgHPr #_VgH5XMW">
+					<orgName type="full">National Science Foundation</orgName>
+					<orgName type="abbreviated">NSF</orgName>
+				</funder>
+				<funder ref="#_Qmas85E">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2009-06-24">24 June 2009</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yang</forename><surname>Chen</surname></persName>
+							<email>yangcz@umich.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Geological Sciences</orgName>
+								<orgName type="department" key="dep2">C.C. Little Building</orgName>
+								<orgName type="institution">The University of Michigan</orgName>
+								<address>
+									<addrLine>1100 North University Avenue</addrLine>
+									<postCode>2534, 48109-1005</postCode>
+									<settlement>Ann Arbor</settlement>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Youxue</forename><surname>Zhang</surname></persName>
+							<email>youxue@umich.edu</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Geological Sciences</orgName>
+								<orgName type="department" key="dep2">C.C. Little Building</orgName>
+								<orgName type="institution">The University of Michigan</orgName>
+								<address>
+									<addrLine>1100 North University Avenue</addrLine>
+									<postCode>2534, 48109-1005</postCode>
+									<settlement>Ann Arbor</settlement>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Clinopyroxene dissolution in basaltic melt</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2009-06-24">24 June 2009</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C8A89B68082C1268368703ABBFCC1A9A</idno>
+					<idno type="DOI">10.1016/j.gca.2009.06.016</idno>
+					<note type="submission">Received 3 February 2009; accepted in revised form 17 June 2009;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The history of magmatic systems may be inferred from reactions between mantle xenoliths and host basalt if the thermodynamics and kinetics of the reactions are quantified. To study diffusive and convective clinopyroxene dissolution in silicate melts, diffusive clinopyroxene dissolution experiments were conducted at 0.47-1.90 GPa and 1509-1790 K in a piston-cylinder apparatus. Clinopyroxene saturation is found to be roughly determined by MgO  and CaO content. The effective binary diffusivities, D MgO and D CaO , and the interface melt saturation condition, C MgO 0 Â C CaO 0 , are extracted from the experiments. D MgO and D CaO show Arrhenian dependence on temperature. The pressure dependence is small and not resolved within 0.47-1.90 GPa. C MgO 0 Â C CaO 0</p><p>in the interface melt increases with increasing temperature, but decreases with increasing pressure. Convective clinopyroxene dissolution, where the convection is driven by the density difference between the crystal and melt, is modeled using the diffusivities and interface melt saturation condition. Previous studies showed that the convective dissolution rate depends on the thermodynamics, kinetics and fluid dynamics of the system. Comparing our results for clinopyroxene dissolution to results from a previous study on convective olivine dissolution shows that the kinetic and fluid dynamic aspects of the two minerals are quite similar. However, the thermodynamics of clinopyroxene dissolution depends more strongly on the degree of superheating and composition of the host melt than that of olivine dissolution. The models for clinopyroxene and olivine dissolution are tested against literature experiments on mineral-melt interaction. They are then applied to previously proposed reactions between Hawaii basalts and mantle minerals, mid-ocean ridge basalts and mantle minerals, and xenoliths digestion in a basalt at Kuandian, Northeast China.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>Reactive textures are commonly found along the surface of mantle xenoliths. Dissolution or growth may happen depending on the saturation status of the xenolith minerals in the melt <ref type="bibr" target="#b26">(Morgan and Liang, 2005;</ref><ref type="bibr" target="#b36">Shaw and Dingwell, 2008)</ref>. The history of the xenolith-melt system may be inferred from the textures if the thermodynamic and kinetic aspects of the reactions are quantified. Clinopyroxene is a common mineral in mantle xenoliths, and hence an important component in the xenolith-melt reaction process.</p><p>Clinopyroxene is usually the main reservoir for incompatible elements in mantle rocks. For example, the partitioning coefficients of rare earth elements between clinopyroxene and melt are on the order of 0.1-0.01, 10 times higher than that of olivine and orthopyroxene. Clinopyroxene can contain high water content under certain conditions <ref type="bibr" target="#b3">(Bell and Rossman, 1992;</ref><ref type="bibr" target="#b13">Gavrilenko and Keppler, 2007)</ref>. Thus, clinopyroxene reactions with the host melt may affect trace element and volatile budgets.</p><p>Crystal dissolution in nature often occurs under convective conditions, where convection can be driven by the density difference between the crystal and melt, or the density difference between the interface melt and far-field melt (e.g., <ref type="bibr" target="#b17">Kerr, 1995;</ref><ref type="bibr" target="#b34">Shaw, 2000)</ref>. Theory on convective crystal dissolution has been developed by <ref type="bibr" target="#b17">Kerr (1995)</ref> for Reynolds number 61, and later expanded by <ref type="bibr" target="#b47">Zhang and Xu (2003)</ref> to Reynolds number up to 10 5 . This approach has been tested by halide dissolution in aqueous sodium carboxymethyl cellulose solutions <ref type="bibr" target="#b17">(Kerr, 1995)</ref>, halide dissolution in water <ref type="bibr" target="#b47">(Zhang and Xu, 2003)</ref>, CO 2 droplet dissolution in seawater <ref type="bibr" target="#b44">(Zhang, 2005)</ref>, and CO 2 bubble growth in beer <ref type="bibr" target="#b48">(Zhang and Xu, 2008)</ref>. Application of this theory requires two key parameters: the saturation condition (i.e., the interface melt composition at given T and P) and the diffusivity in the host melt, both of which can be obtained by diffusive crystal dissolution experiments. Convective crystal dissolution experiments, on the other hand, cannot be used to quantify diffusivity. Furthermore, convective crystal dissolution experiments in laboratories often do not mimic the conditions of natural convective crystal dissolution, and the observed convective dissolution rate may not be applicable to natural conditions. Hence, the approach of this study is to carry out diffusive clinopyroxene dissolution experiments to understand both diffusive and convective clinopyroxene dissolution. The diffusivity and interface melt composition are obtained from the diffusive experiments and applied to convective crystal dissolution in nature.</p><p>Experimental studies on clinopyroxene dissolution are limited (Fig. <ref type="figure">1</ref>). In the early experiments by <ref type="bibr" target="#b33">Scarfe et al. (1980)</ref> and <ref type="bibr" target="#b5">Brearley and Scarfe (1986)</ref> convection was not controlled and affected the dissolution process, causing inaccuracy in the derived diffusivities <ref type="bibr" target="#b49">(Zhang et al., 1989)</ref>. <ref type="bibr" target="#b21">Kuo and Kirkpatrick (1985)</ref> studied diopside melting in its own melt at 1 atm and measured the interface reaction rate. <ref type="bibr" target="#b49">Zhang et al. (1989)</ref> investigated diffusive diopside dissolution in an andesitic melt (3 sets of P-T conditions) and highlighted past errors in extracting diffusivities from convective dissolution experiments. <ref type="bibr" target="#b42">Van Orman and Grove (2000)</ref> studied diffusive diopside dissolution in a lunar ferrobasalt at four P-T conditions but only reported diffusivities and interface melt composition at 1623 K and 1.3 GPa.</p><p>Hence, new and systematic diffusive dissolution experiments covering a wide range of P and T conditions are necessary to better quantify the diffusivity and saturation condition, in order to model convective clinopyroxene dissolution.</p><p>In this study, we investigate non-convective clinopyroxene dissolution in basalt at 0.47-1.90 GPa and 1509-1790 K. This is a sister study of our recent work on olivine dissolution in basalt <ref type="bibr" target="#b7">(Chen and Zhang, 2008)</ref>. Convective clinopyroxene dissolution is then modeled using the interface melt composition and diffusivities extracted from the experiments. This model and the previous model on olivine dissolution are applied to mineral-melt reactions in Hawaii basalts, mid-Atlantic ridge basalts, and continental intraplate basalts at Kuandian, Northeast China.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">EXPERIMENTS AND ANALYTICAL METHODS</head><p>A clinopyroxene crystal and a basaltic glass disc are placed together and heated to above the liquidus of the basalt in a 1/2-inch piston-cylinder apparatus. The basaltic glass was from Juan de Fuca Ridge <ref type="bibr" target="#b11">(Dixon et al., 1986</ref><ref type="bibr" target="#b12">(Dixon et al., , 1988))</ref>. Its composition is listed in Table <ref type="table" target="#tab_0">1</ref>. Tholeiitic basalt glass was chosen because tholeiite is the most common basalt and natural glass samples are available. The glass was cut and ground into 2 mm diameter rods and sliced into $1.6 mm thick discs, and doubly polished. The clinopyroxene is a natural sample from American Museum of Natural History. Its composition is close to diopside end-member (Table <ref type="table" target="#tab_0">1</ref>). The clinopyroxene crystal was cut and ground into $2.4 mm diameter rods and sliced into $1.1 mm thick discs, and doubly polished. The clinopyroxene is difficult to machine because it breaks easily along its cleavages. Efforts were made to minimize cracks in the clinopyroxene discs used in experiments, but minor cracks were difficult to avoid. Fig. <ref type="figure">1</ref>. T and P conditions of clinopyroxene dissolution experiments. Data sources: 1. This study (50 wt% SiO 2 in the melt); 2. A failed experiment of this study, in which the clinopyroxene partially melted; 3. <ref type="bibr" target="#b33">Scarfe et al. (1980)</ref>, convective clinopyroxene dissolution in alkali basalt (47 wt% SiO 2 ); 4. <ref type="bibr" target="#b5">Brearley and Scarfe (1986)</ref>, clinopyroxene dissolution in alkali basalt (49 wt% SiO 2 ); 5. <ref type="bibr" target="#b49">Zhang et al. (1989)</ref>, diffusive diopside dissolution in andesite (56 wt% SiO 2 ); 6. <ref type="bibr" target="#b42">Van Orman and Grove (2000)</ref>, diffusive diopside dissolution in lunar ferrobasalt (47 wt% SiO 2 ). The solid curve is the pure disopide melting curve by <ref type="bibr" target="#b4">Boyd and England (1963)</ref> and <ref type="bibr" target="#b43">Williams and Kennedy (1969)</ref>. The dashed curve is the rough liquidus of the basalt used in this study, estimated by MELTS program <ref type="bibr" target="#b14">(Ghiorso and Sack, 1995;</ref><ref type="bibr" target="#b1">Asimow and Ghiorso, 1998)</ref>.</p><p>The sample assembly follows the design in <ref type="bibr" target="#b7">Chen and Zhang (2008)</ref>. The interface melt produced by clinopyroxene is actually less dense than the initial basaltic melt, based on the density model of <ref type="bibr" target="#b22">Lange and Carmichael (1987)</ref> and <ref type="bibr" target="#b28">Ochs and Lange (1999)</ref>. This was not realized until Exp# 1, 5, 6 and 7 were done. Hence, in Exp# 1, 5, 6 and 7, the clinopyroxene disc was placed under the glass disc, while in later experiments it was placed on the top to prevent convection. The potential problem of convection in Exp# 1, 5, 6 and 7 will be evaluated in Section 3.</p><p>The experimental procedure follows <ref type="bibr" target="#b7">Chen and Zhang (2008)</ref>. <ref type="bibr" target="#b7">Chen and Zhang (2008)</ref> carried out time-series experiments on olivine dissolution to examine how the interface melt composition and the compositional profile in the melt evolve with experimental duration. They concluded that the interface reaction was rapid for olivine dissolution. Time-series experiments were not conducted in this study because (1) the clinopyroxene-melt interface reaction is more rapid than olivine-melt interface reaction rate <ref type="bibr" target="#b21">(Kuo and Kirkpatrick, 1985)</ref>; (2) <ref type="bibr" target="#b49">Zhang et al. (1989)</ref> showed that interface reaction is so rapid that diffusion takes control within 0.0002-0.2 s; and (3) our experimental design is proved to suppress convection effectively <ref type="bibr" target="#b49">(Zhang et al., 1989;</ref><ref type="bibr" target="#b7">Chen and Zhang, 2008)</ref>. The duration of the experiments is designed to be long enough to generate a measurable diffusion profile, but short enough so that the melt can be treated as an infinite reservoir.</p><p>Nine experiments were conducted at T and P shown in Fig. <ref type="figure">1</ref>. The feasible T-P conditions are limited by two factors. First, the temperature must be higher than the liquidus temperature of the basalt, otherwise crystallization occurs. Based on MELTS program <ref type="bibr" target="#b14">(Ghiorso and Sack, 1995;</ref><ref type="bibr" target="#b1">Asimow and Ghiorso, 1998)</ref>, the liquidus phase is olivine at low pressure and clinopyroxene at high pressure. Crystallization in the bulk melt must be avoided because it disturbs the diffusion and dissolution processes. Second, the temperature must be lower than the melting temperature of the clinopyroxene. At 0.47 GPa, the melting point for pure diopside is $1733 K <ref type="bibr" target="#b4">(Boyd and England, 1963;</ref><ref type="bibr" target="#b43">Williams and Kennedy, 1969)</ref>, but the clinopyroxene used in this study is not a pure diopside and was partially melted at 1653 K (the failed experiment in Fig. <ref type="figure">1</ref>). The suitable temperature range at a given pressure is limited to a window of $200 K by these two factors. Considering that the predictions by MELTS program have some errors, experiments were tried at temperatures slightly lower than the liquidus predicted by MELTS program in order to better constrain the temperature dependence of the diffusivities and interface melt saturation condition. It turned out that no crystallization occurred at $30 K below the predicted liquidus.</p><p>After the experiments, the samples were examined under electron microprobe. Compositional profiles in the glass were measured. The analytical details are in Table <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">EXPERIMENTAL RESULTS</head><p>Table <ref type="table" target="#tab_1">2</ref> shows the run conditions of all successful experiments. Fig. <ref type="figure">2</ref> shows a BSE image of a polished experimental charge and an associated MgO concentration profile. The large center part of the clinopyroxene crystal is in contact with the melt and was dissolved and indented. Since the clinopyroxene disc has a larger diameter than the glass disc, the narrow rim part of the clinopyroxene remains intact. The clinopyroxene crystal and glass are always cracked after exposure. The cracks in glass are sub-parallel to the clinopyroxene-glass interface and are unfilled, indicating that they formed during quench. Cracks in clinopyroxene crystals are unfilled, filled by graphite, or filled by glass. The cracks filled by glass are avoided when measuring compositional profiles.</p><p>The interface between clinopyroxene and melt is not as flat <ref type="bibr">(Figs. 3a,</ref><ref type="bibr">Fig. 4a)</ref> as that between olivine and melt in <ref type="bibr" target="#b7">Chen and Zhang (2008)</ref>. Examining the clinopyroxene-melt interface under optical microscope shows that when a cleavage intersects the interface, the interface indents (Fig. <ref type="figure" target="#fig_1">4b</ref>). Every major indentation is correlated with a major cleavage in the clinopyroxene. Those major indentations are avoided in measuring dissolution distance and compositional profiles.</p><p>Quench crystals are observed in all experiments. They fall into two categories based on their morphology and experimental conditions. At temperatures lower than 1544 K (Exp# 1 and 14), a few needle-shaped or dendritic crystals (&lt;10 lm long) extend from the interface into the glass (Fig. <ref type="figure" target="#fig_0">3a</ref>). At temperatures higher than 1544 K, clusters of crystals with dendritic texture extend up to 270 lm away from the interface (Fig. <ref type="figure" target="#fig_0">3b</ref>). Crystals of both types are attached to the crystal-melt interface. No crystals are found in other regions in the glass. The composition of the crystals cannot be measured accurately because they are too thin. EDS analyses suggest they are clinopyroxenes. The compositional profiles within the crystalline zone were measured with 20 Â 20 lm electron beam size, as opposed to 5 Â 5 lm used for crystal-free zone.</p><p>Clinopyroxene dissolution distance is directly measured in three ways (L 1 , L 2 and L 3 in Table <ref type="table" target="#tab_1">2</ref>). L 1 is obtained by subtracting the final clinopyroxene thickness (measured under optical microscope) from the initial thickness (measured by a digital micrometer). L 2 is the dissolution distance measured under optical microscope using the clinopyroxene rim as a reference. L 3 is that measured under electron microprobe. Measurement of the final clinopyroxene thickness under microscope has an error of ±5 lm. Measurement of the dissolution distance between the rim and the center has a reading error of ±1.25 lm under microscope, and ±0.5 lm under electron microprobe. A more important source of error is the heterogeneity in the initial clinopyroxene thickness, which on average is about ±9 lm (2r). The heterogeneity is caused mainly by two factors: (1) the rim tends to be thinner than the center; (2) when a crack intersects the surface, the adjacent area tends to be thinner. Compositional profiles of Exp# 1 are shown in Fig. <ref type="figure" target="#fig_2">5</ref>. The profiles of the other experiments and data of all experiments are in Electronic Annex 1 and 2, respectively. For each experiment multiple compositional traverses were measured. The traverses match suggesting that the they were not disturbed by convection (e.g., <ref type="bibr" target="#b34">Shaw, 2000)</ref>. The profiles can be fitted well with Eq. (2a) (Section 4.2). The diffusivities and interface melt compositions extracted from Exp# 1, 5, 6 and 7, in which the crystal disc was placed below the glass disc, are consistent with later experiments (Sections 4.2 and 4.3). If convection occurred in these early experiments, there would be systematic differences between the experimental datasets. Furthermore, the stability of the melt boundary layer regarding composition-driven convection can be evaluated by estimating its compositional Rayleigh number: Note: T 1 is corrected experimental temperature <ref type="bibr" target="#b16">(Hui et al., 2008)</ref>. T 2 is the liquidus temperature of the interface melt calculated using MELTS program (interface melt compositions are listed in Table <ref type="table" target="#tab_3">4</ref>). P is the corrected pressure. t 1 is the nominal duration. t 2 is the corrected duration.</p><p>L 1 is obtained by subtracting the final clinopyroxene thickness (measured under optical microscope) from the initial thickness (using a digital micrometer). L 2 is the dissolution distance measured under optical microscope using the clinopyroxene rim as a reference. L 3 is that measured under electron microprobe. L 4 is calculated by Eq. ( <ref type="formula" target="#formula_8">5</ref>). The errors are at 2r level.</p><p>All experiments except for Exp# 15 were heated up by single stage of fixed heating rate of 900 K/min. Exp# 15 was conducted in a different piston-cylinder apparatus. Type-D thermocouple was used instead of type-S. The sample was heated up through multiple stages of different heating rates to minimize temperature overshooting. a For most experiments a small melt reservoir existed on the other side of the clinopyroxene disc opposite to the major melt reservoir, and consumed some clinopyroxene. Hence L 1 values for most experiments are only upper limites.</p><p>b The rim of the clinopyroxene crystal in the cross section of Exp# 15 is dissolved, hence L 2 and L 3 are not measured.</p><p>Fig. <ref type="figure">2</ref>. Back-scattered electron image of the cross-section of Exp# 11 and corresponding MgO concentration profile measured by electron microprobe. In the BSE image, the clinopyroxene disc is on top of the basaltic glass cylinder. Electron microprobe analysis traverses are shown as dashed lines. An enlarged view of the zone of quench crystals is shown in Fig. <ref type="figure" target="#fig_0">3b</ref>. In the profile (right-hand side), the MgO concentration increases towards the clinopyroxene-melt interface, but decreases abruptly at very close to the interface (at distance of 0-20 lm, marked by the shaded zone). Note that the zone of quench crystals extends beyond this shaded zone, and the profile segment within the zone of quench crystals connects smoothly with the profile segment farther away from the interface.</p><formula xml:id="formula_0">Ra ¼ gDqd 3 gD ;<label>ð1Þ</label></formula><p>where g is the gravity constant, Dq is the density difference, d is the boundary layer thickness, g is the melt viscosity, and D is the diffusivity. This value must exceed about 1000 for the boundary layer to be unstable <ref type="bibr" target="#b37">(Sparks et al., 1984)</ref>. In Exp# 1, 5, 6 and 7, the boundary layer is not thick enough to satisfy this criterion. The compositional profiles in the far-field are flat. The far-field melt compositions agree well with the initial composition. In general, SiO 2 , MgO and CaO increase towards the clinopyroxene-melt interface, while the other components decrease. These general trends change abruptly at very close to the clinopyroxene-melt interface: SiO 2 , MgO and CaO decrease (e.g., the MgO profile in Fig. <ref type="figure">2</ref> marked by the shaded zone) while TiO 2 , Al 2 O 3 , FeO, Na 2 O and K 2 O increase when approaching the interface. This bend of the profiles has been observed previously (e.g., <ref type="bibr" target="#b49">Zhang et al., 1989;</ref><ref type="bibr" target="#b7">Chen and Zhang, 2008)</ref> and is attributed to clinopyroxene overgrowth during quench (see Section 4.1). Note that this feature is not clearly resolved in some experiments (e.g., Exp# 1 in Fig. <ref type="figure" target="#fig_2">5</ref>). FeO shows uphill diffusion toward the interface in Exp# 1, 12 and 14, but in other experiments the uphill diffusion is not obvious.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">DISCUSSION AND APPLICATIONS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Interface crystals and quench effect</head><p>Although the melt near the interface contains numerous tiny crystals, the compositional profiles in this zone (averaged by 20 Â 20 lm electron beam) agree with those in the crystal-free zone (Fig. <ref type="figure">2</ref>), suggesting that they are not disturbed by the crystals. This consistency and the dendritic texture of the crystals suggest that the crystals formed during quench, not during clinopyroxene dissolution.</p><p>The bent profiles very close to the interface (the shaded zone of the profile in Fig. <ref type="figure">2</ref>) are attributed to clinopyroxene overgrowth on the existing crystal surface during quench. The exact composition of the overgrowing clinopyroxene cannot be measured because the layer is too thin. MELTS program suggests that Mg-and Ca-rich clinopyroxene is the liquidus phase of the interface melt, which is expected because the interface melt is close to the saturation of Mg-and Ca-rich clinopyroxene. Growth of such an Mgand Ca-rich clinopyroxene on the existing crystal surface during quench would cause the depletions of SiO 2 , MgO and CaO in the interface melt. The bent profiles are not clearly resolved in some experiments, and are less  significant compared to the feature in olivine dissolution experiments <ref type="bibr" target="#b7">(Chen and Zhang, 2008)</ref>. This may be explained by smaller compositional difference between clinopyroxene and melt than between olivine and melt. It is interesting to see that the extent of the quench crystals does not match the length of the bent profiles.</p><p>In summary, there are two quench effects: the first is the dendritic growth of clinopyroxene crystals in the melt near the interface; and the second is the uniform overgrowth of clinopyroxene on the existing clinopyroxene surface. For the first quench effect, the melt composition before the dendritic growth can be recovered by using large beam size in electron microprobe analyses, and are not excluded when the prefiles are treated to quantify the diffusivity and interface melt composition (Section 4.2). The bent part of the profile is caused by the second quench effect and not related to clinopyroxene dissolution. It is therefore excluded when the profiles are treated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Profile treatment and effective binary diffusivity</head><p>The main purpose of the experiments is to obtain the interface melt composition and diffusivities. There is some concern that the diffusivities in the melt could not be determined because clinopyroxene is a solid solution and diffusion in clinopyroxene might control the dissolution kinetics. <ref type="bibr" target="#b24">Liang (2000)</ref> studied the effect of solid solution on crystal dissolution and concluded that dissolution of practically all minerals in natural melts is controlled by diffusion in the melt, meaning that the diffusion in clinopy-roxene does not affect the dissolution rate. Hence, the compositional profiles in the melt can be fitted by the solution to the one-dimensional diffusive dissolution equation <ref type="bibr" target="#b9">(Crank, 1975;</ref><ref type="bibr" target="#b49">Zhang et al., 1989;</ref><ref type="bibr" target="#b23">Liang, 1999)</ref> to obtain effective binary diffusivities:</p><formula xml:id="formula_1">C ¼ C 1 þ ðC 0 À C 1 Þ erfc x 2 ffiffiffiffiffi Dt p À a erfcðÀaÞ<label>ð2aÞ</label></formula><p>where C is the component concentration in the melt, C 0 is the concentration at the crystal-melt interface, C 1 is the concentration at far-field, and should be a constant for the solution to be valid, x is the distance to the crystal-melt interface, D is the effective binary diffusivity of the component, t is the duration of the experiment, and a satisfies:</p><formula xml:id="formula_2">expða 2 ÞerfcðÀaÞ ffiffiffi p p a ¼ C 0 À C 1 C c À C 0 ;<label>ð2bÞ</label></formula><p>where C c is the concentration of the component in the crystal. The crystal dissolution distance L can be expressed as:</p><formula xml:id="formula_3">L ¼ 2a q m q c ffiffiffiffiffi Dt p ;<label>ð2cÞ</label></formula><p>where q m and q c are the density of the melt and crystal, respectively. Fitting a profile by Eqs. ( <ref type="formula" target="#formula_1">2a</ref>) and (2b) yields C 0 , C 1 and D of the component. The results are substituted in Eq. ( <ref type="formula" target="#formula_1">2c</ref>) and the calculated crystal dissolution distance is compared with the L 1 , L 2 and L 3 (Table <ref type="table" target="#tab_1">2</ref>). This calculation is independent of the direct measurements and provides crosscheck on the quality of the experiments.</p><p>The bent profiles close to the interface are excluded for profile fitting. The length of the excluded part is set as</p><formula xml:id="formula_4">4 R t 1 t 0 Ddt 1=2</formula><p>, where t 0 is the time when the power is turned off, and t 1 is the time when the sample reaches room temperature. The excluded parts vary from $16 lm in $1509 K experiments to $50 lm in $1790 K experiments.</p><p>The apparent concentration maxima of MgO and CaO profiles always lie within the excluded segment. Experimental durations are corrected for the effect of heating up and quenching following <ref type="bibr" target="#b46">Zhang and Behrens (2000)</ref>. The corrections are $7-12 s for Exp# 1-14, and 22 s for Exp# 15 (Table <ref type="table" target="#tab_1">2</ref>). The maximum correction amounts to 6% increase in the effective experimental duration.</p><p>The profiles for SiO 2 , TiO 2 , Al 2 O 3 , MgO, CaO and Na 2 O have been fitted (Electronic Annex 1). The effective binary diffusivities are listed in Table <ref type="table" target="#tab_2">3</ref>. SiO 2 profiles of Exp# 1, 12, 14 are not fitted because the profiles do not constrain the diffusivity well. FeO profiles show uphill diffusion and cannot be treated by the effective binary diffusion approach. In the fitting results D CaO is the highest and D SiO 2 is the lowest. Using D MgO as reference, D SiO 2 % 0:48D MgO , D TiO 2 % 0:8D MgO , D Al 2 O 3 % 0:56D MgO , D CaO % 2.4D MgO , and D Na 2 O % 1:3D MgO . The fact that Na 2 O diffuses slower than CaO suggests complicated multicomponent effect (e.g., <ref type="bibr" target="#b49">Zhang et al., 1989)</ref>. The diffusivities of different components tend to converge as temperature increases, but do not converge at the same temperature (there is no single compensation temperature). </p><p>where the diffusivities are in m 2 /s and T is in K. The errors given hereafter are at 2r level. The activation energy is 240 ± 20 and 176 ± 25 kJ/mol for MgO and CaO, respectively. Eq. (3a) can reproduce D MgO within 0.09 natural logarithm units. Eq. ( <ref type="formula" target="#formula_5">3b</ref>) can reproduce D CaO within 0.17 natural logarithm units.</p><p>The above equations are based on clinopyroxene dissolution in basalt and can be applied to MgO and CaO diffusion in similar melt compositions and concentration gradients. Although tholeiitic basalt is used in this study, the results can be applied to alkali basalt because the diffusivity in these two types of silicate melts fall within the corresponding errors <ref type="bibr" target="#b7">(Chen and Zhang, 2008)</ref>. Comparison with literature data shows that the effective binary diffusivities depend on the SiO 2 concentrations (Fig. <ref type="figure">7</ref>). Applying the results to andesite will introduce some errors. Note that the data in <ref type="bibr" target="#b2">Baker (1990)</ref>, <ref type="bibr" target="#b20">Kubicki et al. (1990)</ref> and <ref type="bibr" target="#b19">Kress and Ghiorso (1995)</ref> are from diffusion couple experiments, not crystal dissolution experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Interface and far-field melt compositions</head><p>The interface melt compositions are listed in Table <ref type="table" target="#tab_3">4</ref> and the far-field melt composition is in Table <ref type="table" target="#tab_0">A1</ref> (Electronic Annex 1). Where the profile for a component is not fitted with Eq. ( <ref type="formula" target="#formula_1">2</ref>), its concentration in the interface melt is estimated by visual extrapolation of the profiles to x = 0 (excluding the bent part), and its concentration in the farfield melt is obtained by averaging the concentrations of the flat part of the far-field profile.</p><p>The far-field melt needs to be examined to verify that it was not affected by diffusion, so that Eq. ( <ref type="formula" target="#formula_1">2</ref>) is applicable. The far-field profiles are flat, and the composition agrees with the initial composition. Therefore, diffusion did not affect the far-field melt. Small variation in the far-field melt composition is attributed to heterogeneity in the natural basaltic glass.</p><p>The interface melt composition is one critical parameter in modeling convective crystal dissolution and needs to be quantified. In this section the interface melt is treated as clinopyroxene saturated. However, the interface melt cannot be at exact saturation, because at exact saturation there would be neither dissolution nor growth. Nonetheless, based on the interface reaction rate by <ref type="bibr" target="#b21">Kuo and Kirkpatrick (1985)</ref>,  Zhang et al. <ref type="bibr">(1989)</ref> showed that during clinopyroxene dissolution the interface melt reaches 99% of saturation within 0.0002-0.2 s. Hence, the interface melt is practically saturated with clinopyroxene considering the electron microprobe precision of no better than $1% relative. Another issue is that the saturation melt during diopside dissolution may not be the perfect equilibrium composition between the crystal and the melt if the crystal is a solid solution <ref type="bibr" target="#b49">(Zhang et al., 1989;</ref><ref type="bibr" target="#b24">Liang, 2000;</ref><ref type="bibr" target="#b45">Zhang, 2008)</ref>. That is, the saturation condition we derive below is best applied to clinopyroxene dissolution rather than clinopyroxene growth.</p><p>The saturation of Mg-and Ca-rich clinopyroxene may be determined by the three major components MgO, CaO and SiO 2 . <ref type="bibr" target="#b31">Putirka (1999)</ref>   <ref type="bibr">(1990)</ref>, diffusion couple at 1633-1873 K and 0.0001-2 GPa; (e) this study; (f) <ref type="bibr" target="#b49">Zhang et al. (1989)</ref>, olivine, diopside and quartz dissolution at 1488-1673 K and 0.5-2.15 GPa; (g) <ref type="bibr" target="#b19">Kress and Ghiorso (1995)</ref>, diffusion couple at 1473-1723 K and 0.0001 GPa; (h) <ref type="bibr" target="#b2">Baker (1990)</ref>, diffusion couple at 1473-1873 K and 0.0001-1 GPa. Note that the quartz dissolution experiment by <ref type="bibr" target="#b49">Zhang et al. (1989)</ref> produced SiO 2 -rich melt, such that the data point falls in the range of dacite and rhyolite.  (Fig. <ref type="figure" target="#fig_5">8</ref>), but</p><formula xml:id="formula_6">C MgO 0 Â C CaO 0 Â ðC SiO 2 0</formula><p>Þ 2 versus 1/T is strongly nonlinear. Even though it is theoretically more appealing to include ðC SiO 2 0 Þ 2 , doing so would bring more complexity (handling highly nonlinear relations) with no improvement in data fitting. Therefore, C MgO 0 Â C CaO 0 is adopted in this study. The role of SiO 2 is difficult to pin down from the available data. </p><p>where C 0 is in wt%, P is in GPa, and T is in K. The multiple linear correlation coefficient r is 0.9907. Two data points shown in Fig. <ref type="figure" target="#fig_5">8</ref> are not used in the regression because they deviate from the trend constrained by the other data. Eq. ( <ref type="formula" target="#formula_7">4</ref>) is calibrated on the clinopyroxene dissolution experiments in basalt (including tholeiitic and alkali basalt) and andesite, and is readily applicable in this melt composition range. It has second-order terms of T and P and should not be extrapolated beyond the T and P range of the data (Fig. <ref type="figure">1</ref>). Extrapolating to lower pressures may be safe because the second-order term diminishes as P approaches zero. Fig. <ref type="figure" target="#fig_7">9</ref> shows the prediction by this formula compared to the data. The 2r error in using Eq. ( <ref type="formula" target="#formula_7">4</ref>) to predict ln(C MgO Â C CaO ) is 0.11. The 2r errors in predicting C MgO 0 and C CaO 0 are 1.2 wt% and 1.5 wt%, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Diffusive clinopyroxene dissolution distance</head><p>The effective binary diffusivities and interface-melt composition can be used to calculate diffusive clinopyroxene dissolution distance (Eq. ( <ref type="formula" target="#formula_1">2c</ref>)). This calculation is independent of the direct measurements shown in Table <ref type="table" target="#tab_1">2</ref>, and provides cross-check on the quality of the experiments. However, Eq. (2c) needs to be modified to accommodate the complexity that two components (rather than a single component) control the saturation of clinopyroxene in the melt. The modification is as follows:</p><formula xml:id="formula_8">L ¼ 2a MgO q m q c ffiffiffiffiffiffiffiffiffiffiffiffi D MgO t p ;<label>ð5aÞ</label></formula><formula xml:id="formula_9">L ¼ 2a CaO q m q c ffiffiffiffiffiffiffiffiffiffiffi D Cao t p ;<label>ð5bÞ</label></formula><p>where a MgO and a CaO satisfies:</p><formula xml:id="formula_10">expða 2 MgO ÞerfcðÀa MgO Þ ffiffiffi p p a MgO ¼ C MgO 0 À C MgO 1 C MgO c À C MgO 0 ;<label>ð5cÞ</label></formula><formula xml:id="formula_11">expða 2 CaO ÞerfcðÀa CaO Þ ffiffiffi p p a CaO ¼ C CaO 0 À C CaO 1 C CaO c À C CaO 0 ;<label>ð5dÞ</label></formula><p>The five unknowns (L; C MgO 0 ; C CaO 0 ; a MgO and a CaO ) can be solved iteratively from the five equations (Eqs. ( <ref type="formula" target="#formula_7">4</ref>), (5a), (5b), (5c), and 5d)).</p><p>Clinopyroxene dissolution distance of each experiment is calculated using the above equations and listed in Table <ref type="table" target="#tab_1">2</ref> as L 4 . Glass density (q m ) is taken as 2.77 g/cc <ref type="bibr" target="#b40">(Tilley, 1922)</ref>, and clinopyroxene density (q c ) is taken as 3.278 g/ cc <ref type="bibr" target="#b39">(Thompson et al., 2005)</ref>. Errors in L 4 are obtained by letting D and C 0 vary within their error bounds. The errors in melt and clinopyroxene densities and density variation along the melt compositional profiles are ignored. Hence, this error estimation is the lower limit. For all experiments except Exp# 7, the dissolution distances agree with each other. L 4 for Exp# 7 is much larger than L 2 and L 3 . The cause for this disagreement is unclear. One possibility is that the rim of the clinopyroxene disc used in Exp# 7 was much thinner than the center. Using the rim as the reference position of the initial clinopyroxene-melt interface may under-estimate the dissolution distance, leading to smaller L 2 and L 3 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5.">Convective clinopyroxene dissolution in basaltic melt</head><p>In this section the results from diffusive crystal dissolution experiments are applied to model convective crystal dissolution in nature, where convection is driven by motion of the crystal due to the density difference between the crystal and the melt. Convective crystal dissolution rate (u) depends on the thermodynamics and the kinetics and fluid dynamics of the system <ref type="bibr" target="#b49">(Zhang et al., 1989;</ref><ref type="bibr" target="#b17">Kerr, 1995;</ref><ref type="bibr" target="#b47">Zhang and Xu, 2003)</ref>:</p><formula xml:id="formula_12">u ¼ bD d ;<label>ð6aÞ</label></formula><p>where b can be calculated as:</p><formula xml:id="formula_13">b ¼ q m ðC 0 À C 1 Þ q c ðC c À C 0 Þ :<label>ð6bÞ</label></formula><p>The dimensionless parameter b is the ratio of two concentration differences between the interface melt and far-field melt (C 0 À C 1 ) and between the crystal and interface melt (C c À C 0 ). It is related through C 0 to the thermodynamic saturation condition and depends on temperature and pressure. The diffusivity (D) characterizes the mass transport rate in the compositional boundary layer. The parameter d is the thickness of the compositional boundary layer and depends on dynamics such as the strength of the con- vection. Overall, D/d represents the kinetics and fluid dynamics of the system. It also depends on temperature and pressure, but does not depend on the degree of saturation of the system. It depends slightly and indirectly on the crystal and melt compositions, because the compositions affect the diffusivities, densities and melt viscosity. In summary, the parameter b is a thermodynamic term, and D/d is a kinetic/dynamic term. When two components determine the saturation condition as in the case of clinopyroxene, Eq. ( <ref type="formula" target="#formula_12">6</ref>) must be modified as:</p><formula xml:id="formula_14">u ¼ b MgO D MgO d MgO ;<label>ð7aÞ</label></formula><formula xml:id="formula_15">u ¼ b CaO D CaO d CaO ;<label>ð7bÞ</label></formula><formula xml:id="formula_16">b MgO ¼ q m ðC MgO 0 À C MgO 1 Þ q c ðC MgO c À C MgO 0 Þ ;<label>ð7cÞ</label></formula><formula xml:id="formula_17">b CaO ¼ q m ðC CaO 0 À C CaO 1 Þ q c ðC CaO c À C CaO 0 Þ :<label>ð7dÞ</label></formula><p>The five unknowns (u; C MgO 0 ; C CaO 0 ; b MgO and b CaO ) can be solved from the five equations (Eqs. ( <ref type="formula" target="#formula_7">4</ref>), (7a), (7b), (7c), and (7d)).</p><p>The boundary layer thickness d MgO and d CaO are estimated from fluid dynamic theories as follows <ref type="bibr" target="#b47">(Zhang and Xu, 2003;</ref><ref type="bibr" target="#b7">Chen and Zhang, 2008)</ref>:</p><p>(1) Use the following three equations to solve for the Reynolds number (Re), crystal falling or rising velocity (U) and drag coefficient (C D ):</p><formula xml:id="formula_18">Re ¼ 2aU q m g ;<label>ð8aÞ</label></formula><formula xml:id="formula_19">U ¼ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi 8gajq c À q m j 3q m C D s ;<label>ð8bÞ</label></formula><formula xml:id="formula_20">C D ¼ 24 Re ð1 þ 0:15Re 0:687 Þ þ 0:42 1 þ 42500Re À1:16 ;<label>ð8cÞ</label></formula><p>where a is the crystal radius and g is the melt viscosity. Eq. ( <ref type="formula" target="#formula_18">8a</ref>) is the definition of the Reynolds number. Eq. ( <ref type="formula" target="#formula_18">8b</ref>) is the general equation to calculate the falling or rising velocity of a rigid spherical particle in a fluid (e.g., <ref type="bibr" target="#b41">Turcotte and Schubert, 1982)</ref>. Eq. ( <ref type="formula" target="#formula_18">8c</ref>) is from <ref type="bibr" target="#b8">Clift et al. (1978)</ref> and has a relative error of $ ± 5% for Re 6 3 Â 10 5 .</p><p>(2) Calculate the compositional Peclet number (Pe) from the definition of Pe:</p><formula xml:id="formula_21">Pe ¼ 2aU D :<label>ð9Þ</label></formula><p>(3) Calculate the Sherwood number (Sh) as following, for Re 6 10 5 <ref type="bibr" target="#b47">(Zhang and Xu, 2003)</ref>:</p><formula xml:id="formula_22">Sh ¼ 1 þ ð1 þ PeÞ 1=3 1 þ 0:096Re 1=3 1 þ 7Re À2 ! :<label>ð10Þ</label></formula><p>(4) Calculate the effective boundary layer thickness d from the definition of the Sherwood number Sh:</p><formula xml:id="formula_23">d ¼ 2a Sh :<label>ð11Þ</label></formula><p>Because d depends on Pe and hence on D (Eq. ( <ref type="formula" target="#formula_21">9</ref>)),</p><formula xml:id="formula_24">d MgO -d CaO .</formula><p>An example of calculation is shown in Table <ref type="table" target="#tab_4">5</ref> to demonstrate how the experimental results of this study can be plugged in the above calculation scheme. At 1523 K and 0.5 GPa, the convective dissolution rate is 1.05 Â 10 À8 m/s. If the radius of the clinopyroxene crystal is 1 mm, it would take about 1.1 days for the clinopyroxene crystal to completely dissolve. Under the same conditions, an olivine crystal would survive for about 2.4 days <ref type="bibr" target="#b7">(Chen and Zhang, 2008)</ref>. Fig. <ref type="figure" target="#fig_10">10</ref> shows a comparison between convective olivine and clinopyroxene dissolution, where the olivine and clinopyroxene are separated grains. The liquidus T of the basalt is $1463 K at 0.2 GPa. Both olivine and clinopyroxene are close to saturation at this condition. As the degree of superheating increases, dissolution rate of clinopyroxene increases more rapidly than olivine. This difference is due to the difference in the b terms of the two minerals.</p><p>Based on our experimental result, (D/d) MgO and (D/ d) CaO are calculated for 1423-1723 K, 0.0001 to 2 GPa and clinopyroxene composition from Di80 to Di100 within diopside-hedenbergite binary system. The values of d MgO and d CaO depend only weakly on grain radius. When the radius changes from 1 to 100 mm, d MgO and d CaO vary by $10%. This variation is small compared to other uncertainties, thus is ignored in developing Eqs. ( <ref type="formula">12a</ref>) and (12b) below. D/d depends strongly on temperature but only weakly on pressure within the low pressure range discussed in this study. The calculation results are fitted to the following equations: Eq. ( <ref type="formula" target="#formula_7">4</ref>) q m (kg/m 3 ) 2760 <ref type="bibr" target="#b22">Lange and Carmichael (1987)</ref>, <ref type="bibr" target="#b28">Ochs and Lange (1999)</ref>  <ref type="formula" target="#formula_7">4</ref>) and ( <ref type="formula" target="#formula_14">7</ref> Eq. ( <ref type="formula">12</ref>) is based on the diffusivity in tholeiitic basalt but can be applied to alkali basalt with SiO 2 content as low as 45 wt%, because the two melts have similar diffusivity and viscosity <ref type="bibr" target="#b7">(Chen and Zhang, 2008)</ref>. Extrapolating Eq. ( <ref type="formula">12</ref>) to other silicate melt such as andesite may introduce errors because the diffusivity and viscosity depend on melt compositions. On the other hand, the b parameter can be applied to basalt and andesite (SiO 2 from 47 to 56 wt%) because Eq. ( <ref type="formula" target="#formula_7">4</ref>) is calibrated within this composition range. Section 4.7 mentions an example where this model fails, and the possible cause is that the melt composition (nephelinite with $41 wt% SiO 2 ) is beyond the applicable range.    <ref type="formula">19</ref>) in <ref type="bibr" target="#b7">Chen and Zhang (2008)</ref>.</p><p>ene dissolution are within error. Further refinement of the viscosity model of natural silicate melts can significantly improve the accuracy of convective crystal dissolution models.</p><p>The error in b comes mainly from that in predicting C MgO 0 Â C CaO 0 (Eq. ( <ref type="formula" target="#formula_7">4</ref>)). The relative error of b becomes unbounded as C 0 approaches C 1 (as the melt is close to clinopyroxene saturation), but the absolute error in b at near-saturation is about the same as that far away from saturation. Hence at near saturation, the relative error in the calculated u is large, but the absolute error does not depend on the saturation status of the system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.6.">Convective dissolution rates for olivine and clinopyroxene in a mantle xenolith in basaltic melt</head><p>The saturation of olivine is largely controlled by MgO concentration <ref type="bibr" target="#b7">(Chen and Zhang, 2008)</ref>, whereas clinopyroxene saturation is controlled by MgO and CaO. At a given T and P, an MgO-CaO plot can be used to illustrate graphically the saturation status of both olivine and clinopyroxene and the corresponding dissolution or growth rates. In the MgO-CaO plot shown as Fig. <ref type="figure" target="#fig_12">12a</ref>, olivine saturation at a given T and P is represented by the vertical line AB, and diopside saturation is represented by the hyperbola CD (based on Eq. ( <ref type="formula" target="#formula_7">4</ref>)). To the left of AB olivine is undersaturated. And to the lower-left of CD clinopyroxene is undersatured. Melt composition defined by point O, where AB and CD intersect, is multiply saturated with olivine and clinopyroxene. Suppose the initial melt composition is P 1 , since it is to the left of AB but to the upper-right of CD, the melt is olivine undersaturated but clinopyroxene oversaturated.</p><p>Given the initial melt composition at T and P, the position of the interface melt of clinopyroxene is solely determined in the MgO-CaO diagram. Combining Eqs. ( <ref type="formula" target="#formula_14">7a</ref>) and (7b) and substituting b MgO and b CaO from Eqs. ( <ref type="formula" target="#formula_14">7c</ref>) and (7d) yields:</p><formula xml:id="formula_25">D d MgO C MgO 0 À C MgO 1 C MgO c À C MgO 0 ¼ D d CaO C CaO 0 À C CaO 1 C CaO c À C CaO 0 :<label>ð13Þ</label></formula><p>Eq. ( <ref type="formula" target="#formula_25">13</ref>) defines a family of linear equations of the initial melt composition (C MgO 1 and C CaO 1 ). In Fig. <ref type="figure" target="#fig_12">12a</ref>, the two dashed lines (EF and P 1 P 2 ) belong to this family of equations. The significance of this family of equations is: when the initial melt composition varies along a line that satisfies Eq. ( <ref type="formula" target="#formula_25">13</ref>), the interface melt composition of clinopyroxene  <ref type="formula">17</ref>) in <ref type="bibr" target="#b7">Chen and Zhang, 2008)</ref>. To the left of AB olivine is undersaturated. Curve CD represents the melt composition at clinopyroxene saturation (Eq. ( <ref type="formula" target="#formula_7">4</ref>) in this study). To the lower-left of CD clinopyroxene is undersaturated. Point O represents the melt composition that is multiply-saturated with olivine and clinopyroxene. Line EF and P 1 P 2 satisfy Eq. ( <ref type="formula" target="#formula_25">13</ref>). During clinopyroxene dissolution, the melts with compositions falling on EF would share the fixed interface melt composition at O. Similarly, the melts with compositions fall on P 1 P 2 would share the fixed interface melt composition at P 3 . AB, CD and EF divide the MgO-CaO diagram into six regions, numbered 1-6 in the figure. The saturation status of olivine and clinopyroxene in each of the six regions is summarized in Table <ref type="table" target="#tab_6">6</ref>. (b) Contour lines for convective dissolution and growth rate calculated at 1 GPa and 1573 K. The red lines are for olivine, and green ones for clinopyroxene. (c) The dependence of the saturation curves on T at 1 GPa. (d) The dependence on P at 1573 K.</p><p>dissolution is fixed at the intersection between this line and the curve CD. For example, if the initial melt composition lies anywhere on the line P 1 P 2 , the interface melt composition would be fixed at P 3 . A particular line in this equation family intersects AB and CD at O (line EF in Fig. <ref type="figure" target="#fig_12">12a</ref>). Melts with initial compositions falling on EF share the common interface melt (point O) that is multiply-saturated with olivine and clinopyroxene. AB, CD and EF divide the MgO-CaO diagram into six regions, numbered 1-6 in Fig. <ref type="figure" target="#fig_12">12a</ref>. The saturation status of olivine and clinopyroxene in each of the six regions is summarized in Table <ref type="table" target="#tab_6">6</ref>.</p><p>Given the initial melt composition, the position of the interface melt of olivine is not solely determined in the MgO-CaO diagram, because CaO is not buffered by olivine dissolution. The interface CaO concentration during olivine dissolution is less than that in the initial melt, and is greater than that estimated from simple dilution by olivine dissolution because of multicomponent diffusion effect <ref type="bibr" target="#b49">(Zhang et al., 1989;</ref><ref type="bibr" target="#b7">Chen and Zhang, 2008)</ref>.</p><p>Considering olivine and clinopyroxene, the saturation status of one mineral in the interface melt of the other may not be the same as its saturation status in the initial melt. For example, suppose the initial melt composition is at P 2 , and the interface melt of olivine is at P 4 . Clinopyroxene is undersaturated in the initial melt, while oversaturated in the interface melt of olivine. Hence, clinopyroxene would grow in the interface melt of olivine. Crystal growth in the interface melt will affect the crystal dissolution rate. Also note that the scenarios of the initial melt composition at P 1 and P 2 are different. In the former scenario, clinopyroxene could grow everywhere in the melt. In the latter scenario, clinopyroxene could only grow in the interface melt region of olivine.</p><p>Convective dissolution and growth rates of olivine and clinopyroxene at given T and P can be illustrated in the MgO-CaO diagram. Fig. <ref type="figure" target="#fig_12">12b</ref> shows the contoured lines for the dissolution and growth rates at 1 GPa and 1573 K. The olivine composition is assumed to be Fo90, and clinopyroxene Di90 (within diopside-hedenbergite binary system). Dissolution rates are positive numbers, and growth rates are negative numbers. The effects caused by possible crystal growth in the interface melt and some complicating factors for crystal growth (such as nucleation and dendritic growth) are not considered in the calculation. The contour lines can be viewed as expressions for the b parameters, because the P, T and mineral compositions are fixed, hence the D/d parameters are constants. The contour lines of clinopyroxene dissolution rate are denser than those of olivine, meaning the b parameter of clinopyroxene depends more strongly on the melt composition than that of olivine.</p><p>Since olivine and clinopyroxene co-exist in mantle xenoliths, the difference in the interface melt compositions would lead to diffusion along the xenoliths surface, in addition to the diffusion between the xenoliths surface and far-field melt. This additional diffusion will affect the dissolution rate. For example, suppose the initial melt composition is at P 2 , the interface melt of clinopyroxene is at P 3 , and the interface melt of olivine is at P 4 (Fig. <ref type="figure" target="#fig_12">12a</ref>). P 3 has lower MgO and higher CaO than P 4 . Hence MgO would diffuse from the olivine surface toward the clinopyroxene surface, and CaO diffuses the opposite direction. Not considering the growth of clinopyroxene in the interface melt of olivine, olivine dissolution would be enhanced, because its overall MgO diffusion flux is enhanced. The change in the dissolution rate of clinopyroxene is uncertain, because the MgO and CaO fluxes are affected in opposite directions. When the initial melt composition falls on EF, the diffusion flux becomes zero.</p><p>The positions of lines AB, CD and EF depend on P and T. Fig. <ref type="figure" target="#fig_12">12c</ref> shows the temperature dependence at 1 GPa. Fig. <ref type="figure" target="#fig_12">12d</ref> shows the pressure dependence at 1573 K. The dependence can be utilized to infer the thermal history of the system from the interaction between the xenoliths and host basalt. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.7.">Applications</head><p>Given T, P and the initial melt composition, the behavior of xenoliths can be predicted. For example, <ref type="bibr" target="#b26">Morgan and Liang (2005)</ref> conducted lherzolite reactive dissolution experiments in an alkali basalt (47.10 wt% SiO 2 ) and a basaltic andesite (54.86 wt% SiO 2 ) at 1 GPa and 1573 K. They observed dissolution of olivine and clinopyroxene and precipitation of orthopyroxene in the basaltic andesite, and dissolution of clinopyroxene and orthopyroxene and precipitation of olivine in the alkali basalt. Fig. <ref type="figure" target="#fig_13">13</ref> shows the behavior of olivine and clinopyroxene in these melts predicted by our saturation models. The details about constructing such an MgO-CaO diagram are listed in Table <ref type="table" target="#tab_7">7</ref>. Our model is consistent with the dissolution of olivine and clinopyroxene in the basaltic andesite. For the alkali basalt, the experimental data fall within error (the shaded areas) of the saturation curves, and the reaction of olivine and clinopyroxene cannot be unambiguously determined. Note that the model calculations should not be extrapolated too much outside the calibrated melt composition range, with SiO 2 from 47 wt% to 56 wt% (see caption of Fig. <ref type="figure">1</ref>). A trial calculation for a nephelinite melt containing 41 wt% SiO 2 did not match experimental results.</p><p>Another application is to infer the T-P conditions from reactions between mantle minerals and melt. For example, <ref type="bibr" target="#b38">Stolper et al. (2004)</ref> proposed that melt with 48-50 wt% SiO 2 (named high-Si and high-(Ca, Al) melts) found in the Hawaii Scientific Drilling Project might originate from more primitive melts with 46-48 wt% SiO 2 (named low-Si melt). The low-Si melt was inferred to be formed by partial melting of a lherzolitic mantle at 3-4 GPa. During its ascending, it crystallized olivine and dissolved orthopyroxene and clinopyroxene of the overlying mantle, which changed its composition to be the high-Si and high-(Ca, Al) melts. As shown in Fig. <ref type="figure" target="#fig_14">14</ref>, at plausible pressure range of 1.5-2 GPa, to have the high-Si and high-(Ca, Al) melts close to olivine saturation while keep the low-Si melt to be clinopyroxene under-saturated and olivine over-saturated, the temperature range is 1713-1738 K. Considering the model errors (shaded zones in Fig. <ref type="figure" target="#fig_14">14</ref>), the possible temperature range is 1673-1743 K. These values are in rough agreement with the partial melting temperatures of 1770-1849 K estimated by <ref type="bibr" target="#b32">Putirka (2008;</ref><ref type="bibr"></ref> his Table <ref type="table" target="#tab_0">DR1</ref>). <ref type="bibr" target="#b25">Lissenberg and Dick (2008)</ref> studied the texture and chemical composition of the gabbro at the Kane Megamullion, mid-Atlantic ridge. They proposed that the high-Mg# clinopyroxene in the gabbro is formed by the reaction between mid-ocean ridge basalt and primitive cumulates in the lower oceanic crust, instead of high pressure crystallization. In the context of their model, olivine and plagioclase dissolved into the basaltic melt, and clinopyroxene and new plagioclase with lower anorthite content precipitated. We calculate whether it is possible for the two model basaltic melts in <ref type="bibr" target="#b25">Lissenberg and Dick (2008)</ref> to be olivine undersaturated and clinopyroxene oversaturated at the pressure of 0.15 GPa. Fig. <ref type="figure" target="#fig_15">15a</ref> shows that at about 1438 K and 0.15 GPa, the two model basaltic melts are olivine undersaturated and clinopyroxene oversaturated. As temperature increases, the two melts become undersaturated with respect to both olivine and clinopyroxene (Fig. <ref type="figure" target="#fig_15">15b</ref>). Hence, our calculation shows that the mechanism proposed by <ref type="bibr" target="#b25">Lissenberg and Dick (2008)</ref> is possible. Furthermore, the temperature for such reactions is inferred to be about 1438 K. Considering model uncertainties, the  possible temperature range for such reactions is 1393-1493 K.</p><p>The last example is from a basalt from Kuandian, Northeast China, which contains abundant mantle xenolith, mainly spinel lherzolite. The basalt contains 48.72 wt% SiO 2 , 7.92 wt% MgO and 7.51 wt% CaO (KD-HY-3a in <ref type="bibr" target="#b6">Chen et al., 2007)</ref>. It has a porphyritic texture, with about 5% olivine phenocrysts. The olivine phenocrysts are up to 300 lm in diameter. The groundmass consists of clinopyroxene, plagioclase and Fe-Ti oxides, which are about 10-30 lm. Fig. <ref type="figure" target="#fig_17">16</ref> shows a contact between the host basalt and a xenolith. The olivine in the xenoliths has a homogeneous core and an Fe-rich rim. No embayment can be observed along the edge of the core. The composition of the rim changes gradually, with the inner part being Mg-rich and the outer part being Fe-rich. No distinct boundary can be observed between the core and the rim. These features could be due to olivine growth or diffusion in the olivine (e.g., <ref type="bibr" target="#b18">Klu ¨gel, 1998;</ref><ref type="bibr" target="#b24">Liang, 2000;</ref><ref type="bibr" target="#b35">Shaw and Klu ¨gel, 2002)</ref>. The basalt is inferred to be olivine oversaturated. The basalt could not be olivine under-saturated because dissolution texture is not observed and because of the relatively large olivine phenocrysts. The clinopyroxene also has a homogeneous core and an Fe-rich rim. The boundary between the core and the rim, however, is quite distinct. Embayment is frequently seen along the boundary.</p><p>The rim contains pockets of glass and regions that have similar composition as the core. These features suggest that clinopyroxene was first dissolved after entrainment and then some crystals grew. The boundary between the core and the rim may hence be interpreted as the dissolution front. The non-straight dissolution front may be attributed to the cleavages in the clinopyroxene, as observed in our experiments.</p><p>Besides olivine oversaturation and clinopyroxene undersaturation, another constraint is the dissolution distance of clinopyroxene. Based on the preservation of the shape of the olivine and clinopyroxene in Fig. <ref type="figure" target="#fig_17">16a</ref>, the dissolution distance of clinopyroxene is inferred to be small, likely no more than 100 lm. Assuming a plausible ascent rate range of 0.1-10 m/s <ref type="bibr" target="#b10">(Demouchy et al., 2006;</ref><ref type="bibr" target="#b30">Peslier and Luhr, 2006)</ref>, if the dissolution started at 2 GPa and ended after eruption, the average dissolution rate should be no more than 0.015 lm/s. If the dissolution started at 1 GPa and ended after eruption, the average dissolution rate should be no more than 0.03 lm/s.</p><p>To satisfy the olivine oversaturation and clinopyroxene undersaturation constraints at 1 GPa (Fig. <ref type="figure">17a</ref>), the temperature could be about 1538 K. Considering the model errors (shaded zones in Fig. <ref type="figure">17</ref>), the possible temperature range is 1523-1563 K. The maximum dissolution rate is 0.016 lm/s, satisfying the dissolution rate constraint of less   <ref type="bibr" target="#b25">Lissenberg and Dick (2008)</ref> proposed that olivine and plagioclase dissolved in the basalt, while clinopyroxene and new plagioclase precipitated. Constrained by olivine undersaturation and clinopyroxene over-saturation, the T is around 1438 K. than 0.03 lm/s. At 2 GPa, to satisfy the clinopyroxene undersaturation and the dissolution rate constraints (Fig. <ref type="figure">17b</ref>), the temperature could be 1613 K. Considering the model errors, the possible temperature range is 1588-1628 K, which also satisfies the olivine oversaturation constraint. Overall, the possible temperature range for the basalt at 1.5-2 GPa is 1523-1628 K.</p><p>In the above examples the errors in the estimated reaction temperatures mainly come from the errors in the saturation models and the uncertainty in the entrainment pressure. Further constraint on the plausible pressure range can help to refine the estimations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">CONCLUSIONS</head><p>The effective binary diffusivities of MgO and CaO, D  <ref type="bibr" target="#b7">(Chen and Zhang, 2008)</ref>. Clinopyroxene dissolution rate depends more strongly on the degree of superheating and the composition of the melt than that of olivine. This difference is mainly due to the difference in the b terms of the two minerals.</p><p>The crystal dissolution models in this study and <ref type="bibr" target="#b7">Chen and Zhang (2008)</ref> are applied to melt-mineral reactions at Hawaii <ref type="bibr" target="#b38">(Stolper et al., 2004)</ref>, mid-Atlantic ridge <ref type="bibr" target="#b25">(Lissenberg and Dick, 2008)</ref> and Kuandian, Northeast China <ref type="bibr" target="#b6">(Chen et al., 2007)</ref>. The temperature for the proposed olivine crystallization and clinopyroxene dissolution in Hawaii basalts is inferred to be 1673-1743 K at 1.5-2 GPa. The temperature of the proposed olivine dissolution and clinopyroxene precipitation in mid-ocean ridge basalt is inferred to be 1393-1493 K at lower oceanic crust pressure of 0.15 GPa. For Kuandian basalts, the temperature is inferred to be 1523-1628 K at 1-2 GPa.   <ref type="figure">17</ref>. Application of the olivine and clinopyroxene saturation models to the basalt from Kuandian, Northeast China. In addition to the olivine saturation and clinopyroxene under-saturation constraints, the dissolution rate is inferred to be no more than 0.03 lm/s if the entrainment pressure was 1 GPa, and no more than 0.015 lm/s if the entrainment pressure was 2 GPa, represented by the dashed curves.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. BSE images of two different types of quench crystal morphology. (a) In a low temperature experiment (Exp# 1, 1544 K). (b) In a high temperature experiment (Exp# 11, 1695 K).</figDesc><graphic coords="5,76.14,70.13,198.71,315.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Optical microscope images of Exp# 1. (a) Reflective light. Black arrow points to a major indentation in the interface. (b) Transmitted light on the same area in (a). The white arrow on the left points to the position of the major indentation shown in (a). The white arrow on the right points to a cleavage that intersects the interface at the position of the indentation.</figDesc><graphic coords="5,327.23,70.13,198.71,302.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Compositional profiles in the quenched glass of Exp# 1 (1544 K, 0.47 GPa, 30 min). The vertical axes are oxide concentrations in wt%. The horizontal axis is the distance to the clinopyroxene-glass interface.</figDesc><graphic coords="6,62.31,70.13,213.11,271.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Effective binary diffusivities of MgO and CaO in the basaltic melt as functions of T. The diffusivities are obtained by fitting the compositional profiles with Eq. (2). The error bars represent 2r fitting errors.</figDesc><graphic coords="7,90.03,387.72,170.65,294.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Â</head><label></label><figDesc>Fig. 7. D MgO and D CaO in silicate melts. The average SiO 2 concentration of the silicate melts are listed in the legend. Data sources: (a) Morgan et al. (2006), anorthosite dissolution at 1673 K and 0.6 GPa; (b) Van Orman and Grove (2000), diopside dissolution at 1623 K and 1.3 GPa; (c) Chen and Zhang (2008), olivine dissolution at 1543-1753 K and 0.47-1.42 GPa; (d) Kubicki et al.(1990), diffusion couple at 1633-1873 K and 0.0001-2 GPa; (e) this study; (f)<ref type="bibr" target="#b49">Zhang et al. (1989)</ref>, olivine, diopside and quartz dissolution at 1488-1673 K and 0.5-2.15 GPa; (g)<ref type="bibr" target="#b19">Kress and Ghiorso (1995)</ref>, diffusion couple at 1473-1723 K and 0.0001 GPa; (h)<ref type="bibr" target="#b2">Baker (1990)</ref>, diffusion couple at 1473-1873 K and 0.0001-1 GPa. Note that the quartz dissolution experiment by<ref type="bibr" target="#b49">Zhang et al. (1989)</ref> produced SiO 2 -rich melt, such that the data point falls in the range of dacite and rhyolite.</figDesc><graphic coords="8,83.51,70.13,170.65,327.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. C MgO Â C CaO of the interface melt at different P and T. Solid symbols are data from this study. Hollow symbols are literature data. SiO 2 ranges from 47 to 56 wt%. See Fig. 1 for the experimental conditions of the literature data.</figDesc><graphic coords="8,320.43,70.13,199.06,162.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig</head><label></label><figDesc></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. Comparison between the prediction by Eq. (4) and the measured values. The 2r error in using Eq. (4) to predict lnðC MgO 0 Â C CaO 0 Þ is 0.11.</figDesc><graphic coords="9,92.86,70.13,165.25,147.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>d) MgO and (D/d) CaO are in m/s, T in K, P in GPa, and X Di is the mole fraction of diopside in clinopyroxene within diopside-hedenbergite binary system (for pure diopside, X Di = 1). Eq. (12a) can reproduce the calculated ln(D/ d) MgO values with a 2r error of 0.008. Eq. (12b) can reproduce the calculated ln(D/d) CaO values with a 2r error of 0.01.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head></head><label></label><figDesc>The uncertainty in calculating (D/d) MgO and (D/d) CaO mainly comes from the errors of: (1) 0.09 in lnD MgO and 0.17 in lnD CaO ; and (2) 1.4 in lng (0.61 logg units in Hui and Zhang, 2007) (all are 2r errors). The errors in melt and olivine densities and the error in the calculation scheme are much smaller than the above errors. To assess the uncertainty in (D/d) MgO and (D/d) CaO , we allowed D MgO , D CaO and g to vary in their corresponding error bounds. Fig. 11 shows ln(D/d) MgO and ln(D/d) CaO as a functions of temperature. The value of ln(D/d) MgO varies by ±0.06 as ln(D MgO ) varies within its uncertainty of ±0.09, and by ±0.45 as lng varies within its uncertainty of ±1.4. The value of ln(D/d) CaO varies by ±0.12 as ln(D MgO ) varies within its uncertainty of ±0.17, and by ±0.43 as lng varies within its uncertainty of ±1.4. The error bounds for ln(D/d) MgO is marked by the shaded areas in Fig. 11. Assuming the errors in D MgO , D CaO and g are not correlated, the overall uncertainty for ln(D/d) MgO is roughly ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi 0:06 2 þ 0:45 2 p % 0:45 (a factor of 1.6 in (D/d) MgO ), and that for ln(D/d) CaO is ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi 0:12 2 þ 0:43 2 p % 0:45. These values are much larger than the 2r errors of Eq. (12). Therefore, using Eqs. (12a) and (12b) (rather than Eqs. (3), (8a), (8b), (8c), (9), (10), and (11)) to estimate (D/d) MgO and (D/d) CaO would only introduce an insignificant error compared to the errors due to uncertainties in melt viscosity and diffusivities.Fig.11shows that D MgO /d for olivine dissolution in basaltic melt is only slightly greater than (D/d) MgO for clinopyroxene dissolution and slightly smaller than (D/ d) CaO . The small difference is mainly caused by the difference in the diffusivities. When the error due to the viscosity uncertainty is considered, D/d for olivine and clinopyrox-</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. Calculated b parameter and convective crystal dissolution rate of olivine and clinopyroxene in basalt. The clinopyroxene dissolution rate depends more strongly on T than that of olivine. This stronger dependence is largely due to the difference in the b parameter of the two minerals, which in turn depends on their composition and saturation status.</figDesc><graphic coords="11,90.03,70.87,170.65,271.45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 11</head><label>11</label><figDesc>Fig. 11. (D/d) MgO and (D/d) CaO for clinopyroxene dissolution in basalt calculated using Eq. (12). The error bounds for (D/d) MgO are shown. The (D/d) MgO for olivine dissolution in basalt is calculated from Eq. (19) in<ref type="bibr" target="#b7">Chen and Zhang (2008)</ref>.</figDesc><graphic coords="11,345.37,70.13,162.36,199.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 12 .</head><label>12</label><figDesc>Fig. 12. MgO-CaO composition regime illustrating the saturation status of olivine and clinopyroxene. (a) Line AB represents the melt composition at olivine saturation (Eq. (17) in<ref type="bibr" target="#b7">Chen and Zhang, 2008)</ref>. To the left of AB olivine is undersaturated. Curve CD represents the melt composition at clinopyroxene saturation (Eq. (4) in this study). To the lower-left of CD clinopyroxene is undersaturated. Point O represents the melt composition that is multiply-saturated with olivine and clinopyroxene. Line EF and P 1 P 2 satisfy Eq. (13). During clinopyroxene dissolution, the melts with compositions falling on EF would share the fixed interface melt composition at O. Similarly, the melts with compositions fall on P 1 P 2 would share the fixed interface melt composition at P 3 . AB, CD and EF divide the MgO-CaO diagram into six regions, numbered 1-6 in the figure. The saturation status of olivine and clinopyroxene in each of the six regions is summarized in Table6. (b) Contour lines for convective dissolution and growth rate calculated at 1 GPa and 1573 K. The red lines are for olivine, and green ones for clinopyroxene. (c) The dependence of the saturation curves on T at 1 GPa. (d) The dependence on P at 1573 K.</figDesc><graphic coords="12,134.65,352.35,316.06,279.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 13 .</head><label>13</label><figDesc>Fig. 13. Test of the olivine and clinopyroxene saturation models using experimental results of Morgan and Liang (2005). Line AB represents the melt composition at olivine saturation, and curve CD represents the melt composition at clinopyroxene saturation. The shaded areas represent the model errors. Morgan and Liang (2005) observed dissolution of olivine and clinopyroxene in the basaltic andesite, and dissolution of clinopyroxene and precipitation of olivine in the alkali basalt. The details on constructing this figure are listed in Table7.</figDesc><graphic coords="14,83.79,498.90,170.30,133.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Fig. 14 .</head><label>14</label><figDesc>Fig. 14. Application of the olivine and clinopyroxene saturation models to the petrogenesis model on Hawaii basalts (indicated by crosses). Stolper et al. (2004) proposed that the melts with 46-48 wt% SiO 2 (low-Si melt) crystallized olivine and dissolved orthopyroxene and cliopyroxene during its ascending, producing the melt with 48-50 wt% SiO 2 (high-Si and high-(Ca, Al) melts). The T is around 1713-1738 K at 1.5-2 GPa to satisfy the olivine saturation in the high-Si and high-(Ca, Al) melts, and the clinopyroxene under-saturation in the low-Si melt.</figDesc><graphic coords="15,91.22,70.13,168.47,256.48" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Fig. 15 .</head><label>15</label><figDesc>Fig. 15. Application of the olivine and clinopyroxene saturation models to the petrogenesis model on mid-ocean ridge basalts (indicated by crosses). Lissenberg and Dick (2008) proposed that olivine and plagioclase dissolved in the basalt, while clinopyroxene and new plagioclase precipitated. Constrained by olivine undersaturation and clinopyroxene over-saturation, the T is around 1438 K.</figDesc><graphic coords="15,342.54,70.13,167.75,284.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head></head><label></label><figDesc>MgO and D CaO , and the concentrations of MgO and CaO in the interface melt, from diffusioncontrolled clinopyroxene dissolution experiments. D MgO and D CaO show Arrhenian dependence on temperature. The pressure dependence is small and not resolved within 0.47-1.90 GPa. Clinopyroxene saturation is treated as being determined by C MgO 0 Â C CaO 0 . The saturation condition is modeled as a function of temperature and pressure. For convenient calculation of convective dissolution rates, (D/d) MgO and (D/d) CaO values (where d is the boundary layer melt thickness next to a falling clinopyroxene crystal) for Di80-100 clinopyroxene are calculated within 1423-1723 K and 0.0001-2 GPa, and are given as functions of T, P, and X Di . The uncertainty in both (D/ d) MgO and (D/d) CaO is a factor of $1.6, mainly due to the uncertainties in viscosity. The kinetics and fluid dynamics of convective clinopyroxene dissolution in basalt, characterized by the (D/d) MgO and (D/d) CaO values, are similar to that of convective olivine dissolution in basalt</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Fig. 16 .</head><label>16</label><figDesc>Fig. 16. BSE images showing olivine and clinopyroxene reactive textures between a mantle xenolith and its host basalt from Kuandian, Northeast China. (a) An overall view; (b) a zoomed-in view of the box area in (a). The contrasting textures of olivine and clinopyroxene suggest olivine over-saturation and clinopyroxene under-saturation in the host basalt.</figDesc><graphic coords="16,69.90,70.13,198.00,287.83" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Fig.</head><label></label><figDesc>Fig.17. Application of the olivine and clinopyroxene saturation models to the basalt from Kuandian, Northeast China. In addition to the olivine saturation and clinopyroxene under-saturation constraints, the dissolution rate is inferred to be no more than 0.03 lm/s if the entrainment pressure was 1 GPa, and no more than 0.015 lm/s if the entrainment pressure was 2 GPa, represented by the dashed curves.</figDesc><graphic coords="16,334.60,70.13,170.65,260.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Starting clinopyroxene and glass composition (wt%).</figDesc><table><row><cell></cell><cell cols="2">Clinopyroxene Basalt</cell><cell cols="2">Electron microprobe</cell></row><row><cell></cell><cell></cell><cell></cell><cell>analysis a</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">2r Error Standard</cell></row><row><cell>SiO 2</cell><cell>54.15</cell><cell>50.23</cell><cell>0.40</cell><cell>K-feldspar</cell></row><row><cell>TiO 2</cell><cell></cell><cell>1.94</cell><cell>0.08</cell><cell>Geikielite</cell></row><row><cell>Al 2 O 3</cell><cell>0.60</cell><cell>13.61</cell><cell>0.16</cell><cell>K-feldspar</cell></row><row><cell>FeO</cell><cell>0.91</cell><cell>12.06</cell><cell>0.19</cell><cell>Ferrosilite</cell></row><row><cell>MnO</cell><cell></cell><cell>0.22</cell><cell>0.11</cell><cell>Rhodonite</cell></row><row><cell cols="2">MgO 17.90</cell><cell>7.05</cell><cell>0.12</cell><cell>Olivine</cell></row><row><cell>CaO</cell><cell>25.40</cell><cell>10.75</cell><cell>0.19</cell><cell>Clinopyroxene</cell></row><row><cell>Na 2 O</cell><cell>0.41</cell><cell>2.73</cell><cell>0.10</cell><cell>Albite</cell></row><row><cell>K 2 O</cell><cell></cell><cell>0.17</cell><cell>0.05</cell><cell>K-feldspar</cell></row><row><cell>P 2 O 5</cell><cell></cell><cell>0.10</cell><cell>0.09</cell><cell>Apatite</cell></row><row><cell>H 2 O</cell><cell></cell><cell>0.25-0.40 b</cell><cell></cell><cell></cell></row><row><cell cols="2">Total 99.37</cell><cell>99.16</cell><cell></cell><cell></cell></row><row><cell cols="5">a Beam condition: 15 kV, 5 nA, 5 Â 5 or 20 Â 20 lm raster.</cell></row><row><cell cols="5">Counting time: 60 s for SiO 2 and FeO, 30 s for TiO 2 and CaO, and</cell></row><row><cell cols="2">20 s for the others.</cell><cell></cell><cell></cell><cell></cell></row></table><note><p>b Fourier transform infrared spectrometry measurement.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Summary of experimental conditions and dissolution distances.</figDesc><table><row><cell>Exp#</cell><cell>T 1 (K)</cell><cell>T 2 (K)</cell><cell>P (GPa)</cell><cell cols="2">Duration (s)</cell><cell cols="3">Diopside dissolution distance (lm)</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>t 1</cell><cell>t 2</cell><cell>L 1 a</cell><cell>L 2</cell><cell>L 3</cell><cell>L 4</cell></row><row><cell>1</cell><cell>1544</cell><cell>1555</cell><cell>0.47</cell><cell>1799</cell><cell>1807</cell><cell>37 ± 10</cell><cell>37 ± 6</cell><cell>38 ± 6</cell><cell>31 ± 2</cell></row><row><cell>5</cell><cell>1635</cell><cell>1654</cell><cell>0.95</cell><cell>725</cell><cell>732</cell><cell>&lt;81</cell><cell>49 ± 16</cell><cell>50 ± 15</cell><cell>51 ± 3</cell></row><row><cell>6</cell><cell>1719</cell><cell>1743</cell><cell>1.42</cell><cell>720</cell><cell>732</cell><cell>&lt;198</cell><cell>158 ± 7</cell><cell>155 ± 6</cell><cell>163 ± 4</cell></row><row><cell>7</cell><cell>1594</cell><cell>1624</cell><cell>0.47</cell><cell>605</cell><cell>613</cell><cell>&lt;89</cell><cell>67 ± 8</cell><cell>65 ± 7</cell><cell>94 ± 10</cell></row><row><cell>8</cell><cell>1667</cell><cell>1694</cell><cell>0.95</cell><cell>721</cell><cell>733</cell><cell>&lt;247</cell><cell>138 ± 10</cell><cell>138 ± 9</cell><cell>141 ± 6</cell></row><row><cell>11</cell><cell>1695</cell><cell>1748</cell><cell>1.90</cell><cell>482</cell><cell>494</cell><cell>&lt;92</cell><cell>44 ± 13</cell><cell>44 ± 12</cell><cell>41 ± 3</cell></row><row><cell>12</cell><cell>1641</cell><cell>1680</cell><cell>1.42</cell><cell>721</cell><cell>732</cell><cell>&lt;118</cell><cell>31 ± 13</cell><cell>30 ± 12</cell><cell>28 ± 2</cell></row><row><cell>14</cell><cell>1509</cell><cell>1517</cell><cell>0.47</cell><cell>2397</cell><cell>2404</cell><cell>&lt;22</cell><cell>11 ± 10</cell><cell>7 ± 9</cell><cell>8 ± 1</cell></row><row><cell>15 b</cell><cell>1790</cell><cell>1797</cell><cell>1.90</cell><cell>356</cell><cell>378</cell><cell>&lt;236</cell><cell></cell><cell></cell><cell>147 ± 8</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Effective binary diffusivities with 2r fitting errors (lm 2 /s). Not determined because the profile does not constrain the diffusivity well.</figDesc><table><row><cell>Exp#</cell><cell>SiO 2</cell><cell></cell><cell>TiO 2</cell><cell></cell><cell>Al 2 O 3</cell><cell></cell><cell>MgO</cell><cell></cell><cell>CaO</cell><cell></cell><cell>Na 2 O</cell><cell></cell></row><row><cell></cell><cell>D</cell><cell>2r</cell><cell>D</cell><cell>2r</cell><cell>D</cell><cell>2r</cell><cell>D</cell><cell>2r</cell><cell>D</cell><cell>2r</cell><cell>D</cell><cell>2r</cell></row><row><cell>1</cell><cell>ND</cell><cell></cell><cell>8.1</cell><cell>1.6</cell><cell>3.8</cell><cell>0.3</cell><cell>8.9</cell><cell>0.7</cell><cell>29.7</cell><cell>1.6</cell><cell>9.9</cell><cell>2.1</cell></row><row><cell>5</cell><cell>5.4</cell><cell>0.9</cell><cell>16.1</cell><cell>1.4</cell><cell>10.0</cell><cell>0.4</cell><cell>24.0</cell><cell>1.4</cell><cell>52.9</cell><cell>3.0</cell><cell>28.9</cell><cell>2.9</cell></row><row><cell>6</cell><cell>46.4</cell><cell>7.1</cell><cell>49.2</cell><cell>2.5</cell><cell>45.1</cell><cell>1.0</cell><cell>72.3</cell><cell>2.0</cell><cell>134.1</cell><cell>4.2</cell><cell>94.7</cell><cell>5.4</cell></row><row><cell>7</cell><cell>6.6</cell><cell>1.1</cell><cell>17.2</cell><cell>1.2</cell><cell>10.4</cell><cell>0.6</cell><cell>18.8</cell><cell>1.5</cell><cell>56.2</cell><cell>4.0</cell><cell>34.4</cell><cell>3.2</cell></row><row><cell>8</cell><cell>24.7</cell><cell>3.1</cell><cell>30.7</cell><cell>1.9</cell><cell>19.3</cell><cell>0.6</cell><cell>35.0</cell><cell>1.0</cell><cell>81.5</cell><cell>3.3</cell><cell>55.8</cell><cell>3.7</cell></row><row><cell>11</cell><cell>29.3</cell><cell>10.6</cell><cell>92.0</cell><cell>15.8</cell><cell>35.5</cell><cell>2.4</cell><cell>59.2</cell><cell>4.3</cell><cell>84.4</cell><cell>6.2</cell><cell>67.9</cell><cell>10.1</cell></row><row><cell>12</cell><cell>ND</cell><cell></cell><cell>17.1</cell><cell>5.8</cell><cell>16.1</cell><cell>1.5</cell><cell>28.2</cell><cell>2.5</cell><cell>69.4</cell><cell>6.0</cell><cell>37.7</cell><cell>9.6</cell></row><row><cell>14</cell><cell>ND</cell><cell></cell><cell>6.4</cell><cell>3.0</cell><cell>4.3</cell><cell>0.8</cell><cell>6.3</cell><cell>1.2</cell><cell>20.2</cell><cell>2.8</cell><cell>ND</cell><cell></cell></row><row><cell>15</cell><cell>50.4</cell><cell>5.8</cell><cell>62.2</cell><cell>10.8</cell><cell>71.6</cell><cell>2.0</cell><cell>111.9</cell><cell>3.0</cell><cell>197.4</cell><cell>9.6</cell><cell>123.6</cell><cell>9.1</cell></row><row><cell>ND:</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Interface melt composition with 2r fitting errors (wt%).</figDesc><table><row><cell>Exp#</cell><cell>SiO 2</cell><cell></cell><cell>TiO 2</cell><cell></cell><cell>Al 2 O 3</cell><cell></cell><cell>FeO b</cell><cell>MgO</cell><cell></cell><cell>CaO</cell><cell></cell><cell>Na 2 O</cell><cell></cell></row><row><cell>1</cell><cell>51.21 c</cell><cell></cell><cell>1.37</cell><cell>0.02</cell><cell>9.57</cell><cell>0.10</cell><cell>11.6</cell><cell>9.40</cell><cell>0.05</cell><cell>13.12</cell><cell>0.02</cell><cell>2.14</cell><cell>0.03</cell></row><row><cell>5</cell><cell>52.73</cell><cell>0.33</cell><cell>1.07</cell><cell>0.03</cell><cell>7.10</cell><cell>0.14</cell><cell>10.5</cell><cell>10.92</cell><cell>0.08</cell><cell>14.64</cell><cell>0.06</cell><cell>1.85</cell><cell>0.03</cell></row><row><cell>6</cell><cell>52.81</cell><cell>0.23</cell><cell>0.69</cell><cell>0.02</cell><cell>5.08</cell><cell>0.08</cell><cell>8.5</cell><cell>13.13</cell><cell>0.06</cell><cell>17.40</cell><cell>0.06</cell><cell>1.40</cell><cell>0.03</cell></row><row><cell>7</cell><cell>53.05</cell><cell>0.26</cell><cell>0.62</cell><cell>0.03</cell><cell>3.71</cell><cell>0.26</cell><cell>8.7</cell><cell>13.84</cell><cell>0.21</cell><cell>17.58</cell><cell>0.14</cell><cell>1.39</cell><cell>0.05</cell></row><row><cell>8</cell><cell>53.78</cell><cell>0.33</cell><cell>0.52</cell><cell>0.04</cell><cell>3.40</cell><cell>0.22</cell><cell>8.5</cell><cell>13.98</cell><cell>0.12</cell><cell>17.66</cell><cell>0.11</cell><cell>1.25</cell><cell>0.05</cell></row><row><cell>11</cell><cell>51.54</cell><cell>0.30</cell><cell>1.42</cell><cell>0.02</cell><cell>10.10</cell><cell>0.10</cell><cell>10.7</cell><cell>9.31</cell><cell>0.06</cell><cell>13.68</cell><cell>0.06</cell><cell>2.06</cell><cell>0.03</cell></row><row><cell>12</cell><cell>50.95 c</cell><cell></cell><cell>1.36</cell><cell>0.05</cell><cell>10.86</cell><cell>0.14</cell><cell>11.2</cell><cell>8.78</cell><cell>0.07</cell><cell>12.84</cell><cell>0.05</cell><cell>2.23</cell><cell>0.04</cell></row><row><cell>14</cell><cell>50.50 c</cell><cell></cell><cell>1.66</cell><cell>0.02</cell><cell>12.50</cell><cell>0.09</cell><cell>12.0</cell><cell>7.64</cell><cell>0.04</cell><cell>11.71</cell><cell>0.02</cell><cell>2.54</cell><cell>0.03</cell></row><row><cell>15</cell><cell>53.51</cell><cell>0.34</cell><cell>0.68</cell><cell>0.12</cell><cell>5.31</cell><cell>0.17</cell><cell>8.5</cell><cell>12.87</cell><cell>0.09</cell><cell>17.77</cell><cell>0.15</cell><cell>1.28</cell><cell>0.07</cell></row></table><note><p>a MnO is $0.2 wt%, K 2 O and P 2 O 5 are $0.1 wt%. b FeO profiles are not fitted. The interface FeO concentrations are estimated visually. c SiO 2 profiles of these experiments were not treated. The SiO 2 concentrations are estimated visually.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5</head><label>5</label><figDesc>An example of calculating convective clinopyroxene dissolution rate.</figDesc><table><row><cell></cell><cell>MgO</cell><cell>CaO</cell><cell>References</cell></row><row><cell cols="4">Conditions: 1523 K, 0.5 GPa, Di90, 1 mm radius</cell></row><row><cell>C c (wt%)</cell><cell>16.5</cell><cell>25.5</cell></row><row><cell>C 1 (wt%) C MgO 0 Â C CaO 0</cell><cell>7.05</cell><cell>10.8 102</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 6</head><label>6</label><figDesc>Behavior of olivine and clinopyroxene when coexisting in xenoliths.</figDesc><table><row><cell>Initial melt</cell><cell cols="4">Relation between the interface</cell><cell>Ol</cell><cell>Cpx</cell><cell>Ol growth at</cell><cell>Surface MgO</cell></row><row><cell>composition</cell><cell cols="4">melt composition and the initial</cell><cell></cell><cell></cell><cell>the cpx interface?</cell><cell>diffusion flux</cell></row><row><cell>region</cell><cell cols="3">melt composition</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>1</cell><cell>C MgO 1</cell><cell cols="2">&lt; C MgO 0;ol &lt; C MgO 0;cpx</cell><cell>C CaO 1 &lt; C CaO 0;cpx</cell><cell>Dissolution</cell><cell>Dissolution</cell><cell>Yes</cell><cell>cpx ? ol</cell></row><row><cell>BO</cell><cell>C MgO 1</cell><cell cols="2">¼ C MgO 0;ol &lt; C MgO 0;cpx</cell><cell>C CaO 1 &lt; C CaO 0;cpx</cell><cell>At saturation</cell><cell>Dissolution</cell><cell>Yes</cell><cell>cpx ? ol</cell></row><row><cell>2</cell><cell cols="2">C MgO 0;ol &lt; C MgO 1</cell><cell>&lt; C MgO 0;cpx</cell><cell>C CaO 1 &lt; C CaO 0;cpx</cell><cell>Growth</cell><cell>Dissolution</cell><cell>Yes</cell><cell>cpx ? ol</cell></row><row><cell>DO</cell><cell cols="2">C MgO 0;ol &lt; C MgO 1</cell><cell>¼ C MgO 0;cpx</cell><cell>C CaO 1 ¼ C CaO 0;cpx</cell><cell>Growth</cell><cell>At saturation</cell><cell>Yes</cell><cell>cpx ? ol</cell></row><row><cell>3</cell><cell cols="3">C MgO 0;ol &lt; C MgO 0;cpx &lt; C MgO 1</cell><cell>C CaO 0;cpx &lt; C CaO 1</cell><cell>Growth</cell><cell>Growth</cell><cell>Yes</cell><cell>cpx ? ol</cell></row><row><cell>EO</cell><cell cols="3">C MgO 0;ol ¼ C MgO 0;cpx &lt; C MgO 1</cell><cell>C CaO 0;cpx &lt; C CaO 1</cell><cell>Growth</cell><cell>Growth</cell><cell>At saturation</cell><cell>No flux</cell></row><row><cell>4</cell><cell cols="3">C MgO 0;cpx &lt; C MgO 0;ol &lt; C MgO 1</cell><cell>C CaO 0;cpx &lt; C CaO 1</cell><cell>Growth</cell><cell>Growth</cell><cell>No</cell><cell>ol ? cpx</cell></row><row><cell>AO</cell><cell cols="3">C MgO 0;cpx &lt; C MgO 0;ol ¼ C MgO 1</cell><cell>C CaO 0;cpx &lt; C CaO 1</cell><cell>At saturation</cell><cell>Growth</cell><cell>No</cell><cell>ol ? cpx</cell></row><row><cell>5</cell><cell cols="2">C MgO 0;cpx &lt; C MgO 1</cell><cell>&lt; C MgO 0;ol</cell><cell>C CaO 0;cpx &lt; C CaO 1</cell><cell>Dissolution</cell><cell>Growth</cell><cell>No</cell><cell>ol ? cpx</cell></row><row><cell>CO</cell><cell cols="2">C MgO 0;cpx ¼ C MgO 1</cell><cell>&lt; C MgO 0;ol</cell><cell>C CaO 0;cpx ¼ C CaO 0;1</cell><cell>Dissolution</cell><cell>At saturation</cell><cell>No</cell><cell>ol ? cpx</cell></row><row><cell>6</cell><cell>C MgO 1</cell><cell cols="2">&lt; C MgO 0;cpx &lt; C MgO 0;ol</cell><cell>C CaO 1 &lt; C CaO 0;cpx</cell><cell>Dissolution</cell><cell>Dissolution</cell><cell>No</cell><cell>ol ? cpx</cell></row><row><cell>FO</cell><cell>C MgO 1</cell><cell cols="2">&lt; C MgO 0;cpx ¼ C MgO 0;ol</cell><cell>C CaO 1 &lt; C CaO 0;cpx</cell><cell>Dissolution</cell><cell>Dissolution</cell><cell>At saturation</cell><cell>No flux</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 7</head><label>7</label><figDesc>Details of constructing Fig. 13.</figDesc><table><row><cell>Reference</cell></row></table><note><p>À7 9:69 À C CaO 1 18:98 À 9:69 Eq. (13)</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Y. Chen, Y.Zhang / Geochimica et Cosmochimica Acta 73 (2009) 5730-5747   </p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Clinopyroxene dissolution in basaltic melt</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>We appreciate the critical and constructive reviews of <rs type="person">J.K. Russell</rs>, <rs type="person">K. Putirka</rs>, <rs type="person">C.S.J. Shaw</rs> and an anonymous reviewer. <rs type="person">Y. Chen</rs> thanks <rs type="person">Zhengjiu Xu</rs>, <rs type="person">Hejiu Hui</rs> and <rs type="person">Huaiwei Ni</rs>, for training and help on piston-cylinder experiments and FTIR measurement. This work is supported by <rs type="funder">NSF</rs> Grants <rs type="grantNumber">EAR-0537598</rs>, <rs type="grantNumber">0711050</rs> and <rs type="grantNumber">0838127</rs>. Electron microprobe work is carried out on a Cameca SX100 instrument at <rs type="affiliation">Electron Microbeam Analysis Laboratory of the University of Michigan</rs>, which is supported by <rs type="funder">NSF</rs> Grant <rs type="grantNumber">9911352</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_XufuHM7">
+					<idno type="grant-number">EAR-0537598</idno>
+				</org>
+				<org type="funding" xml:id="_Qmas85E">
+					<idno type="grant-number">0711050</idno>
+				</org>
+				<org type="funding" xml:id="_XRwgHPr">
+					<idno type="grant-number">0838127</idno>
+				</org>
+				<org type="funding" xml:id="_VgH5XMW">
+					<idno type="grant-number">9911352</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Crystal-liquid density inversions in terrestrial and lunar magmas</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Agee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Earth Planet. Interiors</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="63" to="74" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Algorithmic modifications extending MELTS to calculate subsolidus phase relations</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Asimow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ghiorso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="1127" to="1131" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Chemical interdiffusion of dacite and rhyolite: anhydrous measurements at 1 atm and 10 kbar, application of transition state theory, and diffusion in zoned magma chambers</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="407" to="423" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Water in Earth&apos;s mantlethe role of nominally anhydrous minerals</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Bell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Rossman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">255</biblScope>
+			<biblScope unit="page" from="1391" to="1397" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Effect of pressure on the melting of diopside, CaMgSi 2 O 6 , and albite, NaAlSi 3 O 8 , in the range up to 50 kilobars</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>England</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="311" to="323" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Dissolution rates of upper mantle minerals in an alkali basalt melt at high pressure: an experimental study and implications for ultramafic xenolith survival</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brearley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1157" to="1182" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Geochemistry of Cenozoic basalts and mantle xenoliths in Northeast China</title>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="108" to="126" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Olivine dissolution in basaltic melt</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="4756" to="4777" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Clift</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Grace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Weber</surname></persName>
+		</author>
+		<title level="m">Bubbles, Drops, and Particles</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">The Mathematics of Diffusion</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+			<publisher>Oxford University Press</publisher>
+			<biblScope unit="page">414</biblScope>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Rapid magma ascent recorded by water diffusion profiles in olivine from Earth&apos;s mantle</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Demouchy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gaillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Stern</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geology</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="429" to="432" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Gabbroic xenoliths and host ferrobasalt from the Southern Juan de Fuca Ridge</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Clague</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Eissen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="3795" to="3820" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Infrared spectroscopic measurements of CO 2 and H 2 O in Juan de Fuca Ridge basaltic glasses</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Dixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stolper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Delaney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="87" to="104" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Water solubility in clinopyroxene</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gavrilenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Keppler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochimica et Cosmochimica Acta Suppl. S</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">312</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Chemical mass transfer in magmatic processes. IV. A revised and internally consistent thermodynamic model for the interpolation and extrapolation of liquid-solid equilibria in magmatic systems at elevated temperatures and pressures</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ghiorso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Sack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="197" to="212" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Toward a general viscosity equation for natural anhydrous and hydrous silicate melts</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="403" to="416" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Pressure dependence of the speciation of dissolved water in rhyolitic melts</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Behrens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="3229" to="3240" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Convective crystal dissolution</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Kerr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="237" to="246" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Reactions between mantle xenoliths and host magma beneath La Palma (Canary Islands): constraints on magma ascent rates and crustal reservoirs</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Klu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="237" to="257" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Multicomponent diffusion in basaltic melts</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Kress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ghiorso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="313" to="324" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Chemical diffusion in melts on the CaMgSi 2 O 6 -CaAl 2 Si 2 O 8 join under high pressures</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Kubicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Muncill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="2709" to="2715" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Kinetics of crystal dissolution in the system diopside-forsterite-silica</title>
+		<author>
+			<persName><forename type="first">L.-C</forename><surname>Kuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kirkpatrick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Sci</title>
+		<imprint>
+			<biblScope unit="volume">285</biblScope>
+			<biblScope unit="page" from="51" to="90" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Densities of Na 2 O-K 2 O-CaO-MgO-FeO-Fe 2 O 3 -TiO 2 -SiO 2 liquids: new measurements and derived partial molar properties</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Lange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S E</forename><surname>Carmichael</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="2931" to="2946" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Diffusive dissolution in ternary systems: analysis with applications to quartz and quartzite dissolution in molten silicates</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="3983" to="3995" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Dissolution in molten silicates: effects of solid solution</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="1617" to="1627" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Melt-rock reaction in the lower oceanic crust and its implications for the genesis of midocean ridge basalt</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Lissenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J B</forename><surname>Dick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">271</biblScope>
+			<biblScope unit="page" from="311" to="325" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">An experimental study of the kinetics of lherzolite reactive dissolution with applications to melt channel formation</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="369" to="385" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">An experimental study of anorthosite dissolution in lunar picritic magmas: implications for crustal assimilation processes</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="3477" to="3491" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The density of hydrous magmatic liquids</title>
+		<author>
+			<persName><forename type="first">Iii</forename><surname>Ochs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Lange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">283</biblScope>
+			<biblScope unit="page" from="1314" to="1317" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Density of basaltic melt at high pressure and stability of the melt at the base of the lower mantle</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ohtani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maeda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">193</biblScope>
+			<biblScope unit="page" from="69" to="75" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Hydrogen loss from olivines in mantle xenoliths from Simcoe (USA) and Mexico: mafic alkali magma ascent rates and water budget of the sub-continental lithosphere</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Peslier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Luhr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">242</biblScope>
+			<biblScope unit="page" from="302" to="319" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Clinopyroxene + liquid equilibria to 100 kbar and 2450 K</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Putirka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="151" to="163" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Excess temperatures at ocean islands: implications for mantle layering and convection</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Putirka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geology</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="283" to="286" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Rates of dissolution of upper mantle minerals in an alkali-olivine basalt melt at high pressure. Carnegie Institution Year Book</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Takahashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Yoder</surname><genName>Jr</genName></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="290" to="296" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The effect of experiment geometry on the mechanism and rate of dissolution of quartz in basanite at 0.5 GPa and 1350 °C</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S J</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="509" to="525" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The pressure and temperature conditions and timing of glass formation in mantle-derived xenoliths from Baarley</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S J</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Klu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="163" to="187" />
+			<date type="published" when="2002">2002</date>
+			<pubPlace>West Eifel, Germany</pubPlace>
+		</imprint>
+	</monogr>
+	<note>: the case for amphibole breakdown, lava infiltration and mineral-melt reaction</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Experimental peridotitemelt reaction at one atmosphere: a texture and chemical study</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S J</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="199" to="214" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The fluid dynamics of evolving magma chambers</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S J</forename><surname>Sparks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Huppert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phil. Trans. Roy. Soc. London. A</title>
+		<imprint>
+			<biblScope unit="volume">310</biblScope>
+			<biblScope unit="page" from="500" to="534" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Glass in the submarine section of the HSDP2 drill core</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stolper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sherman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Seaman</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2003GC000553</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geochem. Geophys. Geosyst</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<date type="published" when="2004">2004</date>
+			<pubPlace>Hilo, Hawaii</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Model pyroxenes III: volume of C2/c pyroxene at mantle P, T, and x</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Downs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Redhammer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineralogist</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="1840" to="1851" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Density, refractivity, and composition relations of some natural glasses</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Tilley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mineral. Mag</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="275" to="294" />
+			<date type="published" when="1922">1922</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Geodynamics: Applications of Continuum Physics to Geological Problems</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Turcotte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schubert</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982">1982</date>
+			<publisher>Wiley &amp; Sons</publisher>
+			<biblScope unit="page">450</biblScope>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Origin of lunar hightitanium ultramafic glasses: Constratins from phase relations and dissolution kinetics of clinopyroxene-ilmenite cumulates</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Van Orman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Grove</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Meteoritics Planet. Sci</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="783" to="794" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Melting cruve of diopside to 50 kilobars</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Kennedy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="4359" to="4365" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Fate of rising CO 2 droplets in seawater</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="7719" to="7724" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Geochemical Kinetics</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">H 2 O diffusion in rhyolitic melts and glasses</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Behrens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">169</biblScope>
+			<biblScope unit="page" from="243" to="262" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Kinetics of convective crystal dissolution and melting, with applications to methane hydrate dissolution and dissociation in seawater</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="page" from="133" to="148" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Fizzics&quot; of bubble growth in beer and champagne. Elements</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="47" to="49" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Diffusive crystal dissolution</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<editor>
+			<persName><forename type="first">J</forename></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Kelly</forename><surname>Russell</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="495" to="513" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

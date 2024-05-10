@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">F and Cl diffusion in phonolitic melts: Influence of the Na/K ratio</title>
+				<funder ref="#_wf9VF9P">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">H</forename><surname>Balcone-Boissard</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Physique du Globe de Paris</orgName>
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">Equipe Géologie des Systèmes Volcaniques</orgName>
+								<address>
+									<addrLine>4 pl. Jussieu</addrLine>
+									<postCode>75005</postCode>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Earth and Planetary Sciences</orgName>
+								<orgName type="department" key="dep2">GEOTOP-UQAM-McGill Research Centre</orgName>
+								<orgName type="institution" key="instit1">McGill University</orgName>
+								<orgName type="institution" key="instit2">rue University</orgName>
+								<address>
+									<postCode>3450, H3A 2A7</postCode>
+									<settlement>Montreal</settlement>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Istituto Nazionale di Geofisica e Vulcanologia</orgName>
+								<address>
+									<addrLine>Via di Vigna Murata 605</addrLine>
+									<postCode>00143</postCode>
+									<settlement>Roma</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><surname>Villemant</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Physique du Globe de Paris</orgName>
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">Equipe Géologie des Systèmes Volcaniques</orgName>
+								<address>
+									<addrLine>4 pl. Jussieu</addrLine>
+									<postCode>75005</postCode>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Université P.&amp;M. Curie</orgName>
+								<address>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><surname>Boudon</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institut de Physique du Globe de Paris</orgName>
+								<orgName type="institution" key="instit1">CNRS</orgName>
+								<orgName type="institution" key="instit2">Equipe Géologie des Systèmes Volcaniques</orgName>
+								<address>
+									<addrLine>4 pl. Jussieu</addrLine>
+									<postCode>75005</postCode>
+									<settlement>Paris</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">F and Cl diffusion in phonolitic melts: Influence of the Na/K ratio</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E4C2ABAB419D35DDAE644E806601B643</idno>
+					<idno type="DOI">10.1016/j.chemgeo.2008.08.018</idno>
+					<note type="submission">Accepted 22 August 2008</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Diffusion Halogens Phonolite Alkali ratio Magma degassing</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Fluorine and chlorine diffusion were measured in two natural phonolitic melts, from Vesuvius (Italy) and from Laacher See (Germany), at 0.5 and 1.0 GPa, between 1250 and 1450 °C at anhydrous conditions and with about 2 and 5 wt.% of dissolved water. The two different starting materials allow us to investigate the alkali effect, Na vs. K, on halogen diffusion. One composition was a K-rich (~10 wt.%) phonolitic melt corresponding to the white pumice phase of the 79 AD eruption of Vesuvius, and the other a Na-rich (~10 wt.%) phonolitic melt corresponding to most differentiated melt of the 12,000 BC eruption of Laacher See. The diffusion-couple technique in a piston cylinder was used for the experiments. Experiments were performed with only one halogen diffusing and with the simultaneous diffusion of a halogen mixture (F, Cl, Br) in order to evaluate the interactions between the halogens during diffusion. Diffusion coefficients for F range between 2 × 10 -11 m 2 /s at 1250 °C and 7 ×10 -11 m 2 /s at 1450 °C for the Na-rich melt and between 1× 10 -11 m 2 /s at 1250 °C and 8 × 10 -11 m 2 /s at 1450 °C for the K-rich melt at anhydrous conditions. Diffusion coefficients for Cl range between 2 × 10 -12 m 2 /s at 1250 °C and 1 × 10 -11 m 2 /s at 1450 °C for the Na-rich melt and between 7× 10 -12 m 2 /s at 1250 °C and 2 × 10 -11 m 2 /s at 1450 °C for the K-rich melt at anhydrous conditions. Fluorine diffusivity is higher than Cl in the Na-rich-phonolitic melt by one order of magnitude, whereas in the K-rich-phonolitic melt F and Cl diffusivities are similar. The effect of water is significant for Cl in both Na-rich and K-rich melts: the addition of water enhances Cl diffusivity by up to one order of magnitude, but water does not significantly affect F diffusion. F and Cl diffusivities always differ from one another in the same phonolitic melt composition. F diffusivities are similar in both compositions. Conversely, Cl diffusion depends upon the dominant alkali. These results evidence that halogen diffusivity may represent a limiting factor for their degassing during rapid syneruptive decompression and vesiculation of H 2 O-rich-phonolitic melts. The contrasting volatile diffusivities of F and Cl in silicate melts during magma vesiculation may be a key, controlling factor of the composition of the vapour phase (bubbles) produced. Such diffusion controlled degassing model may explain the absence of F and Cl degassing observed during the 79AD eruption of Vesuvius.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Halogen discharge into the atmosphere from magmatic degassing is highly variable from one volcano to another <ref type="bibr" target="#b48">(Symonds et al., 1988;</ref><ref type="bibr" target="#b17">Duffell et al., 2003;</ref><ref type="bibr" target="#b21">Gerlach, 2004;</ref><ref type="bibr" target="#b0">Aiuppa et al., 2004</ref><ref type="bibr" target="#b1">Aiuppa et al., , 2005))</ref>. The composition of the volatile phase coexisting with a magmatic melt depends on the solubility, partitioning between the melt and gas phase, and the diffusion of the different species in the melt, which is controlled by various parameters such melt composition, initial volatile contents etc. (see e.g. <ref type="bibr">Gardner et al., 2006a,b)</ref>. Even though degassing kinetics may play a significant role in volcanic processes, little is known about halogen (F, Cl and Br) diffusion in magmatic melts, except in a very few systems <ref type="bibr">(Dingwell and</ref><ref type="bibr">Scarfe, 1984, 1985;</ref><ref type="bibr" target="#b52">Watson, 1991;</ref><ref type="bibr" target="#b4">Bai and Koster van Groos, 1994;</ref><ref type="bibr" target="#b2">Alletti et al., 2007)</ref>. This experimental work was motivated by our previous study on halogen behaviour during the 79 AD plinian eruption of Vesuvius involving Krich-phonolitic melts. <ref type="bibr" target="#b6">Balcone-Boissard et al. (2008)</ref> detailed the preeruptive conditions and halogen behaviour during magma transport based upon bulk rock, residual glass and melt inclusion analyses. Comparison of F and Cl contents in pre-eruptive melts and residual matrix glasses demonstrates that F and Cl were not strongly affected by water degassing, which has been tentatively attributed to kinetic effects.</p><p>This experimental study evaluates the influence of diffusion in phonolitic melt on F and Cl degassing. We performed a series of diffusion experiments on dry and hydrous phonolitic melts of the 79 AD Vesuvius composition; for comparison, we also performed similar experiments on a Na-rich phonolite from the 12,000 BC Laacher See eruption (Germany) in order to investigate the influence of the Na/K ratio on F and Cl behaviour.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental and analytical techniques</head><p>Experiments were carried out to determine F and Cl diffusivity in phonolitic melts. We used two natural phonolites, which consist of pumice samples. The first one corresponds to the white pumice fall event of the Vesuvius 79 AD eruption, already used by <ref type="bibr" target="#b35">Marziano et al. (2007)</ref> for water solubility measurements and Larsen (in press) to study bubble nucleation and H 2 O exsolution processes. The second one is the most differentiated melt composition of the 12,000 BC eruption of the Laacher See, Germany, already used by <ref type="bibr">Gardner et al. (2006a,b)</ref> for experimental work on magma degassing. In order to avoid any bias due to the presence of minerals, the pumice samples were crushed and ground after mineral separation. Thus, the starting material consists of the respective matrix glass from these pumices. We fused an aliquot of powder at 1400 °C, 1 atm for 1 h in a platinum crucible to remove the volatiles (essentially H 2 O) naturally present in the rocks and to obtain homogeneous glasses. The glass was then ground for 40 min in an agate mortar to obtain a powder with grains below 50 µm in size.</p><p>To produce F-, Cl-and Br-enriched starting glass powders we chose two aliquots of the volatile-free powdered glass and to each added a halogen as a salt: ~5000 ppm of NaF, ~5000 ppm of NaCl and 8000 ppm of NaBr. A fourth starting material consisted of volatile-free powdered glass with a mixture of NaF-NaCl-NaBr in the same concentrations (i.e. ~5000 ppm of each salt). Each mixture was ground under ethanol in an agate mortar for 1 h to homogenize the volatile-bearing powder before being dried at 400 °C for at least 2 h. We then fused an aliquot of each mixture at 1.0 GPa, 1400 °C for 2 h in a graphite capsule in a piston-cylinder apparatus, using an aluminagraphite-pyrex assembly <ref type="bibr" target="#b5">(Baker, 2004)</ref>, to produce a halogenenriched glass (see Table <ref type="table" target="#tab_0">1</ref> for glass composition). The use of graphite capsules results in the introduction of carbon into the melt, but its concentration is less than a few thousand ppm (see <ref type="bibr" target="#b36">Morizet et al., 2002)</ref> and will have an insubstantial affect on halogen diffusion.</p><p>In order to obtain hydrous glasses we added to each aliquot of halogen-bearing, dry glass either ~2 or ~5 wt.% distilled water and fused them in graphite capsules inside welded Pt capsules at 1250 °C-1.0 GPa for 4 h. To avoid H 2 O loss, the free space between the Pt capsule and the alumina cylinder was filled with packed pyrophyllite powder.</p><p>Experiments were performed in a piston-cylinder apparatus with 19.1 mm NaCl-pyrex-crushible alumina assemblies <ref type="bibr" target="#b5">(Baker, 2004)</ref>. The anhydrous diffusion experiments were conducted simultaneously for F and Cl on the one hand and for Br and the F-Cl-Br mixture on the other. The diffusion couple was constructed by drilling 4 cylindrical holes (1.6 mm diameter, 5 mm long) in a 6 mm diameter graphite cylinder. The halogen-enriched phonolitic glass (i.e. NaF, NaCl, NaBr or the mixture) was first packed into the lower halves (2 mm) of each hole and the top halves (2 mm) were filled with the corresponding halogen-poor phonolitic glass. The last 1 mm was backfilled with graphite powder. The graphite cylinder was then capped by a graphite plug (1 mm thick). The hydrous diffusion experiments used graphite capsules (1 mm inner diameter, 4 mm long) inside welded Pt capsules. The capsules were placed in an alumina assembly to perform diffusion experiments for the two phonolitic compositions and with same amount of water at the identical temperature and pressure conditions. The experimental temperatures range between 1250 and 1450 °C, at 1.0 GPa; we also performed experiments at 1200 and 1250 °C, 0.5 GPa to investigate the effect of pressure on diffusion.</p><p>The run procedure consisted of simultaneously pressurizing and heating the assembly. For all experiments, a constant heating rate was used: for synthesis experiments two heating rates of respectively 100 °C/min until 100 °C below the run temperature and 50 °C/min for the final 100 °C up to the run temperature. For diffusion experiments, a single heating rate of 100 °C/min was preferred and resulted in less than 5 °C overshoot of the run temperature. Temperatures were measured with Type C thermocouples. All experimental durations (between 400 and 4500 s) are calculated based upon the time the experiment reached the desired run temperature. One «zerotime» experiment was performed at 1450 °C for the mixture with 5 wt.% of water in order to investigate the extent of diffusion during heating to the highest experimental temperature: the four profiles obtained were around 250 µm length. Nonetheless, repeat experiments for one temperature, but with different durations were performed and no influence on the value of the diffusion coefficient was observed. At the end of each experiment the samples were quenched isobarically at ~50 °C/s.</p><p>After quenching, the samples were embedded in epoxy and polished for electron microprobe analysis of the halogen concentrations to acquire the diffusion profiles. For hydrous experiments, observations by scanning electron microscopy were used to ensure that no water exsolution or crystallisation occurred.</p><p>The electron microprobe analytical techniques were identical to those described in <ref type="bibr" target="#b6">Balcone-Boissard et al. (2008)</ref>. We used a CAMECA-SX 100 (CAMPARIS) with an accelerating voltage of 15 kV, a beam current of 4 nA for major elements and 40 nA for F and Cl, and a 15 µm diameter beam. The dwell time for the major elements was 10 s, except for Si and for Na (5 s) to prevent Na loss. Fluorine and chlorine were measured with a dwell time of 50 s on the peak. The detection limit was ~300 ppm for F and ~100 ppm for Cl. Br diffusion profiles were also obtained during the same experiments, but their measurements using the SYXRF microprobe (ESRF) are in progress; this machine was preferred because of its precision and the rapidity of Br analyses compared to electron microprobe. This paper focuses upon only F and Cl diffusion. For the hydrous experiments, the 'by difference method' <ref type="bibr" target="#b13">(Devine and Gardner, 1995)</ref> was used to estimate the water concentration. The calibration was performed with three synthetic glasses (Na-rich-phonolitic melt with 2 and 4 wt.% H 2 O and K-richphonolitic melt with 6 wt.% H 2 O) and one natural glass (Quartz hosted melt inclusions, with 5 wt.% H 2 O <ref type="bibr" target="#b10">(Clocchiatti, 1975;</ref><ref type="bibr" target="#b14">Di Muro et al.</ref>,  <ref type="table">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 2</head><p>Experimental conditions and diffusion coefficients.</p><p>a: Experimental conditions and diffusion coefficients for anhydrous phonolitic compositions Run T (°C) 2006). Using this calibration, the measured water content is identical within analytical errors for all analytical points (0, 2.2 and 4.7 ± 1 wt.%). These values closely correspond to the added water content during synthesis (0, 2 and 5 wt.%). Thus, as the amount of water in the halogen-bearing and halogen-free melts did not differ significantly, no water diffusion occurred during halogen diffusion experiments.</p><formula xml:id="formula_0">P (GPa) Time (s) Nb traverses D (m 2 s -1 ) Run T (°C) P (GPa) Time (s) Nb traverses D (m 2 s -1 ) D (m 2 s -1 ) F C l F C l Na-rich-phonolitic composition K-rich</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Calculation of fluorine and chlorine diffusion coefficients from concentration profiles</head><p>The concentration profiles (Fig. <ref type="figure" target="#fig_0">1</ref>) are fitted assuming a constant diffusivity of halogen species, independent of halogen concentration, between two semi-infinite media as described by <ref type="bibr" target="#b11">Crank (1975)</ref>. A non-linear curve-fitting program was developed to fit the experimental data with the following mathematical expression:</p><formula xml:id="formula_1">C x; t ð Þ = C low + C high = 2 + C low -C high = 2 × erf x -x 0 ð Þ= 2 M Dt À Á À Á ;</formula><p>where C(x, t) is the concentration along the diffusion profile plotted in a concentration vs. distance diagram, x is the distance along the profile (in meters) and t is the experimental duration (in seconds). C low and C high are respectively the halogen concentrations in the depleted and the enriched semi-infinite medium; x 0 represents the centre of the diffusion profile, at the interface between the two melts along the diffusion profile, and D is the diffusion coefficient or diffusivity.This equation describes the elemental concentrations if diffusion is the only transport mechanism for halogens in the melt. <ref type="bibr" target="#b2">Alletti et al. (2007)</ref> demonstrated that no convection occurred during similar experiments with low-viscosity basaltic melts. As phonolitic melts have a higher viscosity compared to basaltic ones <ref type="bibr" target="#b22">(Giordano et al., 2004)</ref>, advection is not expected. Nonetheless, in order to investigate the possibility of advection, we chose to replicate experiments for different durations. Thus the runs at 1300 and 1450 °C were repeated for two different durations and demonstrate no significant differences indicating that diffusion was the only transport mechanism in these experiments (Table <ref type="table">2</ref>).</p><p>3.2. Effect of temperature, pressure, water content and mixed halogen on diffusion 3.2.1. Temperature effect Diffusion experiments were performed at superliquidus temperatures between 1250 and 1450 °C for both anhydrous and hydrous compositions. One diffusion experiment was conducted at 1200 °C. The diffusion coefficients for both K-rich and Na-rich-phonolitic melt compositions are summarized in Table <ref type="table">2</ref>. Based upon previous experiences, Monte Carlo simulations of diffusivity uncertainties <ref type="bibr" target="#b2">(Alletti et al., 2007)</ref> and replicate experiments (Table <ref type="table">2</ref>) we estimate the uncertainty of each diffusion measurement to be less than ± 20% (relative). The measured diffusion coefficients demonstrate that fluorine and chlorine diffusivities increase with increasing temperature (Fig. <ref type="figure">2</ref>, Table <ref type="table">2</ref>).</p><p>Diffusion coefficients for F range between 2 × 10 -11 m 2 /s at 1250 °C and 7 × 10 -11 m 2 /s at 1450 °C for the Na-rich melt and between 1 × 10 -11 m 2 /s at 1250 °C and 8 × 10 -11 m 2 /s at 1450 °C for the K-rich melt at anhydrous conditions. Diffusion coefficients for Cl range between 2 × 10 -12 m 2 /s at 1250 °C and 1 × 10 -11 m 2 /s at 1450 °C for the Na-rich melt and between 7 × 10 -12 m 2 /s at 1250 °C and 2 × 10 -11 m 2 /s at 1450 °C for the K-rich melt at anhydrous conditions. Fluorine and chlorine display Arrhenian behaviour under anhydrous conditions. Diffusion is a thermally activated process and the diffusion coefficient depends on the absolute temperature T following an Arrhenius law at superliquidus temperatures. To calculate the Ea value, the diffusion coefficients obtained at 1200 °C were not taken into account because of a suspicion of an experimental problem in this run (for instance, a problem with the thermocouple). Best fit parameter values for the Arrhenius equations are reported in Table <ref type="table" target="#tab_2">3</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Does a mixed halogen effect exist?</head><p>As discussed in numerous studies (e.g., <ref type="bibr" target="#b12">Day, 1976;</ref><ref type="bibr">Tomozawa, 1998, Swenson and</ref><ref type="bibr" target="#b47">Adams, 2003)</ref>, when two or more alkalies coexist several physical properties of glasses are modified as a consequence of changes in the thermodynamic state of glasses. <ref type="bibr" target="#b2">Alletti et al. (2007)</ref> investigated this possibility in basaltic melts and concluded that any mixed halogen effect was negligible for this composition. For the phonolitic melts studied, diffusion experiments involving a halogen mixture of F, Cl and Br were performed at dry conditions, for the same range of temperature (1250 to 1450 °C) and pressure (1.0 GPa) as for the single halogen diffusion experiments. The results are in Table <ref type="table">2a</ref>. No significant difference in the diffusion coefficient exists between the experiments involving only F or Cl and the mixture (Fig. <ref type="figure" target="#fig_1">3</ref>). Thus, no mismatch effect <ref type="bibr" target="#b34">(Maass et al., 1992)</ref> was found: the F and Cl anions do not appear to be competing for available coordinating cations, or "sites". This may be due to the large size difference in the anions; <ref type="bibr" target="#b33">Maass and Peibst (2006)</ref> highlighted the observation that the more similar the ions are, the more pronounced is the mixed alkali effect.</p><p>Fig. <ref type="figure">2</ref>. Comparison of F and Cl diffusion coefficients in Na-and K-phonolitic melts (dry conditions), obtained with only one halogen diffusing and with the mixed halogen glass, for dry conditions. Experimental runs were performed at 1.0 GPa, under dry conditions, between 1250 °C and 1450 °C. The estimated standard deviation is within the symbol size.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.3.">Water content</head><p>Considering the negligible influence of mixed halogens on the anhydrous diffusion measurements, the diffusion coefficients for hydrous compositions were only determined in experiments using the F-Cl-Br mixture. The diffusion coefficients of both K-rich and Na-rich-phonolitic melts for hydrous experiments are compiled in Table <ref type="table">2b</ref>. The addition of water enhances F and Cl diffusivity in both melts studied (Fig. <ref type="figure">4</ref>). However, the effect of water is more significant for Cl than F, in both Na-rich and K-rich melts: at each temperature, the addition of water enhances Cl diffusivity up to one order of magnitude (at 1450 °C, for 5 wt.% H 2 O; Fig. <ref type="figure">4</ref>), whereas for F the increase is only approximately a factor of 2. For F diffusion in the Na-phonolite, the activation energies are ~130 kJ/K/mol at all the experimental conditions, whereas for K-phonolite, with the addition of H 2 O the activation energy for fluorine diffusion is divided in half with respect to its value in the anhydrous melt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.4.">Pressure effect</head><p>In order to investigate the effect of pressure on halogen diffusion, experiments at 0.5 GPa were performed for each halogen and the mixture; the results are in Table <ref type="table">2a</ref>. No significant pressure affect on F and Cl diffusivity was observed in the pressure range investigated for Na-rich-phonolitic melts. No data are calculated for F and Cl diffusion in K-rich-phonolitic melts at 0.5 GPa (one halogen diffusing) due to an error during the preparation of the capsule. Nonetheless, as there is no difference between experiments conducted with the halogen mixture and those with only one halogen diffusing, we may safely infer that there is no pressure effect for Cl (D Cl at 1250 °C ~5 × 10 -12 m 2 /s at 0.5 or 1.0 GPa) and F (D F at 1250 °C ~8.9 × 10 -12 m 2 /s at 0.5 or 1.0 GPa) in the pressure range investigated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Influence of the Na/K ratio: the alkali balance effect</head><p>The presence of alkalies in melts is known to lead to variations in melt properties, such as viscosity <ref type="bibr" target="#b26">(Hess et al., 1995)</ref>, element diffusivity <ref type="bibr" target="#b3">(Altemose, 1973)</ref> and volatile solubility <ref type="bibr" target="#b7">(Borisov et al., 2006)</ref>, because they act as network modifier ions. The aim of this study was to investigate the influence of the alkali content (Na/K ratio) on halogen diffusivity (Fig. <ref type="figure">4</ref>), and we found significant differences between halogen diffusion in the two phonolitic melts.</p><p>In the anhydrous, Na-rich-phonolitic melt, F diffusivity is always higher than Cl diffusivity by approximately one order of magnitude. On the contrary, in the anhydrous, K-rich-phonolitic melt, at low temperature (T b 1300 °C) F and Cl diffusivities are similar, and at higher temperatures (T N 1350 °C) F diffuses only slightly faster than Cl. Fluorine diffusivities in both anhydrous melts are very similar to one another, but Cl diffusion in the K-phonolite is measurably faster than in the Na-phonolite. This behaviour suggests stronger interactions of Cl with Na of the silicate melt, than with K, that slow down Cl diffusion.</p><p>Addition of H 2 O increases both F and Cl diffusivities. The comparison of the different diffusion coefficients obtained for three different H 2 O concentrations (~0, 2 and 5 wt.%) highlights strong differences depending the Na/K ratio of the phonolite melt for Cl, but not for F. Fluorine diffusivity increases with increasing water content whatever the dominant alkali by approximately the same factor of ~0.5 for each weight percent water added (Fig. <ref type="figure">5</ref>). In contrast, Cl diffusivity is sensitive to the Na/K ratio: Cl diffuses faster in Kphonolitic melts at high H 2 O contents (5 wt.%) and high temperatures (1450 °C). The insensitivity of anhydrous and hydrous F diffusion to The errors on the activation energy were calculated using the least square method.  <ref type="table" target="#tab_2">3</ref>).</p><p>the type of dominant alkali in the phonolitic melt suggests that F is not preferentially bonded to a specific alkali, but instead may be replacing oxygen in the melt, as discussed by previous authors (e.g., <ref type="bibr" target="#b40">Rabinovich, 1983;</ref><ref type="bibr" target="#b54">Yamamoto et al., 1983;</ref><ref type="bibr" target="#b42">Schaller et al., 1992)</ref>. However, the significant difference in Cl diffusion between the two phonolitic melts indicates the presence of a strong interaction between Cl -and Na. Based upon experimental data showing the effect of increased amounts of dissolved water on the viscosity of phonolites <ref type="bibr" target="#b53">(Whittington et al., 2001)</ref> and previous results on granitic melts <ref type="bibr" target="#b4">(Bai and Koster Van Groos, 1994)</ref>, we expected that the first 2% of water added to the melts would substantially increase the diffusivity (simultaneously decreasing the viscosity) and that further addition of water would have a smaller effect on diffusion. However, Cl diffusivity is enhanced more at high water concentrations than at low ones. The determination of water speciation in the 79 AD phonolitic melt (Di <ref type="bibr" target="#b14">Muro et al., 2006)</ref>, highlights that up to 2 wt.% concentrations, water is predominantly present as hydroxyl groups, but at higher total water contents, above 4 wt.%, molecular water is significantly more abundant. Thus we explain the high Cl diffusivity in K-rich-phonolitic melts with 5 wt.% of H 2 O by the presence of molecular water. In silica glass, molecular H 2 O and Cl may interact together by a hydrogen bond to form a Cl-molecular water complex <ref type="bibr" target="#b25">(Hepburn and Tomozawa, 2001)</ref>. We propose that a similar Cl-H 2 O complex is formed in our melts, as it occurs in hydrated crystalline phases deduced from MAS NMR investigations <ref type="bibr" target="#b44">(Skibsted et al., 2001)</ref>. Other results suggest that molecular water may bond to K 2 O <ref type="bibr" target="#b39">(Pichavant et al., 1992)</ref>. Possibly an alkali is also involved in the Cl-H 2 O complex. Thus, the highest Cl diffusivity in K-rich-phonolitic melts with 5 wt.% of water may be explained by the formation of a K-Cl complex able to bond with molecular water. We even suggest the possibility that the melt may behave as a two-phase emulsion at the atomic or nanometer scale, composed of a molecular water phase and the silicate melt phase, and that Cl preferentially diffuses in the water phase together with K. We note that spectrosopic data provide no evidence for H 2 O-Cl groups in Na-silicate melts <ref type="bibr" target="#b41">(Sandland et al., 2004)</ref>. However no spectroscopic study to date investigated the structure of Cl-bearing K-silicate melts. The results of this and previous diffusion studies on Cl demand that such spectroscopic studies be performed.</p><p>The addition of H 2 O to silicate melts at low concentrations is generally believed to depolymerise the melt breaking bridging oxygens <ref type="bibr" target="#b37">(Mysen and Richet, 2005)</ref>, facilitating diffusion by lowering the activation energy and increasing the pre-exponential factor (classically associated with jump distance for each diffusive step) in the Arrhenius equation (see Table <ref type="table" target="#tab_2">3</ref>). Thus we would expect that in hydrous melts the activation energy for diffusion is lower than in anhydrous melts. But for Cl diffusion, the activation energy in K-rich hydrous phonolite melts is significantly larger than in anhydrous melts; the activation energy increases by a factor 2 with the addition of 2 or 5 wt.% of water. Similar results were previously found for Cl diffusion in granitic melts <ref type="bibr" target="#b4">(Bai and Koster Van Groos, 1994)</ref> and in basaltic melts <ref type="bibr" target="#b2">(Alletti et al., 2007)</ref>. Addition of water does not seem to change the Cl coordination <ref type="bibr" target="#b41">(Sandland et al., 2004</ref>) but yet makes the activation energy higher. If we equate the activation energy to the energy necessary to make space available in the melt large enough for the anion to diffuse, the increase in the activation energy for Cl diffusion in the presence of 5 wt.% water could also be attributed to the formation of Cl-molecular water complex, discussed above, because this complex is <ref type="bibr" target="#b25">(Hepburn and Tomozawa, 2001</ref>) larger than Cl alone, and so requires more energy to move within the melt structure. But at the same time, Cl diffusivity is enhanced, therefore even though the Cl-molecular water complex needs more energy to move, Cl diffusion is still efficient.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Comparison with H 2 O diffusion</head><p>The diffusivity of H 2 O in a potassic melt (trachytic in composition) and halogens in phonolites (this study) is compared in Fig. <ref type="figure" target="#fig_3">6</ref>. Two weight percent H 2 O displays a one order of magnitude higher diffusivity than either F or Cl in melts containing the same H 2 O content. Thus in a magmatic system with H 2 O, F and Cl, as soon as bubble nucleation starts the early formed bubbles will be H 2 O rich and the difference in volatile diffusivity has the potential to induce kinetic fractionation during magma evolution by bubble nucleation and growth.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Influence of melt composition on halogen diffusion mechanism</head><p>Ion diffusion depends on the radius and charge of the species as demonstrated by <ref type="bibr" target="#b24">Henderson et al. (1985)</ref>. Contrary to what is observed in the one basaltic composition studied <ref type="bibr" target="#b2">(Alletti et al., 2007)</ref>, F and Cl diffusivity in Na-and K-phonolitic melts decrease with increasing ionic radius, which is similar to the diffusion of noble gases (Fig. <ref type="figure" target="#fig_5">7</ref>). This size dependence indicates that the mechanism of F and Cl diffusion in the phonolitic compositions differs from the basaltic composition. Classically, a strong diffusivity dependence on radius signifies that the species diffuse by "vacancy mechanism", i.e. through the free volume of the melt and not by an exchange mechanism <ref type="bibr" target="#b24">(Henderson et al., 1985)</ref>. In the case of the phonolitic melts, as compared to basaltic melts, the higher fraction of bridging oxygens exerts a strong influence on the different size halogens and induces differences in the diffusion coefficients (Table <ref type="table" target="#tab_0">1</ref>).</p><p>The comparison of the evolution of the pre-exponential factor value as a function of the activation energy required for diffusion of F and Cl in Na-and K-phonolite also can be used as an indicator of  <ref type="bibr" target="#b18">(Freda et al., 2003)</ref>. Open circles: Cl, dry conditions. Solid circles: Cl with 2 wt.% H 2 O. Open triangles: F, dry conditions. Solid triangles: F with 2 wt.% H 2 O. different diffusion behaviours <ref type="bibr" target="#b24">(Henderson et al., 1985)</ref>. The correlations for both anions in both melt compositions are almost linear, but the different regression lines for the diffusion of Cl in K-phonolite compared to the others suggest a different diffusion mechanism, as discussed above. Thus, many lines of evidence indicate that Cl has a distinctive diffusion mechanism that depends on the dominant alkali, contrary to F.</p><p>Spectroscopic investigations allow us to investigate the direct environment of F and Cl. Several studies stressed that F is preferentially coordinated with Al, with perhaps some F-Si bonds, but no alkali-F bonds were observed <ref type="bibr" target="#b42">(Schaller et al., 1992;</ref><ref type="bibr" target="#b55">Zeng and Stebbins, 2000;</ref><ref type="bibr" target="#b31">Liu and Nekvasil, 2002;</ref><ref type="bibr" target="#b38">Mysen et al., 2004;</ref><ref type="bibr" target="#b41">Sandland et al., 2004;</ref><ref type="bibr" target="#b27">Kiczenski and Stebbins, 2006)</ref>. As a consequence, the absence of influence of the Na/K ratio on F diffusivity is consistent with these data. Because water affects viscosity, adding water should affect F diffusivity and we would expect that the first few percent should have the biggest affect, and after that the affect should be smaller. The results show a quasi-linear relationship between water concentration and F diffusion with the addition of 2 wt.% and 5 wt.% of H 2 O. However, no significant influence of the dominant alkali cation is visible in the F diffusion results. Spectroscopic studies <ref type="bibr" target="#b42">(Schaller et al., 1992;</ref><ref type="bibr" target="#b55">Zeng and Stebbins, 2000;</ref><ref type="bibr" target="#b31">Liu and Nekvasil, 2002;</ref><ref type="bibr" target="#b38">Mysen et al., 2004;</ref><ref type="bibr" target="#b41">Sandland et al., 2004;</ref><ref type="bibr" target="#b27">Kiczenski and Stebbins, 2006</ref>) also demonstrate that, contrary to what is observed for F, Cl is preferentially coordinated with the alkalies. Thus a significant difference of the Cl diffusivity in Na-and K-phonolitic melts is to be expected and was seen in the diffusion measurements.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Influence of diffusion on volcanic degassing efficiency</head><p>Volcanic eruptions embody one of the most efficient transfer processes of volatile species from the Earth's interior to the atmosphere. H 2 O, SO 2 , CO 2 and halogens (F, Cl) represent the most important volatiles dissolved in magmatic melts. In response to a pressure decrease or to melt composition variations (e.g. through crystallisation, mixing processes, fluid transfers) volatiles may reach saturation and exsolve. At saturation, volatiles form a separate fluid phase, which favours magma ascent, controls eruptive dynamics and modifies atmospheric chemistry. The composition of the gas phase depends on the degassing processes, which are primarily controlled by chemical and physical properties of the magma <ref type="bibr" target="#b50">(Villemant and Boudon, 1999;</ref><ref type="bibr">Gardner et al., 2006a,b)</ref>. Diffusion is of prime importance since after nucleation bubbles can grow by addition of volatile species (dominated by H 2 O, which has the highest diffusivity of all magmatic volatiles and is typically the dominant volatile dissolved in the melt) that diffuse toward bubbles and then partition into the vapour phase. Studying volatile behaviour in magmas during differentiation and degassing is necessary to understand the composition of the vapour phase. In silicic magmas, halogens are of particular interest because they are controlled by their partitioning into the H 2 Orich fluid phase during degassing <ref type="bibr" target="#b28">(Kilinc and Burnham, 1972;</ref><ref type="bibr" target="#b43">Shinohara et al., 1989;</ref><ref type="bibr" target="#b29">Kravchuk and Keppler, 1994;</ref><ref type="bibr" target="#b51">Villemant et al., 2003;</ref><ref type="bibr" target="#b8">Chevychelov et al., 2008;</ref><ref type="bibr" target="#b6">Balcone-Boissard et al., 2008</ref>) and because of their adverse impact on the environment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.1.">Kinetics during degassing processes</head><p>Balcone-Boissard et al. ( <ref type="formula">2008</ref>) studied halogen behaviour during the differentiation and degassing of phonolitic melts in the 79 AD eruption at Vesuvius and highlighted the behaviour of F and Cl compared with H 2 O. The diffusion data measured in this study allow us to investigate the effect of diffusion processes on the volatile content of growing bubbles. To achieve this goal, we used the same model of halogen behaviour during bubble growth as <ref type="bibr" target="#b2">Alletti et al. (2007)</ref>, based on the mathematical development of <ref type="bibr" target="#b46">Smith et al. (1955)</ref>, which is a function of diffusion in the melt, partitioning of the volatile between the melt and the bubble and the growth rate of the bubble (Fig. <ref type="figure" target="#fig_4">8</ref>). The model considers one-dimensional bubble growth, at constant growth rate until the bubble reaches 100 µm in size. This model assumes the bubble growth rate is controlled by rapid diffusion of H 2 O in combination with decompression, as H 2 O is the major volatile component in the 79 AD eruption (CO 2 content is negligible <ref type="bibr" target="#b9">(Cioni, 2000)</ref>. This model assumes no crystallization during bubble  growth and thus fixes the halogen concentration infinite distance from the growing bubble.</p><p>The estimated vesicle growth rate for the 79 AD phonolite during the plinian eruption is between 10 -9 and 10 -8 m/s. We estimated this value considering the data on the evolution of the vesicularity during the 79 AD eruption published by <ref type="bibr" target="#b23">Gurioli et al. (2005)</ref>: the increase of the vesicle size is ~50 µm for the EU2 phase which lasted ~12 h. For a Cl fluid/melt partition coefficient of 20, the apparent partition coefficient is 12 and 5 for growth rates of 10 -9 and 10 -8 m/s respectively. These results indicate that Cl extraction from the melt during rapid bubble growth is significantly diminished by kinetic effects. Because the vapour phase composition depends both on the volatile fluid/melt partition coefficient and the volatile diffusivity in the melt, the first exsolved fluids are Cl-rich. Then, during progressive bubble growth, the Cl concentration in exsolved fluid decreases due to the higher H 2 O diffusivity in K-rich-phonolitic melt (1.05 × 10 -10 m 2 / s at 1300 °C; <ref type="bibr" target="#b18">Freda et al., 2003)</ref> compared to Cl. Because of the slower diffusion of Cl, during rapid bubble growth Cl could not degas at equilibrium whereas H 2 O most probably did. Similar behaviours should be observed for F, but prediction of the relative behaviour of F and Cl is difficult because F has a larger diffusivity and a lower fluid/ melt partition coefficient.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>F and Cl show contrasting diffusivity in phonolitic melts depending upon the temperature, the H 2 O content, and the dominant alkali. Even though both F and Cl display Arrhenian behaviour, the influence of the Na/K ratio and the differing influence of H 2 O on the diffusivity of these two species imply different solubility mechanisms, i.e. different coordinating environments in silicate melts.</p><p>As the composition of the vapour phase is controlled by both the volatile fluid/melt partition coefficient and the volatile diffusivity, this study shows that kinetic effects have the potential to exert a strong control on the composition of the vapour phase.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig.1. Halogen concentration profile obtained for anhydrous K-rich-phonolitic melts. The F and Cl (mixture) diffusion profiles are for a 1200 s experiment, at 1400 °C and 1 GPa. The calculated diffusion coefficients are reported (see Table2).</figDesc><graphic coords="3,145.02,53.18,314.24,151.88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc>Fig.3. Comparison in Arrhenius diagrams of F and Cl diffusion coefficients for anhydrous Na-and K-phonolitic melts enriched in F or Cl or the mixture (F, Cl, Br). The estimated standard deviation is within the symbol size. Experimental runs were performed at 1.0 GPa, under dry conditions, between 1200 °C and 1450 °C. There is a suspicion of experimental problem during the run at 1200 °C. These data have not been taken into account for the Arrhenius parameter calculations (Table3).</figDesc><graphic coords="5,87.87,542.21,428.37,168.61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 4 .Fig. 5 .</head><label>45</label><figDesc>Fig. 4. Measured F and Cl diffusion coefficients in Na-and K-phonolite for dry, 2 wt.% H 2 O and 5 wt.% H 2 O conditions, at 1 GPa (halogen mixture). Notice the influence of the dominant alkali on halogen diffusivity. (a) F diffusion in Na-Phonolite; (b) Cl diffusion in Na-Phonolite; (c) F diffusion in K-Phonolite; (d) Cl diffusion in K-Phonolite.</figDesc><graphic coords="6,58.62,53.18,469.39,382.28" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Comparison of F, Cl and H 2 O diffusion in potassic melts with 2 wt.% H 2 O content in the melt. Open squares: H 2 O diffusion measurements for trachytic melts (Phlegrean fields) with a Na 2 O/K 2 O ~0.5<ref type="bibr" target="#b18">(Freda et al., 2003)</ref>. Open circles: Cl, dry conditions. Solid circles: Cl with 2 wt.% H 2 O. Open triangles: F, dry conditions. Solid triangles: F with 2 wt.% H 2 O.</figDesc><graphic coords="7,81.07,53.18,442.07,177.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Model of variations of Cl contents in bubbles as a function of bubble growth rate. Initial conditions: T = 1250 °C; H 2 O = 5 wt.%; Melt Cl content: 1000 ppm; D Cl = ~2× 10 -11 m 2 /s; K = Cl fluid/melt partition coefficient. For a low K value (K = 2), the fluid phase and the magmatic melt are close to equilibrium (solid line) for any growth rates. For large K value (K = 40), bubble Cl contents strongly depart from the equilibrium value (dashed line) even at low growth rates and the disequilibrium increases with increasing growth rate.</figDesc><graphic coords="8,327.18,562.11,200.87,114.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. F and Cl diffusion coefficients in phonolitic melts at 1350 °C as a function of ionic radiuscomparison with halogen and noble gases diffusion coefficients in basalts. Diffusion coefficients for F (circles) and Cl (diamonds) in phonolitic melts (this work); open circles: anhydrous conditions; grey circles: 2 wt.% of H 2 O; solid circles: 5 wt.% of H 2 O. Diffusion coefficients in basaltic melts: halogen (F, Cl, Br; dotted line with crosses; 1 GPa; Alletti et al., 2007) and noble gases (solid line with diamonds; 1 atm; Lux, 1987).</figDesc><graphic coords="8,90.14,53.18,406.42,156.19" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,79.77,549.81,426.95,169.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Chemical compositions of the starting materials.</figDesc><table><row><cell>wt.%</cell><cell>LS</cell><cell></cell><cell>Ves</cell><cell></cell><cell>LS F-bearing</cell><cell></cell><cell>Ves F-bearing</cell><cell></cell><cell>LS Cl-bearing</cell><cell></cell><cell>Ves Cl-bearing</cell><cell></cell></row><row><cell></cell><cell>Avg (10)</cell><cell>SD</cell><cell>Avg (10)</cell><cell>SD</cell><cell>Avg (10)</cell><cell>SD</cell><cell>Avg (10)</cell><cell>SD</cell><cell>Avg (10)</cell><cell>SD</cell><cell>Avg (10)</cell><cell>SD</cell></row><row><cell>SiO 2</cell><cell>56.68</cell><cell>0.34</cell><cell>55.55</cell><cell>0.39</cell><cell>58.33</cell><cell>1.32</cell><cell>56.10</cell><cell>0.62</cell><cell>59.62</cell><cell>0.63</cell><cell>56.16</cell><cell>0.52</cell></row><row><cell>TiO 2</cell><cell>0.17</cell><cell>0.07</cell><cell>0.25</cell><cell>0.08</cell><cell>0.15</cell><cell>0.03</cell><cell>0.19</cell><cell>0.04</cell><cell>0.15</cell><cell>0.03</cell><cell>0.21</cell><cell>0.05</cell></row><row><cell>Al 2 O 3</cell><cell>22.59</cell><cell>0.22</cell><cell>22.42</cell><cell>0.20</cell><cell>23.26</cell><cell>0.31</cell><cell>22.29</cell><cell>0.37</cell><cell>22.64</cell><cell>0.30</cell><cell>22.42</cell><cell>0.23</cell></row><row><cell>FeO</cell><cell>1.98</cell><cell>0.11</cell><cell>2.35</cell><cell>0.22</cell><cell>1.69</cell><cell>0.10</cell><cell>2.17</cell><cell>0.07</cell><cell>1.44</cell><cell>0.05</cell><cell>2.13</cell><cell>0.06</cell></row><row><cell>MnO</cell><cell>0.51</cell><cell>0.08</cell><cell>0.13</cell><cell>0.11</cell><cell>0.48</cell><cell>0.04</cell><cell>0.11</cell><cell>0.02</cell><cell>0.35</cell><cell>0.03</cell><cell>0.12</cell><cell>0.02</cell></row><row><cell>MgO</cell><cell>0.07</cell><cell>0.02</cell><cell>0.20</cell><cell>0.02</cell><cell>0.07</cell><cell>0.02</cell><cell>0.21</cell><cell>0.02</cell><cell>0.07</cell><cell>0.01</cell><cell>0.21</cell><cell>0.01</cell></row><row><cell>CaO</cell><cell>0.48</cell><cell>0.06</cell><cell>2.56</cell><cell>0.09</cell><cell>0.42</cell><cell>0.02</cell><cell>2.78</cell><cell>0.04</cell><cell>0.43</cell><cell>0.04</cell><cell>2.76</cell><cell>0.06</cell></row><row><cell>Na 2 O</cell><cell>12.66</cell><cell>0.17</cell><cell>6.66</cell><cell>0.07</cell><cell>10.53</cell><cell>2.44</cell><cell>6.26</cell><cell>0.56</cell><cell>11.37</cell><cell>0.10</cell><cell>6.08</cell><cell>0.07</cell></row><row><cell>K 2 O</cell><cell>4.86</cell><cell>0.12</cell><cell>9.89</cell><cell>0.13</cell><cell>5.07</cell><cell>0.71</cell><cell>9.89</cell><cell>0.20</cell><cell>3.95</cell><cell>0.05</cell><cell>9.92</cell><cell>0.13</cell></row><row><cell>Total</cell><cell>100.00</cell><cell></cell><cell>100.00</cell><cell></cell><cell>100.00</cell><cell></cell><cell>100.00</cell><cell></cell><cell>100.00</cell><cell></cell><cell>100.00</cell><cell></cell></row><row><cell>F</cell><cell>0.42</cell><cell>0.02</cell><cell>0.27</cell><cell>0.03</cell><cell>0.90</cell><cell>0.06</cell><cell>0.64</cell><cell>0.02</cell><cell>0.31</cell><cell>0.04</cell><cell>0.24</cell><cell>0.03</cell></row><row><cell>Cl</cell><cell>0.18</cell><cell>0.01</cell><cell>0.33</cell><cell>0.05</cell><cell>0.16</cell><cell>0.01</cell><cell>0.29</cell><cell>0.01</cell><cell>0.87</cell><cell>0.05</cell><cell>0.43</cell><cell>0.02</cell></row><row><cell>Na/ / K</cell><cell>0.2</cell><cell></cell><cell>0.1</cell><cell></cell><cell>0.2</cell><cell></cell><cell>0.1</cell><cell></cell><cell>0.2</cell><cell></cell><cell>0.1</cell><cell></cell></row><row><cell>Si/Al</cell><cell>4.3</cell><cell></cell><cell>4.2</cell><cell></cell><cell>4.3</cell><cell></cell><cell>4.3</cell><cell></cell><cell>4.5</cell><cell></cell><cell>4.3</cell><cell></cell></row><row><cell>Si/O</cell><cell>0.8</cell><cell></cell><cell>0.8</cell><cell></cell><cell>0.8</cell><cell></cell><cell>0.8</cell><cell></cell><cell>0.8</cell><cell></cell><cell>0.8</cell><cell></cell></row><row><cell cols="5">Average of 10 glass analyses by E.P.M.A.; in brackets: number of analyses.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p>SD: Standard deviation in percentage. LS: Laacher See Na-rich phonolite. Ves: Vesuvius K-rich phonolite. The LS and Ves starting materials display very similar Si/Al ratio (~4.3) and Si/O (~0.8) ratio but differ essentially by their alkali ratio, by at least a factor 3. Totals have been normalized to 100% to allow better comparison of the Na/K ratios. The original microprobe totals varied between 97.5 and 100.2%.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Best fit parameters for the Arrhenius equation describing F and Cl diffusion in Na-and K-phonolitic melts.</figDesc><table><row><cell>Na-rich-phonolitic melt</cell><cell>D 0 (m 2 s -1 )</cell><cell>Ea (kJ mol -1 )</cell><cell>% H 2 O</cell><cell>K-rich-phonolitic melt</cell><cell>D 0 (m 2 s -1 )</cell><cell>Ea (kJ mol -1 )</cell><cell>% H 2 O</cell></row><row><cell>F anhydrous melt</cell><cell>1.2 × 10 -6</cell><cell>133.2 ± 14.8</cell><cell>0</cell><cell>F anhydrous melt</cell><cell>3.4 × 10 -5</cell><cell>215 ± 29.5</cell><cell>0</cell></row><row><cell>F-mixture anhydrous melt</cell><cell>5.8 × 10 -7</cell><cell>148.9 ± 36.1</cell><cell>0</cell><cell>F-mixture anhydrous melt</cell><cell>6.4 × 10 -4</cell><cell>230.8 ± 46.5</cell><cell>0</cell></row><row><cell>F hydrous melt (2 wt.%)</cell><cell>5.5 × 10 -7</cell><cell>122.3 ± 42.7</cell><cell>2</cell><cell>F hydrous melt (2 wt.%)</cell><cell>4.5 × 10 -8</cell><cell>94.3 ± 32.1</cell><cell>2</cell></row><row><cell>F hydrous melt (5 wt.%)</cell><cell>2.2 × 10 -6</cell><cell>134.1 ± 45.3</cell><cell>5</cell><cell>F hydrous melt (5 wt.%)</cell><cell>3.5 × 10 -7</cell><cell>108.9 ± 36.6</cell><cell>5</cell></row><row><cell>Cl anhydrous melt</cell><cell>4.7 × 10 -5</cell><cell>215.7 ± 54.4</cell><cell>0</cell><cell>Cl anhydrous melt</cell><cell>2.3 × 10 -8</cell><cell>164 ± 33.1</cell><cell>0</cell></row><row><cell>Cl-mixture anhydrous melt</cell><cell>3.8 × 10 -6</cell><cell>217.6 ± 38.3</cell><cell>0</cell><cell>Cl-mixture anhydrous melt</cell><cell>2.4 × 10 -6</cell><cell>169.1 ± 35.5</cell><cell>0</cell></row><row><cell>Cl hydrous melt (2 wt.%)</cell><cell>1.3 × 10 -6</cell><cell>148.4 ± 53.8</cell><cell>2</cell><cell>Cl hydrous melt (2 wt.%)</cell><cell>6.7 × 10 -1</cell><cell>330.3 ± 111.2</cell><cell>2</cell></row><row><cell>Cl hydrous melt (5 wt.%)</cell><cell>2.3 × 10 -5</cell><cell>178.3 ± 63.3</cell><cell>5</cell><cell>Cl hydrous melt (5 wt.%)</cell><cell>5.8 × 10 -1</cell><cell>306.7 ± 103</cell><cell>5</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>H. Balcone-Boissard et al. / Chemical Geology 263 (2009) 89-98</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We are grateful to <rs type="person">G. Wörner</rs> for providing the Laacher See starting material, <rs type="person">Lang Shi</rs> for microprobe measurements in Montreal and <rs type="person">M. Fialin</rs> and <rs type="person">F. Couffignal in Paris. Ravi Kalsi</rs> is thanked for writing the computer program to reduce the data and calculate the diffusion coefficient IPGP contribution: 2364; Geotop contribution: <rs type="grantNumber">2008-0029</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_wf9VF9P">
+					<idno type="grant-number">2008-0029</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Plume chemistry provides insights into mechanisms of sulfur and halogen degassing in basaltic volcanoes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aiuppa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Federico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Giudice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gurrieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paonita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Valenza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">222</biblScope>
+			<biblScope unit="page" from="469" to="483" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Emission of bromine and iodine from Mount Etna volcano</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aiuppa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Federico</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Franco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Giudice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gurrieri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Inguaggiato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liuzzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J S</forename><surname>Mcgonigle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Valenza</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochem. Geophys. Geosystem</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Halogen diffusion in a basaltic melt</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Freda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="3570" to="3580" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Effect of alkali oxides on the diffusion of helium in a simple borosilicate glass</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">O</forename><surname>Altemose</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Ceram. Soc</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Diffusion of chlorine in granitic melts</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Koster Van Groos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="113" to="123" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Piston-cylinder calibration at 400 to 500 MPa: a comparison of using water solubility in albite melt and NaCl melting</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="1553" to="1556" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Non-volatile vs. volatile behaviours of halogens during the AD 79 plinian eruption of Mt</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Balcone-Boissard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Villemant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Boudon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Michel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vesuvius, Italy. Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">269</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="66" to="79" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The effect of sodium on the solubilities of metals in silicate melts</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Borisov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lahaye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Palme</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">256</biblScope>
+			<biblScope unit="page" from="171" to="183" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Partitioning of Cl and F between fluid and hydrous phonolitic melt of Mt. Vesuvius at ~850-1000 °C and 200 MPa</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">U</forename><surname>Chevychelov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Botcharnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Holtz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.chemgeo.2008.06.025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Volatile content and degassing processes in the AD 79 magma chamber at Vesuvius (Italy)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cioni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="40" to="54" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Les inclusions vitreuses des cristaux de quartz. Etude thermooptique et chimique. Applications géologiques</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Clocchiatti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mém. Soc. Géol. Fr</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page">96</biblScope>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<title level="m">The Mathematics of Diffusion</title>
+		<meeting><address><addrLine>Clarendon-Oxford, London</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Mixed alkali glasses -their properties and uses</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Day</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Non-Cryst. Solids</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="343" to="372" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Comparison of microanalytical methods for estimating H 2 O contents of silicic volcanic glasses</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Devine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Gardner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="319" to="328" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Quantification of water content and speciation in natural silicic glasses (phonolite, dacite, rhyolite) by confocal microRaman spectrometry</title>
+		<author>
+			<persName><forename type="first">Di</forename><surname>Muro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Villemant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Montagnac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Scaillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Reynard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="2868" to="2884" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Chemical diffusion of fluorine in jadeite melt at high pressure</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="2517" to="2525" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Chemical diffusion of fluorine in melts in the system Na 2 O-Al 2 O 3 -SiO 2</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="377" to="384" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Changes in gas composition prior to a minor explosive eruption at Masaya volcano, Nicaragua</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Duffell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Oppenheimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Pyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Galle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J S</forename><surname>Mcgonigle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Burton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Volcanol. Geotherm. Res</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="327" to="339" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Water Diffusion in Natural Potassic Melts</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Freda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Romano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Scarlato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geological society</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="page" from="53" to="62" />
+			<date type="published" when="2003">2003</date>
+			<publisher>Special Publications</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Experimental and model constraints on degassing of magma during ascent and eruption</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Burgisser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rutherford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Neogene-Quaternary Continental Margin Volcanism: A Perspective from Mexico</title>
+		<title level="s">Penrose Conf. Series</title>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Siebe</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Macias</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Aguirre-Diaz</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Geol. Soc. Amer. Spec. Paper</publisher>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="volume">402</biblScope>
+			<biblScope unit="page" from="99" to="113" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Experimental and model constraints on degassing of magma during ascent and eruption</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Burgisser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rutherford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geol. Soc. Amer. Bull</title>
+		<imprint>
+			<biblScope unit="volume">402</biblScope>
+			<biblScope unit="page" from="99" to="114" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Volcanic sources of tropospheric ozone-depleting trace gases</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Gerlach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochem. Geophys. Geosyst</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">9007</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The viscosity of trachytes, and comparison with basalts, phonolites, and rhyolites</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Giordano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Romano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Papale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="page" from="49" to="61" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Complex changes in eruption dynamics during the 79 AD eruption of Vesuvius</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gurioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">F</forename><surname>Houghton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Cashman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cioni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Volcanol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="144" to="159" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Structural controls and mechanisms of diffusion in natural silicate melts</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Lowry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="263" to="272" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Diffusion of water in silica glasses containing different amounts of chlorine</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Hepburn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tomozawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Non-Cryst. Solids</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="page" from="162" to="170" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The influence of excess alkalis on the viscosity of a haplogranitic melt</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">U</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Webb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="297" to="304" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The effect of fictive temperature on the structural environment of fluorine in silicate and aluminosilicate glasses</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Kiczenski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Ceram. Soc</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="57" to="64" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Partitioning of chloride between a silicate melt and coexisting aqueous phase from 2 to 8 kilobars</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Kilinc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Econ. Geol</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="231" to="235" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Distribution of chloride between aqueous fluids and felsic melts at 2 kbar and 800 °C</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">F</forename><surname>Kravchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Keppler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="913" to="923" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Heterogeneous bubble nucleation and disequilibrium H 2 O exsolution in Vesuvius K-phonolite melts</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Larsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Volcanol. Geotherm. Res</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="278" to="288" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Si-F bonding in aluminosilicate glasses: inferences from ab initio NMR calculations</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nekvasil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="339" to="346" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The behavior of noble gases in silicate liquids: solution, diffusion, bubbles and surface effects, with applications to natural samples</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1549" to="1560" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Ion diffusion and mechanical losses in mixed alkali glasses</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Maass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peibst</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Non-Cryst. Solids</title>
+		<imprint>
+			<biblScope unit="volume">352</biblScope>
+			<biblScope unit="page" from="5178" to="5187" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Ion transport anomalies in glasses</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Maass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bunde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Ingram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="3064" to="3067" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Equilibrium and disequilibrium degassing of a phonolitic melt (Vesuvius AD 79 &quot;white pumice&quot;) simulated by decompression experiments</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Marziano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dolfi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Volcanol. Geotherm. Res</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="151" to="164" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">CO 2 in haplo-phonolite melt: solubility, speciation and carbonate complexation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Morizet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Brooker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Kohn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1809" to="1820" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Silicate Glasses and Melts</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Richet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Developments in Geochemistry</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2005">2005</date>
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Solubility mechanisms of fluorine in peralkaline and meta-aluminous silicate glasses and in melts to magmatic temperatures</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Cody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2745" to="2769" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Phase relations and compositional dependence of H 2 O solubility in quartz-feldspar melts</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pichavant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Holtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="303" to="319" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">On the structural role of fluorine in silicate glasses</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Rabinovich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Glasses</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="54" to="56" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Structure of Cl-containing silicate and aluminosilicate glasses: a 35 Cl MAS-NMR study</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">O</forename><surname>Sandland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Webster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="5059" to="5069" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Fluorine in silicate glasses: a multinuclear nuclear magnetic resonance study</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schaller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Keppler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Knöller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Merwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sebald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="701" to="707" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Partition of chlorine compounds between silicate melt and hydrothermal solutions</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shinohara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Iiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Matsuo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="2617" to="2630" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Skibsted</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jakobsen</surname></persName>
+		</author>
+		<title level="m">High-field 35 Cl NMR investigation of chloride ions in inorganic solids: a variable-temperature 27 Al</title>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page">35</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Cl MAS NMR study of the phase transition in Friedel&apos;s salt (Ca 2 Al(OH) 6 Cl•2H 2 O. 43rd Rocky Mountain Conference of Analytical Chemistry, Abstracts</title>
+		<imprint>
+			<publisher>American Chemical Society</publisher>
+			<biblScope unit="page">120</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A mathematical analysis of solute redistribution during solidification</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Tiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Rutter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can. J. Phys</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="723" to="744" />
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Mixed alkali in glasses</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Swenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Adams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Contribution of Cl-and F-bearing gases to the atmosphere by volcanoes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Symonds</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Reed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">334</biblScope>
+			<biblScope unit="issue">n°6181</biblScope>
+			<biblScope unit="page" from="415" to="418" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The mixed alkali effect and thermodynamic state of glasses</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tomozawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Solid State Ionics</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="249" to="255" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">H 2 O and halogen (F, Cl, Br) behaviour during shallow magma degassing processes</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Villemant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Boudon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page" from="271" to="286" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Water and halogens in volcanic clasts: tracers of degassing processes during plinian and dome-building eruptions</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Villemant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Boudon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nougrigat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Poteaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Michel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<publisher>Geol. Soc. London, Spec. Publ</publisher>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="page" from="63" to="79" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Diffusion of dissolved CO 2 and Cl in hydrous silicic to intermediate magmas</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1897" to="1902" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">The viscosity of hydrous phonolites and trachytes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Whittington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Richet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Linard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Holtz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="209" to="223" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Raman scattering of SiF 4 molecules in amorphous fluorinated silicon</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakanishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kasahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Abe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Non-Cryst. Solids</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="213" to="216" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Fluoride sites in aluminosilicate glasses: high-resolution 19</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F Nmr</forename><surname>Results</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="863" to="867" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

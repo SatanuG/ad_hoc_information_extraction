@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Actinide diffusion in a haplogranitic melt: Effects of temperature, water content, and pressure</title>
+				<funder ref="#_ECkMw5H">
+					<orgName type="full">Deutsche Forschungsgemeinschaft</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">NSERC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Mungall</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Bayerisches Geoinstitut</orgName>
+								<orgName type="institution" key="instit2">UniversitBt Bayreuth</orgName>
+								<address>
+									<postCode>D-95440</postCode>
+									<settlement>Bayreuth</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Bayerisches Geoinstitut</orgName>
+								<orgName type="institution" key="instit2">UniversitBt Bayreuth</orgName>
+								<address>
+									<postCode>D-95440</postCode>
+									<settlement>Bayreuth</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Actinide diffusion in a haplogranitic melt: Effects of temperature, water content, and pressure</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2FB8BBEC966FBAFC65C0434F36014DDF</idno>
+					<note type="submission">Received May 9, 1996; accepted in revised form February 11, 1997</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We have measured diffusion coefficients of U (Du) and Th (&amp;,) in melts of haplogranitic composition containing &lt; 1000 ppm each of U and Th, at pressures ranging from 0.1 MPa to 3.5 GPa and temperatures ranging from 1000°C to 1600°C. The values of Du and DTh in anhydrous haplogranitic melt at 0.1 MPa can be described by the following Arrhenius equations:</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION An understanding</head><p>of the rates and mechanisms of U and Th diffusion in silicate melts and glasses is necessary to fully understand such diverse aspects of actinide chemistry as U-Th decay series disequilibria (e.g., <ref type="bibr" target="#b43">Spiegelman and Elliott, 1993</ref>)) melt-crystal partitioning <ref type="bibr" target="#b17">(Ghiorso, 1987)</ref>, and production and weathering of nuclear waste glasses <ref type="bibr" target="#b32">(Matzke, 1980;</ref><ref type="bibr">Schreiber et al., 198.5;</ref><ref type="bibr" target="#b13">Dunn, 1987)</ref>. Uranium diffusivities have been determined by the infinite couple technique in anhydrous borosilicate nuclear waste glasses by <ref type="bibr" target="#b13">Dunn ( 1987)</ref>) who found that Du was Arrhenian between 400 and 800°C with an activation energy of approximately 300 KJ mol -I. <ref type="bibr" target="#b32">Matzke ( 1980)</ref> reported an activation energy of only 70 KJ mol -' in borosilicate glasses with much higher Na20 contents and lower Si02 contents than those investigated by <ref type="bibr" target="#b13">Dunn ( 1987)</ref>, who attributed the difference in activation energy of diffusion to the presence of a much higher fugacity of oxygen in his own experiments, leading to the formation of U6+ in his experiments, rather than Us' and U4+ in those of <ref type="bibr" target="#b32">Matzke ( 1980)</ref>.</p><p>Dissolved water is known to enhance diffusion of high field strength elements in silicate melts (e.g., <ref type="bibr" target="#b46">Watson, 1994)</ref>. Water is abundant in natural silicate melts, and both synthetic * Author to whom correspondence should be addressed. and natural glasses are commonly extensively hydrated <ref type="bibr" target="#b40">(Vaniman et al., 1993;</ref><ref type="bibr" target="#b34">Mungall and Martin, 1994)</ref>. We have, therefore, investigated the rates of U and Th chemical diffusion at the &lt; 1000 ppm level in a synthetic haplogranitic melt, over the temperature range lOOO-16OO"C, at pressures between 0.1 MPa and 3.5 GPa, and with water contents ranging from 200 ppm to 5.05 wt%.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">EXPERIMENTAL METHODS</head><p>We chose to use infinite couple diffusion anneals to measure diffusion coefficients in the present study because they are simple to perform and allow a routine extraction of diffusion coefficients from microprobe analyses of the run products. Starting materials were bubble-free, homogeneous glasses, containing 79.10% SiOz. 12.07% AIZOX, 4.60% NalO, and 4.23% K20 by weight (nominal). These were prepared by fusing 100 g mixtures of oxide and carbonate powders for 2 h in a Pt crucible at 1600°C to produce a bubble-rich mass of melt and some undissolved crystals. This material was stirred for several days with a Pt spindle, at 1600°C. and subsequently cooled in air. Preparation in this manner ensures that the highly viscous melt is homogeneous to at least the precision of electron microprobe analysis, and that large portions entirely free of bubbles and crystals can be cored or cut and prepared for experiments. The doped glass was prepared in exactly the same manner as the clean glass, except that the oxide mixes had added to them 0.212 wt% of UOz(N03)46HZ0 and 0.238 wt% of Th(NO,),4H,O to give 0.1 wt% each of U and Th in the melt.</p><p>For one-atmosphere anhydrous experiments, the glass was cored with a hollow diamond bit and sliced into 8 mm-diameter discs 2 mm thick with polished ends. Diffusion couples were made by juxtaposing the two glasses in an open-topped 8 mm Pt cylinder with a Pt foil base. Couples were placed in a box furnace with MoSi, heating elements for durations ranging from several hours to several days and quenched by removing from the furnace and cooling in air. Temperature was controlled in these experiments by a microprocessor-based temperature controller, with a type S thermocouple. Thermal gradients within the furnace were measured by moving a thermocouple junction around the inside of the furnace and confirmed that the measured temperatures were accurate to within 3°C.</p><p>For high pressure experiments the clean glass was ground finer than 50 p,rn and tamped into 5 mm Pt cylinders with cylindrical bases. In water-bearing runs, double-distilled water was added to give 4.8 wt% water, after which doped glass powder was poured in, tamped, and the cylinder was welded shut with either a flat crimp or another cylindrical closure. Nominally dry, high pressure experiments were prepared in the same manner but without the addition of water; as we will discuss in a later section, these experiments were later observed to contain approximately 0.3 wt% water. A single additional experiment was conducted using 3 mm diameter glass cylinders with polished ends, enclosed in Pt tubing with a 0.1 mm wall thickness within reagent grade Fe207 which reacts to achieve oxygen buffering at high P and T. The 3 mm capsule and buffer were placed inside a second cylindrical Pt capsule 5 mm in diameter, also welded shut.</p><p>The high pressure experiments were conducted in a '// end-loaded piston-cylinder apparatus with an alumina pressure medium inside a tapered graphite furnace (cf. <ref type="bibr" target="#b24">Kushiro, 1976)</ref>. The outer assembly consisted of a Pyrex cylinder and a talc outer sleeve, surrounded by lead foil to reduce friction. Experiments were conducted with the hot piston-in technique, using a laboratory standard friction correction of 20% calibrated by several previous phase equilibria studies <ref type="bibr">(A. Woodland and V. Von Seckendorf, unpubl. data)</ref>. The pressure correction is known to be imprecise and both time and temperature dependent for talc/Pyrex assemblies. Pressure variations were found to have a small effect on diffusivities compared with the other parameters varied in this study, so that a relatively large uncertainty in the friction correction would have negligible effects on measured diffusivities (see discussion of pressure effects, below). One experiment, at a corrected pressure of 3.5 GPa, was conducted in a '/Z" talc-Pyrex assembly. Temperatures were monitored and controlled through a Type S Pt/Pt-Rh thermocouple suspended in the alumina pressure medium less than one millimetre above the centre of the charge, without any correction for pressure on the emf of the thermocouple junction. Runs were ramped to run temperature at a rate of either 200 or 400 K min-'. Experiments were heated through the final 10" ramp over a period of about one minute to prevent overshoot of the desired run temperature. Runs were quenched by turning off the furnace, giving cooling rates of approximately 200 K s-'</p><p>Because of the great length of some of the capsules (up to 11 mm), we were concerned about the possibility of large thermal gradients within our diffusion couples. We, therefore, measured the thermal gradients with a three-junction thermocouple within a blank experimental assembly. One junction was at either end of the Pt capsule, and one lay in the middle. The lower end was consistently about 15" cooler than the upper, so that the total uncertainty in the measured temperature is about 15". The shallowness of the thermal gradient over this very large distance is due to the tapered form of the graphite heater, which concentrates heating power at the ends of the assembly.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">ANALYTICAL METHODS</head><p>Run products from all experiments were sectioned perpendicular to the interface with a diamond saw and polished with 1 pm diamond grit. Compositional variation across the couples was measured by wavelength-dispersive analysis using a Cameca SX50 electron microprobe. Beam conditions varied, but best results were obtained with a 30 kV accelerating voltage, 40 nA probe current, and a 5 pm beam. Spectra were counted for 90 s on each spot, along traverses typically several hundred microns long with point spacings of 4 or 10 pm. If the flat extremes of the diffusion profile were not at least 500 pm wide the experiment was discarded. Because there is no measurable variation in the matrix composition through the couple, data were collected and processed as raw X-ray counts.</p><p>Water concentrations in products of the high pressure experiments were measured on 1 mm thick doubly polished sections by Fourier Transform Infra-Red (FT'IR) absorption analysis, using absorptivities from <ref type="bibr">Behrens and Nowak (1995)</ref>. Multiple analyses of water content in a single charge that was quenched immediately after reaching run conditions showed that the water, initially introduced as liquid between the glass grains, had fully homogenized throughout the charge.</p><p>The FT optical spectrometer was employed in the visible light range to characterize the oxidation state of U in those high-pressure experiments which were conducted with unbuffered oxygen fugacities. Two blanks were made up, consisting of the base glass composition doped with 1.9% U as the uranyl nitrate. The blanks were run with 4.8% added water at 1200°C and 1600°C at 1.0 GPa for 18 hours in the same manner as the diffusion anneals. One mm thick doubly polished sections of the products of these two experiments were prepared from quenched glasses.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">DATA REDUCTION</head><p>Diffusion in multicomponent one-phase media with concentration gradients in only one direction may be described by the generalized Fick's equation where Ji and Ci are, respectively, the flux and the concentration of the component i, D, are elements of a matrix of diffusion coefficients, and x is the space coordinate (e.g., <ref type="bibr" target="#b19">Haase, 1969)</ref>. <ref type="bibr" target="#b9">Cooper ( 1968)</ref> introduced the concept of the Effective Binary Diffusion Coefficient, in which the terms on the right-hand side of Eqn. 1 are expressed as a single coefficient multiplying the gradient in concentration of component i. In the case where concentration gradients of all species but the one of interest are kept very small, the EBDC for that element approximates to its diagonal element D,. Although the D, are functions of composition they can be considered to be constant over small compositional ranges. In this case, Eqn. 1 can be simplified to the classic form of Fick's first law for a binary system, and solved for Ci,(x,,)r for a couple which extends to infinity on either side of a planar interface, leading to</p><formula xml:id="formula_0">G,(x,ij = L (+4.se, x 2 ( &gt; J4D,t<label>(2)</label></formula><p>where D, is the EBDC for element i (approximately equal to Dii), AC, is the total change in concentration of component i across the couple, Cp is the concentration at the interface (equal to the arithmetic average of C, on either side of the interface before annealing begins), x is the space coordinate, equal to zero at the interface, and t is time from the beginning of the anneal <ref type="bibr" target="#b8">(Crank, 1975)</ref>.</p><p>Diffusion coefficients Di may be estimated by comparing Eqn. 2 with experimental data in two ways. It may be used as a model function, in which Di is varied so as to minimize a merit function such as Chi* <ref type="bibr" target="#b44">(Trial and Spera, 1994)</ref>. Alternatively, the error function may be linearized <ref type="bibr">(Zelen and Severo, 1972;</ref><ref type="bibr">Q function)</ref>, and observed values of erf ' (C, ) can be plotted against xl(2t) I". The slope of this graph is the inverse of the square root of Di. We have chosen the to have contained only U6+, because they were conducted in air (e.g., <ref type="bibr" target="#b16">Farges et al., 1992)</ref>. As noted above, we determined the oxidation state of U in two high pressure experiments by FTVis spectroscopy of the quenched glasses. Optical absorption spectra between wavenumber 9000 and 25000 cm-' are presented in Fig. <ref type="figure">1</ref>. By comparison with similar spectra of <ref type="bibr" target="#b16">Farges et al. ( 1992)</ref>, we can assign all of the observed absorbance peaks to U6+, Us', and U4+ in both cases. The sample equilibrated at and quenched from 1200°C shows only those peaks assigned to U6+ by <ref type="bibr" target="#b16">Farges et al. ( 1992)</ref>, whereas the sample similarly equilibrated at 1600°C shows a combination of Us+ and U4+, dominated by the latter. It is evident that at 1600°C the melt was able to exchange hydrogen with its surroundings rapidly enough to have equilibrated with the intrinsic oxygen fugacity of the piston-cylinder assembly. It appears from the results summarized in Fig. <ref type="figure">1</ref> that most or all of our high pressure experiments remained at sufficiently high oxygen fugacities to retain U dominantly in its hexavalent state. It is possible that some reduction occurred in the experiments at 140(X, but we are unfortunately unable to test further this possibility. The product of run JMPC90 has been shown through analysis of its water content to have remained isolated from the water in the surrounding assembly. In light of the consistency of the data for this run and for the other experiments at different water contents, and in light of the parallel between the results for U and those for Th, which is known not to have undergone any change in oxidation state, it is unlikely that any change in the oxidation state of U occurred in our experiments. The alternative would be that changes in the oxidation state of U have no discernable effect on its transport in haplogranitic melts (see also LaTourrette and Wasserburg, 1997 ) (J4) is shown in Fig. <ref type="figure" target="#fig_0">2</ref>. The noisy appearance of the profile results from the low concentration of Th. The assumption that D, showed no compositional dependence is supported by the symmetry of all measured profiles. In Fig. <ref type="figure" target="#fig_0">2</ref> we have also plotted the solution to Eqn. 2 for the value of DTh obtained from the inverse error function analysis. The forms of the model functions corresponding to the upper and lower error bounds (80% confidence interval) stated in Fig. <ref type="figure" target="#fig_0">2</ref> are also plotted for comparison.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.">Diffusion Profiles</head><p>The run conditions and results of all the experiments are summarized in Table <ref type="table">1</ref>. The result of a typical experiment 20000 15000 wavenumber (cm" )</p><p>Fig. <ref type="figure">1</ref>. Optical absorption spectra of U-rich glasses quenched from 1600°C and 1200°C after 18 h equilibration. The vertical lines, identified in the legend, indicate the locations of absorption lines attributed to U6+, U5+, and U4+ <ref type="bibr" target="#b16">(Farges et al., 1992)</ref>. The experiment conducted at 1200°C has remained fully oxidized, showing lines characteristic only of U6+, whereas the U in the higher temperature run has evidently undergone a large amount of reduction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4.">Reproducibility and Precision of the Data</head><p>We report 50% and 80% confidence intervals for all of our measured diffusion coefficients in Table <ref type="table">1</ref>. These were estimated using the Student's t statistic on the linear regression fit parameters <ref type="bibr">(Shapiro, 1990)</ref> and are an indication of the uncertainty that results from counting statistics on the electron microprobe. In all figures we show the 80% confidence interval as an error bar.</p><p>The reproducibility of our experiments can be assessed in two ways. We have performed two experiments of different durations on the dry melt at 16OO"C, 0.1 MPa, which are reported in Table <ref type="table">1</ref> and in Fig. <ref type="figure" target="#fig_1">3</ref>. The diffusion coefficients of both U and Th are well within the error bars estimated from the fit statistics, and we take this result to indicate that convection or other potential difficulties have not affected our experimental results. <ref type="bibr" target="#b7">Chakraborty et al. (1995)</ref> employed the same experimental technique as we did and came to the same conclusions regarding reproducibility following several time-series experiments. In our high-pressure experiments we did not succeed in performing any two experiments with precisely the same water content, so that we cannot show a time series at a single set of experimental conditions. However, we have related our diffusivities to the viscosity through the Eyring equation (discussion below, see Figs. water contents the diffusivities of both elements show Arrhenian temperature dependence, with an activation energy visibly different from that of viscous flow (dashed lines). At higher water contents diffusivities of both elements can be predicted with the Eyring relation between diffusivity and viscosity, indicating that the activation energy for actinide diffusion in these melts is identical with that for viscous flow.</p><p>5), and we see that they deviate very little from the model equation. The regularity of the data with respect to a normalizing function such as the Eyring equation can be interpreted in much the same way as a regularity with respect to the single variable of time which is employed in a normal time series analysis of reproducibility, and we infer that our measured diffusion coefficients have not been adversely affected by errors or artifacts such as convective flow.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.5.">Temperature Dependence of Du and DTh</head><p>Chemical diffusivities are widely reported to obey an exponential dependence on reciprocal temperature, a type of relation referred to as Arrhenian <ref type="bibr" target="#b18">(Glasstone et al., 1941)</ref></p><formula xml:id="formula_1">:</formula><p>where R is the ideal gas constant, T is absolute temperature, and Do is a pre-exponential constant. The success of the Arrhenian type of relation is accounted for quantitatively by rate theory through the supposition that each diffusive step requires an ion vibrating within a stable potential energy well in a melt structure to acquire sufficient thermal energy to rise over a potential energy barrier, to move to an adjacent stable site in the structure (e.g., <ref type="bibr" target="#b18">Glasstone et al., 1941)</ref>.</p><p>The variations of Du and DTh with temperature are shown in Fig. <ref type="figure" target="#fig_1">3</ref> for experiments conducted at 0.1 GPa (dry) and at 1.0 GPa (4.7-5.1% H20). The diffusivities of the two elements overlap, within experimental error, but Dn where R is the ideal gas constant and T is absolute temperature in K.</p><p>Du and DTh measured in products of water-rich experiments at 1 GPa are almost equal in each case. We have not fit an Arrhenius relation to the high pressure data because of the scatter in water contents observed in these runs, since variations in water content and temperature affect diffusivities to a similar degree over the range of conditions explored by this study. We return to the question of quantitative prediction of Du and Dn in water-rich melts in a later section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.6.">Pressure Dependence of Du and DTh</head><p>The effects of pressure on chemical diffusivities can be considered in the same context as those of temperature. The total energy of activation may be decomposed into two parts,</p><formula xml:id="formula_2">D, = D,exp(s) exp(g) (<label>6</label></formula><formula xml:id="formula_3">)</formula><p>where E0 is the activation energy at zero pressure and Vis the activation volume. Activation volumes can be rationalized as the additional volume required to create the transition state complex which lies at the top of the potential energy barrier.</p><p>Negative activation volumes imply that the formation of the transition state for a diffusive step involves a local reduction in melt volume, leading to an enhancement of diffusion by high pressures.</p><p>The effects of pressure on diffusivities of U and Th at 1400°C and two different water contents are summarized in of both elements clearly increase with increasing pressure, mimicking the increase in network-former diffusivity inferred from application of the Eyring equation to data for viscosity of albite melt, shown with a dashed line <ref type="bibr" target="#b25">(Kushiro, 1978)</ref>. The offset between the two trends connecting data for each element below and above 1 GPa results from the presence of approximately 0.3 wt% Hz0 in the higher pressure experiments.</p><p>there are another set of values, derived from experiments containing approximately 0.4 wt% Hz0 at pressures of 1.0, 1.9, and 3.5 GPa, which show an offset to higher values due to the effect of the added water. If we correct for the increase in diffusivity due to additional water by multiplying all of the data for water-bearing experiments by the ratio between the diffusivities measured in dry and water-bearing runs at 1.0 GPa, we can combine the two datasets to derive activation volumes for Du and &amp;.</p><p>Implicit in this approach is the assumption that the activation volume for diffusion is not affected by the addition of small amounts of water. Inspection of the slopes of log (D) vs. P of the relevant line segments in Fig. <ref type="figure">4</ref> indicates that within the large error associated with our estimate of activation volume, this assumption is warranted. Diffusivities of both elements show a marked increase with increasing pressure and can be described with the following expressions, where P is pressure in Pa and 0: is the zero pressure diffusivity at a given temperature and water content. The two activation volumes are equal within error.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.7.">Effect of Water Content</head><p>The effect of water in enhancing transport processes in highly polymerized melts is well known from numerous other studies (e.g., <ref type="bibr" target="#b41">Shaw, 1972;</ref><ref type="bibr" target="#b27">Lange, 1994;</ref><ref type="bibr">Watson, 1994 and references therein)</ref>.</p><p>In Fig. <ref type="figure" target="#fig_6">5</ref> we present U and Th diffusivities as a function of total water content for experiments at 1400°C. Water has a drastic effect on diffusivities which is particularly pronounced at lower water concentrations. The addition of the first 1.0 wt% of water to a dry melt increases actinide diffusivities by approximately one order of magnitude. Addition of a further 4.0 wt% of water water content (wt %) increases the diffusivities by more than one more order of magnitude, so that the transport of actinides proceeds approximately five hundred times faster in granitic melts containing about 5% water than in dry melts of the same anhydrous bulk composition.</p><p>We explore a quantitative description of this effect in the following section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.8.">Relation of Diffusivities to Viscosity</head><p>Many attempts have been made to relate diffusivity to viscosity in liquids. One approach has been to consider the Brownian motion of large particles in a viscous continuum (e.g., <ref type="bibr" target="#b2">Batchelor, 1976</ref><ref type="bibr" target="#b3">Batchelor, , 1983;;</ref><ref type="bibr">Beenakker and Mazur, 1983)</ref>, leading to equations resembling the Stokes-Einstein equation</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D=kT 6rrq</head><p>where r is the radius of the diffusing particle and q is the viscosity of the liquid. The treatment of the liquid as a continuum is problematic when the size of the diffusing particle is comparable with the size of the molecular components of the liquid, and the success of the Stokes-Einstein equation must in many cases be fortuitous. Another approach, based on rate theory, was proposed by <ref type="bibr" target="#b18">Glasstone et al. (1941)</ref> and is known as the Eyring equation</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(IO)</head><p>where h is a lengthscale taken to represent the distance travelled by a liquid molecule during a diffusive jump or a viscous flow event. This equation is only appropriate for describing the self-diffusion of the structural units of the melt. When the Eyring equation is applied to network formers and some high-field strength network-modifiers in silicate melts, it is generally quite successful (e.g., <ref type="bibr" target="#b1">Baker, 1992;</ref><ref type="bibr" target="#b30">Lesher et al., 1996)</ref> but it does not describe the diffusion of network modifiers under many circumstances <ref type="bibr">(Hofman, 1980;</ref><ref type="bibr" target="#b11">Dingwell, 1990)</ref>. Because the Stokes-Einstein and Eyring equations have nearly identical forms they have tended to be used interchangeably, but we favor the Eyring equation for cation diffusion in silicate melts because of its firmer theoretical basis.</p><p>In each of Figs. <ref type="figure" target="#fig_0">2,</ref><ref type="figure" target="#fig_1">3</ref>, and 5 we have indicated the selfdiffusivities of network-forming cations in the haplogranitic melt estimated with the Eyring equation, for each temperature and water content at which we have measured DU and DTh. Viscosities were estimated in all cases using an empirical fit to over 100 published viscosity measurements in water-bearing and anhydrous metaluminous rhyolites or haplogranites <ref type="bibr" target="#b20">(Hess and Dingwell, 1996)</ref>. The empirical model reproduces viscosities as a function of water content and temperature within half a log-unit for all published data, and in particular, reproduces the measured 0.1 MPa viscosities of our anhydrous compositions <ref type="bibr" target="#b12">(Dingwell et al., 1992</ref>) within 0.1 log unit. For a jump distance we have chosen 0.5 nm, the approximate scale of motion of a single silica tetrahedron during a diffusive or viscous flow step. The value of 0.5 nm was derived from an analysis of non-Newtonian viscosity of silicate melts in the context of absolute rate theory (J. E. <ref type="bibr">Mungall, unpubl. data)</ref>, and is, therefore, the most self-consistent choice we could make for this modeldependent parameter. This value compares well with that determined by <ref type="bibr" target="#b30">Lesher et al. (1996)</ref> on similar grounds, for the jump distance for viscous flow or network-former diffusion in basaltic melts.</p><p>The values of Du and DTh predicted by the Eyring equation at all water contents greater than or equal to 0.30 wt% are equal to the measured values, within experimental error, at all temperatures. In completely anhydrous melts the Eyring equation consistently underestimates Du and Dn by about a factor of 10. The divergence between the measured and predicted diffusivities at the lowest water contents is clearly shown in Fig. <ref type="figure" target="#fig_6">5</ref>. We suggest that the failure of the Eyring equation at these very low water contents can be resolved with reference to widely accepted models for viscous and diffusive transport in highly polymerized silicate melts. In the common view, hydrous alkali aluminosilicate melts are composed of SiOi-tetrahedra joined at the corners to form an extended framework. Al"+, also in tetrahedral coordination, participates in the formation of the network but must be locally charge-balanced by the presence of a nearby alkali ion. If the number of alkali or hydrogen ions equals the number of aluminum ions, then all oxygen ions in the melt will form bridges between tetrahedrally coordinated cations, and the melt is said to be fully polymerized.</p><p>In the presence of alkali or H+ ions in excess of the number of tetrahedrally coordinated Al'+ ions, some oxygens will form links between the alkali or H+ ions and the corners of tetrahedra. The ratio between the numbers of these Non-Bridging Oxygen ions (NBO) and the numbers of tetrahedrally coordinated network-forming cations is expressed as NBO/T and is a convenient measure of the degree of connectivity of the melt structure.</p><p>The dominant mode by which transport processes involving network formers takes place is generally thought to require the approach of a Non-Bridging Oxygen (NBO) and its accompanying alkali or hydrogen ion to a tetrahedrally coordinated cation, to form a short-lived but quenchable fivecoordinated network-forming cation (e.g., <ref type="bibr" target="#b33">McMillan et al., 1994)</ref>. The arrangement of bonds surrounding the five-coordinated cation can either revert to its original topology through the departure of the original nonbridging oxygen, or alternatively a different oxygen may break away from the complex, taking the original alkali or hydrogen ion away with it. In the latter case, the melt structure has been reorganized and a diffusive or viscous transport step has taken place.</p><p>In the case when the melt contains no NBO; the preceeding mechanism cannot operate, and energetically less favorable mechanisms involving interactions of pairs of tetrahedra whose four corners are all linked to other tetrahedra must dominate viscous or diffusive transport. Fully polymerized melts thus show viscosities very much higher than similar melts with only small additions of network-modifying cations (e.g., <ref type="bibr" target="#b21">Hess et al., 1995 )</ref>. The effect of full polymerization on viscosity is apparent in Fig. <ref type="figure" target="#fig_6">5</ref>, which shows a drastic increase in viscosity (decrease in diffusivity of networkformers as predicted by the Eyring equation) at water contents approaching zero.</p><p>In contrast to the expected, and observed, sharp increase in viscosity of melts as their NBO/T ratio drops toward zero, we have observed a much more gradual decrease of actinide diffusivity over the same range in composition.</p><p>We suggest that the discrepancy results from the fact that actinides themselves introduce nonbridging oxygens to the melt structure in their solvation shells <ref type="bibr" target="#b16">(Farges et al., 1992)</ref>. At the low concentrations of U and Th at which we conducted our experiments, the depolymerizing effect of the actinides on viscosity would be expected to be negligible, so that viscosities should remain as low as in undoped, fully polymerized haplogranite melt. On the other hand, mobility of the actinides themselves would not necessarily be limited by the overall lack of NBO in the melt, since the actinides themselves will produce nonbridging oxygens in their immediate vicinity. If, in fully polymerized melts, trace contaminants retain access to an energetically favored diffusive mechanism, namely formation of five-coordinated network formers through attacks by NBO which are intimately associated with the solvation shells of the contaminants, whereas the bulk of the network-forming cations find themselves in a fully polymerized melt, it is expected that diffusion of the trace constituents will become decoupled from transport of the network formers and hence from viscosity.</p><p>The rapid convergence of the measured actinide diffusivities and those predicted by the Eyring equation as water content increases from 0.02 wt% to 0.3 wt% thus reflects the rapidly increasing mobility of the melt network as it gains access to the more favorable mechanism which is already available to the actinides even in the fully polymerized anhydrous melt.</p><p>Viscosity is known to be a decreasing function of pressure in highly polymerized silicate melts <ref type="bibr" target="#b37">(Scarfe et al., 1987)</ref>. Thus the Eyring equation predicts an increase in diffusivity of network-forming cations with increasing pressure. In Fig. <ref type="figure">4</ref> we have indicated the diffusivity of network-forming cations in albite melt predicted by the Eyring equation from the data of <ref type="bibr" target="#b25">Kushiro (1978)</ref>. A similar effect was observed in obsidian melt (80% reduction in viscosity over 1 GPa, <ref type="bibr" target="#b37">Scarfe et al., 1987)</ref>, but the actual data are not available. In melts of jadeite composition both diffusivities of networkforming cations and bulk viscosities have been measured <ref type="bibr" target="#b24">(Kushiro, 1976</ref><ref type="bibr" target="#b26">(Kushiro, , 1983))</ref>) and the complementary behaviour of these two quantities predicted by the Eyring equation is preserved. It is clear from Fig. <ref type="figure">4</ref> that the negative activation volumes we find for &amp;, and De are indistinguishable from that predicted for network-formers in albite melt from application of the Eyring equation to known variations of viscosity with pressure.</p><p>In contrast to our results, which agree with most published studies of effects of pressure on diffusivities, Watson ( 198 1) found that DC, had a positive activation volume in highly depolymerized soda-lime aluminosilicate melts. This apparently conflicting finding may be accounted for by the observation that viscosities of highly depolymerized melts are known to show a positive dependence on pressure <ref type="bibr" target="#b37">(Scarfe et al., 1987)</ref>, with the result that the predictions of the Eyring equation are qualitatively confirmed.</p><p>The close correspondence between inferred diffusivities of network-forming cations and of actinides does not require the actinides to be network-formers themselves (cf. <ref type="bibr" target="#b15">Farges et al., 1991</ref><ref type="bibr" target="#b16">Farges et al., , 1992))</ref>. Rather, it suggests that the fundamental mechanism by which actinide ions can be translated from one position to another in the melt structure requires a cooperative motion of one or more network-forming cations, so that the macroscopic transport rate of the two is seen to be intimately related.</p><p>In summary, all of the variations of diffusivities of both U and Th in haplogranitic melt, with the exception of extremely dry compositions containing less than 0.3 wt% water, can be predicted quantitatively through the Eyring equation relating network-forming cation diffusivity to viscosity. This result is very useful in that it allows prediction of actinide diffusivity in any haplogranitic melt under all naturally attainable conditions of water content, temperature, and pressure, with the sole exception of melts containing less than 0.3 wt% of water, if viscosities can be estimated through other means (e.g., <ref type="bibr" target="#b6">Bottinga and Weill, 1972;</ref><ref type="bibr" target="#b41">Shaw, 1972;</ref><ref type="bibr" target="#b20">Hess and Dingwell, 1996)</ref>.</p><p>The differences in diffusivity between the Dunn ( 1987) results and those of <ref type="bibr" target="#b32">Matzke (1980)</ref> can also be interpreted in the context of Eyring's rate theory. Since the glass studied by <ref type="bibr" target="#b32">Matzke ( 1980)</ref> was much richer in NazO and poorer in SiO: than that studied by <ref type="bibr" target="#b13">Dunn ( 1987 )</ref>, it would be expected to show a much smaller activation energy for viscous flow than that of <ref type="bibr" target="#b13">Dunn ( 1987)</ref>. The Eyring equation in turn would predict much higher activation energies for diffusion in the <ref type="bibr" target="#b13">Dunn ( 1987)</ref> melt composition than that of <ref type="bibr" target="#b32">Matzke ( 1980)</ref>. The argument that activation energies of diffusion are controlled by viscosity would run counter to the <ref type="bibr" target="#b13">Dunn ( 1987)</ref> suggestion that oxidation state had a major effect on diffusivity of U.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.9.">Applications</head><p>The most important result of our study is that the diffusivity of actinides can be predicted with remarkable confidence in granitic melts, given prior knowledge of viscosity. This information should be of use to any investigator interested in quantitative modelling geochemical processes in which chemical diffusion of actinides through felsic silicate melts occurs.</p><p>Our results can be applied to problems of U-Th decay series equilibria, by observing that in natural magmas corresponding to the entire range of temperatures, pressures, and water contents explored by our experiments, U and Th diffusivities will be approximately equal. There is consequently no possibility that differences in cation mobility in diffusive boundary layers around growing crystals would lead to decoupling of U and Th <ref type="bibr" target="#b17">(Ghiorso, 1987)</ref>. In other words, nonequilibrium crystal growth will affect the incorporation of both elements in phenocrysts to the same degree. Similarly they will show equal mobility in the source regions of magmas.</p><p>The observed close correspondence between Du and DTh and melt viscosity that we have observed may be useful in the preparation of nuclear waste glasses, since times required to homogenize melts can be estimated if diffusivities can be predicted using the Eyring equation on melts of known or calculable viscosity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">CONCLUSIONS</head><p>We have investigated the diffusivities of U and Th in haplogranitic melts over a range of temperatures, pressures, and water contents. Du and DTh are both Arrhenian over the temperature range 1200-1600°C in anhydrous melts. The activation energy of actinide diffusion in the dry melt is less than the activation energy of viscous flow, but the activation volume is equal to that of diffusion or viscous flow of network forming cations. Dissolved water greatly accelerates actinide diffusion, with an approximately tenfold increase in diffusivity observed upon the addition of the first 1.0% of water, and a further fiftyfold increase with the addition of a further 4.0% of water. The Eyring equation predicts D, and DTh in water-bearing haplogranitic melts within a factor of two or less. Diffusion of U and Th is, therefore, inferred to be closely associated with the self-diffusion of networkforming cations. The Eyring equation fails to predict actinide diffusivities at very low water contents due to the approach of the anhydrous melt to full polymerization, so that there are virtually no nonbridging oxygen ions present to facilitate viscous flow. Because nonbridging oxygens are concentrated around dissolved impurities like the actinides used in our experiments, the approach to full polymerization will have less effect on diffusivities of the impurities than on the bulk viscosity.</p><p>Application of our results to natural systems suggests that U and Th mobilities will be approximately equal, in all natural granitic magmas, and can be predicted if viscosities are known or calculable.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Typical diffusion profile (unprocessed Th Ma X-ray counts) recovered by electron microprobe analysis of a diffusion anneal (run 54). The heavy solid line shows the concentration profile generated by Eqn. 2 in the text, for the diffusion coefficient extracted from the inverse error function analysis of this data shown. Lighter solid lines indicate model curves corresponding to upper and lower bounds on estimate for DTh at 80% confidence.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. (a,b). Dependence of DTh and Du on temperature. In this and subsequent figures, error bars indicate 80% confidence interval on diffusion coefficients, and solid lines indicate diffusivities of network-forming cations estimated with the Eyring equation. At low</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>is consistently slightly less than Du under all conditions. The logarithms of both U and Th diffusivities in the low pressure, anhydrous experiments are linear against reciprocal temperature, i.e., Arrhenian. The data from the dry experiments at one bar pressure can be fit to the following Arrhenius relations: D=,, = 8.71 ?:tz cm2 s-' exp -368.6'$:$ KJ mol-'</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .Fig. 4 .</head><label>44</label><figDesc>Fig. 4. (a,b). Dependence of D,.,, and Du on pressure at 1400°C.The solid lines are visual fits to the two different datasets (dry and 0.3% water). The diffusivities of both elements clearly increase with increasing pressure, mimicking the increase in network-former diffusivity inferred from application of the Eyring equation to data for viscosity of albite melt, shown with a dashed line(Kushiro,    </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. (a,b) Dependence of DTh and Du on water content of melt at 1400°C and 1 GPa. The data for both elements lie on the curve of network-former diffusivities calculated using the Eyring equation at all water contents above 0.3 wt%.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>AcknawledRments-We wish to thank <rs type="person">Hubert Schulze</rs> and <rs type="person">Detlef Krause</rs> for technical assistance and <rs type="person">Claudia Roman0</rs> and <rs type="person">Hans Keppier</rs> for their assistance in obtaining optical spectra. This research was supported by a <rs type="funder">Deutsche Forschungsgemeinschaft</rs> grant to DBD and by a <rs type="grantName">Bayerisches Geoinstitut visitor's fellowship</rs> and an <rs type="funder">NSERC</rs> fellowship held by JEM. Thorough reviews by <rs type="person">Todd Dunn</rs>, <rs type="person">Tom LaTourrette</rs>, <rs type="person">Victor Kress</rs>, and <rs type="person">Bruce Watson</rs> led to substantial improvements. Editorial handling: <rs type="person">D. W. Mittlefehldt</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_ECkMw5H">
+					<orgName type="grant-name">Bayerisches Geoinstitut visitor&apos;s fellowship</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">On the temperature dependence of the cooperative relaxation properties in glass-forming liquids</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Adam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Gibbs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">I. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="139" to="146" />
+			<date type="published" when="1965">1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Estimation of diffusion coefficients during interdiffusion of geologic melts: Application of transition state theory</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="11" to="12" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Brownian diffusion of particles with hydrodynamic interaction</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Batchelor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Fluid Mech</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page">29</biblScope>
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Diffusion in a dilute polydisperse system of interacting spheres</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Batchelor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Fluid Mech</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="155" to="175" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Self-diffusion of spheres in a concentrated suspension</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W J</forename><surname>Beenaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mazur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physica</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="388" to="410" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The mechanisms of water diffusion in polymerized silicate melts</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Behrens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nowak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contvib. Mineral. Petrol</title>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+	<note>in Press</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The viscosity of magmatic silicate liquids: A model for calculation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bottinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Weill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. J. Sci</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="438" to="475" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Multicomponent diffusion in ternary silicate melts in the system K20-A1201-SiOZ: I. Experimental measurements</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rubie</forename><forename type="middle">D C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="255" to="264" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">The Murhematics qj&apos;Di@sion</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+			<publisher>Oxford Univ. Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">The use and limitations of the concept of an Effective Binary Diffusion Coefficient for multicomponent diffusion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mass Transporr in Oxides</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Wachtman</surname><genName>Jr</genName></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Franklin</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">NBS Spec. Publ</title>
+		<imprint>
+			<biblScope unit="volume">196</biblScope>
+			<biblScope unit="page" from="79" to="84" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effects of structural relaxation in cationic trhcer diffusion in silicate melts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="209" to="216" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Tie effect of B203 on the viscosity of haplogranitic liquids</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">.</forename><surname>Knoche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pichavant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amev~ Mineral</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="457" to="461" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Uranium( VI) diffusion in a supercooled borosilicate melt. .I. Non-Cyst</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dunn</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Solios</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Structural environment around Th&apos;* in silicate glasses: Implications for the geochemistry of incompatible Me&apos;+ elements</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Farges</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Actu</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="3303" to="3319" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Structural environments of incompatible elements in silicate glass/ melt systems: II. U&apos;&quot;. U</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Farges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Ponader</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Calas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acrtr</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="4205" to="4220" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Chemical mass transfer in magmatic processes III. Crystal growth, chemical diffusion, and thermal diffusion in multicomponent silicate melts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ghiorso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="29" to="313" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Glasstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Laidler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eyring</surname></persName>
+		</author>
+		<title level="m">The Theog of Rute Processes</title>
+		<imprint>
+			<publisher>McGraw-Hill</publisher>
+			<date type="published" when="1941">1941</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Haase</surname></persName>
+		</author>
+		<title level="m">Thermodynamics of Irreversible Processes</title>
+		<imprint>
+			<publisher>Dover</publisher>
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Viscosities of hydrous leucogranitic melts: A non-Arrhenian model</title>
+		<author>
+			<persName><forename type="first">K-U</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1297" to="1300" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">The influence of excess alkalis on the viscosity of a haplogranitic melt</title>
+		<author>
+			<persName><forename type="first">K.-U</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Webb</forename><forename type="middle">S L</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<pubPlace>Amer</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Minerul</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="297" to="304" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Diffusion in natural silicate melts: A critical review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hoffman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of&apos;Mugmafic Processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="385" to="417" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Changes in viscosity and structure of melt of NaAISizOh composition at high pressures</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Grophys. Rex</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="6347" to="6350" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Viscosity and structural changes of albite (NaAI-SiJOx) melts at high pressures</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci. Left</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="87" to="90" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Effect of pressure on the diffusivity of networkforming cations in melts of jadeitic compositions</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Actu</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1315" to="1422" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The effect of HzO, CO? and F on the density and viscosity of silicate melts</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Lange</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Volatiles in Magmus</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Carroll</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Holloway</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Mineral. Sot. Amer. Ret,. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="33" to="370" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Self diffusion of europium, neodymium, thorium, and uranium in haplobasaltic melt: The effect of oxygen fugacity and the relationship to melt structure</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Latourrette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wasserburg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="755" to="764" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Self diffusion of network formers (silicon and oxygen) in naturally occurring basaltic liquid</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hervig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tinker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Actu</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="405" to="413" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Rhyolitic glasses as natural analogues of nuclear waste glasses: Behaviour of Icelandic glass upon natural aqueous corrosion</title>
+		<author>
+			<persName><forename type="first">M.-C</forename><surname>Magonthier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-C</forename><surname>Petit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dran J.-C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">App. Geochem. Supp. Issue</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="83" to="94" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Actinide diffusion in waste glasses</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Matzke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Thermodynamics of nuclear muterials 1979</title>
+		<imprint>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="3" to="4" />
+		</imprint>
+	</monogr>
+	<note>IAEA</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A study of SiOz glass and supercooled liquid to 1950 K via hightemperature Raman spectroscopy</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Poe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reynard</forename><forename type="middle">B</forename><surname>Gillet Ph</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Actu</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="3653" to="3664" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Severe leaching alteration of trachytic glass without devitrification</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Mungall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Martin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+			<publisher>Geochim</publisher>
+			<pubPlace>Terceird, Azores</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Cosmochim. Actu</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="75" to="83" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Mobility of uranium and thorium in glassy and crystallized ailicic volcanic rocks</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Rosholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prijana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Noble</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">&amp;on. Geol</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="106" to="1069" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Pressure dependence of the viscosity of silicate melts</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Virgo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Magmutic Processes: Physicochemicul Principles (ed. B. 0. Mysen) ; Geochem</title>
+		<meeting><address><addrLine>Sot</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Spec. Publ</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="59" to="67" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The chemistry of uranium in borosilicate glasses. Part 6. The leaching of uranium from glass</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Schreiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Balazs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Solberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="3769" to="3783" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note>Phys. Chem. Glass.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Dehydration and rehy-Shapiro S. (1990) Selection, fitting, and testing statistical models</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vaniman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chipera</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of Statistical Methods for Engineers and Scientists</title>
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Wadsworth</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>McGraw-Hill</publisher>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Viscosities of magmatic silicate liquids: An empirical method of prediction</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. J. Sci</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="870" to="893" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">An approximation method for diffusion based leaching models</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Shukla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Dignam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Glass</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="85" to="94" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Consequences of melt transport for uranium series disequilibrium in young lavas</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Spiegelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Elliott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Measuring the multicomponent diffudration of a tuff vitrophyrer</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Trial</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Spera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="22309" to="22320" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Diffusion in magmas at depth in the Earth: The effects of pressure and dissolved HzO</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sri. Lerr</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="291" to="301" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Diffusion in volatile-bearing magmas</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Volatiles in Magmas</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Carroll</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Holloway</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="371" to="412" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Probability Functions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Sever0</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Handbook of Mathematical Functions, 10fh Ed</title>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Abramovitz</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Stegun</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Natl. Bur. Stand. App. Math. Ser</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">92</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microstructure and properties of an equiatomic TaTiZr alloy</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2021-03-30">30 March 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Materials and Manufacturing Directorate</orgName>
+								<orgName type="laboratory">Air Force Research Laboratory</orgName>
+								<address>
+									<postCode>45433</postCode>
+									<settlement>Wright-Patterson AFB</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Kuhr</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Materials and Manufacturing Directorate</orgName>
+								<orgName type="laboratory">Air Force Research Laboratory</orgName>
+								<address>
+									<postCode>45433</postCode>
+									<settlement>Wright-Patterson AFB</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Shank</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Materials and Manufacturing Directorate</orgName>
+								<orgName type="laboratory">Air Force Research Laboratory</orgName>
+								<address>
+									<postCode>45433</postCode>
+									<settlement>Wright-Patterson AFB</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Payton</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Materials and Manufacturing Directorate</orgName>
+								<orgName type="laboratory">Air Force Research Laboratory</orgName>
+								<address>
+									<postCode>45433</postCode>
+									<settlement>Wright-Patterson AFB</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Materials and Manufacturing Directorate</orgName>
+								<orgName type="laboratory">Air Force Research Laboratory</orgName>
+								<address>
+									<postCode>45433</postCode>
+									<settlement>Wright-Patterson AFB</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microstructure and properties of an equiatomic TaTiZr alloy</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-03-30">30 March 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F8C20F72A4386741C06CDFC5C72CFBDA</idno>
+					<idno type="DOI">10.1016/j.msea.2021.141168</idno>
+					<note type="submission">Received 28 December 2020; Received in revised form 25 March 2021; Accepted 26 March 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Refractory alloy Microstructure Phase composition Mechanical properties</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Microstructure and compression mechanical properties of a ternary TaTiZr alloy, after hot isostatic pressing (HIP) at 1400 • C, are reported. In the slow cooled condition, the alloy had a coarse-grained structure consisting of Zr-rich BCC matrix and Ta-rich submicron-sized BCC precipitates, which were coherent to the matrix phase. Ti was almost equally distributed between these two phases. omega-phase nano-precipitates were also detected inside the Zr-rich matrix. According to CALPHAD analysis, the observed microstructure is a metastable one, which was formed in the temperature range of 800-1130 • C during cooling after HIP. The HIP'd alloy had high yield stress of 1671 MPa at 25 • C and 1440 MPa at 400 • C, but low ductility, likely due to the presence of the omega phase. Considerable alloy softening, accommodated by a noticeable increase in ductility, occurred between 400 • C and 600 • C, with the yield stress decreasing to 346 MPa at 600 • C, 157 MPa at 800 • C and 103 MPa at 1000 • C. Such dramatic change in the mechanical behavior was correlated with dissolution of the omega phase and approaching phase equilibrium at T ≥ 600 • C.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Refractory complex concentrated alloys (RCCAs), which also include refractory high entropy alloys (RHEAs), have recently attracted much attention as promising structural materials for use at temperatures above ~1000 • C <ref type="bibr" target="#b1">[1,</ref><ref type="bibr" target="#b2">2]</ref>. Due to vast yet unexplored compositional variations, RCCAs may provide an attractive combination of elevated temperature mechanical properties, reduced density and improved oxidation resistance relative to conventional refractory alloys <ref type="bibr" target="#b1">[1,</ref><ref type="bibr" target="#b3">[3]</ref><ref type="bibr" target="#b4">[4]</ref><ref type="bibr" target="#b5">[5]</ref>. However the wide range of possible compositions also presents challenges in identifying the alloy compositions with the needed properties <ref type="bibr" target="#b6">[6,</ref><ref type="bibr" target="#b7">7]</ref>. Accelerated exploration of the compositional spaces of RCCAs requires knowledge of phase diagrams of the multi-component alloy systems and these diagrams are generally calculated using CALPHAD approach by extrapolation of thermodynamic properties of binary and ternary alloy systems to higher order systems. Currently, almost all binary systems, from which current and future RCCAs are made, have complete thermodynamic assessment and are verified experimentally. However, only few ternary alloy systems have complete and correct thermodynamic description, while many others require experimental information and/or verification.</p><p>Nb-Ti-Zr and Ta-Ti-Zr are two of the most commonly used ternary systems for the development of RCCAs <ref type="bibr" target="#b1">[1]</ref>. For example, these systems, often at near equiatomic fractions of the elements, are present in single-phase BCC alloys HfNbTaTiZr <ref type="bibr" target="#b8">[8,</ref><ref type="bibr" target="#b9">9]</ref>, HfMo X NbTaTiZr <ref type="bibr" target="#b10">[10,</ref><ref type="bibr" target="#b11">11]</ref>, HfMoTaTiZr <ref type="bibr" target="#b10">[10]</ref>, HfMoNbTiZr <ref type="bibr" target="#b12">[12]</ref>, HfNbTaTiVZr <ref type="bibr" target="#b13">[13]</ref>, MoNbTaTiVZr <ref type="bibr" target="#b14">[14]</ref>, MoTaTiVZr <ref type="bibr" target="#b14">[14]</ref>, and MoNbTaTiZr <ref type="bibr" target="#b15">[15]</ref>. They are also a basis for two-phase RCCAs such as AlHfNbTaTiZr <ref type="bibr" target="#b16">[16]</ref> and HfMoNbTaTiVZr <ref type="bibr" target="#b17">[17]</ref> containing two BCC phases; Al-Mo-Nb-Ta-Ti-Zr-based superalloys with B2+BCC phases <ref type="bibr" target="#b18">[18,</ref><ref type="bibr" target="#b19">19]</ref>; BCC + HCP MoNbTaTiZr <ref type="bibr" target="#b15">[15,</ref><ref type="bibr" target="#b20">20]</ref> and HfTaTiZr <ref type="bibr" target="#b21">[21]</ref>. The thermodynamic and mechanical properties of the Nb-Ti-Zr system have been extensively studied <ref type="bibr" target="#b22">[22]</ref><ref type="bibr" target="#b23">[23]</ref><ref type="bibr" target="#b24">[24]</ref><ref type="bibr" target="#b25">[25]</ref><ref type="bibr" target="#b26">[26]</ref><ref type="bibr" target="#b27">[27]</ref>. In particular, a ternary equiatomic alloy NbTiZr is a single-phase BCC structure, which has low density of 6.63 g/cm 3 , hardness of 340 Hv, excellent room temperature ductility and high room temperature yield stress of 975 MPa <ref type="bibr" target="#b23">[23,</ref><ref type="bibr" target="#b24">24,</ref><ref type="bibr" target="#b27">27]</ref>. The Ti and Zr rich Nb-Ti-Zr alloys exhibit allotropic transformation and consist of two phases, BCC and HCP at lower temperatures, while the alloys depleted in Ti show a miscibility gap resulting in two BCC phases <ref type="bibr" target="#b22">[22]</ref>. In contrast, very little information is available for the Ta-Ti-Zr system <ref type="bibr" target="#b27">[27]</ref><ref type="bibr" target="#b28">[28]</ref><ref type="bibr" target="#b29">[29]</ref>. An equiatomic TaTiZr alloy has been studied in the as-cast condition, it has a dendritic structure consisting of two BCC phases and is brittle at room temperature <ref type="bibr" target="#b27">[27]</ref>. Microstructures of four non-equiatomic alloys containing 45 at.%Ti, <ref type="bibr" target="#b15">15,</ref><ref type="bibr" target="#b25">25,</ref><ref type="bibr" target="#b35">35</ref> or 45% Ta and 40, 30, 20 or 10%Zr have been studied after annealing for up to 1000 h at 700 • C, 900 • C and 1000 • C <ref type="bibr" target="#b29">[29]</ref>. The alloys have been found to have a single-phase BCC crystal structure at 1000 • C and two BCC phases at 700 • C and 900 • C. In the present work, a near equiatomic Ta-Ti-Zr alloy was produced and annealed at 1400 • C, and compression properties were measured in the temperature range of 25-1200 • C. A comprehensive analysis of the alloy microstructure in the annealed and deformed conditions was also conducted. The results obtained are discussed in the framework of microstructure-property relationships and compared with the properties of the parent NbTiZr ternary alloy, the parent RCCA HfNbTaTiZr, and a refractory superalloy AlMo 0.5 NbTa 0.5 TiZr containing these ternary systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental procedures</head><p>The alloy was produced by vacuum arc melting using high purity (99.95%) elements. After arc melting, the alloy sample was hot isostatically pressed (HIP'd) in high-purity argon at 1400 • C for 3 h under a hydrostatic pressure of 207 MPa. The heating and cooling rates to and from this temperature were 15 • C/min. The average alloy composition was determined after HIP using direct current plasma atomic emission spectrometry. The concentrations of oxygen and nitrogen were determined by inert gas fusion and the concentration of carbon was determined using combustion infrared absorption methods. The alloy composition and the accuracies of the measurements are given in Table <ref type="table">1</ref>. The alloy density of 9.56 ± 0.02 g/cm 3 was measured using a helium pycnometer. Samples of rectangular configuration of 4.8 × 4.8 × 7.7 mm 3 were extracted using electrical discharge machining (EDM) from the HIP'd alloy for compression testing and their surfaces were ground to remove the recast layer. Compression mechanical tests were conducted at different temperatures in the range from 25 • C to 1200 • C, at a constant ram speed which corresponded to an initial strain rate of 0.001 s -1 . Room temperature tests were conducted in air and high temperature tests were conducted in vacuum. Detailed information on the mechanical testing has been provided elsewhere <ref type="bibr" target="#b30">[30]</ref>.</p><p>Microstructure and local chemical compositions were studied using a ThermoFisher Scientific (TFS) Apreo C field emission gun scanning electron microscope (FEG-SEM) equipped with an Oxford X-max energy dispersive x-ray spectrometer (EDS), as well as backscatter electron (BSE) and electron backscatter diffraction (EBSD) detectors. Prior to the microscopy, specimens were mounted in a conductive phenolic resin and polished using conventional metallographic techniques. No etching was applied. The reported chemical compositions of different alloy constituents are the average values of at least 10 measurements made from different locations. Scanning transmission electron microscopy (STEM-HAADF), selected area diffraction (SADP) and energy-dispersive X-ray spectroscopy (XEDS) were conducted using a Thermo Fisher Scientific Talos 200X scanning transmission electron microscope (STEM) equipped with Super-X quad EDS. Specimens for the TEM analysis were prepared using a variation of the in-situ lift-out technique in a focused ion beam (FIB-SEM) described in details in Ref. <ref type="bibr" target="#b31">[31]</ref>. A Si standard was used to calibrate reciprocal distances on the collected SADPs. X-ray diffraction (XRD) was conducted on D2 Phaser Bruker instrument using a Cu K α1 radiation in the 2θ range of 10-120 • .</p><p>Equilibrium phase diagrams for the Ta-Ti-Zr system were calculated using CALPHAD approach with the aid of PANDAT software, version 2020, developed by CompuTherm, LLC <ref type="bibr" target="#b32">[32]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Deformation behavior</head><p>True stress vs true strain compression curves are shown in Fig. <ref type="figure" target="#fig_1">1</ref>. The alloy is strong, but it has a limited compression ductility at 25 • C and 400 • C (Fig. <ref type="figure" target="#fig_1">1a</ref>). The yield stress, σ y , and true fracture strain are 1671 MPa and 0.025 at 25 • C and 1445 MPa and 0.020 at 400 • C (Table <ref type="table">2</ref>). At both temperatures, the alloy samples fracture by a localized shear at ~45-50 • to the compression direction. At higher temperatures (≥600 • C) the alloy becomes ductile and it does not fracture during compression deformation with a true strain of ~0.7-0.8 (Fig. <ref type="figure" target="#fig_1">1b</ref>).</p><p>Showing strain hardening and achieving a peak stress, σ p , at the beginning of deformation, the alloy displays strain softening at T = 600-1000 • C or a steady-state flow at 1200 • C. A considerable drop in σ y and σ p occurs with increasing temperature between 400 • C and 600 • C after which σ y decreases gradually from 346 MPa at 600 • C to 63 MPa at 1200 • C (Table <ref type="table">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Microstructure of the HIP'd and deformed alloy specimens</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.1.">X-ray diffraction</head><p>X-ray diffraction of the HIP'd alloy and an alloy sample deformed at 400 • C reveals the presence of three phases: a major BCC1 phase, with the lattice parameter a = 331.0 pm, and two secondary phases, BCC2 with a = 348.0 pm and a hexagonal omega phase with a = 491.2 pm, c = 303.5 pm and c/a ratio of 0.618 (Fig. <ref type="figure" target="#fig_2">2</ref>). After deformation at 600 • C, the BCC1 and BCC2 phases are retained; however, the diffraction peaks from the omega phase are replaced with the peaks from a hexagonal phase with a = 309.9 pm, c = 495.0 pm and c/a ratio of 1.597 pm. After deformation at 800 • C and 1000 • C, only BCC1 and BCC2 phases are detected by X-ray diffraction. After deformation at 1200 • C, a diffraction peak located at 2Θ = 60.4 • , which likely belongs to the omega phase, is also present, together with diffraction peaks from the BCC1 and BCC2 phases (Fig. <ref type="figure" target="#fig_2">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.2.">Microstructure of TaTiZr in HIP'd condition</head><p>SEM backscattered images show a relatively coarse grain structure of the matrix (Fig. <ref type="figure" target="#fig_3">3a</ref>), a domain structure inside the grains (Fig. <ref type="figure" target="#fig_3">3b</ref>) and fine, submicron-sized precipitates of secondary phases inside the domains/grains (Fig. <ref type="figure" target="#fig_3">3b-d</ref>) and at grain boundaries (Fig. <ref type="figure" target="#fig_3">3d</ref>). The average grain, domain and particle diameters are ~320 μm, 4 μm and 0.25 μm, respectively. The second-phase particles have near-ellipsoid shapes, their size is larger at grain boundaries than inside grains, and their volume fraction is estimated to be ~51%. Chemical analysis indicates that the precipitates are rich in Ta while the matrix phase is rich in Zr and Ti (Fig. <ref type="figure" target="#fig_3">3e-g</ref>, Table <ref type="table">3</ref>).</p><p>STEM and XEDS confirm that the microstructure of the TaTiZr alloy consists of a continuous Zr-rich matrix and discontinuous, Ta-rich nanoprecipitates, which have near-spherical or ellipsoidal shapes (Fig. <ref type="figure">4</ref>). Ti has a slight preference to the Zr-rich matrix; however, it is also present in a noticeable amount in the Ta-rich precipitates (Fig. <ref type="figure">4c</ref>), in agreement with SEM data (Table <ref type="table">3</ref>).</p><p>Selected area diffraction patterns (SADPs) acquired using TEM from the sample regions, like shown in Fig. <ref type="figure" target="#fig_5">5a</ref>, reveal that Ta-rich BCC1 precipitates have the same crystallographic orientation as the Zr-rich BCC2 matrix phase (Fig. <ref type="figure" target="#fig_5">5c</ref> and<ref type="figure">d</ref>). However, the lattice parameter of the precipitates is slightly smaller, a BCC1 = 331 ± 10 pm, while the matrix phase has the lattice parameter a BCC2 = 349 ± 10 pm. These values are similar to those obtained by X-ray diffraction. The larger lattice parameter of the matrix phase is due to a higher concentration of Zr, which has the largest atomic radius among the three alloying elements (atomic radii of Ta, Ti and Zr are 143, 146 and 160 pm, respectively <ref type="bibr" target="#b33">[33]</ref>).</p><p>In addition to the strong diffraction spots for the BCC1 and BCC2 phases, weak diffraction intensities are present in the positions of</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 1</head><p>The composition of the studied alloy. The concentrations of the main elements are given in atomic percentage. The concentrations of O, N and C are given in weight parts per million. for the omega phase are identified (Fig. <ref type="figure" target="#fig_5">5 c,</ref><ref type="figure">d</ref>), which display common orientation relationships between the omega and BCC (β) phases:</p><formula xml:id="formula_0">{111} β || (0001) ω , {112} β || {1010} ω and &lt;110&gt; β || &lt;1210&gt; ω [34].</formula><p>These TEM results are in agreement with the X-ray diffraction analysis, which also reveals the presence of the omega phase in the HIP'd alloy sample (Fig. <ref type="figure" target="#fig_2">2</ref>).</p><p>Fig. <ref type="figure" target="#fig_5">5b</ref> is a dark-field image in a reflection (1011) ω1 , outlined by a circle in a respective [110] BCC SADP (Fig. <ref type="figure" target="#fig_5">5c</ref>). In addition to the omega phase precipitates, the dark field image shows several twins in the Zrrich matrix, with the traces of the twin planes parallel to the [222] BCC2 direction, common to the twins and the matrix. Therefore, the diffraction spot (1011) ω1 coincides with the spot (101) T , and the twins can be identified as (211) <ref type="bibr">[111]</ref>, with [101] T || [110] M (Fig. <ref type="figure" target="#fig_5">5c</ref>). The type of the twins is also confirmed with the analysis of a SADP shown in Fig. <ref type="figure" target="#fig_5">5d</ref>, where the matrix zone axis <ref type="bibr">[113]</ref> M is parallel to the twin zone axis <ref type="bibr">[113]</ref> T and the common twin trace direction is <ref type="bibr">[471]</ref>. The subscripts ω1 and ω2 identify two distinct crystallographic orientation variants of the same omega phase, and M or T indicate that the respective indexes of crystallographic directions and planes belong to the matrix phase or twins. Other groups have shown that twin and omega crystal structures are related through a shear transformation, which may explain why reflections from {112}&lt;111&gt; type twins and omega variants are present at the same location <ref type="bibr" target="#b36">[36]</ref><ref type="bibr" target="#b37">[37]</ref><ref type="bibr" target="#b38">[38]</ref>. In the twinned structures of a metastable BCC phase of Zr and Ti alloys, the omega-phase precipitates are often located at twin boundaries <ref type="bibr" target="#b36">[36,</ref><ref type="bibr" target="#b37">37]</ref>. Future research would need to be performed to determine the exact phenomena producing these diffracted intensities.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.3.">Microstructure of TaTiZr after compression deformation</head><p>Samples deformed at 25 • C and 400 • C show trans-granular, quasicleavage fracture (Fig. <ref type="figure" target="#fig_6">6 a,</ref><ref type="figure">d</ref>). The fracture occurs by shear along the direction inclined about 40-50 • to the compression direction. Higher magnification images of the sample fractured at 25 • C reveal shallow dimples (Fig. <ref type="figure" target="#fig_6">6b</ref>) or smeared second-phase particles and rough striations, which are parallel to the shear direction, both caused by friction sliding of the fracture surfaces under the high compression pressure (Fig. <ref type="figure" target="#fig_6">6c</ref>). On the other hand, higher magnification images of the sample fractured at 400 • C reveal larger dimples (Fig. <ref type="figure" target="#fig_6">6e</ref>), which average diameter is similar to the average diameter of intragranular domains (Fig. <ref type="figure" target="#fig_3">3b</ref>), and roughness from the secondary particles on the fracture surface (Fig. <ref type="figure" target="#fig_6">6f</ref>). These observations may indicate that plastic deformation and fracture at 400 • C are localized at the Zr-rich domain boundaries and inside the channels between Ta-rich nanoparticles.</p><p>No evidence of fracture is observed in the samples deformed at or above 600 • C. Heavily deformed grains, elongated in the directions of the plastic flow are present in these samples (Fig. <ref type="figure" target="#fig_7">7a</ref>, Fig. <ref type="figure" target="#fig_8">8a</ref>). Fine, Tarich precipitates are still present inside the deformed, Zr-rich matrix grains (Fig. <ref type="figure" target="#fig_9">9</ref>) and their average diameter increases with increasing deformation temperature from 600 • C to 1000 • C (Figs. <ref type="figure" target="#fig_8">7b, 8b</ref> and<ref type="figure" target="#fig_10">10a</ref>). The microstructure inside grains looks morphologically similar to that observed in a non-deformed alloy. EBSD analysis of a sample deformed </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 2</head><p>Temperature dependence of the true yield stress (σ y ), true peak stress (σ p ) and true fracture strain (ε f ) of TaTiZr.  at 1000 • C reveals that the Ta-rich precipitates have a BCC crystal structure, and they have almost the same crystallographic orientation within a domain. The Zr-rich matrix channels consist of a very fine, nanometer-sized, mixture of BCC and HCP (c/a = 1.59) phases (Fig. <ref type="figure" target="#fig_10">10</ref>). After deformation at 1200 • C, fine, Ta-rich particles are present together with coarse particles (Fig. <ref type="figure" target="#fig_11">11</ref>). It is likely that the temperature of 1200 • C is close to the solvus temperature of the secondary, Ta-rich phase and only coarse particles were present during deformation at </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 3</head><p>Composition (in at.%) of the matrix phase and second-phase particles. this temperature, while finer particles were formed during cooling after deformation. The omega phase identified by X-ray diffraction (Fig. <ref type="figure" target="#fig_2">2</ref>) likely forms during cooling in the temperature range where Zr-rich BCC matrix phase becomes metastable (see next section and Discussion).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.4.">CALPHAD analysis</head><p>The CALPHAD analysis <ref type="bibr" target="#b32">[32]</ref> was conducted to understand the origin of the complex microstructure of the HIP'd alloy and identify the relationship between the microstructure/phase composition and the temperature dependence of the mechanical properties. Fig. <ref type="figure" target="#fig_12">12</ref> shows equilibrium isothermal projections of the Ta-Ti-Zr ternary system calculated for five characteristic temperatures, i.e. 400 • C, 600 • C, 800 • C, 1200 • C and 1400 • C. Location of the equiatomic TaTiZr alloy is shown by a black solid circle and four alloys, Ta 55-X Ti 45 Zr X , X = 10, 20, 30 and 40 at.%, previously reported by Whitfield et al. <ref type="bibr" target="#b29">[29]</ref> are shown as crosses in these diagrams. In equilibrium at T = 400 • C, almost all alloys of the Ta-Ti-Zr system, except very narrow regions at the Ta, Ti, and Zr corners, have a two-phase, BCC + HCP crystal structure (Fig. <ref type="figure" target="#fig_12">12a</ref>). At T = 600 • C, the phase projection becomes more complex and consists of four single-phase regions, five two-phase regions and two three-phase regions. The composition of the studied equiatomic alloy, as well as Ta 15 Ti 45 Zr 40 , Ta 25 Ti 45 Zr 30 and Ta 35 Ti 45 Zr 20 from Ref. <ref type="bibr" target="#b29">[29]</ref>, falls in the two-phase, BCC + BCC range, while the composition of Ta 45 Ti 45 Zr 10 corresponds to the two-phase BCC + HCP range (Fig. <ref type="figure" target="#fig_12">12b</ref>). At T = 800 • C, the two-phase BCC + BCC range dominates and is present at the concentrations of Ti and Zr from 0 to 60.4% and 3.4%-96.0%, respectively (Fig. <ref type="figure" target="#fig_12">12c</ref>). The studied alloy and the alloys by Whitfield et al. fall in this two-phase range. With increasing temperature from 800 • C to 1400 • C, the two-phase BCC + BCC range narrows and the single-phase BCC range expands. At 1200 • C, the equiatomic alloy still consists of two BCC phases, while Whitfield's alloys become single-phase BCC structures. At 1400 • C, the investigated alloys are single-phase BCC structures (Fig. <ref type="figure" target="#fig_12">12c</ref>).</p><p>Fig. <ref type="figure" target="#fig_13">13a</ref> is the Ta-Ti-Zr phase diagram projection at 33.3 at.% Ti. After solidification, the Ta 66.7-X Ti 33.3 Zr X alloys have a single-phase BCC structure. A miscibility gap resulting in the formation of a Ta-rich BCC1 and Zr-rich BCC2 is present in the temperature range from 576 • C to 1322 • C and the concentrations of Zr from 1.7 to 64 at.%, with the peak temperature (1322 • C) achieved at 30-31% Zr. At 574-576 • C, the BCC2 transforms to HCP and BCC1 through a eutectoid reaction.  C, which results in BCC2 to completely transform to a Zr-rich HCP and Ta-rich BCC1 phases, so that a two phase structure consisting of the Ta-rich BCC1 phase and Zr-rich HCP phase is predicted at room temperature (Fig. <ref type="figure" target="#fig_13">13b</ref>). The sequence of the phase transformations shown in Fig. <ref type="figure" target="#fig_13">13b</ref> suggests that the Ta-rich BCC1 phase is present in the form of precipitates in the Zr-rich matrix, in agreement with the experiment. The volume fractions and compositions of the equilibrium phases present at selected temperatures are given in Table <ref type="table" target="#tab_2">4</ref>. The equilibrium concentration of Ta in BCC1 increases from 58.7% to 82.7%  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>According to CALPHAD calculations and the microstructure analysis, T = 1400 • C, at which the TaTiZr alloy was HIP'd, corresponds to a   single-phase BCC range. Holding at this temperature for 3 h was sufficient to homogenize the TaTiZr alloy and achieve the even distribution of the constituent elements in different regions of the produced alloy sample. During slow cooling from 1400 • C to room temperature (RT), phase transformations occurred, and at RT the equiatomic TaTiZr alloy consisted of two major phases: Zr-rich BCC matrix and Ta-rich BCC nano-precipitates. Ti prefers to partition in the Zr-rich phase, however, it is also present in a rather large amount, ~27 at.%, in the Ta-rich phase. The BCC phase separation is typical to the alloys containing Ta and Zr and is due to the miscibility gap, like shown in Fig. <ref type="figure" target="#fig_13">13a</ref>, formed in certain temperature and composition ranges due to repulsive interaction between these elements <ref type="bibr" target="#b19">[19,</ref><ref type="bibr" target="#b29">29,</ref><ref type="bibr" target="#b39">39]</ref>. The compositions and volume fractions of the Ta-rich precipitates and the Zr-rich matrix measured in the HIP'd alloy sample (Table <ref type="table">3</ref>) are close to the CALPHAD calculated compositions and volume fractions of the equilibrium BCC1 and BCC2 phases at temperatures between 800 • C and 1130 • C (Table <ref type="table" target="#tab_2">4</ref>). Based on this observation, one can suggest that the microstructure of the HIP'd alloy observed at room temperature is likely a metastable one quenched from the temperature range 800-1130 • C during cooling after HIP. Slow furnace cooling did not provide enough time for diffusion to achieve equilibrium conditions below 800 • C, and the eutectoid transformation of the Zr-rich BCC phase to the Zr-rich HCP and Ta-rich BCC phases, expected near ~575 • C, did not occur. Instead, the Zr-rich metastable BCC matrix experienced an athermal transformation to two variants of the omega phase. Rather wide X-ray diffraction peaks from the Zr-rich matrix (Fig. <ref type="figure" target="#fig_2">2</ref>) suggest that this transformation caused noticeable lattice distortions and was likely responsible for twinning observed in the Zr-rich matrix phase. In fact, twins and omega phase are often observed together in metastable BCC alloys based on Ti or Zr <ref type="bibr" target="#b34">[34,</ref><ref type="bibr" target="#b36">36]</ref>.</p><p>On initial inspection, the morphology of the two-phase BCC structure  in TaTiZr looks similar to that in the earlier reported refractory based superalloys (RSAs), such as AlMo 0.5 NbTa 0.5 TiZr <ref type="bibr" target="#b18">[18,</ref><ref type="bibr" target="#b19">19,</ref><ref type="bibr" target="#b40">40]</ref>, Al 0.3 Nb-TaTi 1.4 Zr 1.3 <ref type="bibr" target="#b41">[41]</ref> and Al 0.5 NbTa 0.8 Ti 1.5 V 0.2 Zr <ref type="bibr" target="#b42">[42,</ref><ref type="bibr" target="#b43">43]</ref>, and ternary Ta 55-X Ti 45 Zr X (X = 20, 30 or 40 at.%) alloys <ref type="bibr" target="#b29">[29]</ref>. In particular, the crystallographic orientations of the matrix phase and precipitates are the same, which may indicate that these phases are coherent. However, the lattice parameter difference of the BCC1 and BCC2 phases in TaTiZr is rather large, ~4.9%, while in RSAs it is much smaller, in the range of 0.6-2.4% <ref type="bibr" target="#b41">[41]</ref>. A more detailed analysis shows that the microstructures in RSAs and ternary Ta-Ti-Zr are not the same. For example, the coherent, Zr-rich matrix and Ta-rich precipitates in RSAs are ordered B2 and disordered BCC structures, respectively, and the precipitates are aligned in rows along &lt;100&gt; crystallographic directions. The B2 ordering of the Zr-rich phase and the precipitate alignments along &lt;100&gt; crystallographic directions have been shown earlier to be due to, respectively, the presence of Al and its attractive interaction with Zr and a spinodal decomposition of the high-temperature BCC phase in RSAs <ref type="bibr" target="#b19">[19]</ref>. On the other hand, the Zr-rich matrix in TaTiZr and Ta 55-X Ti 45 Zr X (X = 20, 30 or 40 at.%) has a disordered BCC structure, and the &lt;100&gt; alignment of the Ta-rich BCC precipitates is present only in some local areas and is destroyed at larger distances (Figs. <ref type="figure" target="#fig_3">3</ref> and<ref type="figure">4</ref>). Another characteristic microstructural feature of TaTiZr is the presence of a cellular microstructure (domains) inside former grains of the high-temperature BCC phase, with quite different orientations and morphologies of the Ta-rich precipitates inside each domain (Fig. <ref type="figure" target="#fig_3">3</ref>). The specific morphologies suggest that the Ta-rich precipitates in TaTiZr have elongated ellipsoidal shapes, while in RSAs they have a cuboidal or globular configurations <ref type="bibr" target="#b18">[18,</ref><ref type="bibr" target="#b19">19,</ref><ref type="bibr" target="#b40">40,</ref><ref type="bibr" target="#b42">42,</ref><ref type="bibr" target="#b43">43]</ref>. The average diameter of these cells/domains (~4 μm) is about 80 times smaller than the average diameter of the high-temperature BCC phase grains (~320 μm) and the boundaries between the nearest domains are free of the Ta-rich precipitates (Fig. <ref type="figure" target="#fig_3">3 b,</ref><ref type="figure">c</ref>). Additional work is required to understand the origin of these domains. For now, we can suggest that they may form by buildup elastic coherency strains developed during spinodal decomposition of the high-temperature BCC phase in two BCC phases with noticeably different chemical composition and lattice parameters.</p><p>It is well known that precipitation of the omega phase in alloys with a metastable BCC structure may considerably increase strength but reduce ductility or even cause brittleness <ref type="bibr" target="#b34">[34,</ref><ref type="bibr" target="#b35">35]</ref>. Therefore, the high yield stress and low ductility of the TaTiZr alloy at 25 • C and 400 • C are likely due to the presence of the omega-phase nano-precipitates in the Zr-rich matrix. Plastic yielding starts when applied stress becomes sufficient to move dislocations through these precipitates, likely by a cross-cutting mechanism. Failure of TaTiZr at these two temperatures occurs by shear due to strain localization along the direction inclined to the compression direction at an angle of about 40-50 • . There can be at least two reasons for the failure by shear strain localization almost immediately after plastic yielding, namely (a) considerable decrease in strength in the regions where dislocations cut the omega precipitates and (b) adiabatic heating due to large elastic energy dissipation and lattice friction in the strain-localized region <ref type="bibr" target="#b44">[44]</ref><ref type="bibr" target="#b45">[45]</ref><ref type="bibr" target="#b46">[46]</ref><ref type="bibr" target="#b47">[47]</ref>.</p><p>No strain localization and shear failure occurred at temperatures ≥600 • C and the alloy achieved high compression strains without failure, which can be explained by reverse transformation of the omega phase to BCC. Indeed, according to the calculated equilibrium phase diagram (Fig. <ref type="figure" target="#fig_13">13</ref>), TaTiZr experiences a eutectoid phase transformation at T ~ 575 • C and formation of the omega phase is likely caused by suppressing this equilibrium transformation during the cooling event, as it was discussed earlier. Therefore, consecutive heating above this temperature moves the Zr-rich BCC phase to an equilibrium state, and the omega phase becomes highly metastable. It is likely that some omega was still present due to slow transformation kinetics at the beginning of deformation at 600 • C providing noticeable strain hardening and a relatively high peak stress, but it dissolves due to strain-activated diffusion at later stages of deformation, causing perceptible softening (Fig. <ref type="figure" target="#fig_1">1b</ref>). A considerable drop in strength between 600 • C and 800 • C is likely caused by complete disappearance of the omega phase and returning the Ta-rich and Zr-rich BCC phases to their equilibrium conditions. According to the equilibrium phase diagram, TaTiZr is a twophase BCC structure during compression deformation at 800 • C, 1000 • C and 1200 • C, at the volume fractions of the Ta-rich phase of 0.55, 0.51 and 0.41, respectively. The omega phase observed in the sample deformed at 1200 • C (Fig. <ref type="figure" target="#fig_2">2</ref>) seems to form during cooling after  deformation.</p><p>Despite the two-phase structure, the alloy has a rather low high temperature yield stress, which is 346 MPa at 600 • C, 157 MPa at 800 • C, 103 MPa at 1000 • C and 63.1 MPa at 1200 • C. Such hightemperature deformation behavior of TaTiZr is drastically different from the behavior of two-phase RSAs, in which a Zr-rich phase has an ordered B2 structure <ref type="bibr" target="#b1">[1,</ref><ref type="bibr" target="#b18">18]</ref>. For example, an AlMo 0.5 NbTa 0.5 TiZr RSA is considerably stronger than TaTiZr over the temperature range from 25 • C to 1200 • C (Fig. <ref type="figure" target="#fig_14">14</ref>), likely due to stronger interactions of dislocations with the ordered matrix. When the yield stress of TaTiZr is compared to that of NbTiZr and HfNbTaTiZr, which are single-phase BCC structures, it can be found that TaTiZr is stronger at 25 • C and 400 • C, likely due to the presence of the omega phase; but it becomes weaker at 600-1000 • C; while at 1200 • C the yield stress of these three alloys is almost the same (Fig. <ref type="figure" target="#fig_14">14</ref>). This comparative analysis indicates that the two-phase structure consisting of the disordered and coherent BCC1 and BCC2 phases is not effective for HT strengthening of TaTiZr. At T ≥ 600 • C dislocations can easily move inside these phases without experiencing strong interactions with phase interfaces, which gain mobility and additionally contribute to softening becoming effective sinks and sources for dislocations with increasing temperature. The solid solution strengthening effects are also weak in both BCC phases of TaTiZr at these temperatures because the element partitioning between the phases effectively reduces elastic lattice distortions caused by different atomic radii of the alloying elements. Indeed, using atomic radii <ref type="bibr" target="#b33">[33]</ref> and concentrations of the alloying elements in BCC1 and BCC2 phases, as well as the volume fractions of these phases, e.g. at 800 • C (Table <ref type="table" target="#tab_2">4</ref>), the crystal lattice distortions δ in BCC1 and BCC2 phases are estimated to be 2.3% and 4.7%, respectively, with the average value for TaTiZr to be δ TaTiZr = 3.4%. These lattice distortion values are noticeably smaller than those in NbTiZr (δ NbTiZr = 5.0%) and HfNbTaTiZr (5.0%). Here, δ is given by the following Equation <ref type="bibr" target="#b48">[48]</ref>:</p><formula xml:id="formula_1">δ = 100% × ̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ∑ c i ( 1 - r i r ) 2 √ (1)</formula><p>where c i and r i are atomic fraction and atomic radius of element i and r = ∑ c i r i is the average atomic radius.</p><p>It is interesting to note that NbTiZr and HfNbTaTiZr have the same δ and almost the same temperature dependence of the yield stress, which suggests that the strength of these alloys is almost entirely controlled by the crystal lattice distortion. With increasing temperature above ~0.6 of the absolute melting temperature the solid solution strengthening of RCCAs drops rapidly due to activation of diffusion-related processes <ref type="bibr" target="#b2">[2]</ref>. According to the CALPHAD analysis, melting (solidus) temperatures of TaTiZr, NbTiZr and HfNbTaTiZr are 1650 • C (1923K), 1688 • C (1961K) <ref type="bibr" target="#b2">[2]</ref> and 1882 • C (2155K) <ref type="bibr" target="#b2">[2]</ref>, respectively. Therefore, the solid solution strengthening effect is expected to start deteriorating at temperatures above 880 • C in TaTiZr, 900 • C in NbTiZr and 1020 • C in HfNbTaTiZr, in agreement with experiment, and at 1200 • C these alloys become equally strong.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>An extensive study of the microstructure, phases and compression mechanical properties of TaTiZr was conducted and the following results were reported.</p><p>In the equilibrium condition upon cooling, TaTiZr solidifies in a single-phase BCC structure at T = 1650 • C. The single-phase BCC region is present at temperatures down to 1320 • C. The high-temperature BCC transforms to the Ta-rich BCC1 and Zr-rich BCC2 below 1320 • C. The alloy experiences eutectoid transformation at 576-574 • C and consists of the Ta-rich BCC1 and Zr-rich HCP at lower temperatures.</p><p>After hot isostatic pressing (HIP) at 1400 • C for 3 h followed by slow cooling at 15 • C/min to room temperature TaTiZr has a metastable structure quenched from ~800 to 1130 • C and consisted of coherent, disordered Ta-rich BCC1 submicron-sized particles inside the Zr-rich BCC2 matrix phase. omega-phase nanoprecipitates and twins are also present inside the matrix phase.</p><p>In the HIP condition, TaTiZr has high yield stress, 1671 MPa and 1440 MPa, at 25 • C and 400 • C, respectively, but its fracture by localized shear occurs almost immediately after plastic yielding at these temperatures. Such behavior was related to the presence of metastable solid solutions and brittle omega phase.</p><p>During deformation at T ≥ 600 • C the alloy becomes very ductile, but its yield stress drops to 346 MPa at 600 • C and 103 MPa at 1000 • C. This remarkable softening in the temperature range between 400 • C and 600 • C was correlated with disappearance of the omega phase and approaching the phase equilibrium.</p><p>The presence of coherent disordered Ta-rich BCC1 precipitates in the disordered Zr-rich BCC2 matrix is not beneficial for the hightemperature strength of TaTiZr. Two-phase refractory superalloys containing an ordered B2 matrix phase and coherent disordered BCC precipitates are much stronger at high temperatures.  <ref type="bibr" target="#b1">[1,</ref><ref type="bibr" target="#b41">41]</ref> and single-phase BCC alloys NbTiZr (Δ) <ref type="bibr" target="#b24">[24]</ref> and HfNbTaTiZr (◊) <ref type="bibr" target="#b9">[9]</ref>.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>2/3 from the {112} BCC2 diffraction spots in SADPs taken along the [110] BCC and [113] BCC zone axes (Fig.5 c, d). These weak diffraction spots are indicative of the presence of the omega (ω) phase commonly reported in Ti and Zr alloys with a metastable BCC crystal structure<ref type="bibr" target="#b34">[34,</ref><ref type="bibr" target="#b35">35]</ref>. The omega phase has a hexagonal crystal structure with the lattice parameters a ω = ̅̅̅ 2 √ a BCC2 = 494 pm and c ω = ̅̅ 3 √ 2 a BCC2 = 302 pm (c/a = 0.61). Two rotation variants (ω1 and ω2)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. True stress vs. true strain compression curves of TaTiZr alloy: (a) T = 25 • C and 400 • C; (b) T = 600 • C, 800 • C, 1000 • C and 1200 • C.</figDesc><graphic coords="3,92.13,55.39,410.98,147.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. X-ray diffraction patterns of the TaTiZr alloy in HIP'd condition (HIP) and after deformation at 400 • C, 600 • C, 800 • C, 1000 • C and 1200 • C. The intensity is given in a logarithmic scale to identify weak diffraction peaks.</figDesc><graphic coords="3,42.46,336.38,241.34,243.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. (a-d) Backscattered electron images of the microstructure of TaTiZr alloy at different magnifications showing different microstructural features: (a) the grain structure of the matrix phase; (b) cellular/domain structure and precipitates of secondary phases inside the matrix grains; (c) precipitate morphology in two nearest domains; (d) junction of three matrix grains with precipitates inside the grains and at grain boundaries. (e-g) elemental maps of the area shown in Fig. 3d: (e) Ta; (f) Ti and (g) Zr.</figDesc><graphic coords="4,92.13,55.44,410.98,378.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>2 Fig. 4 .</head><label>24</label><figDesc>Fig. 4. STEM-XEDS images of the TaTiZr alloy showing (a) overall morphology of the Ta-rich precipitates (bright) in the Zr-rich matrix (dark) and (b-d) respective component maps (b -Ta, c-Ti, d-Zr).</figDesc><graphic coords="4,92.24,600.99,410.98,115.78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. (a) Bright field and dark field TEM images of the annealed TaTiZr specimen. (c, d) Selected electron area diffraction patterns taken from the studied area under different diffraction conditions corresponding to the BCC phase zone axes (c) [110] and (d) [113]. Diffraction spots from two coherent BCC phases, two variants of the ω phase (ω 1 and ω 2 ) related to the BCC2 phase, and (211)[ 111] twins, also related to the BCC2 phase, are identified. Reciprocal unit cells from the matrix (white dashed lines), twins (yellow) and two variants of omega phase (cyan) are also shown on SADPs. In Figure (c) the diffraction spot (1011) ω1 , which was used to take the dark field image (Figure (b)), is circled. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)</figDesc><graphic coords="5,92.13,55.40,410.98,395.14" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. SEM images of the fracture surfaces of TaTiZr samples after compression deformation and fracture at (a-c) 25 • C and (d-f) 400 • C. (a, d) Quasi-cleaved, trans-granular fracture is revealed at low magnification. Shallow dimples (b) and/or smeared particles (c) are observed at higher magnifications in the 25 • C deformed sample. Larger dimples (d) and fracture along the channels between the secondary particles (f) are observed at higher magnifications in the 400 • C deformed sample. The projection of the shear direction is vertical.</figDesc><graphic coords="6,37.59,55.67,369.79,385.34" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Backscattered electron images of the microstructure of TaTiZr alloy after compression deformation at 600 • C: (a) low magnification image showing elongated grains of the matrix and (b) higher magnification image of the grain interior showing precipitates of the secondary phases.</figDesc><graphic coords="6,92.13,472.92,410.98,130.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Backscattered electron images of the microstructure of TaTiZr alloy after compression deformation at 800 • C: (a) low magnification image showing elongated grains of the matrix and (b) higher magnification image of the grain interior showing precipitates of the secondary phases.</figDesc><graphic coords="7,92.13,55.44,410.98,130.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. (a) Backscattered electron image and (b-d) composition maps of (b) Ta, (c) Ti and (d) Zr in a TaTiZr sample after deformation at 1000 • C.</figDesc><graphic coords="7,92.13,233.79,410.98,94.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. (a) Backscattered electron image and (b-d) EBSD images of a TaTiZr sample after deformation at 1000 • C: (b) Phase map, BCC phases are blue and HCP phase is green; (c) Inverse pole figure map of grains of the BCC phases (HCP phase is dark). The color-coded IPF key for the BCC phase is shown as an insert in figure (c). (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)</figDesc><graphic coords="7,92.13,366.25,410.98,283.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 11 .</head><label>11</label><figDesc>Fig. 11. Backscattered electron images of the microstructure of TaTiZr alloy after compression deformation at 1200 • C: (a) low magnification image showing elongated grains of the matrix and (b,c) higher magnification images of the grain interior showing precipitates of the secondary phases, including anomalously grown precipitates of a Ta-rich phase.</figDesc><graphic coords="8,92.24,55.40,410.83,265.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 12 .</head><label>12</label><figDesc>Fig. 12. Calculated isothermal projections of the Ta-Ti-Zr equilibrium phase diagram at (a) 400 • C, (b) 600 • C and (c) 800 • C, 1200 • C and 1400 • C [32]. The lines on the projections are boundaries between different phase fields. On figure (c), the red solid lines correspond to 800 • C, blue dash-dotted line corresponds to 1200 • C and dark dashed line to 1400 • C. A solid circle in the middle of the projections corresponds to the equiatomic TaTiZr composition. The crosses correspond to compositions studied by Whitfield et al. [29]. (For interpretation of the references to color in this figure legend, the reader is referred to the Web version of this article.)</figDesc><graphic coords="8,92.13,378.22,410.98,131.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 13 .</head><label>13</label><figDesc>Fig. 13. Calculated (a) Ta-Ti-Zr phase diagram projection at 33.3 at.% Ti and (b) phase linear projection (phase volume fraction vs. temperature) of the equiatomic TaTiZr alloy.</figDesc><graphic coords="9,92.13,55.39,410.98,172.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Fig. 14 .</head><label>14</label><figDesc>Fig. 14. Temperature dependence of the yield stress (σ y ) of the TaTiZr alloy (present work, o) is compared with that of the AlMo 0.5 NbTa 0.5 TiZr RSA (□)<ref type="bibr" target="#b1">[1,</ref><ref type="bibr" target="#b41">41]</ref> and single-phase BCC alloys NbTiZr (Δ)<ref type="bibr" target="#b24">[24]</ref> and HfNbTaTiZr (◊)<ref type="bibr" target="#b9">[9]</ref>.</figDesc><graphic coords="10,318.16,55.42,227.95,161.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 4</head><label>4</label><figDesc>Volume fraction, V f , and composition (in at.%) of equilibrium phases present at 400 • C, 600 • C, 800 • C, 1000 • C and 1200 • C in TaTiZr, according to the PANDAT CALPHAD software package<ref type="bibr" target="#b32">[32]</ref>.</figDesc><table><row><cell>T, • C</cell><cell>Phase ID</cell><cell>V f</cell><cell>Ta</cell><cell>Ti</cell><cell>Zr</cell></row><row><cell>400</cell><cell>BCC1</cell><cell>0.58</cell><cell>90.7</cell><cell>8.8</cell><cell>0.5</cell></row><row><cell></cell><cell>HCP</cell><cell>0.42</cell><cell>0.3</cell><cell>47.4</cell><cell>52.3</cell></row><row><cell>600</cell><cell>BCC1</cell><cell>0.57</cell><cell>82.7</cell><cell>15.6</cell><cell>1.7</cell></row><row><cell></cell><cell>BCC2</cell><cell>0.43</cell><cell>2.8</cell><cell>44.3</cell><cell>52.9</cell></row><row><cell>800</cell><cell>BCC1</cell><cell>0.55</cell><cell>75.9</cell><cell>20.4</cell><cell>3.7</cell></row><row><cell></cell><cell>BCC2</cell><cell>0.45</cell><cell>6.1</cell><cell>41.6</cell><cell>52.3</cell></row><row><cell>1000</cell><cell>BCC1</cell><cell>0.51</cell><cell>68.4</cell><cell>24.4</cell><cell>7.1</cell></row><row><cell></cell><cell>BCC2</cell><cell>0.49</cell><cell>11.4</cell><cell>38.3</cell><cell>49.7</cell></row><row><cell>1130</cell><cell>BCC1</cell><cell>0.46</cell><cell>62.6</cell><cell>26.8</cell><cell>10.6</cell></row><row><cell></cell><cell>BCC2</cell><cell>0.54</cell><cell>16.8</cell><cell>37.0</cell><cell>46.2</cell></row><row><cell>1200</cell><cell>BCC1</cell><cell>0.41</cell><cell>58.7</cell><cell>28.0</cell><cell>13.3</cell></row><row><cell></cell><cell>BCC2</cell><cell>0.59</cell><cell>20.8</cell><cell>35.9</cell><cell>43.3</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>Technical assistance by <rs type="person">S. Boone</rs>, <rs type="person">L. Griffith</rs> and <rs type="person">R. Turner</rs> and extensive discussions with <rs type="person">Drs. D. Miracle</rs>, <rs type="person">T. Butler</rs>, <rs type="person">S. Rao</rs>, <rs type="person">H. Fraser</rs> and <rs type="person">G. Viswanathan</rs> are greatly appreciated. Work by <rs type="person">O.N. Senkov</rs> and</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The raw/processed data required to reproduce these findings are available from the authors upon a reasonable request.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<title level="m">Shank was supported through the Air Force on-site contract FA8650-15-D-5230 managed by UES</title>
+		<meeting><address><addrLine>Dayton, Ohio</addrLine></address></meeting>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Development and exploration of refractory high entropy alloys: a review</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Couzinie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page" from="3092" to="3128" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">High temperature strength of refractory complex concentrated alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gorsse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="394" to="405" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Mapping the world of complex concentrated alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gorsse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="177" to="187" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">High temperature oxidation behaviors of equimolar NbTiZrV and NbTiZrCr refractory complex concentrated alloys (RCCAs)</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Dietrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">729</biblScope>
+			<biblScope unit="page" from="1004" to="1019" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">On the oxidation mechanism of refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Butz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kauffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corrosion Sci</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Exploration and development of high entropy alloys for structural applications</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Uchic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tiley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="494" to="525" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Accelerated exploration of multi-principal element alloys for structural applications</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Calphad Comput. Coupling Phase Diagrams Thermochem</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="32" to="48" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Microstructure and room temperature properties of a high-entropy TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page" from="6043" to="6048" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Microstructure and elevated temperature properties of a refractory TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="4062" to="4074" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Enhanced mechanical properties of HfMoTaTiZr and HfMoNbTaTiZr refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="76" to="83" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Solution strengthening of ductile refractory HfMoxNbTaTiZr high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-K</forename><surname>Tseng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-L</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="284" to="287" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of refractory MoNbHfZrTi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="87" to="94" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Senary refractory high-entropy alloy HfNbTaTiVZr</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="3333" to="3345" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">An ab initio and experimental studies of the structure, mechanical parameters and state density on the refractory high-entropy alloy systems</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Mu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">714</biblScope>
+			<biblScope unit="page" from="668" to="680" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Novel TiNbTaZrMo high-entropy alloys for metallic biomaterials</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Todai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsugaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sekita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="65" to="68" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Effect of Al addition on mechanical properties and microstructure of refractory AlxHfNbTaTiZr alloys</title>
+		<author>
+			<persName><forename type="first">C.-M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">624</biblScope>
+			<biblScope unit="page" from="100" to="107" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Design of refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Carney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Doan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Jablonksi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Alman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2653" to="2669" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Development of a refractory high entropy superalloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Isheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Seidman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pilchak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">102</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Compositional variation effects on the microstructure and properties of a refractory high-entropy superalloy AlMo0.5NbTa0.5TiZr</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pilchak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="498" to="511" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">TiZrNbTaMo high-entropy alloy designed for orthopedic implants: as-cast microstructure and mechanical properties</title>
+		<author>
+			<persName><forename type="first">S.-P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="80" to="89" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Phase-transformation ductilization of brittle high-entropy alloys via metastability engineering</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">30</biblScope>
+			<biblScope unit="page">1701678</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Thermodynamic assessment of the Ti-Zr system and calculation of the Nb-Ti-Zr phase diagram</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C H</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wollants</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Delaey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">206</biblScope>
+			<biblScope unit="page" from="121" to="127" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Compositional effect on microstructure and properties of NbTiZr-based complex concentrated alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">151</biblScope>
+			<biblScope unit="page" from="201" to="215" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">CALPHAD-aided development of quaternary multi-principal element refractory alloys based on NbTiZr</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pilchak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Payton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">783</biblScope>
+			<biblScope unit="page" from="729" to="742" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">New ternary equi-atomic refractory medium-entropy alloys with tensile ductility: hafnium versus titanium into NbTa-based solution</title>
+		<author>
+			<persName><forename type="first">S.-P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="15" to="23" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Modeling solution hardening in BCC refractory complex concentrated alloys: NbTiZr, Nb1.5TiZr0.5 and Nb0.5TiZr1</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Akdim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Antillon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Parthasarathy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="222" to="236" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Microstructure and room temperature mechanical properties of different 3 and 4 element medium entropy alloys from HfNbTaTiZr system</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zyka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Malek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vesely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lukac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cízek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kuriplach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Melikhova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">114</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Calculation of isothermal sections of three ternary Ti-Zr-X systems</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Delaey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">V D</forename><surname>Biest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wollants</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1411" to="1416" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Elucidating the microstructural development of refractory metal high entropy superalloys via the Ti-Ta-Zr constituent system</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Whitfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Pickering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Christofidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">818</biblScope>
+			<biblScope unit="page">152935</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Ductile Nb alloys with reduced density and cost</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">808</biblScope>
+			<biblScope unit="page">151685</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">In situ lift-out dedicated techniques using FIB-SEM system for TEM specimen preparation</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tomus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Ng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Micron</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="115" to="119" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">CompuTherm Software, Databases</title>
+		<imprint>
+			<date type="published" when="2018-01">January 2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Effect of the atomic size distribution on glass forming ability of amorphous metallic alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Bull</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="2183" to="2198" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Chapter 6 -transformations related to omega structures</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mukhopadhyay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pergamon Mater. Ser</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">471</biblScope>
+			<biblScope unit="page" from="473" to="552" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Sikka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Vohra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chidambaram</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Omega phase in materials</title>
+		<imprint>
+			<date type="published" when="1982">1982</date>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="245" to="310" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Deformation induced hierarchical twinning coupled with omega transformation in a metastable β-Ti alloy</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Mantri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Choudhuri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Prima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">1334</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Mechanical twinning and omega transition by {111} {112} shear in a metastable beta titanium alloy</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page">31908</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Casillas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Gazder</surname></persName>
+		</author>
+		<title level="m">Twins or the omega phase: which is it in high carbon steels? Scripta Mater</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">186</biblScope>
+			<biblScope unit="page" from="293" to="297" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Phase diagram and thermochemical properties of the Zr-Ta system. An assessment based on Gibbs energy modelling</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Guillermet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="page" from="174" to="184" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Welk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E A</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Sosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Huber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Viswanathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+		<title level="m">Characterization of the microstructure of the compositionally complex alloy AlMo 0.5 NbTa 0.5 TiZr, Scripta Mater</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties of aluminum-containing refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2030" to="2042" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Phase stability as a function of temperature in a refractory highentropy alloy</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Soni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Viswanathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="3235" to="3246" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Microstructural design for improving ductility of an initially brittle refractory high entropy alloy</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Soni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">8816</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Chapter 2 beta titanium alloys</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Terlinde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Titanium and Titanium Alloys</title>
+		<editor>
+			<persName><forename type="first">C</forename><surname>Leyens</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><surname>Peters</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Darmstadt, Germany</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley-VCH</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page" from="37" to="58" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Adiabatic shear banding under pure shear loading</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Giovanola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mech. Mater</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="59" to="71" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Adiabatic Shear Localization</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dodd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Elsevier</publisher>
+			<pubPlace>London, UK</pubPlace>
+		</imprint>
+	</monogr>
+	<note>second ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Thermomechanical studies of yielding and strain localization phenomena of gum metal under tension</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Pieczyska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Golasiński</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Staszczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Furuta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kuramoto</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">A critical review of high entropy alloys and related concepts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="448" to="511" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

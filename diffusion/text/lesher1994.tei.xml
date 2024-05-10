@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Kinetics of Sr and Nd exchange in silicate liquids: Theory, experiments, and applications to uphill diffusion, isotopic equilibration, and irreversible mixing of magmas</title>
+				<funder ref="#_ZrT3aEW">
+					<orgName type="full">DOE/BES</orgName>
+				</funder>
+				<funder ref="#_6P65yHr">
+					<orgName type="full">National Science Foundation</orgName>
+					<orgName type="abbreviated">NSF</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Geology</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Davis</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Kinetics of Sr and Nd exchange in silicate liquids: Theory, experiments, and applications to uphill diffusion, isotopic equilibration, and irreversible mixing of magmas</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3E09974924D5484F1A3B8907B715FD21</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Diffusion coefficients that govern chemical and isotopic exchange of Sr and Nd were determined from compositional profiles developed between juxtaposed anhydrous basaltic and rhyolitic liquids. Analysis of simple diffusion couples involving isotopically enriched and normal tholeiitic basalt and metaluminous rhyolite recover Sr and Nd self-diffusion coefficients (D*) in the end-member compositions of contrasting polymerization. Self-diffusion of Sr is 7 times faster in basaltic melt than rhyolitic melt at 1255øC and 1 GPa, while self-diffusion of Nd is more than 1 order of magnitude greater in basalt than rhyolite. Also, at these conditions, D•r is a factor of 3 greater than D•q d in basalt and an order of magnitude greater than D•q d in rhyolite. Variations in D•r and D•q d with bulk composition and temperature between 1255ø-1465øC are described by In D•r = -16.25 -(16348/T) + 8.02(0.73 -Xsio2) and In D•q d = -13.73 -(23875/T) + 14.43(0.73 -Xsi%), where the units of D* are square meters per second, T is temperature in kelvins, and X si % is weight fraction silica. The results of a Boltzmann-Matano analysis of 87Sr/ESr and 144Nd/ENd profiles of complex diffusion couples composed of isotopically normal basalt and enriched rhyolite yield diffusion coefficients for intermediate bulk compositions in agreement with interpolated values given by the relationships above. An important feature of the interdiffusion of basaltic and rhyolitic liquids is the equilibration of isotopic composition in advance of chemical homogenization. This behavior is best displayed by Sr in the present experiments and predicted for Nd. In addition, Sr, Nd, and A1 show initial periods of uphill diffusion, while other melt components diffuse down their respective concentration gradients leading to chemical homogenization. Despite uphill diffusive effects, the rate of chemical homogenization is slow and approximated by the effective BM binary diffusion coefficient for silica, that is, In Dsi•2 = -6.70 -(31195/T) + 12.28(0.52 -Xsi%). Chemical fluxes of Sr and Nd are calculated using Darken's (1948) equation, that is, D? = D•[1 + (d In 'Yi/d In xi)], relating the chemical diffusion coefficient for species i(D?) defined by Fick's law to the self-diffusion coefficient (D?) for the species and the variation in the species' activity coefficient, ¾i, with concentration x i along the diffusional pathway. Parameters of the Darken equation are provided in this study and from the literature. Simulations of interdiffusion of basalt and rhyolite quantitatively reproduce salient features of the present experiments including (1) the initial stage of Sr and Nd uphill diffusion into silica-poor regions of couples followed by back diffusion into silica-rich regions, (2) strong asymmetry in the evolving Sr and Nd isotopic profiles, and (3) equilibration of isotopic composition in advance of bulk chemical composition. These results are considered in a magmatic context, where intimate blending of magmas during mixing is frustrated by large rheological contrasts and/or insufficient exposure time. Time-dependent diffusional exchange between mingling magmas leads to covariations in chemical and isotopic compositions that differ markedly from the expectations of bulk mixing. Examples presented offer alternative interpretations for the compositional relationships found among magmatic rocks of hybrid origin.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head> <ref type="bibr" target="#b61">Wiebe, 1973</ref><ref type="bibr" target="#b62">Wiebe, , 1980]]</ref><p>. In these studies it was found that the alkalies, in particular, were locally redistributed, while in other respects the magmas remained largely unmodified. More recent field and geochemical studies show that in addition to the alkalies other mobile silicate species are redistributed during interaction at magmatic conditions and that isotopic compositions can be modified selectively [Bacon and Metz, 1984; <ref type="bibr" target="#b15">Grove et al., 1988;</ref><ref type="bibr" target="#b0">Allen, 1991;</ref><ref type="bibr">Blichert-Tort et al., 1992;</ref><ref type="bibr" target="#b52">Stewart and DePaolo, 1992]</ref>. At one extreme, magma mixing and/or contamination can be regarded as a completely efficient process resulting in the formation of new compositions intermediate between the end-member components. The compositional spectrum generated by sequentially mixing different proportions of the end-members results in end products with compositions conforming to the expectations of well-established bulk mixing relations <ref type="bibr" target="#b26">[Langmuir et al., 1978]</ref>. Models of bulk mixing fulfill the essential requirement of material balance and provide a useful reference against which to contrast geochemical data of comagmatic rocks. The challenge facing petrologists is to establish case by case whether deviations from the predictions of bulk mixing are due to (1) spatial or temporal changes in the composition of one or more of the end-member mixing components, (2) partial and variable reaction among commingled magmas (as well as with host rocks), or (3) the operation of additional processes.</p><p>Mixing of miscible fluids involves the mechanical stretching and folding of the admixture <ref type="bibr" target="#b39">[Ottino, 1989]</ref>. Mechanical deformation of the admixture does not alter composition but can lead to an increase in interfacial area between mingled phases and a reduction in the length scale of compositional heterogeneities that distinguish them. Changes in composition of a given domain are achieved by diffusional exchange with the immediate surroundings. Because molecular diffusion coefficients for silicate melt are small (10-1ø-10 -14 m 2 s -1) <ref type="bibr" target="#b18">[Hofmann, 1980;</ref><ref type="bibr" target="#b58">Watson and Baker, 1991]</ref>, chemical modification by diffusion is possible only on a local scale (i.e., meters or less) before most magma bodies solidify (10 3 to 105 years) <ref type="bibr" target="#b38">[Oldenburg et al., 1989</ref>]. Likewise, differences in rheology and density of mingled magmas give rise to mechanical forces that promote segregation and isolation of partially reacted magmas <ref type="bibr" target="#b21">[Huppert and Sparks, 1980;</ref><ref type="bibr" target="#b37">McBirney et al., 1985;</ref><ref type="bibr" target="#b38">Oldenburg et al., 1989</ref>]. Obstacles to intimate mixing imposed by transport kinetics and rheology suggest that chemical and isotopic heterogeneities are likely to persist on length scales of more than a meter in all but the most vigorously convecting, long-lived magmatic systems. How then do hybrid magmas produced during the transient stages of mixing relate to one another and to the end-member compositions from which they evolved? Moreover, can we use insights gained from examination of hybridized magmas to constrain the scales (time and length) of mixing processes and the compositions of end-members that do not survive unmodified? These questions serve as focus for the following study of the transport properties of two important magmatic tracers of differentiation, Sr and Nd.</p><p>Preliminary results of this work were reported by <ref type="bibr" target="#b28">Lesher [1990]</ref>. In this expanded study I first present a theoretical framework for quantitatively modeling diffusion of trace constituents in multicomponent systems, drawing on Darken's <ref type="bibr">[ 1948]</ref>  Holmann <ref type="bibr">[1980]</ref> suggested that, in practice, self-diffusion and tracer diffusion coefficients for silicate liquids give similar measures of the intrinsic mobility of a component, although values may differ depending on whether material transport occurs along interstitial pathways, among structural vacancies, or by interchange of nearest neighbors. In contrast, chemical diffusion occurs when either the concentration of the impurity becomes sufficiently elevated to induce activity gradients in other chemical species or preexisting compositional gradients cause nonideal behavior of the impurity. As such, tracer diffusion and chemical diffusion are mutually exclusive in the sense that the governing diffusion coefficients cannot be measured concurrently. <ref type="bibr" target="#b10">Darken [1948]</ref> proposed that for multicomponent diffusion the velocity of a given atom in the presence of other concentration gradients may be expressed as a product of the force acting on the species in the potential field and the velocity per unit force. The force acting on a single atom is the negative gradient of chemical potential divided by Avogadro's number, while the velocity of the species per unit force is referred to as the mobility. The amount (in grams) of species i passing through a unit area normal to the diffusion direction z per unit time is  <ref type="bibr" target="#b45">, 1974;</ref><ref type="bibr" target="#b45">Sato, 1974;</ref><ref type="bibr" target="#b57">Watson, 1982;</ref><ref type="bibr" target="#b59">Watson and Jurewicz, 1984;</ref><ref type="bibr" target="#b24">Johnston and Wyllie, 1988;</ref><ref type="bibr" target="#b25">Koyaguchi, 1989;</ref><ref type="bibr" target="#b65">Zhang et al., 1989</ref>]. These field and experimental observations serve to illustrate the complexity of diffusion in magmatic systems that demand formulations of chemical diffusion coefficients such as equation (3a). Uphill diffusion is also possible due to cross coupling in certain formulations of the complete diffusion coefficient matrix, even though ideal mixing is assumed <ref type="bibr" target="#b5">[Baker, 1992]</ref>. Nevertheless, chemical fluxes, whether uphill or downhill, progress so as to reduce gradients in activity of the diffusing species. This evolution leads to reductions in the absolute magnitude of Darken diffusion coefficients and, in turn, chemical fluxes. For mobile species (large D*) the reduction of activity gradients may occur quickly and well in advance of bulk chemical homogenization of the system. <ref type="bibr" target="#b57">Watson [1982]</ref> proposed that the direction of a chemical flux along a polymerization gradient in silicate liquid can be anticipated by considering the flux required to bring the component closer to an equal activity distribution as expected if partitioning between immiscible melts. While comparisons with two-liquid partitioning are qualitative, the notion that the most mobile species of silicate liquid tend to approach isoactivity distributions rapidly during interdiffusion can be rationalized on thermodynamic grounds from <ref type="bibr" target="#b10">Darken's [1948]</ref>  </p><formula xml:id="formula_0">1 d/x• Ji -- CiM i •,<label>(la)</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Design and Procedure</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Design Considerations</head><p>The experimental techniques used in this study of silicate liquid interdiffusion are similar to previous procedures whereby starting materials of contrasting composition are juxtaposed, raised to liquidus temperatures, held isothermally for a prescribed time, and quenched to glass <ref type="bibr" target="#b28">[Lesher, 1990]</ref>. The compositional gradients developed within the interfacial region of the couple are characterized by microbeam techniques. Results from two sets of experiments are reported here. In the first set, simple diffusion couples are composed of liquids of identical chemical composition, while differing in Sr and Nd isotopic composition. In the second set, isotopically enriched rhyolite is juxtaposed to the isotopically normal basalt. Analyses of isotopic gradients persisting in these runs permit quantification of Sr and Nd selfdiffusion coefficients for end-member liquids and intermediate compositions. These latter experiments also allow for evaluations of the Darken diffusion model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Starting Materials</head><p>Natural rock powders of diabase (mafic, MF) from the early Tertiary macrodike complex located on the East Greenland continental margin and of Archaean leucogneiss (felsic, FS) hosting the body are used as nominal starting compositions (Table <ref type="table" target="#tab_0">1</ref>). This choice of starting materials is motivated by concurrent field and geochemical studies of the intrusive complex that focus on aspects of crustal contamination <ref type="bibr" target="#b6">[Blichert-Toft et al., 1992]</ref>. These starting matehals are also representative of compositional extremes invoked as end-member magma mixing components in a variety of other magmatic settings.</p><p>The nominal starting compositions (    <ref type="table" target="#tab_5">2</ref>) in which MF-R is mated to a 1:1 mix of FS-R and the nominal rock powder FS (i.e., FS-Q). A limited quantity of isotopically enriched basalt (MF-E) prepared by a similar procedure is coupled with MF-R to examine Sr and Nd selfdiffusion in the mafic end-member composition.</p><p>Starting materials are thoroughly mixed as a slurry in acetone in an agate mortar, dried overnight at 120øC under vacuum, and fused repeatedly in Fe-saturated Pt buckets suspended in a N2 atmosphere. Fusions of 15-20 min are followed by regrinding under acetone for 20 min. Powders are dried and stored with a dessicant. Bulk compositions of these glasses are given in Table <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Configurations</head><p>For self-diffusion couples the enriched starting material (&lt;30 p.m powder) is firmly packed into the lower half of a graphite capsule using a polished piston with the remainder filled with isotopically normal rock powder. For complex diffusion couples the mafic composition (MF-R) is placed beneath the felsic composition (FS-R or FS-Q) to insure a stable density configuration at run conditions. The charge is positioned at the vertical midpoint of a graphite resistance heater located within the 1/2" bore of the pressure vessel of a <ref type="bibr" target="#b7">Boyd and England [1960]</ref> piston-in-cylinder apparatus. A pressure medium of BaCO3-Cr20 3 wrapped in Pb foil surrounds the graphite heater with internal end plugs of semisintered A1203 (AN900).</p><p>Experiments are conducted at a friction-corrected pressure of 1 GPa [see Lesher <ref type="bibr" target="#b32">and Walker, 1988]</ref>. Temperature is monitored using a Pt-Pt90Rh10 thermocouple positioned 0.45 cm from the midpoint of the charge. The assembly is pressurized cold to 1.2 GPa and heated at 200øC min -• to set point.</p><p>The temperature difference between the sample midpoint and the thermocouple junction, determined under identical run conditions using a double junction thermocouple inserted into a dummy assembly, varies from 50øC at 1200øC to 70øC at 1500øC. Sample temperatures estimated from this calibration and reported in     </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Simple diffusion couples composed of FS-N mated to</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head><p>The configuration of simple and complex diffusion couples, experimental run conditions and duration, and the final disposition of the silica and Sr and Nd isotope gradients are summarized in Table <ref type="table" target="#tab_5">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Simple Diffusion Couples</head><p>Serf-diffusion profiles for end-member compositions MF and FS produced under similar experimental conditions, except run duration, are presented in Figure <ref type="figure" target="#fig_6">1</ref>  <ref type="table" target="#tab_0">of 8.8 x 10 -8</ref> and<ref type="table" target="#tab_5">1.09 x 10 -6 m 2 s -1 respec-Table 3</ref>. Sr and Nd Self-Diffusivities Determined Using Equation ( <ref type="formula">4</ref>  <ref type="figure">,</ref><ref type="figure">,</ref><ref type="figure">,</ref><ref type="figure">I ,</ref><ref type="figure">,</ref><ref type="figure">,</ref><ref type="figure">,</ref><ref type="figure">I  ,</ref><ref type="figure">,</ref><ref type="figure">,</ref><ref type="figure">,</ref><ref type="figure">I ,</ref><ref type="figure">,</ref><ref type="figure">,</ref><ref type="figure">,</ref><ref type="figure">I ,</ref><ref type="figure">,</ref><ref type="figure">,</ref><ref type="figure"></ref>   Watson <ref type="bibr">[1976]</ref> showed that values of K f/m for Sr and rare earth elements in the system fayalite-leucite-silica are less than 1 (i.e., 0.53-0.75 for Sr and 0.23-0.27 for La), indicating that the activity coefficients for these elements are smaller for mafic liquids than for felsic liquids. This valuable insight is only provided for the limited number of silicate systems possessing stable liquid immiscibility. Moreover, even in those cases, immiscible liquids cannot be used to infer the variation of activity coefficients for compositions between the end-member liquids. <ref type="bibr" target="#b27">Lesher [1986]</ref> showed that information over the entire compositional path can be recovered from Soret arrays. Drawing on Soret data for naturally occurring silicate liquids <ref type="bibr" target="#b27">[Lesher, 1986]</ref>, the variations of activity coefficients for Sr and rare earth elements with bulk composition are expressed as third-order polynomials in In (XsM), where XsM is the fraction of network-modifying  Figure <ref type="figure">8</ref> shows these results in the same format as Figure <ref type="figure">7</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Figure 5. Interdiffusion profiles of complex couple (11) involving the mafic end-member MF-R and felsic endmember FS-Q (see Table 1). Experimental conditions iden-</head><p>In this case the agreement between model and experimental concentration profiles is exceptional. The model predicts extensive uphill diffusion of Nd, producing enrichment in the silica-poor region of the couple. Near-uniform Sr activity across the couple is also predicted consistent with the experimental observation of near-uniform Sr isotopic composition. Likewise, the small activity gradient computed for Nd is consistent with the experimental observation that a modest Nd isotopic gradient persists in run 6.</p><p>Figures <ref type="figure">7</ref> and<ref type="figure">8</ref> show that the salient features of the experimental chemical and isotopic diffusion profiles for Sr and Nd are accounted for by the Darken diffusion model. These results suggest that chemical diffusion of other important trace components of magmas can be accounted for quantitatively using a similar approach, although extending this treatment must await the acquisition of pertinent kinetic and thermodynamic data. Likewise, the explicit dependence of D c on species activity suggests that interdiffusion profiles in turn can be used to quantify activity-composition relationships of solutions. Retrieving such information from interdiffusion studies of silicate liquids will be most readily accomplished for highly mobile species that rapidly minimize activity differences along a chemical interdiffusion gradient <ref type="bibr" target="#b29">[Lesher, 1991]</ref>. <ref type="bibr" target="#b42">Richter [1993]</ref> recently interpreted the results of <ref type="bibr" target="#b28">Lesher [ 1990]</ref> in this way. However, for more sluggish diffusing species it is unlikely that an isoactivity relationship will be achieved prior to bulk homogenization of the system. To extract meaningful thermodynamic information for these species requires that the intrinsic mobilities (i.e., self-diffusion coefficients) of the species be determined separately, as undertaken here for Sr and Nd. With these constraints, • remains as the only free parameter in (8). Solutions that give the best fit to experimental interdiffusion profiles yield the compositional dependence of % In this way, interdiffusion studies offer a supplemental approach to characterize the solution properties of silicate liquids. The parameterization for ?Sr and •Na presented in Table <ref type="table">4</ref> has not been revised by this approach to avoid diminishing the predictive feature of the diffusion model. Nevertheless, the present analysis serves to illustrate the utility of Darken's theory for modeling diffusion of trace constituents in magmas and hopefully will provide stimulus for further work in this area.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Implications for Magma Mixing</head><p>As outlined in the introduction, the motivation for the present study comes in large part from the recognition that many igneous rock suites owe their origin to magma mixing. In some situations, mixing is called upon to reduce the compositional range for magmas, while in other cases, magma mixing is responsible for an expanding compositional diversity. This dichotomy regarding the role of mixing in magmatic systems is also shared by fluid mixing problems encountered in geophysics and material science <ref type="bibr" target="#b39">[Ottino, 1989]</ref>.</p><p>Recent studies of magmatic systems <ref type="bibr" target="#b51">[Sparks and Marshall, 1986;</ref><ref type="bibr" target="#b2">Bacon, 1986;</ref><ref type="bibr" target="#b11">Frost and Mahood, 1987;</ref><ref type="bibr" target="#b14">Green, 1988]</ref> emphasize the importance of changes in rheology that occur during the mingling magmas. Higher liquidus temperatures for mafic compared to felsic magmas and the dramatic increase in effective viscosity accompanying crystallization <ref type="bibr" target="#b46">[Shaw, 1969;</ref><ref type="bibr" target="#b44">Ryerson et al., 1988</ref>] contribute to the difficul-ties in thoroughly homogenizing magmas on reasonable magmatic time scales. <ref type="bibr" target="#b51">Sparks and Marshall [ 1986]</ref> and <ref type="bibr" target="#b11">Frost and Mahood [1987]</ref> concluded that the most favorable conditions for complete homogenization exist when the chemical contrast between mingling magmas is small (&lt;10 wt % SiO2) or when the volume of mafic magma exceeds that of felsic magma. Smaller proportions of basaltic magma injected or entrained into silicic systems quench to form mafic enclaves. <ref type="bibr" target="#b38">Oldenburg et al. [1989]</ref> examined the effects of chamber shape and size, magma viscosity, and bulk composition on the dynamics of mixing of melt-dominated systems. Their theoretical work indicates that large-volume, thermally well-connected mafic bodies homogenize on rapid time scales (10 3 to 10 4 years), while silicic systems remain heterogeneous for several million years.</p><p>These studies provide a sound physical basis for interpreting field occurrences of heterogeneously banded and enclave-beating magmatic rocks. We are less appreciative of the geochemical consequences of magma interactions when the time available is not sufficient for homogenization so whatever reaction does occur is rate limited by diffusional processes. The experimental results of the previous sections show some of the complications that result from interdiffusion among silicate liquids, particularly with regard to the contrasting rates of chemical and isotopic homogenization. It is instructive to consider the implications of these results for interpreting compositional data on magmatic rocks that may be, or are known to be, of hybrid origin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Irreversible Mixing and Compositional Trajectories</head><p>In this example, mixing is assumed to involve two endmember magmas that are broadly basaltic (50 wt % SiO2) and rhyolitic (70 wt % SiO2) in composition. Reaction between these magmas is assumed to be rate limited by diffusion from spherical blobs of rhyolite entrained in basalt that remains well stirred. It is further assumed that the magmas remain crystal-free and are volatile-poor. Crystallization during mingling can provide a sink for compatible elements <ref type="bibr" target="#b24">[Johnston and Wyllie, 1988;</ref><ref type="bibr" target="#b6">Blichert-Toft et al., 1992]</ref> and will increase the tortuosity of the liquid diffusional pathway, both factors reducing the efficiency of mixing. Conversely, the addition of volatile components, in particular H20, will enhance diffusion rates in silicate liquids <ref type="bibr" target="#b23">[Jambon et al., 1978;</ref><ref type="bibr" target="#b41">Rapp and Watson, 1986;</ref><ref type="bibr" target="#b25">Koyaguchi, 1989]</ref>      that differences in the initial compositions of the endmembers can have a large influence on the compositional trajectories followed during hybridization. For example, if the concentrations of Sr and Nd were originally equivalent in both magmas, chemical diffusion would initially be uphill for both elements until isoactivity distributions were attained.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Z 2o</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Felsic Blobs TIME</head><p>Conversely, if the concentration differences were larger than assumed in Figure <ref type="figure" target="#fig_12">9</ref>, hybridization could proceed to homogenization without a period of uphill diffusion.</p><p>In scaling diffusional reactions to magmatic conditions by means of the diffusive impedance it becomes readily apparent that even if the basaltic reservoir remains well stirred, modification of the mafic and felsic reservoirs occurs slowly and on length scales of less than a few meters for reasonable magmatic time scales (104-105 years) (see Figure <ref type="figure" target="#fig_6">12</ref>). This leads to two important conclusions supported by numerous studies cited above. First, thorough blending of magmas requires that the size of compositionally distinct domains be reduced by vigorous convection to permit efficient diffusional reaction in the melt. Second, if this is not accomplished, any modification in composition will be highly selective and favor the most mobile components. Indeed the products of incomplete mixing will bear little resemblance to system, and felsic blobs occupying 25% of the system. Although it is assumed that the system achieves thermal equilibrium instantaneously and remains isothermal, it should also be noted that the volume proportion of basalt and rhyolite chosen in this example would reach homogene- Figure <ref type="figure" target="#fig_6">11</ref> shows the covariation of Sr and Nd isotopic compositions for the model systems. Complementary segments for both volume proportions again display characteristically sigmoidal forms resulting from the markedly higher self-diffusion coefficient for Sr compared to Nd. As seen in the previous covariation diagrams, irreversible mixing paths for complementary mafic and felsic hybrids converge to an identical composition on the bulk mixing hyperbola dictated by the initial volume proportions of the end-members. The contrast in the compositional evolution of hybrids and the expectations of bulk mixing is clearly shown by the Sr-Nd isotope systematics. It is worth emphasizing that the isotopic relations for irreversible mixing of magmas of broadly similar chemical composition will be analogous to those shown here involving compositional extremes. Mixing is time dependent. Large viscosity contrasts between magmas merely further impedes the process.</p><p>Similar isotopic relationships can be anticipated among any two tracers that possess measurably different selfdiffusion rates. Some appreciation for the magnitude of this  The foregoing discussion assumes that high field strength cations obey the simple diffusion coefficient-charge density correlation shown by <ref type="bibr" target="#b18">Hofmann [1980]</ref> for monovalent, divalent, and trivalent cations. However, differences are found between measured two-liquid partition coefficients for high field strength elements (i.e., Zr and Ta) and expectations based on similar charge density considerations <ref type="bibr" target="#b56">[Watson, 1976]</ref>. These differences are attributed to the formation of oxyanions involving the high field strength cations that are more or less independent of the silicate network <ref type="bibr" target="#b17">[Hess, 1989]</ref>. <ref type="bibr" target="#b33">Lesher and Walker [1991]</ref>  Knowledge of the length scale of mingling at the primary site of contamination, and the identity of end-member diabase and crust-derived granophyre participating in the mixing process, were essential in establishing the fundamental role of selective contamination in the macrodike system. However, in many plutonic and volcanic settings such constraints are lacking, and the role of mixing must be inferred from the geochemical record alone. Considerations of the time dependence of mixing may help to resolve some discrepancies between the magmatic record and current geochemical modeling that assumes bulk mixing. For example, the evolution of basaltic magmas selectively contaminated with Sr from crustal melts will display shallow sloping arrays in Figure <ref type="figure" target="#fig_6">11</ref>. Concluding that these magmas evolved by bulk mixing on the basis of isotopic relationships alone would require that the crustal source, at the very least, had a markedly higher Sr/Nd ratio than in actuality. Alternatively, the lack of coherence to a simple bulk mixing model could be interpreted as indicating the involvement of additional end-members, although again this would be incorrect.</p><p>These considerations are also important for interpreting the compositional significance of and establishing protoliths of magmatic inclusions and mafic enclaves common to silicic plutonic systems <ref type="bibr" target="#b3">[Bacon and Metz, 1984;</ref><ref type="bibr" target="#b8">Cantagrel et al., 1984;</ref><ref type="bibr" target="#b12">Furman and Spera, 1985;</ref><ref type="bibr" target="#b20">Holden et al., 1987;</ref><ref type="bibr" target="#b0">Allen, 1991;</ref><ref type="bibr" target="#b53">van der Laan and Wyllie, 1993]</ref>. Although modification of inclusions and enclaves will be strongly controlled by their compositions and that of the host, as well as the thermal evolution of the system, the high intrinsic mobility of Sr compared to Nd means that 87Sr/86Sr ratios may be markedly affected, while •43Nd/•nnNd ratios remain unmodified. For this reason the Nd isotopic composition of hybrid rocks will be a more reliable constraint on source characteristics than will 87Sr/86Sr composition. Similarly, uniformity in Nd isotopic composition, rather than 87Sr/86Sr ratios, should be sought in establishing cogenetic links among mingled magmas or between enclaves and their hosts. Conversely, Sr isotope relations may offer constraints on the duration of entrainment and reaction.</p><p>In conclusion, issues concerning selective contamination of magmas raised in this study do not diminish the potential significance of bulk mixing in igneous petrogenesis. Rather this study highlights a number of the important geochemical consequences of magma mixing that should be considered when mixing is arrested before thorough blending. Mechanical and diffusional processes are intimately linked in open magmatic systems. The Darken diffusion model as applied in this study offers an approach to quantifying aspects of the diffusional component of mixing. This approach can be readily extended to include other constituents of magmas with laboratory measurements of self diffusion and activity coefficients. I emphasize that the geochemical record preserved in suites of commingled magmas can provide insights into the dynamics and time scales of mixing. We forfeit this information on the assumption, rather than demonstration, that hyhbrid magmas are related by bulk mixing.</p><p>In conclusion, issues concerning selective contamination of magmas raised in this study do not diminish the potential significance of bulk mixing in igneous petrogenesis. Rather, this study highlights some of the important geochemical consequences of magma mixing when the process is arrested before completion. Diffusion is one fundamental process of material exchange. Efficient blending of magmas implies not only vigorous mechanical stirring but sufficient time for chemical homogenization by diffusion. The role of mechanical and diffusional processes are intimately linked in open magmatic systems. The record preserved in suites of cornmingled magmas give us insight into irreversible paths leading to homogenization. We forfeit this information on the assumption, rather than demonstration, that hybrid magmas are related by bulk mixing.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>Evidence from field, petrologic, and geochemical studies shows that magmas of diverse composition coexist in the Earth's crust, physically interact, thermally equilibrate, and Copyright 1994 by the American Geophysical Union. Paper number 94JB00469. 0148-0227/94/94JB-00469505.00 are chemically modified to varying extents. Open system behavior during transient episodes of mixing and reaction with host rocks involves a complex interplay between convective and diffusive modes of mass transfer. Selective contamination of magmas was first recognized by petrologists examining small-scale relationships among inclusions and their host rocks and among commingled magmas [e.g., Walker and Skelhorn, 1966; Al-Rawy and Carmichael, 1967; Sigurdsson, 1968; Maury and Bizouard, 1974; Sato, 1974;</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>theory of ion mobility. With this background the results of laboratory experiments of silicate liquid interdiffusion are evaluated and used to obtain estimates of Sr and Nd mobilities. By combining these results with activity coefficient data, Darken's theory is shown to account accurately for the behavior of Sr and Nd during diffusional reaction of basaltic and rhyolitic liquids. In the final section the Darken model is used to illustrate geochemical consequences of time-dependent mixing at magmatic conditions helpful in the interpretation of contaminated and commindiffusion are generally distinguished in studies of silicate liquids, that is, self-diffusion, tracer diffusion, and chemical diffusion [e.g., Holmann, 1980; Hess, 1989]. To characterize self-diffusion and tracer diffusion, it is common practice to introduce to a sample labeled atoms, either radioactive or stable isotope tracers. Self-diffusion refers to motion of the tracer relative to other isotopes of the same chemical species in the absence of a chemical concentration gradient. Homogenization of isotopic composition occurs by random interchange of isotopes and depends on the frequency with which atoms are activated for a jump. Tracer diffusion, sensu stricto, is defined by the directional flux of a chemical species introduced into a medium in low concentration and not otherwise present. The impurity is typically applied as a surface film, and diffusion of the species into the sample is monitored under controlled P and T.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Avogadro's number (mol-1), C i is the concentration of species i in grams per unit volume of solution, M i is the mobility (square meters per joule per second), and/'•i is chemical potential (joules per mole). Recalling Fick's first law, the chemical flux is also expressed in terms of the product of the species chemical diffusion coefficient D is applied to two limiting cases. If chemical composition is uniform, the ratio (d In ai)/(d In x i) is unity, and the diffusion coefficient is given by k TM i. This limiting diffusion coefficient is the self-diffusion coefficient (D</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>theory presented above. In the following two sections I report the results of experiments that quantify parameters of the Darken equation (3b) and show that Darken's theo• can account for fundamental features of Sr and Nd diffusion in natural silicate liquids. This demonstration suggests broader application of this approach to quantify the chemical diffusion behavior of other silicate liquid species.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>FS</head><label></label><figDesc>element gradients normal to the original interface of each diffusion couple are obtained by electron microprobe. Wavelength dispersive analyses are conducted at an accelerating potential of 15 kV using two beam conditions. Na and K are analyzed first at a beam current of 5 is accelerated to a net energy of 12.5-13.5 keV and focused to a 10-to 15-/zm spot on the target material. Positively charged secondary ions sputtered from the target are accelerated to a nominal energy of 4.5 keV and filtered by an electrostatic sector and a magnetic analyzer. Energy filtering is used at a high-energy voltage offset of -50 eV and an energy band pass of +10 eV [counts per second are corrected for background and dead time and referenced to the intensity of 3øSi. Sr and Nd isotope ratios are computed directly from raw intensity data and are not corrected for machine mass fractionation. Ion intensity and X ray intensity data are compared for experiment 8 below. Concentrations of Sr and Nd in end-member starting materials reported in</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Variations in Sr and Nd isotope abundance (87Sr/•Sr and 144Nd/•Nd) across simple diffusion couples of mafic (run 20) and felsic (run 14) end-member compositions at 1255øC and 1 GPa. Other run parameters are listed in Table 2. Diffusion gradients shown are normal to the original mated interface indicated along the abscissa. Vertical error bars represent 2tr precision of values obtained by ion microprobe. Inserts show variations of selected isotope ratios altered by initial doping of the enriched 87 86 143 ]44 88 86 142 148 end-member of each couple (i.e., Sr/ Sr and Nd/ Nd) and unaltered ( Sr/ Sr and Nd/ Nd).Arrows within inserts point to the appropriate scales. Calculated diffusion profiles using diffusivities reported in Table3obtained by linear regression of (4) are shown by dash-dotted curves in main plots.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 2 .Figure 3 .</head><label>23</label><figDesc>Figure 2. Arrhenius plot of Sr and Nd self-diffusivities (D*) in square meters per second for end-member compositions MF and FS determined in this study versus reciprocal run temperature (kelvin-I). Best fit log linear curves for FS data yield activation energies (E*) of 136 kJ mo1-1 for Sr and 198 kJ mo1-1 for Nd self-diffusion. Tracer diffusivities from Hofrnann and Magaritz [1977] (Sr in basaltic melt, HM) Magaritz and Hofrnann [ 1978b] (Eu and Gd in basaltic melt, MH), and Baker [1989] (St in rhyodacite, B) shown for comparison. Shown as dashed curve is extrapolated high-T trend of MH (see text of discussion).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 4 .</head><label>4</label><figDesc>Figure 3. (continued)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head></head><label></label><figDesc>for values of z along each profile. Error bars in Figure 6 represent cumulative uncertainties arising from analysis, smoothing, and determining the slope dz/dC for (5). The three data sets presented in Figure 6 show negative log linear relationships with bulk silica. D•( • is 3-4 times larger than D• • and roughly a factor of 10 greater than B-M D sio2. The bold dashed curve in Figure 6 shows values of D directly compares self-diffusion coefficients for end-member compositions MF and FS with the Boltzmann-Matano values determined for intermediate compositions. At low silica contents D* for the basaltic end-member and Boltzmann-Matano diffusion coefficients agree well, as do values for Sr at high silica contents. The results for Nd suggest that the compositional dependence of D•q d changes markedly as liquids become fully polymerized, although the Boltzmann-Matano approach could not be extended above 65 wt. % SiO:. Although further study of self-diffusion in intermediate composition liquids is warranted, the present results show the similarity in the rates of isotopic exchange whether occurring under isochemical conditions (simple diffusion couples) or accompanying a chemical flux (complex diffusion couples). Likewise, values of self-diffusion coefficients for liquids of intermediate composition can be estimated to a first approximation by the log linear the preceding section provide essential information on the intrinsic mobilities of Sr and Nd required to quantify Darken diffusion coefficients using (3b). However, as discussed earlier, it is also necessary to specify the variation in species activity along the diffusional pathway.To facilitate this characterization we rewrite (3brelations. One important source of information on the compositional dependence of activity coefficients comes from studies of the partitioning of elements between coexisting mafic and felsic immiscible silicate liquids. At equilibrium the relative difference in the activity coefficient between mafic and felsic liquids is given by the two</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head></head><label></label><figDesc>Figure 7. Comparison between simulated and observed profiles for Sr and Nd chemical diffusion. Model profiles shown as solid and dashed curves determined by solving (t0) by FTCS explicit differencing using (6), (7a), and (7b) and results of Table 4. (top) Comparison of the model results with experimental profiles for run 8. C is concentration along the gradient. Gini n and Cma x are the minimum and maximum concentrations for the original starting materials. (middle) Variations in activity across the model diffusion couple relative to its value for the mafic end-member. (bottom) Comparison of predicted isotopic compositions across the couple with the experimental profiles.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head></head><label></label><figDesc>tending to increase mixing efficiency, other factors being equal. Although ignoring crystallization and assuming that melts are anhydrous restrict the applicability of the present model, the following calculations do serve to illustrate important compositional features of time-dependent mixing. The simulation of time-dependent reaction of blobs of rhyolite entrained in basalt is accomplished by modifying the FTCS explicit differencing scheme above for radial diffusion [see Crank, 1975, p. 89]. Chemical diffusion coefficients for Sr and Nd are constrained by the Darken model using (6), (7a), and (7b) and expressions given in Table 4. A wellstirred basaltic reservoir is simulated in the model by averaging the composition of the mafic reservoir after each time step. Thus progressive changes in compositions of mafic and felsic reservoirs are governed by the appropriate diffusion coefficients for components of the blobs. The composition reported for the felsic blobs represents the integrated concentration over the zoned parcel of radius I.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figures 9 -</head><label>9</label><figDesc>Figures 9-11 show changes in the concentrations of Sr, Nd, and SiO2 with time, blob size, and various volume proportions of basalt and rhyolite for a system that remains isothermal at 1200øC. The effect of temperature on homogenization rates is evaluated in Figure 12. Compositions of end-member liquids are indicated by solid (marie reservoir) and open (felsic reservoir) circles in Figure 9, where the initial concentrations of Sr and Nd and isotopic compositions are chosen to be appropriate for primitive marie and crust-derived felsic magmas. The abscissa in Figure 9 gives</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 10 .</head><label>10</label><figDesc>Figure 9. Numerical simulation of time-dependent hybridization of a well-mixed marie host and entrained felsic blobs. Results obtained by solving (10) using FTCS explicit differencing modified for radial diffusion after Crank [ 1975], where t is time in years and I is the radius of spherical blobs in meters. Model calculations assume felsic blobs comprise 25% by volume of the system and temperature is uniform and constant at 1200øC. The marie reservoir is assumed to remain well mixed during hybridization, and this is achieved in the model by averaging composition after each time step. Composition of the felsic reservoir represents the composition integrated over the zoned blobs. Initial compositions of felsic and marie reservoirs are indicated by open and solid circles, respectively, on corresponding scales. Evolution of bulk silica, Sr, and Nd shown as solid curves in respective panels. Variations in isotopic composition shown by dashed curves. Note shift from downhill diffusion to uphill diffusion at the point that concentration paths intersect.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 9 Figure 11 .</head><label>911</label><figDesc>Figure 9 shows the evolution in the SiO2 and Sr and Nd chemical (solid curves) and isotopic (dashed curves) compositions of the marie host, comprising 75% by volume of the</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head></head><label></label><figDesc>Figure 12. Temperature dependence of Sr and Nd isotopic homogenization and bulk chemical homogenization for the model system (discussed in text) of basalt with entrained spherical blobs of rhyolite as a function of diffusive impedance (t/l 2) in years per square meter. Contours for 50 and 95% homogenization for each component are given by dashed and solid curves, respectively. Approximate liquidus and solidus of basalt indicated by stippled bars. Residence time (t) in years necessary for homogenization for a given temperature is found from the diffusive impedance on specifying the characteristic length scale of the compositional heterogeneity (l) in meters.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 13 .</head><label>13</label><figDesc>Figure 13. Empirical relationship between tracer diffusivities for basaltic liquid at 1300øC, and ionic charge (z) and radius (r) from Holmann [1980], shown as the solid curve. Self-diffusivities for Sr and Nd from the present study plotted as open circles for comparison. Also indicated by arrows are estimated self-diffusivities and tracer diffusivities for Pb 2+ , U 4+ , Th 4+ , Os 4+ , and Hf 4+ , based on Hofmann's empirical relationship. Ionic radii taken from Whittaker and Muntus [1970], assuming octahedral coordination.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head></head><label></label><figDesc>also noted that Soret separations of high field strength cations are smaller than anticipated based on charge-radius considerations alone. To the extent that two-liquid and Soret analogies provide guidance, caution is warranted in using Hofmann' s correlation to estimate high field strength cation self-diffusion and tracer diffusion coefficients. Nevertheless, it remains that an important test for selective contamination in nature will be a demonstration that the extent of isotopic modification is directly proportional to the magnitude of the tracer's selfstudy of selective contamination of the Miki Fjord and Vandfaldsdalen macrodikes of East Greenland, Blichert-Toft et al. [1992] showed covariations in Sr and Nd isotopic compositions of commingled crust-derived granophyre and diabase consistent with diffusional reaction at magmatic conditions, as portrayed in Figures 11 and 12. Allen [1991] also presents evidence for partial diffusional equilibration of Sr and Nd isotopic compositions, in this case between mafic enclaves and host granite of the Turtle Pluton of southeastern California. In both of these natural examples the ability to isolate the diffusional component of contamination was possible given the small-scale sampling strategies employed and the characterization of (at least) two distinct isotope systems. Stewart and DePaolo [1992] recently reported covariations in 87Sr/86Sr and •43Nd/•44Nd ratios of mafic cumulates from the uppermost cycle unit of the Muskox intrusion that are also interpretable in terms of selective isotopic (and chemical) exchange between a mafic liquid reservoir from which the cumulates formed and overlying crust-derived granophyric melt. Based on the magnitude of Sr-Nd isotopic decoupling, they estimated a crystallization time of--•10 4 years for the uppermost cycle unit of the intrusion. Similarly, based on the extent of equilibration of Sr and Nd isotopic compositions and the length scale of heterogeneities (&lt;1 m) in the zones of commingling within the macrodike chamber, Blichert-Toft et al. [1992] estimate that the observed mingling and hybridization occurred during a few thousand years following magma emplacement in the upper crust, prior to significant crystallization. During this relatively brief phase in the magmatic history, selectively modified granophyre buoyantly segregated to the roof of the chamber to form a stratified system. These rocks are preserved in the roof zone of the Vandfaldsdalen macrodike [Blichert-Toft et al., 1992; Geist and White, 1994].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 ) are doped with Sr and Nd to the per mil abundance level to facilitate precise characterization of diffusion profiles for elements and individual isotopes. The isotopic composition of the</head><label>1</label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table la . Starting Materials for Interdiffusion Experiments: Major Oxide Compositions of Felsic (FS) and Mafic (MF) Reservoirs</head><label>la</label><figDesc></figDesc><table><row><cell></cell><cell>FS*</cell><cell></cell><cell>MF?</cell><cell></cell></row><row><cell></cell><cell>DCP$</cell><cell>EMP (2or)õ</cell><cell>DCP$</cell><cell>EMP (2or)õ</cell></row><row><cell>SiO2</cell><cell>72.15</cell><cell>72.10 (28)</cell><cell>48.79</cell><cell>47.48 (12)</cell></row><row><cell>A1203</cell><cell>14.20</cell><cell>14.86 (5)</cell><cell>13.64</cell><cell>14.07 (5)</cell></row><row><cell>TiO2</cell><cell>0.21</cell><cell>0.20 (1)</cell><cell>3.06</cell><cell>3.30 (12)</cell></row><row><cell>Fe20 3</cell><cell>2.39</cell><cell></cell><cell>13.77</cell><cell></cell></row><row><cell>FeO</cell><cell></cell><cell>2.20 (16)</cell><cell></cell><cell>12.93 (11)</cell></row><row><cell>MgO</cell><cell>0.47</cell><cell>0.47 (1)</cell><cell>6.99</cell><cell>7.20 (8)</cell></row><row><cell>CaO</cell><cell>2.11</cell><cell>2.03 (17)</cell><cell>10.72</cell><cell>10.20 (2)</cell></row><row><cell>Na:O</cell><cell>4.31</cell><cell>4.13 (5)</cell><cell>2.46</cell><cell>2.12 (16)</cell></row><row><cell>K20</cell><cell>3.12</cell><cell>3.20 (5)</cell><cell>0.34</cell><cell>0.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>37 (2) *Archaean felsic gneiss (CL87-52F) host rock of Miki Fjord macrodike, East Greenland [Blichert-Toft et al., 1992]. ?Diabase (69-785) of main magmatic phase of the Tertiary Miki Fjord macrodike (C. E. Lesher et al., manuscript in preparation 1994). $Analysis by direct current plasma spectroscopy (DCP). õAnalyses by electron microprobe (EMP). felsic reservoir (FS) is modified by adding reagent grade, isotopically "normal" SrCO 3 (Aldrich Chemical)and 91.26% 87Sr-enriched SrCO3 (Oak Ridge National Labora- tories (ORNL) and NdO (Aldrich Chemical) and 97.51%</head><label></label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2 are believed accurate to</head><label></label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table lb . Sr and Nd Chemical and Isotope Compositions of Doped End-members Determined by Secondary Ion Mass Spectrometry (SIMS) FS-R FS-N FS-Q MF-R MF-E (Enriched) (Normal) (Enriched) (Normal) (Enriched) S r, * pp m 6300 6300 3390 10000 10000 87 Sr/ESr 0.485 0.074 0.480 0.071 0.320 Nd,* ppm 4800 4800 2600 2900 2900 144Nd/ENd 0.602 0.237 0.600 0.240 0.545 *Estimates of element concentration obtained from raw ion intensity data by extrapo- lation using SIMS silicate glass calibration curves for Sr and Nd given by Lesher [1986].</head><label>lb</label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 2 . Summary of Interdiffusion Couple Compositions and Experimental Conditions Semi-infinite Couple Run Couple* Configuration Temperature, Duration, Experiment (Top/Bottom) øC s SiO2 Sr Nd Simple Couples 14 FS-N/FS-R 1255</head><label>2</label><figDesc></figDesc><table><row><cell>23400</cell><cell>n</cell><cell>x</cell><cell>x</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>All experiments performed at 1 GPa. *Disposition of compositional gradients: x, gradient asymptotically approaches initial values at ends of diffusion couple; o, composition altered by diffusion at ends; n, no ini- tial gradient. Sr and Nd refer to 87Sr/ESr and 144Nd/•Nd gradients, respectively. within + 10øC. Soret effects are negligible due to the small thermal gradients (&lt;4øC mm -•) in the region of the charge and relatively short run durations [Lesher and Walker, 1986].</head><label></label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_7"><head>Table 1 are estimated from SIMS glass calibrations curves of Lesher [1986].</head><label></label><figDesc></figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_8"><head>Table 4a . Model Activity Coefficients 7* Used in Darken Diffusion Model Rare Earth Element Sr</head><label>4a</label><figDesc></figDesc><table><row><cell>Ao</cell><cell>-0.43126</cell><cell>0.42785</cell></row><row><cell>A 1</cell><cell>0.28388</cell><cell>1.07011</cell></row><row><cell>A 2</cell><cell>0.92277</cell><cell>0.74440</cell></row><row><cell>A3</cell><cell>0.12433</cell><cell>0.08844</cell></row><row><cell cols="3">Compositional dependence of reduced activity coefficients</cell></row><row><cell>(7'</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_9"><head>) derived from thermal diffusion experiments [Lesher,</head><label></label><figDesc></figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="9585" xml:id="foot_0"><p></p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>. The author has benefited from discussions with <rs type="person">J. Blichert-Toft</rs>, <rs type="person">L. Kellogg</rs>, <rs type="person">M. Rosing</rs>, <rs type="person">M. Spiegelman</rs>, <rs type="person">D. Walker</rs>, and <rs type="person">Y. Zhang</rs>. Their contributions to the ideas presented here are gratefully acknowledged. I also thank <rs type="person">N. Shimizu</rs> for access to the <rs type="institution">WHOI microprobe facility</rs> (then at MIT) and <rs type="person">R. Ryerson</rs> and an anonymous reviewer for thoughtful comments. This work was supported by grants from <rs type="funder">NSF</rs> (<rs type="grantNumber">EAR89-03410</rs>) and <rs type="funder">DOE/BES</rs> (<rs type="grantNumber">DE-FG03-92ER14240</rs>). Support by these agencies does not constitute an endorsement of the views expressed by the author.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_6P65yHr">
+					<idno type="grant-number">EAR89-03410</idno>
+				</org>
+				<org type="funding" xml:id="_ZrT3aEW">
+					<idno type="grant-number">DE-FG03-92ER14240</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Local equilibrium of mafic enclaves and granitoids of the Turtle pluton, southeast California: Mineral, chemical, and isotopic evidence</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Allen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="574" to="588" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A note on the fusion of granite</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ai-Rawy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S E</forename><surname>Carmichael</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1806" to="1814" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Magmatic inclusions in silicic and intermediate volcanic rocks</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Bacon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="6091" to="6112" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Magmatic inclusions in rhyolites, contaminated basalts and compositional zonation beneath the Coso volcanic field</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Bacon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Metz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="346" to="365" />
+			<date type="published" when="1984">1984</date>
+			<pubPlace>California</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Tracer versus trace element diffusion: Diffusional decoupling of Sr concentration from Sr isotope composition</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="3015" to="3023" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Tracer diffusion of network formers and multicomponent diffusion in dacitic and rhyolitic melts, Geochim. Cosmochim</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="617" to="631" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Selectively contaminated magmas of the Tertiary East Greenland macrodike complex</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Blichert-Toft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rosing</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="154" to="172" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Apparatus for phase equilibrium measurements at pressure up to 50 kilobars and temperatures up to 1750øC</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>England</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="741" to="748" />
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Magma mixing: Origin of intermediate rocks and &quot;enclaves&quot; from volcanism to plutonism</title>
+		<author>
+			<persName><forename type="first">J-M</forename><surname>Cantagrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Didier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gourgaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Earth Planet. Inter</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="63" to="76" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<title level="m">The Mathematics of Diffusion</title>
+		<meeting><address><addrLine>Clarendon, Oxford</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Diffusion, mobility and their interrelation through free energy in binary metallic systems</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Darken</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Am. Inst. Min. Metall. Pet. Eng</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="184" to="201" />
+			<date type="published" when="1948">1948</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Field, chemical, and physical constraints on mafic-felsic magma interaction in the Lamarck granodiorite</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Frost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Mahood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geol. Soc. Am. Bull</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="272" to="291" />
+			<date type="published" when="1987">1987</date>
+			<pubPlace>Sierra Nevada, California</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Co-mingling of acid and basic magma with implications for the origin of mafic I-type xenolith: Field and petrochemical relations of an unusual dike complex at Eagle Lake</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Furman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Spera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Volcanol. Geotherm. Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="151" to="178" />
+			<date type="published" when="1985">1985</date>
+			<pubPlace>Sequoia National Park, California, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Assimilation and fractionation in adjacent parts of the same magma chamber: Vandfaldsdalen macrodike, east Greenland</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Geist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="92" to="107" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Basalt-basaltic andesite mixing at Mount Baker volcano, Washington, I, Estimates of mixing conditions</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Volcanol. Geotherm. Res</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="251" to="265" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Assimilation of granite by basaltic magma at Burnt Lava flow, Medicine Lake volcano, northern California: Decoupling of heat and mass transfer</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Grove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kinzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Donnelly-Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="320" to="343" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Structural controls and mechanisms of diffusion in natural silicate melts</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Lowry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="263" to="272" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Origins of Igneous Rocks</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Hess</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<publisher>Harvard University Press</publisher>
+			<pubPlace>Cambridge, Mass</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Diffusion in natural silicate melts: A critical review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of Magmatic Processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Princeton, N.J.</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="385" to="418" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Diffusion of Ca, Sr, Ba, and Co in a basalt melt: Implications for the geochemistry of the mantle</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Magaritz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="5432" to="5440" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Neodymium and strontium isotope content of microdiorite enclaves points to mantle input to granitoid production</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Holden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Halliday</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">E</forename><surname>Stephens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">330</biblScope>
+			<biblScope unit="page" from="53" to="56" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The fluid dynamics of a basaltic magma chamber replenished by influx of hot dense ultrabasic magma</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Huppert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S J</forename><surname>Sparks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="279" to="289" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Tracer diffusion in granitic melts: Experimental results for</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jambon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Cs</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ca</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sr</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geoph3)s. Res</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="797" to="807" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note>Ce, and Eu to 1300øC and a model of calculation</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Donn6es pr61iminaries sur la diffusion dans les magmas hydrates: Le cesium dans un liquide granitique fi 3 kbar</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jambon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Carron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Delbove</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">C. R. Seances Acad. Sci., Ser. D</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="403" to="406" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Interaction of granitic and basic magmas: Experimental observations on contamination processes at 10 kbar with H20</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Wyllie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="352" to="362" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Chemical gradient at diffusive interfaces in magma chambers</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koyaguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="143" to="152" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A general mixing equation with applications to Icelandic basalts</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Langmuir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Vocke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Hanson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="380" to="392" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Effects of silicate liquid composition on mineralliquid dement partitioning from Soret diffusion studies</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="6123" to="6141" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Decoupling of chemical and isotopic exchange during magma mixing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">344</biblScope>
+			<biblScope unit="page" from="235" to="237" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Chemical and self diffusivities of Sr and Nd in naturally-occurring silicate liquids</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Spring Meeting suppl</title>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+			<biblScope unit="volume">72</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Self-diffusion of network formers (SiO) in anhydrous basaltic liquid: Preliminary results</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hervig</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Fall Meeting suppl</title>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+			<biblScope unit="volume">72</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Solution properties of silicate liquids from thermal diffusion experiments</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="1397" to="1411" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Cumulate maturation and melt migration in a temperature gradient</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="295" to="305" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Thermal diffusion in petrology</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Diffusion, Atomic Ordering, and Mass Transport</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Ganguly</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="396" to="457" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<author>
+			<persName><forename type="first">M</forename><surname>Magaritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Diffusion of Sr, Ba, and Na in obsidian</title>
+		<imprint>
+			<date type="published" when="1978">1978</date>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="595" to="605" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<author>
+			<persName><forename type="first">M</forename><surname>Magaritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Diffusion of Eu and Gd in basalt and obsidian</title>
+		<imprint>
+			<date type="published" when="1978">1978</date>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="847" to="858" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Melting of acid xenoliths into a basanite: An approach to the possible mechanism of crustal contamination</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Maury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bizouard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="275" to="286" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Liquid fractionation, I, Basic principles and experimental simulations</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Mcbirney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Nilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Volcanol. Geotherm. Res</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1" to="24" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Dynamic mixing in magma bodies: Theory, simulations, and implications</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Oldenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Spera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Yuen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sewell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="9215" to="9236" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Ottino</surname></persName>
+		</author>
+		<title level="m">The Kinematics of Mixing: Stretching, Chaos, and Transport</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1989">1989</date>
+			<biblScope unit="page">364</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Press</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Flannery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Teukolsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Vetterling</surname></persName>
+		</author>
+		<title level="m">Numerical Recipes</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1986">1986</date>
+			<biblScope unit="page">702</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Monazite solubility and dissolution kinetics: Implications for the thorium and light rare earth chemistry of felsic magmas</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Rapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="304" to="316" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A method for determining activity-composition relations using chemical diffusion in silicate melts</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Richter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<date type="published" when="1993">2019-2032, 1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Implications of liquid-liquid distribution coe•cients to mineral-liquid partitioning</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ryerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Hess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="921" to="932" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Rheology of subliquidus magmas, 1, Picritic compositions</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ryerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Weed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Piwinskii</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page" from="3421" to="3436" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Diffusion coronas around quartz xenocrysts in andesite and basalt from Tertiary volcanic region in northeastern Shikoku</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="49" to="64" />
+			<date type="published" when="1974">1974</date>
+			<pubPlace>Japan</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Rheology of basalt in the melting range</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="510" to="535" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">Diffusion in Solids</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Shewmon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1963">1963</date>
+			<publisher>McGraw-Hill</publisher>
+			<biblScope unit="page">203</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Diffusivity of oxygen in jadeite and diopside melts at high pressures</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochem. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1295" to="1303" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Geochern&apos;ical applications of quantitative ion-microprobe analysis, Geochim. Cosmochim</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Semet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Allegre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="1521" to="1334" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Petrology of acid xenoliths from Surtsey</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sigurdsson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geol. Mag</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="440" to="453" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Thermal and mechanical constraints on mixing between mafic and silicic magmas</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S J</forename><surname>Sparks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Marshall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Volcanol. Geotherm. Res</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="99" to="124" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Diffusive isotopic contamination of mafic magma by coexisting silicic liquid in the Muskox intrusion</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Stewart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Depaolo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">255</biblScope>
+			<biblScope unit="page" from="708" to="711" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Experimental interaction of granitic and basaltic magmas and implications for mafic enclaves</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Van Der Laan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Wyllie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="491" to="517" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Preliminary comparison of chemical and self diffusion for K and Ca in andesite and rhyolite melt</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Van Der Laan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wasserburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Wyllie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eos Trans. AGU</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">652</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Some associations of acid and basic igneous rocks</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P L</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Skelhorn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="93" to="109" />
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Two liquid partition coefficients: Experimental data and geochemical implications</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="119" to="134" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Basalt contamination by continental crust: Some experiments and models</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="73" to="87" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Chemical diffusion in magmas: An overview of experimental results and geochemical applications</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physical Chemistry of Magmas</title>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Perchuk</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="120" to="151" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Behavior of alkalis during diffusive interaction of granitic xenoliths with basaltic magma</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Jurewicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geol</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="121" to="131" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Ionic radii for uses in geochemistry</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J W</forename><surname>Whittaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Muntus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="945" to="956" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Relations between coexisting basaltic and granitic magmas in a composite dike</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Wiebe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Sci</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="130" to="151" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Commingling of contrasting magmas in the plutonic environment: Examples from the Nain complex, Labrador</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Wiebe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geol</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="197" to="209" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The compensation law for diffusion in silicates</title>
+		<author>
+			<persName><forename type="first">!</forename><surname>Winchel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">High Temp. Sci</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="200" to="215" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">A modified effective binary diffusion model</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="901" to="911" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Diffusive crystal dissolution</title>
+		<imprint>
+			<date type="published" when="1989">1989</date>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="492" to="513" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993">1993. 1994. 1994</date>
+			<biblScope unit="volume">5</biblScope>
+			<pubPlace>Davis, CA 95616</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Geology, University of California</orgName>
+		</respStmt>
+	</monogr>
+	<note>Received August. revised February 8. accepted February 11</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

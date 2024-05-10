@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Na-K interdiffusion in alkali feldspar melts</title>
+				<funder ref="#_UawmgvZ">
+					<orgName type="full">NSERC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">C.S. per gli Equilibri Sperimentali in Minerali e Rocce del C</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Carmela</forename><surname>Freda</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">CNR Centro di Studio per gli Equilibri Sperimentali in Minerali e Rocce</orgName>
+								<address>
+									<addrLine>Universita `degli Studi La Sapienza, P.le Aldo Moro, 5</addrLine>
+									<postCode>I-00185</postCode>
+									<settlement>Roma</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Don</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Earth and Planetary Sciences</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<postCode>H3A 2A7</postCode>
+									<settlement>Montreal</settlement>
+									<region>Quebec</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Na-K interdiffusion in alkali feldspar melts</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A652291594DCA1DAAB26A078625D4E09</idno>
+					<note type="submission">Received September 16, 1997; accepted in revised form June 22, 1998</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Na-K chemical interdiffusion between albite and orthoclase melts has been measured at 1.0 GPa between 800 and 1600°C and at 2.0 GPa, 1400°C, in anhydrous melts and in hydrous, 5.5 wt% H 2 O, melts at 1.0 GPa, 1200 and 1400°C. Anhydrous Na-K diffusivities at X or ϭ 0.5 display Arrhenian behavior even through the inferred glass transition. After correction for diffusion occurring during heating Na-K interdiffusion can be described by D ϭ 2.39(ϩ1.7,Ϫ0.98) ϫ 10 Ϫ5 exp(Ϫ145.8 Ϯ 6.8/RT) where D is the diffusion coefficient in m 2 s Ϫ1 , 145.8 is the activation energy in kJ mol Ϫ1 , R is the gas constant, and T is the temperature in kelvins. These diffusivities are four decades greater than estimated Si-Al diffusivities in the same melts due to the low alkali-oxygen bond valence, or cation field strength, and the abundance of appropriate charge-balanced locations for alkalis in alkali feldspar melts. Extrapolation of diffusion coefficients to 600 -650°C for comparison with Na-K interdiffusion in alkali feldspar crystals demonstrates that melting increases diffusion by six orders of magnitude. The effect of pressure on Na-K diffusion at 1400°C is not measurable in this system and suggests that only minor dilation of the coordinating oxygen polyhedra which enclose alkalis in the melt is necessary for diffusion. A preliminary Arrhenius equation for alkali diffusion in silicic melts with 6 Ϯ 0.5 wt% H 2 O was calculated using results of this and previous studies D ϭ 4.97(ϩ0.85,Ϫ0.73) ϫ 10 Ϫ6 exp(Ϫ115.8 Ϯ 1.8/RT).</p><p>The effect of H 2 O only increases diffusivities by approximately a factor of four, distinctly different from the three orders of magnitude differences between Si-Al, Zr, and P diffusion in anhydrous and hydrous granitic melts. The differing behavior of alkalis and these other cations in hydrous silicic melts is associated with differences in the type and abundance of coordination polyhedra and the low bond valences and cation field strengths of alkalis.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>Alkalis display the most rapid diffusion coefficients in silicate melts and, therefore, could be most affected during magmatic differentiation and contamination (e.g. <ref type="bibr" target="#b25">Hofmann, 1980;</ref><ref type="bibr" target="#b53">Watson, 1982;</ref><ref type="bibr" target="#b57">Watson and Jurewicz, 1984;</ref><ref type="bibr" target="#b29">Johnston and Wyllie, 1988;</ref><ref type="bibr" target="#b30">Koyaguchi, 1989;</ref><ref type="bibr" target="#b2">Baker, 1990;</ref><ref type="bibr" target="#b55">Watson and Baker, 1991;</ref><ref type="bibr" target="#b50">van der Laan and Wyllie, 1993)</ref>. Despite this potential, and despite the observation that Na and K are present in significant amounts in all igneous rocks, only a few studies have been dedicated to the measurement of alkali chemical diffusion <ref type="bibr" target="#b46">(Smith, 1974;</ref><ref type="bibr" target="#b57">Watson and Jurewicz, 1984)</ref>.</p><p>Data are available on alkali tracer diffusion in synthetic glasses of different compositions <ref type="bibr" target="#b28">(Jambon and Carron, 1976;</ref><ref type="bibr">Beherens, 1992)</ref> and in complex natural melts <ref type="bibr" target="#b37">(Margaritz and Hofmann, 1978;</ref><ref type="bibr" target="#b52">Watson, 1981;</ref><ref type="bibr" target="#b27">Jambon, 1982;</ref><ref type="bibr" target="#b51">van der Laan et al., 1994)</ref>. However, very few data are available on Na-K chemical interdiffusion which is the most common process in nature; often only K diffusivity is measured and an estimated value is given for Na <ref type="bibr" target="#b46">(Smith, 1974;</ref><ref type="bibr">Watson and Jurevicz, 1984;</ref><ref type="bibr" target="#b4">Baker, 1992;</ref><ref type="bibr">Chekhmir and Epel'baum, 1991;</ref><ref type="bibr" target="#b1">Bai and Koster van Groos, 1994)</ref>. Moreover, no comprehensive study exists on the effects of H 2 O and pressure on Na-K interdiffusion.</p><p>The purpose of this investigation is to measure the Na-K interdiffusion coefficients between albite and orthoclase melts under different conditions of temperature, pressure, and H 2 O content. Because Na and K diffusivities appear to be virtually independent of melt composition over the range from basalt to rhyolite <ref type="bibr" target="#b46">(Smith, 1974;</ref><ref type="bibr" target="#b24">Henderson et al., 1985)</ref>, we think that our data on amorphous feldspar can be extended over a wide magmatic compositional range.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">EXPERIMENTAL TECHNIQUES</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Glass Synthesis</head><p>Glasses of albite and orthoclase composition were used in these experiments. The glasses were made from reagent-grade SiO 2 , Al 2 O 3 , K 2 CO 3 , or Na 2 CO 3 . Oxides and carbonates were ground together under ethanol, decarbonated and melted in air. The orthoclase composition was melted at 1600°C, four times for 1 h, once for 3 h, and then, after adding 5 % of initial weight of K 2 CO 3 , once more for 14 h. The glass was crushed after each fusion and finally ground to a grain size of less than 70 m. The albite glass is that used in <ref type="bibr" target="#b6">Baker (1995)</ref> which was melted 1 h at 1400°C, 1 h at 1500°C, and 6 h at 1500°C; between each fusion the glass was crushed. The glass was melted an additional 45 h at temperatures between 1490 and 1550°C followed by grinding to a fine powder. The glasses were crystal-free and homogeneous within the precision of electron microprobe analysis (Table <ref type="table" target="#tab_0">1</ref>). However, the albite glass is slightly peraluminous and the orthoclase glass slightly peralkaline. Both glasses were stored in a drying oven at 110°C.</p><p>Glasses were hydrated before use in experiments XI and XII. Aliquots of anhydrous glasses were hydrated with 5.5 wt% H 2 O by melting at 1.5 GPa, 1250°C for 30 min in Pt capsules in a piston cylinder using a 1.91 cm NaCl-Pyrex-crushable alumina assembly. Water was added by microsyringe, and capsules were welded while immersed in a water bath to eliminate volatile loss during welding. Loaded capsules were stored at 110°C for a minimum of 1 h to homogenize the H 2 O. H 2 O concentrations were determined by weight loss upon ignition to 1020°C for 8 h. The H 2 O content of the hydrated orthoclase glass was 5.4 wt% and that of the hydrated albite glass was 5.6 wt%. These hydrated glasses were stored in air before use in experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Experimental Procedures</head><p>All anhydrous and hydrous experiments were performed using the diffusion couple technique. Diffusion couples were assembled by firmly packing the orthoclase composition into the lower half of a cylindrical graphite capsule (1 mm inside diameter ϫ 6 mm long). The top half of the capsule was filled with the albite composition and closed with a graphite lid. In order to avoid water loss, the graphite capsules with hydrated glasses were placed into platinum capsules which were welded closed in a water bath. Experiments were performed in a piston-cylinder apparatus. Experiments at 1.0 GPa utilized a 1.91 cm NaCl-glass-crushable alumina assembly <ref type="bibr" target="#b26">(Hudon et al., 1994)</ref>. At 1600 and 1492°C the glass was fused silica whereas at lower temperatures Pyrex was used. The experiment at 2.0 GPa utilized a 1.25 cm NaCl-Pyrex-crushable alumina assembly. For all anhydrous experiments the capsules were loaded, placed into the completed assemblies, and stored overnight at 110°C before use.</p><p>The samples were pressurized and heated simultaneously until a pressure of 0.2 GPa above the run pressure and a temperature of 150 -200°C below the temperature of interest was reached; then the pressure was slowly reduced to the experimental pressure and maintained to within 0.05 GPa of the desired pressure. The samples were heated at a rate of 300°C/min until 20°C below the experimental temperature and then heated at 50°C/min; typically the temperatures exceeded the desired run temperature by 4°C for the first 30 s of each experiment. Temperatures were measured with Type C thermocouples located within 1 mm of the middle of the capsule. Temperature gradients along the capsules were less than 15°C <ref type="bibr" target="#b26">(Hudon et al., 1994)</ref>.</p><p>Samples were quenched at a rate of 2000°C/min by turning off the furnace power.</p><p>Most experiments were performed between 1200 and 1600°C at 1.0 GPa. These temperatures are above the melting temperature of albite at 1.0 GPa <ref type="bibr" target="#b10">(Boettcher et al., 1982)</ref> and below the leucite liquidus for orthoclase composition at this pressure, 1500°C <ref type="bibr" target="#b35">(Lindsley, 1966)</ref>. Because the 1 atm glass transition temperature for orthoclase is 948°C <ref type="bibr" target="#b43">(Richet and Bottinga, 1995)</ref>, most experiments in this study measured diffusion between an equilibrium (albite) and a supercooled (orthoclase) melt. This is also the situation for the 2.0 GPa, 1400°C experiment. The 1 atm glass transition temperature for albite is 827°C <ref type="bibr" target="#b43">(Richet and Bottinga, 1995)</ref>. Therefore, it is probable that both orthoclase and albite compositions were glasses during the experiment at 1.0 GPa, 800°C.</p><p>The quenched samples were mounted in epoxy, sectioned longitudinally, and polished for electron microprobe analysis. As shown in Fig. <ref type="figure" target="#fig_0">1</ref>, we were able to avoid deformation in the graphite capsules, and we maintained the reservoir geometry during the diffusion experiments. Chemical analyses were made with a JEOL 8900 Superprobe with five wavelength dispersive spectrometers using 15 kV accelerating voltage, 5 nA beam current, 10 m beam diameter, with 20 s counting time on the peaks and 10 s on the backgrounds. Standards used were natural crystalline albite for Na and orthoclase for Si, Al, and K; data were reduced using the ZAF correction technique. For all but one sample, IV A, three traverses (60 -160 analysis points each) parallel to the diffusion direction were made; spacing between analytical points varied from 20 to 60 m.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Boltzmann-Matano Analysis</head><p>Diffusion coefficients, D's, were calculated from the analytical traverses for different compositions using Boltzmann-Matano analysis <ref type="bibr" target="#b18">(Crank, 1975;</ref><ref type="bibr" target="#b5">Baker, 1993)</ref>. To calculate the diffusivity at any concentration the following equation is solved:</p><formula xml:id="formula_0">D c ϭ Ϫ 1 2t dx dC ͵ Cbkg C xdC (1)</formula><p>where D C is the diffusivity (in m 2 s Ϫ1 ) at concentration C at position x along the traverse, dx/dC is the derivative of the position respect to concentration, t is the experiment duration (in s), C bkg is the high or the low initial concentration depending on the x location with respect to the Matano interface (where x ϭ 0). To perform Boltzmann-Matano analysis, we fitted the analytical profiles with two third-order, or rarely second-order, polynomials. These polynomials can be easily integrated   and the Matano interface found. The integrations and derivations are performed to calculate the diffusivity at different points along the concentration profile. As previously demonstrated (e.g., <ref type="bibr" target="#b18">Crank, 1975)</ref>, Boltzmann-Matano analysis provides best results in the middle of the diffusion profile (0.5 mole fraction orthoclase in these experiments).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Uncertainties and Corrections for Diffusion During Heating</head><p>Diffusion coefficients were calculated at three compositions along each diffusion profile. These compositions correspond to orthoclase mole fractions of 0.25, 0.5, and 0.75 (Table <ref type="table" target="#tab_1">2</ref>). These diffusion coefficients are the average of three traverses (with exception of experiment IV A where only two traverses were performed) and their associated standard deviations. Based upon previous studies in this laboratory the reproducibility of each diffusion measurement calculated by Boltzmann-Matano analysis is within 40% relative <ref type="bibr" target="#b8">(Baker and Bossa ´nyi, 1994)</ref>. Run durations in Table <ref type="table" target="#tab_1">2</ref> are the time between when the temperature was reached and when the experiment was quenched.</p><p>Alkali diffusion in melts is so rapid that significant transport may have occurred during heating of experiments to run temperatures. A zero-time experiment performed at 1600°C produced a diffusion profile 1 mm in length clearly demonstrating that diffusion was occurring during heating. To correct for any diffusion which may have occurred during heating to run temperatures, we followed the iterative technique of <ref type="bibr" target="#b60">Yinnon and Cooper (1980)</ref>. This technique uses the Arrhenius relationship determined from the measured experimental temperatures, T exp , and diffusion coefficients to calculate an average temperature, T avg , for each experiment based upon the integrated diffusion occurring during the time of heating and the total duration of the experiment. This T avg is then used to recalculate a new Arrhenius relationship and the procedure for calculating T avg repeated until T avg reaches a constant value. The T avg for each experiment is given in Table <ref type="table" target="#tab_1">2</ref> and all diagrams use T avg rather than T exp .</p><p>To ensure that diffusion was the only transport process involved in these experiments (e.g., no convection) two experiments were performed at T exp ϭ 1200°C for different durations, 480 and 2400 s (Table <ref type="table" target="#tab_1">2</ref> lists only the shorter run). Unfortunately diffusion of Na reached the K-rich end of the capsule in the longer experiment. Because of the nonsymmetric nature of this diffusion couple, K did not reach the end of the longer Na-rich part. The noninfinite geometry of this experiment makes strict application of Boltzmann-Matano analysis impossible. However, the estimated diffusivity in this experiment is 1 ϫ 10 Ϫ10 m 2 s Ϫ1 at X Or ϭ 0.5 which is consistent with the K diffusion coefficient at the same composition in the short experiment, 1.09 ϫ 10 Ϫ10 m 2 s Ϫ1 (Table <ref type="table" target="#tab_1">2</ref>). The consistency between the two experiments demonstrates that diffusion is the sole transport process in these experiments.</p><p>Three analytical traverses were made on most samples also to investigate the possibility of convection. One traverse was along the centre line of the capsule, and the other two were half way between the centre and the edge of the capsule. In all cases the profiles were similar to each other and similar to ideal profiles (based upon error functions); diffusion coefficients calculated from each profile were similar to each other. The shapes of the profiles and the similarity of calculated diffusivities indicate that convection did not occur and that the traverses were parallel to the diffusion path.  One of the diffusion profiles of experiment XI A is shown as an example (Fig. <ref type="figure" target="#fig_1">2a,</ref><ref type="figure">b</ref> ). As with all experiments listed in Table <ref type="table" target="#tab_1">2</ref> the diffusion couple is infinite, i.e., the concentrations of the diffusing species do not reach the ends of the reservoir. This condition is necessary for rigorous application of Boltzmann-Matano analysis. It can also be observed that the profile length is the same for Na and K and that the only diffusion which occurred in these experiments appears to be the exchange of these two cations (Fig. <ref type="figure" target="#fig_1">2b</ref>).</p><p>The diffusion coefficients in the anhydrous experiments vary from about 10 Ϫ9 m 2 s Ϫ1 at 1600°C (T avg ϭ 1467°C) to about 10 Ϫ12 m 2 s Ϫ1 at 800°C (Table <ref type="table" target="#tab_1">2</ref>, Figs. <ref type="figure" target="#fig_2">3,</ref><ref type="figure" target="#fig_3">4</ref>). At the same temperature the D values are quite similar for every composition (Fig. <ref type="figure" target="#fig_2">3</ref>) with a maximum difference of a factor of two at 800°C. Due to the small differences in diffusivity at different compositions attempts to fit the profiles with a constant diffusivity were unsuccessful. The effect of pressure is even less than the effect of composition. The experiment at 2.0 GPa, 1400°C (T avg ϭ 1331°C) yielded diffusivities within error of those measured at 1.0 GPa, 1400°C (Table <ref type="table" target="#tab_1">2</ref>). These results demonstrate that pressure does not have a measurable effect on K and Na interdiffusion in this system at T exp ϭ 1400°C (T avg ϭ 1331°C). The effect of H 2 O on Na-K interdiffusion is minor. The diffusion coefficients measured under hydrous conditions, 5.5 wt% H 2 O, are increased by only approximately a factor of four above anhydrous measurements (Fig. <ref type="figure" target="#fig_3">4</ref>).</p><p>In Fig. <ref type="figure" target="#fig_3">4</ref> the temperature dependence of the diffusion coefficients for 0.5 mole fraction orthoclase is displayed. Alkali diffusion can be described by the Arrhenius equation:</p><formula xml:id="formula_1">D ϭ D o exp(ϪE a /RT) (2)</formula><p>where D o (derived from the intercept, i.e., when T is infinite) is the preexponential factor in m 2 s Ϫ1 , E a (derived from the slope of the line) is the activation energy in kJ mol Ϫ1 , R is the gas constant in Jk Ϫ1 mol Ϫ1 , and T is the temperature in kelvins. For all anhydrous experiments at 0.5 mole fraction orthoclase the Arrhenius equation for Na-K interdiffusion when T exp values are considered is D ϭ 4.03(ϩ2.8,Ϫ1.6) ϫ 10 Ϫ6 exp(Ϫ129.5 Ϯ 6.9/RT), whereas when T avg 's are used Arrhenius changes slightly to D ϭ 2.39(ϩ1.7,Ϫ0.98) ϫ 10 Ϫ5 exp(Ϫ145.8 Ϯ 6.8/RT).</p><p>Arrhenius parameters describing Na-K diffusion at other compositions along diffusion profiles, X or ϭ 0.25 or 0.75, are within error of these determined at X or ϭ 0.5. The hydrous melt Na-K diffusion results of this study have been combined with K chemical diffusion measurements in a granitic melt ϩ 6.4 wt% H 2 O determined at 450 and 560 MPa <ref type="bibr" target="#b1">(Bai and Koster van Groos, 1994)</ref> to calculate a preliminary Arrhenius equations for K diffusion in silicic melts with 6 Ϯ 0.5 wt% H 2 O. If T exp 's are used the Arrhenius equation is D ϭ 2.49(ϩ1.9,Ϫ1.1) ϫ 10 Ϫ6 exp(Ϫ111.0 Ϯ 6.4/RT), and using T avg 's it is D ϭ 4.97(ϩ0.85,Ϫ0.73) ϫ 10 Ϫ6 exp(Ϫ115.8 Ϯ 1.8/RT).</p><p>Although the compositions used in this study and in that of <ref type="bibr" target="#b1">Bai and Koster van Groos (1994)</ref> are different, the effects of composition on alkali diffusion in silicic melts are expected to be minor <ref type="bibr" target="#b46">(Smith, 1974;</ref><ref type="bibr" target="#b24">Henderson et al., 1985)</ref>. The validity of combining K diffusion measurements in granitic melt with those in alkali feldspar melts is supported by the close correspondence between the calculated Arrhenius line for K diffusion in hydrous melts and Na-K interdiffusion measurements in alkali feldspar melts ϩ1.7 wt% H 2 O <ref type="bibr">(Chekhmir and Epel'baum, 1991)</ref> which were not used in the calculation of the line (Fig. <ref type="figure" target="#fig_3">4</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Diffusion of Alkalis Compared to Other Elements</head><p>The Na-K interdiffusion coefficients measured in this study are orders of magnitude above those of network former interdiffusion in alkali feldspar melts. In Fig. <ref type="figure" target="#fig_3">4</ref> the Si-Al interdiffusion coefficients in alkali feldspar melts have been estimated from measured high-pressure viscosities in albite and orthoclase melts at temperatures between 1400 and 1600°C and pressures between 0.75 and 2.5 GPa <ref type="bibr" target="#b20">(Dingwell, 1987;</ref><ref type="bibr" target="#b58">White and Montana, 1990;</ref><ref type="bibr" target="#b7">Baker, 1996)</ref> through use of the Eyring equation (see <ref type="bibr" target="#b2">Baker, 1990)</ref>. Additionally the orthoclase melt viscosity measurements at 2.5 GPa <ref type="bibr" target="#b58">(White and Montana, 1990)</ref>   <ref type="bibr" target="#b20">(Dingwell, 1987;</ref><ref type="bibr" target="#b58">White and Montana, 1990;</ref><ref type="bibr" target="#b7">Baker, 1996)</ref> of albite melt (filled triangles) and orthoclase melt (filled circles) and Ca-Sr interdiffusion in albite melt (crosses) from Fujii (1981) are reported for comparison. can be used to estimate an activation energy for Si-Al diffusion of approximately 450 kJ mol Ϫ1 . These estimated Si-Al interdiffusion coefficients are four orders of magnitude below those of Na-K (Fig. <ref type="figure" target="#fig_3">4</ref>) and the activation energy for Si-Al interdiffusion almost four times that measured for Na-K. The interdiffusion coefficients of the alkaline-earths Ca and Sr measured in albite melt by <ref type="bibr">Fujii (1981)</ref> at 1400°C and pressures of 0.25 and 2.0 GPa are approximately one decade below Na-K interdiffusion coefficients (Fig. <ref type="figure" target="#fig_3">4</ref>). These differences between diffusion of alkalis, alkaline-earths, and network formers are not anomalous and have been observed repeatedly in diffusion studies on natural compositions (cf. review by <ref type="bibr" target="#b55">Watson and Baker, 1991)</ref>.</p><p>The progressive increase in diffusion coefficients from Si-Al through Ca-Sr to Na-K in alkali feldspar melts is correlated with decreasing field strength, Z/r 2 (Z is cation charge, r is cation radius or the cation-oxygen bond length), which we prefer to express using the valence of the cation-oxygen bond. Similar correlations between tracer diffusion and cation properties have been observed previously (e.g., <ref type="bibr" target="#b25">Hofmann, 1980;</ref><ref type="bibr" target="#b24">Henderson et al., 1985)</ref>.</p><p>Comparison of Na-K interdiffusion in feldspar melts with Si-Al interdiffusion and Zr and P chemical diffusion in rhyolitic melts demonstrates that bond valence, or field strength, alone does not simply control diffusivity. It is the bond valence, or field strength, combined with the ability of the melt to accommodate cations in suitable charge-balanced coordination polyhedra which are instrumental in controlling rates of diffusion in highly polymerized melts such as alkali feldspar compositions. Studies of the structures of feldspar glasses demonstrate that Na and K are coordinated by oxygens associated with rings of 6 (Si,Al)-O tetrahedra which dominate the structure of the glass and most probably of isocompositional melts (see reviews by <ref type="bibr" target="#b39">Mysen, 1988;</ref><ref type="bibr" target="#b12">Brown et al., 1995;</ref><ref type="bibr" target="#b38">McMillan and Wolf, 1995;</ref><ref type="bibr" target="#b47">Stebbins, 1995)</ref>. The Na-O bond length for eight-coordinated Na in albite melt is 0.235 nm; in orthoclase and albite-orthoclase glasses K is nine-to ten-fold coordinated and K-O bond lengths are between 0.3 and 0.306 nm <ref type="bibr" target="#b12">(Brown et al., 1995)</ref>. The bond valences for these two cations are 0.17 and 0.09 v.u., respectively <ref type="bibr" target="#b12">(Brown et al., 1995)</ref>. Silicon and aluminum in feldspar melts and glasses are four-coordinated and have bond lengths which vary from 0.163 to 0.168 nm, and bond valences of 0.98 v.u. and 0.74 v.u., respectively <ref type="bibr" target="#b12">(Brown et al., 1995)</ref>. Phosphorus is four-coordinated with a bond length of 0.154 nm and a bond valence of 1.20 v.u., and zirconium is six-coordinated with a bond length of 0.210 nm and a bond valence of 0.66 v.u. <ref type="bibr" target="#b12">(Brown et al., 1995)</ref>.</p><p>The abundance of large structures into which alkalis reside in feldspar melts combined with their low bond valences, or field strengths, are responsible for the high diffusion coefficients of these cations; at 1200°C (T avg ϭ 1163) the measured interdiffusion coefficient is approximately 1 ϫ 10 Ϫ10 m 2 s Ϫ1 . Cations with higher bond valences display much slower diffusion. At similar conditions of temperature and pressure the interdiffusion of Si and Al is approximately 2 ϫ 10 Ϫ14 m 2 s Ϫ1 <ref type="bibr" target="#b2">(Baker, 1990</ref>; calculated from <ref type="bibr" target="#b58">White and Montana, 1990)</ref>; interdiffusion of these cations in granitic melts is characterized by a preexponential factor of 6.7 ϫ 10 2 m 2 s Ϫ1 and an activation energy of 236 kJ mol Ϫ1 <ref type="bibr" target="#b2">(Baker, 1990)</ref>. Oxides of these cations have solubilities in the range of tens of weight percent which reflect the ability of the melt to accomodate these cations inside charge-balancing polyhedra of oxygen anions. The high field-strength elements Zr and P are the slowest diffusing cations in anhydrous rhyolitic melts with diffusivities of approximately 3 ϫ 10 Ϫ16 m 2 s Ϫ1 and 1 ϫ 10 Ϫ16 m 2 s Ϫ1 , respectively, at 1200°C and pressures similar to those of this study <ref type="bibr">(Harrison and</ref><ref type="bibr">Watson, 1983, 1984)</ref>. Zirconium and phosphorus display high activation energies for diffusion, 409 and 601 kJ mol Ϫ1 , and high preexponential factors, 0.098 and 2.2 ϫ 10 5 m 2 s Ϫ1 , respectively <ref type="bibr">(Harrison and</ref><ref type="bibr">Watson, 1983, 1984)</ref>. The low diffusivity of P and Zr, particularly Zr whose charge is the same as Si but has a lower bond valence, is attributed to the difficulty of creating charge-balanced polyhedra for these cations in anhydrous rhyolitic melts due to low proportion of nonbridging oxygens in silica-rich melts. The inability of silicarich melts to create abundant charge-balanced oxygen polyhedra for Zr and P is demonstrated by the low solubilities of zircon, 2800 ppm Zr <ref type="bibr" target="#b22">(Harrison and Watson, 1983)</ref>, and apatite, 800 ppm P <ref type="bibr" target="#b23">(Harrison and Watson, 1984)</ref>, at 1200°C in rhyolitic melts. These correlations lead us to the conclusion that any future model for the prediction of cation diffusion in silicate melts must include both the bond valence of the cation-oxygen bond and some measure of the melt's ability to create chargebalancing polyhedra.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Tracer vs. Chemical Diffusion</head><p>In Fig. <ref type="figure">5</ref> the experimental data of Na-K interdiffusion coefficients are compared with the 1-atm tracer diffusion data of Na and K in albite and orthoclase glasses <ref type="bibr" target="#b28">(Jambon and Carron, 1976)</ref> extrapolated up to 1600°C. The Na tracer diffusion in both amorphous albite and orthoclase at every temperature is higher than the Na-K interdiffusion coefficient. The K tracer diffusion coefficients are lower than the Na-K interdiffusion coefficient at the highest temperatures and become comparable Fig. <ref type="figure">5</ref>. Arrhenius diagram for Na-K interdiffusion compared with extrapolated tracer diffusion coefficients of Na and K in albite and orthoclase glasses from <ref type="bibr" target="#b28">Jambon and Carron (1976)</ref>. The calculated Arrhenian fit to anhydrous experimental data from this study is also shown. below 1000°C. These observations can be explained by the ion interaction effect in a binary system <ref type="bibr" target="#b36">(Manning, 1968)</ref>:</p><formula xml:id="formula_2">D NaϪK ϭ D* Na D* K X Ab D* Na ϩ X Or D* K d1na Or d1nX Or (3)</formula><p>where D Na-K is the interdiffusion coefficient, D* Na or D* K is the tracer diffusion coefficient, X Ab or Or is the mole fraction of albite or orthoclase, and a Or is the molar activity of orthoclase in an albite-orthoclase melt or glass. When the system behaves ideally the thermodynamic factor, the second term on the right hand side of the equation, equals 1. Activity-composition measurements on mixtures of albite and orthoclase melts at 1 atm and 1200 -1600°C indicate that over the compositional range of 0.2 Յ X or Յ 1 the components mix virtually ideally <ref type="bibr" target="#b40">(Rammensee and Fraser, 1982)</ref>. Assuming ideality at 1.0 GPa and using the tracer diffusivities measured in glasses, the Na-K interdiffusion coefficient has been calculated (Fig. <ref type="figure">5</ref>). At all temperatures the agreement between experimental and calculated Na-K diffusivities is always within a factor of three.</p><p>Although calculated, 88.9 kJ mol Ϫ1 , and measured, 145.8 kJ mol Ϫ1 , activation energies are obviously distinct from one another, such a close correspondence between experimental and calculated diffusion coefficients supports the validity of extrapolating tracer diffusivities measured in alkali feldspar glasses into the melt region. At 1000°C and below comparison of experimental and calculated Na-K interdiffusion reveals apparently anomalous behavior. At these lower temperatures the experimental values are near to, and below, the values of K tracer diffusion in orthoclase and albite glasses which is inconsistent with Eqn. 3 and the assumption of ideal mixing of Or and Ab components in the melt or glass. The reduction in the measured Na-K interdiffusion coefficient is attributed to the probable nonideality in the melt or glass at these lower temperatures and is a manifestation of the mixed alkali effect (e.g., <ref type="bibr" target="#b13">Chakraborty, 1995)</ref>.</p><p>Comparison of our study with the multicomponent diffusion experiments of <ref type="bibr" target="#b14">Chakraborty et al. (1995 a,b)</ref> in SiO 2 -Al 2 O 3 -K 2 O melts demonstrates the complexity which may occur when diffusion in silicate melts involves more than just alkali exchange. <ref type="bibr" target="#b14">Chakraborty et al. (1995 a,b)</ref> studied diffusion between melts of approximately equal K 2 O/Al 2 O 3 weight ratios, but differing SiO 2 concentrations. They found diffusive coupling between Al 2 O 3 and K 2 O which led to uphill diffusion of the former and values of the D K2O-K2O elements in diffusion matrices which were about four orders of magnitude less than the D Na-K coefficients of this study. No coupling between alkalis and other ions was found in this study, but we have observed diffusive coupling in preliminary diffusion experiments between albite and anorthite.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Na-K Diffusion in Melts, Glasses, and Crystals</head><p>The Na-K interdiffusion measured in the anhydrous system occurs in equilibrium melts at the highest temperatures, between an equilibrium melt and a supercooled melt at temperatures between 1500 and 1200°C, and possibly between two glasses at 800°C. Despite the different physical and thermodynamic states of the system, Na-K interdiffusion appears Arrhenian at all temperatures, unlike tracer diffusion in some systems (e.g., <ref type="bibr" target="#b13">Chakraborty, 1995)</ref>. It is tempting to link the Arrhenian behavior of Na-K diffusion to the strong viscous behavior of albite liquid and glass <ref type="bibr" target="#b43">(Richet and Bottinga, 1995)</ref>. However, as discussed below, the small effect of H 2 O on Na-K interdiffusion and its large effect on viscosity and Si-Al diffusion indicate that the relationship between Na-K diffusion and viscosity is complex and beyond the scope of the present paper.</p><p>Comparison of Na-K interdiffusion in alkali feldspar melts extrapolated down to 650 and 600°C and Na-K interdiffusion in crystalline alkali feldspar <ref type="bibr" target="#b11">(Brady and Yund, 1983)</ref> demonstrates that diffusion in melts (or glasses) is six orders of magnitude greater than in the crystalline phase. This difference must reflect changes occurring during the melting of alkali feldspar crystals. The melting of crystalline alkali feldspar changes the number of (Si,Al)O 4 tetrahedra in the rings which contain alkalis from 4 to 6 <ref type="bibr" target="#b48">(Taylor and Brown, 1979)</ref>. Differences in Na and K coordination between crystals and melts are small. The coordination of Na in high albite is 6 -7 <ref type="bibr" target="#b19">(Deer et al., 1966)</ref> and in albite melt is 8 <ref type="bibr" target="#b12">(Brown et al., 1995)</ref>; the coordination of K in high sanidine is 9 <ref type="bibr" target="#b19">(Deer et al., 1966)</ref> and varies between ϳ9 and 10 in orthoclase-albite melts <ref type="bibr" target="#b12">(Brown et al., 1995)</ref>. The million-fold increase in Na-K diffusion due to amorphization is attributed to the loss of long-range order and the increase in the number of coordinating oxygens around alkalis in feldspar melts. The effect of the loss of long-range order on diffusion has been predicted theoretically by <ref type="bibr" target="#b49">Tsekov and Ruckenstein (1994)</ref> and also observed in studies comparing tracer diffusion in albite melt and crystals <ref type="bibr" target="#b6">(Baker, 1995)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">The Effects of Pressure</head><p>The pressure effect on alkali diffusion was investigated by performing one additional experiment at 2 GPa, T exp ϭ 1400°C (T avg ϭ 1331). We chose 1400°C in order to compare our results with those from the literature <ref type="bibr" target="#b46">(Smith, 1974;</ref><ref type="bibr">Fujii, 1981;</ref><ref type="bibr" target="#b33">Kushiro, 1983;</ref><ref type="bibr" target="#b2">Baker, 1990)</ref>. As shown in Fig. <ref type="figure">6</ref> there is no measurable pressure effect on the Na and K interdiffusion coefficients. Whereas Si, Al, Ge, and Ga (network-forming cations) interdiffusion coefficients are sensitive to pressure, displaying a positive correlation. Even Ca and Sr (networkmodifying cations) interdiffusion coefficients in albite melts are pressure dependent, but in this case the correlation between pressure and diffusivity is negative. The pressure dependence of the diffusion coefficient can typically be expressed by the following equation:</p><formula xml:id="formula_3">D ϭ D o p exp(ϪPV a /RT)<label>(4)</label></formula><p>similar to the Arrhenius equation for temperature dependence.</p><p>In this equation D o p is the diffusivity at zero pressure, P is the pressure, V a is the activation volume, R is the gas constant and T the temperature in kelvins. Our results demonstrate that at 1400°C the activation volume for interdiffusion of Na and K is zero. The activation volume for the interdiffusion of networkformer cations Si and Al is negative with a value of approximately Ϫ13.2 cm 3 mol Ϫ1 <ref type="bibr" target="#b2">(Baker, 1990)</ref>. The activation volume for Ca-Sr interdiffusion in albite melt is positive with a value of 9.5 cm 3 mol Ϫ1 <ref type="bibr">(Fujii, 1981)</ref>.</p><p>The negative activation volume for network-former cations is interpreted to reflect changes in the local structure of the melt <ref type="bibr" target="#b45">(Shimizu and Kushiro, 1984;</ref><ref type="bibr" target="#b2">Baker, 1990)</ref> related to a transi-3003 Na-K interdiffusion tory collapse in the melt structure occurring during diffusion. This collapse could occur by temporarily increasing the coordination of Si and Al network-former cations from 4 to 5 or 6 in silicate melts <ref type="bibr" target="#b0">(Angell et al., 1982;</ref><ref type="bibr" target="#b32">Kubicki and Lasaga, 1988;</ref><ref type="bibr" target="#b2">Baker, 1990;</ref><ref type="bibr" target="#b59">Xue et al., 1991)</ref>. Diffusion of network-former cations occurs during the formation and destruction of these activated complexes.</p><p>The positive activation volume found for Ca-Sr interdiffusion <ref type="bibr">(Fujii, 1981</ref>) is interpreted to be related to dilation of the local melt structure near these cations associated with the formation of activated complexes. For Na-K interdiffusion the activation volume is zero which implies that no measurable dilation is necessary for the formation of activated complexes and diffusion. This behavior is related to the different local structure around alkalis and alkaline earths in aluminosilicate melts. <ref type="bibr" target="#b48">Taylor and Brown (1979)</ref> found that anorthitic glass, and, therefore, presumably melt, is dominated by four-membered tetrahedral rings as in the crystalline structure of feldspars; these four-membered rings provide the charge-balanced locations for Ca cations. For glasses, and also presumably melts, of albitic and orthoclasic composisition, instead, larger six-membered tetrahedral rings with alkalis in the centre, similar to the stuffed tridymite, are dominant <ref type="bibr" target="#b48">(Taylor and Brown, 1979</ref>; see also reviews by <ref type="bibr" target="#b12">Brown et al., 1995;</ref><ref type="bibr" target="#b38">McMillan and Wolf, 1995;</ref><ref type="bibr" target="#b47">Stebbins, 1995)</ref>. The structure of crystalline tridymite can be used to estimate the diameter of the six-membered tetrahedra ring to be 0.5 nm <ref type="bibr" target="#b19">(Deer et al., 1966)</ref>, and the structure of anorthite provides an estimate for the four-membered ring diameter, 0.42 nm <ref type="bibr" target="#b42">(Ribbe, 1983)</ref>. The different size of these rings of tetrahedra are proposed to be responsible for the different activation volumes of alkali and alkaline earths. The smaller, four-membered, rings must dilate significantly for alkaline earth diffusion and produce a measurable activation volume, but the amount of dilation of the larger, six-membered, rings necessary for alkali diffusion is much less; in this study it is unmeasurable.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.5.">The Effect of H 2 O</head><p>The effect of H 2 O on diffusion coefficients measured in this and other selected studies near 1200°C is displayed in Fig. <ref type="figure">7</ref>. As is clearly shown, H 2 O has a very small effect on alkali (this study) and alkaline earth <ref type="bibr">(Fujii, 1981)</ref> interdiffusion in alkali feldspar melts compared to the effect of H 2 O on P, Zr, <ref type="bibr">(Harrison and</ref><ref type="bibr">Watson, 1983, 1984)</ref> and Si chemical diffusion <ref type="bibr" target="#b3">(Baker, 1991)</ref> in granitic melts. Such a result is not unexpected in as much as <ref type="bibr" target="#b52">Watson's (1981)</ref> study of the effects of H 2 O on Na tracer diffusion in obsidian demonstrated that H 2 O only increased diffusion by a small value. The Na-K interdiffusion coefficients increase by only a factor of four with the addition of 5.5 wt% of H 2 O. Ca-Sr interdiffusion coefficients increase by a factor of six with the addition of 4 wt% of H 2 O. However P, Zr, and Si diffusion coefficients increase by about three orders of magnitude with addition of 6 wt% of H 2 O. The strong H 2 O effect which decreases the activation energies by a factor of two for Si and Zr and by a factor of six for P is attributed to the interaction between H 2 O and bridging oxygens to form hydroxyls and nonbridging oxygens (see review by <ref type="bibr" target="#b54">Watson, 1994)</ref> and results in the creation of additional charge-balanced polyhedra in silica-rich melts for these high field strength cations (see previous discussion). We observed that with addition of H 2 O the activation energy decreased by 20% and the preexponential factor for Na-K interdiffusion increased by only a factor of ten (Fig. <ref type="figure" target="#fig_3">4</ref>). The small changes in Arrhenius parameters are attributed to the minor effect of H 2 O on the local structure, i.e., coordination polyhedra, related to Na and K in alkali feldspar melts. The observed Arrhenian behavior encourages the extrapolation of Na-K interdiffusion measurements to Fig. <ref type="figure">6</ref>. Diffusion coefficients vs. pressure for network-modifying and network-former cations. Pressure does not have a measurable effect on Na and K interdiffusion coefficients. However pressure obviously has a negative effect on Ca-Sr interdiffusion coefficients and a positive effect on network-former cations interdiffusion coefficients. Fig. <ref type="figure">7</ref>. Diffusion coefficients vs. H 2 O for network-modifying and network-former cations in alkali feldspar and rhyolitic melts. Na-K interdiffusion coefficients are from this study (diamonds) with the exception of the star which is from <ref type="bibr" target="#b16">Chekhmir and Epelbaum (1991)</ref>. Ca-Sr interdiffusion coefficients (crosses) are from Fujii (1981). Si-Al interdiffusion measurements (dots) are from <ref type="bibr" target="#b3">Baker (1991)</ref>. Zr chemical diffusion coefficients (open triangles) are from <ref type="bibr" target="#b22">Harrison and Watson (1983)</ref>, and P chemical diffusion coefficients (filled triangles) are from <ref type="bibr" target="#b23">Harrison and Watson (1984)</ref>. Unfortunately, the temperature and pressure conditions at which Fujii (1981) made his comparison of hydrous and anhydrous Ca-Sr interdiffusion are not provided in his abstract. lower temperatures equivalent to those of pegmatite genesis, near 600°C. The small effect of H 2 O addition of Ca-Sr interdiffusion <ref type="bibr">(Fujii, 1981)</ref> also is interpreted to reflect little difference in the local structure around alkaline earth cations between anhydrous and hydrous alkali feldspar melts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.6.">Application to Contamination Calculations</head><p>In order to evaluate the applicability of the results from this study to the description of alkali diffusion in the natural geological setting, we compared them with previous data obtained under different experimental conditions on different compositions of natural rocks (Fig. <ref type="figure" target="#fig_4">8</ref>). The most exhaustive study available on alkali chemical diffusion was performed by <ref type="bibr" target="#b46">Smith (1974)</ref> who investigated the alkali diffusion in basaltic, andesitic, and rhyolitic melts at 1 atm in a temperature range from 1100 to 1550°C. Unfortunately, this study does not give any information about the effects of H 2 O and pressure on alkali diffusion. The Na-K interdiffusion coefficient was estimated for a feldspar-basalt diffusion couple <ref type="bibr" target="#b53">(Watson, 1982)</ref> at 1300°C, 0.6 GPa, and the K chemical diffusion was measured in an anhydrous basalt-granite couple at 1250°C, 1.0 GPa <ref type="bibr" target="#b57">(Watson and Jurewicz, 1984)</ref>. The only available data about the effect of H 2 O on alkali diffusion in natural rocks are from van der Laan and Wyllie (1993) who measured Na and K chemical diffusion between a basaltic and granitic melt with 5 wt% added H 2 O at 920°C, 1.0 GPa and from <ref type="bibr" target="#b1">Bai and Koster van Groos (1994)</ref> who measured only K chemical diffusion at low temperatures, 750 -900°C, and pressures, 100 -560 MPa, in a granitic melt ϩ 6.4 wt% H 2 O. Because the results of <ref type="bibr" target="#b1">Bai and Koster van Groos (1994)</ref> were used to constrain the Arrhenius line for hydrous alkali diffusion (Fig. <ref type="figure" target="#fig_3">4</ref>), they are not shown as individual points in Fig. <ref type="figure" target="#fig_4">8</ref>. Comparison of previous independent measurements of alkali chemical diffusion with the Arrhenius lines calculated in this study demonstrates excellent agreement. The only significant discrepancy is with the measurement of <ref type="bibr" target="#b57">Watson and Jurewicz (1984)</ref>. The low diffusion coefficient of <ref type="bibr" target="#b57">Watson and Jurewicz (1984)</ref> is related to their experimental technique in which they studied the diffusion of K from a partially molten granite into a superliquidus basalt under anhydrous conditions. Under these conditions alkali diffusion is expected to be slower because diffusion of K into the basalt requires counter diffusion of Ca, Mg, and Fe which will be significantly slower than alkali interdiffusion (as argued by <ref type="bibr" target="#b57">Watson and Jurewicz, 1984)</ref>. This diffusive coupling between K and other ions in the melt is a multicomponent example of diffusive coupling which has been extensively studied in simple systems (e.g., <ref type="bibr" target="#b31">Kress and Ghiorso, 1993;</ref><ref type="bibr">Chakraborty et al., 1995a,b;</ref><ref type="bibr" target="#b34">Liang et al., 1997)</ref>. Theoretically, diffusive coupling can lead to uphill diffusion of any element (e.g., <ref type="bibr" target="#b31">Kress and Ghiorso, 1993;</ref><ref type="bibr">Chakraborty et al., 1995a,b;</ref><ref type="bibr" target="#b34">Liang et al., 1997)</ref>, but uphill diffusion of alkalis in natural compositions has only been observed during anhydrous diffusion between dissolving quartz and basaltic melts <ref type="bibr" target="#b44">(Sato, 1974;</ref><ref type="bibr" target="#b53">Watson 1982)</ref>. The coupling of alkali diffusion with other ions in natural melts appears to be substantially weakened when H 2 O is added. The hydrous basaltic-granitic melt interdiffusion experiments of van der Laan and Wyllie (1993) demonstrated that addition of 5 wt% H 2 O increases alkali diffusion coefficients to values consistent with those measured in this study, whereas diffusion coefficients of Ca, Mg, and Fe were much lower. Based upon the good agreement of all the studies we are confident that the Na-K interdiffusion coefficients measured in this study can be used as maximum values for petrologic investigations of alkali diffusion in a wide range of natural melt compositions. We estimate that these values are accurate within approximately one-half an order of magnitude for most compositions ranging from basaltic to rhyolitic melts (cf. Fig. <ref type="figure" target="#fig_4">8</ref>). However, it should be noted that in some natural circumstances, such as the dissolution of quartz discussed above, diffusive coupling may lead to uphill diffusion which cannot be predicted from the results of this study. The observed Arrhenian behavior of Na-K interdiffusion suggests that measurements can be extrapolated to lower temperatures equivalent to those of pegmatite genesis, near 600°C. Moreover, due to the insignificant effects of H 2 O and pressure observed in this study on alkali diffusion, we also theorize that these diffusion coefficients are applicable for the calculation of alkali diffusive transport and contamination of melts of a wide range of temperatures, pressures, and H 2 O concentrations which may be found in crustal and upper mantle melts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">CONCLUSIONS</head><p>Results obtained during the investigation of Na and K chemical diffusion between albite and orthoclase melts at 1.0 GPa between T exp ϭ 800 and 1600°C and at 2.0 GPa, 1400°C, in anhydrous melts and in hydrous, 5.5 wt% H 2 O, melts at 1.0 GPa, 1200 and 1400°C demonstrate that under the experimental conditions of this study the only diffusive transport which occurred was the exchange of Na and K cations. The alkali interdiffusion coefficients are four orders of magnitude higher  <ref type="bibr" target="#b57">Watson and Jurewicz (1984)</ref> used an anhydrous basalt-partially molten granite couple to determine K chemical diffusion. <ref type="bibr" target="#b46">Smith (1974)</ref> provided the most complete investigation of Na-K interdiffusion in anhydrous basaltic, andesitic, and rhyolitic melt compositions at 1 bar.</p><p>than the estimated diffusion coefficients of network-former cations in melts of the same composition. Pressure was not observed to have a measurable effect on Na-K interdiffusion in the investigated system at T exp ϭ 1400°C. Alkali diffusion in both anhydrous and hydrous melts can be described by Arrhenius equations. The effect of H 2 O on Na-K interdiffusion is minor; under hydrous conditions the interdiffusion coefficients increase by only a factor of four and the activation energy does not change significantly relative to anhydrous diffusion. We conclude that the Na-K interdiffusion coefficients measured in this study can be used to describe the maximum rates of alkali diffusion in a wide range of melt compositions under different conditions in the crust and upper mantle.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Pictures showing a typical capsule after an experiment. (a) experiment XI A, P ϭ 1.0 GPa, T ϭ 1400°C (T avg ϭ 1309), 5.5 wt% H 2 O added; (b) experiment IX A, P ϭ 1.GPa, T ϭ 1200°C (T avg ϭ 1173). The geometry of the capsules is very well preserved for both hydrous experiments (graphite capsule welded in Pt capsule) and anhydrous experiments (only graphite capsule used).</figDesc><graphic coords="2,316.03,69.00,225.46,319.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Chemical diffusion profiles between orthoclase and albite melts (experiment XI A, P ϭ 1.0 GPa, T ϭ 1400°C (T avg ϭ 1309), 5.5 wt% H 2 O added). (a) Na 2 O and K 2 O wt% concentrations along the capsule. (b) Cation concentrations, expressed in atoms per formula unit on the basis of eight oxygens, along the diffusion profile. One can observe that diffusion occurs only for Na and K cations. The diffusion profile length, which does not reach the end of the reservoir, is the same for both the elements.</figDesc><graphic coords="4,74.84,69.00,203.88,204.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Na (open squares) and K (filled diamonds) chemical diffusion coefficients vs. mole fraction orthoclase for anhydrous experiments at P ϭ 1.0 GPa and different average temperatures. Every data point is the average of the diffusion coefficients measured from three (or two for experiment IV A) analytical traverses. The size of the error bars is almost always comparable with the symbol size, except that in few cases at X Or ϭ 0.25 or 0.75</figDesc><graphic coords="4,317.76,464.50,222.00,190.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. Arrhenius diagram of NaϪ (squares) K (diamonds) interdiffusion at X Or ϭ 0.5 and P ϭ 1.0 GPa plotting measured diffusion coefficients against 10000/T avg (when T avg is expressed in kelvins). Filled symbols are anhydrous measurements and open symbols are hydrous ones. The Arrhenius line for the hydrous data was fitted using the diffusion coefficients in this study and those measured by Bai and Koster van Groos (1994) at P ϭ 450 and 560 MPa in a granitic melt ϩ 6.4 wt% H 2 O (filled stars). The diffusion coefficients measured by Chekhmir and Epelbaum (1991) at P ϭ 50 MPa in albite-orthoclase glass ϩ 1.7 wt% H 2 O (open stars) fall on the same line, but were not used to fit the line. Si-Al interdiffusion calculated from Eyring equation from viscosities<ref type="bibr" target="#b20">(Dingwell, 1987;</ref><ref type="bibr" target="#b58">White and Montana, 1990;</ref><ref type="bibr" target="#b7">Baker, 1996)</ref> of albite melt (filled triangles) and orthoclase melt (filled circles) and Ca-Sr interdiffusion in albite melt (crosses) from Fujii (1981) are reported for comparison.</figDesc><graphic coords="5,66.36,69.00,220.80,201.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Alkali chemical diffusion from this study compared with previous data for different melt compositions. The Watson (1982) Na-K interdiffusion coefficient was estimated for a feldspar-basalt diffusion couple. van der Laan and Wyllie (1993) measured Na (open triangle) and K (filled triangle) chemical diffusion between a basaltic and a granitic melt with 5 wt% added H 2 O.<ref type="bibr" target="#b57">Watson and Jurewicz (1984)</ref> used an anhydrous basalt-partially molten granite couple to determine K chemical diffusion.<ref type="bibr" target="#b46">Smith (1974)</ref> provided the most complete investigation of Na-K interdiffusion in anhydrous basaltic, andesitic, and rhyolitic melt compositions at 1 bar.</figDesc><graphic coords="9,72.50,69.00,208.54,188.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Composition of starting materials</figDesc><table><row><cell></cell><cell>Albite glass</cell><cell>Orthoclase glass</cell></row><row><cell>SiO 2</cell><cell>69.14 (0.28) 1</cell><cell>65.13 (0.49)</cell></row><row><cell>A1 2 O 3</cell><cell>19.26 (0.23)</cell><cell>18.52 (0.25)</cell></row><row><cell>Na 2 O</cell><cell>11.42 (0.23)</cell><cell>-</cell></row><row><cell>K 2 O</cell><cell>-</cell><cell>17.76 (0.16)</cell></row><row><cell>Total</cell><cell>99.82</cell><cell>101.41</cell></row><row><cell></cell><cell>Na 0.97 A1 0.99 Si 3.02 O 8</cell><cell>K 1.04 A1 1.00 Si 3.00 O 8</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Experimental conditions and measured diffusion coefficients</figDesc><table><row><cell>Run</cell><cell>T exp ( 0 C) 1 T avg ( 0 C) 2 Time(s) n 3</cell><cell>X or ϭ 0.25</cell><cell>X or ϭ 0.50</cell><cell>X or ϭ 0.75</cell></row><row><cell>1.0</cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>GPa D K (m 2 s ؊1 ) D Na (m 2 s ؊1 ) D K (m 2 s ؊1 ) D Na (m 2 s ؊1 ) D K (m 2 s ؊1 ) D Na (m 2 s ؊1 )</head><label></label><figDesc></figDesc><table><row><cell>III A IV A V A VI B IX A X A XI A 5.5% H 2 O XII A, 5.5% H 2 O</cell><cell>1600 1492 1400 1300 1200 800 1400 1200</cell><cell>1467 1381 1331 1246 1173 800 1309 1163</cell><cell>120 3 9.03(Ϯ0.20) ϫ 10 Ϫ10 1.46(Ϯ0.24) ϫ 10 Ϫ9 1.35(Ϯ0.02) ϫ 10 Ϫ9 1.18(Ϯ0.13) ϫ 10 Ϫ9 1.76(Ϯ0.10) ϫ 10 Ϫ9 1.11(Ϯ0.19) ϫ 10 Ϫ9 120 2 4.32(Ϯ0.05) ϫ 10 Ϫ10 3.92(Ϯ0.23) ϫ 10 Ϫ10 3.87(Ϯ0.04) ϫ 10 Ϫ10 5.24(Ϯ0.68) ϫ 10 Ϫ10 8.23(Ϯ0.24) ϫ 10 Ϫ10 7.82(Ϯ0.84) ϫ 10 Ϫ10 240 3 2.02(Ϯ0.17) ϫ 10 Ϫ10 1.81(Ϯ0.70) ϫ 10 Ϫ10 2.38(Ϯ0.24) ϫ 10 Ϫ10 3.46(Ϯ0.40) ϫ 10 Ϫ10 4.75(Ϯ0.78) ϫ 10 Ϫ10 5.14(Ϯ0.50) ϫ 10 Ϫ10 240 3 1.96(Ϯ1.00) ϫ 10 Ϫ10 2.30(Ϯ0.22) ϫ 10 Ϫ10 2.24(Ϯ0.51) ϫ 10 Ϫ10 2.33(Ϯ0.32) ϫ 10 Ϫ10 3.50(Ϯ0.31) ϫ 10 Ϫ10 2.93(Ϯ1.53) ϫ 10 Ϫ10 480 3 9.10(Ϯ4.70) ϫ 10 Ϫ11 7.77(Ϯ0.92) ϫ 10 Ϫ11 1.09(Ϯ0.04) ϫ 10 Ϫ10 1.37(Ϯ0.14) ϫ 10 Ϫ10 1.17(Ϯ0.40) ϫ 10 Ϫ10 1.62(Ϯ0.17) ϫ 10 Ϫ10 11,700 3 2.89(Ϯ0.45) ϫ 10 Ϫ12 1.29(Ϯ0.21) ϫ 10 Ϫ12 2.25(Ϯ0.35) ϫ 10 Ϫ12 2.38(Ϯ0.21) ϫ 10 Ϫ12 1.56(Ϯ0.26) ϫ 10 Ϫ12 3.60(Ϯ0.11) ϫ 10 Ϫ12 240 3 6.24(Ϯ0.14) ϫ 10 Ϫ10 6.83(Ϯ0.69) ϫ 10 Ϫ10 7.24(Ϯ0.61) ϫ 10 Ϫ10 7.40(Ϯ0.53) ϫ 10 Ϫ10 9.88(Ϯ0.49) ϫ 10 Ϫ10 1.02(Ϯ0.05) ϫ 10 Ϫ9 480 3 3.23(Ϯ0.11) ϫ 10 Ϫ10 3.52(Ϯ0.61) ϫ 10 Ϫ10 3.78(Ϯ0.38) ϫ 10 Ϫ10 3.62(Ϯ0.22) ϫ 10 Ϫ10 5.26(Ϯ0.34) ϫ 10 Ϫ10 5.03(Ϯ0.08) ϫ 10 Ϫ10</cell></row><row><cell>2.0 GPa</cell><cell></cell><cell></cell><cell></cell></row><row><cell>VIII A</cell><cell>1400</cell><cell>1331</cell><cell>240 3 2.01(Ϯ0.19) ϫ 10 Ϫ10 2.42(Ϯ0.81) ϫ 10 Ϫ10 2.54(Ϯ0.48) ϫ 10 Ϫ10 3.16(Ϯ0.64) ϫ 10 Ϫ10 3.73(Ϯ0.48) ϫ 10 Ϫ10 4.94(Ϯ0.68) ϫ 10 Ϫ10</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>sigma errors based upon replicate analyses of glasses by electron microprobe.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_1"><p>Experimental temperature.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2" xml:id="foot_2"><p>Average temperature calculated following<ref type="bibr" target="#b60">Yinnon and Cooper (1980)</ref> as discussed in text.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_3"><p>Number of traverses used to calculate diffusion coefficients.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>Na-K interdiffusion</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments-Many thanks to <rs type="person">Steve Kecani</rs> for making graphite capsules and to <rs type="person">Fred Bernier</rs> for performing the experiment at 2.0 GPa. C. F. also thanks <rs type="person">Claude Dalpe</rs> ´for helping with the microprobe and <rs type="person">Raffaello Trigila</rs> for making her stronger. We thank the three anonymous reviewers for their constructive comments. This research was supported by <rs type="funder">NSERC</rs> operating Grant <rs type="grantNumber">OGP89662</rs> and by <rs type="funder">C.S. per gli Equilibri Sperimentali in Minerali e Rocce del C</rs>.N.R</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_UawmgvZ">
+					<idno type="grant-number">OGP89662</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Pressure Enhancement of ion Mobilities in Liquid Silicates from Computer Simulation Studies to 800 Kilobars</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Angell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cheeseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tamaddon</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<biblScope unit="page" from="885" to="887" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Pressure Effect on potassium diffusion in hydrated granitic melt</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Koster Van Groos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science in China</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="879" to="886" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Chemical interdiffusion of dacite and rhyolite: Anhydrous measurements at 1 atm and 10 kbar, application of transition state theory, and diffusion in zoned magma chambers</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="407" to="423" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Interdiffusion of hydrous dacite and rhyolitic melts and the efficacy of rhyolite contamination of dacitic enclaves. Contrib</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="462" to="473" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Estimation of diffusion coefficients during interdiffusion of geologic melts: Application of transition state theory</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="11" to="21" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Measurement of Diffusion at High Temperatures and Pressures in Silicate Systems</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Short Course Handbook on Experiments at High Pressure and Applications to the Earths Mantle</title>
+		<imprint>
+			<publisher>Mineral. Assoc. Canada</publisher>
+			<date type="published" when="1993">1993</date>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="305" to="355" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Diffusion of silicon and gallium (as an analogue for aluminum) network-forming cations and their relationship to viscosity in albite melt</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="3561" to="3571" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Granitic melt viscosities: Empirical and configuration entropy models for their calculation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="126" to="134" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The combined effect of F and H 2 O on interdiffusion between peralkaline dacitic and rhyolitic melts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bossa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="203" to="214" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Na and Ca tracer diffusion in plagioclase glasses and supercooled melts</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Behrens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="267" to="275" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Liquids, glasses, and the melting of silicate to high pressures</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Boettcher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Windom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Bohlen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="823" to="834" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Interdiffusion of potassium and sodium in alkali feldspars: Homogenization experiments</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Brady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Yund</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="106" to="111" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">X-ray scattering and X-ray spectroscopy studies of silicate melts</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Farges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Calas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Structure, Dynamics and Properties of Silicate Melts</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>MSA</publisher>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="317" to="410" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Diffusion in silicate melts</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chakraborty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Structure, Dynamics and Properties of Silicate Melts</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="411" to="503" />
+		</imprint>
+		<respStmt>
+			<orgName>MSA</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Multicomponent diffusion in ternary silicate melts in the system K 2 O-Al 2 O 3 -SiO 2 : I. Experimental measurements</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rubie</forename><forename type="middle">D C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="255" to="264" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Multicomponent diffusion in ternary silicate melts in the system K 2 O-Al 2 O 3 -SiO 2 : II. Mechanisms, systematics, and geological applications</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rubie</forename><forename type="middle">D C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="265" to="277" />
+			<date type="published" when="1995">1995b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Diffusion in Magmatic Melts: New Study</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Chekhmir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Epelbaum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physical Chemistry of Magmas</title>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Phys. Geochem</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="99" to="119" />
+			<publisher>Springer-Verlag</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<title level="m">The Mathematics of Diffusion</title>
+		<imprint>
+			<publisher>Clarendon Press</publisher>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">An Introduction to the Rock-Forming Minerals</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Deer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Howie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zussman</forename><forename type="middle">J</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1966">1966</date>
+			<publisher>Longman</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Melt viscosities in the system NaAlSi 3 O 8 -H 2 O-F 2 O Ϫ1</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Magmatic Processes: Physicochemical Principles</title>
+		<imprint>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Ca-Sr chemical diffusion in melt of albite at high temperature and pressure</title>
+	</analytic>
+	<monogr>
+		<title level="j">Geochem. Soc. Fujii T</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">429</biblScope>
+			<date type="published" when="1981">1981</date>
+			<publisher>Geochem. Soc. Spec. Publ</publisher>
+		</imprint>
+	</monogr>
+	<note>Eos</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Kinetics of zircon dissolution and zirconium diffusion in granitic melts of variable water content</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="66" to="72" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The behavior of apatite during crustal anatexis: Equilibrium and kinetic considerations</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1467" to="1477" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Structural controls and mechanisms of diffusion in natural silicate melts</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Lowry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="263" to="272" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Diffusion in natural silicate melts: A critical review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of Magmatic Processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Princeton Univ. Press</publisher>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="385" to="417" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A high-temperature assembly for 1.91-cm (3/4-in.) piston-cylinder apparatus</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hudon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Toft</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="145" to="147" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Tracer diffusion in granitic melts: Experimental results for sodium, rubidium, cesium, calcium, strontium, barium, cerium, and europium to 1300°C and a model for calculation</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jambon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="10797" to="10810" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Diffusion of sodium, potassium, rubidium, and cesium in glasses of albite and orthoclase composition</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jambon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Carron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="897" to="903" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Interaction of granitic and basic magmas: Experimental observations on contamination processes at 10 kbar with H 2 O</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Johnston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Wyllie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="352" to="362" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Chemical gradient in diffusive interfaces in magma chambers</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koyaguchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="143" to="152" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Multicomponent diffusion in MgO-Al 2 O 3 -SiO 2 and CaO-MgO-Al 2 O 3 -SiO 2 melts. Geochim. Cosmochim</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Kress</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ghiorso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="4453" to="4466" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Molecular dynamics simulations of SiO 2 melt and glass: Ionic and covalent models</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Kubicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="945" to="955" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Effect of pressure on the diffusivity of networkforming cations in melts of jadeitic compositions. Geochim. Cosmochim</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="1415" to="1422" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Diffusion in silicate melts III. Empirical models for multicomponent diffusion</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chamberlin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="5295" to="5312" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Melting relations of KAlSi 3 O 8 : Effect of pressure up to 40 kilobars</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Lindsley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="1793" to="1799" />
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Diffusion kinetics for atoms in crystals</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Manning</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1968">1968</date>
+			<publisher>Van Nostrand</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Diffusion of Sr, Ba, and Na in obsidian</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Margaritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="595" to="605" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Vibrational spectroscopy of silicate liquids</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Wolf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Structure, Dynamics and Properties of Silicate Melts</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Mineralogical Society of America</publisher>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="247" to="315" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Structure and Properties of Silicate Melts</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Determination of activities in silicate melts by Knudsen cell mass spectrometry-I. The system NaAlSi 3 O 8 -KAlSi 3 O 8</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Rammensee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="2269" to="2278" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Freda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Chemistry, structure and nomenclature of feldspars</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Ribbe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Feldspar Mineralogy, Second Edition</title>
+		<imprint>
+			<date type="published" when="1983">1983</date>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+		</imprint>
+		<respStmt>
+			<orgName>MSA</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Rheology and configurational entropy of silicate melts</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Richet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bottinga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Structure, Dynamics and Properties of Silicate Melts</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>MSA</publisher>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="67" to="93" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Diffusion coronas around quartz xenocrysts in andesite and basalt from Tertiary volcanic region in northeastern Shikoku</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Japan. Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="49" to="64" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Diffusivity of oxygen in jadeite and diopside melts at high pressure</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1295" to="1303" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">An experimental study of the diffusion of Na, K, and Rb in magmatic silicate liquids</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Smith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1974">1974</date>
+		</imprint>
+		<respStmt>
+			<orgName>Univ. Oregon</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph. D. dissertation</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Dynamics and structure of silicate and oxide melts: Nuclear magnetic resonance studies</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Structure, Dynamics and Properties of Silicate Melts</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>MSA</publisher>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="191" to="246" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Structure of mineral glasses-I. The feldspar glasses NaAlSi 3 O 8 , KAlSi 3 O 8 , CaAl 2 Si 2 O 8</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="61" to="75" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Brownian dynamics in amorphous solids</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tsekov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ruckenstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="7844" to="7849" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Experimental interaction of granitic and basaltic magmas and implications for mafic enclaves</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Der Laan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Wyllie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="491" to="517" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Comparison of element and isotope diffusion of K and Ca in multicomponent silicate melts</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Der Laan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Wyllie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="155" to="166" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Diffusion in magmas at depth in the Earth: The effects of pressure and dissolved H 2 O</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="291" to="301" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Basalt contamination by continental crust: Some experiments and models</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="73" to="87" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Diffusion in volatile-bearing magmas</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Volatiles in Magmas</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Carroll</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Holloway</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>MSA</publisher>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="371" to="411" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Chemical Diffusion in Magmas: An Overview of Experimental Results and Geochemical Applications</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physical Chemistry of Magmas</title>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Phys. Geochem</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="120" to="151" />
+			<publisher>Springer-Verlag</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Behavior of alkalies during diffusive interaction of granitic xenoliths with basaltic magma</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Jurewicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geol</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="121" to="131" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">The effect of H 2 O and CO 2 on the viscosity of sanidine liquid at high pressures</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Montana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="15683" to="15693" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Pressure-induced silicon coordination and tetrahedral structural changes in alkali oxide-silica melts up to 12 GPa: NMR, Raman, and infrared spectroscopy</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanzaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Poe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="8" to="26" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Oxygen diffusion in multicomponent glass forming silicates</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yinnon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Glasses</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="204" to="211" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<title level="m" type="main">3007 Na-K interdiffusion</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

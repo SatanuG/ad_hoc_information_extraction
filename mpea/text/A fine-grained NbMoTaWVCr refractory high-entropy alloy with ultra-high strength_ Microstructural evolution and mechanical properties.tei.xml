@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A fine-grained NbMoTaWVCr refractory high-entropy alloy with ultra-high strength: Microstructural evolution and mechanical properties</title>
+				<funder ref="#_xeWPxmG #_Qn8Q4ef">
+					<orgName type="full">Key Science and Technology Project of Guangdong Province</orgName>
+				</funder>
+				<funder ref="#_qumMZV9">
+					<orgName type="full">Science and Technology Research Project of Guangzhou</orgName>
+				</funder>
+				<funder ref="#_HRz2hd3">
+					<orgName type="full">Guangdong Provincial Foundation of Natural Science</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2018-12-01">1 December 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Yan</forename><surname>Long</surname></persName>
+							<email>ylong1@scut.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Guangdong Provincial Key Laboratory for Processing and Forming of Advanced Metallic Materials</orgName>
+								<address>
+									<postCode>510640</postCode>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">School of Mechanical and Automotive Engineering</orgName>
+								<orgName type="institution">South China University of Technology</orgName>
+								<address>
+									<postCode>510640</postCode>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaobiao</forename><surname>Liang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">National Engineering Research Center of Near-net-shape Forming for Metallic Materials</orgName>
+								<address>
+									<postCode>510640</postCode>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kai</forename><surname>Su</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Guangdong Provincial Key Laboratory for Processing and Forming of Advanced Metallic Materials</orgName>
+								<address>
+									<postCode>510640</postCode>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Haiyan</forename><surname>Peng</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Guangdong Provincial Key Laboratory for Processing and Forming of Advanced Metallic Materials</orgName>
+								<address>
+									<postCode>510640</postCode>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiaozhen</forename><surname>Li</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">National Engineering Research Center of Near-net-shape Forming for Metallic Materials</orgName>
+								<address>
+									<postCode>510640</postCode>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Forming of Advanced Metallic Materials</orgName>
+								<address>
+									<postCode>510640</postCode>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">PR China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A fine-grained NbMoTaWVCr refractory high-entropy alloy with ultra-high strength: Microstructural evolution and mechanical properties</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018-12-01">1 December 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E786F0B03802913D82E5F7289D6066DE</idno>
+					<idno type="DOI">10.1016/j.jallcom.2018.11.318</idno>
+					<note type="submission">Received 2 October 2018 Received in revised form 16 November 2018 Accepted 23 November 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Refractory high-entropy alloy (HEA) Mechanically alloying (MA) Spark plasma sintering (SPS) Laves phase</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Mechanically alloyed (MA) NbMoTaWVCr refractory high-entropy alloy (HEA) powders were sintered by spark plasma sintering (SPS) at temperatures of 1400e1700 C. The microstructural evolution and mechanical properties of sintered HEAs were subsequently investigated. During the MA process, only a supersaturated body-centered cubic (BCC) structured solid solution was formed. However, C15 Laves phase (Cr,V) 2 (Ta,Nb) and Ta 2 VO 6 particles were precipitated from the disordered BCC phase during the sintering process at temperatures 1500 C. When the sintering temperature increased to 1600 C, the Laves phase was transferred to C14 structure and its volume fraction was dramatically reduced. The plasticity of the refractory HEA was strongly affected by the fraction, size and distribution of Laves phase and oxide particles. The NbMoTaWVCr alloy sintered at 1500 C obtained an excellent combination of yield strength (3416 MPa) and failure plasticity (5.3%) at room temperature. The extraordinary high strength of this HEA could be dominantly attributed to the grain boundary strengthening from the micron-sized BCC phase (1.24 mm), interstitial solid solution strengthening from O in the matrix and the inherent solid solution strengthening in the multi-principal element NbMoTaWVCr alloy.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Ever since the concept of high-entropy alloy (HEA) was first proposed by <ref type="bibr" target="#b0">Yeh in 2004</ref>, it has experienced a great development during the past few years. HEAs consist of at least five principle elements with equal or near equal atomic ratios, with the concentration of each element ranging from 5% to 35% [1e3]. Some HEAs exhibit promising performance in mechanical strength <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>, oxidation resistance <ref type="bibr" target="#b5">[6]</ref>, corrosion resistance <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref>and anti-wear properties <ref type="bibr" target="#b8">[9]</ref> in comparison with traditional alloys. Obviously, this designing concept based on multi-principle element alloy significantly accelerated the exploration and development of new alloy systems.</p><p>A new bunch of refractory high-entropy alloys has been reported by Senkov et al. by extending the HEA design to refractory alloys [10e12]. It was found that refractory HEAs such as NbMoTaW and NbMoTaWV with high melting points exhibited higher mechanical strength at elevated temperatures compared with traditional super-alloys such as Haynes 230 and Inconel 718 <ref type="bibr" target="#b11">[12]</ref>. Recently, other classes of refractory HEAs such as TaNbHfZrTi <ref type="bibr" target="#b10">[11]</ref>, TiZrNbTaMo <ref type="bibr" target="#b12">[13]</ref>, AlNbTiVZr x <ref type="bibr" target="#b13">[14]</ref> and CrNbTiVZr <ref type="bibr" target="#b14">[15]</ref> have been also widely investigated. In general, those refractory HEAs with BCC structure show higher strength and hardness than HEAs with FCC structure. Some of refractory HEAs might possess simple BCC crystal structures because of their large mixing entropy. However, intermetallic compounds were occasionally observed in refractory HEAs in some cases. For example, in NbCrMoTaTiZr, CrNbTiZr, and CrNbTiVZr alloy systems, Laves phase formed in BCC matrix due to the smaller atomic radius of Cr compared with the other alloy elements in those refractory HEAs <ref type="bibr">[15e17]</ref>. The mechanical properties can be affected by the microstructure, especially the precipitation of Laves phases in refractory HEAs. A considerable improvement of strength at elevated temperature was observed in those Cr-containing refractory HEAs, meanwhile, the roomtemperature plasticity of HEA was obviously reduced <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b16">17]</ref>.</p><p>Here, we introduced the element of Cr into NbMoTaWV HEA in order to further enhance its mechanical properties. Mechanically alloying (MA) followed by spark plasma sintering (SPS) has been applied to fabricate NbMoTaWVCr HEA bulk material. The MA process can produce nanocrystalline alloying powders with good homogeneity from elemental powders, while SPS can consolidate powders to high density by applying pressure and electric pulse current within a short time. Compared with vacuum arc-melting method, MA-SPS could fabricate HEAs with finer grain size and more homogeneous microstructure <ref type="bibr">[18e21]</ref>.</p><p>In the present work, a fine-grained NbMoTaWVCr alloy possessing ultra-high strength was reported. Microstructural evolution of the refractory HEA during the sintering process and the effect of microstructure characteristics on its mechanical properties were investigated. The phase stability and strengthening mechanisms in the sintered HEA were subsequently discussed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental procedures</head><p>Nb, Mo, Ta, and W elemental powders with the purity of 99.5% and V, Cr elemental powders with the purity of 99.9% were mixed in an equiatomic ratio. Particle sizes of those elemental powders were all less than 45 mm (À325 mesh). The mixed powders and stainless-steel balls were put into stainless-steel vials at a ball to powder ratio of 12:1. The MA process was performed in a highenergy planetary ball mill under Ar as the protecting atmosphere. The ball milled powders were taken out for analysis after ball milling for 5, 10, 20, 30 and 40 h, respectively. The powders ball milled for 40 h were subsequently consolidated by a SPS machine (Sumitomo Coal Mining Co. Ltd., Japan) at 1400e1700 C in a graphite die. After being hold at a predetermined sintering temperature for 10 min in vacuum under a mechanical pressure of 30 MPa, the sintered samples were cooled at a rate of 300 C/min to 800 C and then slowly cooled down to ambient temperature. The fabricated bulky HEA samples were cylinders with the diameter of 20 mm and height of 10 mm.</p><p>The phase analysis of milled powders and sintered bulks were conducted by a Bruker D8 ADVANCE X-ray diffractometer (XRD) with a Cu-Ka radiation. Microstructures of sintered samples were observed by Scanning Electron Microscope (SEM, Nava NaNo SEM 430, USA) equipped with an Energy Dispersive Spectrometer (EDS) for chemical composition analysis. Specimens for SEM observation were grinded and subsequently polished. The phase composition and microstructure of bulk alloys were analyzed by Transmission Electron Microscope (TEM, TECHNAL G2 F20 S-TWIN, USA) with an EDS. Samples for TEM tests were thinned by mechanical polishing and then via ion beam thinning. The thermal analysis was performed in a Differential Scanning Calorimeter (DSC, Netzsch Sta 449C) at a heating rate of 10 K/min under flowing high purity argon atmosphere. The gas contamination of O in the sintered compacts were determined by TC6000 Nitrogen/Oxygen Determinator (LECO Co., US).</p><p>Densities of consolidated HEA samples were measured by Archimedes principle method. The hardness test was carried out by a digital Micro Hardness (Tester HVS-1000 Vickers hardness apparatus) at a load of 500 gf. The compressive properties at room temperature were measured by a testing system (AG-100 KNx, Shimadzu Corporation, Japan) at a strain rate of 1 Â 10 À3 s À1 using cylinder specimens with the size of F3 mm Â 6 mm.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Microstructure, phase formation and phase composition</head><p>Fig. <ref type="figure" target="#fig_0">1a</ref> shows the XRD patterns of NbMoTaWVCr powders ball milled for different times. Diffraction peaks of all the elemental powders could be seen in the initial blend. As the milling time increased to 5 h, peaks of Cr, Mo and V were found to disappear in the XRD pattern. After ball milling for 10 h, only peaks of W could be clearly observed while peaks of Nb and Ta were dramatically weakened. When the ball milling time increased to 40 h, a supersaturated NbMoTaWVCr solid solution phase was formed in the ball milled powders. Noting that these six alloying elements occupy the same or neighboring columns in the periodic table, which reflects similar aspects in their electronic structure, therefore some of these components can be completely solid soluble in each other. It is indicated that the solid solution sequence of the mechanically alloyed elements was basically related with their melting points. The elements with lower melting points generally dissolved more quickly than the elements with higher melting points <ref type="bibr" target="#b21">[22]</ref>. The solid solution in the 40 h-milled powders was indexed to be a single body-centered cubic (BCC) phase with a lattice parameter of 3.162 Å. The average grain size and lattice strain of these mechanically alloyed powders were estimated to be 9.7 nm and 0.42%, respectively, from the evident peak broadening according to the Scherrer's formula. Fig. <ref type="figure" target="#fig_0">1b</ref> demonstrated the morphology of 40 hmilled HEA powders. After mechanically alloying, the diameter of milled powders was decreased to less than 7 mm. Fig. <ref type="figure" target="#fig_0">1c</ref> illustrates the XRD patterns of bulky NbMoTaWVCr highentropy alloys fabricated by SPS at different sintering temperatures from 40 h-milled powders. It was found that the samples sintered at 1400e1500 C consisted of a BCC phase, a kind of tetragonal phase corresponding to Ta 2 VO 6 , and a C15 Laves phase whose peaks were very close to those of Cr 2 Ta. However, only the disorder BCC matrix phase and Ta 2 VO 6 phase could be clearly detected at the samples sintered at 1600e1700 C. The XRD results suggested that a Laves phase and an oxide phase were precipitated from the BCC solid solution during SPS process, and what's more, the precipitation of Laves phase could be hindered by the increase of temperature. Fig. <ref type="figure" target="#fig_0">1d</ref> illustrates the DSC image of 40 h-milled powders. Two exothermic peaks were clearly seen at temperatures of 918.3 and 1035.2 C, corresponding to the precipitation of oxide and Laves phase, respectively. As a non-equilibrium process, mechanically alloying facilitates the formation of metastable phases and supersaturated solid solutions <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref>. When the temperature increased, decomposition would take place and then new phases were precipitated from the BCC solid solution.</p><p>Fig. <ref type="figure" target="#fig_1">2</ref> illustrates the SEM backscattered electron images of NbMoTaWVCr HEAs sintered at different temperatures. The chemical composition of the sintered HEAs and constituent phases are measured by EDS/SEM and EDS/TEM, as listed in Table <ref type="table" target="#tab_0">1</ref>. As we could see from Fig. <ref type="figure" target="#fig_1">2a-c</ref>, three different phases were clearly identified in the sintered samples. The matrix BCC phase in light color had a chemical composition close to the nominal composition of NbMoTaWVCr alloy. The grey regions distributed at the grain boundaries were enriched in Cr, Nb, Ta and V, suggesting the presence of Laves phase (Cr,V) 2 (Ta,Nb). The dark regions were rich in Ta, V and O, the proportion of the chemical composition of this phase indicated the existence of a compound oxide of Ta 2 VO 6 . The introduction of oxygen could be primarily attributed to the longterm mechanical alloying process of the HEA powders.</p><p>Microstructure of the sintered HEA was found to gradually change with the increasing sintering temperature. The volume fractions of each phases in these samples were measured by image analysis. There were 24.0% precipitated phases distributed at the grain boundary of BCC matrix in a semi-continuous network in the sample sintered at 1400 C, as shown in Fig. <ref type="figure" target="#fig_1">2a</ref>. When the sintering temperature increased to 1500 C, fraction of Laves phase was obviously reduced, and the volume fractions of Laves phases and oxides were measured to be 7.7% and 6.2%, respectively. Meanwhile, the precipitated phases were turned to polygonal or granular shapes and dispersed more homogeneously in the BCC matrix, as seen in Fig. <ref type="figure" target="#fig_1">2b</ref>. At the sintering temperature of 1700 C, the microstructure of HEAs basically consisted of BCC matrix phase and Ta 2 VO 6 particles whose sizes gradually grew up with the increasing temperature, while the Laves phase was seldom observed in SEM images (Fig. <ref type="figure" target="#fig_1">2d</ref>).</p><p>TEM images and corresponding SAED patterns of the NbMo-TaWVCr alloys sintered at different temperatures are presented in Fig. <ref type="figure" target="#fig_2">3</ref>. The Laves phase was generally located at the triple junctions of equiaxed BCC phase, whilst the oxide particles precipitated both at grain boundaries and inside the matrix grains. The average grain size of BCC matrix in the samples sintered at 1500 C was about 1.24 mm (Fig. <ref type="figure" target="#fig_2">3b</ref>). The fine grain size in those sintered samples could be attributed to the nanocrystalline ball-milled powders as well as the presence of fine precipitated phases which could reduce the mobility of grain boundaries and inhibit the grains from growing up quickly during the sintering process. Grain growth occurred with further increase of temperature. The grain size of BCC matrix increased to 5.01 and 10.80 mm in the samples sintered at 1600 and 1700 C, respectively. Very few (Cr,V) 2 (Ta,Nb) Laves phase can still be observed by TEM in the sample sintered at the temperature of 1600 C (Fig. <ref type="figure" target="#fig_2">3c</ref>), with its crystal structure having been changed from C15 (cubic) to C14 (hexagonal) type, as seen in Fig. <ref type="figure" target="#fig_2">3g</ref>. This observation is consistent with the occurrence of allotropic phase transformation of Cr 2 Ta/Cr 2 Nb Laves phase from C15 to C14 structure at about 1600 C in Cr-Ta and Cr-Nb binary phase diagrams <ref type="bibr" target="#b24">[25]</ref>.</p><p>The lattice parameters of Ta 2 VO 6 with a tetragonal structure were measured to be a ¼ 4.674 Å and c ¼ 9.192 Å, and the lattice parameters of the BCC phase and C15 Laves phase were calculated to be 3.155 Å and 11.603 Å, respectively, according to the SAED patterns in Fig. <ref type="figure" target="#fig_2">3d-f</ref>. It is noticed that the lattice parameter of BCC matrix phase sintered at 1500 C was slightly smaller than that of the mechanically alloyed powders (3.162 Å). This is probably caused by the precipitation of two phases containing large-radius elements such as Ta and Nb and interstitial element of O from the BCC matrix during the sintering process. On the other hand, the lattice parameter of the (Cr,V) 2 (Ta,Nb) Laves phase calculated by SAED pattern in Fig. <ref type="figure" target="#fig_2">3e</ref> was a bit larger than that of Cr 2 Ta in PDF card (11.450 Å), probably due to the solid solution of element of Nb in Cr 2 Ta Laves phase.</p><p>The average grain/particle sizes and volume fractions of the matrix and precipitated phases in the bulk alloys sintered at different temperatures were statistically analyzed based on the SEM and TEM results, as listed in Table <ref type="table" target="#tab_1">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Mechanical properties</head><p>Densities and mechanical properties of the sintered NbMo-TaWVCr alloys are presented in Table <ref type="table" target="#tab_2">3</ref>. After SPS at 1400e1700 C, nearly full densities (relative density 95.8e97.7%) were achieved in all the sintered samples. It was noted that the density of sintered sample slightly decreased with the increasing sintering temperature. The unexpected reduction of density in the bulk alloys may be related with the precipitation of oxide particles with relatively lower density (r Ta2VO6 ¼ 8.03 g cm À3 ) from the BCC matrix during the sintering process.</p><p>Fig. <ref type="figure" target="#fig_4">4</ref> shows representative compressive engineering stressstrain curves of bulk HEA samples at room temperature. Plastic deformation behavior was observed in the sintered samples expect a premature fracture occurring prior to yielding in the compressive specimen consolidated at 1400 C. The bulk HEA sintered at 1500 C exhibited excellent compressive yield strength of 3416 MPa, a plastic strain of 5.3% and Vickers hardness of 9908 MPa. Further increasing the sintering temperature to 1600e1700 C led to a slight drop of yield strength and a decrease of plastic strain. Basically, the yield strength and hardness of the sintered samples gradually decreased with the increase of sintering temperature. As shown in Fig. <ref type="figure" target="#fig_2">3</ref>, it is obvious that the increase of sintering temperature accompanies with the grain growth of BCC matrix, therefore results in the decline in strength and hardness. In respect of plasticity, the limited plasticity shown in 1400 C-sintered samples in Fig. <ref type="figure" target="#fig_1">2a</ref> can be attributed to the relatively high volume fraction of grain-boundary Laves phases which is completely brittle at room temperature. The interconnected (Cr,V) 2 (Ta,Nb) Laves phase would lead to crack initiation and crack propagation along grain boundaries, thus dramatically reduced the plasticity of the HEA. When the sintering temperature increased to 1500 C, the volume fraction of Laves phase was obviously reduced, the sizes of  The compositions of sintered samples and BCC phases were measured by SEM/EDS, while the compositions of Ta 2 VO 6 and (Cr,V) 2 (Ta,Nb) were measured by TEM/EDS. a Overall O content in the sintered compacts was determined by chemical analysis method.</p><p>oxide phases were still small, and the fine precipitated phases were dispersed homogenously in the matrix, as shown in Fig. <ref type="figure" target="#fig_1">2b</ref>. Therefore, the plastic deformation ability of the NbMoTaWVCr HEA was improved in the stress-strain curve. In the samples sintered at 1600e1700 C, the volume fraction of Laves phase is very low, however, the particle size of oxide phase grows notably (as shown in Fig. <ref type="figure" target="#fig_1">2</ref>). The coarse particles could act as source of cracks and initiate fracture in BCC matrix, therefore leading to a reduction in plasticity of the HEA. Table <ref type="table" target="#tab_3">4</ref> also provides a summary of the mechanical properties of NbMoTaWVCr HEA sintered at 1500 C and some typical refractory HEAs reported in the literature <ref type="bibr">[12,13,17,26e30]</ref>. Additionally, compressive yield strengths and plastic strains of those refractory HEAs are illustrated graphically in Fig. <ref type="figure" target="#fig_5">5</ref>. It is particularly noteworthy that the NbMoTaWVCr HEA sintered by SPS in this work possesses an ultra-high strength. The yield strength, compressive strength and hardness of the bulk NbMoTaWVCr HEA are dramatically higher than those of the previously reported refractory HEAs fabricated by casting and powder metallurgy methods, and the plasticity of the bulk NbMoTaWVCr HEA is comparable with some of other BCC-structured refractory HEAs.</p><p>Fig. <ref type="figure" target="#fig_6">6</ref> shows typical fracture morphologies of sintered NbMo-TaWVCr HEAs. The compressive specimens generally fractured by splitting along the surface nearly parallel to the loading direction, which indicated a fracture mode related with tensile stress rather than shear stress <ref type="bibr" target="#b11">[12]</ref>. A faceted appearance was visible in the samples sintered at 1400 C. The fracture surface was predominantly characterized by intergranular fracture, while in some regions transgranular fracture was also observed (Fig. <ref type="figure" target="#fig_6">6a</ref>). The brittle fracture was found to occur by cleavage of the C15 Laves phase as well as along grain boundaries of the matrix. The samples sintered at 1500 C showed similar fracture morphology, but their fracture surface contained both brittle and quasi-ductile characteristics. Brittle fracture was featured by granular facets with some tiny particles distributed on them, whereas quasi-ductile fracture was featured by some short tear ridges near the grain boundaries, as  shown in Fig. <ref type="figure" target="#fig_6">6b</ref>. The samples sintered at 1600e1700 C illustrated characteristics of the cleavage fracture, such as flat facets, riverpattern markings and cleavage steps (Fig. <ref type="figure" target="#fig_6">6c-d</ref>). Some oxide particles were visible on the fracture surface. It was considered that the oxide particles dispersed inside the coarse grains facilitated crack propagation and led to a transition from intergranular to transgranular fracture. In general, these fracture morphologies suggested that the primary fracture mode under compression was strongly influenced by the fraction, size and distribution of the hard and brittle precipitates in the sintered samples, and the short tear ridges in the fracture surface were probably responsible for the enhanced macroscopic plasticity observed in the specimen sintered at 1500 C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Phase formation and stability</head><p>When the concept of HEA was put forward for the first time, the high mixing entropy ðDS mix Þ via Eq. ( <ref type="formula">1</ref>) was considered to be the main factor for these alloys to present a single phase solid solution <ref type="bibr" target="#b0">[1]</ref>. However, in later reports of high-entropy alloys, it was found that not all of the multi-principal element alloys with equal atomic ratio could obtain simple solid solutions. This shows that the mixing entropy (DS mix ) is not the only determinant for the formation of simple solid solutions. Mixing enthalpy (DH mix ) calculated by Eq. ( <ref type="formula" target="#formula_0">2</ref>) should also be taken into account <ref type="bibr" target="#b30">[31]</ref>.</p><formula xml:id="formula_0">DS mix ¼ ÀR X n i¼1 ðc i ln c i Þ (1) DH mix ¼ X n i¼1;isj U ij c i c j<label>(2)</label></formula><p>Where R (¼8.314 J K À1 ) is the gas constant, n is the number of alloy components, c i and c j are the atomic fraction of the ith and j th element, U ij ¼ 4DH mix ij is the interaction parameters of ith and jth  <ref type="formula" target="#formula_1">3</ref>) and (4). According to their phase formation criteria, when the thermodynamic parameter U ! 1.1 and the atomic size difference d 6.6%, single solid solution phase can be formed in HEAs <ref type="bibr" target="#b30">[31]</ref>.   Where r i is the atom radius of the ith element and r ¼ P n i¼1 c i r i is the average atomic radius of alloy system. In formula (4) the theoretical melting point (T m ) is estimated by the following formula:</p><formula xml:id="formula_1">d ¼ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi X n i¼1 c i ð1 À r i =rÞ 2 v u u t<label>(3)</label></formula><formula xml:id="formula_2">U ¼ T m DS mix jDH mix j<label>(4)</label></formula><formula xml:id="formula_3">T m ¼ X n i¼1 c i ðT m Þ i<label>(5)</label></formula><p>where ðT m Þ i is the melting point of ith element in the alloy. Characteristic parameters of the alloy elements are presented in Table <ref type="table" target="#tab_5">6</ref>. For the NbMoTaWVCr HEA, the values of the parameters DH mix , DS mix , T m , d, and U were calculated to be À4.9 kJ$mol À1 , 14.9 J$K À1 $mol À1 , 2824 K, 4.6%, and 8.6, respectively. It is obvious that the parameters U and d agree well with the solid solution formation criteria proposed by Zhang et al. The formation of simple solid solution phase in NbMoTaWVCr HEA is expected. In order to predict the structure of solid solution phase, Guo et al. proposed the average valence electron concentration (VEC) calculated by Eq. ( <ref type="formula" target="#formula_4">6</ref>).</p><p>The FCC solid solution phases were suggested to be more stable at higher VEC (!8), whereas a low VEC ( 6.87) would stabilize the BCC solid solution phases <ref type="bibr" target="#b32">[33]</ref>.</p><formula xml:id="formula_4">VEC ¼ X n i¼1 c i ðVECÞ i<label>(6)</label></formula><p>Where the (VEC) i is the valence electron concentration of the ith element.</p><p>For senary NbMoTaWVCr HEA, the value of VEC is 5.5, suggesting a single BCC solid solution phase would be formed. In the present work, the sintered NbMoTaWVCr HEA possessed a BCC-structured matrix phase. However, a Laves phase was precipitated from the BCC matrix in the samples sintered at temperatures lower than 1600 C, signifying that the empirical solid solution formation criteria were not accurate enough to predict the phase formation of this alloy. Formation of ordered Laves phases was also reported in other Cr-containing refractory HEAs [15e17]. It is previously proposed that the tendency for formation of second phases in HEAs may increase if the configurational entropy rises slowly as the number of elements increases in HEAs, whilst the probability of at least one pair of elements favoring the formation of intermetallic compounds increases more rapidly <ref type="bibr" target="#b33">[34]</ref>. For the equiatomic NbMoTaWVCr HEA, the formation of Laves phase could be associated with a relatively negative enthalpy of intermetallic phase formation in Cr-X binary systems (as shown in Table <ref type="table" target="#tab_4">5</ref>), where Cr possesses the smallest atom radius and X is the other constituent with the largest atom radii among the alloying elements, i.e., Ta or  Nb. Obviously, the precipitation of Laves phase may decrease the misfit of atomic size and reduce the elastic energy of the solid solution phase. According to binary phase diagrams, Laves phases such as Cr 2 Nb, Cr 2 Ta and V 2 Ta can form in Cr-Nb, Cr-Ta and Ta-V systems, which could explain the precipitation of the compound Laves phase of (Cr,V) 2 (Ta,Nb) in the sintered samples <ref type="bibr" target="#b24">[25]</ref>.</p><p>As can be seen from the XRD patterns and SEM images (Figs. 1e2), volume fraction of C15 Laves phase was reduced with the increase of sintering temperature, and Laves phase was almost invisible in the microstructure of the sample sintered at 1700 C. The strong dependence of microstructure on the sintering temperature may be attributed to the competition between the influence of entropy and enthalpy. When the processing temperature increases, the importance of high mixing entropy increase and DS mix becomes possible to compete with the heats of mixing DH mix , and therefore favors the formation of simple solid-solution phase. The change of the solid solubility of Cr in Nb and Ta with the temperature is also observed in binary phase diagrams. For example, in Cr-Nb system, the solid solubility of Cr in Nb is less than 3% at the temperature of 1000 C, however, it increases to 15% at 1650 C <ref type="bibr" target="#b24">[25]</ref>. Therefore, when the sintering temperature increased, the trend for Cr to dissolve into the Nb and form BCC solid solution increases, and the precipitation of Cr-containing Laves phase was suppressed. Phase formation in NbMoTaWVCr x alloy was previously estimated by Zhang et al. <ref type="bibr" target="#b27">[28]</ref>. According to the phase diagram of NbMoTaWVCr x predicted by means of CALPHAD calculation, a C15 Laves phase was expected to form due to the addition of Cr into NbMoTaWV. The fraction of Laves phase in this alloy would decrease with the increasing temperature and a field of BCC solid solution phase is expected at the region higher than the solvus temperature. In the present work, a single solid solution phase was formed at 1700 C in the matrix. Considering the sluggish diffusion effect in HEAs, the synergistic diffusion and rearrangement of these elements were difficult to achieve due to the fast cooling rate of SPS, hence further decomposition of the BCC matrix during cooling process was inhibited, and the solid solution phase formed at elevated temperature can be maintained.</p><p>Besides the formation of Laves phase, the precipitation of oxide particles is observed in all the sintered samples, which is caused by the very large heats of formation for the strong ceramic compounds. Introduced O existed in supersaturated BCC solid solution in ball milled powders due to the solid solubility extension produced by the non-equilibrium state of the MA process. During the sintering process, some of the resolved O was precipitated as oxide particles and concentration of O in solid solution was dramatically reduced. It is apparent that Ta and V have higher oxygen affinity than other alloying elements, therefore leading to the formation of Ta 2 VO 6 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Strengthening mechanisms</head><p>As shown in Table <ref type="table" target="#tab_3">4</ref>, the NbMoTaWVCr HEA sintered at 1500 C possessed excellent yield strength (3416 MPa) and Vickers hardness (9908 MPa) which are quite higher than those of the cast NbMoTaWV alloy (1246 MPa, 5250 MPa). Obviously, the bulk NbMoTaWVCr HEA in the present work showed a microstructure different from those HEAs prepared by arc-melting. Compared with the coarse dendrite grains in cast HEAs, the NbMoTaWVCr HEA fabricated by MA and SPS exhibited much finer equiaxed grains with the average grain size decreasing from several tens of microns to 1.24 mm, which provided strong grain boundary strengthening effect in the BCC matrix. Additionally, Cr has the smallest atom radius among elements of the senary alloy, thus the dissolving of Cr into the NbMoTaWV alloy is expected to enhance the atomic size misfit and therefore increases the strength of BCC matrix. Furthermore, the samples in the present work were processed by powder metallurgy, oxygen was inevitably introduced into the mechanically alloyed powders. Even most of O atoms were combined with Ta and V, it was suggested that the rest of O contamination was dissolved into the matrix and acted as interstitial solid solution atoms. Interstitial elements such as O, C and N could produce strong solid solution strengthening effect in refractory HEA. It was previously reported that the strength of NbMoTaWV HEA dramatically increased while the plasticity decreased simultaneously with the addition of interstitial C in BCC matrix <ref type="bibr" target="#b25">[26]</ref>. Therefore, the interstitial solid solution strengthening from O could also contribute to the improvement of strength in the sintered NbMoTaWVCr HEA. Besides, the oxide particles and Laves phase dispersed in the matrix acting as barriers of dislocation movements might also increase the hardness and strength. These multiple strengthening mechanisms are expected to be responsible for the high strength of the HEA. The yield strength of sintered NbMo-TaWVCr alloy can be calculated by summing up the contribution from each strengthening mechanism and is expressed as:</p><formula xml:id="formula_5">s y ¼ s 0 þ Ds ss þ Ds iss þ Ds gb þ Ds or<label>(7)</label></formula><p>Where s 0 is the intrinsic frictional stress offered by the lattice for mobile dislocations in the NbMoTaWVCr HEA, and Ds ss , Ds iss , Ds gb and Ds or are strengthening contributions from substitutional solid solution of alloy elements, interstitial solid solution of O, grain boundary, and precipitation of laves phase and oxides, respectively.</p><p>It is well known that the strengthening effect for precipitatereinforced materials is controlled by shearing or Orowan dislocation bypass mechanisms. The former involves dislocations cutting through the particles in the slip plane and the later involves dislocation circumnavigating around the particles in the slip plane. In the current NbMoTaWVCr alloy, the precipitates are hard Laves phase and oxide particles with high shear modulus and incoherent interfaces, thus the flow stress is controlled by the stress necessary to extrude the dislocations between the particles, i.e., Orowan mechanism. The increase in strength from Orowan strengthening can be derived from the following equation <ref type="bibr" target="#b35">[36]</ref>:</p><formula xml:id="formula_6">Ds or ¼ M 0:4Gb pl lnð2r=bÞ ffiffiffiffiffiffiffiffiffiffiffi 1 À v p<label>(8)</label></formula><p>Where M ¼ 2.9 is the mean orientation factor for the BCC polycrystalline matrix <ref type="bibr" target="#b36">[37]</ref>, G, y and b is the shear modulus, Possion's ratio, and Burgers vector of the matrix, respectively. Since some parameters needed here for the NbMoTaWVCr HEA are not available in the literature, therefore the values of G ¼ 75.1 GPa and y ¼ 0.361 for WNbMoTaV HEA are used here as estimates <ref type="bibr" target="#b34">[35]</ref>.</p><p>Burgers vector b equals to ffiffi ffi 3 p 2 a (a is the lattice parameter) for a BCC structure, and is calculated to be 2.732 Å for the NbMoTaWVCr HEA. r ¼ ffiffiffiffiffiffiffiffi 2=3 p r is the mean radius of a circular cross section in a random plane for a spherical precipitate, r is the mean precipitate radius. l is the edge-to-edge distance between two particles in the slip lane.</p><p>In order to evaluate the contribution of Orowan strengthening, we measured average volume fraction f v and average radius r of the precipitates in sintered samples including Laves and oxide phases. Assuming spherical precipitates are distributed on a cubic grid, the edge-to-edge distance between particles, l, can be calculated by the following equation <ref type="bibr" target="#b37">[38]</ref>:</p><formula xml:id="formula_7">l ¼ 2r ffiffiffiffiffiffi p 4f v r À 1<label>(9)</label></formula><p>The factors contributing to Orowan strengthening effect in the HEAs sintered at various temperatures are listed in Table <ref type="table" target="#tab_6">7</ref>. Therefore, the calculated values of △s or are 16e149 MPa for NbMoTaWVCr bulk alloys sintered at various temperatures.</p><p>Interstitial solid solution atoms in BCC metals produce a tetragonal distortion in the lattice. The interaction between dislocations and the tetragonal defects is substantial and can give rise to a relatively large shear strain in the alloy. For tetragonal defects (hard obstacles) the solid solution strengthening is proportional to the square root of the interstitial content <ref type="bibr" target="#b38">[39]</ref>: <ref type="bibr" target="#b9">(10)</ref> Where g is a proportionality constant less than unity, Q is a material constant, c m is the atomic concentration of interstitial atoms in BCC matrix in the present NbMoTaWVCr alloy. The overall O content in the sintered samples c is measured to be ~5.23 at.% according to the chemical analysis result (Table <ref type="table" target="#tab_0">1</ref>), while C and N contents are less than 0.2 at.% and can be neglected. To simplify our analysis, we will suppose the Laves phase has the same O concentration with the matrix, thus the sintered HEAs can be regarded as two-phase composites consisting of the matrix and oxide particles. Combining the overall O contamination and the content of O atoms existing in the oxide which is associated with the volume fraction of oxide, the concentration of interstitial O atoms in BCC matrix c m (at.%) can be estimated by the following equation:</p><formula xml:id="formula_8">Ds iss ¼ MgGc m 1 2 ¼ Qc m 1 2</formula><formula xml:id="formula_9">r M $c ¼ fp$r p Mp $x þ fm$r</formula><p>Mm $c m , where rand r p is the density of sintered samples and Ta 2 VO 6 particles, f m and f p is the volume fraction of the matrix and Ta 2 VO 6 , and M, M p and M m is the mole mass of sintered sample, Ta 2 VO 6 and the matrix alloy, respectively. x is the number of O atoms in each Ta 2 VO 6 molecule. It is found that the number of O atoms x in Ta 2 VO x is lower than 6, as shown in Table <ref type="table" target="#tab_0">1</ref>. Therefore, an average number of O atoms x of 4.5 is applied for the calculation.</p><p>The estimated O concentrations in BCC matrix were listed in Table <ref type="table" target="#tab_6">7</ref>.</p><p>The samples sintered at 1400 C exhibited a relatively high interstitial O content of 2.32 at.%, which could lead to a notable strength increase and a reduction in plasticity of the sintered samples. When the sintering temperature increased to 1500 C, the diffusion of O was accelerated and most of O atoms gathered in oxide inclusions, therefore the O content in the matrix was reduced to 1.00 at.%, and the plasticity was enhanced in the sintered alloy, as shown in Fig. <ref type="figure" target="#fig_4">4</ref>. It was noted that the interstitial O content slightly increased as the temperature further increased to 1700 C, probably due to the increase in solubility of O in refractory metals (e.g. Ta, V) at the elevated temperature <ref type="bibr" target="#b24">[25]</ref>.</p><p>It was previously reported that the as-cast NbMoTaWVCr alloy with the dendrite length of ~10 mm possessed a Vickers hardness of 6910 MPa <ref type="bibr" target="#b27">[28]</ref>, then the room temperature yield strength of this alloy can be approximately predicted to be ~2303 MPa by the hardness to stress ratio H v /s y z 3. Compared with the corresponding cast alloy, the NbMoTaWVCr alloy sintered at 1700 C exhibits a similar grain size (10.80 mm), however, its yield strength is 1035 MPa higher. As the precipitation strengthening in this sintered HEA is as low as 16 MPa, therefore the strength increase of yield strength is mostly attributed to the interstitial solid solution of O in the sintered alloy. Assuming there is no interstitial strengthening on the yield strength of the as-cast NbMoTaWVCr HEA, the proportional constant Q for Eq. ( <ref type="formula">10</ref>) can be calculated to be 9.461 GPa. This Q value is slightly larger than that of interstitial C in BCC-Fe (~8.8 GPa) <ref type="bibr" target="#b38">[39]</ref>.</p><p>After excluding the value of △s or and △s iss , the difference of yield strength s y -△s or -△s iss of the sintered NbMoTaWVCr alloy is only contributed by the grain boundary strengthening △s gb , which is traditionally rationalized by a Hall-Petch relationship △s gb ¼  kd À1/2 . Where k is the Hall-Petch constant and d is the average grain size. The s y -△s or -△s iss values of sintered samples are ploted in Fig. <ref type="figure">7</ref> (in blue triangles) as a function of average grain size d À1/2 of BCC matrix. Therefore, the linear fit of s y -△s or -△s iss plot determines the slope k of the Hall-Petch relationship to be 0.44 ± 0.15 MPa m 1/2 . Now the contribution from grain boundary strengthening is estimated to be 598 MPa from smaller grain size (0.54 mm) to 134 MPa from larger grain size (10.80 mm) in samples sintered at different temperatures according to Hall-Petch equation. The intercept of the linear fitted line of the HallePetch relationship is 2160 ± 130 MPa, which is a combination of the intrinsic strength (s 0 ) and solid solution strengthening from alloy elements (△s ss ).</p><p>The contributions to yield strengths of the bulk alloys sintered at different temperatures are summarized in Table <ref type="table" target="#tab_6">7</ref>. In the NbMo-TaWVCr HEA sintered at 1500 C, the calculated values of contributions from Orowan strengthening, interstitial solid solution strengthening and grain boundary (GB) strengthening are 62 MPa, 946 MPa and 395 MPa, respectively. It is clear that compared with the interstitial solid solution strengthening and GB strengthening, the role of precipitates in strengthening appears to be negligible. Therefore, these two strengthening mechanisms dramatically increase the strength superior to the as-cast NbMoTaWVCr HEA. On the other hand, it is noted that NbMoTaWVCr alloy possesses an inherent strength of 2160 MPa, which is much higher than those of the pure constituent elements, suggesting a solid solution strengthening mechanism <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b12">13]</ref>. The strength of as-cast NbMo-TaWV alloy is also included in Fig. <ref type="figure">7</ref> for comparison <ref type="bibr" target="#b11">[12]</ref>. It is found that the strength of HEA is significantly enhanced due to the addition of Cr. The contribution of Cr to the strength of HEA can be related to the atomic size and modulus difference between Cr and the other elements. It is apparent that Cr had not only a much smaller atomic radius (r ¼ 1.25 Å) than the other metallic atoms, but also a strong binding force (G ¼ 115 GPa). Both the lattice distortion and elastic misfit are believed to be crucial to the interaction between the local stress fields of solute atoms and those of dislocations, therefore increase the effect of solid solution strengthening.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>A high-strength equiatomic NbMoTaWVCr HEA was successfully fabricated by MA and SPS in the present study. A single BCC supersaturated solid solution phase was formed in the ball milled powders. After SPS, (Cr,V) 2 (Ta,Nb) Laves phase and Ta 2 VO 6 particles were precipitated from the BCC matrix.</p><p>When the sintering temperature increased, the average grain size of BCC matrix and particle size of precipitated phases gradually increased, and the volume fraction of Laves phase obviously decreased. The strength and hardness of the NbMoTaWVCr HEA were found to be reduced with the coarsening of microstructure, while the plasticity of the sintered alloy was mainly influenced by the volume fraction, particle size and distribution of Laves phase and oxides.</p><p>The NbMoTaWVCr sample sintered at 1500 C exhibited a multiphase microstructure with 7.7% Laves phase and 6.2% Ta 2 VO 6 particles distributed in equiaxed BCC matrix with the average grain size of 1.24 mm. The fine grain size and homogeneous dispersion of tiny particles enabled the sintered HEA to possess high strength and fair plasticity at the same time. The yield strength (s y ), plastic strain (ε p ) and Vickers hardness (H v ) of this HEA arrived at 3416 MPa, 5.3% and 9908 MPa, respectively. This ultra-high strength and hardness dramatically exceeded other cast or sintered refractory HEAs in the literature. The main strengthening mechanisms in the sintered NbMoTaWVCr are interstitial solid solution strengthening, grain boundary strengthening and inherent solid solution strengthening.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. (a) XRD patterns of NbMoTaWVCr powders ball milled for different times, (b) The morphology of 40 h-milled powders, (c) XRD patterns of sintered NbMoTaWVCr HEA samples after SPS at different temperatures and (d) The DSC image of 40 h-milled powders.</figDesc><graphic coords="3,103.52,66.73,398.13,298.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. SEM backscattered electron images of the bulk NbMoTaWVCr HEA alloys sintered at different temperatures. (a) 1400 C, (b) 1500 C, (c) 1600 C and (d) 1700 C.</figDesc><graphic coords="4,93.26,66.73,399.31,344.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. TEM images of bright field and corresponding SAED patterns of bulk HEAs sintered at different temperatures: (a) 1400 C, (b) 1500 C, (c) 1600 C, (d) SAED pattern of grain A in (b) corresponding to a BCC structure along [001] zone axis, (e) SAED pattern of grain B in (b) corresponding to a C15 (Cr,V) 2 (Ta,Nb) Laves phase along [011] zone axis, (f) SAED pattern of grain C in (b) corresponding to a tetragonal phase of Ta 2 VO 6 along ½111 zone axis, (g) SAED pattern of grain D in (c) corresponding to a C14 (Cr,V) 2 (Ta,Nb) Laves phase along [0001] zone axis.</figDesc><graphic coords="5,75.18,66.73,454.78,252.57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>components in regular solution. DH mix ij is the mixing enthalpy of binary alloy, and the enthalpy values DH mix ij of atomic-pairs of alloys used in the present work are listed in Table 5 [32]. Two parameters d and U were proposed to predict the formation of phases in high-entropy alloys by Zhang et al. via Eqs. (</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. The compressive engineering stress-strain curves of bulk NbMoTaWVCr HEA samples sintered at different temperatures.</figDesc><graphic coords="6,34.81,66.73,247.90,181.13" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Plots of compressive yield strength and plastic strain of typical refractory HEAs at room temperature.</figDesc><graphic coords="6,303.82,66.73,247.90,186.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Fracture morphologies of bulk HEAs sintered at different temperatures. (a) 1400 C, (b) 1500 C, (c)1600 C, (d) 1700 C.</figDesc><graphic coords="7,103.52,66.73,398.13,342.82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 . 2 ,</head><label>72</label><figDesc>Fig. 7. Compressive yield strength as a function of average grain size of BCC matrix d À1/ 2 , the slope of the linear fit shows the value of k for hall-petch relationship.</figDesc><graphic coords="9,313.51,419.36,247.90,179.83" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Chemical compositions (in at.%) of NbMoTaWVCr sintered samples and constituent phases.</figDesc><table><row><cell>Sintering temperature</cell><cell>Alloy or phases</cell><cell>V</cell><cell>Cr</cell><cell>Nb</cell><cell>Mo</cell><cell>Ta</cell><cell>W</cell><cell>O</cell></row><row><cell></cell><cell>nominal composition</cell><cell>16.67</cell><cell>16.67</cell><cell>16.67</cell><cell>16.67</cell><cell>16.67</cell><cell>16.67</cell><cell>e</cell></row><row><cell></cell><cell>sintered NbMoTaWVCr</cell><cell>15.19</cell><cell>15.81</cell><cell>15.60</cell><cell>16.04</cell><cell>15.69</cell><cell>16.44</cell><cell>5.23 a</cell></row><row><cell>1400 C</cell><cell>BCC</cell><cell>16.69</cell><cell>15.63</cell><cell>15.699</cell><cell>17.95</cell><cell>15.74</cell><cell>18.30</cell><cell>e</cell></row><row><cell></cell><cell>(Cr,V) 2 (Ta,Nb)</cell><cell>14.09</cell><cell>43.35</cell><cell>14.98</cell><cell>2.82</cell><cell>24.74</cell><cell>e</cell><cell>e</cell></row><row><cell></cell><cell>Ta 2 VO 6</cell><cell>13.575</cell><cell>0.04</cell><cell>e</cell><cell>e</cell><cell>26.585</cell><cell>e</cell><cell>59.78</cell></row><row><cell>1500 C</cell><cell>BCC</cell><cell>16.17</cell><cell>17.21</cell><cell>16.04</cell><cell>17.28</cell><cell>15.38</cell><cell>17.91</cell><cell>e</cell></row><row><cell></cell><cell>(Cr,V) 2 (Ta,Nb)</cell><cell>11.58</cell><cell>40.58</cell><cell>17.83</cell><cell>3.59</cell><cell>18.92</cell><cell>7.47</cell><cell>e</cell></row><row><cell></cell><cell>(Ta 2 VO 6</cell><cell>12.96</cell><cell>e</cell><cell>2.45</cell><cell>e</cell><cell>24</cell><cell>e</cell><cell>60.57</cell></row><row><cell>1600 C</cell><cell>BCC</cell><cell>16.02</cell><cell>17.04</cell><cell>16.37</cell><cell>16.70</cell><cell>16.18</cell><cell>17.68</cell><cell>e</cell></row><row><cell></cell><cell>(Cr,V) 2 (Ta,Nb)</cell><cell>13.17</cell><cell>44.82</cell><cell>16.65</cell><cell>3.01</cell><cell>22.31</cell><cell>e</cell><cell>e</cell></row><row><cell></cell><cell>Ta 2 VO 6</cell><cell>13.41</cell><cell>e</cell><cell>2.16</cell><cell>e</cell><cell>22.43</cell><cell>e</cell><cell>61.97</cell></row><row><cell>1700 C</cell><cell>BCC</cell><cell>16.23</cell><cell>17.53</cell><cell>16.49</cell><cell>16.71</cell><cell>15.42</cell><cell>17.63</cell><cell>e</cell></row><row><cell></cell><cell>Ta 2 VO 6</cell><cell>14.37</cell><cell>e</cell><cell>0.95</cell><cell>e</cell><cell>28.18</cell><cell>e</cell><cell>56.49</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Average sizes and volume fractions of phases in bulk NbMoTaWVCr alloys sintered at different temperatures.</figDesc><table><row><cell>Sintering temperature( C)</cell><cell cols="3">Average grain/particle</cell><cell cols="3">Volume fraction (%)</cell></row><row><cell></cell><cell cols="2">size (mm)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell>BCC</cell><cell>Laves</cell><cell>Oxide</cell><cell>BCC</cell><cell>Laves</cell><cell>Oxide</cell></row><row><cell>1400</cell><cell>0.54</cell><cell>0.38</cell><cell>0.33</cell><cell>76.0</cell><cell>19.6</cell><cell>4.4</cell></row><row><cell>1500</cell><cell>1.24</cell><cell>0.56</cell><cell>0.54</cell><cell>86.1</cell><cell>7.7</cell><cell>6.2</cell></row><row><cell>1600</cell><cell>5.01</cell><cell>1.11</cell><cell>0.73</cell><cell>91.4</cell><cell>2.5</cell><cell>6.1</cell></row><row><cell>1700</cell><cell>10.80</cell><cell>e</cell><cell>1.18</cell><cell>94.1</cell><cell>e</cell><cell>5.9</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Densities and compressive mechanical properties of bulk NbMoTaWVCr HEAs sintered at different temperatures.</figDesc><table><row><cell>Sintering temperature</cell><cell>Density (experimental/estimated)</cell><cell>Yield strength s y</cell><cell>Maximum strength s max</cell><cell>Plastic strain ε p</cell><cell>Vickers hardness H v</cell></row><row><cell>( C)</cell><cell>(g$cm À3 )</cell><cell>(MPa)</cell><cell>(MPa)</cell><cell>(%)</cell><cell>(MPa)</cell></row><row><cell>1400</cell><cell>11.23/11.5</cell><cell>e</cell><cell>4422</cell><cell>e</cell><cell>10515</cell></row><row><cell>1500</cell><cell>11.16/11.5</cell><cell>3416</cell><cell>3834</cell><cell>5.3</cell><cell>9908</cell></row><row><cell>1600</cell><cell>11.06/11.5</cell><cell>3410</cell><cell>3685</cell><cell>2.0</cell><cell>9722</cell></row><row><cell>1700</cell><cell>11.02/11.5</cell><cell>3338</cell><cell>3538</cell><cell>1.9</cell><cell>9692</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Compressive mechanical properties of refractory HEAs at room temperature.</figDesc><table><row><cell>Alloy</cell><cell>Process</cell><cell>s y (MPa)</cell><cell>s max (MPa)</cell><cell>ε p (%)</cell><cell>H v (MPa)</cell><cell>Refs</cell></row><row><cell>NbMoTaWVCr</cell><cell>MAþSPS</cell><cell>3416</cell><cell>3834</cell><cell>5.3</cell><cell>9908</cell><cell>this work</cell></row><row><cell>NbMoTaWV</cell><cell>MAþSPS</cell><cell>2612</cell><cell>3472</cell><cell>8.8</cell><cell>e</cell><cell>[26]</cell></row><row><cell>NbMoTaWV</cell><cell>Arc melting</cell><cell>1246</cell><cell>1270</cell><cell>1.7</cell><cell>5250</cell><cell>[12]</cell></row><row><cell>NbMoTaWTi</cell><cell>Arc melting</cell><cell>1343</cell><cell>2005</cell><cell>14.1</cell><cell>4891</cell><cell>[27]</cell></row><row><cell>NbMoTaWVTi</cell><cell>Arc melting</cell><cell>1515</cell><cell>2135</cell><cell>10.6</cell><cell>5005</cell><cell>[27]</cell></row><row><cell>NbMoTaWVCr</cell><cell>Arc melting</cell><cell>e</cell><cell>e</cell><cell>e</cell><cell>6910</cell><cell>[28]</cell></row><row><cell>TiZrNbTaMo</cell><cell>Arc melting</cell><cell>1390</cell><cell>e</cell><cell>6.0</cell><cell>4900</cell><cell>[13]</cell></row><row><cell>NbCrMo 0.5 Ta 0.5 TiZr</cell><cell>Arc melting</cell><cell>1595</cell><cell>2046</cell><cell>5.0</cell><cell>5288</cell><cell>[17]</cell></row><row><cell>AlNbTiV</cell><cell>Arc melting</cell><cell>1020</cell><cell>1318</cell><cell>5.0</cell><cell>4315</cell><cell>[29]</cell></row><row><cell>HfMoNbTaTiZr</cell><cell>Arc melting</cell><cell>1512</cell><cell>1828</cell><cell>10.0</cell><cell>4953</cell><cell>[30]</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5</head><label>5</label><figDesc>Mixing enthalpy DH mix</figDesc><table><row><cell>Element</cell><cell>Nb</cell><cell>Mo</cell><cell>Ta</cell><cell>W</cell><cell>V</cell><cell>Cr</cell></row><row><cell>Nb</cell><cell>e</cell><cell>À6</cell><cell>0</cell><cell>À8</cell><cell>À1</cell><cell>À7</cell></row><row><cell>Mo</cell><cell>e</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table><note><p><p><p><p>ij</p>of atomic pairs (kJ$mol À1 )</p><ref type="bibr" target="#b31">[32]</ref></p>.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 6</head><label>6</label><figDesc>Characteristic parameters of alloy elements<ref type="bibr" target="#b9">[10,</ref><ref type="bibr" target="#b32">33,</ref><ref type="bibr" target="#b34">35]</ref>.</figDesc><table><row><cell>metals</cell><cell>molar mass (g/mol)</cell><cell>Lattice parameter (Å)</cell><cell>Atom radius (Å)</cell><cell>VEC</cell><cell>Melting point (K)</cell><cell>density (g/cm 3 )</cell><cell>Crystal structure</cell></row><row><cell>V</cell><cell>50.94</cell><cell>3.039</cell><cell>1.32</cell><cell>5</cell><cell>2183</cell><cell>6.11</cell><cell>BCC</cell></row><row><cell>Cr</cell><cell>52.00</cell><cell>2.884</cell><cell>1.25</cell><cell>6</cell><cell>2130</cell><cell>7.19</cell><cell>BCC</cell></row><row><cell>Nb</cell><cell>92.91</cell><cell>3.301</cell><cell>1.43</cell><cell>5</cell><cell>2750</cell><cell>8.57</cell><cell>BCC</cell></row><row><cell>Mo</cell><cell>95.94</cell><cell>3.147</cell><cell>1.36</cell><cell>6</cell><cell>2896</cell><cell>10.28</cell><cell>BCC</cell></row><row><cell>Ta</cell><cell>180.95</cell><cell>3.303</cell><cell>1.43</cell><cell>5</cell><cell>3290</cell><cell>16.65</cell><cell>BCC</cell></row><row><cell>W</cell><cell>183.84</cell><cell>3.158</cell><cell>1.37</cell><cell>6</cell><cell>3695</cell><cell>19.25</cell><cell>BCC</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 7</head><label>7</label><figDesc>The calculated strength increases and factors contributing to strengthening effects in the sintered HEAs.</figDesc><table><row><cell>Sintering</cell><cell>Volume</cell><cell>Average</cell><cell>Inter-particle</cell><cell></cell><cell></cell><cell>Interstitial solid solution</cell><cell>Grain boundary</cell><cell>Intrinsic strength</cell></row><row><cell>temperature</cell><cell>fraction</cell><cell>diameter</cell><cell>spacing</cell><cell></cell><cell></cell><cell>strengthening △s iss ¼ Qc m 1/2</cell><cell>strengthening</cell><cell>þsolid solution</cell></row><row><cell>( C)</cell><cell>f v (%)</cell><cell>r(mm)</cell><cell>l(mm)</cell><cell></cell><cell></cell><cell>(MPa)</cell><cell>△s gb ¼ kd À1/2 (MPa)</cell><cell>strengthening</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>s 0 þ△s ss (MPa)</cell></row><row><cell>1400</cell><cell>24.0</cell><cell>0.37</cell><cell>0.49</cell><cell>2.32</cell><cell>149</cell><cell>1441</cell><cell>598</cell><cell>2160</cell></row><row><cell>1500</cell><cell>13.9</cell><cell>0.55</cell><cell>1.24</cell><cell>1.00</cell><cell>62</cell><cell>946</cell><cell>395</cell><cell></cell></row><row><cell>1600</cell><cell>8.6</cell><cell>0.84</cell><cell>2.77</cell><cell>1.03</cell><cell>29</cell><cell>960</cell><cell>196</cell><cell></cell></row><row><cell>1700</cell><cell>5.9</cell><cell>1.18</cell><cell>5.10</cell><cell>1.16</cell><cell>16</cell><cell>1019</cell><cell>134</cell><cell></cell></row></table><note><p>O content in BCC matrix cm(at.%) Orowan strengthening △s or (MPa)</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The authors gratefully acknowledge the financial support from the <rs type="funder">Guangdong Provincial Foundation of Natural Science</rs> (No. <rs type="grantNumber">2016A030313483</rs>), the <rs type="funder">Key Science and Technology Project of Guangdong Province</rs> (No. <rs type="grantNumber">2015A010105011</rs> and <rs type="grantNumber">2015A020214008</rs>) and the <rs type="funder">Science and Technology Research Project of Guangzhou</rs> (No. <rs type="grantNumber">201505040925029</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_HRz2hd3">
+					<idno type="grant-number">2016A030313483</idno>
+				</org>
+				<org type="funding" xml:id="_xeWPxmG">
+					<idno type="grant-number">2015A010105011</idno>
+				</org>
+				<org type="funding" xml:id="_Qn8Q4ef">
+					<idno type="grant-number">2015A020214008</idno>
+				</org>
+				<org type="funding" xml:id="_qumMZV9">
+					<idno type="grant-number">201505040925029</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nanostructured high-entropy alloys with multiple principal elements: novel alloy design concepts and outcomes</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="299" to="e303" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<title level="m">High-entropy Alloys</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Science &amp; Business Media</publisher>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A critical review of high entropy alloys and related concepts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="448" to="e511" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A fracture-resistant high-entropy alloy for cryogenic applications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Catoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<date type="published" when="2014">2014. 1153e1158</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Microstructures and properties of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="e93" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Phase equilibria, microstructure, and high temperature oxidation resistance of novel refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Azim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schliephake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">624</biblScope>
+			<biblScope unit="page" from="270" to="e278" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The effect of molybdenum on the corrosion behavior of the high-entropy alloys Co 1.5 CrFeNi 1.5 Ti 0.5 Mo x in aqueous environments</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Shih</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corrosion Sci</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="2571" to="e2581" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Microstructure and electrochemical properties of high entropy alloys-a comparison with type-304 stainless steel</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Duval</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">D</forename><surname>Hung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Shih</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corrosion Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<date type="published" when="2005">2005. 2257e2279</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Microstructure and wear behavior of AlxCo 1.5 CrFeNi 1.5 Ti y high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="6308" to="e6317" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Refractory high entropy alloys</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1758" to="e1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Intermetallics</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Microstructure and room temperature properties of a high-entropy TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page" from="6043" to="e6048" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb 25 Mo 25 Ta 25 W 25 and V 20 Nb 20 Mo 20 Ta 20 W 20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="698" to="e706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">TiZrNbTaMo high-entropy alloy designed for orthopedic implants: as-cast microstructure and mechanical properties</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="80" to="e89" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Structure and mechanical properties of B2 ordered refractory AlNbTiVZr x (x ¼0e1.5) high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="volume">704</biblScope>
+			<biblScope unit="page" from="82" to="e90" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of low-density, refractory multi-principle element alloys of the Cr-Nb-Ti-V-Zr system</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="volume">565</biblScope>
+			<biblScope unit="page" from="51" to="e62" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Low-density, refractory multi-principal element alloys of the Cr-Nb-Ti-V-Zr system: microstructure and phase analysis</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1545" to="e1557" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties of a refractory NbCrMo 0.5 Ta 0.5 TiZr alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="volume">529</biblScope>
+			<biblScope unit="page" from="311" to="e320" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Processing, microstructure and properties of Ni 1.5 CoCuFeCr 0.5-x V x high entropy alloys with carbon introduced from process control agent</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">695</biblScope>
+			<biblScope unit="page" from="462" to="e475" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Thermal stability and grain boundary strengthening in ultrafine-grained CoCrFeNi high entropy alloy composite</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sathiyamoorthi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Basu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kashyap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kottada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="page" from="426" to="e433" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Alloying behavior, microstructure and mechanical properties in a FeNiCrCo 0.3 Al 0.7 high entropy alloy</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="854" to="e860" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Influence of Ti addition and sintering method on microstructure and mechanical behavior of a mediumentropy Al 0.6 CoNiFe alloy</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Lavernia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="volume">619</biblScope>
+			<biblScope unit="page" from="137" to="e145" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Competition between elements during mechanical alloying in an octonary multi-principal-element alloy system</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Hsieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">481</biblScope>
+			<biblScope unit="page" from="768" to="e775" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Alloying behavior in multi-component AlCoCrCuFe and NiCoCrCuFe high entropy alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Praveen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Murty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Kottada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="volume">534</biblScope>
+			<biblScope unit="page" from="83" to="e89" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Characterization of nanocrystalline CoCrFeNiTiAl high-entropy solid solution processed by mechanical alloying</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Niihara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">495</biblScope>
+			<biblScope unit="page" from="33" to="e38" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">A Handbook of Phase Diagrams of Binary Alloys</title>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">W</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Н</forename><forename type="middle">П</forename><surname>Лякишев</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008">2008</date>
+			<publisher>Chemical Industry Press</publisher>
+			<pubPlace>Beijing, China</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Ultra-high strength WNbMoTaV highentropy alloys with fine grain structure fabricated by powder metallurgical process</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Ryu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Hong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="volume">712</biblScope>
+			<biblScope unit="page" from="616" to="e624" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Effect of Ti additions on mechanical properties of NbMoTaW and VNbMoTaW refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="153" to="e157" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Senary refractory high-entropy alloy Cr x MoNbTaVW</title>
+		<imprint>
+			<date type="published" when="2015">2015. 193e201</date>
+			<biblScope unit="volume">51</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Structure and mechanical properties of a light-weight AlNbTiV high entropy alloy</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Shaysultanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="153" to="e155" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Intermetallics Enhanced mechanical properties of HfMoTaTiZr and HfMoNbTa-TiZr refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="76" to="e83" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Prediction of high-entropy stabilized solid-solution in multi-component alloys</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="233" to="e238" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Classification of bulk metallic glasses by atomic size difference, heat of mixing and period of constituent elements and its application to characterization of the main alloying element</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Inoue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Trans</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<date type="published" when="2005">2005. 2817e2829</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Effect of valence electron concentration on stability of fcc or bcc phase in high entropy alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="0" to="e5" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Accelerated exploration of multi-principal element alloys with solid solution phases</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodwar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1" to="e7" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Experimental and theoretical study of Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X ¼ V or Cr) refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fazakas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Zadorozhnyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Varga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Louzguine-Luzgin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Refract. Metals Hard Mater</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="131" to="e138" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Hirsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Humphreys</surname></persName>
+		</author>
+		<title level="m">The Physics of Strength and Plasticity</title>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Argon</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The relation between polycrystal deformation and single-crystal deformation</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">F</forename><surname>Kocks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1121" to="e1143" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Ham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Nicholson</surname></persName>
+		</author>
+		<title level="m">Strengthening Methods in Crystals</title>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier Pub. Co</publisher>
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Courtney</surname></persName>
+		</author>
+		<title level="m">Mechanical Behavior of Materials</title>
+		<imprint>
+			<publisher>McGraw-Hill Companies, Inc</publisher>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+	<note>second ed.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

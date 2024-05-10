@@ -1,0 +1,950 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Self diffusion of europium, neodymium, thorium, and uranium in haplobasaltic melt: The effect of oxygen fugacity and the relationship to melt structure</title>
+				<funder ref="#_HkfExxX">
+					<orgName type="full">DOE</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">T</forename><surname>Latourrette</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Geological and Planetary Sciences</orgName>
+								<orgName type="institution" key="instit1">The Lunatic Asylum</orgName>
+								<orgName type="institution" key="instit2">California Institute of Technology</orgName>
+								<address>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wasserburg</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Division of Geological and Planetary Sciences</orgName>
+								<orgName type="institution" key="instit1">The Lunatic Asylum</orgName>
+								<orgName type="institution" key="instit2">California Institute of Technology</orgName>
+								<address>
+									<postCode>91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Self diffusion of europium, neodymium, thorium, and uranium in haplobasaltic melt: The effect of oxygen fugacity and the relationship to melt structure</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">781275D497A3C5058E079D18FC55C65C</idno>
+					<note type="submission">Received May 30, 1996; accepted in revised form November 3, 1996</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We report new measurements of self diffusion coefficients (D) for Mg, Nd, Eu, Th, and U in a haplobasaltic (Fo15Di&amp;h5) melt at 1 atm, 1400-15OO"C, and oxygen fugacities corresponding to air and the Fe-Fe0 buffer. Diffusion couples consisted of isotopically distinct melts of the same chemical composition, and isotopic concentration profiles in quenched couples were measured with an ion probe. The valence state distributions of Eu and U were determined from absorption spectroscopy and model calculations, which demonstrate a shift from Eu3+ and U5.5+ in air to Eu'.~+ and U4+ at Fe-FeO. Dhlg, DNd, and DTh are independent of oxygen fugacity and agree well with our previous measurements. DEu = DNd in air and increases by 42% at Fe-FeO, while Du = Dn in air and shows a possible small increase of -20% at Fe-FeO. The change in DE" with oxygen fugacity matches the established ionic radius and charge dependence for Mg, Ca, Ba, Nd, Yb, Ti, and Zr, while diffusion coefficients for Zr, Th, U4+, and U5.5+ are independent of ionic radius and charge. Activation energies for all cations are approximately equal, independent of oxygen fugacity, and approximately match the activation energy for viscous flow. In addition, activation energies and diffusion coefficients recently measured for 0 and Si in basalt agree well with the present values. The good agreement between the various activation energies and between network modifier and network former diffusivities is consistent with a model in which diffusion of network modifying cations in low viscosity melts is controlled largely by the extrinsic influence of the melt network rl-organization, with an additional influence from the intrinsic mobilities of the individual cations. The c'onstant diffusion coefficient defined by the high ionic radius and charge elements is interpreted to represent the characteristic network diffusivity for this composition, which dominates over the intrinsic diffusivities for these elements. Elements with faster intrinsic diffusivities still display a small ionic radius and charge dependence. Diffusion coefficients in high viscosity melts are expected to be decoupled from the network, and thus may display a much greater dependence on ionic radius and charge. -</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INI'RODUCTION</head><p>Our understanding of diffusion in silicate melts has benefited from some important recent advances, but many details remain poorly understood and a quantitative structural model for diffusion has yet to emerge. One particularly important question is how factors specific to a particular element, such as ionic radius and charge, influence diffusivity. Our studies have focused on this problem by making precise measurements of self diffusion coefficients for several elements simultaneously in systems ,with no activity gradients. In our previous study <ref type="bibr" target="#b19">(LaTourrette et al., 1996)</ref> we observed a clear decrease in diffusion coefficients with increasing ionic radius and charge for eight elements ranging from Mg to U. In this study we measured the variation in diffusion coefficients for two multivalent elements, Eu and U, as a function of imposed oxygen fugacity. Changes in net charge and ionic radius of Eu and U in response to variations in oxygen fugacity should result in changes in their diffusion coefficients. Other properties of multivalent elements in silicate melts, such as speciation and solubility, are known to be strongly influenced by oxygen fugacity (e.g., <ref type="bibr" target="#b12">Farges et al., 1992;</ref><ref type="bibr" target="#b28">Peiffert et al., 1994.;</ref><ref type="bibr" target="#b24">Linnen et al., 1995)</ref>. The only * Present address: Department of Earth and Space Sciences, University of California, Los Angeles, California 90095-1567, USA.</p><p>previous investigation of the effect of oxygen fugacity on diffusion is a recent study of Sn diffusion by <ref type="bibr" target="#b24">Linnen et al. ( 1995)</ref>. They found an apparent increase in Dsn with decreasing oxygen fugacity, but the low precision of their measurements at higher oxygen fugacities precludes a quantitative assessment of this effect.</p><p>Another poorly understood aspect of diffusion in silicate melts is its relationship to viscosity. For network forming elements (0, Si, and Al), the close adherence to the Eyring equation in some systems <ref type="bibr" target="#b27">(Oishi et al., 1975;</ref><ref type="bibr" target="#b40">Yinnon and Cooper, 1980;</ref><ref type="bibr" target="#b37">Shimizu and Kushiro, 1984;</ref><ref type="bibr" target="#b0">Baker, 1992</ref><ref type="bibr" target="#b1">Baker, , 1995) )</ref> and the recent demonstration that viscosity is controlled by local Si-0 exchange (at least in Al-free melts; Farnan and <ref type="bibr" target="#b13">Stebbins, 1994;</ref><ref type="bibr" target="#b39">Stebbins et al., 1995)</ref> indicate that network former diffusion and viscous flow occur by closely related processes. While self diffusion coefficients of network modifiers are sensitive to bulk composition, their relationship to viscosity is unclear. New results show that the self diffusivities of network modifiers appear to be strongly influenced by those of network formers in low viscosity melts <ref type="bibr" target="#b9">(Dingwell, 1990;</ref><ref type="bibr" target="#b19">LaTourrette et al., 1996)</ref>. Several questions, however, such as exactly how the diffusivity of network modifiers is linked to the motions of the melt network, and how the influence of ionic radius and charge are superimposed upon this relationship, remain unanswered. The present results provide new data for high ionic radius trace elements and charge cations and help place constraints on the relative roles of the melt network and ionic radius and charge in controlling diffusion in a low viscosity (q -1 Pa s) melt.</p><p>In this study we measured self diffusion coefficients for Mg, Nd, Eu, Th, and U in a haplobasaltic melt (Fo-Di-An system) as a function of oxygen fugacity and temperature at 1 atm pressure. Magnesium and neodymium were included to compare the results with our previous measurements <ref type="bibr">(La-Tourrette et al., 1996)</ref>. In addition, Nd and Th were intended to represent homologues for Eu3+ and U4+, respectively. The valence state distributions of Eu and U in the samples were estimated spectroscopically, and the variation in diffusion coefficients for these multivalent elements is compared to the known dependence for fixed valence elements. The results of our complete set of self diffusion coefficient measurements for Mg, Ca, Ba, Nd, Eu, Yb, Ti, Zr, Th, and U are then discussed in terms of the relationship between network modifier diffusion and melt network structure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">EXPERIMENTAL AND ANALYTICAL TECHNIQUES</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Experiments</head><p>The techniques used for these experiments closely follow those of <ref type="bibr" target="#b19">LaTourrette et al. ( 1996)</ref>, and only the modifications developed for this work are discussed in detail here. Oxygen fugacity was controlled with standard gas mixing techniques <ref type="bibr" target="#b17">(Huebner, 1987)</ref>, using flowing CO-CO2 gas mixtures, a Y-doped zirconia electrolyte sensor calibrated to the Fe-Fe0 transition <ref type="bibr" target="#b26">(O'Neill and Pownceby, 1993)</ref>, and pure O2 as the reference gas. Flowing air was used for procedures run in air. Temperatures were monitored with a Pt-PtYoRhro thermocouple calibrated to the melting point of Au. The oxygen sensor and thermocouple were used to set the oxygen fugacity and temperature before each capsule filling or diffusion run but did not remain in the furnace during the runs. Periodic calibrations and stability checks indicated that no measurable variations in oxygen fugacity or temperature occurred during the runs.</p><p>The base composition is the same Fo15Di40An45 mix used in our previous study (Table <ref type="table" target="#tab_0">1</ref>). One split of a homogenous batch of this glass was doped with 1500 ppm of Nd, Eu, Th, and U, and 2% excess MgO. All dopants in this split were isotopically normal except U, which had an isotopic abundance of 235U of 5% to increase analytical sensitivity. A second split of the base glass was then doped to equal concentrations with isotopically enriched oxides of Nd, Eu, U (21sU = lo%), and Mg. As only one long-lived isotope of Th is available, the second split was doped to 500 ppm with isotopically normal Th. Because the Th concentration varies across these diffusion couples, the diffusion coefficients reported for Th are thus tracer rather than self diffusion coefficients. The extent to which this difference may influence the results is unknown. For all other elements, the total elemental concentration in the two splits was identical, with the relative fraction of the doped isotope differing by about a factor of two between the two splits. The doped glasses were homogenized by three to four cycles of melting and grinding in air and then reduced by several more melt-crush cycles at an oxygen fugacity 1 log unit below the Fe-Fe0 buffer. The latter step was required to allow the oxygen released by the reduction of Eu and U to escape and was repeated until melting no longer generated bubbles. Self diffusion of ELI, Nd, Th, and U in haplobasaltic melt Two additional glass compositions were prepared for absorption spectroscopy measurements. These were made from the same batch of base glass doped with 1 wt% of either Eu or U. Separate aliquots of each glass were equilibrated at 1400°C in air and at the Fe-Fe0 buffer. In the case of the 1% U glass, additional samples were prepared at 1500°C at both oxygen fugacities. Doubly polished plates of -75 pm (Eu) or -1 mm (U) thickness were prepared from the bubble-free samples.</p><p>Diffusion couples were formed by joining capsules of isotopically enriched and isotopically normal glasses with a Pt sleeve (see Fig. <ref type="figure">1</ref> in <ref type="bibr">LaTourrette et al., 19915)</ref>. Capsules were filled at the same oxygen fugacity as that of the diffusion experiment in which they were to be used. After filling, the capsules were left molten for at least 4 h to allow bubbles to escape and to insure a homogeneous, equilibrium valence state distribution of Eu and U <ref type="bibr" target="#b25">(Morris et al., 1974)</ref>. After quenching, 2-3 mm of the open end of the capsules were ground away to remove the U-depleted region that forms by U-volatilization during melting. The Th-poor glass was always used for the top half of the couple.</p><p>Couples were hung ver&amp;lly and quickly lowered into the hot spot of a Deltech vertical tube furnace, held for a specified time, and pulled out of the top of the furnace to quench. The time required to heat up to run temperature is 2 min, which is short compared to the duration of an experiment. Runs made at the Fe-Fe0 buffer were heated within the reducing furnace atmosphere by lowering the sample into the hot zone within the sealed furnace and quenched in air. Quenched couples were sectioned longitudinally and polished for analysis. Diffusion coefficients were measured at 1400-1500°C at oxygen fugacities corresponding to air and the Fe-Fe0 buffer; duplicate experiments were mn at each oxygen fugacity at 1400°C to assess reproducibility. Run temperatures, durations, and oxygen fugacities are listed in Table <ref type="table" target="#tab_1">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Analyses</head><p>Isotopic concentration profiles in the quenched diffusion couples were measured with PANURGE, a modified Cameca ims-3f ion microprobe. Profiles were obtained from linear traverses taken parallel to the axis of the diffusion couple with step sizes ranging from 75 to 200 pm. Analyses were made with a 12.5 kV O-primary beam and 4.5 kV positive ion secondary beam. No offset voltages were used. Magnesium isotopes were measured in one traverse with a 0.5 nA primary beam current, and calcium, neodymium, europium, thorium, and uranium isotopes were measured along an immediately adjacent traverse with a 10 nA primary beam current. Two profiles, -300 pm from each wall OF the capsule, were measured for each element. Thorium and uranium isotopes were measured as Th160 and Ui60 ions (count rates for the monoxide ions arc three to four times higher than for the elemental ions); all other isotopes were measured as elemental ions.</p><p>Ultraviolet and visible absorption spectra of the 1% Eu and U glasses were obtained with a. diode-array spectrometer system built by Prof. G. Rossman. The system consists of an EG&amp;G PAR detection system, an Acton triple grating spectrometer, and a deuterium (UV) or tungsten (visible) lamp. Infrared spectra were recorded with a Nicolet F'TIR spectrometer using a quartz-halogen tungsten source and a liquid nitrogen cooled InSb detector. All spectra were obtained at room temperature. Samples were centered over a 2 mm aperture and spectra were recorded from 200 to 5000 nm (50,000 to 2000 cm-'). The different valence states of Eu and U were identified by characteristic absorption peaks at specific wavelengths.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">RESULTS</head><p>An assessment of this experimental procedure, including a detailed documentation of the interface during the initial melting period, is given in <ref type="bibr" target="#b19">LaTourrette et al. ( 1996)</ref>. These results show a close agre:ement between the measured profiles and the error function equation and that diffusion coefficients are independent of run duration. These observations strongly indicate that this procedure generates true self-diffu-  (1) <ref type="bibr" target="#b8">(Crank, 1975;</ref><ref type="bibr" target="#b19">LaTourrette et al., 1996)</ref>, where 'R = the atom fraction of the diffusing isotope, i (i.e., 'R = ('C/T)/ I&amp; kCIjC, where 'CI'C = the ion intensity of i normalized to a reference isotope j and the sum is taken over all k isotopes of an element), 'R, and 'R, are the normal and enriched fractions of i far from the interface, x = distance, t = time, and D = the diffusion coefficient. In the case of Th, 'R = 232Th/48Ca. Typical profiles from one experiment are shown in Fig. <ref type="figure">1</ref>. A major element concentration profile measured with an electron microprobe in one sample confirmed that the diffusion couples were chemically homogeneous. Diffusion coefficients were determined from a linear fit to the inverse error function via the expression: erf -'</p><formula xml:id="formula_0">2'R _ i&amp; _ 'R, 1 X 'R, -'R, =zE (2)</formula><p>Examples of inverse error function fits are shown in Fig. <ref type="figure">2</ref>. An important criterion for a successful experiment is a linear inverse error function plot. Fluid flow, which can lead to spurious diffusion coefficients, is often difficult to discern in a concentration profile. However, a very small amount of flow is readily detectable on an inverse error function plot as subtle oscillatory deviations from a linear trend. This behavior was detected in only one experiment, which was discarded.</p><p>Calculated diffusion coefficients are listed in Table <ref type="table" target="#tab_1">2</ref>. Formal errors, as determined by the closeness to fit to Eqn. 2, are also listed, but the actual precision of the measurements is limited by reproducibility: the complete range of values spanned by separate profiles within samples and between duplicate runs is always less than 210% for Mg, Nd, and Eu, and less than 215% for Th and U. Thus, our estimated uncertainty on the diffusion coefficients is + 15%, consistent with our previous results.</p><p>UV, optical, and IR spectra of glasses containing 1% U or Eu equilibrated in air and at Fe-Fe0 are shown in Fig. <ref type="figure">3</ref>. Clear differences between the color and spectra of the oxidized and reduced glasses are apparent for both elements. The U-bearing sample equilibrated in air shows the characteristic pale yellow of U6+, while the sample run at Fe-Fe0 has the greenish-blue of U"+ <ref type="bibr" target="#b2">(Bamford, 1977;</ref><ref type="bibr" target="#b6">Calas, 1979;</ref><ref type="bibr" target="#b31">Schreiber, 1983)</ref>. The spectra (Fig. <ref type="figure">3a</ref>) show several clearly resolved peaks, all of which can be unambiguously attributed to u6+, us+, and U4+ based on the detailed studies of Calas (1979) and <ref type="bibr" target="#b31">Schreiber (1983)</ref>.</p><p>We estimated the valence state distribution of U in these glasses from the spectra using Beer's law and the extinction coefficients of <ref type="bibr" target="#b6">Calas ( 1979)</ref> and <ref type="bibr" target="#b31">Schreiber (1983)</ref>. The results are shown in Table <ref type="table" target="#tab_2">3</ref>. At Fe-FeO, the U is predominantly tetravalent, consistent with previous measurements <ref type="bibr" target="#b6">(Calas, 1979;</ref><ref type="bibr" target="#b31">Schreiber, 1983;</ref><ref type="bibr" target="#b41">Yudintsev et al., 1990;</ref><ref type="bibr" target="#b12">Farges et al., 1992)</ref>. In air, the U is in a mixed hexavalent-pentavalent state, also consistent with these studies, although there is some disagreement between the relative proportions of U5+ and U6+ depending on which extinction coefficients are used. We found no discernible difference in the spectra or calculated valence state distributions between samples prepared at 1400°C and 1500°C.</p><p>In the case of Eu (Fig. <ref type="figure">3b</ref>), the sample equilibrated in air is colorless, and there are no obvious features in the spectrum. The sample equilibrated at Fe-Fe0 has a pale yellow color characteristic of Eu*+ (e.g., <ref type="bibr" target="#b32">Schreiber et al., 1982;</ref><ref type="bibr" target="#b38">Starynowicz, 1995)</ref>, and the spectrum shows broad peaks near 255 and 320 nm. Neither sample shows any features beyond 400 nm. A pair of absorbance peaks at 230-260 and 320-350 nm attributed to Eu2+ have been observed in a variety of Eu-doped alkaline-earth halides (Rubio, 1991) and Eu2+ -bearing organometallic compounds <ref type="bibr" target="#b38">(Starynowicz, 1995)</ref>. We are thus confident that the features we observe in the Fe-Fe0 spectrum a.re due to Eu*+.</p><p>Unfortunately, no extinction coefficients for Eu absorption are available, so we have instead estimated the valence state distribution with two independent calculations. The first estimate is based on the models of <ref type="bibr" target="#b21">Lauer and Morris (1977)</ref> and <ref type="bibr" target="#b25">Morris et al. ( 1974)</ref>, in which they have determined the variation of the Eu valence state distribution with temperature, oxygen fugacity, and melt composition. For the composition used in this study and 15OO"C, their model gives Xg ( =Eu'+/ ZEu) = 0.01 in air and 0.53 at Fe-FeO. The second estimate is based on the measured diffusion coefficients in this and our previous study <ref type="bibr" target="#b19">(LaTourrette et al., 1996)</ref>. At any oxygen fugacity, the diffusion coefficient of Eu can be expressed as DEu = (X z),Og + (1 -X ~)D~.</p><p>If we assume that X 2 = 0 in air, then 0% is given by the value of DEu measured in air. If we further assume that 0% can be approximated from a linear interpolation of the variation of 0:: and 02 with ionic radius from our previous study (using the radius for VII coordinated Eu"), then using the measured value of DEu at Fe-FeO, the above expression can be solved to give X 2 = 0.5 at Fe-FeO. The good agreement between the two calculations strongly suggests that X 2 -0 in air and is near 0.5 at Fe-FeO.</p><p>Spectra were also measured in samples of our starting material equilibrated in air and at Fe-Fe0 to confirm that the valence state of Nd was constant and to investigate whether Eu and U were influenced by mutual redox interaction. Several peaks attributed to Nd3+ <ref type="bibr">(Barnford, 1977)</ref> were clearly identifiable in the glasses, and there was no difference between the air and Fe-Fe0 samples. In addition, there was no difference in the relative intensities of the U4+, U5+, and U6+ peaks between the spectra of the starting material and the 1% U doped glasses, thus giving no indication that the presence of Eu influenced the valence state distribution of U in these experiments.</p><p>A comparison of the diffusion coefficients measured in air and at Fe-Fe0 shows that decreasing oxygen fugacity results in a clear increase in D, and small increase in Du.</p><p>DMg , DNd, and Dn measured at Fe-Fe0 are indistinguishable from those measured in air <ref type="bibr">(Table 2,</ref><ref type="bibr">Figs. 2,</ref><ref type="bibr">4,</ref><ref type="bibr">5)</ref>. These results are clearly illustrated in a comparison of inverse error function profiles for experiments run in air and at Fe-Fe0 (Fig. <ref type="figure">2</ref>). Diffusion coefficients vary inversely with the slope, and it is readily apparent that the slope is greater in air than at Fe-Fe0 for Eu and U, while for Nd and Th the slopes are identical. The magnitude of these changes are quite small and can only be distinguished with the high precision measurement techniques developed in our studies. DEu increases by 42% from air to Fe-FeO, which is well outside of the Activation energies and pre-exponential factors are determined from the slope and intercept, respectively. Activation energies for different elements are very similar and, with the possible exception of U, independent of oxygen fugacity (see Table <ref type="table" target="#tab_3">4</ref>).</p><p>in this study and the absence of any measurable change in the valence state distribution of U with temperature, we consider the present results to be more reliable. We thus infer that we underestimated the uncertainty of our previous U diffusion coefficient measurements and that the model calling upon variations in the activation energies and proportions with temperature of different valence states of U should be rejected. The improvement in the present measurements apparently results from the much higher count rates for 235U (250x ) , a consequence of using a higher fraction of 235U, analyzing the oxide rather than the elemental ion, and using no offset voltage. Our previous 235U count rates were 2-10 ctslsec, which may have contained significant interference from backgrounds that often reached 0.5-l cts/sec. where Do = the pre-exponential or frequency factor and E = the activation energy (e.g., <ref type="bibr" target="#b16">Hofmann, 1980;</ref><ref type="bibr" target="#b18">Jambon, 1982;</ref><ref type="bibr" target="#b15">Henderson et al., 1985;</ref><ref type="bibr" target="#b36">Sheng et al., 1992;</ref><ref type="bibr" target="#b19">LaTourrette et al., 1996)</ref>. Do and E calculated for each element at each oxygen fugacity, along with uncertainties from a weighted linear regression, are listed in Table <ref type="table" target="#tab_3">4</ref>. Because each regression is based on only two points, the formal uncertainties are rela-  b Calculated from Beer's law using extinction coefficients from <ref type="bibr" target="#b31">Schreiber et al. (1983)</ref> and <ref type="bibr" target="#b6">Calas (1979)</ref>.</p><p>' Calculated from the models of <ref type="bibr">Lauer and Moms (1977)</ref> and <ref type="bibr" target="#b25">Morris et al. (1974)</ref>.</p><p>d From E$+ = (DEu -DE,?+)/(DEU*+ -DE"'+) and EL? = 100 -EL?', where we assume DEUl+ = DEu measured in air and DE"*+ is interpolated from Dc. and Dsa of <ref type="bibr">LaTourette et al. (1996)</ref>.</p><p>See text for details.</p><p>tively large. Based on the regular behavior of the data and the good agreement with our previous values for Mg and Nd, the uncertainty on E is probably closer to 227 Id/mole, the value determined in our previous study. As found in that work, there may be a small increase in E with cation charge, but even within the smaller estimated uncertainty of ~27 k.l/mole, values for all el'ements run in air are equal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Variation with Oxygen Fugacity</head><p>Diffusion coefficients are shown as a function of oxygen fugacity in Fig. <ref type="figure" target="#fig_4">5</ref>. For Mg, Nd, and Th, values measured in air are indistinguishable from those measured at Fe-FeO. On the other hand, diffusion coefficients for Eu increase by 42% from air to Fe-FeO, while U shows a possible small increase of lo-24% (see also Fig. <ref type="figure">2</ref>). This behavior of Eu and U is undoubtedly related to the decrease in the net valence state distributions of Eu and U in the melt with decreasing oxygen fugacity. While Mg, Nd, and Th have fixed valence states in silicate melts, we have shown that Eu varies from Eu3+ to Eu'.~+, and U varies from U5.5+ to U4+ as the oxygen fugacity is decreased from air to Fe-Fe0 in this melt (Table <ref type="table" target="#tab_2">3</ref>). The increase in the diffusion coefficient with decreasing oxygen fugacity, therefore, must reflect the known effect of cation charge on diffusion. A decrease in charge is always accompanied by an increase in ionic radius which will, to some extent, compensate for the effect of charge on diffusion. However, charge has a stronger influence on diffusion than radius <ref type="bibr" target="#b19">(LaTourrette et al., 1996)</ref>, and the net effect of cation reduction is to increase the diffusion coefficient.</p><p>The effect of oxygen fugacity on activation energy is negligible for all elements except possibly U (Table <ref type="table" target="#tab_3">4</ref>, Fig. <ref type="figure">4</ref>). This may reflect a variation in the temperature dependence of the U valence state distribution between air and Fe-FeO, although we did not detect any change spectroscopically.</p><p>As the activation energy of U could easily be adjusted within the error bars to conform to the values for the other elements, we do not consider this deviation to be significant.</p><p>Given estimates of the valence state distribution of Eu and U in the glasses, we can compare the change in their diffusion coefficients with oxygen fugacity with the known ionic radius and charge dependence for fixed valence elements using some phenomenological relations. Two empirically derived expressions have been shown to qualitatively characterize the ionic radius and charge dependence of self diffusion coefficients in low viscosity silicate melts. Hofmann ( 1980) introduced the expression Z 'r, where Z = cation charge and r = ionic radius, for cation tracer diffusion in basalt. The second expression, r(2Z/di_o), where d-o = the cation-oxygen separation distance, was proposed by us <ref type="bibr" target="#b19">(LaTourrette et al., 1996)</ref>. Although still empirical, the form of this second expression was constrained to include the combined effects of ionic radius and the cation-oxygen coulombic potential.</p><p>The diffusion coefficients from this work and our previous study are plotted as a function of these two quantities in Fig. <ref type="figure" target="#fig_5">6</ref>. The coordination numbers of the different cations in silicate melts, which dictate the effective ionic radii, and values of di-o have been determined from X-ray studies and are listed in Table <ref type="table" target="#tab_4">5</ref>. From Fig. <ref type="figure" target="#fig_5">6</ref> it is evident that diffusion coefficients for Mg, Ca, Ba, Nd, Eu, Yb, Ti, and Zr are plausibly represented by both expressions. In particular, both Eu*.~+ and Eu3+ lie along the trend established by different fixed valence elements. This observation demonstrates that, for cations with Z &lt; 4, oxygen fugacity affects the diffusion of multivalent elements via ionic radius and charge variations that are analogous to the differences between fixed valence elements. Beyond Zr, however, both trends appear to flatten out, giving a nearly constant value for the diffusion coefficients regardless of ionic radius or charge (Fig. <ref type="figure" target="#fig_5">6</ref>). This behavior contrasts markedly with that for the lower ionic radius and charge elements and suggests that an important change in diffusion mechanism for high ionic radius and charge cations occurs in this composition.</p><p>As outlined in the next section, we interpret this change to reflect the dominance of melt network structural reorganization over the influence of ionic radius and charge in controlling the diffusion of high ionic radius and charge cations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Relationship to Melt Structure</head><p>Within the estimated uncertainties, the activation energies for self diffusion of Mg, Nd, Eu3+, Eu'.'+, Th, U4+, and U5.5+ in this melt are approximately equal to each other   <ref type="bibr" target="#b16">(Hofmann, 1980)</ref>, and (b) r(2Z/di_o) where d,-o is the cation-oxygen separation. Beyond Zr, diffusion coefficients appear to be independent of ionic radius and charge. Parameters are listed in Table <ref type="table" target="#tab_4">5</ref>.</p><p>(Table <ref type="table" target="#tab_3">4</ref>), agree with the values for Ca, <ref type="bibr">Ba, Yb, Ti, and Zr (LaTourrette et al., 1996)</ref>, and approximate the calculated activation energy for viscous flow (170 Id/mole; <ref type="bibr" target="#b35">Shaw, 1972)</ref>. These results support our initial interpretation, based on the model of <ref type="bibr" target="#b9">Dingwell ( 1990)</ref>, that the coincidence of activation energies for diffusion of a wide variety of cations with that for viscous flow indicates that diffusion of network modifying cations in low viscosity melts is controlled largely by the extrinsic influence of the melt network structural reorganization. When the rate of structural reorganization of the melt network is comparable to or greater than the intrinsic mobilities of the individual network modifying cations, network reorganization dominates the mobility of all species, resulting in a clustering of diffusion coefficients near a single characteristic value for a given composition <ref type="bibr" target="#b19">(LaTourrette et al., 1996)</ref>.</p><p>In terms of the proposed model, the variation of diffusion coefficients among the different network modifying cations represents an ionic radius and charge dependence that is superimposed upon the dominant extrinsic (network) control. The good trends for Mg, Ca, Ba, Nd, Eu3+, Eu*.~+, Yb, Ti, and Zr in Fig. <ref type="figure" target="#fig_5">6</ref> demonstrate that the systematic differences between different elements reflect the intrinsic influences of ionic radius and charge. Diffusion coefficients for Zr, Th, U'+, and U5.5+, on the other hand, show no dependence upon ionic radius or charge and have a common value that is the lowest of all the elements studied (Fig. <ref type="figure" target="#fig_5">6</ref>). We infer that this value is the approximate extrinsic network diffusivity due to melt structural reorganization and that this diffusivity completely overwhelms the contributions of the intrinsic mobilities of these high ionic radius and charge elements. In contrast, the diffusion coefficients of Mg, Ca, Ba, Nd, Eu3+, Eu~.~+, Yb, Ti, and Zr show a regular trend suggesting that the intrinsic diffusivities are roughly comparable to the relaxation time for the network and that both mechanisms contribute significantly to diffusive transport in these cases.</p><p>A testable prediction of this interpretation is that diffusion coefficients for network forming elements should be very similar to those for the network modifying cations in this composition. Recent measurements of 0 and Si self diffusion in basaltic melt <ref type="bibr" target="#b22">(Lesher et al., 1996)</ref> provide a good confirmation of this prediction. Although the two compositions differ, the silica contents, degrees of polymerization, and calculated viscosities are very similar. At 1 GPa and 1320-1600°C these authors found Do = Dsiy with interpolated values at 1400 and 1500°C intermediate between those for the REE and actinides measured in our work. In addition, they found an activation energy of 170 kJ/mole for 0 and Si, consistent with both the values for network modifying cations measured in our work and the calculated activation energies for viscous flow in both compositions ( 170-180 Id/mole; <ref type="bibr" target="#b35">Shaw, 1972)</ref>. The consistency of the results of <ref type="bibr" target="#b22">Lesher et al. ( 1996)</ref> with this prediction thus provides strong support for the model described above.</p><p>This relationship between diffusion and viscosity for network modifiers and network formers is shown in Fig. <ref type="figure" target="#fig_6">7</ref>. This  <ref type="table" target="#tab_2">3</ref>). b Mean coordin$on number <ref type="bibr" target="#b4">(Brown et al., 1995)</ref>.</p><p>' Ionic radius (A; <ref type="bibr" target="#b34">Shannon, 1976)</ref>.</p><p>d Interpolated estimates. e Cation-oxygen separation; (A; <ref type="bibr" target="#b4">Brown et al., 1995)</ref>.</p><p>f Estimated from r + ro.  <ref type="bibr" target="#b22">Lesher et al., 1996)</ref>, and the Eyring equation (using X = 2.8 A) in low viscosity melts at 1400-1500°C. Viscosities were calculated with the method of <ref type="bibr" target="#b35">Shaw (1972)</ref>.</p><p>figure shows that the diffusion coefficients measured in this work bracket the value for 0 and Si, demonstrating the convergence of network former and modifier diffusivities in low viscosity melts. Also shown in Fig. <ref type="figure" target="#fig_6">7</ref> is the inverse correlation between diffusion and viscosity defined by the Eyring equation (D = kTI+, where k is the Boltzmann constant, n is viscosity, and X is the diffusional jump distance; <ref type="bibr" target="#b14">Glasstone et al., 1941)</ref>. YBecause diffusion coefficients for 0 and Si in polymerized silicate melts often match the value calculated with the Eyring equation <ref type="bibr" target="#b27">(Oishi et al., 1975;</ref><ref type="bibr" target="#b40">Yinnon and Cooper, 1980;</ref><ref type="bibr">Sihimizu and Kushiro, 1984;</ref><ref type="bibr" target="#b0">Baker, 1992</ref><ref type="bibr" target="#b1">Baker, , 1995))</ref>, the Eyring diffusivity has been called upon to represent the characteristic network diffusivity for silicate melts. However, the general success of the Eyring equation has been limited, especially for low viscosity melts <ref type="bibr" target="#b27">(Oishi et al., 1975;</ref><ref type="bibr" target="#b10">Dunn, 1982;</ref><ref type="bibr" target="#b37">Shimizu and Kushiro, 1984)</ref>, and there is no a priori reason to believe that it exactly describes the characteristic network diffusivity for all silicate melts. Thus, the -0.7 log unit spread between the Eyring equation, the 0 and Si values of <ref type="bibr" target="#b22">Lesher et al. ( 1996)</ref>) and the inferred network diffusivity for the composition used in this study (represented by Th in Fig. <ref type="figure" target="#fig_6">7</ref>) is not surprising and reflects the approximate nature of the Eyring equation. Given that the range of diffusion coefficients in geologic systems spans several orders of magnitude, we consider the agreement among the different curves in Fig. <ref type="figure" target="#fig_6">7</ref> to be excellent and that the minor discrepancies do not constitute a serious flaw in the model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">SUMMARY AND CONCLUSIONS</head><p>Over a range in oxygen fugacities from air to the Fe-Fe0 buffer, the self diffusion coefficient of Eu increases by 40% while that for U shows a much smaller increase of -2O%, which is within the uncertainty of the measurements. The self diffusion coefficients of Mg, Nd, and Th are independent of oxygen fugacity. Absorption spectroscopy and model calculations indicate that U shifts from a mixture of Us+ and U6+ in air to U4+ at Fe-FeO, and that Eu varies from Eu3+ in air to Eu~.~' at Fe-FeO. Thus, the change in Eu and U diffusion coefficients with oxygen fugacity is clearly a result of the decrease in net charge with decreasing oxygen fugacity.</p><p>The dependence of DEu on ionic radius and charge at different oxygen fugacities is consistent with the empirical dependence defined by Mg, Ca, Ba, Nd, Yb, Ti, and Zr. This observation indicates that oxygen fugacity affects the diffusion of multivalent elements through ionic radius and charge variations analogous to those for fixed valence elements. Thus, the range of diffusivities for other multivalent elements in this melt are expected to follow the correlations in Fig. <ref type="figure" target="#fig_5">6</ref> and hence show comparably small variations. While these experiments are for an Fe-free composition, modifications to the valence state distribution of multivalent elements in Fe-bearing melts will not change the conclusion that the effect of oxygen fugacity on the diffusion of multivalent elements, which is accomplished through changes in ionic radius and charge, is small for low viscosity melts.</p><p>Activation energies for diffusion appear to be independent of oxygen fugacity, and values for the different elements are similar and approximately equal to the activation energy for viscous flow. In addition, 0 and Si self diffusion coefficients and activation energies in basalt melt <ref type="bibr" target="#b22">(Lesher et al., 1996)</ref> are very similar to those for network modifier cations measured here, confirming the prediction that network modifier and network former diffusivities should converge at low melt viscosities <ref type="bibr" target="#b9">(Dingwell, 1990;</ref><ref type="bibr" target="#b19">LaTourrette et al., 1996)</ref>.</p><p>The constant diffusion coefficient defined by Zr, Th, U4+, and U5.'+ is the lowest value obtained and is interpreted to represent the characteristic diffusivity of the melt network for this composition. The intrinsic diffusivities for these high ionic radius and charge cations are thus completely overwhelmed by the structural reorganization of the melt network. This is in contrast to Mg, Ca, Ba, Nd, Eu3+, Eu'.~+, Yb, Ti, and Zr, which display a small intrinsic ionic radius and charge dependence beyond the extrinsic (network) control. The dominance of melt structure and the small influence of ionic radius and charge on cation diffusion in low viscosity (basaltic) melts is very different from the case for crystalmelt partitioning, where ionic radius and charge play the dominant role (e.g., <ref type="bibr" target="#b3">Blundy and Wood, 1994;</ref><ref type="bibr" target="#b20">LaTourrette et al., 1995)</ref>. In highly viscous melts, on the other hand, where the network structural reorganization is drastically slower, diffusion of network modifiers is expected to be dominated by intrinsic effects, resulting in a much stronger dependence on ionic radius and charge and distinctive activation energies.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .Fig. 2 .</head><label>12</label><figDesc>Fig. 1. Typical isotopic concentration profiles for Mg, Nd, Eu, U, and Th from a single diffusion mn (TL58). Profiles were measured along a linear traverse parallel to the axis of the couple using an ion microprobe. Error bars are 1~ uncertainties from counting statistics. An error function fit (Eqn. 1 in text) for each profile is shown by the curve through the data points.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>, + iR,) + CR, -iR) erf 2 2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .Fig. 4 .</head><label>34</label><figDesc>Fig. 3. Absorption spectra of U and Eu doped starting glasses equilibrated at 1400°C in air and at the Fe-Fe0 buffer. (a) Optical-IR spectra of glasses with 1 wt% U. Sample thicknesses = 1 mm. All peaks are attributable to particular valence states of U as labeled.Relative proportions of U4+, Us', and U6+ were calculated with Beer's law and are listed in Table3. Gap in spectra results from incomplete overlap between spectrometer ranges. (b) UV spectra of glasses with 1 wt% Eu. Sample thicknesses = 75 pm. Air spectrum shows no features, while Fe-Fe0 spectrum shows broad peaks near 255 and 320 nm attributed to Eu*+.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>shown as a function of temperature in Fig. 4. Several previous studies have shown that the temperature dependence of diffusion in silicate melts follows the Arrhenius relationship, D = Do exp( -E/RT),</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Variation of diffusion coefficients with oxygen fugacity from air to the Fe-Fe0 buffer at 1400°C (a) and 1500°C (b). Note that there are two points for each element at both oxygen fugacities at 1400°C. DE, increases by 42% from air to Fe-FeO, while the smaller increase in Du is within the measurement uncertainty. D,,, DNd, and Dr. are independent of oxygen fugacity.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Negative correlation of diffusion coefficients from this work and LaTourrette et al. (1996) at 1400°C with (a) 2 *r, where Z = cation charge and r = ionic radius<ref type="bibr" target="#b16">(Hofmann, 1980)</ref>, and (b) r(2Z/di_o) where d,-o is the cation-oxygen separation. Beyond Zr, diffusion coefficients appear to be independent of ionic radius and charge. Parameters are listed in Table5.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Correlation between self diffusion coefficients and viscosity for network modifiers (Mg and Th; this work), network formers (0 and0Si;<ref type="bibr" target="#b22">Lesher et al., 1996)</ref>, and the Eyring equation (using X = 2.8 A) in low viscosity melts at 1400-1500°C. Viscosities were calculated with the method of<ref type="bibr" target="#b35">Shaw (1972)</ref>.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Starting composition."    </figDesc><table><row><cell>SiO* (wt%)</cell><cell>41.6</cell></row><row><cell>Al&amp;&amp;</cell><cell>16.4</cell></row><row><cell>MgO</cell><cell>16.9</cell></row><row><cell>CaO</cell><cell>19.4</cell></row><row><cell>Nd (ppm)</cell><cell>1500</cell></row><row><cell>Eu</cell><cell>1500</cell></row><row><cell>Th</cell><cell>500-1500</cell></row></table><note><p>U 1500 a Major elements from microprobe, are nominal values.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Experimental results.</figDesc><table><row><cell>Run</cell><cell>t (min)</cell><cell cols="2">T ("C) log/OZ</cell><cell></cell><cell>MR</cell><cell>Nd</cell><cell>Eu</cell><cell>Th</cell><cell>U</cell></row><row><cell>TL55</cell><cell>60</cell><cell>1400</cell><cell>-0.7</cell><cell>traverse 1:</cell><cell>7.98 2 .07"</cell><cell>2.36 t .03</cell><cell>2.32 + .Ol</cell><cell>1.25 i-.02</cell><cell>1.22 ? .06</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>traverse 2:</cell><cell>7.55 ? .06</cell><cell>2.20 t .02</cell><cell>2.04 + .02</cell><cell>1.13 ? .02</cell><cell>1.04 t .03</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>mean:</cell><cell>7.8 5 .2"</cell><cell>2.28 t .08</cell><cell>2.2 ? .I</cell><cell>1.19 ? .06</cell><cell>1.13 t .09</cell></row><row><cell>TL56</cell><cell>60</cell><cell>1400</cell><cell>-0.7</cell><cell>traverse 1:</cell><cell>7.7 -t .l</cell><cell>2.36 &amp; .02</cell><cell>2.34 &amp; .02</cell><cell>1.41 t .04</cell><cell>1.43 C .05</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>traverse 2:</cell><cell></cell><cell>2.38 + .02</cell><cell>2.32 + .Ol</cell><cell>1.17 t .03</cell><cell>1.11 + .03</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>mean :</cell><cell>7.7 lr .l</cell><cell>2.37 t .02</cell><cell>2.33 + .02</cell><cell>1.3 i-.l</cell><cell>1.3 2 .2</cell></row><row><cell>TLhO</cell><cell>40</cell><cell>1500</cell><cell>-0.7</cell><cell>traverse 1:</cell><cell>15.27 2 .07</cell><cell>5.01 t .04</cell><cell>4.77 2 .03</cell><cell>2.88 ? .04</cell><cell>2.58 5 .08</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>traverse 2:</cell><cell>16.28 + .09</cell><cell>5.27 2 .04</cell><cell>5.19 ? .02</cell><cell>2.97 i .04</cell><cell>3.13 2 .07</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>mean:</cell><cell>15.8 + .5</cell><cell>5.1 2 .l</cell><cell>5.0 i .2</cell><cell>2.93 t .05</cell><cell>2.9 2 .3</cell></row><row><cell>TL57</cell><cell>60</cell><cell>1400</cell><cell>-9.7</cell><cell>traverse 1:</cell><cell>7.94 * .07</cell><cell>2.33 2 .03</cell><cell>3.33 ? .Ol</cell><cell>1.13 i .02</cell><cell>1.37 + .06</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>traverse 2:</cell><cell>7.46 2 .06</cell><cell>2.16 t .02</cell><cell>3.14 ? .02</cell><cell>1.11 i .03</cell><cell>1.33 2 .05</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>mean:</cell><cell>7.7 2 .2</cell><cell>2.25 ? .09</cell><cell>3.2 2 .l</cell><cell>1.12 2 .03</cell><cell>1.35 + .06</cell></row><row><cell>TL58</cell><cell>60</cell><cell>1400</cell><cell>-9.7</cell><cell>traverse 1:</cell><cell>7.38 2 .07</cell><cell>2.25 i .02</cell><cell>3.21 2 .02</cell><cell>1.30 t .02</cell><cell>1.41 + .03</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>traverse 2:</cell><cell>7.67 t .04</cell><cell>2.25 + .02</cell><cell>3.24 + .02</cell><cell>1.15 2 .02</cell><cell>1.22 + .04</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>mean:</cell><cell>7.5 ? .2</cell><cell>2.25 t .02</cell><cell>3.23 ? .02</cell><cell>1.23 2 .08</cell><cell>1.3 ? .l</cell></row><row><cell>TL62</cell><cell>40</cell><cell>1500</cell><cell>-8.8</cell><cell>traverse 1:</cell><cell>15.86 + .06</cell><cell>5.42 2 .05</cell><cell>7.32 -c .03</cell><cell>2.90 5 .03</cell><cell>3.27 t .04</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>traverse 2:</cell><cell>15.4 t .l</cell><cell>5.07 ? .03</cell><cell>6.81 2 .03</cell><cell>2.67 + .03</cell><cell>3.9 ? .l</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>15.7 + .3</cell><cell>5.3 f .2</cell><cell>7.1 t .3</cell><cell>2.8 2 .l</cell><cell>3.6 -c .3</cell></row></table><note><p>Diffusion coefficients (X 10" m'ls) a la formal uncertainty from linear fit to inverse error function. 'Uncertainty on the mean value is the greater of either '/z the total range of individual values or the formal uncertainty.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Uranium and europium valence state distributions (mole o/o)."</figDesc><table><row><cell></cell><cell></cell><cell>Air</cell><cell></cell><cell cols="4">Fe-Fe0 Buffer</cell></row><row><cell></cell><cell>tJ4+</cell><cell>Us+</cell><cell>U6+</cell><cell>LJ4+</cell><cell cols="2">IJ5+</cell><cell>U6+</cell></row><row><cell>Schreibe?</cell><cell>0</cell><cell>65</cell><cell>35</cell><cell>93</cell><cell>7</cell><cell></cell><cell>0</cell></row><row><cell>CalaQ</cell><cell>0</cell><cell>35</cell><cell>65</cell><cell>97</cell><cell>3</cell><cell></cell><cell>0</cell></row><row><cell>average</cell><cell>0</cell><cell>50</cell><cell>50</cell><cell>95</cell><cell>5</cell><cell></cell><cell>0</cell></row><row><cell></cell><cell cols="3">EL?+ Eu3+</cell><cell cols="2">Eu'+</cell><cell cols="2">Et++</cell></row><row><cell>Lauer &amp; Morris'</cell><cell>0</cell><cell>100</cell><cell></cell><cell>53</cell><cell></cell><cell>47</cell></row><row><cell>D intemolationd</cell><cell>0</cell><cell>100</cell><cell></cell><cell>50</cell><cell></cell><cell>50</cell></row></table><note><p>a Determined on glasses containing l%U or Eu only.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Arrhenius uarameters.</figDesc><table><row><cell></cell><cell cols="2">D, (~10~ m'/s)</cell><cell>E &amp;J/m)</cell><cell></cell></row><row><cell></cell><cell>Air</cell><cell>Fe-Fe0</cell><cell>Air</cell><cell>Fe-Fe0</cell></row><row><cell>Mg</cell><cell>0.25 2 .02"</cell><cell>0.27 -+ .02</cell><cell>177 2 4eb</cell><cell>178</cell></row><row><cell>Nd</cell><cell>0.30 i-.02</cell><cell>0.75 2 0.2</cell><cell>196</cell><cell>209</cell></row><row><cell>Eu</cell><cell>0.29 2 .02</cell><cell>0.34 ? .03</cell><cell>196</cell><cell>193</cell></row><row><cell>Th</cell><cell>0.51 ? .07</cell><cell>0.55 ? .08</cell><cell>212</cell><cell>214</cell></row><row><cell>U</cell><cell>0.58 ? .09</cell><cell>5.6 2 0.3</cell><cell>214</cell><cell>244</cell></row></table><note><p>a Formal uncertainties from weighted linear regression. ' Uncertainty on E is ?46 kl/m for all values listed.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5 .</head><label>5</label><figDesc>Cation coordination data.</figDesc><table><row><cell></cell><cell>Z</cell><cell>CN"</cell><cell>r'</cell><cell>di-o'</cell></row><row><cell>Mg</cell><cell>2</cell><cell>5</cell><cell>0.66</cell><cell>2.08</cell></row><row><cell>Ca</cell><cell>2</cell><cell>7</cell><cell>1.06</cell><cell>2.5</cell></row><row><cell>Ba</cell><cell>2</cell><cell>8</cell><cell>1.42</cell><cell>2.77'</cell></row><row><cell>Eu</cell><cell>2.5</cell><cell>7</cell><cell>l.lld</cell><cell>2.46'</cell></row><row><cell>Yb</cell><cell>3</cell><cell>6</cell><cell>0.87</cell><cell>2.2</cell></row><row><cell>Eu</cell><cell>3</cell><cell>7</cell><cell>1.01</cell><cell>2.36'</cell></row><row><cell>Nd</cell><cell>3</cell><cell>7</cell><cell>1.05</cell><cell>2.4</cell></row><row><cell>Ti</cell><cell>4</cell><cell>5.5</cell><cell>.56</cell><cell>1.85</cell></row><row><cell>Zr</cell><cell>4</cell><cell>6</cell><cell>.I2</cell><cell>2.08</cell></row><row><cell>Th</cell><cell>4</cell><cell>I</cell><cell>1.00</cell><cell>2.37</cell></row><row><cell>U</cell><cell>4</cell><cell>6</cell><cell>0.89</cell><cell>2.2</cell></row><row><cell>U</cell><cell>5.5</cell><cell>6</cell><cell>0.75d</cell><cell>2.2</cell></row></table><note><p>a Net charge (Eu and U from Table</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgmenis-We gratefully acknowledge <rs type="person">G. Rossman</rs> for his kindness in making his spectroscopic laboratories available to us and in assisting with the measurements. We also benefited from helpful discussions with <rs type="person">G. Huss</rs>, expert technical assistance from <rs type="person">M. Heinrich</rs> and <rs type="person">P. Carpenter</rs>, and thorough reviews by <rs type="person">D. Baker</rs> and <rs type="person">T. Dunn. D. Burnett</rs> kindly allowed us to use his sample preparation facilities, hopefully preventing the discovery of any spectacular isotopic anomalies by our co-workers. This work was supported by <rs type="funder">DOE</rs> grant <rs type="grantNumber">DE-FG-03-88ER-13851</rs>. Caltech contribution 5680(935). Edirorial handling: <rs type="person">D. B. Dingwell</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_HkfExxX">
+					<idno type="grant-number">DE-FG-03-88ER-13851</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Estimation of diffusion coefficients during interdiffusion of geologic melts: Application of transition state theory</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="11" to="21" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Diffusion of silicon and gallium (as an analogue for Al) network-forming cations and their relationship to viscosity in albite melt</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="3561" to="3571" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Colour Generation and Control in Glass</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Bamford</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Prediction of crystal-melt partition-coefficients from elastic moduli</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Blundy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Wood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">372</biblScope>
+			<biblScope unit="page" from="452" to="454" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">X-ray scattering and X-ray spectroscopy studies of silicate melts</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Farges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Calas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Structure, Dynamics, and Properties of Silicate Melts</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="317" to="410" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Etude experimentale du comportement de l&apos;uranium dans les magmas: Etats d&apos;oxydation et coordinance</title>
+		<author>
+			<persName><surname>Msa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Calas</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1979">1979</date>
+			<publisher>Geochim</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1521" to="1531" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<title level="m">The Mathematics of DifSusion, 2nd ed</title>
+		<imprint>
+			<publisher>Oxford Univ. Press</publisher>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Effects of structural relaxation on cationic tracer diffusion in silicate melts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="209" to="216" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Oxygen diffusion in three silicate melts along the join diopside-anorthite</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dunn</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="2293" to="2299" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Stmctural environments of incompatible elements in silicate glass/melt systems: II. U&apos;&quot;, U</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Farges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Ponader</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Calas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="4205" to="4220" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The nature of the glass transition in a silica-rich oxide melt</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Faman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="page" from="1206" to="1209" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Glasstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Laidler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eyring</surname></persName>
+		</author>
+		<title level="m">The Theory of Rate Processes</title>
+		<imprint>
+			<publisher>McGraw-Hill</publisher>
+			<date type="published" when="1941">1941</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Structural controls and mechanisms of diffusion in natural silicate melts</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Lowry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="263" to="272" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Diffusion in natural silicate melts: A critical review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of Magmatic Processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="385" to="417" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Use of gas mixtures at low pressure to specify oxygen and other fugacities of furnace atmospheres</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Huebner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hydrothermal Experimental Techniques</title>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Ulmer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Barnes</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="1987">1987</date>
+			<biblScope unit="page" from="20" to="60" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Tracer diffusion in granitic melts: Experimental results for</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jambon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Cs</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ca</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ce</forename><surname>Ba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="10797" to="10810" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note>Eu to 1300°C and a model of calculation</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Self diffusion of Mg</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Latourrette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Fahey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wasserburg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Zr, and U in haplobasaltic melt</title>
+		<meeting><address><addrLine>Ca, Ba, Nd, Yb, Ti</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="1329" to="1340" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Trace element partitioning between amphibole, phlogopite, and basanite melt</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Latourrette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hervig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Holloway</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page" from="13" to="30" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Redox equilibria of multivalent ions in silicate glasses</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">V</forename><surname>Lauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Morris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J; Amer. Ceram. Sk</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="443" to="451" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Self diffusion of network formers (silicon and oxygen) in naturally occurring basaltic liquid</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hervig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tinker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="405" to="413" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Diffusion in silicate melts: I. Self diffusion in CaO-A1203-Si02 at 1500°C and 1 GPa</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="4353" to="4367" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The effect of fOz on the solubility, diffusion, and speciation of tin in haplogranitic melt at 850°C and 2 kbar</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Linnen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pichavant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Holtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Burgess</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="1579" to="1588" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Measurements of the effects of temperature and partial pressure of oxygen on the oxidation states of-europium in silicate-glasses</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Haskin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Biggar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Hara</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="1447" to="1459" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Thermodynamic data from redox reactions at high temperatures: I. An experimental and theoretical assessment of the electrochemical method using stabilized zirconia electrolytes, with revised values for the Fe-&quot;FeO</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S C</forename><surname>O'neill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Pownceby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="296" to="314" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+	<note>CO-COO, Ni-NiO and Cu-CuZO oxygen buffers, and new data for the W-W02 buffer</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Oxygen diffusion in liquid silicates and relation to their viscosity</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Oishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Terai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ueda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mass Transport Phenomena in Ceramics</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Heuer</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+			<biblScope unit="page" from="297" to="310" />
+		</imprint>
+	</monogr>
+	<note>Plenum</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Uranium in granitic magmas: Part 1. Experimental determination of uranium solubility and fluid-melt partition coefficients in the uranium oxide-haplogranite-H,O-Na,C03 system at 720-770°C 2 kbar. Geochim</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Peiffert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cuney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nguyen-Trung</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="2495" to="2508" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Doubly-valent rare-earth ions in halide crystals</title>
+		<editor>Rubio 0. J.</editor>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem. Solids</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="101" to="174" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">The chemistry of uranium in glass-forming aluminosilicate melts</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Schreiber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Less Common Metals</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="129" to="147" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Iron metal production in silicate melts through the direct reduction of Fe(I1) by Ti(III), Cr(II)</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Schreiber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Balazs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Shaffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jamison</forename><forename type="middle">P L</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982">1982</date>
+			<publisher>Geochim</publisher>
+		</imprint>
+	</monogr>
+	<note>and Eu(I1</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1891" to="1901" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Revised effective ionic radii and systematic studies of interatomic distances in halides and chalcogenides</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Shannon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Cryst. A</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="751" to="767" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Viscosities of magmatic silicate liquids: An empirical method of prediction</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. J. Sci</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="870" to="893" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Selfdiffusion of magnesium in spine1 and in equilibrium melts: Constraints on flash heating of silicates</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Sheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wasserburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Hutcheon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="2535" to="2546" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Diffusivity if oxygen in jadeite and diopside melts at high pressures</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1295" to="1303" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Structure and spectroscopy of diqua(p,-acetato) ( acetate-0) ( acetic acid-O) europium( II)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Starynowicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Polyhedron</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="3573" to="3577" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+	<note>Eu (OAc),( A-cOH</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Silicate species exchange, viscosity, and crystallization in a low-silica melt</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Faman</forename><forename type="middle">I</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">situ high-temperature MAS NMR spectroscopy</title>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="861" to="864" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Oxygen diffusion in multicomponent glass forming silicates</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yinnon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Glasses</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="204" to="211" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Uranium valency state in granitic melts</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Yudintsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">I</forename><surname>Omel'yanenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Lyubomilova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochem. Intl</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="65" to="71" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

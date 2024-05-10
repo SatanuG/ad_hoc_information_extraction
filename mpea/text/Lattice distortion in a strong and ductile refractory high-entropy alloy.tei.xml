@@ -1,0 +1,2626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Lattice Distortion in a Strong and Ductile Refractory High-entropy Alloy</title>
+				<funder>
+					<orgName type="full">Scientific User Facilities Division, Office of Basic Energy Sciences, U.S. Department of Energy</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">AECOM. Neither the United States Government</orgName>
+				</funder>
+				<funder ref="#_AMMEnQF">
+					<orgName type="full">Center of Materials Processing</orgName>
+				</funder>
+				<funder ref="#_UdbRUZK">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+					<orgName type="abbreviated">NSFC</orgName>
+				</funder>
+				<funder ref="#_uzFy5vE">
+					<orgName type="full">U.S. Army Office Project</orgName>
+				</funder>
+				<funder ref="#_mUcKzPw">
+					<orgName type="full">Research Grants Council of the Hong Kong Special Administrative Region, China</orgName>
+				</funder>
+				<funder ref="#_cze6kaB">
+					<orgName type="full">Tennessee Higher Education Commission</orgName>
+					<orgName type="abbreviated">THEC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">DOE Office of Science User Facility (JDP and WG)</orgName>
+				</funder>
+				<funder ref="#_EEj8Exq">
+					<orgName type="full">City University of Hong Kong</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Department of Energy</orgName>
+				</funder>
+				<funder ref="#_99ANAHr">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+				<funder ref="#_5qukTAv">
+					<orgName type="full">NETL&apos;s Office of Research and Development&apos;s Innovative Process Technologies</orgName>
+					<orgName type="abbreviated">IPT</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Chanho</forename><surname>Lee</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">The University of Tennessee</orgName>
+								<address>
+									<postCode>37996-2100</postCode>
+									<settlement>Knoxville</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Gian</forename><surname>Song</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Division of Advanced Materials Engineering</orgName>
+								<orgName type="institution">Kongju National University</orgName>
+								<address>
+									<postCode>330-717</postCode>
+									<settlement>Cheonan, Chungnam</settlement>
+									<country key="KR">Republic of Korea</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">National Energy Technology Laboratory/AECOM</orgName>
+								<address>
+									<postCode>97321</postCode>
+									<settlement>Albany</settlement>
+									<region>OR</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rui</forename><surname>Feng</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">The University of Tennessee</orgName>
+								<address>
+									<postCode>37996-2100</postCode>
+									<settlement>Knoxville</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Peiyong</forename><surname>Chen</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">The University of Tennessee</orgName>
+								<address>
+									<postCode>37996-2100</postCode>
+									<settlement>Knoxville</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jamieson</forename><surname>Brechtl</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Bredesen Center for Interdisciplinary Research and Education</orgName>
+								<orgName type="institution">The University of Tennessee</orgName>
+								<address>
+									<postCode>37996</postCode>
+									<settlement>Knoxville</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yan</forename><surname>Chen</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Chemical and Engineering Materials Division</orgName>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<postCode>37831</postCode>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ke</forename><surname>An</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wei</forename><surname>Guo</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Chemical and Engineering Materials Division</orgName>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<postCode>37831</postCode>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="department">Center for Nano-phase Materials Sciences</orgName>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<postCode>37831</postCode>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jonathan</forename><forename type="middle">D</forename><surname>Poplawsky</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Center for Nano-phase Materials Sciences</orgName>
+								<orgName type="institution">Oak Ridge National Laboratory</orgName>
+								<address>
+									<postCode>37831</postCode>
+									<settlement>Oak Ridge</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Song</forename><surname>Li</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Mechanical and Biomedical Engineering</orgName>
+								<orgName type="institution">The City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon, Hong Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">T</forename><surname>Samaei</surname></persName>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Mechanical, Materials, and Aerospace Engineering</orgName>
+								<orgName type="institution">Illinois Institute of Technology</orgName>
+								<address>
+									<postCode>60616</postCode>
+									<settlement>Chicago</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Wei</forename><surname>Chen</surname></persName>
+							<affiliation key="aff9">
+								<orgName type="department">Department of Mechanical, Materials, and Aerospace Engineering</orgName>
+								<orgName type="institution">Illinois Institute of Technology</orgName>
+								<address>
+									<postCode>60616</postCode>
+									<settlement>Chicago</settlement>
+									<region>IL</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Alice</forename><surname>Hu</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Mechanical and Biomedical Engineering</orgName>
+								<orgName type="institution">The City University of Hong Kong</orgName>
+								<address>
+									<settlement>Kowloon, Hong Kong</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff8">
+								<orgName type="institution" key="instit1">Shenzhen Research Institute</orgName>
+								<orgName type="institution" key="instit2">The City University of Hong Kong</orgName>
+								<address>
+									<settlement>Shenzhen</settlement>
+									<country key="CN">P. R. China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hahn</forename><surname>Choo</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">The University of Tennessee</orgName>
+								<address>
+									<postCode>37996-2100</postCode>
+									<settlement>Knoxville</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Peter</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+							<email>pliaw@utk.edu</email>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">The University of Tennessee</orgName>
+								<address>
+									<postCode>37996-2100</postCode>
+									<settlement>Knoxville</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff10">
+								<orgName type="department">Corresponding author</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Acta</forename><surname>Materialia</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="institution">U.S. Department of Energy</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Lattice Distortion in a Strong and Ductile Refractory High-entropy Alloy</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">CCE88C3955FB6347ED2C47AA97369738</idno>
+					<idno type="DOI">10.1016/j.actamat.2018.08.053</idno>
+					<note type="submission">Received Date: 25 June 2018 Revised Date: 24 August 2018 Accepted Date: 28 August 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Lattice distortion</term>
+					<term>High-entropy alloy</term>
+					<term>First-principles calculation</term>
+					<term>In-situ neutron diffraction</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The maximization of the mixing entropy with the optimal range of enthalpy in highentropy alloys (HEAs) can promote the formation of a stable single solid-solution phase with the absence of competing intermetallic compounds. The resultant effects, such as lattice distortion, can contribute to excellent mechanical properties, which has motivated numerous efforts to develop and design single-phase HEAs. However, challenges still remain, particularly on quantifying the lattice distortion and relating it to materials properties. In this study, we have developed a NbTaTiV refractory HEA with a single body-centered-cubic (BCC) structure using an integrated experimental and theoretical approach. The theoretical efforts include thermodynamic modeling, i.e., CALculation of PHAse Diagram (CALPHAD). The microstructural evolutions have been investigated by systematic heat-treatment processes. The typical dendrite microstructure was observed, which is caused by the elemental segregation during the solidification in the as-cast condition. The structural inhomogeneity and chemical segregation were completely eliminated by the proper homogenization treatment at 1,200 ºC for 3 days. The homogeneous elemental distribution was quantitatively verified by the Atom Probe Tomography (APT) technique. Importantly, results indicate that this HEA exhibits the high yield strength and ductility at both room and high temperatures (up to 900 °C). Furthermore, the effects of the high mixing entropy on the mechanical properties are discussed and quantified in terms of lattice distortions and interatomic interactions of the NbTaTiV HEA via first-principles calculations. It is found that the local severe lattice distortions are induced, due to the atomic interactions and atomic-size mismatch in the homogenization-treated NbTaTiV refractory HEA.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Novel metallic alloys beyond Ni-based superalloys with high strengths, thermal stabilities, and desirable ductility at high temperatures are highly desirable in the aviation and aerospace industries. To meet the increasing demand of elevated-temperature alloys, exotic multi-principal-element metallic alloy systems, also referred to as high-entropy alloys (HEAs), have been proposed and studied due to their simple microstructures and promising properties.</p><p>The ideal HEA-design strategy is to form a single solid-solution phase, considering the configurational entropy (&gt; 1.5R, where R is the ideal gas constant), and the enthalpy of formation with the combinations of alloy components <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref>. The reduction of the Gibbs free energy by the high configurational entropy leads to the formation of the simple solid-solution phase, such as face-centered-cubic (FCC) <ref type="bibr" target="#b8">[9]</ref>, body-centered-cubic (BCC) <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>, and hexagonalclose-packed (HCP) <ref type="bibr" target="#b13">[14,</ref><ref type="bibr">15]</ref> structures. These features, in turn, contribute to attractive materials properties, especially, high hardness/strengths, and excellent softening resistance at elevated and cryogenic temperatures <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref>. These properties of the near-equimolar HEAs are known to be associated with the locally-strained atomic structures (lattice distortion) in the simple-single solid-solution phase. Moreover, the recently-developed twinning or transformation-induced plasticity (TWIP or TRIP) HEAs, whose compositions are greatly deviated from the nearequimolar ratios, have also attracted the increasing attention due to their excellent mechanical properties <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr">[16]</ref><ref type="bibr" target="#b15">[17]</ref><ref type="bibr" target="#b16">[18]</ref><ref type="bibr" target="#b17">[19]</ref><ref type="bibr" target="#b18">[20]</ref><ref type="bibr" target="#b19">[21]</ref><ref type="bibr" target="#b20">[22]</ref><ref type="bibr" target="#b21">[23]</ref><ref type="bibr" target="#b22">[24]</ref><ref type="bibr" target="#b23">[25]</ref>.</p><p>There have been extensive efforts to develop single-phase refractory HEAs for hightemperature applications above 1,100 °C <ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b24">[26]</ref><ref type="bibr" target="#b25">[27]</ref><ref type="bibr" target="#b26">[28]</ref> and to comprehend the underlying relationship between their unique microstructure and mechanical performance. However, limited studies have investigated the lattice distortions in HEAs, using x-ray or neutron diffraction <ref type="bibr">[</ref> . Furthermore, the quantitative evaluation of the lattice distortion, through statistical calculations with experimental observations, is still not fully developed. Moreover, only a small number of alloy systems have been verified as single BCC solid-solution phases from experiments <ref type="bibr" target="#b29">[32,</ref><ref type="bibr" target="#b30">33]</ref>. For instance, many HEAs exhibit not only elemental segregations in the as-cast condition, but also the formation of small amounts of ordered phases after the heat treatment <ref type="bibr" target="#b25">[27,</ref><ref type="bibr" target="#b31">[34]</ref><ref type="bibr" target="#b32">[35]</ref><ref type="bibr" target="#b33">[36]</ref>. The chemical inhomogeneity and second-phase formation could hinder the fundamental and in-depth understanding of the main strengthening effect of HEAs. Therefore, the development of single solid-solution phase HEAs with homogeneous elemental distributions is vital to elucidate how lattice distortions affect mechanical properties. In the present study, we have designed a NbTaTiV refractory HEA, which contains a single BCC solid-solution phase, via the CALculation of PHAse Diagram (CALPHAD) approach <ref type="bibr" target="#b34">[37]</ref><ref type="bibr" target="#b35">[38]</ref><ref type="bibr" target="#b36">[39]</ref>. The structure of the NbTaTiV alloy was investigated, using the integrated experimental and theoretical approach.</p><p>The systematical heat treatments were conducted to develop the single-phase solid-solution microstructure with the fully-homogenous elemental distribution.</p><p>Furthermore, we investigated the lattice distortion and the local atomic environment of the BCC NbTaTiV alloy system through the ab initio method, based on Special Quasirandom Structures (SQS) <ref type="bibr" target="#b37">[40]</ref> that approximate random distributions of atomic species in a mediumsized supercell. The fully-homogeneous single-phase NbTaTiV refractory HEA shows excellent yield strengths at room and high temperatures (up to 900 °C), which are mostly induced by the lattice distortion. The in-depth understanding of the lattice-distortion effect on mechanical properties gained through this investigation is expected to provide the alloy-design strategy for a significant step forward in obtaining the in-depth understanding of the refractory HEAs' microstructures and properties for high-temperature applications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D</head><note type="other">ACCEPTED MANUSCRIPT 6</note></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1">Materials</head><p>The alloys were prepared from Nb, Ta, Ti, and V elements of 99.99 weight percent (wt.%) purity by vacuum arc-melting. Prior to each alloying, the chamber was evacuated to 10 -5 torr. After the chamber pressure reached the desired value, the ultra-high purity argon gas was supplied to produce an arc beam. A Ti getter was used to consume traces of oxygen and hydrogen for all melting steps. To achieve a fully-homogeneous distribution of elements, the ingot was melted more than 10 times, by flipping them over between each step. From the master alloys, rods with a 4-mm diameter and 50-mm length were solidified in a Cu mold under the Ar atmosphere, followed by direct casting into cylindrical rods, using a drop-casting technique.</p><p>These fabricated alloys were sealed in the vacuumed (10 -2 torr) quartz tube with the triplepumped argon and experienced the heat treatments at 1,000 °C for 1 day, 1,200 °C for 1 day, and 1,200 °C for 3 days. After that, the samples were water quenched.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2">Computational methodologies</head><p>The CALPHAD calculations were carried out, using the TCNI8 thermodynamic database supplied by ThermoCalc TM <ref type="bibr" target="#b38">[41]</ref>. This database covers the entire composition ranges of all six constituent binaries of the Nb-Ta-Ti-V system. However, it is anticipated that the inclusion of thermodynamic descriptions for all ternaries will enhance the reliability of the database especially in applications for HEAs. Recent publications <ref type="bibr" target="#b34">[37,</ref><ref type="bibr" target="#b35">38,</ref><ref type="bibr" target="#b39">42]</ref> detail the database developments and applications of the CALPHAD modeling for HEAs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Microstructural characterization</head><p>Scanning-electron microscopy (SEM) was conducted, using a Zeiss Auriga 40 equipped with back-scattered electrons (BSE), and energy-dispersive X-ray spectroscopy (EDS). The SEM</p><formula xml:id="formula_0">M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT 7</formula><p>images were analyzed, using the ImageJ software <ref type="bibr" target="#b40">[43]</ref> to obtain the volume fractions of dendrites and interdendrites, respectively. The surface morphology of the polished samples was studied by the electron-backscatter diffraction (EBSD) to indicate the presence of a single solid-solution phase and confirm the variation of the grain size and morphology after the heat treatment.</p><p>For the APT observation, needle-shaped specimens were made, using standard lift-out methods with an FEI Nova focused ion beam (FIB) <ref type="bibr" target="#b41">[44,</ref><ref type="bibr" target="#b42">45]</ref>. The data collection was conducted, using a local electrode atom probe (CAMECA LEAP 4000X HR) equipped with an energycompensating reflectron lens and a 10 pico-second 355 nm ultraviolet (UV)-pulsed laser. The specimen was cooled to 30 K, while a 50 pJ laser energy and a 200 kHz pulse repetition rate were used to evaporate ions with a detection rate of 0.005 ions per pulse. The data reconstruction and analysis were conducted, employing the IVAS 3.6.12 software (CAMECA instruments).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4">In-situ neutron-diffraction experiments</head><p>In-situ neutron-diffraction (ND) measurements of as-cast and heat-treated NbTaTiV alloys with a specimen diameter of 4 mm and length of 8 mm under compression were performed to investigate the deformation behavior at room temperature (RT), using an MTS load-frame on the VULCAN Engineering Diffractometer at the Spallation Neutron Source (SNS), Oak Ridge National Laboratory (ORNL) <ref type="bibr" target="#b43">[46,</ref><ref type="bibr" target="#b44">47]</ref>. The collected data were analyzed by single-peak fitting, using the VULCAN Data Reduction and Interactive Visualization software (VDRIVE) program <ref type="bibr" target="#b45">[48]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.5">Mechanical tests</head><p>The mechanical experiments were carried out under uniaxial compression for the as-cast alloy at RT, as well as the heat-treated alloy at RT, 300 °C, 500 °C, 700 °C, 800 °C, and 900 °C, using a computer-controlled Material Test System (MTS) servo-hydraulic-testing machine. It was very difficult to obtain high-quality specimens without the cast flaws, such as pores using copper-mold drop casting. Alternatively, further processes, such as rolling, are necessary to remove the flaws. Indeed, the secondary processing, i.e., rolling, seems to be quite effective to eliminate the micro-flaws formed during solidification. However, the microstructure, such as the grain size of samples after secondary processing, will be significantly changed or modified from that of the as-cast microstructure. It is believed that uniaxial compression is a possible method to obtain the intrinsic mechanical properties of as-cast and heat-treated NbTaTiV refractory HEAs.</p><p>The experiments were conducted at an initial strain rate of 10 -3 s -1 with a specimen diameter of 4 mm and length of 8 mm (aspect ratio of 2:1). During the experiments at high temperatures, the test specimens were heated to the desired temperature by a furnace. Note that the mechanical test result is obtained from three to five repeated trials. All values of yield strengths and stress-strain curves are chosen as the representative data, which indicates the mean values of yield strengths.</p><p>The repeated measurements of mechanical properties at elevated temperatures suggested that</p><formula xml:id="formula_1">M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT 9</formula><p>each set of tests show less than 8 % deviation. The surface of the heat-treated specimen was polished to observe the surface-deformation morphology after 15% deformation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.6">First-principles calculations</head><p>The total-energy calculations were performed, using the Vienna ab initio simulation package (VASP) <ref type="bibr" target="#b46">[49]</ref> based on the density functional theory (DFT) with the projector augmented wave (PAW) <ref type="bibr" target="#b47">[50,</ref><ref type="bibr" target="#b48">51]</ref> method. The Perdew-Burke Ernzerhof (PBE) <ref type="bibr" target="#b49">[52]</ref> function under the nonspin polarized generalized gradient approximation (GGA) interaction is used to describe the exchange and correlation interaction. The kinetic energy cutoff of 500 eV for the plane-wave basis is employed. Using the Monkhorst-Pack scheme, the Brillouin zone integration is carried out at 5 × 5 × 5 k-points <ref type="bibr" target="#b50">[53]</ref>. The convergence threshold for energy is 10 -4 eV, while the symmetry-unrestricted optimization for the geometry is performed, employing the conjugate gradient scheme until the residual force on each atom is less than 0.01 eV/Å.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Computational prediction of phase formation and evolution via the CALPHAD approach</head><p>The CALPHAD calculations were used to predict the microstructure of the NbTaTiV alloy. Figure <ref type="figure" target="#fig_5">1</ref> shows the predicted equilibrium and non-equilibrium phase mole fraction versus temperature plots in the alloy system. A single BCC solid solution is predicted to form with the bulk composition of Nb ] is determined to be 0.78. Gao et al. <ref type="bibr" target="#b51">[54]</ref> previously proposed that a ratio greater than 0.30 typically favors a single-phase solid solution in the as-cast state.</p><p>The non-equilibrium solidification was simulated, using the Scheil-Gulliver model <ref type="bibr" target="#b52">[55]</ref>,</p><p>which assumes equilibrium mixing in the liquid state and no diffusion in the solid state. The simulation predicts the formation of a single BCC solid solution during the entire nonequilibrium solidification. Based on the evidence, the real solidification path is thought to be somewhere between the equilibrium and Scheil-Gulliver model. The simulation also predicts the chemical segregation associated with Ta, Ti, and V due to constitutional cooling. It is believed that as the temperature decreases, the BCC phase is rich in Ta at earlier stages of solidification in the dendrite arms, while the interdendritic region is enriched in Ti and V in later stages (the inset in Fig. <ref type="figure" target="#fig_5">1</ref>). The homogeneity of the atomic distributions within the APT dataset was evaluated via the chi-squared statistics using a frequency distribution analysis (FDA) <ref type="bibr" target="#b53">[56]</ref>, in which compositions from 100 ion bins of the observed data were compared to a binomial distribution, which represents a random solid solution. The results of this analysis are presented in the inset of The µ value or normalized to the sample size quantifies the extent of the elementaldistribution randomness. Only the µ value is reported in this case (see Table <ref type="table" target="#tab_2">1</ref>) due to the very large sample size, which causes the p test to be extremely sensitive to small variations. The µ</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Chemical inhomogeneity in the as-cast sample</head><formula xml:id="formula_2">M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT 12</formula><p>value ranges from 0 to 1, with 0 indicating a complete random solid solution, and 1 representing a complete association of the elements. The statistics applied to the APT data, including the µ value, are explained in more detail by Moody et al. <ref type="bibr" target="#b54">[57]</ref> and Miller <ref type="bibr" target="#b53">[56]</ref>. One-dimensional concentration-depth profiles taken along a 10-nm cylindrical region further reflect that there are no statistically-significant concentration fluctuations in the dendritic and interdendritic regions, as shown in Figs. <ref type="figure" target="#fig_16">2(d</ref>) and (e). However, there are clear chemical-composition differences between the two regions. The dendritic region contains higher amounts of Nb and Ta elements, whereas the interdendritic region consists of higher amounts of Ti and V, which are consistent with the EDS results (Table <ref type="table" target="#tab_2">1</ref>), and CALPHAD prediction (Fig. <ref type="figure" target="#fig_5">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Tailoring single phase with homogeneous chemistry via thermal treatment</head><p>As an attempt to achieve a homogeneous single phase without the compositional segregation in the as-cast alloy, systematic thermal treatments have been conducted, based on the CALPHAD results (i.e., heat treatments at 1,000 °C for 1 day, 1,200 °C for 1 day, and 1,200 °C for 3 days). As the homogenization temperature and duration increase, an apparent microstructural variation is observed, as shown in Figs. <ref type="figure" target="#fig_17">3(a-c</ref>). The dendrite-arm spacings and volume fractions of dendritic and interdendritic regions for the sample heat-treated at 1,000 °C The atomic-scale distribution of elements for the homogenized sample was measured, using an analyzed volume of 63 × 61 × 75 nm 3 by APT. The APT results reveal a uniform distribution of alloying elements with near-equal atomic concentrations, as can be seen in Fig.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3(f).</head><p>The FDA in Fig. <ref type="figure" target="#fig_17">3</ref>(g) shows a good agreement between the experimental data and the binomial distribution <ref type="bibr" target="#b30">[33,</ref><ref type="bibr" target="#b54">57]</ref>. The µ values, as discussed above, can be found in Table <ref type="table" target="#tab_2">1</ref>. Note that the APT-tip samples were extracted, adjacent to the grain-boundary region, to ensure a homogeneous elemental distribution, as secondary phases tend to precipitate along grain boundaries <ref type="bibr" target="#b55">[58]</ref>. In short, the chemical segregation in the as-cast state was effectively eliminated by a systematic heat-treatment process, and the single-phase solid solution with the atomic-scale random elemental distribution was accomplished. The compression experiments at RT were carried out, using the in-situ ND to investigate the deformation behavior during elastic and plastic deformations. Figures <ref type="figure" target="#fig_18">4(b</ref>) and (c) exhibit the corresponding lattice-strain evolutions of {110} and {200} planes along the loading direction, as a function of the applied stress for the as-cast and homogenized samples, respectively. The lattice strains during loading, ε hkl , are calculated from the shift of single-peak positions, using</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Mechanical properties at room and elevated temperatures</head><p>where d hkl is the d-spacing obtained from the hkl diffraction at a given load, and d hkl,0 refers to the value without the load. The lattice-strain evolution can provide the {hkl} plane-specific lattice strain during deformation. Generally, the {110}-oriented grains yield initially, because the {110} orientation is preferred for the slip in the BCC structure, and then the additional load transfers to {200}-oriented grains, resulting in the increase of the {200} lattice strain, which is known as load sharing or partitioning <ref type="bibr" target="#b56">[59]</ref>. Our results obtained from both the as-cast and homogenized samples show the similar load-sharing trend, as observed in the conventional BCC alloys.</p><p>However, the slopes of {110} and {200} lattice strains increase during the loading to 750 -850 MPa, and 900 -1,000 MPa, respectively, in the as-cast condition. In contrast, the slopes for the homogenized state maintain a linear response until 1,100 MPa.</p><p>The lattice-strain evolutions for {110} and {200} grains reveal that the stress value for the elastic-plastic transition of the as-cast sample (~ 1,000 MPa) is slightly lower than the homogenized one (~ 1,100 MPa), which is consistent with the engineering stress-strain behavior [Fig. <ref type="figure" target="#fig_18">4(a)</ref>]. Figures <ref type="figure" target="#fig_18">4(d</ref>) and (e) illustrate the variations in the normalized peak width (W/W 0 ) of {110}, {200}, {211}, and {310} peaks as a function of engineering strain. Note that the reference peak width (W 0 ) was taken at the initial diffraction pattern (before the applied stress).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><note type="other">15</note><p>For both conditions, no significant changes of peak widths were observed during elastic deformation. After yielding, however, the peak widths of the homogenized sample [Fig. <ref type="figure" target="#fig_18">4(e)</ref>] increase more considerably than those of the as-cast one during plastic deformation. The width increase could be associated with the stress-induced heterogeneous substructure, such as distortion and twining <ref type="bibr" target="#b57">[60,</ref><ref type="bibr" target="#b58">61]</ref>. However, based on our examination concerning the lateral surface of the 15 % deformed specimens using SEM and EBSD as shown in Figs. <ref type="figure">5 (a-c</ref>), a number of slip bands are observed without the formation of twin bands. These results indicate that the plastic-deformation behavior is mainly dominated by the dislocation-slip mechanism, and during the deformation of the homogenized sample, more dislocations are produced as the plastic deformation proceeds.</p><p>The elevated-temperature compressive tests were performed up to 900 °C at a strain rate of 1 x 10 -3 s -1 for the homogenized alloy, and the stress-strain curves are illustrated in Fig. <ref type="figure">6</ref>. As the temperature increases, the yield strength gradually decreases from 1,273 MPa (RT) to 688</p><p>MPa (900 °C). Similar to the RT stress-strain curve, potent strain hardening is retained up to 800</p><p>°C, but a slight reduction of the hardening capability is observed at 900 °C. Note that the samples did not fracture up to a compressive strain limit of 30%. The values of the yield stress (σ y ) for the homogenized NbTaTiV alloy as a function of temperature are summarized in Fig. <ref type="figure">6</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>4.l Homogenization-treatment effects</head><p>The unique property of HEAs is obtained by increasing the configurational entropy, which introduces a simple solid-solution microstructure with severe lattice distortions caused by the random distribution of the constitutive elements that vary appreciably in size. Therefore, it is</p><formula xml:id="formula_4">M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT 16</formula><p>expected that the extent of the distortion effect is maximized when all the elements are homogenously distributed without the second-phase formation. In the present work, the fullyhomogeneous single solid-solution microstructure in the NbTaTiV refractory HEA was achieved through experimental and theoretical approaches. The clear microstructural evolution was captured from the chemically-inhomogeneous to simple BCC structures after the heat treatments.</p><p>The chemical inhomogeneity is associated with the different melting temperature of each element in the alloy system. The segregation ratio, S R = (C dr ) i /(C idr ) i , which considers the melting temperature of each constituent element <ref type="bibr" target="#b59">[62]</ref> of the alloying component, was used to quantify the influence on micro-segregation. Here, the (C dr ) i and (C idr ) i are the atomic fractions of the element, i, in the dendritic and interdendritic regions, respectively. The calculated S R values for Nb, Ta, Ti, and V in the as-cast sample based on the APT chemical analysis are 1.30, 2.35, 0.65, and 0.69, respectively. These values reflect that the Nb and Ta elements with high melting temperatures contribute mainly to the formation of dendritic regions, whereas the Ti and V elements with lower melting temperatures are preferentially distributed in the interdendritic regions. This calculation trend is consistent with the CALPHAD results (the inset in Fig. <ref type="figure" target="#fig_5">1</ref>)</p><p>Based on the configurational-entropy approach, the chemical inhomogeneity in the ascast sample is expected to reduce the distortion effect, as compared to the fully-homogeneous sample, which determines the extent of strengthening in the materials. However, the alloys in both states exhibit similar yield strengths. This trend could be due to other microstructural differences between the as-cast and heat-treated alloys, such as the grain size and possible presence of the residual stress during the casting process, as well as the compositional segregation making it difficult to clarify the influence of lattice distortion. Nevertheless, the variation at the distortion level during microstructural evolution could be determined by features determined from the ND patterns, using a single-peak fitting approach <ref type="bibr" target="#b60">[63]</ref>, and the averaged lattice parameters from the peaks observed were estimated to be 3.2372 ± 0.0002 Å and 3.2318 ± 0.0001 Å, respectively. A theoretical crystal-lattice parameter (a mix ) of the NbTaTiV alloy can be estimated with the rule of mixtures approach:</p><p>(</p><formula xml:id="formula_5">)<label>2</label></formula><p>where n is the number of alloy components, c i is the atomic fraction of the i th element, and a i is the lattice parameter of the i th element. The lattice parameters measured for both as-cast and homogenized samples are slightly different with those acquired from the rule of mixtures (3.2342 Å), which could indicate lattice distortions in both cases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Quantitative determination of lattice distortion via experiments and calculations</head><p>Lattice distortion, which essentially originates from the atomic-size mismatch in an alloy, constitutes one of the main features distinguishing HEAs from other metallic materials <ref type="bibr" target="#b3">[4]</ref>.</p><p>Importantly, lattice distortion affects the deformation mechanism as well as the mechanical properties of HEAs <ref type="bibr" target="#b28">[30,</ref><ref type="bibr">31,</ref><ref type="bibr" target="#b61">64]</ref>. For example, severe lattice distortions produce unconventional dislocation lines in HEAs, leading to a distinct deformation mechanism in metallic materials <ref type="bibr" target="#b62">[65,</ref><ref type="bibr" target="#b63">66]</ref>. These lattice distortions also introduce energy barriers against dislocation motions and serve as a strengthening mechanism <ref type="bibr" target="#b64">[67]</ref>. Many properties of solid-solution HEAs, e.g., the phase stability and atomic-level stresses, are found to be correlated with the overall atomic-size mismatch <ref type="bibr" target="#b65">[68,</ref><ref type="bibr" target="#b66">69]</ref>.</p><p>There are experimental and theoretical reports regarding the influence of the lattice distortion on the diffraction-peak intensities in HEAs <ref type="bibr" target="#b28">[30,</ref><ref type="bibr">31]</ref>. Specifically, the Cu-Ni-Al-Co-Cr- metallic solid solutions originates from the elastic interactions between local stress fields of solute atoms and those of dislocations <ref type="bibr" target="#b64">[67,</ref><ref type="bibr" target="#b69">72]</ref>. The interaction force (F) can be estimated as</p><formula xml:id="formula_6">(3)</formula><p>where , , G is the shear modulus of the alloy, b is the magnitude of the Burgers Vector, and is a constant, which is related with the difference in the interaction forces between screw and edge dislocations and the local stress field caused by solute atoms <ref type="bibr" target="#b68">[71]</ref>.</p><p>Typically, is 2 -4 for screw dislocations and ≥ 16 for edge dislocations, respectively <ref type="bibr" target="#b68">[71]</ref><ref type="bibr" target="#b69">[72]</ref><ref type="bibr" target="#b70">[73]</ref>.</p><p>In the consideration of the ductility feature of the presently-studied BCC alloy, it is likely that a mixture of edge and screw dislocations is present, and thus, the was determined to be 9 <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b71">74]</ref>. In a concentrated solid solution, the solute induced stress, , can be expressed as:</p><p>where A is a dimensionless material constant, c is a solute concentration, and E L is the dislocation-line tension.</p><p>In the case of the single solid-solution phase HEA, the elastic and atomic-size mismatches are major factors for the solid-solution strengthening, which can be expressed as <ref type="bibr" target="#b12">[13]</ref>:</p><p>(</p><p>where and are the strengthening contributions from the atomic-size mismatch (lattice distortion), and elastic-modulus mismatch (modulus distortion), respectively. According to Eqs.</p><p>(3) and ( <ref type="formula" target="#formula_7">4</ref>), the solute-induced stress with the consideration of the lattice distortion and modulus distortion can be expressed as <ref type="bibr" target="#b72">[75]</ref>:</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D</head><note type="other">ACCEPTED MANUSCRIPT 20</note><p>where is a material-dependent dimensionless constant of the order of 0.04, G is the shear modulus of the alloy, which is estimated to be 49.5 GPa using the rule of mixtures, i is the estimated average difference of the atomic size or shear modulus, and c i is the solute concentration <ref type="bibr" target="#b71">[74,</ref><ref type="bibr" target="#b72">75]</ref>. In case of a single BCC phase HEA, the and in the adjacency of an element, i, are evaluated as averages of the atomic-size and modulus differences of this element with its neighbors, respectively,</p><p>where , , G i and G j are the shear moduli of i th and j th elements, respectively, and c j is the atomic fraction of j th element in the alloy.</p><p>According to the above equation, the strengthening components in the NbTaTiV alloy due to the lattice and modulus distortions are estimated to be 431 MPa, and 227 MPa, respectively. This result indicates that the lattice distortions are likely to be the dominant strengthening factor rather than modulus distortions in this alloy system.</p><p>From this point of view, one can point out that the quantitative as well as qualitative measurement of lattice distortions in the homogenized alloy is apparently important for understanding the strengthening mechanism. Yeh et al. </p><p>In this factor, which is modified from M T , the deviation displacement of atoms due to the intrinsic lattice distortion, , is the major effective term to determine M D . The can be expressed by the following equation: <ref type="bibr" target="#b9">(10)</ref> where is the effective lattice constant of the ith element, and is the average lattice constant of n elements, which are obtained from the atomic size of the incorporated elements related to the crystal structure. The effective lattice constant, , is calculated by: <ref type="bibr" target="#b10">(11)</ref> where is the atomic fraction, is the atomic volume, is the lattice constant of the ith element, is the atomic-volume change of the ith element dissolved into the jth element, respectively. According to Eq. 6, the intrinsic lattice distortions due to the incorporation of different size elements were calculated, using the first-principles method. The BCC NbTaTiV HEAs were modeled through the special quasi-random-structure (SQS) <ref type="bibr" target="#b73">[76]</ref> method. Here, the intrinsic lattice distortion of the NbTaTiV alloy at zero temperature is calculated. The is set to 0.25 because there are four elements, in which the composed elements are equally distributed in the HEA alloy. To calculate and , six kinds of binary systems need to be constructed,  <ref type="table" target="#tab_4">2</ref>. The volume before alloying denotes the sum volume of all the atoms in the supercell. To calculate the volume of supercells, one needs to multiply the number of atoms by the atomic volume in Table <ref type="table" target="#tab_5">3</ref>. The volume after alloying denotes that of the supercell after optimization. Then the total volume change, , can be obtained by (after alloying) -(before alloying). Also the average atomic-volume differences, , can be calculated through . Here N is equal to 8, since it corresponds to half of the number of atoms in the supercell.</p><p>According to Eqs. ( <ref type="formula" target="#formula_8">5</ref>) and ( <ref type="formula" target="#formula_9">6</ref>), the lattice-distortion parameters ( ) are calculated and listed in Table <ref type="table" target="#tab_5">3</ref>. For the quantitative comparison with the experimental result, the atomic fraction, which is obtained by the APT measurement, and the lattice parameter, which is acquired from the neutron-diffraction pattern, is replaced in f j and factors, respectively. The obtained parameter, applying these experimentally-measured values, 0.2373 Å, is fairly close to the theoretically-calculated parameter (0.2344 Å) of the lattice distortion ( ). The detailed values of lattice constants and lattice distortions are illustrated in Table <ref type="table" target="#tab_5">3</ref>. It indicates that the homogenization treatment promotes the rearrangement of atoms as a random distribution. Hence, the crystalline lattice is distorted as the predicted value of the theoretical calculation with the homogenization treatment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">Quantitative determination of lattice distortion via first-principles calculations</head><p>The mean-field lattice-distortion parameter is somewhat ambiguous in determining the However, the deviation in average interatomic distances from an ideal BCC lattice for the 4NN and 5NN is noticeable. These results suggest that while the BCC lattice is maintained on average for the NbTaTiV HEA, a severe lattice distortion is predicted to be noticeable over longer ranges of atomic distances.</p><p>The BCC NbTaTiV system has ten different types of atomic pairs, i.e., the homoatomic pairs of Nb-Nb, Ti-Ti, Ta-Ta, and V-V, and the heteroatomic pairs of Nb-Ti, Nb-Ta, Nb-V, Ti-Ta, Ti-V, and Ta-V. </p><p>where is the interatomic distance of a pair in the relaxed SQS, and is the interatomic distance obtained for a pair with a BCC or B2 structure. Using this formula, the largest lattice distortion pairs are V-V and Ti-Ti, which are 4.7% and 5.1%, respectively. Among the heteroatomic pairs, the largest lattice distortions are the Nb-V and Ti-V pairs with a lattice distortion of 6.1% and 8.1%, respectively. When the median bond length is less than the reference bond length of a pair, e.g., Nb-Nb, the bond is more likely to be under compression. The homoatomic pairs between Nb-Nb and Ta-Ta, the largest atoms of the HEA are mostly compressed, while the pairs of V-V, the smallest atom of the HEA are mostly elongated. On the other hand, in heteroatomic pairs, Ti atoms in combination with Nb and Ta appear to be balanced with their neighboring atoms on average. The heteroatomic pairs, with the V atoms, show mostly elongation in their bond lengths. The compression/tension behavior in the bond lengths can be referred to the local environment of a pair, where placing some of the atoms in its neighborhood induces compression or tension to its bond. For example, while most of the Nb-Nb pair bonds are under compression in the HEA system, some of the Nb-Nb pair bonds are elongated due to the existence of V atoms in its first nearest neighboring environment as shown in Fig <ref type="figure" target="#fig_20">7(c</ref>). In addition to the difference in the atomic size, the change in the bond length of the HEA is also related to the chemical interactions among the principal elements.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">Comparison of the temperature dependence of yield strengths</head><p>Figure <ref type="figure" target="#fig_21">8</ref> shows the yield strengths of the NbTaTiV refractory HEA and two reported refractory HEAs <ref type="bibr" target="#b10">[11]</ref>, and conventional alloys, such as the Al-based alloy <ref type="bibr" target="#b75">[77]</ref>, Ti-based alloy</p><formula xml:id="formula_13">M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</formula><p>25 <ref type="bibr" target="#b76">[78]</ref>, and Ni-based superalloys <ref type="bibr" target="#b10">[11]</ref> at high temperatures. Compared with refractory HEAs, other alloys show a drastic decrease of the yield strength at certain temperatures. The Inconel 718, which maintains higher yield strengths at elevated temperatures, as compared with other conventional alloys, exhibits a rapid decline of the yield strength around 700 °C. However, the refractory HEAs, NbTaTiV, MoNbTaW, and MoNbTaVW, present no substantial reduction of yield strengths as a function of temperatures. Besides, the values of yield strengths for NbTaTiV and MoNbTaVW alloys are much higher than other alloys at the temperatures above 800 °C. The ability of the material to retain its strength at high temperatures could be the consequence of the sluggish diffusion <ref type="bibr" target="#b77">[79]</ref>. The nature of the slower diffusion of elements at higher temperatures in the single BCC structural refractory HEAs may arise from its structure, which consists of multiprincipal elements (that possess the high melting temperature and different atomic radii) <ref type="bibr" target="#b77">[79]</ref>.</p><p>Thus, these trends can lead to the strong resistance of high-temperature softening.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>Overall, this comprehensive study provides a method of the design and development of the single-phase BCC solid-solution phase refractory HEA, using an integrated experimental and theoretical thermodynamic-calculation approach. The results of the APT measurement and the neutron-diffraction patterns indicate that the structure is composed of a single-phase BCC solid solution as well as a homogeneous elemental distribution with equimolar ratios. Furthermore, the mechanical-test results of the homogenization-treated sample show the excellent yield strength and plasticity at RT as well as elevated temperatures. The dominant strengthening mechanism was found to be solid-solution hardening, which stems from the distortion of the crystalline lattice during deformation. It is thought that this strengthening mechanism induces slow  and atom-probe tomography (APT), respectively. The binomial distribution of the analyzed data in comparison to the binomial distribution of the theoretical data is provided by the parameters of and µ for each element.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 2</head><p>The theoretical parameters (Å 3 ) of the six binary systems. A calculated volume before and after alloying for six binary systems, variation of volume, ∆V, and average of the volume difference, ∆V ij , in the supercell.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 3</head><p>Theoretical calculations and experimental results of lattice distortions.</p><p>Effective lattice constant of each element, lattice constant ( ), and latticedistortion parameter ( ) of theoretically-calculated results in comparison to the experimental data. Note that the experimental results are calculated, based on the chemical composition, which is obtained from the APT measurements and lattice constants that are obtained through neutron diffraction.          </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><note type="other">Figure Legends</note></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>The ND instrument utilizes the timeof-flight (TOF) arrangement, which allows for the ND measurements with a diffraction pattern, covering a wide range of d spacings without the rotation of samples or detectors. The VULCAN is equipped with two detectors, designated as Banks 1 and 2 at +/-90 degrees. These two detectors were employed to record diffraction patterns corresponding to the lattice planes, which are parallel to the axial and transverse directions, respectively. The sample is illuminated by the incident neutron beam of a 3 × 3 mm 2 slit size and 2-mm collimators. During the measurement of M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT 8the diffraction patterns, a constant load-control mode with a stepwise-loading sequence was utilized. The measurement time of the neutron-diffraction data was 20 minutes at each stress level. When the stress level reached 1,100 MPa (close to the yield strength), the control mode was changed from the load to displacement control modes with an incremental step of 0.2 mm.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 (</head><label>2</label><figDesc>Figure 2(a) shows the scanning-electron microscopy (SEM) back-scattered electron</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figs. 2</head><label>2</label><figDesc>Figs.2(d)  and (e) with the experimental data (dots) overlaid on the theoretical binomial (random)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>for 1</head><label>1</label><figDesc>figure. This variation implies an insufficient diffusion at the above temperature. The heat treatment at 1,200 °C for 1 day leads to the blurred contrast between dendrites and interdendrites</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 4 (</head><label>4</label><figDesc>Figure 4(a) presents the compressive engineering stress-strain curves of the as-cast and homogenization-treated NbTaTiV alloys at RT with a strain rate of 1 × 10 -3 s -1 . The yield</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>diffraction, such as lattice parameters and peak intensities. The lattice parameters of the as-cast sample and the heat-treated sample at 1,200 °C for 3 days were</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>18 Fe-</head><label>18</label><figDesc>Si HEAs exhibit a considerable reduction in the XRD or ND intensities with the increase of the number of additional principal elements[31]. The peak intensities of neutron diffraction are closely related to the local chemical ordering/disordering in the lattice-distorted single-phase HEAs. During the neutron-beam irradiation, severe neutron scattering occurred on the rough diffraction planes, which is induced by significant lattice distortions, and it is expected to weaken the detectable diffraction signal. Similar to thermal effects, the atomic deviation from neutral positions (structural distortion) gives rise to the substantial deviation of the crystallization integrity, and, thus, an enhanced scattering effect. Thus, it results in simplified diffraction patterns and depressed peak intensities[31]. In the present study, the ND results show that the intensity of the {110} peaks for the homogenized sample is reduced by approximately 27%, as compared to the as-cast condition. Note that the diffraction peaks are fitted by the single-peak fitting method and, then, divided by the proton charge to conduct the precise comparison of peak heights. It can be deduced that the significant chemical inhomogeneity in the as-cast sample could induce the local chemical ordering, which leads to higher peak intensities. The evolutions of lattice strains and normalized peak widths during deformation, obtained by in-situ neutron studies, indicate that the slips of the as-cast alloy in the {110} and {200} oriented planes occur earlier than the homogenization-treated alloy, and a high density of dislocations is formed during plastic deformation. These distorted lattices induce the formation of local elastic-stress fields.During deformation, mobile dislocations could interact with the local elastic-stress fields. These stress fields could hinder the dislocation movements, which accounts for the high amounts of dislocations during plastic deformation<ref type="bibr" target="#b67">[70]</ref>.Recently, Toda-caraballo et al. developed the strengthening theories to evaluate solidsolution strengthening in multicomponent alloy systems<ref type="bibr" target="#b68">[71]</ref>. For solid-solution strengthening of</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head></head><label></label><figDesc>[31]  suggested the mathematical parameters of the distortion effect from the x-ray diffraction (XRD) structure factor of , which is formulated by the combination of the Debye-Waller temperature factor, , and lattice-distortion factor, M D , where and are the angle and wavelength of the incident x-ray beam, respectively. This thermal factor is the vibration amplitude of atoms, . Similar to the vibrational amplitude of atoms caused by thermal effects, the lattice-distortion factor, M D , is formulated as:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>including A 50 B</head><label>50</label><figDesc><ref type="bibr" target="#b47">50</ref> , which denote the systems containing A and B, two of the four elements. A supercell containing 16 atoms is employed to construct the binary systems through SQS, and the lattice vectors of the supercell are defined as . The six binary systems are listed in Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head></head><label></label><figDesc>local atomic displacement. To quantitatively understand the local lattice distortion of the BCC NbTaTiV HEA system, the distribution of atomic distances in a relaxed 64-atom NbTaTiV SQS was analyzed and shown in Fig.7(a). It illustrates that the interatomic distance of all nth nearestneighboring (NN) pairs extends over a wide range, suggesting that many of the atoms deviate M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT 23 profoundly from their ideal lattice sites, leading to a severe local lattice distortion in this alloy system. The average interatomic distances of atomic pairs are r = 2.80, 3.23, 4.57, 5.42, and 6.47Å for the first to fifth NN pairs, respectively. The effects of the local atomic relaxation can be excluded if we fix the atomic positions at the BCC lattice and only optimize the volume of the SQS. In such a case, the interatomic distances, rather than showing a wide spread, exhibit single values with r = 2.80, 3.24, 4.58, 5.37, and 5.61 Å for the first to fifth NN pairs. For the shortrange pairs, the average NN distances from the SQS are similar to the ideal BCC lattice.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 7 (</head><label>7</label><figDesc>b) presents the NN interatomic distance of the aforementioned pairs in the SQS after the structural optimization. Additional DFT calculations were performed for the homoatomic and heteroatomic pairs with BCC and B2 crystal structures, respectively, to obtain the reference bond length for the interatomic pairs. These calculations provide comparable bond lengths for the atomic pairs in the BCC HEA. The mean and median of the interatomic distance of each pair are also shown in Fig7(b). The interatomic distance of all 1NN pairs spreads in wide ranges. Considering both the range of the interatomic distances and the mean value of a pair, a large number of atoms in the SQS shift strongly away from their ideal lattice sites, indicating a severe local lattice distortion in the NbTaTiV system. The lattice distortions can be defined as the change of the bond length with respect to the reference bond length:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 7 (</head><label>7</label><figDesc>Figure 7(b) illustrates how likely an atomic pair is compressed or elongated in the HEA.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head></head><label></label><figDesc>high temperatures, which, consequently, leads to the strong resistance of high-temperature softening. The distorted lattice for this alloy system was quantitatively calculated by the mathematical computation and theoretical modeling, such as first-principles calculations. The results of the above modeling and analysis indicate that the local severe lattice distortions are induced, due to the atomic-size mismatch and local atomic interactions in the homogenization-treated NbTaTiV refractory HEA. These results provide (1) a novel alloy-design strategy, (2) a fundamental understanding of the lattice-distortion effect on mechanical properties, and (3) a road map to produce better materials for high-temperatures applications.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. CALPHAD-calculation data for NbTaTiV. Calculated equilibrium phase mole</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Phase and microstructural characteristics of the as-cast NbTaTiV, studied by</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3.Microstructural evolutions of the NbTaTiV alloy as a function of heat-</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Comparison of mechanical properties and in-situ neutron-diffraction data of</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure 5 .Figure 6 .</head><label>56</label><figDesc>Figure 5. SEM and EBSD images of the deformed lateral surface. (a) SEM micrograph</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. First-principles calculation data. (a) Distribution of the interatomic distances</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_21"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Comparison of the temperature dependence of yield strengths. Yield strengths</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_22"><head>1 Figure 1 . 6 Figure 3 . 9 Figure 4 . 10 Figure 5 . 11 Figure 6 . 13 Figure 7 .</head><label>116394105116137</label><figDesc>Figure 1. CALPHAD-calculation data for NbTaTiV. Calculated equilibrium phase mole</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_23"><head>14 Figure 8 .</head><label>148</label><figDesc>Figure 8. Comparison of the temperature dependence of yield strengths. Yield strengths</figDesc><graphic coords="60,70.20,118.56,455.04,253.20" type="vector_box" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="48,140.28,118.56,315.24,192.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="48,140.28,311.28,315.24,183.60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="48,140.28,495.36,315.24,197.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="51,137.28,118.56,321.00,192.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="51,137.28,311.28,321.00,192.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="51,137.28,504.12,321.00,192.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="58,157.80,118.56,280.32,217.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="58,157.80,336.12,280.32,217.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table Legends Table 1 SEM-EDS and APT compositions, and elemental distribution analyses of as- cast and homogenization-treated refractory NbTaTiV HEAs. Chemical</head><label>Legends1</label><figDesc></figDesc><table><row><cell>composition (in atomic percent, at. %) of constitutive regions in as-cast and</cell></row><row><cell>homogenized alloys, determined using the energy-dispersive spectroscopy (EDS)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 1 SEM-EDS and APT compositions, and elemental distribution analyses of as- cast and homogenization-treated refractory NbTaTiV HEAs. Chemical</head><label>1</label><figDesc></figDesc><table><row><cell>1</cell></row></table><note><p><p>2</p>Materials</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Parameters Nb 50 Ta 50 Nb 50 Ti 50 Nb 50 V 50 Ta 50 Ti 50 Ta 50 V 50 Ti 50 V 50</head><label></label><figDesc></figDesc><table><row><cell>Volume (Before alloying)</cell><cell>294.17</cell><cell>284.45</cell><cell>256.31</cell><cell>284.34</cell><cell>255.03</cell><cell>244.89</cell></row><row><cell>Volume (After alloying)</cell><cell>294.08</cell><cell>284.72</cell><cell>254.32</cell><cell>285.04</cell><cell>254.64</cell><cell>245.28</cell></row><row><cell>∆V</cell><cell>0.0900</cell><cell>-0.2700</cell><cell>1.9900</cell><cell>-0.7000</cell><cell>0.3900</cell><cell>-0.3900</cell></row><row><cell>∆V ij</cell><cell>0.0113</cell><cell>-0.0338</cell><cell>0.2488</cell><cell>-0.0875</cell><cell>0.0488</cell><cell>-0.0488</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 2 The theoretical parameters (Å 3 ) of the six binary systems</head><label>2</label><figDesc>. A calculated volume before and after alloying for six binary systems, variation of volume, ∆V, and average of the volume difference, ∆V ij , in the supercell.</figDesc><table><row><cell>M A N U S C R I P T</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 3 Theoretical calculations and experimental results of lattice distortions.</head><label>3</label><figDesc></figDesc><table><row><cell>Effective</cell></row></table><note><p>lattice constant of each element, lattice constant ( ̅ ), and latticedistortion parameter ( ̅ ) of theoretically-calculated results in comparison to the experimental data. Note that the experimental results are calculated, based on the chemical composition, which is obtained from the APT measurements and lattice constants that are obtained through neutron diffraction.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>The research is supported by the <rs type="funder">U.S. Army Office Project</rs> (<rs type="grantNumber">W911NF-13-1-0438</rs>) with the program managers, <rs type="person">Michael P. Bakas</rs> and <rs type="person">David M. Stepp</rs>, and the material was developed. <rs type="person">Peter K. Liaw</rs> also thanks the support from the <rs type="funder">National Science Foundation</rs> (<rs type="grantNumber">DMR-1611180</rs> and <rs type="grantNumber">1809640</rs>) with the program director, <rs type="person">Gary Shiflet</rs> and <rs type="person">Diana Farkas</rs>, and the neutron work was conducted. <rs type="person">C. Lee</rs> would like to acknowledge the partial support from the <rs type="funder">Center of Materials Processing</rs> with <rs type="person">Prof. Claudia Rawn</rs> as the director, a <rs type="funder">Tennessee Higher Education Commission (THEC) Center of Excellence</rs> located at The <rs type="institution">University of Tennessee, Knoxville</rs>. The CALPHAD modeling work was carried out to support the <rs type="programName">Cross-Cutting Technologies Program</rs> at the <rs type="institution">National Energy Technology Laboratory (NETL) -Strategic Center for Coal</rs>, managed by <rs type="person">Robert Romanosky</rs> (<rs type="person">Technology Manager</rs>) and <rs type="person">Charles Miller</rs> (Technology Monitor). The research was executed through the <rs type="funder">NETL's Office of Research and Development's Innovative Process Technologies (IPT)</rs> Field Work Proposal. Research performed by the <rs type="institution">AECOM</rs> staff was conducted under the RES contract, <rs type="grantNumber">DE-FE-0004000</rs>. The APT measurements were performed as a part of a user proposal at the <rs type="institution">ORNL's Center for the Nanophase Materials Science (CNMS)</rs>, which is a <rs type="funder">DOE Office of Science User Facility (JDP and WG)</rs>. A portion of research at the</p></div>
+			</div>
+			<div type="funding">
+<div><p>The United States Government retains and the publisher, by accepting the article for publication, acknowledges that the United States Government retains a non-exclusive, paid-up, irrevocable, worldwide license to publish or reproduce the published form of this manuscript, or allow others to do so, for United States Government purposes. The <rs type="institution">Department of Energy</rs> will provide public access to these results of the federally-sponsored research in accordance with the <rs type="institution">DOE Public Access Plan</rs> (http://energy.gov/downloads/doe-public-access-plan). ORNL's Spallation Neutron Source was sponsored by the <rs type="funder">Scientific User Facilities Division, Office of Basic Energy Sciences, U.S. Department of Energy</rs>. The first-principles research is also supported by the <rs type="funder">City University of Hong Kong</rs> (Grant No. <rs type="grantNumber">9610336</rs>), <rs type="funder">National Natural Science Foundation of China (NSFC)</rs> (Grant No. <rs type="grantNumber">11605148</rs>), and <rs type="funder">Research Grants Council of the Hong Kong Special Administrative Region, China</rs> (Project No. <rs type="grantNumber">CityU 21202517</rs>) Disclaimer: The computational-modeling work presented in the paper was funded by the <rs type="funder">Department of Energy</rs>, <rs type="institution">National Energy Technology Laboratory</rs>, an agency of the United States Government, through a support contract with <rs type="funder">AECOM. Neither the United States Government</rs> nor</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_uzFy5vE">
+					<idno type="grant-number">W911NF-13-1-0438</idno>
+				</org>
+				<org type="funding" xml:id="_99ANAHr">
+					<idno type="grant-number">DMR-1611180</idno>
+				</org>
+				<org type="funding" xml:id="_AMMEnQF">
+					<idno type="grant-number">1809640</idno>
+				</org>
+				<org type="funding" xml:id="_cze6kaB">
+					<orgName type="program" subtype="full">Cross-Cutting Technologies Program</orgName>
+				</org>
+				<org type="funding" xml:id="_5qukTAv">
+					<idno type="grant-number">DE-FE-0004000</idno>
+				</org>
+				<org type="funding" xml:id="_EEj8Exq">
+					<idno type="grant-number">9610336</idno>
+				</org>
+				<org type="funding" xml:id="_UdbRUZK">
+					<idno type="grant-number">11605148</idno>
+				</org>
+				<org type="funding" xml:id="_mUcKzPw">
+					<idno type="grant-number">CityU 21202517</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Metastable high-entropy dual-phase alloys overcome the strength-ductility trade-off</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">534</biblScope>
+			<biblScope unit="page" from="227" to="231" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Deviation from high-entropy configurations in the atomic distributions of a multi-principal-element alloy</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Santodonato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feygenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Parish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Neuefeind</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Natuture Communications</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">5964</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Solid-solution phase formation rules for multi-component alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Engineering Materials</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="534" to="538" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Microstructures and properties of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Materials Science</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="93" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A fracture-resistant high-entropy alloy for cryogenic applications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Catoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="issue">6201</biblScope>
+			<biblScope unit="page" from="1153" to="1158" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Relative effects of enthalpy and entropy on the phase stability of equiatomic high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2628" to="2638" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Accelerated exploration of multiprincipal element alloys with solid solution phases</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">6529</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Criteria for predicting the formation of single-phase high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Troparevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Kent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Lupini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Stocks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review X</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">11041</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Microstructural development in equiatomic multicomponent alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vincent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: A</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page" from="213" to="218" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1758" to="1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb 25 Mo 25 Ta 25 W 25 and V 20 Nb 20 Mo 20 Ta 20 W 20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Microstructure and elevated temperature properties of a refractory TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Science</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="4062" to="4074" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Microstructure and room temperature properties of a high-entropy TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Alloys and Compounds</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="6043" to="6048" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Youssef</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Zaddach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Niu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Irving</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">X</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename></persName>
+		</author>
+		<title level="m">A novel low-density</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Nanoscale origins of the damage tolerance of the high-entropy alloy CrMnFeCoNi</title>
+		<author>
+			<persName><forename type="first">Ritchie</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">10143</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Exceptional damage-tolerance of a medium-entropy alloy CrCoNi at cryogenic temperatures</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Thurston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">10602</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Cryogenic strength improvement by utilizing room-temperature deformation twinning in a partially recrystallized VCrMnFeCoNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">15719</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Critical stress for twinning nucleation in CrCoNi-based medium and high entropy alloys</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">149</biblScope>
+			<biblScope unit="page" from="388" to="396" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The influences of temperature and microstructure on the tensile properties of a CoCrFeMnNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dlouhý</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Somsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Eggeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="5743" to="5755" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Analysis of microstructure and microtexture during grain growth in low stacking fault energy equiatomic CoCrFeMnNi high entropy and Ni</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Sathiaraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Bhattacharjee</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Temperature dependent stacking fault energy of FeCrCoNiMn high entropy alloy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Holmström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="44" to="47" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Design of a twinning-induced plasticity high entropy alloy</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Springer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kostka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="124" to="133" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Interstitial atoms enable joint twinning and transformation induced plasticity in strong and ductile high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Springer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">40704</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A TRIP-assisted dual-phase high-entropy alloy: grain size and phase fraction effects on deformation behavior</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="323" to="335" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of low-density, refractory multi-principal element alloys of the Cr-Nb-Ti-V-Zr system</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering: A</title>
+		<imprint>
+			<biblScope unit="volume">565</biblScope>
+			<biblScope unit="page" from="51" to="62" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Effect of aluminum on the microstructure and properties of two refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="214" to="228" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Ultrastrong ductile and stable high-entropy alloys at small scales</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Spolenak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7748</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Chou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Formation of simple crystal structures in Cu-Co-Ni-Cr-Al-Fe-Ti-V alloys with multiprincipal metallic elements</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="2533" to="2536" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Anomalous decrease in X-ray diffraction intensities of Cu-Ni-Al-Co-Cr-Fe-Si alloy systems with multi-principal elements</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dmowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Noh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Egami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">; J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-D</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Chemistry and Physics</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="41" to="46" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+	<note>Local atomic structure of</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A refractory Hf 25 Nb 25 Ti 25 Zr 25 high-entropy alloy with excellent structural stability and tensile properties</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Si</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Letters</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="277" to="280" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A novel, single phase, non-equiatomic FeMnNiCoCr high-entropy alloy with exceptional phase stability and tensile ductility</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="5" to="8" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">An AlNbTiVZr 0.5 high-entropy alloy combining high specific strength and good ductility</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sokolovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salishchev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Letters</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page" from="136" to="139" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Effect of Al on structure and mechanical properties of AlxNbTiVZr (x= 0, 0.5, 1, 1.5) high entropy alloys</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shaysultanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salishchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Technology</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1184" to="1193" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Structural-disorder and its effect on mechanical properties in singlephase TaNbHfZr high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steurer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="87" to="97" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Searching for next single-phase high-entropy alloy compositions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Alman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="4504" to="4519" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">An understanding of high entropy alloys from phase diagram calculations</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kattner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Calphad</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Design of light-weight high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mathes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">333</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zunger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Bernard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Special quasirandom structures</title>
+		<imprint>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page">353</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The thermo-calc databank system</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sundman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jansson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-O</forename><surname>Andersson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Calphad</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="153" to="190" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<title level="m">High-entropy alloys: fundamentals and applications</title>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">NIH Image to ImageJ: 25 years of image analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Rasband</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Eliceiri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Methods</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">671</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Local electrode atom probe tomography</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Prosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Ulfig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Geiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Kelly</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013">2013</date>
+			<publisher>Springer Science</publisher>
+			<pubPlace>New York, US</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">In situ sitespecific specimen preparation for atom probe tomography</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lawrence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ultramicroscopy</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="131" to="139" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">First in situ lattice strains measurements under load at VULCAN</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Skorpenske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Stoica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cakmak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metallurgical and Materials Transactions A</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="95" to="99" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">VULCAN-The engineering diffractometer at the SNS</title>
+		<author>
+			<persName><forename type="first">X.-L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Holden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Q</forename><surname>Rennich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stoica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Choo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Hubbard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physica B: Condensed Matter</title>
+		<imprint>
+			<biblScope unit="volume">385</biblScope>
+			<biblScope unit="page" from="673" to="675" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">VDRIVE-Data reduction and interactive visualization software for event mode neutron diffraction</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>An</surname></persName>
+		</author>
+		<idno>No. ORNL-TM-2012-621</idno>
+		<imprint>
+			<pubPlace>Oak Ridge National</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">ORNL Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Efficient iterative schemes for ab initio total-energy calculations using a plane-wave basis set</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Furthmüller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical review B</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page">11169</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Improved tetrahedron method for Brillouin-zone integrations</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Blöchl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Jepsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">K</forename><surname>Andersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page">16223</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">From ultrasoft pseudopotentials to the projector augmented-wave method</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Joubert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">1758</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Generalized gradient approximation made simple</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Perdew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ernzerhof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page">3865</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Special points for Brillouin-zone integrations</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Monkhorst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review B</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">5188</biblScope>
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Design of refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ö</forename><surname>Doğan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Jablonksi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Alman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2653" to="2669" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Comments on the layer crystal formation</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Scheil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Z. Metallkd</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="70" to="72" />
+			<date type="published" when="1942">1942</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Atom probe tomography: analysis at the atomic level</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Miller</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Springer Science &amp; Business Media</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Quantitative binomial distribution analyses of nanoscale like-solute atom clustering and segregation in atom probe tomography data</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Moody</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Stephenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Ceguerra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Ringer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microscopy Research and Technique</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="542" to="550" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Decomposition of the single-phase high-entropy alloy CrMnFeCoNi after prolonged anneals at intermediate temperatures</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dlouhý</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuběnová</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Eggeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>George</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="40" to="52" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Clausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">In situ neutron-Materials Transactions A</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1497" to="1508" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Crystallite size distribution and dislocation structure determined by diffraction profile analysis: principles and practical application to cubic and hexagonal crystals</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ungár</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gubicza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ribárik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Borbély</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Applied Crystallography</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="298" to="310" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">High-temperature deformation mechanisms in a polycrystalline nickel-base superalloy studied by neutron diffraction and electron microscopy</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Francis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Q</forename><surname>Da Fonseca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Daymond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Preuss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="18" to="29" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Effect of composing element on microstructure and mechanical properties in Mo-Nb-Hf-Zr-Ti multiprinciple component alloys</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="13" to="20" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Von Dreele</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">GSAS General Structure Analysis System</title>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<pubPlace>LANSCE, MS-H805, Los Alamos</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Los Alamos National Laboratory</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">A critical review of high entropy alloys and related concepts</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="448" to="511" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Mechanism of radiation damage reduction in equiatomic multicomponent single phase alloys</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Granberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nordlund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Ullah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Djurabekova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page">135504</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Radiation-induced segregation on defect clusters in single-phase concentrated solidsolution alloys</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Xiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="98" to="107" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">A statistical theory of solid solution hardening</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Labusch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">physica status solidi (b)</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="659" to="669" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">A geometric model for intrinsic residual strain and phase stability in high entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="152" to="161" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Phase stability in high entropy alloys: formation of solid-solution phase or amorphous phase</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Natural Science: Materials International</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="433" to="446" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Alloy design and properties optimization of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="830" to="838" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Modelling solid solution hardening in high entropy alloys</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Toda-Caraballo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Rivera-Díaz-Del-Castillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="14" to="23" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Substitutional solution hardening</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fleischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metallurgica</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="203" to="209" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Multi-component solid solution hardening</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gypen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deruyttere</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Science</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1028" to="1033" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of refractory high-entropy alloys: Experiments and modeling</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Alloys and Compounds</title>
+		<imprint>
+			<biblScope unit="volume">696</biblScope>
+			<biblScope unit="page" from="1139" to="1150" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Arsenault</surname></persName>
+		</author>
+		<title level="m">Treatise on materials science and technology. Volume VI. Plastic Deformation of Materials</title>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van De Walle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tiwary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">De</forename><surname>Jong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Olmsted</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Asta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L.-Q</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Efficient stochastic generation of special quasirandom structures</title>
+		<author>
+			<persName><forename type="first">Z.-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Calphad</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="13" to="18" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Mechanical performance of the Al x CoCrCuFeNi high-entropy alloy system with multiprincipal elements</title>
+		<author>
+			<persName><forename type="first">C.-J</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metallurgical and Materials Transactions A</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1263" to="1271" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Ti-6Al-4V titanium alloy with submicrocrystalline structure produced by severe plastic deformation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salishchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Galeyev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Maekawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Transactions</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="2020" to="2025" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Sluggish diffusion in Co-Cr-Fe-Mn-Ni high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">K.-Y</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="4887" to="4897" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The effect of halogens on Zr diffusion and zircon dissolution in hydrous metaluminous granitic melts</title>
+				<funder>
+					<orgName type="full">Consiglio Nazionale delle Ricerche</orgName>
+				</funder>
+				<funder ref="#_MuVphuQ">
+					<orgName type="full">FCAR Soutien aux e´quipes de recherche, CNR</orgName>
+				</funder>
+				<funder ref="#_YWJ86Tt">
+					<orgName type="full">CNR</orgName>
+				</funder>
+				<funder ref="#_zFYRKjq">
+					<orgName type="full">NSERC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2001-12-06">6 December 2001</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Don</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+							<email>donb@eps.mcgill.ca</email>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Aida</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Maria</forename><surname>Conte</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Carmela</forename><forename type="middle">Freda</forename><surname>Ae</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Luisa</forename><surname>Ottolini</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ae</forename><forename type="middle">C</forename><surname>Freda</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Conte</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Freda</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Earth and Planetary Sciences</orgName>
+								<orgName type="institution">McGill University</orgName>
+								<address>
+									<addrLine>3450 rue University</addrLine>
+									<postCode>H3A 2A7</postCode>
+									<settlement>Montre´al</settlement>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Dipartimento di Scienze della Terra</orgName>
+								<orgName type="institution">CNR-CS per gli Equilibri Sperimentali in Minerali e Rocce</orgName>
+								<address>
+									<addrLine>Universita`degli Studi &apos;&apos;La Sapienza&apos;&apos;, P.le Aldo Moro, 5</addrLine>
+									<postCode>I-00185</postCode>
+									<settlement>Roma</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">CNR-CS per la Cristallochimica e la Cristallografia</orgName>
+								<address>
+									<addrLine>Via Ferrata, 1</addrLine>
+									<postCode>I-27100</postCode>
+									<settlement>Pavia</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Istituto Nazionale di Geofisica e Vulcanologia</orgName>
+								<address>
+									<addrLine>Via di Vigna Murata</addrLine>
+									<postCode>605, 00143</postCode>
+									<settlement>Roma</settlement>
+									<country key="IT">Italy</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The effect of halogens on Zr diffusion and zircon dissolution in hydrous metaluminous granitic melts</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2001-12-06">6 December 2001</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">4294EFF7C804117E79213B393ABB1DC7</idno>
+					<idno type="DOI">10.1007/s00410-001-0328-3</idno>
+					<note type="submission">Received: 20 December 2000 / Accepted: 25 September 2001 / zircon=melt Zr ¼ 1:63 10000 T À Á À 5:87, for LCl ln D zircon=melt Zr ¼ 1:47 10000 T À Á À4:75 and, for MRF by ln D zircon=melt Zr ¼ 1:47 10000 T À Á À 4:91.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Diffusion of Zr and zircon solubility in hydrous, containing approximately 4.5 wt% H 2 O, metaluminous granitic melts with halogens, either 0.35 wt% Cl (LCl) or 1.2 wt% F (MRF), and in a halogen-free melt (LCO) were measured at 1.0 GPa and temperatures between 1,050 and 1,400 °C in a piston-cylinder apparatus using the zircon dissolution technique. Arrhenius equations for Zr diffusion in each hydrous melt composition are, for LCO with 4.4± 0.4 wt% H 2 O: D ¼ 2:88 AE 0:03x10 À8 exp À140:1AE33:9 RT À Á , for LCl with 4.5±0.5 wt% H 2 O: D ¼ 2:33AE 0:05x10 À4 exp À254:8AE64:1 RT À Á and for MRF with 4.9± 0.3 wt% H 2 O: D ¼ 2:54 AE 0:03x10 À5 exp À223:8AE15:5 RT À Á . Solubilities determined by the dissolution technique were reversed for LCO +4.5±0.5 wt% H 2 O by crystallization of a Zr-enriched glass of LCO composition at 1,200 and 1,050 °C at 1.0 GPa. The solubility data were used to calculate partition coefficients of Zr between zircon and hydrous melt, which are given by the following expressions: for LCO ln D</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Granitic and rhyolitic magma systems generally contain a rich assemblage of accessory minerals such as zircon, apatite, titanite, monazite and allanite that control the abundance of rare earth elements (REE) and high field strength elements (HFSE). Numerous studies, both classic (e.g. <ref type="bibr" target="#b14">Hanson 1978;</ref><ref type="bibr" target="#b11">Fourcade and Allegre 1981;</ref><ref type="bibr" target="#b31">Miller and Mittlefehldt 1982;</ref><ref type="bibr" target="#b32">Mittlefehldt and Miller 1983)</ref> and recent (e.g. <ref type="bibr" target="#b22">Hoskin et al. 2000)</ref>, have shown that minute quantities of such accessory minerals often contain most of the HFSE in felsic rocks. Previous studies on the dissolution of zircon, apatite and monazite and on the diffusion of their essential struc-tural components in felsic melts constrain the effect of these minerals on the trace element chemistry of hydrous granitic melts <ref type="bibr" target="#b45">(Watson 1979</ref><ref type="bibr" target="#b46">(Watson , 1980;;</ref><ref type="bibr" target="#b47">Watson and Capobianco 1981;</ref><ref type="bibr" target="#b48">Watson and Green 1981;</ref><ref type="bibr" target="#b13">Green and Watson 1982;</ref><ref type="bibr">Harrison and</ref><ref type="bibr">Watson 1983, 1984;</ref><ref type="bibr" target="#b49">Watson and Harrison 1983;</ref><ref type="bibr" target="#b41">Rapp and Watson 1986;</ref><ref type="bibr" target="#b24">Keppler 1993)</ref>.</p><p>Among accessories, zircon has been of major interest to geochemists because it is a major sink of Zr, Hf, Th, Ta and REE in granites and because of its role in U-Pb geochronology (e.g. <ref type="bibr" target="#b37">Pidgeon et al. 1996</ref><ref type="bibr" target="#b38">Pidgeon et al. , 1998;;</ref><ref type="bibr" target="#b33">Nasdala et al. 1998;</ref><ref type="bibr" target="#b8">Eichorn et al. 2000)</ref>. Several experimental studies have investigated zircon solubility and dissolution rate in natural and synthetic silicate melts <ref type="bibr" target="#b27">(Larsen 1973;</ref><ref type="bibr" target="#b45">Watson 1979;</ref><ref type="bibr" target="#b49">Watson and Harrison 1983;</ref><ref type="bibr" target="#b24">Keppler 1993)</ref>. These studies provide information on zircon crystallization in magmatic systems and on its tendency to survive or to be consumed during crustal melting events. The extremely low solubility of zircon in hydrous metaluminous and peraluminous granitic melts ($100 ppm at 750 °C) lead <ref type="bibr" target="#b49">Watson and Harrison (1983)</ref> to conclude that solid state diffusion is responsible for the reallocation of trace elements between zircon and melt, and that Zr diffusion in felsic melts is the ratelimiting step for the dissolution of zircons. In their companion study, <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref> investigated the role of variable water content on the kinetics of zircon dissolution in felsic systems. Remarkable contrasts arise between wet and dry behaviour. The first 2 wt% H 2 O introduced in the felsic melt is critical because it increases the zirconium diffusivity at 1,200 °C by a factor of 100 and doubles its solubility; this indicates that with respect to dry conditions dissolution proceeds geologically instantaneously in water-bearing, but undersaturated, felsic melts.</p><p>A critical factor in trace element models for HFSE and REE in granite petrogenesis may be the role played by halogens. The influence of halogens on HFSE and REE concentrations during granite petrogenesis has been suggested because of the observed correlation between HFSE and halogen contents <ref type="bibr" target="#b36">(Pichavant et al. 1987;</ref><ref type="bibr" target="#b39">Pollard et al. 1987;</ref><ref type="bibr" target="#b3">Congdon and Nash 1991;</ref><ref type="bibr">S ˇtemprok 1991)</ref>. Although transport of HFSE via formation of fluorine complexes in an aqueous fluid phase has been hypothesized, this process has not been supported by experimental evidence for many HFSE <ref type="bibr" target="#b29">(London 1987;</ref><ref type="bibr" target="#b24">Keppler and</ref><ref type="bibr">Wyllie 1990, 1991)</ref>. It has been suggested, however, that the formation of fluorine complexes in the melt could drastically change the fractionation behaviour of HFSE between melt and crystals, thus resulting in a correlation between fluorine and HFSE <ref type="bibr" target="#b40">(Raimbault et al. 1987)</ref>. Although analyses of granitic rocks for both halogens and zirconium are rare, examination of 120 analyses of granites and rhyolites demonstrates that the rocks most enriched in Zr are also substantially enriched in either F or Cl <ref type="bibr" target="#b19">(Hildreth 1981;</ref><ref type="bibr" target="#b33">Mutschler et al. 1981;</ref><ref type="bibr" target="#b4">Conrad 1984;</ref><ref type="bibr" target="#b20">Hildreth et al. 1984</ref><ref type="bibr" target="#b21">Hildreth et al. , 1991;;</ref><ref type="bibr" target="#b43">Rytuba and McKee 1984;</ref><ref type="bibr" target="#b17">Hervig and Dunbar 1992)</ref>. Notably, many Zr-enriched silicic rocks, those with more than approximately 200 ppm Zr, are peralkaline.</p><p>The effect of F on zircon solubility in felsic melts was investigated by <ref type="bibr" target="#b24">Keppler (1993)</ref> who found a strongly non-linear solubility in a water-saturated haplogranitic melt containing 0-6 wt% F, qualitatively consistent with the trends seen in natural rocks. In agreement with <ref type="bibr" target="#b45">Watson (1979)</ref> and <ref type="bibr" target="#b49">Watson and Harrison (1983)</ref>, Keppler demonstrated that the solubility of zircon is extremely low in hydrous, metaluminous silicic melts and in melts with 2 wt%, or less, F at 800 °C, 200 MPa.</p><p>This paper reports an experimental investigation of zircon solubility and Zr diffusion in metaluminous felsic melts containing between 0.4 and 5.1 wt% H 2 O and amounts of F (1.2 wt%) and Cl (0.35 wt%) typical of F-and Cl-enriched natural metaluminous felsic rocks <ref type="bibr" target="#b36">(Pichavant et al. 1987;</ref><ref type="bibr" target="#b3">Congdon and Nash 1991;</ref><ref type="bibr">S ˇtemprok 1991)</ref>. This study complements earlier ones by <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref> and <ref type="bibr" target="#b24">Keppler (1993)</ref> on zircon saturation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental techniques</head><p>Zircon solubility and Zr diffusion were determined using the zircon dissolution technique pioneered by <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref>. Diffusion/dissolution experiments contained zircon, one of three felsic glass compositions (Table <ref type="table" target="#tab_0">1</ref>) and water. The first glass was the same metaluminous rhyolitic obsidian (LCO) used by <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref>. The second was a chlorine-containing mix (LCl, 0.35 wt% Cl) obtained by combining LCO with PtCl 4 (1.26 wt%), and the third was rhyolitic glass (MRF) containing 1.2 wt% fluorine synthesized by <ref type="bibr" target="#b1">Baker and Vaillancourt (1995)</ref>. Based upon experiments performed in this laboratory and by <ref type="bibr" target="#b50">Webster (1992)</ref>, the chlorine concentration in LCl is close to the value at which a metaluminous melt with 6 wt% H 2 O saturates in a second phase (either molten hydrous chloride or a Cl-bearing hydrous fluid). This chlorine concentration far exceeds that measured in most granitic and rhyolitic rocks. Because of the high partition coefficient of Cl between fluid and melt <ref type="bibr" target="#b2">(Carroll and Webster 1994)</ref> we cannot be certain of the pre-eruptive Cl concentrations, but we can presume they did not exceed the Cl solubility in the melt. The fluorine concentration in MRF is far below the maximum solubility of F in a metaluminous granitic melt <ref type="bibr" target="#b2">(Carroll and Webster 1994)</ref>; however, it is significantly above the F concentration analysed in most granitic and rhyolitic rocks <ref type="bibr" target="#b2">(Carroll and Webster 1994)</ref>.</p><p>Two additional melt compositions were synthesized by doping LCO with ZrO 2 (LCOZr) or ZrO 2 + Fe 2 O 3 (LCOZrFe). These compositions were synthesized in order to perform reversals of the dissolution experiments by the crystallization of zircon. Each mix was ground under ethanol for 30 min then melted twice, with intermediate grinding, at 1,500 °C for 4 h each time. Both starting materials contained glass with a small amount, less than $10% by volume, of crystals whose maximum size was below 6 lm in the longest dimension. Microprobe analysis demonstrated that the glassy portions of these mixes were homogeneous and the crystals were a mixture of residual zirconia and zircon. The Zr concentration in the glassy portion of LCOZr was 19,000±660 ppm. The glassy portion of LCOZrFe contained 4.55±0.10 wt% FeO* (total iron analysed as FeO) and 18,000±490 ppm Zr. No alkali loss occurred in these compositions during their synthesis. These two starting materials glasses were ground under ethanol to a grain size below 50 lm and stored in a drying oven at 110 °C.</p><p>Zircon crystals from the Mud Tank Carbonatite, Harte Range, Australia (cf. <ref type="bibr" target="#b15">Harrison and Watson 1983)</ref>, obtained from Wards Scientific, were cut in 1-3-mm slabs and used in early experiments. Additional crystals of zircon from Colonia, Sri Lanka, purchased from Hawthorneden Minerals, were prepared in the same way. Some of these slabs had crystal faces parallel to the c-axis and were used without additional polishing in the exeriments. For slabs that did not have crystal faces, one side parallel to the c-axis was polished to a 1-lm finish.</p><p>Experiments were performed in a piston-cylinder apparatus at 1.0 GPa and temperatures between 1,050 and 1,400 °C. Experiments at temperatures up to 1,200 °C used Au 75 Pd 25 capsules whereas those at higher temperatures used Pt capsules. Capsules were loaded with distilled water, approximately either 2 or 5.5 wt%, the starting glass (about 20 mg) and a millimetre-sized slab of zircon oriented with the crystal (or polished) face perpendicular to the capsule walls. Capsules were welded closed in a water bath to avoid volatile loss and placed in an oven at 110 °C for at least 2 h. Capsules were placed into 1.91 cm NaCl-Pyrex glass-crushable alumina assemblies <ref type="bibr" target="#b23">(Hudon et al. 1994</ref>) and run for 1 to 43 h. Experimental capsules AA1-AA28 were surrounded only by alumina powder. Water analyses of quenched melts in these capsules demonstrated severe water loss in many cases. Therefore, sample capsules AA29 and higher were surrounded by a thin layer, $10 mg, of pyrophyllite powder in the assembly to reduce water loss <ref type="bibr" target="#b12">(Freda et al. 2001)</ref>. Experiments were heated and pressured simultaneously to an overpressure of 0.2 GPa and then pressure was reduced to 1.0 GPa and held within 0.1 GPa of this value during the experiment. The observed temperatures were controlled within 2 °C of the set point except at the beginning of the experiment when the set point was exceeded by a maximum of 10 °C. Type C thermocouples were used and temperature gradients along the capsules were less than 15 °C <ref type="bibr" target="#b23">(Hudon et al. 1994)</ref>. Almost all experiments were quenched isobarically to below-solidus temperatures to reduce formation of quench bubbles and crystals; however, even non-isobarically quenched samples did not contain quench bubbles or crystals.</p><p>Quenched capsules were mounted longitudinally in epoxy, then prepared for analysis by ion and electron microprobes. Hydrogen concentrations in the run product glasses were analysed by secondary ion mass spectrometry to determine the water content of the melts. Samples were analysed with a Cameca IMS 4f ion microprobe at CNR-Centro di Studio per la Cristallochimica e la Cristallografia (Pavia) following the procedure described in <ref type="bibr" target="#b35">Ottolini et al. (1995)</ref> and <ref type="bibr" target="#b12">Freda et al. (2001)</ref>. Water contents were calculated from measured hydrogen concentrations as is the practice in SIMS work because this technique cannot distinguish between different H-speciations. Nevertheless, <ref type="bibr" target="#b44">Schaller et al. (1992)</ref> found no evidence for the presence of significant quantities of HF in fluorinebearing hydrous haplogranitic glasses, which suggests that hydrogen is only associated with oxygen atoms in the melts and quenched glasses.</p><p>Reproducibility of SIMS analysis, measured on the standards, is typically £ ±5% relative (1 standard deviation) over a 1-day span. Overall accuracy in these total H 2 O analyses is $±10% relative, which represents the agreement among H 2 O values of our standards used for calibration (see <ref type="bibr" target="#b12">Freda et al. 2001</ref> for details). <ref type="bibr" target="#b35">Ottolini et al. (1995)</ref> showed that the use of energy filtering can significantly reduce matrix effects as well as the Hbackground, which represent the main limitations of applying SIMS to geological samples. Under controlled experimental conditions, very accurate results (better than ±10% rel.) are strictly dependent on the reliability of the H 2 O data of the standards used in the calibration procedure, which, in turn, implies previous precise and accurate work in the standardization of the standard materials themselves. Both SIMS and infrared spectroscopy (e.g. <ref type="bibr" target="#b34">Newman et al. 1986</ref>) require standards analysed by other techniques for the determination of water concentration in silicate glasses; however, when properly calibrated with the appropriate standards both techniques provide precise methods of water determination. M value calculated from <ref type="bibr" target="#b49">Watson and Harrison (1983)</ref> d FM value calculated from <ref type="bibr" target="#b42">Ryerson and Watson (1987)</ref> Zirconium contents of the glasses adjacent to the zircon as well as major elements, including F and Cl, were measured using a JEOL 8900 electron microprobe equipped with five spectrometers at an accelerating voltage of 15 kV and a current of 50 nA. Counting times on peaks were 50 s for zirconium and 20 s for all other elements. Counting times on backgrounds were one-half those used on peaks. The beam was in most cases focused to a 10-lm diameter, sometimes it was reduced to 5 lm to increase the number of points for short diffusion profiles. A PETH analysing crystal was used to detect zirconium. All data were reduced using the ZAF correction technique. The instrument was calibrated using zircon (Zr), pantelleritic obsidian (Si, Al, Fe, Na, K and Cl), spessartine (Mn), synthetic glass (F) and basaltic glass (Ti, Mg and Ca) standards. Accuracy was evaluated through analysis of a second pantelleritic obsidian with a Zr concentration of 1,885 ppm, previously measured by XRF. Electron microprobe analysis of this glass yielded a Zr concentration of 1,848±90 ppm. A minimum of three traverses normal to the zircon/glass interface were taken for each sample; spacing between analytical points was either 10 or 5 lm. Analyses closer than 30 lm to the zircon were not used because of secondary Zr fluorescence from the crystal <ref type="bibr" target="#b15">(Harrison and Watson 1983)</ref>. In some cases, expansion cracks formed during quenching intercepted the traverses making them unusable for diffusion measurements. For almost every sample, multiple traverses were averaged together to calculate Zr diffusion and zircon solubility, but in a few cases only one analytical traverse was successful. Nevertheless, because we performed more than one experiment at a given temperature, a minimum of two traverses at each temperature were used for the determination of Zr diffusion and zircon solubility.</p><p>Zirconium concentration profiles produced in experiments (e.g. Fig. <ref type="figure">1a</ref>) were used to determine Zr diffusion coefficients. Data were computed assuming a geometry in which the glass is considered a semi-infinite reservoir initially at a fixed concentration and the zircon-glass interface (located at distance x=0) as a fixed plane at constant composition. The zircon dissolution during the experiment involved a portion of the mineral short enough with respect to the length of the diffusion profile for this assumption to be valid. The Zr diffusion coefficient and its concentration in the melt at zircon saturation, C o , for this geometry can be calculated from the following solution to Fick's second law:</p><formula xml:id="formula_0">C x;t À C o C bkg À C o ¼ erf x 2 ffiffiffiffiffi Dt p</formula><p>where C x,t is the concentration at distance x from the interface at time t (the experiment run duration), and C bkg is the Zr concentration in the melt at infinite distance away from the crystal <ref type="bibr" target="#b6">(Crank 1975)</ref>.</p><p>The solution to this equation adopted here is similar to that proposed by <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref>. The model requires that the data be linearized by inversion of the error function (Fig. <ref type="figure">1b</ref>):</p><formula xml:id="formula_1">x 2 ffiffiffiffiffi Dt p ¼ erf À1 C x;t À C o C bkg À C o</formula><p>where C o is a variable that must be estimated.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Zr diffusion in melt</head><p>The Zr diffusion measurements in LCO, LCl and MRF melts are listed in   At equivalent H 2 O concentrations only small differences in Zr diffusion, typically less than a factor of 2, exist between the hydrous metaluminous melt, LCO and either the fluorinated, MRF, or chlorinated, LCl, melts.</p><p>In the temperature range investigated Zr diffusion in each melt behaves in an Arrhenian manner and can be described by:</p><formula xml:id="formula_2">D ¼ D o exp ÀE a RT</formula><p>where D and D o are in m 2 s -1 , the activation energy is in kJ mol -1 , R is in J mol -1 K -1 , and T is in kelvin. Arrhenius equations were calculated using the technique of <ref type="bibr" target="#b51">York (1969)</ref>    <ref type="table" target="#tab_6">3</ref>).</p><p>Although the melt pools in these samples were too small for ion microprobe analysis, our study on water-loss from Au-Pd capsules at these conditions <ref type="bibr" target="#b12">(Freda et al. 2001)</ref> constrains the H 2 O contents of the melts to be 4.5±0.5 wt%. At both temperatures the Zr concentrations in the zircon-saturated melt are within experimental uncertainty of the values measured using the dissolution technique.</p><p>Zircon solubility in melts with 4.5 wt% H 2 O is little affected by the presence or absence of 1.2 wt% F or 0.35 wt% Cl at the conditions studied (Table <ref type="table" target="#tab_2">2</ref>). Solubilities range from 767 ppm at 1,050 °C to 11,538 ppm at 1,400 °C. These solubilities have been used to calculate the partition coefficient of Zr between zircon and melt, and plotted against 1/T (Fig. <ref type="figure" target="#fig_4">5</ref>). At H 2 O concentrations above 3 wt% the effect of adding additional water does not affect the Zr content of the melt by more than 10% relative (Fig. <ref type="figure" target="#fig_5">6</ref>). Therefore, we have combined data from experiments with H 2 O contents greater than 3 wt% for the calculation of Zr partition coefficient between zircon and melt, D zircon=melt Zr</p><p>. The Zr partition coefficient in LCO can be described by: The solubility of zircon in melts containing $2 wt% H 2 O is lowered relative to melts with $4.5 wt% H 2 O (Table <ref type="table" target="#tab_2">2</ref>) and the partition coefficients correspondingly increased. The effect of increasing H 2 O concentrations from $0.5 to $4.5 wt% decreases the Zr partition coefficient between zircon and melt by approximately a factor of 5 (Fig. <ref type="figure" target="#fig_5">6</ref>). The MRF composition displays the smallest sensitivity of the partition coefficient to H 2 O content.</p><p>Inspection of the concentrations of other elements along Zr diffusion profiles demonstrated homogenous melt compositions. In no case was evidence found to support either counter diffusion or complexing of Zr with halogens. Replicate experiments (AA37 and AA38) using the two different zircons produced consistent results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of FeO* and oxygen fugacity on zircon solubility</head><p>Two zircon dissolution samples using LCO melt, AA39 and AA40, were surrounded by a mixture of graphite + pyrophyllite powder during reaction at 1.0 GPa, 1,200 °C. The powder mixture was used to change the oxygen fugacity of the assembly from a value of approximately nickel-nickel oxide + 2 log units (Dalpeá nd <ref type="bibr" target="#b7">Baker 2000)</ref> to a lower value, probably close to that of the wu¨stite-magnetite buffer <ref type="bibr" target="#b7">(Dalpe´and Baker 2000)</ref>. Evidence of this lower oxygen fugacity is the observation that these samples suffered measurable iron loss at 1,200 °C. After the experiment, samples AA39 and AA40 contained 0.20±0.02 and 0.60±0.04 wt% FeO*, respectively. The loss of iron in AA39 resulted in a slightly decreased concentration of Zr at zircon solubility and diffusivity (Table <ref type="table" target="#tab_2">2</ref>). The small amount of iron lost from AA40 had no discernible effect on either Zr concentration or diffusion (Table <ref type="table" target="#tab_2">2</ref>). One experiment at the high oxygen fugacity that suffered iron loss (AA29, FeO*=0.20±0.02) does not appear to have a lower zircon solubility than similar experiments with higher FeO* concentrations at the same oxygen fugacity. However, this experiment has a high standard deviation on the Zr concentration at zircon solubility (3,088±619 ppm), which almost encompasses the zircon solubility value for AA39 (2,325±354 ppm Zr). The iron-and zirconium-enriched modification of LCO, LCOZrFe, was synthesized because of the equivocal evidence for the effect of oxygen fugacity and iron concentration on zircon saturation. An additional crystallization experiment at 1,200 °C, 1.0 GPa using LCOZrFe, demonstrated that changing FeO* from 0.69 to 4.18 wt% causes the Zr concentration to increase by approximately 200 ppm when compared with the LCO composition (Table <ref type="table" target="#tab_6">3</ref>). This increase is consistent with studies of zircon solubility in metaluminous haplogranitic systems at 1 atm, anhydrous conditions <ref type="bibr" target="#b9">(Ellison and Hess 1986)</ref>.</p><p>The effects of oxygen fugacity on zircon solubility were further explored by two preliminary experiments using the LCOZrFe composition at 1 atm and the lowest temperature at which successful experiments could be performed on this anhydrous composition, 1,400 °C (Table <ref type="table" target="#tab_6">3</ref>). (Experiments performed with LCOZr at this temperature produced heterogeneous glasses and were unsuitable, as were experiments with LCOZr and LCOZrFe at lower temperatures.) These experiments demonstrate that increasing oxygen fugacity 6 orders of magnitude from the wu¨stite-magnetite buffer to air decreases zircon solubility by 9% relative. These experiments demonstrate that oxygen fugacity can affect the solubility of zircon in silicic melts similar to LCO. However, to accurately quantify the effects of oxygen fugacity on zircon solubility requires a future set of solubility experiments at hydrous conditions in which both iron concentration and oxygen fugacity are well controlled.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Zr diffusion and concentrations in LCO melt at high temperatures and pressures: comparison with previous results</head><p>The Zr diffusivities measured in the halogen-free LCO melt with $4.5 wt% H 2 O (Fig. <ref type="figure" target="#fig_3">4</ref>) are similar to previous measurements on the same composition with 6 wt% H 2 O added <ref type="bibr" target="#b15">(Harrison and Watson 1983</ref>) at 1,400 and 1,050 °C. Our 1,200 °C measurements are approximately a factor of 10 higher than those of <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref>. The zirconium concentrations at zircon solubility are within error of those of <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref> at 1,400 °C, but at lower temperatures our values are consistently lower by approximately 30% relative at 1,200 °C (Fig. <ref type="figure" target="#fig_5">6</ref>) and by a factor of 1.8 at 1,050 °C. These disagreements are not attributable to the difference in pressure between the experimental studies because pressure has been demonstrated to have an insignificant effect on zircon saturation <ref type="bibr" target="#b49">(Watson and Harrison 1983)</ref>. Nor can the differences be attributed to analytical problems because both <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref> and ourselves checked our analytical procedure by analysis of glasses with known zirconium concentrations.</p><p>The differences between our solubility results and those of <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref> are probably caused by different assemblies used in the piston-cylin-  der experiments. The assemblies of <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref> contained either internal pieces of unfired pyrophyllite (at 1,020 °C) or a pre-drilled graphite cylinder + pyrophyllite powder (at 1,200-1,400 °C, E.B. <ref type="bibr">Watson 1999, personal communication)</ref>. These assemblies differed substantially from those of this study and almost certainly resulted in a different oxygen fugacity than used in this study. The effect of oxygen fugacity on zircon solubility is hypothesized to be caused by its control of the Fe 3+ /Fe 2+ ratio in the melt. Ferric iron in silicate melts appears to behave as a network-former, whereas ferrous iron behaves as a network-modifier <ref type="bibr" target="#b18">(Hess 1995)</ref>. Thus as oxygen fugacity increases causing a concomitant increase in the Fe 3+ /Fe 2+ ratio, the proportion of network-formers in the melt should increase and the solubility of zircon decrease (cf. <ref type="bibr" target="#b9">Ellison and Hess 1986)</ref>. Our results on zircon solubility in LCOZrFe at 1 atm suggest that the oxygen fugacities in the experiments of <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref> were below ours and resulted in higher zircon solubilities than those measured in this study. The similarity of our results and those of <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref> at 1,400 °C indicate that either the effect of oxygen fugacity on zircon solubility decreases with temperature or that our different assemblies had similar oxygen fugacities at this temperature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Geological implications</head><p>Zircon solubility at magmatic temperatures</p><p>The zirconium concentrations at zircon saturation in natural metaluminous, felsic melts are low, as previously demonstrated by <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref>, <ref type="bibr" target="#b49">Watson and Harrison (1983)</ref> and <ref type="bibr" target="#b24">Keppler (1993)</ref>. Because of the small effects of halogen addition (at the concentrations investigated) on zirconium content at zircon saturation, the partitioning data for all melts with &gt;3 wt% H 2 O was combined and extrapolated down to magmatic temperatures. The extrapolation predicts a solubility of 60 ppm at 800 °C and 14 ppm at 700 °C. The 800 °C value is within error of the Zr concentration determined by <ref type="bibr" target="#b24">Keppler (1993)</ref>, 67±22 ppm, in a H 2 O-($6 wt%) and zircon-saturated haplogranitic melt at 800 °C and 200 MPa. However, this value is approximately onethird that for LCO melt calculated using the solubility data in <ref type="bibr" target="#b49">Watson and Harrison (1983)</ref>, 210 ppm (Fig. <ref type="figure" target="#fig_6">7a</ref>). Even this value of 210 ppm is $60 ppm lower than the expected value at zircon saturation based upon direct solubility measurements at 800 °C of <ref type="bibr" target="#b49">Watson and Harrison (1983)</ref> (Fig. <ref type="figure" target="#fig_6">7a</ref>). Even more problematical is the observation that solubilities calculated at 800 and 700 °C in this study are below the Zr concentrations of granitic and rhyolitic rocks known to contain no inherited zircons, only trace amounts of zircon phenocrysts. Examples of this discrepancy are the zircon-saturated, high-silica rhyolites of the classic Bishop Tuff <ref type="bibr" target="#b19">(Hildreth 1981)</ref> whose low temperature member, $720 °C, has a Zr concentration of 85 ppm, and whose high temperature member, $790 °C, contains 145 ppm Zr (see Fig. <ref type="figure" target="#fig_6">7</ref>).</p><p>We attribute differences between experiments and nature to the effects of iron concentration and oxygen fugacity. These effects on zircon saturation in metaluminous silicic melts have not been previously discussed, although <ref type="bibr" target="#b45">Watson (1979)</ref> did note that addition of iron to peralkaline melts decreased the Zr concentration at zircon saturation.  <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref> using the same composition. Note, in <ref type="bibr" target="#b15">Harrison and Watson's (1983)</ref> final analysis, the solubility data from the experiment at 1,200 °C with 6 wt% H 2 O and 2,000 ppm Zr (ZIRDIS 7) was not used</p><p>The standard parameter used for describing the effects of melt composition on zircon saturation is the M parameter <ref type="bibr" target="#b49">(Watson and Harrison 1983)</ref> based upon the cation ratio:</p><formula xml:id="formula_3">M ¼ Na þ K þ 2Ca Al Á Si</formula><p>Although this parameter works well in many cases, it fails to provide a consistent means of predicting zircon saturation in iron-free melts at 800 °C (Fig. <ref type="figure" target="#fig_6">7a</ref>). The solubility of these iron-free melts falls significantly below the correlation line between zircon saturation values of Zr in the melt and M (Fig. <ref type="figure" target="#fig_6">7a</ref>). However, if the concentrations of Zr in melts saturated with zircon at 800 °C are plotted as a function of the FM cation ratio <ref type="bibr" target="#b42">(Ryerson and Watson 1987)</ref>, designed for the expression of rutile solubility:</p><formula xml:id="formula_4">FM ¼ 1 Si Á Na þ K þ 2 Ca þ Mg þ Fe ð Þ Al</formula><p>which includes the effects of Mg and total iron, but not the Fe 3+ /Fe 2+ , a smooth correlation between zircon saturation and the FM value can be constructed using measurements on iron-bearing melts <ref type="bibr" target="#b15">(Harrison and Watson 1983</ref>) and iron-free melts <ref type="bibr" target="#b27">(Larsen 1973;</ref><ref type="bibr" target="#b45">Watson 1979;</ref><ref type="bibr" target="#b24">Keppler 1993;</ref><ref type="bibr">Fig. 7b</ref>). When zircon saturation results for LCO are extrapolated to 800 °C and plotted as a function of FM (Fig. <ref type="figure" target="#fig_6">7b</ref>), the value predicted by the data of <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref> falls almost upon the correlation line. However, the lower solubility data of this study are approximately one-third of that predicted by direct measurements at 800 °C; it should be noted that this value is within the uncertainty of the correlation curve between Zr in the melt at zircon saturation and the FM value. Although the use of the FM parameter is superior to that of the M parameter to describe the compositional variations that control zircon saturation, it fails to adequately treat the effects of the Fe 3+ /Fe 2+ ratio on zircon solubility and considers all iron in the melt to behave as a network modifier. If we consider all iron in LCO to be Fe 3+ and treat it as a network former by adding it to aluminium in the denominator of the FM equation, then the position of LCO shifts to an FM value of 1.35 and the estimated solubility is consistent with direct saturation measurements at 800 °C (Fig. <ref type="figure" target="#fig_6">7b</ref>). Unfortunately, we have not been able to measure the Fe 3+ /Fe 2+ ratio in our samples. Nevertheless, these results strongly suggest the need for a new parameter that describes the effects of major elements, H 2 O, Fe 2+ , Fe 3+ and halogens on zircon saturation, but this must await future study.</p><p>Our data predict low values of Zr concentration at zircon saturation for magmatic temperatures because of differences in oxygen fugacity between our experiments and nature. Despite this observation, the relative values of the partition coefficients between zircon and melt between LCO, LCl and MRF should be reliable predictors of the effects of halogens on zircon saturation at  <ref type="bibr" target="#b49">Watson and Harrison (1983)</ref>, diamond is from <ref type="bibr" target="#b24">Keppler (1993)</ref> at 800 °C, upward pointing triangle is from <ref type="bibr" target="#b27">Larsen (1973)</ref> at 800 °C, the downward pointing triangle is the maximum value determined by <ref type="bibr" target="#b45">Watson (1979)</ref> at 800 °C, the star is the high-temperature end member of the Bishop Tuff with an iron-oxide temperature of 790 °C <ref type="bibr" target="#b19">(Hildreth 1981)</ref>, the filled square is extrapolated from high-temperature measurements of saturation in LCO from this study and the open square is extrapolated from similar measurements in the same composition by <ref type="bibr" target="#b15">Harrison and Watson (1983)</ref>. See text for further discussion. In a, the curve is only a fit to the data of <ref type="bibr" target="#b49">Watson and Harrison (1983)</ref> whereas in b the curve is fit to experimental solubility measurements at 800 °C, but not to extrapolations of LCO measurements. The dashed line with the arrow in b shows the effect on the FM value of treating all Fe in LCO as a network former and adding it to the value for Al in the denominator of the FM equation b magmatic temperatures. The calculated Zr content in zircon-saturated melts at 800 °C with 4.5 wt% H 2 O in LCO melt is 45 ppm, in MRF melt is 76 ppm and in LCl melt is 65 ppm. The small increase in zircon solubility with $1 wt% fluorine addition to hydrous melts is consistent with the results of <ref type="bibr" target="#b24">Keppler (1993)</ref>; however, in both studies the increase in Zr concentration is within experimental uncertainty. We conclude that addition of halogens at concentrations typical of many metaluminous silicic rocks does not significantly affect the saturation of zircon in melts similar to those studied because of the insensitivity of the Zr partition coefficient to the addition of either 0.35 wt% Cl or 1.2 wt% F in melts containing 4.5 wt% H 2 O. On the other hand, <ref type="bibr" target="#b24">Keppler (1993)</ref> has conclusively demonstrated that higher concentrations of fluorine, 2-6 wt%, which are rare in nature <ref type="bibr" target="#b2">(Carroll and Webster 1994)</ref>, can substantially enhance the solubility of zircon.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effects of halogens on Zr diffusion</head><p>The effect of addition of 0.35 wt% Cl or 1.2 wt% F to Zr diffusion in metaluminous granitic melts is minor (Figs. 2, 3 and 4). At 1,200 °C the addition of Cl or F decreases Zr diffusion by a factor of 0.5 at most. The increase in activation energy for Zr diffusion with the addition of either F or Cl to melts with $4.5 wt% water is surprising because previous studies of hydrated, halogenated silicate melts demonstrated that F addition decreased activation energies for diffusion of major, non-alkali, elements <ref type="bibr" target="#b0">(Baker and Bossa`nyi 1994)</ref>. At the lower H 2 O concentrations studied, the activation energies for Zr diffusion in LCO and LCl are similar to those at $4.5 wt% H 2 O, although the pre-exponential factors are smaller. MRF with 2.3 wt% H 2 O displays both a lower activation energy and lower pre-exponential factor than when it contains 4.9 wt% H 2 O. All of these observations relating the Arrhenius parameters to halogen and H 2 O concentrations are presumably related to interactions between the halogens and the alkalies found in the zircono-silicate complexes in the melt <ref type="bibr" target="#b45">(Watson 1979;</ref><ref type="bibr" target="#b9">Ellison and Hess 1986;</ref><ref type="bibr" target="#b30">Marr et al. 1998)</ref>, rather than direct complexing with Zr <ref type="bibr" target="#b10">(Farges 1996)</ref>. The exact details of these interactions remain to be studied.</p><p>Extrapolation of the Arrhenius lines in melts with 4.5 wt% H 2 O to a magmatic temperature of 800 °C produce Zr diffusivities of 4•10 -15 in LCO, 3•10 -16 in MRF, and 9•10 -17 m 2 s -1 in LCl. The factor of 44 difference in diffusion at this temperature results in a factor of $7 difference in the diffusion distance for a specific duration, using the estimation that x=(Dt) 1/2 , where x is the distance, D is the diffusion coefficient, and t is the time. Extrapolation of Arrhenius equations for melts with 2 wt% H 2 O is less precise than for those with 4.5 wt% H 2 O because of the smaller temperature range studied. For melts with H 2 O concentrations near 2 wt% the calculated diffusion coefficients at 800 °C are 6•10 -16 for LCO, 5•10 -16 for MRF, and 8•10 -18 m 2 s -1 for LCl. The difference of a factor of 100 between the diffusion of Zr in LCO and in LCl results in diffusion differences of approximately 10 for a given time duration.</p><p>The dissolution of 100 lm zircon crystals into zirconundersaturated melts at temperatures of 700 to 900 °C requires millions to billions of years if the granitic melt contains less than 0.5 wt% H 2 O <ref type="bibr" target="#b15">(Harrison and Watson 1983)</ref>. If the H 2 O concentration is increased to $4.5 wt% the dissolution time for zircon in LCO drops to $60 years at 900 °C and less than 2•10 4 years at 700 °C (Fig. <ref type="figure" target="#fig_7">8</ref>). Halogen addition affects the dissolution rate of zircon crystals because of the halogens' effects on both Zr diffusion and zircon solubility in the melt. At 900 °C the zircon dissolution time in MRF is 228 years and in LCl is 701 years. The maximum difference in dissolution times between hydrous melts with and without halogens is a factor of 100 between LCO, 2•10 4 years, and LCl, 2•10 6 years, at 700 °C (Fig. <ref type="figure" target="#fig_7">8</ref>). These calculations suggest that at temperatures of 800 °C and higher, the dissolution of zircons in any of the melts investigated will be geologically instantaneous. On the contrary, at the lowest temperature, during crustal melting, the presence of halogens can significantly affect the dissolution of zircon and diffusion of Zr in the melt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>The results of this study, combined with previous ones, on zircon solubility and Zr diffusion demonstrate that the significant variables affecting stability in granitic magmas are temperature, water content, total iron, ferric/ferrous and alkali/alumina ratios <ref type="bibr" target="#b45">(Watson 1979;</ref><ref type="bibr" target="#b15">Harrison and Watson 1983;</ref><ref type="bibr" target="#b49">Watson and Harrison 1983</ref>;  <ref type="bibr" target="#b30">Marr et al. 1998)</ref>. Halogens dissolved in the melt at concentrations typically found in natural granitic or rhyolitic rocks, near to or less than 1 wt%, exert a small effect on the solubility of zircon and the diffusion of Zr in the melt. At the experimental conditions the effects of halogen addition are difficult to measure, but when the Arrhenius lines for melts with $ 4.5 wt% H 2 O are extrapolated to magmatic temperatures, Zr diffusion in the chlorinated melt is reduced compared with the halogen free and zfluorine-bearing melts. At 700 °C, Zr diffusion in the Cl-bearing melt is 1/100th of that in the halogen-free melt. Nevertheless, the effect of halogens on zircon solubility and diffusion of Zr in granitic melts is minor, and probably geologically unimportant at temperatures greater than 800 °C. Thus, the presence of small amounts of halogens in felsic rocks probably cannot explain the possible correlation between Zr and halogens sometimes observed.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig</head><label></label><figDesc>Fig. 1 a, b Zirconium diffusion profile (AA50) and error function inversion of the profile. Solid squares are a measured Zr concentrations and b inverted concentrations as a function of distance from the zircon/melt interface. The solid line in a is theoretical diffusion profile based upon the fit to the error function inversion of b, which used only the data points above the background Zr concentration of the melt, and is reached in this experiment at approximately 0.2 mm away from the zircon. See text for further discussion</figDesc><graphic coords="4,303.70,69.25,243.09,440.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>and most of the diffusion occurred at the water concentrations measured by the ion microprobe. At a given temperature, H 2 O concentration is the most important variable affecting Zr diffusion in the melts studied. Zirconium diffusion coefficients in the hydrous melts studied are at most only slightly affected by the presence of halogens at the concentration levels studied. The significant effect of H 2 O, and the small effects of F and Cl, on Zr diffusion are best seen in Fig.4a, b.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 Fig. 3</head><label>23</label><figDesc>Fig. 2 Arrhenius diagram for diffusion of Zr in melts with $4.5 wt% H 2 O</figDesc><graphic coords="6,48.36,69.25,243.09,226.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 a, b Effect of H 2 O concentration on Zr diffusion at a 1,200 °C and b 1,400 °C. Solid line is fit to Zr diffusion coefficients in LCO composition melt from this study and dashed line is fit to data from Harrison and Watson (1983) using the same composition</figDesc><graphic coords="7,48.59,69.25,243.09,438.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 Partition coefficients of Zr between zircon and melt for melts with greater than 3.0 wt% H 2 O</figDesc><graphic coords="8,326.21,198.23,198.02,186.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 a</head><label>6</label><figDesc>Fig. 6 a, b Effect of H 2 O concentration on Zr values at zircon saturation at a 1,200 °C and b 1,400 °C. Solid line is fit to Zr solubility measurements in LCO composition melt from this study and dashed line is fit to data from Harrison and Watson (1983) using the same composition. Note, in Harrison and Watson's (1983) final analysis, the solubility data from the experiment at 1,200 °C with 6 wt% H 2 O and 2,000 ppm Zr (ZIRDIS 7) was not used</figDesc><graphic coords="9,48.59,69.25,243.09,446.97" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 a</head><label>7</label><figDesc>Fig. 7 a, b Zr concentrations in melts saturated with zircon at 800 °C plotted as a function of a the M value and as a function of b the FM value. Filled circles are measurements from<ref type="bibr" target="#b49">Watson and Harrison (1983)</ref>, diamond is from<ref type="bibr" target="#b24">Keppler (1993)</ref> at 800 °C, upward pointing triangle is from<ref type="bibr" target="#b27">Larsen (1973)</ref> at 800 °C, the downward pointing triangle is the maximum value determined by<ref type="bibr" target="#b45">Watson (1979)</ref> at 800 °C, the star is the high-temperature end member of the Bishop Tuff with an iron-oxide temperature of 790 °C<ref type="bibr" target="#b19">(Hildreth 1981)</ref>, the filled square is extrapolated from high-temperature measurements of saturation in LCO from this study and the open square is extrapolated from similar measurements in the same composition by<ref type="bibr" target="#b15">Harrison and Watson (1983)</ref>. See text for further discussion. In a, the curve is only a fit to the data of<ref type="bibr" target="#b49">Watson and Harrison (1983)</ref> whereas in b the curve is fit to experimental solubility measurements at 800 °C, but not to extrapolations of LCO measurements. The dashed line with the arrow in b shows the effect on the FM value of treating all Fe in LCO as a network former and adding it to the value for Al in the denominator of the FM equation</figDesc><graphic coords="10,48.59,69.25,243.09,451.96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8</head><label>8</label><figDesc>Fig.8Dissolution times for zircons in metaluminous granitic melts with differing halogen concentrations. Dissolution times were calculated assuming a 100-lm diameter spherical zircon crystal following equation 7.109 of<ref type="bibr" target="#b28">Lasaga (1998)</ref> </figDesc><graphic coords="11,303.70,468.09,243.09,220.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Starting glass compositions. Major element contents of starting glasses were analysed by electron microprobe analysis at McGill University. FeO* is total iron analysed as FeO</figDesc><table><row><cell>Oxide</cell><cell>LCO</cell><cell>MRF</cell><cell>LCl</cell></row><row><cell>SiO 2</cell><cell>76.37</cell><cell>76.17</cell><cell>75.72</cell></row><row><cell>TiO 2</cell><cell>0.11</cell><cell>0.05</cell><cell>0.00</cell></row><row><cell>Al 2 O 3</cell><cell>13.35</cell><cell>12.48</cell><cell>13.27</cell></row><row><cell>FeO*</cell><cell>0.79</cell><cell>1.94</cell><cell>1.06</cell></row><row><cell>MnO</cell><cell>0.06</cell><cell>0.01</cell><cell>0.00</cell></row><row><cell>MgO</cell><cell>0.07</cell><cell>0.04</cell><cell>0.07</cell></row><row><cell>CaO</cell><cell>0.51</cell><cell>0.33</cell><cell>0.55</cell></row><row><cell>Na 2 O</cell><cell>4.31</cell><cell>4.10</cell><cell>4.03</cell></row><row><cell>K 2 O F Cl</cell><cell>4.67 0.00</cell><cell>4.54 1.22 a</cell><cell>4.74 0.11 b 0.35 b</cell></row><row><cell>Total M c FM d</cell><cell>100.24 1.37 1.50</cell><cell>100.88 1.35 1.69</cell><cell>99.90 1.34 1.53</cell></row><row><cell cols="2">a O=F is 0.51 wt%</cell><cell></cell><cell></cell></row></table><note><p>b O=F, Cl is 0.046 and 0.079 wt%, respectively c</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2</head><label>2</label><figDesc></figDesc><table><row><cell></cell><cell>tions between approximately 4 and 5 wt% (Fig. 2) and</cell></row><row><cell></cell><cell>melts containing between approximately 1.0 and</cell></row><row><cell></cell><cell>2.0 wt% H 2 O (Fig. 3) were combined for each com-</cell></row><row><cell></cell><cell>position to calculate Arrhenius equations for high and</cell></row><row><cell></cell><cell>low H 2 O concentrations, respectively. Experiments</cell></row><row><cell></cell><cell>performed for differing lengths of time on LCO at</cell></row><row><cell></cell><cell>1,200 °C (Table 2) yield diffusion coefficients and zir-</cell></row><row><cell></cell><cell>con solubilities that are either within error of each</cell></row><row><cell></cell><cell>other, or are consistent with the effects of differing</cell></row><row><cell></cell><cell>concentrations of FeO* and H 2 O dissolved in the melt</cell></row><row><cell>and displayed in Figs. 2, 3</cell><cell>(discussed below). Although all melts lost water, this</cell></row><row><cell>and 4. Measurements for melts with H 2 O concentra-</cell><cell>loss occurred early in the experiment (Freda et al. 2001)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2</head><label>2</label><figDesc>Experimental conditions and results. Numbers in parentheses are the standard deviations (1r) based upon multiple analyses. Counting statistics for Zr at a concentration of $2,000 ppm produce an uncertainty of $170 ppm. FeO* concentrations have not been corrected for low totals because of the presence of water in</figDesc><table><row><cell>the glasses. Experiments starting from AA29 were performed in a</cell></row><row><cell>pyrophyllite-bearing assembly (see text). Zircon crystals used in</cell></row><row><cell>experiments up to AA37 were from the Mud Tank Carbonatite</cell></row><row><cell>(Australia); later experiments used zircon crystals from Colonia</cell></row><row><cell>(Sri Lanka)</cell></row></table><note><p>b Number of traverses c Experiments performed with graphite and pyrophyllite powder around the capsules (see text)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 2 ,</head><label>2</label><figDesc>and associated errors include uncertainties in temperature and diffusivity of individual experiments. Figs. 3 and 4), and the effect of added halogens remains minor. The Arrhenius equations describing diffusion in the melts with low H 2 O concentrations are, for LCO with 1.7±0.2 wt% H 2 O (experiments AA-40, 41, 20, 53):</figDesc><table><row><cell cols="2">and for MRF with 4.9±0.3 wt% H 2 O (experiments</cell></row><row><cell>AA-5, 33, 59, 27):</cell><cell></cell></row><row><cell>D ¼ 5:39 AE 0:2x10 À9 exp</cell><cell>À142:3 AE 41:8 RT</cell></row><row><cell cols="2">for LCl with 1.0±0.2 wt% H 2 O (experiments AAX1,</cell></row><row><cell>AA-18, 54):</cell><cell></cell></row></table><note><p><p><p><p><p>Melts of the same anhydrous composition with similar measured water contents were grouped together such that the standard deviation about the mean water concentration was 0.5% absolute, or less. Although Zr diffusion coefficients in each base melt are similar, Zr diffusion in each melt with $ 4.5 wt% H 2 O can be described by its own Arrhenius line: for LCO with 4.4±0.4 wt% H 2 O (experiments</p> 32, 29, 37, 39, 38, 50)</p>:</p>D ¼ 2:88 AE 0:03x10 À8 exp À140:</p>1 AE 33:9 RT for LCl with 4.5±0.5 wt% H 2 O (experiments AA-58, 31, 51): D ¼ 2:33 AE 0:05x10 À4 exp À254:8 AE 64:1 RT D ¼ 2:54 AE 0:03x10 À5 exp À223:8 AE 15:5 RT When $2 wt% H 2 O is present in the melt, diffusion at any temperature is approximately 1.5-2 orders of magnitude below the diffusion measured in melts with 4.5 wt% H 2 O (D ¼ 1:87 AE 0:04x10 À6 exp À233:4 AE 20:2 RT and, for MRF with 2.3±0.3 wt% H 2 O (experiments AA-11, 60, 19, 55): D ¼ 6:76 AE 0:1x10 À8 exp À168:0 AE 22:4 RT</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 3</head><label>3</label><figDesc>Crystallization experiment conditions and results</figDesc><table><row><cell>Sample</cell><cell>Composition</cell><cell>T</cell><cell>Time</cell><cell>FeO*</cell><cell>Zr</cell><cell>Comments</cell></row><row><cell></cell><cell></cell><cell>(°C)</cell><cell>(s)</cell><cell>(wt%)</cell><cell>(ppm)</cell><cell></cell></row><row><cell>LHZr7</cell><cell>LCOZr</cell><cell>1,050</cell><cell>154,800</cell><cell>0.70 (0.02) a</cell><cell>938 (71)</cell><cell>1.0 GPa, $4.5 wt% H 2 O</cell></row><row><cell>LHZr5</cell><cell>LCOZr</cell><cell>1,200</cell><cell>72,000</cell><cell>0.69 (0.02)</cell><cell>2,722 (42)</cell><cell>1.0 GPa, $4.5 wt% H 2 O</cell></row><row><cell>LHZr6</cell><cell>LCOZrFe</cell><cell>1,200</cell><cell>72,000</cell><cell>4.18 (0.05)</cell><cell>2,909 (92)</cell><cell>1.0 GPa, $4.5 wt% H 2 O</cell></row><row><cell>AA68</cell><cell>LCOZrFe</cell><cell>1,400</cell><cell>72,000</cell><cell>4.53 (0.22)</cell><cell>12,257 (754)</cell><cell>0.1 MPa, log f O2 =-0.6</cell></row><row><cell>AA66</cell><cell>LCOZrFe</cell><cell>1,400</cell><cell>72,000</cell><cell>4.31 (0.28)</cell><cell>13,431 (813)</cell><cell>0.1 MPa, log f O2 =-6.6</cell></row></table><note><p>a Uncertainties reported in parentheses are the standard deviations (1r) about the means based upon a minimum of five analyses</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements We give a heartfelt thanks to <rs type="person">T.M. Harrison</rs> for a thorough and educational review and to <rs type="person">E.B. Watson</rs> for inspirational discussions over e-mail. We wish to thank <rs type="person">G. Poirier</rs> for assistance on the electron microprobe, <rs type="person">A. Gibbs</rs> for help with the experiments and <rs type="person">M. Simpson</rs> for valuable advice. This research was funded by <rs type="funder">NSERC</rs> grants <rs type="grantNumber">OGP89662</rs> and <rs type="grantNumber">CPG0183275</rs>, <rs type="funder">FCAR Soutien aux e´quipes de recherche, CNR</rs> grant Bando n.203.05.18 to C.F., and <rs type="funder">CNR</rs> <rs type="programName">Short-Term Mobility Program</rs> <rs type="grantNumber">1998</rs> to <rs type="person">A.M.C. Finally</rs>, the <rs type="funder">Consiglio Nazionale delle Ricerche</rs> is acknowledged for financing the ion microprobe at <rs type="institution">CSCC (Pavia)</rs> whose facility was used in the present work.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_zFYRKjq">
+					<idno type="grant-number">OGP89662</idno>
+				</org>
+				<org type="funding" xml:id="_MuVphuQ">
+					<idno type="grant-number">CPG0183275</idno>
+				</org>
+				<org type="funding" xml:id="_YWJ86Tt">
+					<idno type="grant-number">1998</idno>
+					<orgName type="program" subtype="full">Short-Term Mobility Program</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The combined effect of F and H 2 O on interdiffusion between peralkaline dacitic and rhyolitic melts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">`</forename><surname>Bossa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="203" to="214" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The low viscosities of F + H 2 Obearing granitic melts and implications for melt extraction and transport</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vaillancourt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="199" to="211" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Solubilities of sulfur, noble gases, nitrogen, chlorine, and fluorine in magmas</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Carroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Webster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Volatiles in magmas</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Carroll</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Holloway</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="231" to="279" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Eruptive pegmatite magma: rhyolite from the Honeycomb Hills</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Congdon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">P</forename><surname>Nash</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Mineral</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="1261" to="1278" />
+			<date type="published" when="1991">1991</date>
+			<pubPlace>Utah</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">The mineralogy and petrology of compositionally zoned ash flow tuffs, and related silicic volcanic rocks, from the McDermitt Caldera Complex</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Conrad</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984">1984</date>
+			<pubPlace>Nevada-Oregon</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J Geophys Res</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="8639" to="8664" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">The mathematics of diffusion</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+			<publisher>Clarendon Press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Experimental investigation of LILE, HFSE, and REE partitioning between calcic amphibole and basaltic melt: the effects of pressure and oxygen fugacity</title>
+		<author>
+			<persName><surname>Dalpe´c</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page" from="233" to="250" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Multistage Variscan magmatism in the Tauren Window (Austria) unveiled by U/Pb SHRIMP zircon data</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eichorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Loth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ho¨ll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Finger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shermaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kennedy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="418" to="435" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Solution behavior of +4 cations in high silica melts: petrologic and geochemical implications</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Ellison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Hess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="343" to="351" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Does Zr-F &apos;complexation&apos; occur in magmas?</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Farges</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem Geol</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="253" to="268" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Trace elements behavior in granite genesis: a case study. The calc-alkaline plutonic association from the Querigut Complex</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fourcade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Allegre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="177" to="195" />
+			<date type="published" when="1981">1981</date>
+			<pubPlace>Pyre´ne´es, France</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Reduction of water loss from gold-palladium capsules during piston-cylinder experiments by use of pyrophyllite powder</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Freda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ottolini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Mineral</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="234" to="237" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Crystallization of apatite in natural magmas under high pressure hydrous conditions, with particular reference to orogenic rock series</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="96" to="105" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The application of trace elements to the petrogenesis of igneous rocks of granitic composition</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Hanson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="26" to="43" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Kinetics of zircon dissolution and zirconium diffusion in granitic melts of variable water content</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="66" to="72" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The behavior of apatite during crustal anatexis: equilibrium and kinetic considerations</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1467" to="1477" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Cause of chemical zoning in the Bishop (California) and Bandelier (New Mexico) magma chambers</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hervig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Dunbar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="97" to="108" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Thermodynamic mixing properties and the structure of silicate melts</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Hess</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Structure, dynamics and properties of silicate melts</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="145" to="189" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Gradients in silicic magma chambers: implications for lithospheric magmatism</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hildreth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geophys Res</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="10153" to="10192" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Catastrophic isotopic modification of rhyolitic magma at times of caldera subsidence, Yellowstone Plateau field</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hildreth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Christiansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Neil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geophys Res</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="8339" to="8369" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Isotopic and chemical evidence concerning the genesis and contamination of basaltic and rhyolitic magma beneath the Yellowstone Plateau volcanic field</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hildreth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Halliday</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Christiansen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Petrol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="63" to="138" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Identifying accessory mineral saturation during differentiation in granitoid magmas: an integrated approach</title>
+		<author>
+			<persName><forename type="first">Pwo</forename><surname>Hoskin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Kinny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wyborn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Chappell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Petrol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="1365" to="1396" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">A high-temperature assembly for 1.91-cm (3/4 in.) piston-cylinder apparatus</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hudon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Toft</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Mineral</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="145" to="147" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Influence of fluorine on the enrichment of high field strength trace elements in granitic rocks</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Keppler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="479" to="488" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Role of fluids in transport and fractionation of uranium and thorium in magmatic processes</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Keppler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Wyllie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="531" to="533" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Partitioning of Cu, Sn, Mo, W, U and Th between melt and aqueous fluid in the system haplogranite-H 2 O-HCl and haplogranite-H 2 O-HF</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Keppler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Wyllie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="139" to="150" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Measurement of solubility of zircon (ZrSiO 4 ) in synthetic granitic melts</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Larsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans Am Geophys Union</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page">479</biblScope>
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Kinetic theory in the Earth sciences</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<publisher>Princeton University Press</publisher>
+			<pubPlace>Princeton</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Internal differentiation of rare element pegmatites: effects of boron, phosphorous, and fluorine</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>London</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="403" to="420" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Chemical controls on the solubility of Zr-bearing phases in simplified peralkaline melts and application to the Strange Lake Intrusion, Quebec -Labrador</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Marr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Williams-Jones</forename><surname>Ae</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can Mineral</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="1001" to="1008" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Depletion of high rare-earth elements in felsic magmas</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Mittlefehldt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geology</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="129" to="133" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Geochemistry of the Sweetwater Wash Pluton, California: implications for &apos;anomalous&apos; trace element behavior during differentiation of felsic magmas</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Mittlefehldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Miller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="9" to="124" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Petrosa data bank of major element chemical analyses of igneous rocks for research and teaching (version 6.1). Boulder Colorado, NOAA -National Geophysical Data Center</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Mutschler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Rougon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">P</forename><surname>Lavin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Nasdala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Go¨tze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Pidgeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Kempe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Seifert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="300" to="306" />
+			<date type="published" when="1981">1981. 1998</date>
+		</imprint>
+	</monogr>
+	<note>Constraining a SHRIMP U-Pb age: micro-scale characterization of zircons from Saxonian Rotliegend rhyolites</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Measurement of water in rhyolitic glasses: calibration of an infrared spectroscopic technique</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Stolper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Epstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am Mineral</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="1527" to="1541" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Determination of hydrogen in silicates by secondary ion mass spectrometry</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ottolini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bottazzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zanetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vannucci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Analyst</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="1309" to="1313" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">The Macusani glasses SE Peru: evidence of chemical fractionation in peraluminous magmas</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pichavant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Herrera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boulmier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Briqueu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Joron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Juteau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Marin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Michard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Smf</forename><surname>Sheppard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Treuil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vernet</surname></persName>
+		</author>
+		<editor>Mysen BO</editor>
+		<imprint>
+			<date type="published" when="1987">1987</date>
+			<publisher>Geochemical Society</publisher>
+			<biblScope unit="page" from="359" to="373" />
+			<pubPlace>University Park, Pennsylvania</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Magmatic processes: physiochemical principles. Special publication 1</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Inherited zircon and titanite U-Pb systems in an Archaean syenite from Southwestern Australia: implications for U-Pb stability of titanite</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Pidgeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bosch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Bruguier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="187" to="198" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Internal structures of zircons from Archean granites from the Darling Range batholith: implications for zircon stability and the interpretation of zircon U-Pb ages</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Pidgeon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Nemchin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Hitchen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="288" to="299" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Contrasting evolution of fluorine-and boron-rich tin system</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Pollard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pichavant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Charoy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Miner Deposita</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="315" to="321" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Comportements diffe-rencie´s de W, Sn, U, Ta, Nd dans quelques complexes granitiques du Massif Central Franc¸ais</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Raimbault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Treuil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull Mine´ral</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="591" to="601" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Monazite solubility and dissolution kinetics: implication for the thorium and light rare earth chemistry of felsic magmas</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Rapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="304" to="316" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Rutile saturation in magmas: implications for Ti-Nb-Ta depletion in island-arc basalts</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ryerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="225" to="239" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Peralkaline ash flow tuffs and calderas of the McDermitt Volcanic Field, south east Oregon and north central Nevada</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Rytuba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Mckee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geophys Res</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="8616" to="8628" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Fluorine in silicate glasses: a multinuclear nuclear magnetic resonance study</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schaller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Keppler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kno¨ller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Merwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sebald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mongolia. Mineral Petrol</title>
+		<editor>
+			<persName><forename type="first">M</forename></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="255" to="273" />
+			<date type="published" when="1991">1992. 1991</date>
+		</imprint>
+	</monogr>
+	<note>Geochim Cosmochim Acta</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Zircon saturation in felsic liquids: experimental results and application to trace element geochemistry</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="407" to="419" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Some experimentally-determined zircon/liquid partition coefficient for the rare-earth elements</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="895" to="897" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Phosphorous and the rare-earth elements in felsic magmas: an assessment of the role of apatite</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Capobianco</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="2349" to="2358" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Apatite/liquid partition coefficients for the rare earth elements and strontium</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Green</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="405" to="421" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Zircon saturation revisited: temperature and composition effects in a variety of crustal magma types</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="295" to="304" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Water solubility and chlorine partitioning in Cl-rich granitic systems: effects of melt composition at 2 kbar and 800 °C</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Webster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="659" to="678" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Least squares fitting on a straight line with correlated errors</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>York</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="320" to="324" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

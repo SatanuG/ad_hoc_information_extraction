@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The behavior of apatite during crnstal anatexis: Equilibrium and kinetic considerations</title>
+				<funder ref="#_Kk5sUws #_hKErQ23">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_bMPzgYD">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">Mark</forename><surname>Harrison</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Geological Sciences</orgName>
+								<orgName type="institution">State University of New York at Albany</orgName>
+								<address>
+									<postCode>12222</postCode>
+									<settlement>Albany</settlement>
+									<region>New York</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><forename type="middle">Bruce</forename><surname>Watson</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Geology</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<postCode>1218 I</postCode>
+									<settlement>Troy</settlement>
+									<region>New York</region>
+									<country key="US">U.S.A</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The behavior of apatite during crnstal anatexis: Equilibrium and kinetic considerations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DE5C7F2C724EC93A7FD09A0D63F3607C</idno>
+					<note type="submission">Received September 26, 1983; accepted in revised form April 6, 1984</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The solubility and dissolution kinetics of apatite in felsic melts at 8.SO"-1500°C have been examined experimentally by allowing apatite crystals to partially dissolve into apatite-undersaturated melts containing O-10 wtl water. Analysis of P and Ca gradients in the crystal/melt interfacial region enables dete~ination of both the diffisivities and the saturation levels of these components in the melt. Phosphorus diesion was identifi~ as the rate-limiting factor in apatite dissolution. Results of four experiments at 8 kbar run in the virtual absence of water yield an activation energy (E) for P diffusion of 143.6 + 2.8 kcal-+ 2.88 mol-' and frequency factor (Q) of 2.23 _ ,,26 X IO* cm2-set-'. The addition of water causes dramatic</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>and systematic reduction of both E and Do, such that at 6 wt% H20 the values are -25 kcal-mol-' and IO-' cm*-set-', respectively. At 13OO"C, the diffusivity of P increases by a factor of 50 over the first 2% of water added to the melt, but rises by a factor of only two between 2 and 6% perhaps reflecting the effect of a concentration-dependent mechanism of HZ0 solution. Calcium diffusion gradients do not conform well to simple diffusion theory because the release of calcium at the dissolving crystal surface is linked to the transport rate of phosphorus in the melt, which is typically two orders of magnitude slower than Ca. Calcium chemical diffusion rates calculated from the observed gradients are about 50 times slower than calcium tracer diffusion.</p><p>Apatite solubilities obtained from these experiments, together with previous results, can be described as a function of absotute temperature (7') and melt composition by the expression:</p><p>In ~;QllWmell = [(8400 + ((SiOr -OS)264 X lO*))/n -i3.1 + ( 12.4(Si02 -OS))]</p><p>where SiOr is the weight fraction of silica in the melt. This model appears to be valid between 45% and 75% SiOl, 0 and 10% water, and for the range of pressures expected in the crust.</p><p>The diffusivity information extracted from the experiments can be directly applied to several problems of geochemical interest, including 1) dissolution times for apatite during crustal anatexis, and 2) pileup of P, and consequent local saturation in apatite, at the surfaces of growing major-mineral phases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCHON</head><p>THE ABILITY of magmatic apatite to concentrate geochemically important elements such as the rare earths has been well documented in recent years (e.g., <ref type="bibr">NA-GASAWA, 1970;</ref><ref type="bibr" target="#b33">WASS et al., 1980</ref>; <ref type="bibr" target="#b13">HENDERSON, 1980)</ref> and has led to several experimentat studies elucidating the chemical behavior of this common accessory phase during the generation and evolution of mafic, intermediate, and felsic magmas <ref type="bibr" target="#b22">(WATSON, 1979b</ref><ref type="bibr" target="#b24">(WATSON, , 1980;;</ref><ref type="bibr" target="#b10">GREEN and WATSON, 1982;</ref><ref type="bibr">WATSON and CAPO-BIANCO, 198 1)</ref>. Recently, we have undertaken to characterize the "fundamental accessory phase parameters" (solubilities, kinetic properties and partition coefficients; see <ref type="bibr" target="#b29">WATSON and HARRISON, 1984a)</ref> for all accessories of importance specifically during crustal melting. This goal has led us to expand on and consolidate previous experimental studies of apatite to produce a comprehensive model describing the saturation systematics and melting behavior of this c~stally-ubiquitous mineral. Because apatite preferentially incorporates REE, U and P, its stability during anatexis can affect the re-distribution between melt and residue of these commonly-utilized trace elements. If apatite saturation in the melt is reached at very low concentrations of P205, then observed higher concentrations of phosphorus in granitoid rocks can be taken to mean that residual or inherited apatite, possibly not in trace-element or isotopic equiIib~um with the melt, was carried from the source region. Before detailed geochemicaf modelling of this kind of process is justified, however, the problem needs to be examined by experiment. In this paper we describe apatite dissolution experiments made over a considerable range in temperature (850°C to 1500°C) that allow resolution of the temperature dependence of apatite solubility and dissolution rate. Extension of these relationships to temperatures appropriate to partial melting in the crust permits the question of residual apatite in granitoid magmas to be addressed. A companion study currently in progress (WATSON et al., <ref type="bibr">1984)</ref> will focus on the diffusion rates of Sr, Pb, and REE in apatite, with the specific objective of shedding light on the extent of trace-element equihbration between inherited crystals and surrounding melt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL AND ANALYMCAL METHODS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Genera! approach</head><p>Experimental dimoiution of an mry mineral (in this case apatite) into a felsic melt initially undersaturated in that mineml can yield information related to I ) the mineral solubitity in the melt; 2) the transport kinetics of mineral components in the melt; and 3) the rate of mineral dissolution (HARRISON <ref type="bibr">and WATSON, 1983)</ref>. In this study of apatite behavior, partial dissolution was accomplished by immersing oriented cubes of apatite in a feisic melt and ahowing them to react over the course of a few hours to a few days. On completion of an experiment of this type, the gradients in P and Ca concentration in tbe melt surrounding the dissolving crystal can he measured by electron microprobe and used to extract the information enumerated above.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimenfd details</head><p>Following the example of HARRISON and WATSON ( f983), 15 dissolution experiments were made over the temperature range 1100*-l 500°C at 8 kbar pressure, with one additional run at 850°C and 1 kbar. For each experiment, a 2-mm size cube of tluorapatite, polished on two opposing sidea was packed in 15 mg of finely-ground, crystal-free, nearly waterfree obsidian from Lake County, Gmgon (76.01% SQ; 0.11% TiOz; 13.00% AL@,; 0.70% FeQ 0.09% MgG; 0.52% Cao; 4.81% K,O, 3.65% Na&amp; L.O.I. = 0.17 wt%, assumed to be H,O). The containers for the glass f apt&amp;e "couples" were covered graphite crucibles in the case of four runs made under "dry" conditions and sealed Pt capsules for the 12 additional runs in which 1.0-10.2 wt% H&amp;J was added to the starting materials. AlI experiments except that at 850" were made in a piston&amp;inder apparatus, using %* assemblies consisting of N&amp;l and Pyrex outer sleeves with intemal ftller pieces of crushable AlzOJ at the top and Pyrex (for the "dry" expetiments) or unfired pyrophylhte (for the wet experiments) at the bottom. The 85O&amp;gree experiment was made in a standard cold-seal pressure vessel. Run-up and quench times were in all cases insignificant relative to run duration. Information mgarding temperature, duration, and water content of all runs is summa~ in Table <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis</head><p>Gradients in P and Ca concentration adjacent to the dissolving apatite crystals were charactnized using the ETEC Autoprobe facility of the State University of New York at ARxtny, operating at an acceierating voltage of 20 kV and a sample current of about 100 nA. For ail an&amp;ses, the electron beam spot was elongated into a bar approximately 10 by 2 microns, oriented parallel to the boundary between apatite and obsidian. This dispersal of the beam energy allowed high sample curtents to be used without damaging the glasses. thus achieving high count rates while still maintainiug good spatial msolution in the direction perpendicular to the crystal interface. Phosphorus concentrations wem determined using K,, x rays collected via a TAP analyzing crystal and Ar flow counter (up to 160 counts/sec/%P20, for the conditions described) and Ca levels were determined using a PET crystal and Ar tlow counter (about 600 counts/sec/%~O). Counting times of 40 or 100 seconds per analysis were sufbcient for resolution of the concentration protiies.</p><p>To correct for a possible secondary tluorescence effect (HEINRKH, 1981) close to the apatite/obsidiin interface, a blank couple was pmpamd consisting of polished surhu~~ of apatite and obsidian bound together and sectioned normal to the interface so as to provide a geometry equivalent to that of the unknowns. The observed secondary tluorescence effects for P and Ca were always less than 10% and genera&amp; less than 5% of the count rates on runs 1 through 16 near the crystal/glass bou*, consequermy, no adjustments were made to the raw counts. Due to the vety low count rates on run U 17, however, secondary fluorescence contributed as much as 60% of the total counts and was accordingly monitored very closely. All data were cormzted for matrix effects by the method of BENCE and ALBEE (1968).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DIFFUSION OF APATLTF COMPONENTS IN THE MELT</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phosphorus d@iion</head><p>Concentration pro&amp;s of both phosphorus and Calcium were detected in the glass adjacent to the apatite in ah 16 rnns reported in Table <ref type="table">I</ref>. The observed P profiles are well-defkd diffusion gradients, typified by that in run #3, which is shown in Fig. <ref type="figure">1</ref>. In this case, the P205 concentration drops From an initial value at the crystai~melt interface (cg) of4.05% to background in 125 microns. Diffusion coefficients (r&gt;f were calctdated from these phosphorus inanition gradients using the solution to Fick's second law for the situation in which a fixed boundary separates two semi-infinite regions, one of which is initially at zero concentration (Le., the melt), the other at a concentration constant with time (i.e., the crystal):  (above the starting concentrations) in obsidian adjacent to a dissolving apatite crystal after treatment at 1400°C for 7.33 h. Each datum for P and Ca represents 100 set and 40 see count times, respectively. The ph~bo~ gradient conforms well to simple diffusion theory as attested by the good fit of the data to the error function curve. The calcium profile is complex and results from a combination of two effects, 1) the timed release of Ca from the crystal surface which is controlled by the diffisivity of P which is two orders of magnitude slower, and 2) the preferential partitioning of Ca into an SiOrdeficient boundary layer. The dashed curve shows the theoretical profile for Ca resulting from the timed release alone.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>11-j</head><p>where c~,, is the concentration at distance x from the interface at time t, and CO is the concentration in the melt at the interface (i.e., the PzOs content appropriate for saturation in apatite; see "Apatite Saturation" section below). Equation ( <ref type="formula">1</ref>) is not entirefy rigorous for our use here, inasmuch as the dissolving crystal surface does not constitute a fixed boundary. However, provided that the saturation level is relatively low, as in our case with apatite, the boundary movement is small with respect to the length of the diffusion gradient. Despite the relatively high levels of diffusing phosphorus in the melt, we have calculated dihusivities using a model (Eon. 1) that assumes concentration independence of D. This is justified because P appears to be the slowest-moving component in the melt, so no charge-balance impediment can be imposed by another species to further slow its exchange. Effects arising from the high concentration of P alone appear to be small, as ah data conform well to the error function model (Table <ref type="table" target="#tab_0">1</ref>).</p><p>Diffusion coefficients for P were calculated from Eqn. (1) following the approach of HARRISON and WATSON <ref type="bibr">(1983)</ref>; who inverted their diffusion gmdients through the error function to obtain a linearized plot, which was forced to pass through the origin by appropriate choice of G,. This method yields the phosphorus diffusivity (from the slope of the line) with uncertainty estimate, as well as an objective assessment of co. Phosphorus diffusivities calculated in this manner, along with uncertainties obtained from the regression approach, are tabulated in Table <ref type="table" target="#tab_0">1</ref> and shown on an Arrhenius plot in Fig. <ref type="figure">2</ref>. The four virtually "dry" runs (l-3, 14) plot on a line defining a remarkably high activation energy (E) of 143.6 f 2.8 + 2.88 kcal-mol-' and frequency factor (Do) of 2.23 _ I 26 X 10' cm'-set-'. In contrast, the three runs containing about 6% water (8, 12, and 16) define an E of about 25 kcal-mol-' and a Do of about fO_" cm*-see-'. Intermediate between these two diffusion laws is the line indicated by the three runs containing about 2% water (6, 10, and 15), which yield an E of about 60 kcalmol-' and DO of about 0.2 cm2-set-'. Although they do not define good Arrhenius lines, the runs ~n~~~ 1% and roughly 4% water are consistent with the trend described above; in addition, run #I 3, containing 10.2% water, plots well above the rest of the data, indicating a continuing effect of water on P dif&amp;sivity at levels above 6% dissobed H@.</p><p>The remarkable increase in P diffirsivity with increasing water content was anticipated on the basis of several recent studies that have demonstrated similar effects on other cation transport rates in hydrous melts (JAMBON et al., <ref type="bibr" target="#b9">1978;</ref><ref type="bibr">WATSON, 1979a</ref><ref type="bibr" target="#b25">WATSON, , 1981</ref>; HAR-RISON and WATSON, 1983). These results seem consistent with the observation that water added to a silicate melt speciates to hydroxyi groups by reaction with bridging oxygens (e.g., STOLPER, 1982; ACOCELLA et al., 1984). The increase in diffisivity could then be viewed simply as a consequence of decreased melt viscosity, or, perhaps more speculatively, as a result of the proliferation of non-bridging oxygens and hence the increase in number of potential cation sites. Such an increase would presumably decmase the average distance of a single diffisive jump.</p><p>Along with the P diffusion gradient for run #3, Fig. <ref type="figure">1</ref> shows the ~~bution of CaO above the starting concentration of 0.5%. This distribution, characterized by a rapid decrease away from the boundary followed by a long, flat portion, is typical of virtually ail runs analyzed, with the exception of # 13, which apparently equilibrated with respect to CaO throughout the charge. The obvious surprises in the run #3 data (Fig. <ref type="figure">1</ref>) are the apparent C?aO boundary inanition of only 0.8% and the dissimilarity of the profile to an error function relation. Because the solubihty of P205 (given by co) in this run is 4.05 wt%, about 5.3 wt% CaO must be iibemted at the interface during congruent apatite dissolution. Why then the anomalously low intercept?</p><p>We believe the answer lies in the markedly different difisivities of P and Ca.</p><p>Several studies of the tracer diffusivity of Ca in a variety of dry silicate melts have yielded intrinsic diffusivities at (or extrapolated to) 1400°C of 2 X lo+ cm2-set-' (WATSON, i 979c, 198 I ; JAM~K)N, 1982). A chemical d&amp;sivity bearing some resemblance to these high values would stand in marked contrast with the chemical diffusivity of P at 14OO*C (4 X 1Q-" cm2set-'; see Table <ref type="table" target="#tab_0">1</ref> and Fig. <ref type="figure">1</ref> ), and would also suggest that the rate-limiting process in apatite dissolution is diffusion of P in the melt. The overaB process of dissolution can then be viewed as follows: As phosphorus is initially transported away from the surface, the apatite dissolves until the P20s concentration at the surface has risen to that required for apatite saturation. tiring this time, 5 moles of Ca are released for every 3 moles of P, as required by apatite stoic~omet~.</p><p>The high chemical diffusivity of Ca allows this released Ca to rapidly move away from the interfacial region. The result, then, will be to increase the average diffusion length of Ca relative to that of P, but s~mul~neousl~ to decrease the apparent value of co for Ca. However. the total number of Ca atoms in the melt, integrated over the entire Ca profile, will always be 1 67 times the number of P atoms in the melt. This behavior is analogous to the transport of heat away from an ins~n~n~us plane source (CARSLAW and JAEGER, 1959). If material is liberated at a rate Fin a plane at x = 0 separating semi-infinite regions of crystal and melt, the concentration as a function of distance x from the boundary after time I is given by:</p><formula xml:id="formula_0">-(Fx/2D,,) erfc[#(4&amp;&amp;!' '1 (2)</formula><p>where DC* is the diffisivity of the liberated species, i.e. Ca, in the melt. The rate of Ca release, F, is given by Fick's first law [flux = constant (dcldx)) as the flux of material across the interface at x = 0, where the constant of pro~~ion~ity is the diffusivity ofthe species limiting the rate of dissolution, in this case phosphorus. The con~n~tion gradient. dcjdq is taken as unity because all calculations involve ratioing the CaO distribution in a reference state to that obtained using a trial value of Dca to describe the observed d~~~bution. Thus F = phosphorus diffusivity. To model the observed CaO gradients, we first evaluated Eqn. (2) for the case in which F and DC, have the same value, which amounts to assuming that the two components being transported away from she surface have identical diffusivities. The resulting value of co., corresponds to the value expected from sto~chiomet~c dissolution, i.e. 5.3% CaO for run #3. Evaluation of Eqn. (2) using better estimates of Dca yields c;.( values that can be translated into weight per cent oxide by simple division by co,*.</p><p>For the example of run #3 (Fig. <ref type="figure">IX</ref> we have substituted a variety of trial values of DQ to best fit the observed d~~~butioo. For a Da equivalent to @a tracer diffusivity (D&amp;) at 1400°C of 2 X 10Y6 cm2-sec-.', the intercept is 0.1% CaO and the concentration profile is several thousand microns tong. Clearly, the chemical diffusivity of Ca is substantiaiiy lower than the tracer estimates. For a DC. of 5 X lo-' cm'-set", an intercept of about 0.4% CaO is returned, together with a concentration ~st~bution that closely hts the observed distribution. A value of DCa much lower than this would yield a diffusion profile considerably steeper than that found in the sample. The theoretical profile is shown on Fii. 1 as a dashed curve, and can be seen to ftt the measured data quite well except for the steep portion near the crystal interface. This region mimics in many respects the P diffusion gradient, and cannot in fact be described by a timed-release mechanism because such an effect produces a convex-upward curve rather than the observed strongly concave feature. Our explanation is that the melt very close to dissolving apatite becomes somewhat more basic by addition of apatite components, forming an SiO+leficient bounclary layer into which Ca is preferentially partitioned (see <ref type="bibr" target="#b26">WATSON, 1982)</ref>. Beyond the region aE&amp;ted by the P gradient, the measured CaO gradient is wellexplained by Eqn. (2). Apparent chemical difhtsivities for Ca in the obsidian melt are given in Table <ref type="table">I</ref> for cases in which the quality of the data was sufficient to allow meaningful calculation. For the "dry" runs, estimates of Da are typically 2 orders of magnitude faster than P diffusion, but about a factor of 50 less than calcium tracer diffusivities. The data also indicate a lower activation energy for Ca diffusion than for P diffusion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APATITE SATURATION</head><p>Like any crystalline phase coexisting stably with a Liquid, apatite has a finite solubility in granitic liquids that is subject to change with variations in the intensive and extensive parameters of the system. In conventionat thermodynamic terms, that solubihty could be expressed by the reaction (</p><formula xml:id="formula_1">)<label>3a</label></formula><p>Inasmuch as all igneous apatites are virtually pure fluorapatite (DEER et aZ., 1966), a~~~~~ will generally be close to 1. Nevertheless, it is obvious from inspection ofthe ~ui~b~urn constant that the stable coexistence of apatite and melt is predicated upon sufficiently high activities of all dissolved apatite components (CaO, Pro,, and F) and may also be subject to changes in oxygen fugacity or oxygen ion activity.</p><p>Unfortunately, the thermodynamics of silicate melts are not understood to the point that first-principles calculation of activities, especially for components such as PrOr and F, is possible even for the simplest magmatic liquid at a single temperature and pressure. Interpretation of experimental data on apatite/melt equilibria in the above context is therefore not very useful for predictive purposes.</p><p>An alternative, but no less the~~ynami~~ly valid, treatment of apatite solubility was presented by <ref type="bibr" target="#b22">WATSON (1979b)</ref>, and has since been widely supported by additional experimental data <ref type="bibr" target="#b24">(WATSON, 1980;</ref><ref type="bibr" target="#b10">GREEN and WATSON, 1982)</ref> and discussed by <ref type="bibr">WATSON and</ref><ref type="bibr">HARRISON (1983, 1984a.b)</ref> in reference to accessory minerals in generai. An important initial assumption in the approach (later supported by the experimental data) is that saturation with respect to an accessory phase may be limited by the activity in the melt of a single, low-abundance component that is structurally necessary to the mineral in question. <ref type="bibr" target="#b20">SUN and HANSON (1975)</ref> have called such components essential structural constituents (MC's); in the case of apatite, the ESC is of cowxe phosphorus. The other apatite components are regarded as universally present in magmas at sufficiently high concentmtion to stabilize apatite, provided P,O, activity is also hi enough.</p><p>it thus makes sense to approach the probtem of apatite saturation simply by rn~u~ng the amount of dissolved P20, in melts that are demonstrably in equilibrium with apatite. Our previous work on apatite solubility (WATSON, <ref type="bibr" target="#b22">1979b</ref><ref type="bibr">, 1980;</ref><ref type="bibr">WATX~N and CA-POBIANCO, 198 1;</ref><ref type="bibr" target="#b10">GREEN and WATSON, 1982)</ref> comprises over 150 experiments at 700"-1350°C and 0.00 1 to 25 kbar in which the compositions of a wide variety of apatite-saturated melts were well characterized. The sum total of these results clearly shows that the level of dissolved Pro5 required for apatite ~tu~tion depends principally and systematically upon temperature (T) and SiO, content of the melt, being positively dependent upon T and negatively dependent upon SiOr . We conclude, then, that T and SiOt content are the primary factors affecting 0%. Wide variations in other components (including Ca, So, and F) have no apparent effect on apatite solubility, a fact that lends credence to our general assumption that Pro, activity in the melt is the limiting factor in apatite stability.</p><p>The systematic behavior described above can be directly applied to the prediction of apatite saturation in natural magmas. The most notable success along these lines was the calculation of a temperature of initial apatite precipitation in the Skaergaard intrusion that agrees remarkably we11 with other geothermometers (WATSON, 1979b). The temperature dependence of apatite solubility is most readily understood and utilized by simple consideration of the distribution of phosphorus between apatite and melt. Beginning with the requirement of equilibrium that /Iaa&amp;ic = &amp;n&amp;t, This relation predicts a systematic dependence of the phosphorus concentration ratio, P20~pBti"/PzO~", upon l/T, and suggests a useful way to plot analytical data on apatite-saturated melts. The only complicating factor to be. considered is that, although ag5" is essentially unsent at a particular temperature (due to the fixed stoichiomet~ of apatite), up* will vary with melt composition. Previous experiments show, however, that most of the variation in as at a given temperature is caused by changes in melt SiOz content. Thus, a linear relation between ln( PrO;pu'"/PrO~") and l/T can be expected only if the melts of interest have the same SiOr contents.</p><p>The considerations enumerated above should constitute adequate background for discussion of the new apatite solubility data extractable from the present experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Present and previous results</head><p>As noted previously, the algorithm used for the calculation of P diffusion coefficients allows the surface concentration, eo, for PzO, to be determined objectivefy from the phosphorus diffusion profiles. These wncentmtions, which correspond to the amount of dissolved Pz05 required for apatite saturation at the run conditions, are summarized in Table <ref type="table">I</ref>. Generally, the values for runs of a given temperature appear not to be strongly influenced by water content (see especially the 1200°C data), a conclusion reached previously by GREEN and WATSON <ref type="bibr">(1982)</ref> on the basis of apatite saturation experiments on somewhat more matic compositions containing variable amounts of water. Because water content is the only variable among runs at one temperature, we have pooled the isothermal saturation values from Tabie 1 and taken the standard deviation of the mean as an estimate of the uncertainty in the data7 except at 1400" and 1500°C where only one data point was a&amp;able. Following the reasoning outlined in the preceding section, the results were recast as the natural logarithm of the ratio of P&amp;Is in apatite (42.0%) to that in the melt at saturation, and plotted against the reciprocal absolute temperature of the run (Fig. <ref type="figure">3</ref>). A single line should be defined on such a plot because the SiOz contents of the melts are roughly equal (see above section). The diagram also summarizes apatite saturation data from <ref type="bibr" target="#b10">GREEN and WATSON (1982)</ref> for 75% SiOz (close to the present starting composition) as well as 60% and 50% SiOz . The two values attributed to GREEN and WATSON ( 1982) for 75% SiOz (950' and 1080°C) are actually small extrapolations of their results from slightly lower SiO, contents. In combination with the present results, the 75% Si02 data define a slope proportional to an enthalpy of solution of 30 kcal-mot-'; at 50% SiO,, the previous resufts indicate a value of roughly 17 kc&amp;mole-'. Also included in Fig. <ref type="figure">2</ref> is the mean value of three 13OVC experiments of <ref type="bibr">WKrsoN ( 1980)</ref>. These runs, performed at 8 or 12 kbar, have SiOz contents between 48 and 52 per cent and provide an additional constrainr on the curve describing the saturation behavior of melts containing 50% SiOz . A possible explanation for some of the scatter in the "75% SiO," curve at high temperature is that the high soiubiiity of apatite resuits in silica contents at the crystal/liquid interface somewhat lower than 75%. Because of the increased volubility with decreasing silica, ~~-~rn~~tu~ experiments (e.g., run #3) may be displaced below the curve rep resenting 75% SiOt .</p><p>Figure <ref type="figure">3</ref> illustrates clearly the previously-discussed dependence of apatite solubility upon mett SiOL content. It is likely, ofcourse, that other melt composition parameters, especially those related to CaO activity. also a&amp;et apatite solubility, and such differences may contribute to the moderate scatter in published P*O, vs. SiOz plots for apatite-saturated melts (e.g., <ref type="bibr" target="#b22">WATSON, 1979b;</ref><ref type="bibr" target="#b10">GREEN and WATSON. 1982)</ref>. In this context. we point out that the low-temperature apatite saturation data of WATSON and CAPOBIANCO <ref type="bibr">(1981)</ref> for my-~cic wmpositions are not generally wnsistent with the results of the present study (see Fig. <ref type="figure">3</ref>). The previous data do not allow resolution of the temperature dependence of apatite saturation, althou~ the ~~~~~u~ saturation levels at 850" and 900°C do plot close to our line labeki "75% SiO," (Fig. <ref type="figure">3</ref>). However, even the minimum values of the lowest-temperature data (750°-8~aC) are signiticantly below the present 75% SiOZ line. A likely explanation for this discrepancy lies in the compositional differences between the melts used in the two studies: Because of the low temperatures of interest to <ref type="bibr">WATSON and CAPOBIANCO (198 11</ref>, the liquids in their study were restricted to peralkaline compositions [(Na + K)/Al = 1.2-2.01 in which saturation equilibrium could be demonstrated. Such melts may well show a somewhat higher apatite solubility than the "normal" granitic compositions represented by the metaluminous Lake County obsidian. It is also possible that im~~ptibly small apatite crystals in the run products of Watson and Capobianco's 750"-800°C experiments ~nt~but~ some of the x-rays assumed to come from the &amp;ss during microprobe analysis, thus resulting in high apparent apatite solubilities.</p><p>Because the method of estimating apatite solubility used in the present study is not susceptible to the analytical problem just noted, and because the Lake County obsidian is of typical granitic composition, we believe that apatite solubility in highly-siliceous, lowtemperature crustal magmas is best estimated from the extension of the "75% SiOz" line on Fig. <ref type="figure">3</ref>. As noted by GREEN and WAEBN (19821, the position of this line is not liiely to shift su~nti~ly as a result of pressure variations expected in the crust.</p><p>Using all available data, the saturation behavior of apatite in crustal melts containing 0 to 10% water in the temperature range 850' to 1500°C can be described by the expression:</p><p>In D~patite'me" = ((8400 f ((SiOz -0.5)2.64X lO'))/T] -[3.1 -t ( 12.4(Si02 -0.5))] (7</p><formula xml:id="formula_3">)</formula><p>where SiOt is the weight fraction of silica in the melt.</p><p>The relationship appears to be valid between 45% and 75% SiO,.</p><p>In view of the marked dependence of major-miner liquidi upon Hz0 pressure, the insensitivity of apatite solubility to variations in water content is somewhat curious. The explanation for this anomalous behavior may lie in the fact that apatite is a non-silicate: Perhaps P205 complexes in the melt are not subject to reduced activity upon solution of I&amp;O, as is generally the case with silicate structural units, whose Si-0 bonds are hydrolyzed as water dissolves (e.g., STOLPER, 1982).</p><p>Analysis for phosphorus in granitoids commonly yields values in the range 0.01% to 0.12 wt% P205 <ref type="bibr">(WHITE and CHAPPELL, 1977;</ref><ref type="bibr">BATEMAN and CHAP-PELL, 1979;</ref><ref type="bibr" target="#b4">CHAPPELL and WHITE, 1976</ref>). This concentration range is represented in Fig. <ref type="figure">3</ref> as the vertical sides of the dashed rectangle; the other dimension indicates the likely range of temperatures at which the granitoids were formed, i.e., 750" to 900°C. The 60% and 75% Si02 lines [which bracket the range between typical I-type sources and minimum melt compositions (WHITE and CHAPPELL, i977)] project very well into the region defined by this box, indicating that many granitoids may leave their source regions with only the amount of P20s dissolved in the melt at saturation. However, many meta and peraluminous granitoids contain enough bulk phosphorus to plot below the field shown in Fig. <ref type="figure">3</ref>, indicating P205 in excess of that required to saturate the melt. It seems clear that in these cases unmelted apatite has been transported from the source entrained in the melt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>APATITE DISSOLUTION</head><p>Taken on the whole, the di~~~~ data summarized earlier in this paper indicate that the rate of apatite dissolution in static felsic melts is limited by P diffision away from the dissolving crystal. This conclusion is based upon the fact that all observed P diffusion profiles can be fit very well to an error function relation, which could not be the case if some slower step in the dissolution process were limiting the rate of P release (as was clearly demonstrated in the case of Ca). Situations involving apatite dissolution during crustal anatexis can thus be modelled in a fashion similar to that described by <ref type="bibr" target="#b28">HARRISON and WATSON (1983)</ref> for zircon dissolution. By use of the phosphors diffusion laws represented in Fig. <ref type="figure">2</ref>, a m~im~rn time can be calculated for dissolution of apatite crystals of given radius into a melt that remains undersaturated with respect to apatite. Mechanical stirring would of course decrease the time required for dissolution.</p><p>To calculate apatite dissolution rates, we have used the solution to the diffusion equation for the region bounded internally by a sphere of radius r = a to describe the concentration distribution resulting from the radial dilution effect. For the appropriate boundary conditions (HARRISON and WATSON, 1983), the expression is <ref type="bibr" target="#b3">(CARSLAW and JAEGER, 1959</ref> gives apatite dissolution times very similar to those obtained by the method described above. In equation ( <ref type="formula" target="#formula_2">4</ref>), r. is the initial radius, r is the radius at time t, D is the diffisivity of the bubble-forming species, Ci is the initial, uniform concentration of the dissolved spe-ties, c, is the ~~ib~urn concentration at ~tumtion, and p is the bubble density. Although bubble dissolution may appear to be ofdubious relevance to apatite dissolution, the diffusion process involved is identical, and one need simply replace the gas density term in Eqn. ( <ref type="formula">9</ref>) by the density of apatite multiplied by the approximate volume fraction ofP*Or in apatite. [Note: We include Eqn. ( <ref type="formula">9</ref>) here because it is simpler to use than Eqn. (8). It is, however, an approximate solution to a more general equation given by <ref type="bibr">EPSTEIN and PLESSET (1955)</ref>, and is valid only when r e (aDt)"*].</p><p>Dissolution times for apatite crystais of 100 and 500 microns diameter are shown in Fig. <ref type="figure">4</ref> as a function of melt temperature. For a magma at 750°C containing about 6% HzO, dissolution times are very short: about 20 years for the TOO-micron crystal and on the order of 300 years for the 5OOmicron apatite. In contrast, a virtually dry melt at 95O'C would require about 2 Ma to dissolve a 1 OO-micron apatite under static melting conditions. Inasmuch as gmnitoid melts typically contain more than about 3% water (CLJZMENS, 1983) we can conclude that dissolution to the point of saturation occurs very rapidly for apatite immersed in a crust-derived melt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>OTHER KINEnC EFFECBz APATITE INCLUSION IN MAJOR MINERALS</head><p>Many authors have noted the occurrence of apatite as tiny inclusions within the major minerals, particularly the feldspar-s, of intermediate rock types and granitoids (e.g., <ref type="bibr" target="#b9">GILL, 1978;</ref><ref type="bibr">WCIODR~ et al,, 1979;</ref><ref type="bibr" target="#b17">ROSE et al., 1980)</ref>. Such inclusions might seem to be indicative of bulk apatite saturation in the magma prior to growth of the host phase. However, for intermediate magmas at least, GREEN and <ref type="bibr" target="#b26">WATSON (1982)</ref> were unable to reconciie this intuition with their experimental data on apatite saturation-most intermediate magmas are too poor in photons to reach saturation in apatite at major-mineral liquidus temperatures. Green and Watson proposed the alternative explanation that apatite inclusions commonly result from only focal saturation in apatite due to phosphorus "pileup" near the margins of growing phenocrysts, a phenomenon attributable to the combination of fairly rapid phenocryst growth and sfow diffusion of phosphorus away from the advancing crystal inter&amp;e. This suggestion could not be rigorously tested at the time it was proposed because diffusion data on phosphorus were unavailable. However, the diffusivity data obtained in the present study allow model calculations to be made for any assumed phenocryst growth rate.</p><p>Phosphorus pileup against a growing feldspar can be described by the following equation of <ref type="bibr">SMITH d al. (1955)</ref>:</p><formula xml:id="formula_4">Cx/Ci = 1 + (q/2&amp; expl-WD).rl X e&amp;$0.5( 1 /Dt)'"(x -Rt)] -0.5 erfcjOS( 1/Dl)i'2(x + Rt)) 4 + 2(1/q -l/W exp[-q(R/D)(x i RI)] x erfc{O.S( i/D1)"2[S + (2k -I at] 1 (IO)</formula><p>where c, is the concentration of phosphorus in the Iiquid at some distance x from the c~s~/~~~d interface, ci is the P ~n~ntmtion at infinite .x, k is the c~s~/i~quid partition coefficient for P between fetdspar and melt, q = 1 -k, R is the linear crystal growth rate (cm-set-') of feldspar, D is the diffusivity of P (cm2-set-'), and t is time.</p><p>Even with complete knowledge of 0, values for some of the other variables must be estimated or assumed in order to generate a phosphorus pileup model. The partition coefficient, k, is poorly known, but can be safely assumed to be small; we use a value of 0,OO I. and emphasize that the calculation is insensitive to changes in this parameter so long as its value remains much less than 1. Choice of the remaining variables. R and 4, depends on the particular geokigical situation to be modelled. Because our diffisivity data are strictly relevant only to granitic compositions, and because the consequences of apatite crystallization are most significant in crustal systems, we have chosen parameters pertinent to granitoid magma evolution in the lower continental crust. Suppose, for example, that a melt of mafic granitoid composition is generated at a temperature slightly above lOOO"C, consuming all apatite in the source and acquiring a bulk 905 content of 0.1 wt%. As the melt begins to ascend and cool, growth of major minerals will be initiated, but general saturation in apatite (at about 1000") cannot occur, because the P203 concentration is welt below the saturation value of roughly 0.17 wtW (see Fig. <ref type="figure">3</ref>). Local saturation against growing feidspars, however, may be triggered if feldspar growth rates are sufficiently high. Figure <ref type="figure">5</ref> illustrates this process for selected R values of lo-', lo-*, and 10e9 cm-se-' <ref type="bibr">(FENN, 1977)</ref>. In these models, Ci was assigned the initial bulk P&amp;Is content of the melt (0.1%) and phosphorus diffusivity was set at 9 X lo-'* cm2-sec-L (a value appropriate to from 6 h ( IO-' cm/set) to 7 years (IO-' cm/se@. This phosphorus would likely be occluded by the feldspar and be observable in thin-section as minute, possibly oriented, apatite crytals.</p><p>ahout 6% dissolved Hz0 and therefore an estimate terface is reached in only 6.3 h, i.e., after 22.5 microns that is high if anything; see Fig. <ref type="figure">2</ref>). For R = lo-? cmof feldspar growth. In contrast, for R = lo-' cm-see-', see-', apatite saturation at the advancing feldspar in-7.5 years are required for focal apatite saturation, dur-ing which time the feldspar will have grown 2.25 mm. Note also that the phosphorus gradients in the melt at the time of local apatite saturation are distinctly different for these two growth rates: the higher R value results in a diffusional "disturbance" to the ambient PzOs concentration only 100 microns in extent, while for the lower R value, the pileup effect is felt at a distance on the order of 1 cm from the feldspar phenocryst.</p><p>Once apatite saturation is reached at an advancing phenocryst margin, the P,Os concentration at the interface can rise no fu~her-ad~tion~ phenocryst growth will result in precipitation of (probably smaU) apatite crystals, which are likely to be infamy into the growing feldspar. Note, therefore, that continued crystal growth at a constant R value simply preserves a now steady-state situation in which phosphorus pileup is balanced by local precipitation of apatite crystals and their subsequent inclusion in the feldspar. This steady state condition results in an effective feldspar/melt partition coefficient for P,O, of 1; if sustained for long periods of time, this condition could markedly alter the behavior of P (and perhaps other apatite-hosted elements) in felsic rock series.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>The principal conclusions of this study are: 1) Chemical diffusion coefficients calculated from phosphorus gradients observed adjacent to a dissolving apatite yield an activation energy (E) of 143.6 rt 2.8 kcai-mot-' and a frgluency factor (Do) of 2.23 + 2.88 -1.26</p><p>x 1 O9 cmz-set-' for virtually dry run conditions.</p><p>In contrast, runs containing about 6% water define an E of about 25 kc&amp;moi-' and &amp; of toes cm2-set-', and runs with approximately 2% water yield values of E and Q, intermediate between those quoted above (roughly 60 kc&amp;mol-' and 0.2 cm'-set-*, respectively). At 13OO"C, the diffusivity of phosphorus increases by a factor of 50 over the first 2 per cent of added water, but rises only a factor of two further between 2 and 6% H20, probably reflecting a change in the solution mechanism of H20 in the melt.</p><p>2) Chemical diffusion of calcium in granitic melt is generally two orders of magnitude faster than phosphorus chemical diffusion, but about 50 times slower than caicium tracer diffusion. The sluggish diffusion of phosphorus is the rate-limiting pm in apatite dissolution, the more mobile calcium being rapidly conducted away from the dissolving interface. The resulting Ca diffusion gradients bear little resemblance to an error function relation, are well described by a model incorporating timed release from a surface along with a gradient in Ca activity in the me&amp;.</p><p>3) The saturation behavior of apatite in melts containing 0 to 10% water in the temperature range 850" to 1500°C can be described by the expression:</p><p>In OF'-= f(8400 + ((SQ-0.512.64 r l@))/TJ -13.1 t (12.4(SiO, -.. O.S))]</p><p>where SiOz is the weight fraction of silica in the melt. This relationship is valid between about 45 and 75% SiOl. Variations of pressure expected in the crust are unlikely to change significantly any solubility values predicted by this equation. 4) Apatite dissolution in felsic magmas is rate limited by the diffusion of phosphorus in the melt. For a magma at 750°C containing 6% water, iOO-and 500-micron crystals would require about 20 and 300 years, respectively, to dissofve. At 950°C, a virtually dry melt would require about 2 Ma to dissolve a loO_ micron apatite crystal under static meiting conditions. For typical (hydrous) crustal mehs, apatite dissolution to the point of saturation can be considered geologically instantaneous.</p><p>5) As a result of the very slow transport of phosphorus in felsic liquids, the boundary layer around growing feldspars (and other major minerals) will tend to become localljr saturated in apatite, even though the bulk melt may contain too little P for general saturation in apatite. This resuhs in the local precig it&amp;ion of smal! apatite crystals and subsequent occfusion by the growing mineral, as commonly observed in felsic rocks.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>FIG. I. Concentration profiles of phosphorus and calcium</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>0 6.0 6.2 64 6.6 68 70 72 74 7.6 70 80 104/OK RG. 2. Arrbenius-type plot of diffusion coeScients calculated from phosphorus gradients observed adjacent to a dissolving apatite crystal. The four virtually dry runs provide an activation energy of 143.6 kcal/mol and a frequency factor of 2.23 X IO9 cm*/sec in contrast to runs with -2% and -4% water which yield activation energies of about 60 and 25 kcal/mol, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Ca5(P04)3F.~llv + t/402 = 5CaO,,,, + 312150~ mclt +-PmcI, (3) with equilibrium constant K = (aE&amp;Y. (ag$,)'/'. a</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>have the usual significance. Although the choice of standard states would obviously pose some difficulties, no such choice is necessary to see by inspection that ln(a~~~/a$~) cc T</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>FIG. 3. Saturation systemat&amp; of apatite in a variety of melt compositions, Results from this study are shown as circles, data taken from GREEN and WATSON (I 982) are indicated by triangks and the datum of WATSON (1980) is plotted as a sqwue. The lower limit of the saturation estimates from the study of WATSON and CAPOBIANCO (1981) 8n indicated by a horizontal line with an arrow pointing in the direction of the additional results. The curves fit to these data define a solubility model systematic in both temperature and composition. The &amp;XX~ fit suggests that possible complicating ei%cts such as alkali content, the use of SiOl weight percent rather than molt percent silica and the variability of water content (0 to 10%) do not significantly modify the saturation behavior of apatite. The dashed box in the upper right comer indicates the range of P205 contents observed in granitoid rocks along with an estimate of the range of temperatures reached during partial melting in the crust.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>): C X,Z = (ff/r}cO erfc[(r -a)/(4~~)"*]. (8) To compute the time required for apatites of varying diameters to dissolve completely, we allow diffusion to proceed at a rate characteristic of the temperature of the system until the integrated mass of P in the diffusion gradient is equivalent to the mass of P initially contained in the apatite. At this time, the crystal is entirely dissolved. Simplifying assumptions implicit in the use of Eqn. (8) have been discussed in detail by HARRISON and WATSON (i983), who found that this description of dissolution times was accurate to within one per cent. It is inte~sting to note, also, that the quasi-static solution to the bubble ~o~h/di~lution equation of EPSTEIN and PLESSET ( 1955): (r/&amp; = 1 + {i2D(G -G)llPdjt (9)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>FIG. 4. RtbltiOIlStlipbetwecllttm&amp;NWWt?&amp;ti~~UiCCdfor the dissolution of apatitc crystals with dieters of 100 and 500 pm in both a dry (solid curve) and 6% water bearing (dashed curve) felsic melts.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>FIG. 5. Results of calculations demonstrating the "pileup" of phosphorus at the surfaces of feldspars growing in a felsic melt at IOOOT at rates of IO-', lo-* and low9 cm/xx. Although the melt initially contains 0.1% P205, the incompatability of P in feldspar coupled with the very slow diffusion of P result in local saturation (at 0.17% indicated by the arrows) occuring at the crystal surfaces after times that vary</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . Apatite dissolution, phosphorus and calcium diffusion results and run information RUn Run Temp. PreSSUrS Duration &amp;XL (2% (xlO*sec) B _</head><label>1</label><figDesc></figDesc><table><row><cell>fOC)</cell><cell>fkbar)</cell><cell>wt% 1</cell><cell>p2os1</cell><cell>(cd-aec ')</cell><cell>-iog D</cell><cell>P</cell><cell>-loi: %a</cell></row><row><cell>APDIS 1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>APDIS 2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>APDIS 3</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>APDIS 5</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>AFDIS 6 1200 APDIS 7 1200 APDIS 8 1200 APDXS 9 1300 APDIS 10 1100 APDIS 31 I.100 APDIS 12 1100 APDIS 13 I.100 APDIS 14 1500 APDIS 15 1300 APDIS 16 1300 APDIS 17 850 1200 1300 I.400 1200</head><label></label><figDesc></figDesc><table><row><cell>8 8</cell></row><row><cell>B</cell></row><row><cell>8</cell></row><row><cell>B</cell></row><row><cell>5</cell></row><row><cell>8</cell></row><row><cell>8</cell></row><row><cell>B</cell></row><row><cell>8</cell></row><row><cell>8</cell></row><row><cell>B</cell></row><row><cell>8</cell></row><row><cell>8</cell></row><row><cell>8</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>15.75 3.012 2.640 18.69 23.73 7.482 8.034 8.244 33.45 35.82 16.83 14.40 1.974 3.090 1.980 _-~.-~----.</head><label></label><figDesc></figDesc><table /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments-This</head><p>research was supported through <rs type="funder">National Science Foundation</rs> grants <rs type="grantNumber">EAR-8025587</rs>, <rs type="grantNumber">EAR-82 12446</rs> and <rs type="grantNumber">EAR-8212453</rs>. We thank <rs type="person">Karleen Davis</rs> for both techni&amp; assistance and a constructive review of this manuscript.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_bMPzgYD">
+					<idno type="grant-number">EAR-8025587</idno>
+				</org>
+				<org type="funding" xml:id="_Kk5sUws">
+					<idno type="grant-number">EAR-82 12446</idno>
+				</org>
+				<org type="funding" xml:id="_hKErQ23">
+					<idno type="grant-number">EAR-8212453</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The nature of dissolved water in sodium silicate melts and its effect on various properties</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Acocella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tomozowa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. ~o~-~~~ta~~~ne So</title>
+		<imprint>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+	<note>1id.s (in Press</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">CrystaIlization, fractionation, and solidification ofthe Tuoiumne intrusive St&amp;s</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Bateman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">W</forename><surname>Chappell B</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geol. Sot. ilmer. Bull</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="465" to="487" />
+			<date type="published" when="1979">1979</date>
+			<pubPlace>Yosemite National Park</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Empirical correction factors for the electron microanalysis of silicates and oxides</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Bence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page">382403</biblScope>
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Conduction of Hear in SoIidf</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Carslaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Jaeger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1959">1959</date>
+			<publisher>Oxford University Press</publisher>
+			<biblScope unit="page">510</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Plutonic rocks of the I&amp;&amp;II Mobile Zone. 25th Inf</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Chappell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">J R</forename><surname>White A</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geoi. Coqqr , Sydney. Excursion Guide</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Water contents of @tic and and&amp;k magmas: A review of p~bi~~ estimates</title>
+		<author>
+			<persName><forename type="first">Q</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EOS</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page">338</biblScope>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Deer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">A</forename><surname>Ho%vie R</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+	<note>An introduction to the Rock Forming Mm&amp;s. Longman. 52%</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">On the stability of gas bubbles in liquid-gas solutions</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phy~</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1505" to="1509" />
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">(I 977) The nucleation and growth of alkali feldspars from hydrous melts</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Fenn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Role of trace element partition coe@icients in models of andesite genesis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Gill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="709" to="724" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Crystallization of apatite in natural magmas under high-pressure, hydrous conditions, with particular reference to &quot;erogenic&quot; rock series</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">B</forename><surname>Watson E</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="96" to="105" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">K&amp;ties of zircon dissolution and diffusion of zirconium in granitic melts of variable water content</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrixin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">B</forename><surname>Watson E</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comrib. Mkrai. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="66" to="72" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F J</forename><surname>Heinr~ch</surname></persName>
+		</author>
+		<title level="m">E&amp;?&amp;on Beam X-ray Mi~r~ysis</title>
+		<imprint>
+			<publisher>Van Nostrand Reinhold</publisher>
+			<date type="published" when="1981">198 1</date>
+			<biblScope unit="page">578</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Rare earth element partition between sphene, apatite and other coexisting minerals at the Kangerdlugssuag Intrusion</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="8" to="85" />
+			<date type="published" when="1980">1980</date>
+			<pubPlace>East Greenland</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Tracer diffusion in granitic melts: Experimental results for</title>
+		<author>
+			<persName><forename type="first">Jambon</forename><forename type="middle">A</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Cs</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ca</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sr</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="10797" to="10810" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note>Ce and Eu to 13OO&apos;C and a model of calculation</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Donnees preliminaires sur la diffusion dan les magmas hydrate% Le cesium darts un liquide granitique a 3 kbars</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jambon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Carron</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Delbove F</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">C.R. Acad. Sci D</title>
+		<imprint>
+			<biblScope unit="volume">287</biblScope>
+			<biblScope unit="page" from="403" to="406" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Rare earth concentrations in zircons and apatites and their host dacites and granites</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nagasawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ear&amp; Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="359" to="364" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Geochemistry of the andesite flank lavas of three composite cones within the At&amp;fan cauldron, Guatemala</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Penfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Drexler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">B</forename><surname>Larson P</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Volcanol</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1" to="153" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A mathematical analysis of solute redistribution during crystallization</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Smitm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Tiller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Rui-Ixr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can. J. Phys</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="723" to="744" />
+			<date type="published" when="1955">1955</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Water in silicate glasses: An infrared spectroscopic study</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>S~olper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Con&amp;rib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page">17</biblScope>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Origin of Ross Island rich xenoliths in basaltic nodules from eastern Australia</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">N</forename><surname>Hanson G</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phil. Trans. Roy. Sot. London A</title>
+		<imprint>
+			<biblScope unit="volume">297</biblScope>
+			<biblScope unit="page" from="333" to="346" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">a) Diffusion of cesium ions in H@-saturated granitic melt</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">205</biblScope>
+			<biblScope unit="page" from="1259" to="1260" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Apatite saturation in basic to intermediate magmas</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lert</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="937" to="940" />
+			<date type="published" when="1979">1979b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Calcium diffusion in a simple silicate melt to 30 kbar</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acto</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="13" to="322" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Apatite and phosphors in mantle source regions: an experimental study of a~tite/melt equilibria at pressures to 25 kbar</title>
+		<author>
+			<persName><surname>Watson E. 3</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planer. Sci. Leif</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="322" to="335" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Diffision in magmas at depth in the earth: The effects of pressure and dissolved H20</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="291" to="301" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Basalt contamination by continental crust</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="73" to="87" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">) Phosphorus and the rare earth elements in felsic magmas: an assessment of the role of apatite</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">J</forename><surname>Capobianco C</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="2349" to="2358" />
+			<date type="published" when="1981">198 1</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Zircon saturation revisited: Temperature and composition effects in a variety of crustal magma types</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">M</forename><surname>Harrison T</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci&apos;. Left</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="295" to="304" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Accessory min-eraIs and the geochemical evolution of crustal magmatic systems A summary and prospectus of experimental approaches. Phys. Earth Planet</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">M</forename><surname>Harrison T</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984">1984a</date>
+		</imprint>
+	</monogr>
+	<note>Int. (in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">What can accessory minerals tell us about felsic magma evolution?: A framework for experimental study</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">M</forename><surname>Harrison T</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 27th Inr</title>
+		<meeting>27th Inr<address><addrLine>Moscow</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1984">1984b</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Diffusion of REE. St and Pb in apatite (in preparation). basanitoids and limitations on the heterogeneity of mantle WHITE A</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">M</forename><surname>Harrison 'i'</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">J G</forename><surname>Jurewicz A</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. morphism and granitoid genesis. Tecfonophysics</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">R W</forename><surname>Chappell B</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="7" to="22" />
+			<date type="published" when="1977">1984. 1977</date>
+		</imprint>
+	</monogr>
+	<note>LJltrametasources for alkali basalts and nephelinites</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Petroi</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="77" to="106" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Chemtrasting ~~tionation patterns for sequential magmas from ieal homogeneity and metasomatism in the upper mantle: two Central American volcanoes</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>W~dru~~</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">I</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ricio~</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">-Wass S</forename><forename type="middle">Y</forename><surname>Con</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">J</forename><surname>Elliot C</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. VolcanoI. Geotherm. Evidence from rare earth and other elements in apatite-Rex</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="17" to="240" />
+			<date type="published" when="1979">1979. 1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microstructure and Properties of a Refractory High-Entropy Alloy after Cold Working</title>
+				<funder>
+					<orgName type="full">Lab Director&apos;s Fund</orgName>
+					<orgName type="abbreviated">LDF</orgName>
+				</funder>
+				<funder ref="#_VXyq6mp">
+					<orgName type="full">Air Force</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">UES, Inc.</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Materials and Manufacturing Directorate</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Air Force Research Laboratory</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Materials and Manufacturing Directorate</orgName>
+								<orgName type="laboratory">Air Force Research Laboratory</orgName>
+								<orgName type="institution">AFRL/RX</orgName>
+								<address>
+									<addrLine>Wright-Patterson Air Force Base</addrLine>
+									<postCode>45433</postCode>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">UES, Inc</orgName>
+								<address>
+									<postCode>45432</postCode>
+									<settlement>Dayton</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Semiatin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Materials and Manufacturing Directorate</orgName>
+								<orgName type="laboratory">Air Force Research Laboratory</orgName>
+								<orgName type="institution">AFRL/RX</orgName>
+								<address>
+									<addrLine>Wright-Patterson Air Force Base</addrLine>
+									<postCode>45433</postCode>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microstructure and Properties of a Refractory High-Entropy Alloy after Cold Working</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2DEE16A8B9857606F0339117D84006DA</idno>
+					<idno type="DOI">10.1016/j.jallcom.2015.07.209</idno>
+					<note type="submission">Received Date: 29 June 2015 Revised Date: 22 July 2015 Accepted Date: 23 July 2015</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>High-entropy alloy</term>
+					<term>refractory alloy</term>
+					<term>cold rolling</term>
+					<term>annealing</term>
+					<term>microstructure</term>
+					<term>texture</term>
+					<term>phase composition</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A refractory high-entropy alloy HfNbTaTiZr was successfully rolled at room temperature up to 86.4% reduction in thickness (true thickness strain is -2.3). This represents the first successful attempt to cold roll a HEA with a BCC crystal structure. The microstructure and properties of the rolled sheets were determined in the as-rolled condition and after annealing at 800°C, 1000°C, and 1200°C. Cold rolling resulted in extensive grain elongation, formation of deformation bands within the grains, and development of crystallographic textures that depended on the rolling reduction. The 86.4% cold-rolled sheet had true tensile stress of 1295 MPa and tensile ductility of 4.7%. After annealing at 1000°C and 1200°C, complete recrystallization of the cold-rolled sheet occurred. After annealing at 1000°C, the true tensile stress and ductility of the sheet were 1262 MPa and 9.7%, respectively.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">INTRODUCTION</head><p>Refractory metals and alloys, a group of materials with melting points above 1850°C, typically exhibit excellent high-temperature strength and creep resistance. Because strength is generally retained at temperatures below ~0.5 -0.6T m , (T m = the absolute melting temperature), the service temperatures of these alloys can be substantially greater than those of other metallic structural materials. However, poor low-temperature ductility and high-temperature oxidation resistance, in addition to their high density, limit their range of application. Recently, the multiprincipal-element or high-entropy-alloy strategy <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref> has been applied to develop a new class of refractory alloys with unique structural properties <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>. Some of these materials have shown</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><p>3 characterization were extracted at 65% thickness reduction (i.e., von Mises effective strain ε = 1.2) and at 86.4% thickness reduction (effective strain ε = 2.3).</p><p>The peak rolling load, P i , for each pass i was used to estimate the von Mises effective (flow) stress i σ per the following relation [19, 20]:</p><p>( )</p><formula xml:id="formula_0">) ( ' 1 ) exp( 2 3 1 - - - = i i i i i i i t t R w Q Q P σ (1a) in which 1 1 ) ( ' 2 - - + - = i i i i i t t t t R Q µ , (<label>1b</label></formula><formula xml:id="formula_1">)</formula><formula xml:id="formula_2">      - - + = -) ( ) 1 ( 16 1 ' 1 2 i i i i i t t w E P R R π ν (1c)</formula><p>Here, w i and t i are the sheet width and thickness, respectively, after the i th path, R is the roll radius, E (= 210 GPa) and ν (= 0.3) are Young's modulus and Poisson's ratio of the roll, and µ is the coefficient of sliding friction between the rolls and the sheet (taken to be 0.12). The effective true strain i ε after the i th path was calculated from the equation:</p><formula xml:id="formula_3">        = i o i t t ln 3 2 ε (2)</formula><p>The errors in measuring i σ and i ε were ~4% and 0.2%, respectively, at the beginning of rolling and increased to ~10% and 1%, respectively, at the end of rolling, mainly due to the accuracy of the thickness measurements (10 µm).</p><p>Small sections of the samples rolled to 65% and 86.4% thickness reduction were encapsulated in quartz tubes backfilled with argon and annealed for 2 h at 800°C, 1000°C, or 1200°C followed by cooling at a constant rate of 15°C/min to room temperature. Phase analysis was performed via x-ray diffraction using a Bruker D2 diffractometer with Cu Kα radiation. The microhardness was measured on polished sections using a 136-degree Vickers (diamondpyramid) indenter by applying a 500-g load for 20 seconds. The microstructures of polished longitudinal cross-sections of the rolled samples were determined using a scanning electron microscope (SEM) equipped with backscatter-electron (BSE), energy-dispersive X-ray spectroscopy (EDS), and electron-backscatter-diffraction (EBSD) detectors. For the texture analysis, a set of EBSD scans from an area containing more than 100 grains was obtained and</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><p>4 then stitched together. The room-temperature mechanical properties of sheet rolled to a total reduction of 86.4% were established by tension tests along the rolling direction. The test samples had a dog-bone shape with a reduced section measuring 0.96 mm x 2.8 mm with a gage length of 10 mm. The tests were conducted at a constant crosshead speed of 0.01 mm/s, corresponding to an initial strain rate of 10 -3 s -1 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">RESULTS</head><p>The principal results of this work comprised the nature of strain hardening during rolling, the post-rolling mechanical properties, and the evolution of microstructure and texture.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Flow behavior during rolling of HfNbTaTiZr</head><p>The plastic flow-behavior deduced from measured rolling loads revealed a strainhardening transient at low strains followed by essentially steady-state flow at moderate to large strains. For example, Figure <ref type="figure" target="#fig_2">1</ref>  MPa until the end of the rolling process, at which ε ≈ 2.3 had been achieved.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Microhardness of the rolled sheet</head><p>Measurements on longitudinal cross-sections as a function of distance from the sheet surface for as-rolled samples (rolled to a total reduction of 65% or 86.4%) and rolled-andannealed samples indicated a relatively uniform level of microhardness throughout the sheet thickness (Figure <ref type="figure" target="#fig_3">2</ref>). Furthermore, the average microhardness of the as-rolled samples (Table <ref type="table" target="#tab_1">2</ref>), i.e., Hv = 366 and 367, for the lower and higher total reductions, respectively, was only slightly higher than that before rolling, i.e., Hv = 360. Post-rolling annealing at 800°C resulted in an</p><formula xml:id="formula_4">M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT<label>5</label></formula><p>increase in Hv to 374-376, while annealing at 1000°C led to a decrease in Hv to 347-350.</p><p>Annealing at 1200°C had almost no effect on the hardness of the rolled sheets (Table <ref type="table" target="#tab_1">2</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Tensile properties of the rolled sheet</head><p>Figure <ref type="figure" target="#fig_4">3</ref> shows true stress -true strain curves of samples extracted from sheet in three conditions: (a) as-cold rolled to 86.4% thickness reduction, (b) rolled and annealed at 800°C for 2 h, and (c) rolled and annealed at 1000°C for 2 h. The tensile properties of these samples are</p><p>given in Table <ref type="table" target="#tab_2">3</ref>. The as-rolled sample showed a yield stress (σ 0.2 ) of 1202 MPa, peak stress (σ p ) of 1295 MPa (achieved at 0.027 strain), and total true strain (ε f ) of 0.047. Furthermore, this sample showed a noticeable softening stage without evidence of macroscopic strain localization.</p><p>Annealing at 800°C resulted in an increase in σ 0.2 and σ p to 1303 MPa and 1334 MPa, respectively, although the total true strain decreased to 0.019. After annealing at 1000°C for 2 h, the cold-rolled sheet showed a very attractive combination of tensile properties: σ 0.2 = 1145 MPa, σ p = 1262 MPa, and ε f = 0.096 (10% elongation). Plastic deformation of this sample occurred with a modest rate of strain hardening. The strain hardening coefficient γ (∆σ/∆ε) was 900±100 MPa. The measured elastic modulus of the as-rolled sheet was 93.3 GPa, while after annealing it increased slightly to 100 GPa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Microstructure and texture of as-cold-rolled sheets</head><p>In previous work <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b8">9]</ref>, the HfNbTaTiZr alloy which had been HIP'ed and annealed at 1200°C was found to have a single-phase BCC crystal structure with a lattice parameter a = 0.3404 nm. Its microstructure consisted of equiaxed, dendritic grains with an average size of ~140 µm. In the present work, the single-phase BCC crystal structure was retained after cold rolling, but the lattice parameter increased slightly to a = 0.3409 nm ± 0.0005 nm (Figure <ref type="figure" target="#fig_5">4a</ref>).</p><p>Furthermore, the grains were heavily deformed and elongated in the rolling direction (Figure <ref type="figure" target="#fig_6">5a</ref>).</p><p>Extensive deformation banding (inclined to the rolling direction at angles between ~5° and 60°) was also seen within the grains (Figure <ref type="figure" target="#fig_6">5b</ref>). The deformation bands were especially noticeable on EBSD image-quality maps as black lines inside individual grains because the crystallographic orientations of the bands were poorly indexed as a result of very-high dislocation density (Figure <ref type="figure" target="#fig_7">6a</ref> and Figure <ref type="figure" target="#fig_8">7a</ref>). An increase in the rolling deformation from 65% to 86% resulted in moreextensive elongation of the grains in the rolling direction and grain fragmentation (e.g., Figure <ref type="figure" target="#fig_7">6b</ref> M A N U S C R I P T</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A C C E P T E D</head><p>ACCEPTED MANUSCRIPT 6 vs. Figure <ref type="figure" target="#fig_8">7b</ref>), likely associated with a subdivision of the grains into cell blocks and domains <ref type="bibr" target="#b20">[21,</ref><ref type="bibr" target="#b21">22]</ref>.</p><p>Moderately-strong textures were associated with the evolution of microstructure. After 65% reduction, for example, inverse pole figures revealed &lt;111&gt; and &lt;001&gt; parallel to the normal direction (ND), with &lt;001&gt;, &lt;011&gt;, and a small fraction of &lt;112&gt; in the rolling direction (RD) and transverse direction (TD) of the sheet (Figure <ref type="figure" target="#fig_9">8a</ref>). Thus the principal texture components were deduced to consist of {001}&lt;100&gt; (cube), {001}&lt;110&gt; (rotated cube), and {111}&lt;011&gt; (γ-fiber). A very weak {111}&lt;112&gt; (γ-fiber) component was also identified.</p><p>The preferred crystallographic orientations were noticeably modified with an increase in the rolling reduction to 86.4% (Figure <ref type="figure" target="#fig_9">8b</ref>). In particular, the intensity of the &lt;001&gt; || ND decreased by ~5 times, thereby becoming very weak, the magnitude of &lt;011&gt; || RD doubled, and the intensity of the &lt;111&gt; || ND component did not change, per a comparison of the inverse pole figures in Figure <ref type="figure" target="#fig_9">8a</ref> and 8b. In addition, a &lt;213&gt; || TD component developed at the higher reduction. Therefore, only two rolling-texture components were identified after rolling to the 86% thickness reduction, i.e., a strong {111}&lt;011&gt; and a very weak {100}&lt;011&gt;.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.5</head><p>Microstructure of cold-rolled sheets after annealing</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.1">Sheet annealed at 800°C</head><p>Per the x-ray-diffraction analysis, annealing of rolled sheet at 800°C for 2 h transformed the single-phase BCC material into a two-phase structure comprising BCC1 and BCC2 phases with lattice parameters a 1 = 0.3427 nm and a 2 =0.3338 nm, respectively (Figure <ref type="figure" target="#fig_5">4b</ref>). BSE images taken from longitudinal cross-sections of 65% and 86.4% cold-rolled sheet revealed partiallyrecrystallized microstructure with fine second-phase particles precipitated inside nonrecrystallized grains, often along deformation bands (Figure <ref type="figure" target="#fig_10">9</ref> and 10). Second-phase particles were not present inside the recrystallized grains. Figure <ref type="figure" target="#fig_12">11a</ref> and Figure <ref type="figure" target="#fig_12">11b</ref> show the crystallographic orientations of recrystallized and non-recrystallized grains, as well as second phase particles, along the transverse and normal directions, respectively, of the sheet rolled to the 86.4% reduction. The corresponding image-quality (IQ) map for this region (Figure <ref type="figure" target="#fig_12">11c</ref>) allowed identification of the non-recrystallized grains. Dark lines on the IQ map corresponded to matrix/second-phase-particle interfaces, as well as the retained deformation bands; and light regions revealed the defect-free, recrystallized grains. While most of the non-recrystallized</p><formula xml:id="formula_5">M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT<label>7</label></formula><p>grains had preferred orientations of &lt;001&gt; and &lt;111&gt; in ND, the recrystallized grains did not. In addition, many of the second-phase particles had crystal orientations similar to that of the parent (matrix) grains.</p><p>Chemical analysis revealed that the recrystallized grains were slightly enriched in Hf and Zr, while the particles were slightly enriched in Ta and Nb (Table <ref type="table" target="#tab_3">4</ref>). The composition of the non-recrystallized grains with second-phase particles was close to the average composition of the alloy. In light of the fact that the atomic radii of Hf and Zr are considerably larger than those of the other alloying elements, it was surmised that the matrix had the BCC1 structure (i.e., the phase with the larger lattice parameter), and the particles comprised the BCC2 crystal structure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.2">Sheet annealed at 1000°C</head><p>After annealing at 1000°C for 2 h, the cold-rolled structure was completely recrystallized (Figure <ref type="figure" target="#fig_13">12</ref>). The alloy comprised a single-phase BCC structure with a lattice parameter similar to that of the material prior to rolling (Figure <ref type="figure" target="#fig_5">4c</ref>). Many grains had preferred &lt;111&gt; orientations parallel to the normal direction of the sheet (Figure <ref type="figure" target="#fig_14">13</ref> a, b), and the majority of the grain boundaries had misorientation angles above 10° (Figure <ref type="figure" target="#fig_14">13c</ref>). The average grain size in samples that had been rolled to 65% and 86.4% reduction was 35±5 µm and 22±3 µm, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.3">Sheet annealed at 1200°C</head><p>After annealing at 1200°C for 2 h, the cold-rolled sheets retained their single-phase BCC crystal structure, and the x-ray-diffraction patterns were similar to that shown in Figure <ref type="figure" target="#fig_5">4c</ref>. The annealed material exhibited an equiaxed grain structure with average size of ~91 µm or 76 µm for samples that had been rolled to 65% or 86.4% reduction, respectively (Figure <ref type="figure" target="#fig_15">14a,</ref><ref type="figure">b</ref>). These grain sizes were ~3 times larger than those after annealing at 1000°C. Moreover, fine secondphase precipitates with a dendritic morphology were observed within the recrystallized grains and at the grain boundaries (Figure <ref type="figure" target="#fig_15">14c,</ref><ref type="figure">d</ref>). Because of their small size and volume fraction, the composition and crystal structure of these precipitates could not be identified by SEM/EDS/EBSD.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D</head><p>ACCEPTED MANUSCRIPT 8</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.4">Effect of annealing on crystallographic texture of cold-rolled sheet</head><p>As noted above, only two texture components were identified in the 86.4% cold-rolled sheet: a strong {111}&lt;011&gt; component and a weak {100}&lt;011&gt; component (Figure <ref type="figure" target="#fig_9">8b</ref>). After annealing at 800°C and 1000°C, the &lt;111&gt; || ND texture retained the same intensity, but it became somewhat stronger after annealing at 1200°C (Figure <ref type="figure" target="#fig_16">15</ref>). The intensity of the &lt;011&gt; || RD component decreased noticeably after annealing at 800°C and 1200°C, but was retained after annealing at 1000°C. A strong additional &lt;001&gt; || TD component developed after annealing at 800°C, and a weak &lt;112&gt; TD fiber was observed after annealing at 1000°C and 1200°C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6">Fracture behavior of as-rolled and rolled-and-annealed samples</head><p>Representative SEM images of the fracture surface of a broken tension sample extracted from as-rolled sheet (with an 86.4% thickness reduction) are shown in Figure <ref type="figure" target="#fig_17">16</ref>. A transgranular, ductile-type of failure was evident. The entire fracture surface was covered by dimples suggesting that the cold-rolled sheet had excellent plasticity and failed by microvoid coalescence at areas of localized plastic strain.</p><p>After annealing at 800°C, the room-temperature fracture behavior of the cold-rolled sheet changed dramatically. The macroscopic ductility decreased from ~5% in the as-rolled condition to 1.6% after annealing at this temperature. At high magnification, the type of fracture was apparently the same as for the as-rolled condition, i.e., by and large, transgranular and ductile (Figure <ref type="figure" target="#fig_8">17</ref>). However, the fracture surface of the annealed material was rough and had a blocky appearance at low magnifications (Figure <ref type="figure" target="#fig_8">17a</ref>). Specifically, two types of fracture-surface regions were noted. In some areas, the dimples were large, deep, and clustered in characteristic massifs (Figure <ref type="figure" target="#fig_8">17b</ref>). In other regions, the dimples were finer and shallow, suggesting limited ductility here (Figure <ref type="figure" target="#fig_8">17c</ref>). Deep cracks perpendicular to the fracture surface (i.e., parallel to the tension direction) were found here.</p><p>After annealing at 1000°C, complete recrystallization had occurred, and the ductility of the 86.4%-rolled sheet increased to 10% (Table <ref type="table" target="#tab_2">3</ref>). Moreover, the fracture surface had a mixed appearance, showing both ductile (transgranular and intergranular) fracture and brittle (intergranular) fracture (Figure <ref type="figure" target="#fig_9">18</ref>). Individual recrystallized grains were clearly seen on the fracture surface of the sample due to extensive cracking along the grain boundaries (Figure <ref type="figure" target="#fig_9">18a</ref>).</p><p>The fracture surface exhibited a variety of dimple sizes and shapes, which suggested a non-</p><formula xml:id="formula_6">M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT<label>9</label></formula><p>uniform distribution of second-phase particles (e.g., fine precipitates such as those shown in Figure <ref type="figure" target="#fig_15">14c</ref>, d) causing the nucleation and growth of microvoids. The brittle intergranular regions appeared to be indicative of weakened grain-boundary regions, perhaps due to the precipitation of low-strength second-phase films here.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Cold rolling behavior of HfNbTaTiZr</head><p>The present work has shown that the high-entropy alloy (HEA) HfNbTaTiZr has excellent cold workability and can be rolled at room temperature to thin sheet without any evidence of failure. To the authors' knowledge, this represents the first report in the open literature of the successful cold rolling of an HEA with a BCC crystal structure; almost all prior efforts for BCC HEAs have revealed very limited room-temperature ductility <ref type="bibr" target="#b1">[2]</ref>. The only exception to such observations has been the excellent ductility of the current program alloy (HfNbTaTiZr) when subjected to uniaxial compression. In this mode of deformation, the imposed strain was accommodated by extensive deformation banding and twinning, which gave rise to noticeable strain hardening <ref type="bibr" target="#b6">[7]</ref>.</p><p>The uniaxial-compression flow curve for HfNbTaTiZr obtained at a nominal strain rate of 10 -3 s -1 <ref type="bibr" target="#b6">[7]</ref> was compared with the effective stress-strain behavior deduced from the present rolling-pressure measurements (Figure <ref type="figure" target="#fig_2">1</ref>). Despite an almost three orders of magnitude difference in strain rate, the flow-stress levels and strain-hardening rate for the two different modes of deformation were almost identical indicating a negligible value of the strain-rate sensitivity of the flow stress (m in the relation σ ~ ε&amp; m ) of this alloy at room temperature. This observation is in agreement with previous results <ref type="bibr" target="#b8">[9]</ref>, which indicated a very low value of m (~0.01) during compression of HfNbTaTiZr at T = 800°C and 10 -3 ≤ ε&amp; ≤ 10 -1 s -1 .</p><p>After strain hardening to a true strain of ~0.56, the current work has also shown that this alloy exhibits steady-state flow at larger strains (with a true flow stress of 1395±27 MPa) and can be cold deformed during cold rolling to very high strains ( ε = 2.3) without any evidence of failure. Such behavior is very different from the strong strain-hardening behavior at low temperatures of BCC metals such as Ta, Nb, W, and Cr, but is typical of FCC metals for which a saturation flow stress is reached during high-strain forming operations <ref type="bibr" target="#b22">[23]</ref>. The presence of steady-state flow typically implies that the microstructure (and substructure) are no longer</p><formula xml:id="formula_7">M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT<label>10</label></formula><p>changing significantly with strain due to a balance between strain hardening and dynamic recovery <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref>. However, this does not appear to be the case in the present work in which considerable further elongation of grains and, more importantly, the formation of additional deformation bands inside the grains appeared to have proceeded well into the steady-state regime (e.g., Figure <ref type="figure" target="#fig_7">6</ref> vs Figure <ref type="figure" target="#fig_8">7</ref>).</p><p>One possible explanation for the origin of steady-state flow at large plastic strains for the present program alloy is the compensation of strain-hardening by texture softening due to grain rotations induced by deformation banding and/or twinning <ref type="bibr" target="#b24">[25]</ref>. In this regard, a strong increase in the intensity of the {111}&lt;110&gt; texture and αfiber (&lt;110&gt; || RD) components, as well as the disappearance of the {001}&lt;110&gt; component, were observed. Assuming that three slip systems, {110}&lt;111&gt;, {112}&lt;111&gt; and {123}&lt;111&gt;, all with the same critical resolved shear stress during cold deformation <ref type="bibr" target="#b25">[26]</ref>, are operative, Taylor factors of M R = 3.05±0.46 and 3.09±0.46 for plain strain rolling along the former rolling direction were calculated for the specific textures developed at 65% and 84.5% reduction, respectively. Thus, it can be concluded that texture softening did not occur. Additional study is therefore required to identify the deformation mechanism(s) responsible for the observed flow behavior.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Microstructures of annealed sheet</head><p>According to the results of annealing trials following cold rolling, the HEA HfNbTaTiZr contains two BCC phases at 800°C and a single BCC phase at both 1000°C and 1200°C.</p><p>Because the large stored work introduced during rolling would have accelerated the development of equilibrium microstructure(s) during annealing, it can thus be concluded that the alloy comprises a single-phase BCC structure only at high temperatures. By contrast, the high temperature BCC phase separates into two BCC phases at temperatures between 800°C and 1000°C. Therefore, the single-phase BCC structure observed at room temperature before and after cold rolling should be considered as non-equilibrium. These conclusions are underscored by the fact that the initial single-phase structure was produced by annealing at 1200°C for 24 hours followed by furnace cooling. The single-phase BCC structure was also largely retained after annealing the rolled sheet at 1000°C and 1200°C followed by slow (controlled) cooling at 15°C/min, albeit a very small volume fraction (~1-2%) of second-phase precipitates was detected in sheet annealed at the higher of these two temperatures. This indicates that the alloy requires a</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><p>11 very slow cooling rate (less than 15°C/min) for the decomposition of the metastable, hightemperature BCC phase. Thus, the driving force for nucleation must be low or the diffusional growth kinetics slow for the formation of the second BCC phase. The slow diffusion kinetics in HEAs have been discussed in a number of previous publications (e.g., <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b26">27]</ref>), and have been recently verified experimentally for Co-Cr-Fe-Mn-Ni HEAs <ref type="bibr" target="#b27">[28]</ref>.</p><p>Annealing at 1000°C and 1200°C for 2 h resulted in complete recrystallization and the formation of an equiaxed grain structure in the cold-rolled sheet. The average grain size increased with increasing temperature and decreased with an increase in plastic strain. As is typical for conventional (dilute) single-phase alloys, the temperature effect can be explained by an increase in the rate of grain growth after the completion of recrystallization, while the other trend can be explained by the increase with pre-strain in the number density of nucleation sites for new grains. Based on the measured average grain sizes in the un-deformed and the deformedand-recrystallized conditions, it has been estimated that every original grain was replaced by either ~64 or 257 new grains in samples annealed at 1000°C for 2 h following cold reduction of either 65% or 84.6%, respectively. Thus, the number density of effective nucleation sites for recrystallization increased by ~4 times with an increase in true strain from 1 to 2.3.</p><p>Annealing at 800°C for 2 h resulted in a complex microstructure consisting of (a)</p><p>recrystallized equiaxial grains slightly enriched with Hf and Zr (BCC1 phase), (b) nonrecrystallized grains, and (c) second-phase particles slightly enriched in Nb and Ta (BCC2 phase) which had formed in non-recrystallized regions with high dislocation density, often along the deformation bands. The formation of such a structure can be explained perhaps by a small difference in the Gibbs free energies of the two BCC phases which are in equilibrium at 800°C.</p><p>The fact that recrystallized grains were free of second-phase particles suggests that such grains nucleate in areas with lower dislocation density and grow into areas with higher dislocation density before the second-phase particles can nucleate and grow in these areas.</p><p>The sluggish nucleation and growth of the BCC2 second-phase particles at 800°C is likely due to the slow diffusion of Nb and Ta, inasmuch as these two elements have the highest melting points and the fact that solute mobility scales with the homologous temperature <ref type="bibr" target="#b28">[29]</ref>.</p><p>Heterogeneous nucleation of the BCC2 particles in the regions of high dislocation density is evident as these regions are sources of large numbers of point defects and increased free energy.</p><p>Similar to recrystallization, the growth of the BCC2 particles removes crystal defects and</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D</head><p>effectively reduces the free energy of the non-recrystallized grains (formerly the hightemperature BCC phase). The pinning effect from these precipitates slows the migration of the boundaries of the recrystallized grains and the formation of new grains of the BCC1 phase.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">Mechanical properties of cold rolled and annealed sheet</head><p>Both the as-cold-rolled and the cold-rolled-and-annealed sheets of HfNbTaTiZr exhibited attractive room-temperature tensile properties (Table <ref type="table" target="#tab_2">3</ref>). For example, the σ 0.2 and σ p of sheet rolled to the 84.6% reduction were 1202 and 1295 MPa, respectively, both of which are noticeably lower than the effective stress of 1395 MPa estimated from rolling-pressure measurements, however. Several sources of this difference may be postulated. The first is the assumption of a Mises yield function used in the conversion of the friction-corrected, (planestrain) average pressure to effective flow stress, i.e., the term /2 3 = 0.866 in Equation ( <ref type="formula">2</ref>). The accuracy of this assumption was estimated by calculating the Taylor factors for plane-strain compression in the sheet normal direction (equivalent to plane-strain tension in the rolling direction) and uniaxial tension in the rolling direction. For this purpose, the suite of slip systems was assumed to be the same as mentioned above, and the actual (measured) texture of the sheet rolled to a reduction of 84.6% was used. These calculations provided a Taylor factor ratio of 2.84:3.09 = 0.92, a value somewhat greater than that assumed in Equation (2), viz., 0.866. Thus, the effective stresses calculated from the rolling data assuming a Mises material were on the low, not high, side.</p><p>Other factors must therefore be sought to explain the difference between the rolling and uniaxial-tension flow-stress results for sheet reduced by 86.4%. One possibility is the choice of the coefficient of friction, which was assumed to be constant (µ=0.12) during rolling. For example, an increase in the coefficient of friction to µ = 0.14 would yield the effective stress of 1250 MPa at the end of rolling. Alternatively, the change in strain path from plane-strain compression along the normal direction to uniaxial tension along the rolling direction could have given rise to a Bauschinger effect, thereby yielding unexpectedly low values of YS and UTS of the as-rolled sheet material. Last, if the material were actually rate sensitive, the ~7 pct.</p><p>difference in uniaxial-tension/rolling stress (1295 MPa vs 1395 MPa) over the three orders of magnitude difference in strain rate would require an m value of only ~0.01 (1000 0.01 = 1.07).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><p>13 Annealing of the cold rolled sheet at 1000°C for 2 h resulted in complete recrystallization and a decrease in σ 0.2 by 57 MPa (to 1145 MPa). Due to strain hardening and an increase in imposed total true strain to 0.096, σ p reached a relatively high value of 1263 MPa, i.e., only a 32</p><p>MPa decrease relative to the as-rolled condition. Such a small difference (5%) in σ 0.2 between the heavily cold-rolled and recrystallized conditions is unusual. In fact, the difference in yield strength of FCC HEAs in the cold-worked vs homogenized/recrystallized conditions has been found to be noticeably greater <ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref>. Conventional BCC alloys also generally exhibit much higher strength increases due to cold working and much more pronounced softening due to recrystallization annealing <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref>. The present, unusually weak, degree of strain hardening for HfNbTaTiZr HEA thus requires additional research to interpret.</p><p>In the initial condition (cast and annealed at 1200°C for 24 h), HfNbTaTiZr has been reported to have a yield strength in compression of 929 MPa <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b8">9]</ref>, a value which is ~23% lower than the tensile yield strength of the same alloy after cold-rolling and annealing at 1000°C for 2 h. Moreover, a comparison of the flow curves in these two conditions (Figure <ref type="figure" target="#fig_10">19</ref>) revealed that the compression sample appeared to have a higher strain-hardening rate in addition to its lower yield strength. This difference in the behavior can be due to several sources. First, the initial processing conditions (cast vs. cold rolled) were different. Second, annealing after casting was conducted at 1200°C for 24 h, while after cold rolling at 1000°C for 2 h. After casting and annealing, the alloy had a large grain size (~140 mm), and traces of dendritic structure inside the grains (i.e., some level of micro-segregation) <ref type="bibr" target="#b8">[9]</ref>. By contrast, the grain size after cold rolling and annealing was considerably smaller (~22 mm), and no micro-segregation was observed. Finally, cold rolling followed by annealing resulted in the development of a specific crystallographic texture.</p><p>Further inspection of the results in Figure <ref type="figure" target="#fig_10">19</ref> revealed that a true stress of 1145 MPa (= the yield stress during tension testing) was achieved during compression of the cast-and-annealed material at a true strain of ~0.04. When the start of the tension curve was thus shifted to this level of strain, similar strain-hardening behavior of the tension and compression samples was observed (Figure <ref type="figure" target="#fig_10">19</ref>). The slight difference can be explained by necking and fracture during tension testing. This analysis thus suggests that strain hardening in compression and tension of the BCC HEA is similar for microstructural conditions providing equivalent yield strength.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>M A N U S C R I P T A C C E P T E D ACCEPTED MANUSCRIPT</head><p>14 With regard to material stiffness, the measured Young's moduli of the HfNbTaTiZr alloy in the as-cold-rolled and the cold-rolled-and-annealed conditions were comparable, i.e., 93 vs 100 GPa (Table <ref type="table" target="#tab_2">3</ref>). By way of comparison, the Young's moduli of the pure elements comprising the alloy lay between 68 GPa (for Zr) and 186 GPa (for Ta) (Table <ref type="table">5</ref>). The Young's modulus of the solid solution alloy was predicted from the values for the pure elements using the rule of mixtures (ROM), i.e.,</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>∑ ∑</head><formula xml:id="formula_8">= i i i i i V c E V c E (3)</formula><p>Here, c i , V i and E i are, respectively, the atomic fraction, molar volume, and Young's modulus of element i. The ROM-predicted value for the equi-atomic alloy HfNbTaTiZr was 107.9 GPa.</p><p>Although the ROM often works well for disordered solid solutions, this prediction for the HEA is somewhat higher than that measured experimentally (93-100 GPa). This difference could be due to the presence of the &lt;110&gt; || RD texture. However, more precise techniques for the measurement of the elastic moduli should be applied before any, possibly speculative, conclusions are drawn regarding the present program material or HEAs in general.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">SUMMARY AND CONCLUSIONS</head><p>A refractory high-entropy alloy, HfNbTaTiZr, was successfully cold rolled to 86.4% total thickness reduction. This represents the first successful attempt to cold roll such a material with a BCC crystal structure.</p><p>Cold rolling resulted in extensive grain elongation, the formation of a "cellular" structure with deformation bands within the grains, and the development of crystallographic textures that depended on the rolling reduction. After 65% reduction, the textures were characterized by Despite the low macroscopic ductility, the fracture behavior appeared entirely ductile.</p><p>After annealing at 1000°C and 1200°C, complete recrystallization of the cold-rolled sheet occurred with the formation of large equiaxed grains. The average grain size increased with an increase in the annealing temperature. In the 86.4% cold-rolled sheet, it was ~22 µm and 76 µm, respectively, for the two annealing temperatures. The annealed samples were essentially a singlephase BCC structure. However, they also contained a very small amount (~1-2 vol.%) of fine second-phase precipitates. After annealing at 1000°C, the true tensile strength and ductility were 1262 MPa and 9.7%, respectively.                   rolling direction is horizontal. The color-coded IPF triangle of crystal orientations is given in Figure <ref type="figure" target="#fig_7">6</ref>. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>figure corresponds to the stress/strain value during the respective rolling pass. Black circles indicate the rolling behavior until the 65% thickness reduction was achieved. The red circles denote the rolling behavior of the sheet during subsequent rolling to 86.4% total thickness reduction. During the first four passes, σ increased rapidly to 1318 MPa. During the next 8 passes, it increased slowly to 1395 MPa and then retained an almost constant value of 1395±27</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>&lt;111&gt;</head><label></label><figDesc>|| ND, &lt;001&gt; || ND, &lt;001&gt; || RD, and &lt;011&gt; || RD. An increase in strain to 86.4% reduction intensified the &lt;011&gt; || RD component, retained the &lt;111&gt;|| ND component, and weakened the &lt;001&gt; || ND component considerably. The 86.4% cold-rolled sheet had the true tensile stress of 1295 MPa and tensile ductility of 4.7%. Annealing the cold-rolled sheet at 800°C for 2 h resulted in partial recrystallization and precipitation of second-phase particles in non-recrystallized regions. The particles were slightly enriched in Nb and Ta and had a BCC crystal structure. Concurrently, the matrix was slightly enriched in Hf and Zr and also had a BCC crystal structure. After annealing at 800°C, the true M A N U S C R I P T A C C E P T E D tensile stress of the sheet increased to 1334 MPa, but the true tensile ductility decreased to 1.9%.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 1 .</head><label>1</label><figDesc>Figure CaptionsFigure 1. Dependence of the true flow stress on true strain during cold rolling (solid circles) and compression (blue solid line) tests of the HfNbTaTiZr alloy.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Microhardness of as-cold-rolled and rolled-and-annealed sheets of HfNbTaTiZr: (a) 65% thickness reduction and (b) 86.4% thickness reduction. The microhardness was measured on the longitudinal cross-section of sheets along the normal direction. The position 0 mm corresponds to the sheet surface.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. True stress -true strain curves of as-cold-rolled and rolled-and-annealed sheet of HfNbTaTiZr.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. X-ray diffraction patterns for HfNbTaTiZr: (a) After 86.4% total reduction and following annealing for 2 h at: (b) 800°C or (c) 1000°C.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. SEM backscatter images from a longitudinal cross-section of HfNbTaTiZr sheet after 65% cold-reduction showing (a) heavily-deformed grains and (b) deformation bands inside the grains.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. EBSD results for HfNbTaTiZr sheet following a 65% thickness reduction: (a) Imagequality map and (b) inverse-pole-figure map for the transverse direction. Longitudinal cross-section; the rolling direction is horizontal.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. EBSD results for HfNbTaTiZr sheet following an 86.4% thickness reduction: (a) Image-quality map and (b) inverse-pole-figure map for the transverse direction.Longitudinal cross-section; the rolling direction is horizontal.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Inverse pole figures for the normal (ND), rolling (RD) and transverse (TD) directions of sheets whose total thickness reduction was (a) 65% or (b) 86.4%.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. SEM backscatter images of the longitudinal cross-section of HfNbTaTiZr sheet after 65% thickness reduction and annealing at 800°C for 2 h: (a) Low magnification image showing partially-recrystallized structure consisting of large, heavily-deformed grains and fine, equiaxed, recrystallized grains. (b) Higher magnification image showing fine second-phase particles precipitated along deformation bands in nonrecrystallized grains. The rolling direction is horizontal.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 10 .</head><label>10</label><figDesc>Figure 10. SEM backscatter images of the longitudinal cross-section of HfNbTaTiZr sheet after 86% thickness reduction and annealing at 800°C for 2 h: (a) Low magnification image showing partially-recrystallized structure consisting of large, heavily-deformed</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 11 .</head><label>11</label><figDesc>Figure 11. EBSD images of the longitudinal cross-section of the 86.4% cold rolled sheet of HfNbTaTiZr alloy after annealing at 800°C for 2 hours: (a, b) inverse-pole-figure maps of grains for the (a) transverse and (b) normal directions of the sheet and (c) image quality map. The rolling direction is horizontal. The color-coded IPF triangle of crystal orientations is given in Figure 6.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 12 .</head><label>12</label><figDesc>Figure 12. SEM backscatter images of the longitudinal cross-section of (a) 65% and (b) 86% cold-reduced sheets of HfNbTaTiZr after annealing at 1000°C for 2 h. The rolling direction is horizontal.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 13 .</head><label>13</label><figDesc>Figure 13. EBSD data from a longitudinal cross-section of HfNbTaTiZr sheet after 86.4% thickness reduction and annealing at 1000°C for 2 h: (a) inverse-pole-figure map for the transverse direction and (b) image-quality map with superimposed grain-boundary misorientations (&gt;10°, blue color). The rolling direction is horizontal.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure 14 .</head><label>14</label><figDesc>Figure 14. SEM backscatter images of the longitudinal cross-section of (a) 65% and (b) 86% cold-reduced sheets of HfNbTaTiZr after annealing at 1200°C for 2 h. (c) Precipitates observed inside recrystallized grains and at grain boundaries. (d) Typical morphology of the precipitate particles. The rolling direction is horizontal.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure 15 .</head><label>15</label><figDesc>Figure 15. Inverse pole figures for the normal (ND), rolling (RD), and transverse (TD) directions of sheet after 86.4% thickness reduction and annealing for 2 h at: (a) 800°C, (b) 1000°C, or (c) 1200°C.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure 16 .</head><label>16</label><figDesc>Figure 16. SEM images at various magnifications of the fracture surface of an 86% cold-reduced sheet of HfNbTaTiZr that was tension tested to failure at room temperature. The sheet transverse direction is horizontal, and the normal direction is vertical in each image.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure 17 . 21 Figure 18 .</head><label>172118</label><figDesc>Figure 17. SEM images of different areas of the fracture surface of an 86% cold-reduced sheet of HfNbTaTiZr that was tension tested to failure at room temperature after annealing at 800°C for 2 hours: (a) Blocky appearance at a low magnification, (b) a heavilydeformed area with large dimples, and (c, d) an adjacent area with fine, shallow dimples at different magnifications. The sheet transverse direction is horizontal, and the normal direction is vertical in each image.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure 19 .FIGURESFigure 1 .Figure 2 .Figure 3 .Figure 4 .Figure 5 .Figure 6 .Figure 7 .Figure 8 .Figure 9 .Figure 10 .Figure 11 .</head><label>191234567891011</label><figDesc>Figure 19. True strain vs. true stress curves obtained during compression testing of a cast plus annealed (at 1200°C for 24 h) specimen (solid line) and during tension testing of cold rolled plus annealed (at 1000°C for 2 hours) specimen (black dotted line) of HfNbTaTiZr. Orange dotted line is the same tensile curve shifted to the right by ∆ε =0.04.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>Figure 12 .Figure 13 .Figure 14 .Figure 15 .Figure 16 .Figure 17 .Figure 18 .Figure 19 .</head><label>1213141516171819</label><figDesc>Figure 12. SEM backscatter images of the longitudinal cross-section of (a) 65% and (b) 86% cold-reduced sheets of HfNbTaTiZr after annealing at 1000°C for 2 h. The rolling direction is horizontal.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="23,162.00,134.09,288.00,230.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>6 Tables Table 1 .</head><label>Tables1</label><figDesc>Chemical composition (in atomic %) of HfNbTaTiZr used in this work</figDesc><table><row><cell>Element:</cell><cell>Hf</cell><cell>Nb</cell><cell>Ta</cell><cell>Ti</cell><cell>Zr</cell></row><row><cell cols="6">Average Composition 20.78 19.59 21.46 18.77 19.40</cell></row><row><cell>Standard Deviation</cell><cell>0.14</cell><cell>0.27</cell><cell>0.31</cell><cell>0.22</cell><cell>0.07</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Vickers microhardness values (H v ) of cold-rolled sheets of HfNbTaTiZr in the as-coldrolled condition and following annealing at 800°C, 1000°C and 1200°C for 2 h*</figDesc><table><row><cell>Condition</cell><cell>Cold-rolled</cell><cell>800°C</cell><cell>1000°C 1200°C</cell></row><row><cell>65% Thickness Reduction</cell><cell>367 ± 8</cell><cell cols="2">374 ± 8 347 ± 6 367 ± 5</cell></row><row><cell>86.4% Thickness Reduction</cell><cell>366 ± 4</cell><cell cols="2">375 ± 5 351 ± 7 370 ± 5</cell></row><row><cell cols="4">* The microhardness of the alloy before rolling was 360 ± 10 H v .</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>True tensile yield stress (σ 0.2 ), peak stress (σ p ), fracture strain (ε f ), and elastic modulus (E) of 86% cold-rolled sheet of HfNbTaTiZr in the as-cold-rolled condition and after annealing at 800°C and 1000°C for 2 h</figDesc><table><row><cell>Condition</cell><cell cols="4">σ 0.2 (MPa) σ p (MPa) ε f ( %) E (GPa)</cell></row><row><cell>As-Cold-Rolled</cell><cell>1202</cell><cell>1295</cell><cell>4.7</cell><cell>93.3</cell></row><row><cell>Cold-Rolled + Annealed at 800°C / 2 h</cell><cell>1303</cell><cell>1334</cell><cell>1.9</cell><cell>100</cell></row><row><cell>Cold-Rolled + Annealed at 1000°C / 2 h</cell><cell>1145</cell><cell>1262</cell><cell>9.7</cell><cell>99.2</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4 .</head><label>4</label><figDesc>Chemical composition (in atomic %) of second-phase particles and characteristic regions in a cold-rolled sheet of HfNbTaTiZr after annealing at 800°C for 2 h</figDesc><table><row><cell>Element:</cell><cell></cell><cell>Hf</cell><cell>Nb</cell><cell>Ta</cell><cell>Ti</cell><cell>Zr</cell></row><row><cell>Particles</cell><cell></cell><cell cols="5">16.5 ±1.7 22.0±0.7 30.7±3.1 16.8±1.0 14.0±1.3</cell></row><row><cell cols="2">Recrystallized Grains</cell><cell cols="5">23.3±1.2 18.1±0.3 17.3±0.5 19.8±0.3 21.5±1.5</cell></row><row><cell cols="2">Unrecrystallized Grains: Regions without Particles</cell><cell cols="5">22.3±0.9 18.7±0.6 20.8±1.3 18.8±0.6 19.4±1.3</cell></row><row><cell cols="2">Unrecrystallized Grains: Regions with Particles</cell><cell cols="5">22.5±0.3 19.7±0.3 23.7±0.9 17.9±0.5 16.3±0.4</cell></row><row><cell cols="7">Overall Alloy Composition 20.8±0.1 19.6±0.3 21.5±0.3 18.8±0.2 19.4±0.1</cell></row><row><cell cols="7">Table 5. Young's modulus (E) and molar volume (V) of pure elements. The Young's modulus of</cell></row><row><cell cols="7">NbHfTaTiZr estimated using the rule of mixture (Equation (3)) is also shown.</cell></row><row><cell>ID</cell><cell>Hf</cell><cell>Nb</cell><cell>Ta</cell><cell>Ti</cell><cell>Zr</cell><cell>HfNbTaTiZr</cell></row><row><cell>E, GPa</cell><cell>78</cell><cell>105</cell><cell>186</cell><cell>116</cell><cell>68</cell><cell>107.9</cell></row><row><cell>V, cm 3</cell><cell>13.44</cell><cell>10.83</cell><cell>10.85</cell><cell>10.64</cell><cell>14.02</cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>ACKNOWLEDGEMENTS Extensive technical discussions with <rs type="person">Drs. D. Miracle</rs> and <rs type="person">C. Woodward</rs> and laboratory support from <rs type="person">J. Brown</rs>, <rs type="person">T. Brown</rs>, and <rs type="person">J. Shank</rs> are greatly appreciated. This work was supported by the <rs type="funder">Lab Director's Fund (LDF)</rs> of the <rs type="funder">Materials and Manufacturing Directorate</rs>, <rs type="funder">Air Force Research Laboratory</rs>. The work of one of the authors (ONS) was also partially supported through the <rs type="funder">Air Force</rs> on-site contract <rs type="grantNumber">FA8650-10-D-5226</rs> managed by <rs type="funder">UES, Inc.</rs>, Dayton, Ohio.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_VXyq6mp">
+					<idno type="grant-number">FA8650-10-D-5226</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0" />			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mat</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="299" to="303" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Murty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ranganathan</surname></persName>
+		</author>
+		<title level="m">High Entropy Alloys</title>
+		<meeting><address><addrLine>London, UK</addrLine></address></meeting>
+		<imprint>
+			<publisher>Butterworth-Heinemann</publisher>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Materials Science</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="93" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Uchic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Tiley, Entropy</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="494" to="525" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1758" to="1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Cmpds</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page" from="6043" to="6048" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">529</biblScope>
+			<biblScope unit="page" from="311" to="320" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="4062" to="4074" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Dimiduk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Science</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="6522" to="6534" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="page" from="1545" to="1557" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mat. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">565</biblScope>
+			<biblScope unit="page" from="51" to="62" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="2030" to="2042" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fazakas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Zadorozhnyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Varga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Louzguine-Luzgin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">Y</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Refractory Metals &amp; Hard Materials</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="131" to="138" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="214" to="228" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Alloys and Compounds</title>
+		<imprint>
+			<biblScope unit="volume">583</biblScope>
+			<biblScope unit="page" from="162" to="169" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Azim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schliephake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Alloys and Compounds</title>
+		<imprint>
+			<biblScope unit="volume">624</biblScope>
+			<biblScope unit="page" from="270" to="278" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C.-M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Alloys and Compounds</title>
+		<imprint>
+			<biblScope unit="volume">624</biblScope>
+			<biblScope unit="page" from="100" to="107" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Cold rolling of steel</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Roberts</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1978">1978</date>
+			<publisher>Marcel Dekker, Inc</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Han</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Process. Tecnol</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<biblScope unit="page" from="401" to="408" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kuhlmann-Wilsdorf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall. Mater</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="205" to="219" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hatherly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scripta</forename><surname>Metallurgica</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1453" to="1455" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Sevillano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Houtte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Aernoudt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in materials Science</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="69" to="412" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">D</forename><surname>Sherby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Burke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Materials Science</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="323" to="390" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Jonas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Mater. Rev</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1" to="36" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1974">1974</date>
+			<biblScope unit="volume">texture</biblScope>
+			<biblScope unit="page" from="233" to="258" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="107" to="123" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Materialia</title>
+		<imprint>
+			<biblScope unit="page" from="4887" to="4897" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Tiwari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Mehrotra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Defect and Diffusion Forum</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="23" to="37" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scripta</forename><surname>Materialia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="5" to="8" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Springer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="1993" to="2001" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zyabkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Klimova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Efimov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salishchev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="page" from="8" to="17" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

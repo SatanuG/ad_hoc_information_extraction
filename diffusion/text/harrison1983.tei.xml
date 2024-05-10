@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Contributions to Mineralogy and Petrology</title>
+				<funder ref="#_7uw2aaF #_7FhskwC #_y8QMS3A #_Zrhq8Pj">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><surname>Springer-Verlag</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">Mark</forename><surname>Harrison</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Geological Sciences</orgName>
+								<orgName type="institution">State University of New York at Albany</orgName>
+								<address>
+									<postCode>12222</postCode>
+									<settlement>Albany</settlement>
+									<region>New York</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><forename type="middle">Bruce</forename><surname>Watson</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Geology</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<postCode>12181</postCode>
+									<settlement>Troy</settlement>
+									<region>New York</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Contributions to Mineralogy and Petrology</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1A7B1B75D5E0A21A26830F26901AEE88</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The experimental dissolution of zircon into a zircon-undersaturated felsic melt of variable water content at high pressure in the temperature range 1,020 ~ to 1,500 ~ C provides information related to 1)the solubility of zircon, 2) the diffusion kinetics of Zr in an obsidian melt, and 3) the rate of zircon dissolution. Zirconium concentration profiles observed by electron microprobe in the obsidian glass adjacent to a large, polished zircon face provide sufficient information to calculate model diffusion coefficients. Results of dissolution experiments conducted in the virtual absence of water (&lt; 0.2% H20 ) yield an activation energy (E) for Zr transport in a melt of M= 1.3 [where M is the cation ratio (Na + K + 2Ca)/(A1.Si)] of 97.7 +_ 2.8 kcal-mol-1, and a frequency factor (Do) ..... + 1 39o o,~u 5~o cm2-sec -1. Hydrothermal experiments provide an E=47.3_+ 1.9 kcal-mol-1 and Do=0 03 n+~176176 9 ," 0.o15 cm2-sec-1. Both of these results plot close to a previously defined diffusion compensation line for cations in obsidian. The diffusivity of Zr at 1,200 ~ C increases by a factor of 100 over the first 2% of water introduced into the melt, but subsequently rises by only a factor of five to an apparent plateau value of ~2 x 10 .9 cm2-sec -1 by ~ 6% total water content. The remarkable contrast between the wet and dry diffusivities, which limits the rate of zircon dissolution into granitic melt, indicates that a 50 gm diameter zircon crystal would dissolve in a 3 to 6% water-bearing melt at 750 ~ C in about 100 years, but would require in excess of 200 Ma to dissolve in an equivalent dry system. From this calculation we conclude that zircon dissolution proceeds geologically instantaneously in an undersaturated, water-bearing granite. Estimates of zircon solubility in the obsidian melt in the temperature range of 1,020 ~ C to 1,500 ~ C confirm and extend an existing model of zircon solubility to these higher temperatures in hydrous melts. However, this model does not well describe zircon saturation behavior in systems with less than about 2% water.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Our present understanding of the evolutionary pathways taken by magmas before their appearance at the earth's Offprint requests to: T.M. Harrison surface has been considerably enhanced by the application of techniques that employ the discriminating nature of trace elements in mineral/melt systems. A substantial proportion of the REE and U in rocks of the continental crust are concentrated in accessory minerals such as zircon, apatite, sphene, allanite and monazite, giving these phases the potential to provide considerable information regarding conditions during partial fusion events in the crust. However, to understand fully the redistribution of these elements amongst accessory phases during anatexis requires knowledge of both the stability and partition behavior of the participating minerals and elements. The importance of phase stability can be illustrated by the following examples. In the case where a REE-rich accessory phase is demonstrably insoluble in a melt of a given composition and temperature, the reallocation of that fraction of rare earths will be governed by solid state diffusion, a very inefficient mechanism of reattaining trace element equilibrium in a partially molten rock. Nonetheless, the observation of diffusion-related concentration gradients in such phases would provide both element partition and valuable kinetic information which could be translated into a temperature-time history of the partial melt. For the reverse case in which the accessory phase is not in equilibrium with the melt, it follows that this mineral would dissolve until saturation in the melt had been achieved. However, knowledge of the equilibrium condition would be irrelevant if the rate at which the accessory mineral dissolves is slow with respect to the time available for this reaction to go to completion.</p><p>Following the general approach outlined above, <ref type="bibr">Watson and Harrison (1983a)</ref> have determined the saturation behavior of zircon in crustal anatectic melts as a function of both composition and temperature. However, in the absence of knowledge of the dissolution rate of zircon in felsic melts, they concluded that it would be premature to apply the saturation model to more than general geological problems.</p><p>This paper reports experimental results of the transport rate of Zr in a felsic melt with variable water contents. The argument is presented that this mechanism is often the rate-limiting step in the dissolution of zircons in crustal magmas. Knowledge gained from these experiments allows us to proceed with detailed reconstructions of granitoid source conditions based on chemical and isotopic characteristics of residual zircons.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experi mental</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>General Approach</head><p>The generally low solubility of zircon in anatectic melts <ref type="bibr">(Watson and Harrison 1983a)</ref> coupled with the extremely viscous nature of low temperature (~700-800 ~ C) felsic magmas effectively limits the rate of zircon dissolution by the speed at which zirconium is transported away from the crystal/melt interface. Our experimental approach is to simulate this natural situation by encompassing sectioned zircon slabs in a felsic melt which is itself preserved in some form of encapsulation. After high pressure heat treatment, the resulting Zr difffusion gradient in the glass is resolved by electron microprobe traverses perpendicular to the boundary of the zircon/obsidian couple.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Experimental Details</head><p>Five diffusion/dissolution experiments (ZIRDIS 1 to 5, Table 1) were run in the virtual absence of water using graphite encapsulation. A several ram-sized slab of zircon from the Mud Tank Carbonatite, Northern Territory, Australia, was polished on two sides and packed firmly into a graphite crucible with finely-ground obsidian. Our specimen of the Mud Tank zircon, a large, clear, low uranium (16 ppm) variety, was obtained from the National Museum of Victoria, Australia. Due to its low and uniformly distributed uranium concentration, concordant Pb ages, pristine cell dimensions and large crystal size, this zircon has been adopted as a standard mineral by geochronological laboratories (see <ref type="bibr" target="#b0">Black and Gulson 1978;</ref><ref type="bibr" target="#b2">Gleadow 1978)</ref>. The lack of accumulated radiation damage and the large, blemish free surface available, make this specimen very suitable for our purposes. The felsic glass is a crystal-free, low-zirconium obsidian from Lake County, Oregon. The major element composition of this obsidian is given in <ref type="bibr">Watson and Harrison (1983a)</ref>. The covered graphite capsules were run in a piston cylinder apparatus at 8 kbars, using a 3/4-inch diameter assembly consisting of NaC1 and borosilicate glass sleeves with internal filler pieces of unfired pyrophyllite, Pyrex and crushable AI203. Run temperatures were monitored using a W97Re3-W75Re25 thermocouple for run durations of between 3.75 and 27.7 h. The obsidian starting material contains about 0.2% water, but it is likely that at least some of this is lost from the melt during the runs. Fig. <ref type="figure">1</ref>. Electron microprobe results from obsidian adjacent to an interface with a zircon crystal. Although this portion of the "blank couple" contains no Zr above the detection limit, secondary fluorescence effects cause an apparent gradient as high as 2.1 cps above background near the crystal/obsidian boundary which drops systematically away from the interface to backgrund at a distance of ~ 30 lira (1 cps ~ 800 ppm Zr). This profile was subtracted from Zr concentration gradients observed in run products prior to computation of diffusion coefficients</p><p>The remaining experiments (ZIRDIS 6 to 12) run at 1,020 ~ C, 1,200 ~ C and 1,385 ~ C were encapsulated in noble metal containers along with variable amounts of H20. Similar, though smaller, zircon/obsidian couples were prepared as before and run at 8 kbars for between 4.75 and 44.5 h. The run at 1,020~ C was sealed in a Au capsule and the higher temperatures run in Pt. Run information is summarized in Table <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Analysis</head><p>The distribution of Zr in the obsidian adjacent to the zircon was measured with a MAC electron microprobe, using 15 kV accelerating potential and a sample current of 0.065 ~tA. In most cases the beam was focused to a 4 gm spot, but was considerably widened to ~ 15 pm for analysis of the hydrous glasses. For ZIRDIS 1 through 8 run products, Zr L~ x-rays were collected via a PET analysing crystal which gives effective resolution of the Zr peak from adjacent signals. The remaining runs (ZIRDIS 9 to 12) were analysed using a TAP crystal, which incidently provides a much greater sensitivity than the PET crystal. Numerous on-peak traverses normal to the zircon/obsidian interface were taken, usually with a spot count time of 60 sec. Concentration information was obtained through analysis of glasses with known Zr concentrations (see <ref type="bibr">Watson and Harrison 1983 a)</ref>.</p><p>In anticipation of observing a secondary fluorescence effect <ref type="bibr" target="#b4">(Heinrich 1981)</ref> close to the zircon, we prepared a "blank couple" consisting of a polished face of Mud Tank Zircon tightly bound to a polished slab of Lake County Obsidian with Pt wire. This assembly was fixed in epoxy and sectioned to provide an equivalent geometry to the unknown samples. Numerous microprobe traverses in the obsidian reveal a non-uniform count rate characterized by a value of ~ 5 counts per second (cps) at the contact which decreases systematically within about 30 gm from the zircon/obsidian boundary to a background value of ~ 2.9 cps. This distribution, shown in Fig. <ref type="figure">1</ref>, when subtracted from the profiles obtained from the dissolution/diffusion runs, yields the zirconium concentration gradient. Virtually all of the crystal/melt couples involved a zircon surface parallel to the c axis. Analysis of the perpendicular to c face from the ZIRDIS 7 showed little indication of preferential diffusion controlled dissolution in this direction. Were zircon dissolution not rate-limited by diffusion in the melt, it is likely that the strong anisotropy of the zircon structure would lead to direction-dependent dissolution rates; e.g., etching of fission tracks <ref type="bibr" target="#b2">(Gleadow 1978)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Results and Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diffusion results</head><p>In all twelve runs, zirconium counts significantly above background were observed in the obsidian adjacent to the zircon. Results for ZIRDIS 5, corrected for secondary fluorescense and background are shown in Fig. <ref type="figure">2a</ref>. The profile is characteristic of diffusion as the transport mechanism and provides sufficient information for us to calculate a diffusion coefficient for zirconium in obsidian.</p><p>The likely choice for computing a diffusion coefficient from the data is a model which assumes that the boundary separating the zircon from the glass at x = 0 is fixed, and represents the zircon and obsidian as semi-infinite regions initially at some uniform and zero concentration, respectively. The solution of Fick's Second Law for these boundary and initial conditions is given by</p><formula xml:id="formula_0">x Cx, ,= C O erfc 2~ (1)</formula><p>where Cx, t is the concentration at distance x from the interface at time t, Co is the solubility of Zr in the melt, and D is the diffusion coefficient. Our assumption of a stationary boundary is not entirely rigorous, inasmuch as the Zr present in the obsidian has become available as a result of the dissolution of the zircon. This is, however, unimportant in all cases, because the solubility of Zr in the melt is low enough that the boundary movement is extremely short with respect to the length of the diffusion profile. For example, in the case of ZIRDIS 3, the characteristic diffusion distance is on the order of 15 gm, but the boundary has moved only 0.1 gin. This additional distance required for subsequent atoms to diffuse is trivial with respect to the length of diffusion profile. Of the several ways in which Eq. ( <ref type="formula">1</ref>) can be evaluated to provide a solution for D, we have chosen to linearize This technique is popular because it allows relatively unbiased selection of a diffusion coefficient and provides a manner to estimate an uncertainty in D. However, the objectivity of this approach suffers by the requirement of fixing a value of Co, a variable of some considerable interest in its own right. To circumvent this problem, we have adopted the following approach. Concentration data are recast as:</p><formula xml:id="formula_1">( eft-1 1 Co J (2)</formula><p>where C o is a variable within certain bounds. The inverse error function is found using a very efficient algorithm where the error function is approximated using a regula falsi method of root finding and numerical integration by parts. These transformed data are plotted against x and The well correlated lines are evidence that diffusion is the dominant transport process in these experiments the fit of the line determined by the cubic least squares regression method of <ref type="bibr" target="#b12">York (1969)</ref>. Our treatment reduces the data using a series of trial Co values. An underestimate of C o will lever the slope of the curve to yield a negative intercept and an overestimate of this quantity will do the reverse. The value of C o which returns a zero intercept on this plot is the zirconium solubility in the melt.</p><p>Having arrived at the best estimate of Co, the slope of the corresponding line is proportional to 1/1/-4 Dt. Evaluation of D then requires knowledge of t only. The uncertainity in the slope provides the estimate of error in D, although our intra-experimental ability to reproduce a value of D indicates that our accuracy exceeds this estimate.</p><p>This data treatment is exemplified by the concentration profile obtained from ZIRDIS 5, shown both in original (Fig. <ref type="figure">2a</ref>) and linearized form (Fig. <ref type="figure">2b</ref>). A potential disadvantage of the inversion approach is that the resultant slope is preferentially levered by data in the asymptotic portion of the advancing diffusion gradient, where the signal to background ratio is the lowest. To accomodate this problem, we have assigned an uncertainty to each concentration datum based on counting statistics, inverted the difference between this value and the measured concentration using equation ( <ref type="formula">2</ref>), and obtained an estimate of uncertainty on the transformed plot. As the data approach background, the uncertainty becomes infinitely large and the regression weighting de-emphasizes the contribution of the datum. However, by simply ignoring the concentration information that corresponds to less than 10 percent of C o, and using a constant coefficient of variation in y, we obtained excellent agreement with this technique (Fig. <ref type="figure">2b</ref>).</p><p>Calculated values of D and its associated error are given in Table <ref type="table">I</ref> and shown on an Arrhenius-type diagram in Fig. <ref type="figure" target="#fig_2">3</ref>. The five virtually water-absent runs define a wellfitting line <ref type="bibr" target="#b12">(York 1969</ref>) that corresponds to an activation energy, E, of 97.7_+ 2.8 kcal-mol ~ and a frequency factor, Do, of q~cJ+l'39~ .... 58o cm2-sec -~. In strong contrast, the three runs which contain 6% H20 (ZIRDIS 6, 7, and 8) yield an activation energy of 47.3 _+ 1.9 kcal-mol-~ and frequency The diffusivity increases by a factor of 100 over the first 2% water, but subsequently rises by only a factor of five. This effect results from changes in melt structure in response to the reaction of water with the melt factor of n nan+0.o30 ...... o.o15 cmLsec-1-The dramatic difference of zirconium diffusion between the hydrous and anhydrous states is to some extent expected, as <ref type="bibr" target="#b9">Watson (1981)</ref> has previously observed enhancement of Cs and Ca diffusion by 4 and 2.5 orders of magnitude, respectively, upon the addition of H20 at 700 ~ C. The good fit of well-correlated Arrhenius relations is strong evidence that diffusion has been the mode of transport of Zr in the melt. These two diffusion laws plot close to a diffusion compensation curve defined by other elements in natural obsidian glasses and liquids <ref type="bibr" target="#b5">(Hofmann 1980;</ref><ref type="bibr" target="#b6">Jambon 1982;</ref><ref type="bibr" target="#b3">Hart 1981)</ref>.</p><p>A question that arises from observation of this profound contrast in diffusion behavior between a virtually dry and a "wet" obsidian melt relates to the nature of the transition between these two Arrhenius relationships. Does the addition of water to the dry system cause a gradual increase in diffusitity, or is there a threshold value beyond which the diffusion parameters for the water-bearing system become dominant ? Zirconimum diffusivities calculated for the six 1,200~ C runs are shown in Fig, <ref type="figure" target="#fig_3">4</ref> plotted against the concentration of water in the melt in weight percent. These data define a smooth, asymptotic increase from the virtually dry run (ZIRDIS 2) to the runs containing about 6% H20. The Zr diffusivity rises by a factor of about 100 over the first 2 percent water, but increases by only a factor of 5 between 2 and 6% water. Clearly, the rate of Zr transport in the melt increases in a systematic fashion that is related to the melt structure behavior during the addition of water. Recently, <ref type="bibr" target="#b7">Stolper (1982)</ref> has proposed a model for the speciation of water in magmas to account for his observation of a near linear increase in the ratio of molecular water to hydroxyl groups with total water content. Over the first 2% total water content, the concentration of hydroxyl groups increased dramatically, indicating that most of the molecular water had combined with bridging oxygens to produce OH complexes <ref type="bibr" target="#b6">(Jambon 1982)</ref>. A consequence of this reaction is that the viscosity of the magma decreases and the transport rate of cations increases as the melt becomes less polymerized. The effect of additional water beyond about 2% was less dramatic, indicating that much of the water remains in the molecular form which does not significantly affect the structure of the melt. Our observation of a rapid increase in D between 0 and 2% (Fig. <ref type="figure" target="#fig_3">4</ref>) followed by a gradual rise to an apparent plateau at about 2 x 10 -9 cm2-sec -1 is well explained by this model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Dissolution of Zircon</head><p>The observation of inherited radiogenic Pb (Pb*) in zircons from granitoid rocks (e.g., Pidgeon and Aftalion 1978) tells us only that at least a portion of the source zircons have been entrained intact. For us to infer that zircon was truly insoluble in the melt requires knowledge of both the saturation behavior of zircon and the rate of zircon dissolution. Zircon saturation systematics have been well characterized by <ref type="bibr">Watson and Harrison (1983 a)</ref> who developed a comprehensive solubility model that accounts for both temperature and compositional variations. Their results indicate that the maximum dissolved zirconium concentration in normal minimum-melt granitoids is at most on the order of hundreds of ppm. It is clear that given relatively static conditions in the magma, that is, residual grains are immobilized by the very vicous melt, the rate at which a zircon dissolves to saturate the liquid will be controlled by the rate at which zirconium diffuses away from the crystal/melt interface. In circumstances in which the inherited zircon is constantly brought adjacent to an undersaturated melt, for example by mechanical mixing, the rate limiting step in dissolution will be controlled by the interface kinetics. It has previously been shown by <ref type="bibr" target="#b8">Watson (1982)</ref> that the dissolution rate of quartz, where not impeded by a saturation limit, is very rapid and suggests similar behavior for other silicates. Although this is an implausible geological scenario for zircon, it does provide a limiting case which will be useful in a later discussion.</p><p>To illustrate the significance of the diffusion results to the question of zircon dissolution, we shall consider the case of spherical zircons dissolving into a melt initially containing no zirconium. We can model this process very well using the solution of the diffusion equation for the region bounded internally by the sphere of radius r = a, together with boundary and initial conditions; C=Co, r=a, t&lt;=O</p><formula xml:id="formula_2">(3) C=O,r&gt;a,t=O.</formula><p>The solution is <ref type="bibr">(Carslaw and Jaeger 1959)</ref></p><formula xml:id="formula_3">; C~ t ----a Co erfc r-a ' r ~ (<label>4</label></formula><formula xml:id="formula_4">)</formula><p>where Co is the concentration of zirconium at the zircon/ melt interface (r = a) dictated by the solubility. To determine the time required for zircons of varying diameters to dissolve, we first calculated the mass of zirconium in the zircon, and then allowed diffusion to proceed until the integrated mass of zirconium in the surrounding halo is equivalent to that originally in the zircon. At this instant, the zircon is entirely dissolved. Our boundary condition does not exactly describe the natural process as the crystal will in reality grow smaller during dissolution, slightly increasing the average diffusion distance of late dissolved material, rather than remaining fixed at r= a. However, due to the low solubility of zirconium in granitoid melts and the result- ing very large diffusion distances required to support the zirconium, this simplification causes an uncertainty in our results of less than 0.01%. This calculation allows neighboring zircons to be as near as 5% of the characteristic diffusion distance, due to the radial dilution effect, without affecting results.</p><p>In our illustration we have chosen to use a melt composition identical to the example of <ref type="bibr">Watson and Harrison (1983a)</ref> of a normal peraluminous granite, with M= (K + Na+2Ca)/(Si.A1)=I.3. At temperatures of 900~ and 700 ~ C, this melt becomes saturated at 480 and 50 ppm Zr, respectively. Thus, the dissolution of zircon increases with increasing temperature by two related mechanisms: the diffusivity of zirconium in the melt and the zirconium solubility. Results of these calculations for zircons with diameters of 50, 100 and 200 gm are shown in Fig. <ref type="figure" target="#fig_4">5</ref> for both wet and dry conditions. The enormous disparity in the time scales of dissolution between the hydrous and anhydrous cases is owed entirely to the contrast in activation energies of a factor of two. We have used identical solubilities for both conditions although, as will be discussed later, the solubility of Zr in dry melts is about a factor of two less than for melts containing &gt;2% water making the curves in Fig. <ref type="figure" target="#fig_4">5</ref> minimum estimates of the time scales of zircon dissolution in water absent melts.</p><p>For reasonable peak temperatures,of granitoid melts in the range 700 ~ to 900 ~ C, the time required for dissolution of our three zircon sizes in a &gt; 2 percent water-bearing melt varies between 14,000 years for the 200 I~m crystal at 700 ~ C to one year for the 50 gm zircon at 900 ~ C. These results indicate that for the geologically plausible situation where significant water is present in the melt and diffusion is the rate limiting step in zircon dissolution (and we have concluded that the actual surface reaction rate is probably rapid relative to diffusive transport) zircons will dissolve rapidly to buffer the melt at the saturation level imposed by the chemistry and temperature of the magma. Even if peak conditions are only achieved for short durations, zircon dissolution will respond virtually inStaneously.</p><p>However, competely dry melts (Fig. <ref type="figure" target="#fig_4">5</ref>) require extraordinarily long time periods for dissolution. For the 50 gm ). The open triangles are obtained from the dissolution experiments using melts with &gt; 3% water, and the solid triangles come from the solubility study of <ref type="bibr">Watson and Harrison (t983a)</ref>.</p><p>The good agreement to a simple enthalpy of solution both confirms and extends the previous model. The dashed line shows the saturation behavior for the five experiments run virtually in the absence of water indicating a Zr solubility about a factor of two lower than for melts containing ~2% HzO zircon held at 700 ~ C, a time equivalent to the age of the earth would be required. However, with the possible exception of A-type granitoids, the virtual absence of water in felsic melts represents a rare situation. Interestingly, although the concentration distribution described by equation ( <ref type="formula" target="#formula_3">4</ref>) is very unlike that for a semiinfinite medium, the well known expression for estimating approximate diffusion distances, X=I/Dt, describes results of equation ( <ref type="formula" target="#formula_3">4</ref>) to within ~ 30%. Thus, calculation of dissolution time for any sized zircon can be made using this equation together with knowledge of the zirconium diffusivity and zircon solubility in the melt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Zircon Saturation</head><p>The zircon dissolution/zirconium diffusion data presented here are also, in effect, reversed saturation experiments. The apparent concentration at the zircon interface, Co, is the amount of zirconium that can be contained in the melt at the temperature of the experiment, i.e., the saturation value (Table <ref type="table" target="#tab_0">1</ref>). To compare these results to the solubility model of <ref type="bibr">Watson and Harrison (1983 a)</ref> we have recast these data as in r~z~ .... /melt A plot of these values versus the recip-~Zr rocal absolute temperature of the experiment is shown in Fig. <ref type="figure" target="#fig_5">6</ref>, along with the data of <ref type="bibr">Watson and Harrison (1983 a)</ref> for a melt composition appropriate to Lake County Obsidian, M= 1.3. With the exception of ZIRDIS 7, which is not shown for reasons discussed later, all data for melts with water contents greater than 2% define a well-correlated line together with the saturation data of <ref type="bibr">Watson and Harrison (1983a)</ref>. It is not clear to us why the ZIRDIS 7 solubility estimate should be anomalously low, expecially in view of the otherwise systematic increase of Zr saturation with water content indicated by the other five 1,200 ~ C data (Table <ref type="table" target="#tab_0">1</ref>). The five virtually dry runs (ZIRDIS 1 to 5) define a linear array that is displayed by about a order of magnitude above the curve shown in Fig. <ref type="figure" target="#fig_5">6</ref>, indicating solubilities of about half those in the water-bearing system. These data suggest that the solubility model proposed by <ref type="bibr">Watson and Harrison (1983 a)</ref> is valid for melts that contain more than ~2 percent water. A possible, partial explanation for the remarkably low saturation value obtained from ZIRDIS 7 is that during the nearly two-day experiment, five times longer than any other experiment run in a Pt container, progressive proton loss occurred from the capsule, thereby lowering the solubility. This suggestion is supported by the fact that one of the measured diffusion gradients in ZIR-DIS 7 was anomalously short. It should be emphasized that this run was repeated with shorter duration as ZIRDIS 12, and the results of that run are in agreement with the bulk of the data. Our observation of a rapid, systematic increase in zircon solubility is consistent with the proposition of <ref type="bibr" target="#b6">Jambon (1982)</ref> that the generation of non-bridging oxygens by reacting water with the melt will produce associated cation sites.</p><p>A final, possibly noteworthy, point concerning the zircon solubility information extracted from our present solution-rate data is that C o may vary slightly with crystallographic direction. Although this suggestion requires substantition, it appears that the _kc direction gives ~10% (relative) lower solubilities. Such a difference would be unimportant for most purposes, but is nevertheless interesting from the viewpoint of the crystal-growth theorist.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Areas of Application</head><p>Reconstruction of the evolution of granitoid bodies using isotopic and trace element techniques may be obscured by the variety and complexity of the possible processes of magma modification. An additional complication arises if residual accessory phases transfer, by entrainment, a significant proportion of the REE and Pb* from the source without interacting with the melt phase. This problem can be dealt with if several factors are known. These include the saturation behavior of the phase with respect to composition and temperature, the rate of dissolution of the phase, and the concentration in the melt of the dissolving species. In the case of zircon, which is well-documented as a significant host of HREE, Pb*, Hf and, of course, Zr, we have practically all this required information. The only apparent limitation is knowledge of the Zr concentration in the melt. This parameter can be estimated through several approaches, including whole rock Zr analysis and zircon point counting. A more reliable and time-integrated method would be to use knowledge of the partition behavior of Zr between mineral and melt in conjunction with Zr analysis of that phase to estimate the concentration fluctuations in the cooling magma. We are currently investigating the suitability of hornblende for this role in a companion study, as well as developing techniques to estimate the temperature history of the magma (e.g., <ref type="bibr">Watson and Harrison 1983 b)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conclusions</head><p>The principal conclusions of this study are:</p><p>1) Diffusion coefficients calculated from zirconium gradients observed adjacent to a zircon/obsidian interface yield an activation energy (E) of 97.7 +2.8 kcal-mol-* and frequency factor (Do) -~"80 + 1,39o o~ -sso cm2-sec -* for virtually dry conditions, and E= 47.3_+ 1.9 kcal-mol-1 and D O = 0 03n+o.o3o * 9 ,, o.olscmZ-sec -for a 6% H20-bearing system. These results plot close to a previously defined diffusion compensation curve for cations in obsidian.</p><p>2) The diffusivity of Zr in obsidian melts increases by a factor of 100 over the first 2% water, but rises by only a factor of five between 2 and 6% water. This effect results from changes in melt structure in response to the reaction of water with the melt.</p><p>3) The saturation behavior of zircon in water-bearing felsic melts over the temperature interval 1,020 ~ to 1,500 ~ C is consistent with the lower temperature solubility data of <ref type="bibr">Watson and Harrison (1983a)</ref>. Zirconium solubility at 1,200 ~ C increases rapidly over the first few percent of water introduced into the melt with virtually dry melts having a factor of two lower saturation levels than melts containing &gt; 2% H20.</p><p>4) The dissolution of zircon in hydrous granitoid melts undersaturated with respect to Zr is rate-limited by the diffusivity of Zr. A 50 gm diameter zircon reacting in a nominally dry felsic melt at 750 ~ C would require 200 Ma to dissolve compared to about 100 years in a wet melt. For most geologically plausible environments, the dissolution of zircon to the point of saturation in granitoid magmas can be considered essentially instantaneous.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Fig.2. a Zirconium concentration profile in obsidian adjacent to a zircon crystal at t,500 ~ C for 6.67 h. Each datum of the traverse perpendicular to the zircon/obsidian interface represents a count time of 120 sec. (b) Concentration profile from Fig.2alinearized by inversion through the error function. Data corresponding to less than 10% of C O are omitted (see text). The well-correlated line indicates a good fit to diffusion theory. The intercept at the origin implies that the correct value of C O has been chosen (see text for detailed explanation). The scatter of data above the best fit line near the origin is likely a result of the uncertainty in the secondary fluorescence effect that has been subtracted from the total counts</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig.3. Arrhenius-type plot of diffusion coefficients calculated for obsidian melts containing 6% H20 (circles) and &lt;0.2% HzO (triangles) in the temperature range 1,020 ~ to 1,500 ~ C. The activation energies are dramatically different, underscoring the significant effect of water in modifying the transport behavior of cation in melts. The well correlated lines are evidence that diffusion is the dominant transport process in these experiments</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig.4. Diffusivity of Zr in an obsidian melt at 1,200 ~ C plotted against the total water content of the melt. The diffusivity increases by a factor of 100 over the first 2% water, but subsequently rises by only a factor of five. This effect results from changes in melt structure in response to the reaction of water with the melt</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Relationship between temperature and time required for dissolution of zircons with diameters of 50, 100 and 200 gm in a felsie melt under both 6% water (thick lines) and anhydrous (thin lines) conditions</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig.6. Saturation behavior of Zr in an obsidian melt(M= 1.3). The open triangles are obtained from the dissolution experiments using melts with &gt; 3% water, and the solid triangles come from the solubility study ofWatson and Harrison (t983a). The good agreement to a simple enthalpy of solution both confirms and extends the previous model. The dashed line shows the saturation behavior for the five experiments run virtually in the absence of water indicating a Zr solubility about a factor of two lower than for melts containing ~2% HzO</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Zircon dissolution/Zr diffusion run information and analytical results</figDesc><table><row><cell>Run</cell><cell>Temperature</cell><cell>Run duration</cell><cell>H20 content</cell><cell>C o</cell><cell>D</cell><cell></cell><cell>-log D</cell></row><row><cell></cell><cell>(~</cell><cell>(• 104 sec)</cell><cell>(wt. %)</cell><cell>(ppm)</cell><cell cols="2">(cm2_sec 1)</cell><cell></cell></row><row><cell>ZIRDIS 1</cell><cell>1,400</cell><cell>1.35</cell><cell>0.1</cell><cell>6,000</cell><cell cols="2">1.1 +0.1 • ]0 -l~</cell><cell>9.96</cell></row><row><cell>ZIRDIS 2</cell><cell>1,200</cell><cell>6.90</cell><cell>0.1</cell><cell>2,800</cell><cell cols="2">3.1 ~__0.5 X 10 -12</cell><cell>11.51</cell></row><row><cell>ZIRDIS 3</cell><cell>1,300</cell><cell>8.10</cell><cell>0.1</cell><cell>3,700</cell><cell cols="2">2.8 _+0.1 x 10 -11</cell><cell>10.55</cell></row><row><cell>ZIRDIS 4</cell><cell>1,400</cell><cell>9.96</cell><cell>0.1</cell><cell>6,080</cell><cell cols="2">2.4 +0.1 x 10 -l~</cell><cell>9.63</cell></row><row><cell>ZIRDIS 5</cell><cell>1,500</cell><cell>2.40</cell><cell>0.1</cell><cell>14,800</cell><cell cols="2">9.4 +0.2 x 10 lo</cell><cell>9.03</cell></row><row><cell>ZIRDIS 6</cell><cell>1,020</cell><cell>16.0</cell><cell>6.0</cell><cell>1,580</cell><cell>3.3 •</cell><cell>x 10 -l~</cell><cell>9.48</cell></row><row><cell>ZIRDIS 7</cell><cell>1,200</cell><cell>14.9</cell><cell>6.0</cell><cell>2,000</cell><cell cols="2">2.4 @0.1 X 10 -9</cell><cell>8.62</cell></row><row><cell>ZIRDIS 8</cell><cell>1,385</cell><cell>1.71</cell><cell>6.0</cell><cell>12,800</cell><cell cols="2">1.95_+0.07 x 10 -8</cell><cell>7.71</cell></row><row><cell>ZIRDIS 9</cell><cell>1,200</cell><cell>2.40</cell><cell>1.0</cell><cell>2,980</cell><cell cols="2">8.60+0.4 • 10 -11</cell><cell>10.07</cell></row><row><cell>ZIRDIS 10</cell><cell>1,200</cell><cell>2.19</cell><cell>2.3</cell><cell>4,200</cell><cell cols="2">4.46_+0.2 x 10 -l~</cell><cell>9.35</cell></row><row><cell>ZIRDIS 11</cell><cell>1,200</cell><cell>2.31</cell><cell>4.2</cell><cell>4,700</cell><cell cols="2">8.94_+0.3 x 10 -l~</cell><cell>9,04</cell></row><row><cell>ZIRDIS 12</cell><cell>1,200</cell><cell>3.06</cell><cell>6.3</cell><cell>3,850</cell><cell cols="2">1.33 _+ 0.04 x 10 9</cell><cell>8.88</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgements. This research was supported through <rs type="funder">National Science Foundation</rs> Grants <rs type="grantNumber">EAR-8121275</rs>, <rs type="grantNumber">EAR-8025587</rs>, <rs type="grantNumber">EAR-8212446</rs> and <rs type="grantNumber">EAR-8212453</rs>. The manuscript was improved through readings by <rs type="person">Karleen Davis</rs>, <rs type="person">Steve DeLong</rs> and <rs type="person">Liew Tung-Chooi</rs>. We thank <rs type="person">Keith Mahon</rs> for computing assistance and <rs type="person">Andrew Gleadow</rs> and <rs type="person">Bill Birch</rs> for supplying the zircon sample.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_7uw2aaF">
+					<idno type="grant-number">EAR-8121275</idno>
+				</org>
+				<org type="funding" xml:id="_7FhskwC">
+					<idno type="grant-number">EAR-8025587</idno>
+				</org>
+				<org type="funding" xml:id="_y8QMS3A">
+					<idno type="grant-number">EAR-8212446</idno>
+				</org>
+				<org type="funding" xml:id="_Zrhq8Pj">
+					<idno type="grant-number">EAR-8212453</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">The age of the Mud Tank Carbonatite</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Black</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Gulson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMR J Austr Geophys</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="227" to="232" />
+			<date type="published" when="1978">1978</date>
+			<pubPlace>Strangways Range, Northern Territory</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Carslaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Jaeger</surname></persName>
+		</author>
+		<title level="m">Conduction of heat in solids</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford University Press</publisher>
+			<biblScope unit="page">510</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Comparison of fission-track dating methods: Effects of anisotropic etching and accumulated c~-damage</title>
+		<author>
+			<persName><forename type="first">Ajw</forename><surname>Gleadow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">US Geol Surv Open-file Report</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">701</biblScope>
+			<biblScope unit="page" from="143" to="145" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Diffusion compensation in natural silicates</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Hart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim Comochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="279" to="291" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<author>
+			<persName><forename type="first">Kfj</forename><surname>Heinrich</surname></persName>
+		</author>
+		<title level="m">Electron beam x-ray microanalysis. Van Nostrand Reinhold</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1981">1981</date>
+			<biblScope unit="page">578</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Diffusion in natural silicate melts: A critical review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of Magma Processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Princeton</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page">385417</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Tracer diffusion in granitic melts: Experimental results for</title>
+		<author>
+			<persName><forename type="first">A ;</forename><surname>Jambon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Cs</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ca</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ce</forename><surname>Ba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Geophys Res</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="10797" to="10810" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note>Eu to 1,300~ and a model of calculation</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Water in silicate glasses : An infrared spectroscopic study</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Stolper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Basalt contamination by continental crust: Some experiments and models</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib Mineral Petrol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="73" to="87" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Diffusion in magmas at depth in the earth: The effects of pressure and dissolved HzO</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="291" to="301" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Zircon saturation revisited: Temperature and composition effects in a variety of crustal magma types</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="295" to="304" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Accessory mineral phases and the geochemical evolution of crustal magmatic systems: A summary and prospectus of experimental approaches</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys Earth Planet Int</title>
+		<imprint>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Least squares fitting of a straight line with correlated errors</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>York</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci Lett</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="320" to="324" />
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

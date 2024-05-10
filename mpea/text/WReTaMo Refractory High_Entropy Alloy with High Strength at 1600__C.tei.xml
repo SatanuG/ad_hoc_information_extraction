@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">WReTaMo Refractory High-Entropy Alloy with High Strength at 1600 C</title>
+				<funder ref="#_MD4rHKe">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_sdK4Jfe">
+					<orgName type="full">National Key Research and Development Program of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yixing</forename><surname>Wan</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Qianqian</forename><surname>Wang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Jinyong</forename><surname>Mo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Zhibin</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xin</forename><surname>Wang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xiubing</forename><surname>Liang</surname></persName>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Baolong</forename><surname>Shen</surname></persName>
+							<email>blshen@seu.edu.cn</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Institute of Massive Amorphous Metal Science</orgName>
+								<orgName type="department" key="dep2">School of Materials Science and Physics</orgName>
+								<orgName type="institution">China University of Mining and Technology</orgName>
+								<address>
+									<postCode>221116</postCode>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">School of Chemical Engineering and Technology</orgName>
+								<orgName type="institution">China University of Mining and Technology</orgName>
+								<address>
+									<postCode>221116</postCode>
+									<settlement>Xuzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="laboratory">Jiangsu Key Laboratory for Advanced Metallic Materials Southeast University</orgName>
+								<address>
+									<postCode>211189</postCode>
+									<settlement>Nanjing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Defense Innovation Institute Academy of Military Science</orgName>
+								<address>
+									<postCode>100071</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">WReTaMo Refractory High-Entropy Alloy with High Strength at 1600 C</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BC1B5D679B2492AC7CDE6DFB673292AF</idno>
+					<idno type="DOI">10.1002/adem.202100765</idno>
+					<note type="submission">Received: June 19, 2021 Revised: August 12, 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>elevated temperature properties</term>
+					<term>mechanical properties</term>
+					<term>phase stability</term>
+					<term>refractory high-entropy alloys</term>
+					<term>Vickers hardness</term>
+				</keywords>
+			</textClass>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>High-temperature alloys are in high demand for refractory applications, such as aviation engines, aerospace aircraft, marine engines, ground gas turbines, and nuclear power plants. <ref type="bibr" target="#b0">[1]</ref> Ni-based superalloys, which are the most commonly used high-temperature alloys, exhibit reliable mechanical properties at 650À1000 C. <ref type="bibr" target="#b1">[2]</ref> However, the working temperature of many advanced aircraft approaches 2000 C, and no traditional alloy can survive. The design of alloys that can be applied at higher temperatures is required. High-entropy alloys (HEAs) bring a new alloy design concept, <ref type="bibr" target="#b2">[3]</ref> showing excellent properties of strength, <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref> wear resistance, <ref type="bibr" target="#b5">[6]</ref> radiation resistance, <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b7">8]</ref> corrosion resistance, <ref type="bibr" target="#b8">[9]</ref> oxidation resistance, <ref type="bibr" target="#b9">[10]</ref> and fatigue resistance. <ref type="bibr" target="#b10">[11]</ref> Particularly, the refractory high-entropy alloys (RHEAs), composed of refractory elements (e.g., W, Ta, Mo, Nb, Hf, and V), have received much attention for their excellent mechanical and chemical performance at elevated temperature, including high strength, <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref> high hardness, <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref> good wear resistance, <ref type="bibr" target="#b16">[17]</ref> and so on. The NbMoTaW RHEA, which shows a high yield strength of over 400 MPa at 1600 C, <ref type="bibr" target="#b17">[18]</ref> is a promising candidate for high-temperature structural materials. <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b19">20]</ref> Further optimization of the mechanical properties for NbMoTaW RHEA from room temperature to elevated temperatures has become an important research focus.</p><p>The addition of alloying elements is the most commonly used method to improve the mechanical properties of NbMoTaW RHEAs. The grain rotations and grain boundary sliding led to the deformation of NbMoTaW RHEA at 1400 C. <ref type="bibr" target="#b17">[18]</ref> By adding V, <ref type="bibr" target="#b17">[18]</ref> Ti, <ref type="bibr" target="#b20">[21]</ref> Zr, <ref type="bibr" target="#b21">[22]</ref> Hf, <ref type="bibr" target="#b21">[22]</ref> and Si <ref type="bibr" target="#b14">[15]</ref> in NbMoTaW RHEA, the strength and plasticity of the alloys had been improved significantly. The high solid solution hardening effect and strong atomic bonding contributed to the good mechanical properties of TiNbMoTaW and TiVNbMoTaW RHEAs at elevated temperatures. <ref type="bibr" target="#b13">[14]</ref> The dispersed silicides improved the hardness and strength of NbTaWMoSi x from room temperature to 800 C. <ref type="bibr" target="#b14">[15]</ref> Rhenium (Re), which has a high melting temperature of 3186 C <ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref> and is commonly introduced into Ni-based superalloys to enhance the high-temperature mechanical properties, <ref type="bibr" target="#b25">[26]</ref> has been added in RHEAs to improve the ductility and strength DOI: 10.1002/adem.202100765 Structural materials with higher melting temperatures and better mechanical properties than superalloys are in high demand in refractory applications. A promising WReTaMo refractory high-entropy alloy (RHEA) with high strength at 1600 C is fabricated by vacuum arc melting. The WReTaMo RHEA has a bodycentered cubic (BCC) structure with a maximal compressive strength of 1140 MPa and Vickers microhardness of 654 HV at room temperature. The alloy displays a strong resistance to high-temperature softening, showing the high maximal compressive strength of 244 MPa at 1600 C. The deformation of the WReTaMo RHEA compressed at 1600 C maybe resulted from the grain boundary sliding, which leads to the propagation of the cracks along grain boundaries. Face-centered cubic (FCC) phase forms at the surface region of samples annealed above 1800 C due to the diffusion of carbon atoms by gas carburizing in the graphite crucible at such high temperatures. The increase in hardness at temperatures above 1600 C results from the solid solution strengthening of dissolved carbon. The forming ability of the WReTaMo RHEA is also discussed. This work presents a promising high-temperature structural material and fills the vacancy of the mechanical properties of Re-containing RHEAs at 1600 C. at room and elevated temperatures. Proper addition of Re into the NbMoTaW RHEA could improve both the strength and ductility at room temperature <ref type="bibr" target="#b26">[27]</ref> due to the fine-grain strengthening and second-phase strengthening. The smaller atomic size difference of Re with Mo, Ta, and W could reduce the lattice distortion of WReTaMo RHEA and improve the ductility. <ref type="bibr" target="#b27">[28]</ref> By alloying Re in Ir 0.19 Os 0.22 Re 0.21 Rh 0.2 Ru 0.19 HEA, Kirill et al. successfully prepared the first hexagonal close-packed (HCP) HEA with outstanding stability under the condition of 1500 K and 45 GPa compressive strength. <ref type="bibr" target="#b28">[29]</ref> Senkov et al. <ref type="bibr" target="#b17">[18]</ref> reported that the high melting temperature of constituent elements in NbMoTaW and NbMoTaWV contributes to the high yield strength in the refractory environment. As Re has a melting temperature higher than that of Niobium (Nb), replacing the Nb with Re in NbMoTaW RHEA may be a good choice to improve the elevated temperature mechanical performance. <ref type="bibr" target="#b11">[12]</ref> However, little is known about the elevated temperature mechanical properties of the WReTaMo RHEA. The hightemperature deformation mechanism of Re-containing HEAs is not clear. The database is still rather limited and more investigations on the high-temperature mechanical properties of RHEAs should be conducted. In this study, WReTaMo RHEA was fabricated by arc melting. Investigations of the mechanical properties and thermal stability at high temperatures were conducted. The deformation mechanism was discussed. This study fills the vacancy of the mechanical properties of Re-containing RHEAs at 1600 C and provides guidance for the design of RHEAs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Results and Discussion</head><p>Figure <ref type="figure" target="#fig_0">1a</ref> shows the XRD pattern of the as-cast WReTaMo RHEA. The pattern shows only four sharp diffraction peaks. The positions of the peaks correspond to 40.2 , 58.1 , 73 , and 86.7 , respectively. The indexes of the crystal planes belong to a single-phase body-centered cubic (BCC) crystal lattice. As shown in Figure <ref type="figure" target="#fig_0">1b</ref>, the BSE image of the cross section of WReTaMo RHEA exhibits equiaxed grains. Figure <ref type="figure" target="#fig_0">1c</ref> shows the room-temperature compressive engineering stress-strain curve for the WReTaMo RHEA rod with a diameter of 3.6 mm, with the results shown in Table <ref type="table" target="#tab_0">1</ref>. The yield strength σ 0.2 of WReTaMo is 1075 MPa. After yielding, the continuous strengthening is nearly at a constant rate until the strain ε achieving 3.3% and maximal strength σ m reaching 1140 MPa, and then the sample failed gradually. A similar compressive strain-stress curve had been reported in a quasi-cleavage fracture with riverpattern markings. <ref type="bibr" target="#b29">[30]</ref> EDS mappings of the cross section of WReTaMo RHEA are shown in Figure <ref type="figure" target="#fig_0">1d</ref>. The EDS mappings   reveal a homogeneous distribution of the elements in the as-cast WReTaMo sample. The mole fraction of W, Re, Ta, and Mo is about 24.3%, 25.8%, 25.5%, and 24.4%, respectively, which is almost consistent with the designed composition.</p><p>Figure <ref type="figure" target="#fig_2">2</ref> shows the TEM bright-field image and SAED pattern of the as-cast WReTaMo RHEA. Figure <ref type="figure" target="#fig_2">2a</ref> shows a homogeneous organizational structure with no secondary phase precipitated in the microstructure. The corresponding SAED pattern shows evi-</p><formula xml:id="formula_0">dent (0 0 2 À ), (1 1 À 2 À</formula><p>), and (1 1 0 À ) orientations, indicating a singlephase BCC structure. The result is consistent with the XRD analysis.</p><p>The compressive engineering stress-strain curve of the WReTaMo RHEA obtained at 1600 C is shown in Figure <ref type="figure" target="#fig_3">3</ref>, and the mechanical properties are summarized in Table <ref type="table" target="#tab_0">1</ref>. At 1600 C, the sample shows continuous strengthening without peak stress until the final testing point at strain of 25%. The alloy shows yield strength σ 0.2 of 172 MPa and maximal compressive strength σ m of 244 MPa. The inset of Figure <ref type="figure" target="#fig_3">3</ref> shows the change in the shape after compression at 1600 C. The diameter of the sample increases from 3.6 to about 4.2 mm. The sample is not ruptured when the strain reached 25%, exhibiting a plastic deformation. By comparison, the commercial super-alloy Inconel 718 shows yield strength σ 0.2 of 138 MPa at 982 C and melts at 1210 C; the commercial superalloy Haynes 230 shows yield strength σ 0.2 of 275 MPa at 870 C and melts at about 1200 C. <ref type="bibr" target="#b15">[16]</ref> The yield strength above 1000 C of the WReTaMo RHEA performs much higher than these two commercial superalloys.</p><p>The high resistance to high-temperature softening relates to the high melting temperature of the WReTaMo RHEA. The softening temperature of alloys is about 0.6T m , <ref type="bibr" target="#b17">[18]</ref> where T m is the melting temperature of alloy given in degrees K. The melting temperature of RHEAs can be estimated by the rule-of-mixtures, <ref type="bibr" target="#b30">[31]</ref> T m ¼ P n i¼1 c i T mi , where c i is the atomic percentage of the ith components and T mi is the melting temperature of the ith component. Thus, the T m of the WReTaMo RHEA is about 3062 C (3335 K; see Table <ref type="table" target="#tab_1">2</ref>). <ref type="bibr">[32]</ref> Therefore, the softening temperature of WReTaMo RHEA is about 1728 C (2001 K). The high strength at 1600 C implies that the WReTaMo RHEA can serve as a new type of high-temperature alloy.</p><p>To uncover the origin of the maintained high strength of WReTaMo at elevated temperature, the deformation behavior of the alloy at 1600 C is investigated. SEM image of the cross section of the WReTaMo rod sample compressed at 1600 C is shown in Figure <ref type="figure" target="#fig_5">4</ref>. The grains remain equiaxed after the compression test at 1600 C. However, many cracks propagating along the grain boundaries can be seen on the cross section. As discussed in Figure <ref type="figure" target="#fig_3">3</ref>, the WReTaMo RHEA exhibits plastic deformation. Plastic deformation usually results from dislocation motion, twinning, phase transformation, vacancy motion, grain boundary sliding, or viscous flow of amorphous materials. In the   T m (K) 3695 <ref type="bibr">[32]</ref> 3459 <ref type="bibr">[32]</ref> 3290 <ref type="bibr">[32]</ref> 2896 <ref type="bibr">[32]</ref> 3335 a)</p><p>WReTaMo RHEA compressed at 1600 C, it may be the grain boundary sliding that contributes to the deformation as only intergranular cracks are observed. It is proposed that the cracks initiate at the grain boundaries first and then propagate along the grain boundaries. With the progress of compression, the grain boundaries slide to resist the compressive force, which leads to the propagation of the cracks along grain boundaries. This leads to the change in dimension of the sample during compression.</p><p>To examine the phase stability, the WReTaMo RHEA ingots were annealed at 1500, 1600, 1800, and 2200 C, respectively. Figure <ref type="figure" target="#fig_6">5a</ref> shows the XRD patterns of the annealed WReTaMo RHEA ingots at different temperatures. Figure <ref type="figure" target="#fig_6">5b</ref> is the enlargement of (a) in the 2θ from 33 to 37 . The circles show the observed patterns, the bold lines show the Rietveld refinements, and the fine lines show the differences in fitting. The diffraction patterns are subjected to Rietveld refinement. For the as-cast, 1500 C annealed, and 1600 C annealed samples, only the BCC phase is found, indicating that the structure of the WReTaMo RHEA is not changed below 1600 C. The face-centered cubic (FCC) phase appears when the annealing temperature reached 1800 C, indicating that the FCC phase forms between 1600 and 1800 C.</p><p>To clarify the formation of the FCC phase, the chemical compositions of the annealed samples are analyzed using EPMA.  <ref type="table" target="#tab_2">3</ref>. The concentration of C at the surface and inner regions is about 27.6 and 9.4 at%, respectively. Thus, the carbon element is dissolved in the sample after annealing at 2200 C, especially at the surface region. Re and Ta redistribute as the carbon dissolves. The carbon element may come from the carbon atmosphere in the graphite crucible by the gas carburizing. During the annealing process at 2200 C, the extremely high temperature enables the free carbon atoms to diffuse into the WReTaMo RHEA.</p><p>The surface region was thinned to about 100 nm to identify the crystallographic structure by the TEM method. The microstructure and crystallographic structure of the WReTaMo RHEA after annealing at 2200 C are shown in Figure <ref type="figure" target="#fig_8">7</ref>. Two phases are observed in the form of interlacing distribution, as shown in Figure <ref type="figure" target="#fig_8">7a</ref>. The SAED pattern shows that the surface region contains both BCC and FCC phases, as shown in Figure <ref type="figure" target="#fig_8">7b</ref>. This result is consistent with the XRD analysis in Figure <ref type="figure" target="#fig_6">5</ref>.  It is important to clarify the relationship between dissolved carbon and the FCC phase. In 2016, Guo et al. reported that FCC carbide formed in Mo 0.5 NbHf 0.5 ZrTiC 0.1 and Mo 0.5 NbHf 0.5 ZrTiC 0.3 alloys. <ref type="bibr" target="#b31">[33]</ref> Recently, Wei et al. reported that with the increase in C concentration from 0 to 20 at% in MoNbRe 0.5 TaW(TiC) x alloy, the fraction of FCC carbide increased, and the microstructure exhibited an evolution from hypoeutectic to eutectic and then to hypereutectic. <ref type="bibr" target="#b32">[34]</ref> The FCC carbide was proved to be stable below the melting temperature by CALPHAD method. A similar conclusion was also obtained in MoNbRe 0.5 W(TaC) x alloy. <ref type="bibr" target="#b27">[28]</ref> All these researches suggested that a certain amount of carbon in RHEAs promoted the formation of FCC carbide. In this work, the concentration of C at the surface region is about 27.6 at%, which causes the formation the FCC phase.</p><p>The BSE and nanoindentation analyses were conducted to analyze the morphology and mechanical properties of the inner region and surface region in annealed samples. Figure <ref type="figure" target="#fig_9">8a</ref> shows the BSE image of the WReTaMo RHEA annealed at 2200 C. The annealed sample is composed of inner region and surface region. The surface region contains FCC carbide. No secondary particles were found at the inner region. Figure <ref type="figure" target="#fig_9">8b</ref> shows the loaddisplacement curves obtained on the cross sections of the annealed sample. At the maximum load of 50 mN, the maximum penetration depth is 520 nm for the inner region and 357 nm for the surface region, indicating a higher indentation resistance of   the surface region. The average hardness (H) of inner region and surface region is 8.3 and 21.3 GPa, respectively. This suggests that the FCC phase exhibits higher hardness than the BCC phase.</p><p>Figure <ref type="figure">9</ref> shows the Vickers hardness of the WReTaMo RHEA annealed at different temperatures. The hardness of the alloys was measured at the inner parts of the samples. As the annealing temperature rises to 1500 C, the hardness decreases slightly by the progress of thermally activated dislocations. <ref type="bibr" target="#b33">[35,</ref><ref type="bibr" target="#b34">36]</ref> Then, the hardness increases rapidly to a high value of 723 HV as the annealing temperature rises to 2200 C. As shown in Figure <ref type="figure" target="#fig_4">6</ref>, the carbon element is dissolved in the inner region after annealing at 2200 C, which indicates the solid solution of carbon in the BCC phase. The samples after annealing above 1800 C can be treated as a WReTaMo solvent matrix containing C solute. The increase in hardness at temperatures above 1600 C is due to solid-solution strengthening. <ref type="bibr" target="#b31">[33,</ref><ref type="bibr" target="#b35">37]</ref> Table <ref type="table">4</ref> shows the enthalpies of mixing of the atomic pairs in WReTaMo RHEA. <ref type="bibr" target="#b36">[38]</ref> The mixing enthalpies with large negative values induce strong bonding between the constituent elements, leading to the high compressive strength at 1600 C. <ref type="bibr" target="#b37">[39]</ref> As the mixing enthalpy of the Re-Ta atomic pair has a much lower negative value than other atomic pairs, the addition of Re contributes to the high strength of WReTaMo RHEA at elevated temperatures.</p><p>In common, several parameters are implemented to predict the phase selection and phase stability in HEAs. They are entropy of mixing ΔS mix , <ref type="bibr" target="#b38">[40]</ref> enthalpy of mixing ΔH mix , <ref type="bibr" target="#b38">[40]</ref> atomic size difference δ, <ref type="bibr" target="#b39">[41]</ref> electronegativity difference Δχ, <ref type="bibr" target="#b40">[42]</ref> valence electron concentration (VEC), <ref type="bibr" target="#b41">[43]</ref> and thermodynamic parameter Ω, <ref type="bibr" target="#b38">[40]</ref> respectively. The corresponding formulas are defined as follows, and the results belonging to WReTaMo RHEA are shown in Table 5  Re─Mo À7</p><formula xml:id="formula_1">ΔS mix ¼ ÀR X n i¼1 c i lnc i<label>(1)</label></formula><formula xml:id="formula_2">ΔH mix ¼ X n i¼1,i6 ¼j 4ΔH mix ij c i c j<label>(2)</label></formula><p>Re─Ta À24</p><p>Table <ref type="table">5</ref>. The entropy of mixing ΔS mix , enthalpy of mixing ΔH mix , atomic size difference δ, electronegativity difference Δχ, VEC, and thermodynamic parameter Ω of the WReTaMo RHEA.</p><formula xml:id="formula_3">ΔS mix [J K À1 mol À1 ] ΔH mix [kJ mol À1 ] δ [%] Δχ VEC Ω 11.53 À11.75 1.67 0.32 6 3 δ ¼ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi X n i¼1 c i ð1 À r i =r À Þ 2 s , r À ¼ X n i¼1 c i r i (3) Δχ ¼ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi X n i¼1 c i ðχ i À χ À Þ 2 s , χ À ¼ X n i¼1 c i χ i (4) VEC ¼ X n i¼1 c i ðVECÞ i (5) Ω ¼ T m ΔS mix jΔH mix j , T m ¼ X n i¼1 c i ðT m Þ i (<label>6</label></formula><formula xml:id="formula_4">)</formula><p>where R is gas constant, c i and c j are the atomic percentages of the ith and jth components, ΔH mix ij is the enthalpy of mixing of the ith and jth components, respectively, r i is the atomic radius of the ith component, r À is the average atomic radius of the components, χ i is the electronegativity of the ith components, χ À is the average electronegativity of the components, (VEC) i is the VEC of the ith component, and (T m ) i is the melting temperature of the ith element, respectively. The ΔH mix of WReTaMo is À11.75 kJ mol À1 , which is larger than that of NbMoTaW (À6.5 kJ mol À1 ). <ref type="bibr" target="#b30">[31]</ref> The mixing enthalpy represents the interaction between different components. More negative ΔH mix means a larger binding force between the components, making it easier to form intermetallics. The parameters δ and Δχ reflect the atomic size discrepancy and the electronegativity difference among the constituent elements in the alloy system. The value of atomic size difference δ is 1.67%, and the value of electronegativity difference Δχ is 0.32, respectively, indicating that the lattice distortion is not intense. The value of VEC is 6, which is less than 6.8, indicating that the crystal structure of the WReTaMo RHEA is stable in the single BCC solid solution structure, which is consistent with the experimental result. The thermodynamic parameter Ω is 3. There is a criterion by Yang <ref type="bibr" target="#b38">[40]</ref> that if Ω ≥ 1.1 and δ ≤ 6.6, it will form a stable solid solution. All these results demonstrate that the solid solution structure of WReTaMo RHEA is BCC and stable at room temperature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Conclusions</head><p>A promising WReTaMo RHEA with high strength at 1600 C was fabricated by vacuum arc melting. The alloy displayed strong resistance to high-temperature softening, with a high maximal compressive strength of 244 MPa at 1600 C. This temperature exceeded the serving temperature of Ni-based high-temperature alloys endowing the possibility as a new type of high-temperature alloy used in aviation engines, gas turbines, and nuclear power plants. The deformation maybe resulted from the grain boundary sliding, which led to the propagation of the cracks along grain boundaries. FCC phase formed at the surface region of samples annealed above 1800 C due to the gas carburizing in the graphite crucible at such high temperatures. The increase in hardness at temperatures above 1600 C resulted from the solid solution strengthening of dissolved carbon. This work presents a promising high-temperature structural material with high strength at 1600 C and fills the vacancy of the mechanical properties of Recontaining RHEAs at 1600 C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Experimental Section</head><p>The WReTaMo RHEA ingots were produced by vacuum arc-melting the equimolar mixture of W, Re, Ta, and Mo metals with high purity above 99.9 mass% in an argon atmosphere. The as-prepared ingots were about 20 mm in diameter and 7 mm in thickness and had shiny surfaces. The crystalline structure of the as-prepared and annealed samples were identified by X-ray diffraction (XRD, Bruker D8 ADVANCE) with Cu Kα radiation in the 2θ from 20 to 90 at a scan rate of 4 /min. The morphology and elemental distribution of the samples were analyzed by a scanning electron microscope (SEM, HITACHI SU3500) equipped with an energy dispersive spectrometry (EDS) under back-scatter electron (BSE) mode. The microstructure and selected area electron diffraction (SAED) patterns of the samples were analyzed by a field emission transmission electron microscope (TEM, FEI G2 F20) with an acceleration voltage of 200 kV. The room-temperature compressive engineering stress-strain curves were tested using an Instron 5982 testing machine with extensometers at a strain rate of 0.001 s À1 in air. The cylindrical specimens for compression tests were 5.4 mm in height and 3.6 mm in diameter. The hightemperature mechanical properties, including yield strength, maximal strength, peak strain, and fracture strain, were measured by a mechanical testing machine at 1600 C in an argon atmosphere. The heating part of the mechanical testing machine is a vacuum graphite furnace. The samples were heated to 1600 C at a rate of 10 C min À1 and kept for 10 min, followed by compressing with a 25% height reduction at a constant strain rate of 0.001 s À1 in an argon atmosphere. The morphology of the deformed samples was characterized by SEM under BSE mode. To examine the phase stability, the as-cast ingots were heated to annealing temperatures (1500, 1600, 1800, and 2200 C) at a rate of 10 C min À1 , kept for 10 min, and then furnace cooled (cooling rate about 5 C min À1 ) in a vacuum graphite furnace. Before annealing, the graphite furnace was first evacuated to 5 Â 10 À3 Pa, and then filled with argon to 10 4 Pa. The diffraction patterns of annealed samples were subjected to Rietveld refinement. The chemical compositions of the sample after annealing at 2200 C were analyzed using an electron probe microanalyzer (EPMA, SHIMADZU EPMA-8060G) with a wavelength dispersive spectrometer (WDS). The nanoindentation tests were carried out at room temperature on a Micro Materials NanoTest with a load of 50 mN, dwell time of 100 s, and strain rate of 1 mN s À1 on polished cross-sectional surfaces at five different points. The distance between the indentations was about 50 μm to avoid interference. Vickers microhardness (HV) was determined using an HVS-1000A microhardness tester with a diamond pyramid applied to a polished surface of the alloy sample at 100 g load for 10 s. The ISO 6507 standard was used for microhardness tests, and the value was obtained from the average of ten measurements. The distance between the indentations was about 100 μm to avoid the interference from adjacent indents.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. a) XRD pattern, b) BSE image, c) compressive engineering stress-strain curve, and d) EDS mappings of the as-cast WReTaMo RHEA.</figDesc><graphic coords="2,94.68,396.11,402.68,304.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. a) TEM bright-field image and b) SAED pattern of the as-cast WReTaMo RHEA.</figDesc><graphic coords="3,137.76,71.49,322.42,160.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Compressive engineering stress-strain curve of the WReTaMo RHEA obtained at 1600 C.</figDesc><graphic coords="3,52.50,511.99,238.05,178.58" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 6</head><label>6</label><figDesc>shows the BSE image and the corresponding EPMA element mappings for the cross section of the WReTaMo RHEA after annealing at 2200 C. From the BSE image in Figure 6a, the contrast of the surface region (point 1) is different from that of the inner region (point 2) for the annealed sample. The thickness of the surface region is about 265 μm. No secondary particles were found at the inner region. The chemical composition analyses of the sample are shown in Figure 6bÀf. The contents of C, W, Re, Ta, and Mo in different regions are shown in Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. SEM image of the WReTaMo rod sample compressed at 1600 C.</figDesc><graphic coords="4,57.37,71.49,222.24,167.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. a) XRD patterns of the annealed WReTaMo RHEA ingots; b) enlargement of (a) in the 2θ from 33 to 37 . The circles show the observed patterns, the bold lines show the Rietveld refinements, and the fine lines show the differences in fitting.</figDesc><graphic coords="4,138.95,482.40,314.10,208.12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. a) BSE image and b-f ) the corresponding EPMA element mappings for the WReTaMo RHEA after annealing at 2200 C.</figDesc><graphic coords="5,97.74,71.49,402.63,226.09" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. a) TEM bright-field image and b) SAED pattern of the WReTaMo RHEA after annealing at 2200 C.</figDesc><graphic coords="5,143.83,546.12,310.54,154.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. a) BSE image of the WReTaMo RHEA annealed at 2200 C; b) load-displacement curves of the BCC and FCC phases in the annealed sample.</figDesc><graphic coords="6,95.02,71.49,401.95,154.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 9 .Table 4 .</head><label>94</label><figDesc>Figure 9. Vickers hardness of the WReTaMo RHEA annealed at different temperatures.</figDesc><graphic coords="6,49.78,269.52,237.49,174.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Compression properties of the WReTaMo RHEA.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Melting temperatures of the WReTaMo RHEA and corresponding metals.</figDesc><table><row><cell>Metal</cell><cell>W</cell><cell>Re</cell><cell>Ta</cell><cell>Mo</cell><cell>WReTaMo</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Chemical compositions (at%) of regions in the WReTaMo RHEA annealed at 2200 C.</figDesc><table><row><cell>Region</cell><cell>C</cell><cell>W</cell><cell>Re</cell><cell>Ta</cell><cell>Mo</cell></row><row><cell>Surface</cell><cell>27.6</cell><cell>17.7</cell><cell>19.6</cell><cell>16.8</cell><cell>18.3</cell></row><row><cell>Inner</cell><cell>9.4</cell><cell>21.8</cell><cell>22.7</cell><cell>22.4</cell><cell>23.7</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>Adv. Eng. Mater. 2021, 2100765</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>© 2021 Wiley-VCH GmbH</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_2"><p>Adv. Eng. Mater. 2021, 2100765 2100765 (4 of 8) © 2021 Wiley-VCH GmbH</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_3"><p>Adv. Eng. Mater. 2021, 2100765 2100765 (7 of 8) © 2021 Wiley-VCH GmbH</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_4"><p>Adv. Eng. Mater. 2021, 2100765 2100765 (8 of 8) © 2021 Wiley-VCH GmbH</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors acknowledge the financial support from the <rs type="funder">National Key Research and Development Program of China</rs> (grant no. <rs type="grantNumber">2018YFC1902400</rs>) and the <rs type="funder">National Natural Science Foundation of China</rs> (grant no. <rs type="grantNumber">51975582</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_sdK4Jfe">
+					<idno type="grant-number">2018YFC1902400</idno>
+				</org>
+				<org type="funding" xml:id="_MD4rHKe">
+					<idno type="grant-number">51975582</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement</head></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Conflict of interest</head><p>The authors declare no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">760</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Reed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Fatigue</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page">105887</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">299</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ruan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">6200</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Catoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page">1153</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mater</title>
+		<imprint>
+			<date type="published" when="2019">2019, 4, 515</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall. Sin</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page">42</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><surname>El-Atwani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Devaraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K S</forename><surname>Baldwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sobieraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Wróbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nguyen-Manh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Maloy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Martinez</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sci</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Adv</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002">2019, 5, 2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brechtl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">861</biblScope>
+			<biblScope unit="page">157997</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bermingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-X</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corros. Sci</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page">109190</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Hemphill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page">5723</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gorsse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page">394</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page">4062</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page">153</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Meng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page">5844</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page">448</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Poulia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Georgatis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lekatou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Karantzalis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">1600535</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gorsse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page">177</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Couzinie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">3092</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Luan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A-Struct</title>
+		<imprint>
+			<biblScope unit="volume">712</biblScope>
+			<biblScope unit="page">380</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page">106928</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">U</forename><surname>Bhandari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res. Technol</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">8929</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A-Struct</title>
+		<imprint>
+			<biblScope unit="volume">794</biblScope>
+			<biblScope unit="page">139632</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chawake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Renk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Eckert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Eng. Perform</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">399</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pandey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Sawant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nithin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Makineni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chattopadhyay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">168</biblScope>
+			<biblScope unit="page">37</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Shen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">827</biblScope>
+			<biblScope unit="page">154301</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">777</biblScope>
+			<biblScope unit="page">1168</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Yusenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Riva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Carvalho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Yusenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Arnaboldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Sukhikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hanfland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Gromilov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scripta</forename><surname>Mater</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Refract. Met. H</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">77</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Melnick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Soolshenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">694</biblScope>
+			<biblScope unit="page">223</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page">74</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">818</biblScope>
+			<biblScope unit="page">152846</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Pharr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page">428</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">I</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">822</biblScope>
+			<biblScope unit="page">153423</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Vacuum</title>
+		<imprint>
+			<biblScope unit="volume">165</biblScope>
+			<biblScope unit="page">297</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Inoue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Trans</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">2817</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Shen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">2189</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page">233</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">534</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Allred</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Inorg. Nucl. Chem</title>
+		<imprint>
+			<biblScope unit="page">215</biblScope>
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<date type="published" when="2011">2011, 109, 103505</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

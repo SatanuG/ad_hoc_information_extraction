@@ -1,0 +1,1964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">TiZrNbTaMo high-entropy alloy designed for orthopedic implants: As-cast microstructure and mechanical properties</title>
+				<funder ref="#_X7kBpes">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2016-12-15">15 December 2016</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Shao-Ping</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Metal Research</orgName>
+								<orgName type="laboratory">Shenyang National Laboratory for Materials Science</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<addrLine>72 Wenhua Road</addrLine>
+									<postCode>110016</postCode>
+									<settlement>Shenyang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Jian</forename><surname>Xu</surname></persName>
+							<email>jianxu@imr.ac.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department">Institute of Metal Research</orgName>
+								<orgName type="laboratory">Shenyang National Laboratory for Materials Science</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<addrLine>72 Wenhua Road</addrLine>
+									<postCode>110016</postCode>
+									<settlement>Shenyang</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">TiZrNbTaMo high-entropy alloy designed for orthopedic implants: As-cast microstructure and mechanical properties</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2016-12-15">15 December 2016</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">8956246B327AF0C42517A738BBFDA8D9</idno>
+					<idno type="DOI">10.1016/j.msec.2016.12.057</idno>
+					<note type="submission">Received 3 August 2016 Received in revised form 9 November 2016 Accepted 13 December 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>High-entropy alloy Mechanical property Orthopedic implants Solid solution Refractory metal</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Combining the high-entropy alloy (HEA) concept with property requirement for orthopedic implants, we designed a Ti 20 Zr 20 Nb 20 Ta 20 Mo 20 equiatomic HEA. The arc-melted microstructures, compressive properties and potentiodynamic polarization behavior in phosphate buffer solution (PBS) were studied in detail. It was revealed that the as-cast TiZrNbTaMo HEA consisted of dual phases with bcc structure, major bcc1 and minor bcc2 phases with the lattice parameters of 0.3310 nm and 0.3379 nm, respectively. As confirmed by nanoindentation tests, the bcc1 phase is somewhat harder and stiffer than the bcc2 phase. The TiZrNbTaMo HEA exhibited Young's modulus of 153 GPa, Vickers microhardness of 4.9 GPa, compressive yield strength of σ y = 1390 MPa and apparent plastic strain of ε p ≈ 6% prior to failure. Moreover, the TiZrNbTaMo HEA manifested excellent corrosion resistance in PBS, comparable to the Ti6Al4V alloy, and pitting resistance remarkably superior to the 316L SS and CoCrMo alloys. These preliminary advantages of the TiZrNbTaMo HEA over the current orthopedic implant metals in mechanical properties and corrosion resistance offer an opportunity to explore new orthopedic-implant alloys based on the TiZrNbTaMo concentrated composition.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Metallic materials have been key materials to fabricate the orthopedic implants, due to their advantage in superior mechanical properties, including the high yield strength, ductility, fatigue strength and fracture toughness. Typically, the cobalt-chromium-molybdenum (CoCrMo) and titanium alloys are currently used for artificial joint replacement such as hip, knee, and shoulder prostheses <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref>. In spite of the good biocompatibility, titanium alloys (e.g., Ti6Al4V) are inadequate to be used as bearing surfaces owing to their poor wear resistance, which is probably associated with the low shear strength and repassivation behavior of the surface oxide layer <ref type="bibr" target="#b0">[1]</ref>. In contrast, CoCrMo alloys (e.g., Co28Cr6Mo, complying with the ASTM F75 for cast and the ASTM F799 for wrought alloys) are more wear-resistant, and are clinically used as bearing surfaces of the joint prostheses, such as artificial joint of metal-on-metal (MoM) bearings which was re-introduced by the early 1980s as an alternative to metal-on-polyethylene (MoP) bearings. Recently, however, it becomes a great concern that some CoCrMo bearings have shown unacceptably high failure rate <ref type="bibr" target="#b2">[3]</ref>. Patient with CoCrMo implants may have increased metal ion levels of cobalt and chromium in the blood <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref>. A number of in vitro and in vivo studies demonstrated that metal particulates and their byproducts may be associated with cytotoxicity, DNA damage, metal hypersensitivity reactions and pseudotumors <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref>. In this sense, the current orthopedic materials are not perfect, and it remains of interest to develop newer, more wear resistant bearing couples that could last the lifetime of implants <ref type="bibr" target="#b11">[12]</ref>.</p><p>As suggested by Willmann <ref type="bibr" target="#b12">[13]</ref>, the ideal materials used for bearing surfaces in joint replacement should exhibit the following properties: a biocompatible chemical composition to avoid adverse tissue reactions, an excellent resistance to corrosion in the human body environment, high hardness and stiffness to maintain good wear resistance, synoviaphilicity for lubrication and low friction, and high thermal conduction coefficient to avoid proteinous synovia degeneration. In this sense, high modulus of material is required to ensure the wear resistance of bearing surfaces and avoid deformation of the articulating surfaces under peak load of eight-time body weight. It should be emphasized that such a requirement for bearing surface materials is different from some prostheses such as the femoral stems and tibial trays <ref type="bibr" target="#b13">[14,</ref><ref type="bibr" target="#b14">15]</ref>, where the materials with lower modulus are expected to reduce the stress-shielding effects that cause peri-prosthetic bone resorption and aseptic loosening <ref type="bibr" target="#b15">[16]</ref>.</p><p>Recently, it is of interest to note that high-entropy alloys (HEAs) with compositional features of multicomponent (five or more elements) and equiatomic or near-equiatomic concentration have attracted much attention <ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref>, due to their potentially interesting properties. Meanwhile, vast opportunities for new compositions and microstructures are offered by this area, in particular for complex concentrated alloys (CCAs) <ref type="bibr" target="#b24">[25]</ref>. Ever since Senkov et al. <ref type="bibr" target="#b25">[26]</ref> firstly</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Material and methods</head><p>Using commercial elemental bulk materials with purity higher than 99.9% (in weight percentage) as starting materials, quinary Ti-Zr-Nb-Ta-Mo alloy ingots in equiatomic fraction were fabricated by arc melting. Arc-melted ingots in weight of about 50 g were fabricated under a Ti-gettered argon atmosphere in a water-cooled copper hearth, subjected to remelting and flipping of several runs to ensure compositional homogeneity. The final average composition of the alloy was confirmed with energy dispersive x-ray spectroscopy (EDX), as listed in Table <ref type="table" target="#tab_0">1</ref>.</p><p>Crystalline structure of the as-cast TiZrNbTaMo HEA was analyzed by x-ray diffraction (XRD) using a Rigaku D/max 2500 diffractometer (Rigaku, Tokyo, Japan) with monochromatic Cu K α radiation. Lattice parameters of crystalline phases with bcc structure were determined using (321) diffraction lines. Step-scanning mode was used for scanning within a range of relevant diffraction angle (2θ) to ensure the accuracy of measured position of diffraction peaks. Microstructure of the as-cast alloy was examined under a Quanta 600 scanning electron microscope (SEM) (FEI, Eindhoven, The Netherlands). Chemical composition and elemental mapping on cross-section surfaces of the as-cast alloy were analyzed using an EDX detector attached on SEM.</p><p>Measurements of Vickers microhardness were conducted on aspolished cross-section surface of the alloy specimen using a Mitutoyo MVK-H3 hardness testing machine equipped with a 136°Vickers diamond pyramid under 200 g load dwelt for 20 s. The samples were mechanically ground with SiC abrasive papers to 2000 grits, and then polished with 2.5 μm diamond paste, followed by supersonic cleaning in ethanol and distilled water. At least fifty individual measurements were performed to ensure the reproducibility.</p><p>To characterize the hardness and Young's modulus of constituent phases, nanoindentation tests were carried out on the cross-section surface using a Nano Indenter G200 (Agilent Technologies, USA) with Berkovich indenter with tip radius of 20 nm. The sample surface was mechanically ground with SiC abrasive papers to 2000 grits, and then polished with 1 μm Al 2 O 3 suspension and subsequent 0.04 μm colloidal silica. The fine-polished sample was further ion-milled to remove potential deformation layer on the surface, followed by ultrasonic cleaning in ethanol and distilled water. The final surface roughness was determined to be about 20 nm using a LEXT OLS4000 laser scanning confocal microscope (Olympus, USA). Indentation was performed in depth-control mode of depth limit of 350 nm with surface approach velocity of 10 nm/s, peak hold time of 10 s and data acquisition frequency of 5 Hz.</p><p>Cylindrical specimens machined from the as-cast alloy ingot for compression tests were 4.5 mm in diameter and 9.0 mm in height. They were taken from middle part of the cross-section of alloy ingot in order to associate with the representative microstructures. Compression tests were performed at ambient temperature with a computercontrolled AG-I mechanical testing machine (Shimadzu, Japan). A thin Teflon sheet was used between specimen loading surface and dies to reduce the friction-induced confinement. Quasistatic strain rate applied on the specimens was controlled at 10 -3 s -1 . At least four specimens were tested to ensure the reproducibility. Morphology of fractured surfaces for representative failure specimens under compression were examined under SEM.</p><p>Phosphate buffer solution (PBS) was used preliminarily to assess the corrosion resistance of the alloy under simulated physiological environment <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b42">43]</ref>. Electrochemical behavior in PBS was examined with potentiodynamic polarization tests. Cubic specimens with dimension of 5 mm × 5 mm × 5 mm were taken from middle part of the cross-section of alloy ingot, connected to the copper wire, embedded in a polytetrafluoroethylene (PTFE) holder, mounted in epoxy resin, and then ground with emery paper to 1200 grits for the tests. The measurements were conducted on a Model 2273 electrochemical workstation (EG&amp;G Princeton Applied Research), connected to a three electrode cell with saturated calomel as reference electrode and platinum foil as counter electrode. The PBS electrolyte with the recipe the same as in previous work <ref type="bibr" target="#b41">[42]</ref> was deoxygenized by high-purity N 2 flow. The temperature was maintained at 37 ± 1 °C using a thermostatic bath. Prior to the measurements, the specimens were immersed in electrolyte for 1 h, in order to attain a stable state of open circuit potential (OCP). Potentiodynamic polarization was measured in a range from -0.35 V versus OCP to 1.2 V SCE with a scanning rate of 0.167 mV/s. For comparison, </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Microstructure characterization</head><p>Fig. <ref type="figure" target="#fig_0">1</ref>(a)-(c) illustrate XRD patterns of the as-cast TiZrNbTaMo alloy. It was indicated that a bcc1 phase in predominant fraction and a bcc2 phase in trace amount coexisted in the alloy, as shown in Fig. <ref type="figure" target="#fig_0">1(a)</ref>. The (110) peak of bcc2 phase as a shoulder of that of bcc1 phase appeared at a slightly lower Bragg angle, reflecting its lattice parameter (a) slightly greater than that of the bcc1 phase. Based on the integrated intensity of the most intensive diffraction peaks, whose line profiles were deconvoluted with Lorentz function, volume fraction of minor bcc2 phase was approximately estimated to be ~30%, as shown in Fig. <ref type="figure" target="#fig_0">1(b)</ref>.</p><formula xml:id="formula_0">By combining d hkl ¼ a= ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi h 2 þ k 2 þ l 2 p</formula><p>with the Bragg equation of 2d hkl sin θ= λ, lattice parameter, a, of two bcc phases was quantitatively determined as</p><formula xml:id="formula_1">a ¼ λ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi h 2 þ k 2 þ l 2 q =2 sinθ<label>ð1Þ</label></formula><p>where d hkl is the interplanar spacing of the crystal planes of Miller indices (hkl), θ is the diffraction angle of (hkl) planes, and λ is the wavelength of x-ray radiation (0.1542 nm). In this regard, Miller indices of the (321) plane was adopted for the calculation, with accurately measured 2θ values around 120°. From the deconvoluted (321) peaks, lattice parameters were determined to be 0.3310 nm for bcc1 and 0.3379 nm for bcc2 phase, as shown in Fig. <ref type="figure" target="#fig_0">1(c</ref>).</p><p>Fig. <ref type="figure" target="#fig_1">2</ref>(a) and (b) display SEM images of arc-melted TiZrNbTaMo HEA, taken from the cross-sections of the top and middle parts of ingot, respectively. As indicated, solidified microstructure of the alloy somewhat varied with cooling rate of the melt. At the top area slowly cooled under argon atmosphere, typical microstructures consisted of light-contrast dendrites and continuous dark-contrast interdendritic matrix, as shown in Fig. <ref type="figure" target="#fig_1">2(a)</ref>. As analyzed by EDX, chemical compositions of dendritic (DR) and interdendritic (ID) regions at the top and middle parts of the alloy ingot were summarized in Table <ref type="table" target="#tab_0">1</ref>, along with the global numbers of DR, ID and average for comparison. It was shown that severe segregation of Ta and partial segregation of Mo and Nb took place in dendritic arms, while the Ti and Zr were enriched in interdendritic regions, especially higher enrichment of the Zr with respect to the Ti. Such a finding accorded with the element-mapping results, as shown in Fig. <ref type="figure" target="#fig_3">3</ref>. In the middle part of ingot subjected to a rapid cooling rate, Ta-and Mo-rich dendritic arms grew well, and interconnected to form the coarse dendrites separated by interdendritic regions, as showed in Fig. <ref type="figure" target="#fig_1">2(b</ref>). As noticed in Table <ref type="table" target="#tab_0">1</ref>, maximal concentration difference of dendritic arms and interdendritic regions between top and middle parts of ingot reached to be 4 at.% for Ta and 3 at.% for Zr. As a result, it is conclusive that the variation in chemical compositions of dendritic arms and interdendritic regions is insignificant in the entire alloy ingot. On an average, global composition of dendritic arms was determined to be Ti 15 Zr 10 Nb 20 Ta 31 Mo 24 . In contrast, the interdendritic regions were at a composition of Ti 24 Zr 43 Nb 12 Ta 8 Mo 13 . The microsegregations in composition are generally attributed to two factors. On one hand, elements Nb, Ta and Mo with higher melting temperature (T m ) prefer to solidify into dendritic arms, whereas the Ti and Zr with lower T m are subsequently segregated into the interdendritic regions. On the other hand, as shown in phase diagram of binary Zr-Ta <ref type="bibr" target="#b43">[44]</ref>, phase separation of β-phase (Zr-Ta) would take place at 2020 K to decompose into Zr-rich and Ta-rich phases. This temperature is very close to the estimated homogenizing annealing temperature of the ingot (~0.8T m ), implying that the thermodynamicallydriven phase separation is effective in the case. Combined with XRD results including the volume fractions and lattice parameters of two bcc phases, dendritic arms of Ti 15 Zr 10 Nb 20 Ta 31 Mo 24 and interdendritic regions of Ti 24 Zr 43 Nb 12 Ta 8 Mo 13 can be identified as major bcc1 and minor bcc2 phases, respectively. Their lattice parameters situated between those of bcc-structure Ti, Nb, Ta, Mo and Zr, reflecting expanded unit cell volume with respect to the Ti, Nb, Ta and Mo but contracted one to the Zr. Using the "Vegard's rule of mixtures" and element concentrations in each bcc phase, lattice parameter a mix of ideal disordered solid solutions of two bcc phases are calculated,</p><formula xml:id="formula_2">a mix ¼ X c i a i<label>ð2Þ</label></formula><p>where c i and a i are the concentration and lattice parameter of the ith alloying element, respectively. Note that the lattice parameters of bcctype Ti and Zr that are only stable at elevated temperature are gained by the extrapolating from elevated temperature to room temperature <ref type="bibr" target="#b27">[28]</ref>. The calculated a mix values are presented in Table <ref type="table" target="#tab_2">3</ref>. As indicated, the calculated a mix value is approximately 0.6% less than measured one in the case of bcc1 phase, while it is approximately 0.5% greater than the measured one for bcc 2 phase. Such small deviations generally reflect that two bcc phases in solidified microstructures are close to be the random solid solutions, and their unit-cell volumes are substantially the compromised results of unit-cell volumes of each component, following the rule of mixtures.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Microhardness and Young's modulus</head><p>Vickers microhardness, H v , of the as-cast TiZrNbTaMo HEA was determined to be 4.9 ± 0.1 GPa with a small variation of ~2%. It is interesting to note that the microhardness of the alloy does not simply obey the result estimated by "rule of mixtures" in terms of the properties of the constituent elements. For comparison, typical H v values of each component at room temperature are listed in Table 2 <ref type="bibr" target="#b44">[45]</ref>. According to the rule of mixtures, the microhardness, ðH v Þ mix ¼ ∑c i H vi , of the alloy was gained to be (H v ) mix = 1.12 GPa. This number is merely ~23% of the measured one. In addition, hardness of the alloy is approximately three-fold of the hardest Mo among the constituent elements. Evidently, such a remarkable hardening effect is attributed to solid solution-like strengthening, rather than in a "cocktail" way <ref type="bibr" target="#b45">[46]</ref>.</p><p>Fig. <ref type="figure" target="#fig_5">4</ref> displays load-versus-displacement curves under nanoindentations for dendritic and interdendritic regions in the TiZrNbTaMo HEA. The hardness and Young's modulus were calculated with Oliver and Pharr's method <ref type="bibr" target="#b46">[47]</ref>, in which the indentation hardness H IT and specimen's modulus E are derived from</p><formula xml:id="formula_3">H IT ¼ P max =A<label>ð3Þ</label></formula><formula xml:id="formula_4">E ¼ 1-ν 2 À Á 1=E r -1-ν 2 i À Á =E i À Á -1<label>ð4Þ</label></formula><p>where P max is the maximum indentation load, A is the projected contact area of which second approximation was adopted that A = 24.5h c 2 + 2400h c where h c is the contact depth, E r is the reduced modulus, E, E i (1141 GPa) and ν, ν i (0.07) are Young's modulus and Poisson's ratio of the specimen and indenter, respectively. It is noteworthy that the Poisson's ratio of specimen, ν, is estimated in terms of a relation of ν = E mix /2G mix -1, where the E mix and G mix are estimated according to the rule of mixtures, namely, E mix ¼ ∑c j E j and G mix ¼ ∑c j G j , where the c j , E j and G j are the atomic fraction, Young's modulus and shear modulus of jth element, respectively. In first approximation, the H IT value can be converted into the H v with a relation of H v = 0.9081H IT , according to ISO 14577-1-2002 <ref type="bibr" target="#b47">[48]</ref>. These data are listed in Table <ref type="table" target="#tab_2">3</ref> for comparison. As noted, the H v of bcc1 and bcc2 phases are given to be 6.4 GPa and 5.7 GPa, respectively, which are approximately 31% and 16% higher than the directly measured H v of 4.9 GPa for the overall specimen. As is well understood already, such a difference results from the indentation size effect <ref type="bibr" target="#b48">[49]</ref> that measured hardness for crystalline materials increases as the penetration depth is reduced. It is noteworthy that the measured hardness values of two bcc phases are much higher than calculated ones with rule of mixtures, supporting the presence of solid-solution strengthening effect via elemental interaction.</p><p>In parallel, the measured E 1 of 161 GPa for bcc1 phase is ~13% less than calculated value, while the bcc2 phase manifests a comparable level of E 2 = 133 GPa. The integrated Young's modulus of the alloy is determined as E = 153 GPa weighted by volume fractions of two phases, with a relation of E = φ 1 E 1 + φ 2 E 2 , where φ 1 , E 1 and φ 2 , E 2 are the volume fraction and Young's modulus of bcc1 and bcc2 phases, respectively. As a matter of fact, enhancement of 12% in hardness and 21% in Young's modulus for bcc1 phase, with respect to bcc2 phase, is in consistence with a fact that bcc1 phase is enriched by harder and stiffer components such as Nb, Ta and Mo.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Compressive properties and fractography</head><p>Fig. <ref type="figure" target="#fig_6">5</ref> illustrates compressive engineering stress-versus-strain curves of three typical specimens for the as-cast TiZrNbTaMo HEA. Compressive yield strength at room temperature was determined to be  As shown by an inset in Fig. <ref type="figure" target="#fig_6">5</ref>, the TiZrNbTaMo HEA samples under compression generally fractured in a way of splitting along the surfaces nearly parallel to the compressive loading direction. The failure specimen was opened along the main crack surface as shown in Fig. <ref type="figure" target="#fig_7">6</ref>(a) in top-side view. Even in the eye-view, the fracture surface exhibited shinny facets, which is associated with superficial brittleness of the alloy. Fig. <ref type="figure" target="#fig_7">6(c)-(f)</ref> show SEM images taken from the fracture surfaces at central portion of a typical TiZrNbTaMo specimen, in low and high magnification. As shown in Fig. <ref type="figure" target="#fig_7">6</ref>(c), the fracture surface is covered predominantly by fan-shaped cleavage patterns as well as shiny plastic tear ridges, indicating numerous large-angle grain boundaries and severe local misorientation, in particular at grain boundaries <ref type="bibr" target="#b50">[51]</ref>. Fig. <ref type="figure" target="#fig_7">6(d)</ref> shows fanshaped patterns appeared at the area blocked as zone I in Fig. <ref type="figure" target="#fig_7">6(c)</ref>, in which angular faceted steps, river-pattern markings and tear ridges are clearly visible. While as shown in Fig. <ref type="figure" target="#fig_7">6</ref>(e), appearance of zone II in Fig. <ref type="figure" target="#fig_7">6</ref>(c) shows indentation-marks-like tongues patterns, revealing the events of mechanically twinning during compressive deformation. Additionally, the patterns of shallow-step type are present in the area of zone III in Fig. <ref type="figure" target="#fig_7">6(c</ref>), as displayed in Fig. <ref type="figure" target="#fig_7">6</ref>(f). In general, these fracture morphologies suggest that the primary failure mode under loading was controlled by tensile stress instead of shear one, which was believed to be associated with the brittle-to-ductile transition (BDT) behavior, assuming that the BDT temperature of such bcc metals is above room temperature <ref type="bibr" target="#b26">[27]</ref>. The tear ridges and mechanical twins in the surface are supposed to be responsible for the limited macroscopic plasticity which is evident as specimen barreling shown in Fig. <ref type="figure" target="#fig_6">5</ref>. Moreover, it is worthy to mention that fracture mode of the current TiZrNbTaMo HEA   . Further studies are necessary to justify whether such a fracture mode was operated by the mechanism that pre-existing microcracks in the bulk grew, mutually interacted and led to final axial splitting, as suggested by Ashby et al. <ref type="bibr" target="#b51">[52]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Potentiodynamic polarization behavior in PBS</head><p>Fig. <ref type="figure" target="#fig_8">7</ref> illustrates a group of potentiodynamic polarization curves for the as-cast TiZrNbTaMo HEA in PBS solution at 37 °C under deaerated conditions, together with those of the Ti6Al4V, 316L SS and CoCrMo (Co28Cr6Mo) alloys under identical test conditions for comparison <ref type="bibr" target="#b41">[42]</ref>. The electrochemical properties of these materials are listed in Table <ref type="table" target="#tab_3">4</ref>, including the corrosion potential, E corr (defined as the potential at which the current changed sign from the cathodic to the anodic during potential sweep), passive current density, i pass (determined at the 0 V SCE ), and pitting potential, E pit (defined as the potential at which current density rapidly increased). As noticed, spontaneous passive behavior in the anodic branch took place in all cases. For these spontaneous passive metals, the i pass and E pit are usually used as indicators to assess the corrosion resistance. As shown in Fig. <ref type="figure" target="#fig_8">7</ref>, the TiZrNbTaMo HEA exhibited an extensive passive plateau up to 1.2 V SCE in the curve, without the occurrence of pitting corrosion and transpassivation. Such a response was substantially similar to the case of the Ti6Al4V, besides more positive E corr and slightly higher i pass of the Ti6Al4V . These findings indicate that the corrosion resistance of the TiZrNbTaMo HEA under PBS condition, characterized by passivation and no pitting, is very comparable to the behavior of Ti6Al4V alloy.</p><p>In contrast, polarization curve of the 316L SS and CoCrMo alloys was markedly distinct from that of the TiZrNbTaMo HEA, as illustrated in Fig. <ref type="figure" target="#fig_8">7</ref>. It was shown that the i pass of 316L SS and CoCrMo were comparable to or one-half of that of the TiZrNbTaMo HEA. However, the current density rapidly increased when the applied potential reached up to above 675 mV SCE for 316L SS and 435 mV SCE for CoCrMo, reflecting the occurrence of pitting events in both cases. In a view of the implants in service, the pitting sites are very detrimental since they are potential sources for cracking and metal ion releasing. In this sense, pitting resistance of the TiZrNbTaMo HEA under physiological medium is remarkably superior to that of the 316L SS and CoCrMo alloys.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Validity of empirical approach for phase formation prediction</head><p>Under a general thermodynamic frame, HEAs are expected to generate the high entropy effect which enhances the formation of solid-solution phases and overwhelms the intermetallic phases <ref type="bibr" target="#b52">[53]</ref>. In multicomponent systems with less heats of mixing (ΔH mix ) between unlike atomic pairs, the entropy (ΔS mix ) part in Gibbs free energy (ΔG mix ) becomes possible to compete with the ΔH mix , and then to favor the formation of simple solid-solution phase <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b27">28,</ref><ref type="bibr" target="#b53">54]</ref>, while a large ΔH mix may favor to form more than two phases, even ordered intermetallics <ref type="bibr" target="#b54">[55]</ref><ref type="bibr" target="#b55">[56]</ref><ref type="bibr" target="#b56">[57]</ref>. Then, the emergence of HEAs opens new questions regarding the mechanism of their phase stability and the approach to screen composition for single solid-solution phase formation.</p><p>Regarding these aspects, several semi-empirical approaches were proposed to wander predicting the phase stability in HEAs. In most cases, they were established on the basis of classic Hume-Rothery rules for the situation of conventional terminal solid solution. Zhang et al. <ref type="bibr" target="#b57">[58]</ref> defined the atomic-size difference, δ, and parameter Ω, that is the ΔS mix timing the average melting temperature of the elements over the ΔH mix , used for predicting the phase formation in multi-principal-component systems. It was claimed that the conditions of δ ≤ 6.6% and Ω ≥ 1.1 are required to form stable solid-solution phases. In our case of the TiZrNbTaMo HEA, the values of δ and Ω were calculated to be 4.38% and 19.77, respectively, which approximately satisfied with this criterion for the formation of solid-solution phase. Guo et al. <ref type="bibr" target="#b58">[59]</ref> proposed that the valence electron concentration (VEC) can be used as an indicator to assess the phase stability of either fcc or bcc solid solutions in the HEA system. The fcc solid-solution phases were suggested to be more stable at higher VEC (≥ 8), whereas a low VEC (b6.87) would stabilize the bcc solid solution phases. For the current TiZrNbTaMo HEA, the value of VEC is 4.8, which satisfied with the upper boundary of bcc case as they defined. In the light of these criteria, the TiZrNbTaMo HEA was expected to form a single solid-solution   Recently, a new approach based on first principles calculations was proposed as well <ref type="bibr" target="#b59">[60]</ref>. To assess the stability of HEAs in terms of Gibbs free energies, it is obvious in multicomponent potential solid-solution forming alloys that the enthalpy of solid solution formation is relatively small, whereas the entropic contribution of ordered compounds is also faint in general. As such, as a first approximation, it is hopeful to justify the stability of competing phases only by using the contributions of solid-solution phases (-T crit ⋅ΔS mix ) and the enthalpy of formation of ordered compounds (ΔH f ), under a condition beyond a critical temperature (T crit ) below which atomic diffusion is extremely slow that the enthalpic driving force is insufficient to induce the decomposition of solid-solution phase at a realizable time scale. For the current TiZrNbTaMo HEA, its melting point, T m , is estimated to be 2600 K using the rule of mixture, and then the T crit is taken as 1400 K in the light of T crit = 0.55T m . Then, the entropic contribution item is equivalent to the ΔH f = -199 meV/atom, namely taken as the ΔH f of solid-solution phase, whereas the lowest ΔH f value of possible binaries between   Note: E corr = corrosion potential, i pass = passive current density, E pit = pitting potential.</p><p>the alloy components is -193 meV/atom at the Mo-Ta pair. In fact, these two competing factors are quite comparative. In other words, no one is predominant. Therefore, it is not surprising to finalize the multiple phases in the system, which is actually in accord with our experimental results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Strengthening mechanism of HEA</head><p>As indicated in Sections 3.2 and 3.3, microhardness and yield strength of the TiZrNbTaMo HEA do not simply obey the rule of mixtures of the constituent elements properties. For comparison, Table <ref type="table" target="#tab_1">2</ref> shows typical values of the H v and σ y for relevant elements in the alloy <ref type="bibr" target="#b60">[61]</ref>. It is noteworthy that the real values of the H v and σ y of the alloy are approximately five-fold in comparison with the data calculated by the rule of mixtures, ðH v Þ mix ¼ ∑c i H vi and ðσ y Þ mix ¼ ∑c i σ yi , as shown in Table <ref type="table" target="#tab_1">2</ref>. It is indicative of the contribution from solid solution-like strengthening in the current alloy.</p><p>Assuming an ideal situation, the HEA forms a single bcc solid-solution phase, and then each atom in the phase is treated as a solute atom in the simplest terminated case, and randomly occupies the crystal lattice site if ignoring the possible atomic ordering or clustering. In such a case, mutual interactions between these solute atoms caused by mismatch either in sizes or in moduli can generate the elastic distortion of lattice, accompanied by local elastic stress fields. The interaction between the local elastic stress fields and the stress fields of dislocations during deformation has a power to hinder dislocation movements, and then strengthening the alloy, as defined as solid-solution strengthening effect <ref type="bibr" target="#b61">[62]</ref>.</p><p>To examine the misfit effects in atomic size and modulus, a singlephase bcc HEA can be treated as pseudo-binary system in different ways <ref type="bibr" target="#b27">[28]</ref>. As such, it is possible to rationalize the solid-solution strengthening effect based on Labusch approach. We applied the pseudo-binary picture to our TiZrNbTaMo alloy. With the data as shown in Table <ref type="table" target="#tab_4">5</ref>, the atomic-size differences between Ti, Nb and Ta elements are tiny in the case of Ti 15 Zr 10 Nb 20 Ta 31 Mo 24 bcc1 phase. If these atoms couple with Mo atom, local tensile strain is produced (δ ai ≈ -0.011). On the contrary, the largest difference in size appears between Zr and rest components, which produce local compressive strain (δ ai ≈ 0.096). To assess the contribution from lattice distortion Δσ a , the bcc1 phase is treated as a pseudo-binary solid solution, defining the Ti, Nb, Ta and Mo as nominal solvents and 10 at.% of Zr as solute. Accounting the average strain fields around Ti, Nb, Ta and Mo atoms as zero, the lattice distortion near Zr atoms is estimated to be δ a ≈ 0.107. Then, lattice distortion contribution is approximately quantified to be Δσ a ≈ 190 MPa. Similarly, to gain the contribution of modulus misfit Δσ G , the bcc1 phase is treated as an another type of pseudo-binary solid solution, in a way of the Ti, Zr, Nb and Ta as solvents and 24 at.% of Mo as solute. The modulus misfit in the vicinity of Mo atoms is given to be δ G ≈ 0.668, and then the modulus misfit contribution is approximately quantified to be Δσ G ≈ 1556 MPa. It is noted that the Δσ G is about eight-fold Δσ a . Here, the modulus misfit is defined as δ G′ ij = δ Gij /(1+ |δ Gij |/2), since it was proven to be reasonable <ref type="bibr" target="#b62">[63,</ref><ref type="bibr" target="#b63">64]</ref>, rather than as δ Gij as previously used in Ref. <ref type="bibr" target="#b27">[28]</ref>. As such, total contributions of atomic size and modulus misfits to yield strength of bcc1 phase are attained as σ y1 = (σ y ) mix + Δσ a + Δσ G = 259 + 190 + 1556 = 2005 -MPa. Evidently, major contributor to the strengthening originates from the modulus-misfit effect.</p><p>In parallel, such analysis is performed again to the Ti 24 Zr 43 Nb 12 Ta 8 Mo 13 bcc2 phase, with the data as displayed in Table <ref type="table" target="#tab_5">6</ref>. For strengthening induced by atomic-size misfit, the Ti, Nb, Ta and Mo atoms are viewed as nominal solvents, while the 43 at.% of Zr is as solute, then the δ a ≈ 0.107 and Δσ a ≈ 372 MPa. While in the case of modulus misfit, the Ti, Zr, Nb and Ta atoms are treated as nominal solvents, and 13 at.% of Mo as solute, then the δ G ≈ 0.837 and Δσ G ≈ 1032 MPa. Total contributions of atomic size and modulus misfits to yield strength of bcc2 phase are integrated as σ y2 = (σ y ) mix + Δσ a + Δσ G = 264 + 372 + 1032 = 1668 MPa, showing that the modulus misfit is the key player again.</p><p>Furthermore, yield strength of the alloy containing dual phases is achieved to be σ y = φ 1 σ y1 + φ 2 σ y2 ≈ 1900 MPa, where φ 1 and φ 2 are volume fraction of bcc1 and bcc2 phases, respectively. Note that this number is about 36% higher than the experimentally measured one of 1390 MPa. For comparison, the calculated strength data of two refractory HEAs, the current TiZrNbTaMo and previously-reported TaNbHfZrTi <ref type="bibr" target="#b27">[28]</ref>, are shown in Table <ref type="table" target="#tab_6">7</ref>. It is indicated that modulus misfit is actually responsible for more than half, typically even about 75%, of the total solid-solution hardening <ref type="bibr" target="#b64">[65]</ref>. In other words, the solid-solution strengthening in these two HEAs is primarily caused by the modulus misfit between atoms, instead of the atomic size misfit. It should be emphasized that it still remains in argument whether the atomic size misfit had stronger effect on solid-solution strengthening in refractory bcc alloys <ref type="bibr" target="#b64">[65]</ref><ref type="bibr" target="#b65">[66]</ref><ref type="bibr" target="#b66">[67]</ref><ref type="bibr" target="#b67">[68]</ref>. It is interesting to note that the predicted strength of the current TiZrNbTaMo HEA manifests a large deviation from experimentally measured one, as shown in Table <ref type="table" target="#tab_6">7</ref>. It is somewhat contrary to the case of Senkov's TaNbHfZrTi HEA showing a good agreement between both numbers. In this sense, such a finding reflects that the pseudo-binary picture seems not physically universal at least for the refractory bcc HEAs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Advantages over the current orthopedic alloys</head><p>As is well known, mechanical properties is a fundamental aspect for orthopedic material screening, because the replaced prostheses are subjected to complex loading conditions during life time <ref type="bibr" target="#b1">[2]</ref>. In the currently clinical service, three representative metallic materials including the Ti6Al4V, 316L SS and CoCrMo alloys have been well established as the standard/control materials for developing new orthopedic implant alloys. Meanwhile, mechanical properties of these alloys are well documented <ref type="bibr" target="#b41">[42]</ref>. The yield strength and Vickers hardness of the Ti6Al4V and the CoCrMo are comparative, at the level of σ y = 860 MPa and H v = 3.62 GPa, and σ y = 897 MPa and H v = 3.76 GPa, respectively. In contrast, the 316L SS shows somewhat lower yield strength of 690 MPa and hardness of 3.34 GPa. In comparison with these alloys, the present TiZrNbTaMo HEA exhibits the σ y of 1390 MPa and H v of 4.9 GPa, which are significantly higher than those of these alloys. These advantages in mechanical properties seem promising to enhance longevity of orthopedic implants if it is the case. Meanwhile, it should be emphasized that the present compressive strength was used only for preliminary material screening in spite that it is rarely used for comparisons between the implant materials. Subsequent studies on the tensile ductility and fracture toughness for TiZrNbTaMo-based HEA are ongoing work. Furthermore, wear resistance is an additional critical issue in particular for the implant with bearing surface. In general consideration, higher Young's modulus of materials scales with better wear resistance, according to Hertz's contact mechanics <ref type="bibr" target="#b68">[69]</ref>. In this regard, Young's modulus of E = 153 GPa for the TiZrNbTaMo HEA is approximately 39% higher than that of the Ti6Al4V (E = 110 GPa), even if slightly lower than that of the 316 L SS (E = 210 GPa) and the CoCrMo (E = 230 GPa). Thus, wear resistance of the TiZrNbTaMo HEA is expected to be potentially superior to that of titanium alloy, which needs to be confirmed in future work.</p><p>Finally, from the biocompatibility perspective, great concern on corrosion resistance of the implant metals under corrosive physiological environment has been mandatory in all cases. The excellent corrosion resistance of the TiZrNbTaMo HEA in PBS, comparable to that of Ti6Al4V, renders for its potential excellent biocompatibility owing to the surface passivation and high stability insensitive to the pitting. The cytotoxicity assessment of the TiZrNbTaMo HEA is under study to confirm these expectations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions and outlook</head><p>Combining the HEAs concept with property requirement for orthopedic implants, we used the equiatomic Ti 20 Zr 20 Nb 20 Ta 20 Mo 20 quinary alloy as starting point to screen the potential orthopedic-implant HEA. Based on preliminarily investigation on this alloy, several conclusions are drawn as follows:</p><p>(i) The as-cast Ti 20 Zr 20 Nb 20 Ta 20 Mo 20 HEA structurally consisted of major bcc1 and minor bcc2 in fraction, without formation of intermetallic phases. Difference in melting temperature between constituent elements results in chemical microsegregation in some extent in the microstructures, ultimately forming the Taand Mo-rich bcc1 phase as dendrites of Ti 15 Zr 10 Nb 20 Ta 31 Mo 24 and the Ta-and Mo-depleted bcc2 phase resided at interdendritic regions as the Ti 24 Zr 43 Nb 12 Ta 8 Mo 13 . The lattice parameters of bcc1 and bcc2 solid-solution phases were determined to be 0.3310 nm and 0.3379 nm, respectively. (ii) As confirmed by nanoindentation tests, dominant bcc1 phase containing more refractory elements is somewhat harder and stiffer than minor bcc2 phase with less refractory elements, at the levels of H v = 6.4 GPa and E = 161 GPa for bcc1 phase, and H v = 5.7 GPa and E = 133 GPa for bcc2 phase. In the average case, Vickers microhardness and Young's modulus of the ascast TiZrNbTaMo HEA were 4.9 GPa and 153 GPa, respectively. Against the rule of mixtures, the alloying-induced hardening effect is remarkable. The strengthening mechanism of this solidsolution-like HEA was rationalized by virtue of Labusch approach, proving the major contributor responsible for strengthening is the modulus misfit effect. (iii) The TiZrNbTaMo HEA exhibits room-temperature compressive yield strength of σ y =1390 ± 75 MPa and apparent plastic strain of ε p ≈ 6% prior to failure. Its fracture mode and fractography reveal its brittleness and limited plasticity under deformation.</p><p>Even so, it initiates the future effort direction to improve the ductility and toughness of the TiZrNbTaMo-based HEAs chemically away from the equiatomic composition. (iv) Under PBS medium to simulate physiological environment, the TiZrNbTaMo HEA exhibits excellent corrosion resistance comparable to the Ti6Al4V alloy, and pitting resistance remarkably superior to the 316 L SS and CoCrMo alloy. Characterization of chemical and physical features of passive oxide film on the alloy surface is on-going work.</p><p>In summary, our preliminary study on the arc-melted Ti 20 Zr 20 Nb 20 Ta 20 Mo 20 HEA illustrates its significant advantage in several implant-concerned aspects. Future efforts will focus on the characterization of chemical heterogeneity in nano-scales, the optimization of mechanical properties such as tension, fatigue and fracture toughness, the finding an optimal fabrication process to attain a uniform structure, the understanding of corrosion behavior under long-term immersion and tribocorrosion behavior in simulated body fluid and in-vitro assessment of biocompatibility. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. XRD patterns of arc-melted TiZrNbTaMo alloy (a) several main peaks, (b) deconvoluted (111) peak using Lorentz function, and (c) deconvoluted (321) peak using Lorentz function.</figDesc><graphic coords="3,129.54,441.41,327.55,284.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Backscattering SEM images taken from as-polished cross-sections at (a) top and (b) middle parts of arc-melted TiZrNbTaMo HEA ingot, showing two phases with distinct morphologies and compositions, bcc1 (in light) and bcc2 (in dark).</figDesc><graphic coords="4,54.03,53.18,228.02,397.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>σ y = 1390 ± 75 MPa. The samples manifest apparent plastic strain of ε p ≈ 6% prior to failure via the splitting and fragmentation. In comparison with several attainable refractory HEAs such as the Ta 20 Nb 20 W 20 Mo 20 V 20 and Ta 25 Nb 25 W 25 Mo 25 [27], our TiZrNbTaMo alloy exhibits significantly higher yield strength and more sizable plasticity, noting the σ y = 1246 MPa and ε p ≈ 1.7% for Ta 20 Nb 20 W 20 Mo 20 V 20 and the σ y = 1058 MPa and ε p ≈ 2.1% for Ta 25 Nb 25 W 25 Mo 25 .In addition, according to Tabor relation<ref type="bibr" target="#b49">[50]</ref> between hardness and yield strength of an isotropic material, σ y = H v /3, the estimated σ y = 1630 MPa for the TiZrNbTaMo HEA is ~17% higher than really measured value. In other words, the yield strength converted from Vickers microhardness for the current alloy yields slight overestimation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Element mapping with EDX for each component in the TiZrNbTaMo HEA, showing elemental segregation in dendritic (bcc1) and interdendritic (bcc2) regions.</figDesc><graphic coords="5,80.05,53.18,426.57,263.51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>is generally similar to the scenario of the Ta 20 Nb 20 W 20 Mo 20 V 20 and Ta 25 Nb 25 W 25 Mo 25 HEAs [27]</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. P-h curves under nanoindentation for dendritic and interdendritic regions of the TiZrNbTaMo HEA, tested with a Berkovich indenter.</figDesc><graphic coords="6,68.09,53.18,200.13,169.46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Compressive engineering stress-strain curves of several typical specimens of as-cast TiZrNbTaMo HEA, tested at room temperature.</figDesc><graphic coords="6,336.08,53.18,200.13,164.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. SEM images taken from fracture surfaces of as-cast TiZrNbTaMo HEA subjected to compressive failure. (a) top-view of bottom surface, (b) low-magnification views of fracture surface, (c) zoom-in image of blocked area in (b), and (d), (e), (f) zoom-in image of area labeled as I, II, III in (c), respectively.</figDesc><graphic coords="7,129.71,53.18,327.30,364.71" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Potentiodynamic polarization curves of arc-melted TiZrNbTaMo HEA, as well as Ti6Al4V, 316L SS and Co28Cr6Mo alloys in PBS at 37 °C for comparison.</figDesc><graphic coords="7,59.30,550.49,200.13,167.02" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Chemical composition (at.%) examined by EDX for different regions in arc-melted TiZrNbTaMo HEA.</figDesc><table><row><cell>Location in ingot</cell><cell>Region in microstructure</cell><cell>Ti</cell><cell>Zr</cell><cell>Nb</cell><cell>Ta</cell><cell>Mo</cell></row><row><cell>Top</cell><cell>DR</cell><cell>14 ± 1</cell><cell>8 ± 1</cell><cell>20 ± 1</cell><cell>33 ± 1</cell><cell>25 ± 1</cell></row><row><cell></cell><cell>ID</cell><cell>23 ± 1</cell><cell>41 ± 1</cell><cell>13 ± 1</cell><cell>9 ± 1</cell><cell>14 ± 1</cell></row><row><cell>Middle</cell><cell>DR</cell><cell>16 ± 1</cell><cell>11 ± 1</cell><cell>20 ± 1</cell><cell>29 ± 2</cell><cell>24 ± 1</cell></row><row><cell></cell><cell>ID</cell><cell>24 ± 1</cell><cell>44 ± 2</cell><cell>12 ± 1</cell><cell>7 ± 1</cell><cell>13 ± 1</cell></row><row><cell>Global</cell><cell>DR</cell><cell>15 ± 2</cell><cell>10 ± 2</cell><cell>20 ± 1</cell><cell>31 ± 2</cell><cell>24 ± 1</cell></row><row><cell></cell><cell>ID</cell><cell>24 ± 1</cell><cell>43 ± 2</cell><cell>12 ± 1</cell><cell>8 ± 1</cell><cell>13 ± 1</cell></row><row><cell></cell><cell>Average</cell><cell>19 ± 1</cell><cell>21 ± 1</cell><cell>19 ± 1</cell><cell>21 ± 1</cell><cell>20 ± 1</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Several parameters and properties of TiZrNbTaMo HEA and its constituent elements.</figDesc><table><row><cell>Element</cell><cell></cell><cell>Ti</cell><cell>Zr</cell><cell>Nb</cell><cell>Ta</cell><cell>Mo</cell><cell>(HEA)mix</cell><cell>HEA</cell></row><row><cell>Crystal structure</cell><cell>High temperature</cell><cell>A3</cell><cell>A3</cell><cell>A2</cell><cell>A2</cell><cell>A2</cell><cell>-</cell><cell>A2</cell></row><row><cell></cell><cell>Low temperature</cell><cell>A2</cell><cell>A2</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Atomic radius, r (nm)</cell><cell></cell><cell>0.147</cell><cell>0.160</cell><cell>0.147</cell><cell>0.147</cell><cell>0.140</cell><cell>-</cell><cell>-</cell></row><row><cell>a Lattice parameter, a (nm)</cell><cell></cell><cell>0.3276</cell><cell>0.3582</cell><cell>0.3301</cell><cell>0.3303</cell><cell>0.3147</cell><cell>-</cell><cell>-</cell></row><row><cell>Young's modulus, E (GPa)</cell><cell></cell><cell>116</cell><cell>88</cell><cell>105</cell><cell>186</cell><cell>329</cell><cell>-</cell><cell>-</cell></row><row><cell>Shear modulus, G (GPa)</cell><cell></cell><cell>44</cell><cell>33</cell><cell>38</cell><cell>69</cell><cell>126</cell><cell>-</cell><cell>-</cell></row><row><cell>Poisson's ratio, v</cell><cell></cell><cell>0.361</cell><cell>0.38</cell><cell>0.397</cell><cell>0.342</cell><cell>0.293</cell><cell>-</cell><cell>-</cell></row><row><cell cols="2">Valence electron concentration, VEC</cell><cell>4</cell><cell>4</cell><cell>5</cell><cell>5</cell><cell>6</cell><cell>4 . 8</cell><cell>-</cell></row><row><cell cols="2">Vickers microhardness, H v (GPA)</cell><cell>0.97</cell><cell>0.903</cell><cell>1.32</cell><cell>0.873</cell><cell>1.53</cell><cell>1.12</cell><cell>4.9</cell></row><row><cell>Yield strength σ y (MPa)</cell><cell></cell><cell>195</cell><cell>280</cell><cell>240</cell><cell>170</cell><cell>420</cell><cell>261</cell><cell>1390</cell></row><row><cell cols="2">Melting temperature, Tm (K)</cell><cell>1941</cell><cell>2128</cell><cell>2750</cell><cell>3290</cell><cell>2893</cell><cell>2600</cell><cell>-</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Comparison of calculated values using rule of mixtures with experimentally measured data for elastic moduli, microhardness and lattice parameter, as well as predicted Poisson's ratio (ν) for global dendritic and interdendritic regions in the TiZrNbTaMo HEA.</figDesc><table><row><cell>Region</cell><cell>E mix /GPa</cell><cell>G mix /GPa</cell><cell>ν</cell><cell>(H v ) mix /GPa</cell><cell>E/GPa</cell><cell>H v /GPa</cell><cell>a mix /nm</cell><cell>a/nm</cell></row><row><cell>DR</cell><cell>184</cell><cell>69</cell><cell>0.33</cell><cell>1.14</cell><cell>161 ± 7</cell><cell>6.4 ± 0.3</cell><cell>0.3289</cell><cell>0.3310</cell></row><row><cell>ID</cell><cell>136</cell><cell>51</cell><cell>0.33</cell><cell>1.05</cell><cell>133 ± 6</cell><cell>5.7 ± 0.3</cell><cell>0.3396</cell><cell>0.3379</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Electrochemical properties measured in PBS solution at 37 °C for TiZrNbTaMo HEA and several orthopedic alloys.</figDesc><table><row><cell>Alloy</cell><cell>TiZrNbTaMo</cell><cell>Ti6Al4V</cell><cell>316 L SS</cell><cell>CoCrMo</cell></row><row><cell>E corr (mV SCE )</cell><cell>-607 ± 55</cell><cell>-571 ± 11</cell><cell>-234 ± 13</cell><cell>-320 ± 30</cell></row><row><cell>I p (μA/cm 2 )</cell><cell>0.89 ± 0.06</cell><cell>0.96 ± 0.21</cell><cell>0.83 ± 0.03</cell><cell>0.42 ± 0.19</cell></row><row><cell>E pit (mV SCE )</cell><cell>-</cell><cell>-</cell><cell>675 ± 30</cell><cell>435 ± 23</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 5</head><label>5</label><figDesc>Relative atomic size difference, δ aij , and modulus difference, δ G'ij (in bold type), of alloying element pairs, as well as the calculated values of these misfits (δ ai , δ G'i ) for Ti 15 Zr 10 Nb 20 Ta 31 Mo 24 bcc1 phase.</figDesc><table><row><cell>j</cell><cell>N b</cell><cell>T a</cell><cell>T i</cell><cell>Z r</cell><cell>M o</cell><cell>δ ai</cell><cell>δ G'i</cell></row><row><cell>i</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Nb</cell><cell>0</cell><cell>-0.45</cell><cell>-0.140</cell><cell>0.131</cell><cell>-0.698</cell><cell>0.005</cell><cell>-0.354</cell></row><row><cell>Ta</cell><cell>0</cell><cell>0</cell><cell>0.361</cell><cell>0.524</cell><cell>-0.452</cell><cell>0.005</cell><cell>0.099</cell></row><row><cell>Ti</cell><cell>-0.01</cell><cell>-0.01</cell><cell>0</cell><cell>0.25</cell><cell>-0.651</cell><cell>-0.004</cell><cell>-0.242</cell></row><row><cell>Zr</cell><cell>0.08</cell><cell>0.08</cell><cell>0.09</cell><cell>0</cell><cell>-0.738</cell><cell>0.096</cell><cell>-0.454</cell></row><row><cell>Mo</cell><cell>-0.047</cell><cell>-0.047</cell><cell>-0.04</cell><cell>-0.129</cell><cell>0</cell><cell>-0.048</cell><cell>0.508</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 6</head><label>6</label><figDesc>Relative atomic size difference, δ aij , and modulus difference, δ G'ij (in bold type), of alloying element pairs, as well as the calculated values of these misfits (δ ai , δ G'i ) for Ti 24 Zr 43 Nb 12 Ta 8 Mo 13 bcc2 phase.</figDesc><table><row><cell>J</cell><cell>N b</cell><cell>T a</cell><cell>T i</cell><cell>Z r</cell><cell>M o</cell><cell>δ ai</cell><cell>δ G'i</cell></row><row><cell>i</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Nb</cell><cell>0</cell><cell>-0.45</cell><cell>-0.140</cell><cell>0.131</cell><cell>-0.698</cell><cell>-0.029</cell><cell>-0.117</cell></row><row><cell>Ta</cell><cell>0</cell><cell>0</cell><cell>0.361</cell><cell>0.524</cell><cell>-0.452</cell><cell>-0.029</cell><cell>0.346</cell></row><row><cell>Ti</cell><cell>-0.01</cell><cell>-0.01</cell><cell>0</cell><cell>0.25</cell><cell>-0.651</cell><cell>-0.040</cell><cell>-0.012</cell></row><row><cell>Zr</cell><cell>0.08</cell><cell>0.08</cell><cell>0.09</cell><cell>0</cell><cell>-0.738</cell><cell>0.061</cell><cell>-0.240</cell></row><row><cell>Mo</cell><cell>-0.047</cell><cell>-0.047</cell><cell>-0.04</cell><cell>-0.129</cell><cell>0</cell><cell>-0.084</cell><cell>0.731</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 7</head><label>7</label><figDesc>Components of calculated strength (σ y) for the present TiZrNbTaMo and Senkov's TaNbHfZrTi HEA.Alloy(σ y ) mix Δσ a Δσ G σ y</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell cols="4">C ) and deviation of σ y C from experimental strength</cell></row><row><cell>(σ y E</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>C</cell><cell>σ y E</cell><cell>(σ y C -σ y E )/σ y E × 100</cell></row><row><cell>TiZrNbTaMo</cell><cell>260</cell><cell>240</cell><cell cols="4">1400 1900 1390 +37</cell></row><row><cell>TaNbHfZrTi [28]</cell><cell>226</cell><cell>221</cell><cell>647</cell><cell cols="2">1094 929</cell><cell>+18</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>S.-P. Wang, J. Xu / Materials Science and Engineering C 73 (2017) 80-89</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>a Note: lattice parameter of bcc structure at room temperature.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported by the <rs type="funder">National Natural Science Foundation of China</rs> under Grant No. <rs type="grantNumber">51571192</rs>. The authors thank <rs type="person">Dr. Chuan-Bin Jiang</rs> for technical assistance of nanoindentation measurement.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_X7kBpes">
+					<idno type="grant-number">51571192</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Titanium alloys in total joint replacement-a materials science perspective</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Rack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1621" to="1639" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Orthopedic implant retrieval and failure analysis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Tsao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Topoleski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Degradation of Implant Materials</title>
+		<editor>
+			<persName><forename type="first">N</forename><surname>Eliaz</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2012">2012</date>
+			<biblScope unit="page" from="393" to="447" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Surface modifications for improved wear performance in artificial joints: a review</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J L</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D T</forename><surname>Topoleski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="2502" to="2517" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Systemic effects of implanted prostheses made of cobalt-chromium alloys</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Michel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nolte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Löer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Arch. Orthop. Trauma Surg</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="61" to="74" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Blood metal ion concentrations after hip resurfacing arthroplasty: a comparative study of articular surface replacement and birmingham hip resurfacing arthroplasties</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Langton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sprowson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Joyce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Reed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Carluke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Partington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nargol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bone Joint Surg. (Br.)</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="1287" to="1295" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Metal-on-metal bearings total hip arthroplasty: the cobalt and chromium ions release concern</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Delaunay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Petit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">D</forename><surname>Learmonth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Oger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Vendittoli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Orthop. Traumatol. Surg. Res</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="894" to="904" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Metal sensitivity in patients with orthopaedic implants</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hallab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Merritt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Jacobs</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Bone Joint Surg. Am</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page">428</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Metal-on-metal hip resurfacing arthroplasty: a review of periprosthetic biological reactions</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mabilleau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">M</forename><surname>Kwon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pandit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Murray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sabokbar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Orthop</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="734" to="747" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The chemical form of metallic debris in tissues surrounding metal-on-metal hips with unexplained failure</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Quinn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sampson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sandison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Atkinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Skinner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F W</forename><surname>Mosselmans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="4439" to="4446" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Pseudotumors are common in well-positioned low-wearing metal-on-metal hips</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Matthies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Skinner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Osmani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Henckel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Hart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Orthop. Relat. Res</title>
+		<imprint>
+			<biblScope unit="volume">470</biblScope>
+			<biblScope unit="page" from="1895" to="1906" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Comparison of the cytotoxicity of clinically relevant cobalt-chromium and alumina ceramic wear particles in vitro</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Germain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hatton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Matthews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ingham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="469" to="479" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Bearing surfaces for joint replacement: new materials or new problems</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goodman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Metal-on-Metal Bearings</title>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Jones</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Greenwald</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">W</forename><forename type="middle">O</forename><surname>Haggard</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="page" from="13" to="20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Improving bearing surfaces of artificial joints</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Willmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="135" to="141" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Tribological conditions in mobile bearing total knee prostheses</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Kennedy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wongseedakaew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mchugh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Currier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tribol. Int</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="78" to="88" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Biotribology of a new bearing material combination in a rotating hinge knee articulation</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Grupp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Giurea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Miehlke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hintner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gaisser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schilling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schwiesau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kaddick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Biomater</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="7054" to="7063" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Reconstructing the human body using biomaterials</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="31" to="35" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Microstructural development in equiatomic multicomponent alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J B</forename><surname>Vincent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="issue">377</biblScope>
+			<biblScope unit="page" from="213" to="218" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nanostructured high-entropy alloys with multiple principal elements: novel alloy design concepts and outcomes</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="299" to="303" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Microstructures and properties of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="93" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Exploration and development of high entropy alloys for structural applications</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Uchic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tiley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="494" to="525" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Non-equiatomic high entropy alloys: approach towards rapid alloy screening and property-oriented design</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Springer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">648</biblScope>
+			<biblScope unit="page" from="183" to="192" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Processing, microstructure and mechanical properties of the CrMnFeCoNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="2262" to="2270" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Relative effects of enthalpy and entropy on the phase stability of equiatomic high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="2628" to="2638" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Composition dependence of phase stability, deformation mechanisms, and mechanical properties of the CoCrFeMnNi high-entropy alloy system</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Springer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="1993" to="2001" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Critical assessment 14: high entropy alloys and their development as structural materials</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1142" to="1147" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Refractory high-entropy alloys</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1758" to="1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>Intermetallics</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb 25 Mo 25 Ta 25 W 25 and V 20 Nb 20 Mo 20 Ta 20 W 20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Microstructure and room temperature properties of a high-entropy TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page" from="6043" to="6048" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Microstructure and elevated temperature properties of a refractory TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="4062" to="4074" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A refractory Hf 25 Nb 25 Ti 25 Zr 25 high-entropy alloy with excellent structural stability and tensile properties</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Si</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Hui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="277" to="280" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Enhanced mechanical properties of HfMoTaTiZr and HfMoNbTaTiZr refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="76" to="83" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Elastic and plastic properties of as-cast equimolar TiHfZrTaNb high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Djemia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laurent-Brocq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tingaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzinié</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chauveau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">654</biblScope>
+			<biblScope unit="page" from="30" to="38" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Structure of the interface between rabbit cortical bone and implants of gold, zirconium and titanium</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thomsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Larsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Ericson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sennerby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lausmaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kasemo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Mater. Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="653" to="665" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Biocompatibility and osteogenesis of refractory metal implants, titanium, hafnium, niobium, tantalum and rhenium</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Matsuno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yokoyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Watari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Uo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawasaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="1253" to="1262" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Biocompatibility of beta-stabilizing elements of titanium alloys</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eisenbarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Velten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Thull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Breme</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="5705" to="5713" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">In vitro biocompatibility of an ultrafine grained zirconium</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Saldaña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Méndez-Vilas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Multigner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Gonzalez-Carrasco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Perez-Prado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>González-Martín</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Munuera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Vilaboa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biomaterials</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="4343" to="4354" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A comparative study of zirconium and titanium implants in rat: osseointegration and bone material quality</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Hoerth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Katunar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Orellano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Ceré</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wagermaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ballarre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci. Mater. Med</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="411" to="422" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A perspective on molybdenum biocompatibility and antimicrobial activity for applications in implants</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H S</forename><surname>Flores-Sahagun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Paredes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="2806" to="2816" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Analysis of metal ion-induced DNA damage, apoptosis, and necrosis in human (Jurkat) T-cells demonstrates Ni 2+ and V 3+ are more toxic than other metals: Al 3+ , Be 2+ , Co 2+ , Cr 3+ , Cu 2+ , Fe 3+ , Mo 5+ , Nb 5+ , Zr 2+</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Caicedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Jacobs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Hallab</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomed. Mater. Res. A</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="905" to="913" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Metal ion release from metal implants</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hanawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="745" to="752" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Corrosion and tribocorrosion of hafnium in simulated body fluids</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Sin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Neville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Emami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomed. Mater. Res., Part B</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="1157" to="1164" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Tribological properties of Zr 61 Ti 2 Cu 25 Al 12 bulk metallic glass under simulated physiological conditions</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="292" to="304" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The electrochemical evaluation of a Zr-based bulk metallic glass in a phosphatebuffered saline electrolyte</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Buchanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Leon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Horton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomed. Mater. Res. A</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="430" to="438" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Massalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Okamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Subramanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kacprzak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Scott</surname></persName>
+		</author>
+		<title level="m">Binary Alloy Phase Diagrams</title>
+		<meeting><address><addrLine>Metals Park, OH</addrLine></address></meeting>
+		<imprint>
+			<publisher>ASM International</publisher>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+	<note>second ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<ptr target="http://en.wikipedia.org/wiki/Hardnesses_of_the_ele-ments_(data_page" />
+		<title level="m">Hardness of the Elements</title>
+		<imprint>
+			<biblScope unit="page">2014</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Discovery of a superconducting high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Koželj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vrtnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jazbec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jagličić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feuerbacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dolinšek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page">107001</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">An improved technique for determining hardness and elastic modulus using load and displacement sensing indentation experiments</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Pharr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1564" to="1583" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<idno>BS EN ISO 14577-1:2002</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Metallic Materials-Instrumented Indentation Test for Hardness and Materials Parameteres-Part 1: Test Method</title>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The correlation of the indentation size effect measured with indenters of various shapes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Swadener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Pharr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mech. Phys. Solids</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="681" to="694" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">The Hardness of Metals</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tabor</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<publisher>Oxford university press</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Failure of metals I: brittle and ductile fracture</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pineau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Benzerga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pardoen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="424" to="483" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The failure of brittle solids containing small cracks under compressive stress states</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Ashby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Hallam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="497" to="510" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Alloy design strategies and future trends in high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1759" to="1771" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of refractory MoNbHfZrTi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="87" to="94" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Experimental and theoretical study of Ti 20 Zr 20 Hf 20 Nb 20 X 20 (X = V or Cr) refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">É</forename><surname>Fazakas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Zadorozhnyy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>Varga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Louzguine-Luzgin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Refract. Met. Hard Mater</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="131" to="138" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Search for high entropy alloys in the X-NbTaTiZr systems</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Poletti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Fiore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Szost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Battezzati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">; X =</forename><surname>Al</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">)</forename><surname>Sn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">620</biblScope>
+			<biblScope unit="page" from="283" to="288" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Microstructures and mechanical properties of Al x CrFeNiTi 0.25 alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">619</biblScope>
+			<biblScope unit="page" from="610" to="615" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Prediction of high-entropy stabilized solid-solution in multi-component alloys</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="233" to="238" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Effect of valence electron concentration on stability of fcc or bcc phase in high entropy alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">103505</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Criteria for predicting the formation of single-phase high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Troparevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Morris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R C</forename><surname>Kent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Lupini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Stocks</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. X</title>
+		<imprint>
+			<biblScope unit="page">11041</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>5</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<author>
+			<persName><surname>Goodfellow</surname></persName>
+		</author>
+		<ptr target="http://www.goodfellow.com/E/T.html" />
+		<title level="m">Index of Materials</title>
+		<imprint>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Alloy design and properties optimization of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="830" to="838" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Substitutional solution hardening</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Fleischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="203" to="209" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Modelling solid solution hardening in high entropy alloys</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Toda-Caraballo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E J</forename><surname>Rivera-Díaz-Del-Castillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="14" to="23" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Solution hardening in niobium</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Status Solidi B</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="715" to="730" />
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Athermal solid solution hardening in tantalum</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Gypen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deruyttere</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1015" to="1020" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Solid solution strengthening in Nb-Ta and Nb-Mo alloy single crystals</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Hendrickson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Trans</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="2271" to="2280" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Solid solution hardening of molybdenum-hafnium alloys: experiments and modeling</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pöhl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schatte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Leitner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">559</biblScope>
+			<biblScope unit="page" from="643" to="650" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">On the contact of elastic solids</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hertz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Reine Angew. Math</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page">110</biblScope>
+			<date type="published" when="1881">1881</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Alloy Design and Properties Optimization of High-Entropy Alloys</title>
+				<funder ref="#_PeD7zBx">
+					<orgName type="full">Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_Yrv3s5E #_YcfWDJr">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_jWGCzSb">
+					<orgName type="full">Department of Energy</orgName>
+				</funder>
+				<funder ref="#_yx6eK8V">
+					<orgName type="full">U.S. National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">-High-Entropy Theory Center</orgName>
+								<orgName type="laboratory">State Key Laboratory for Advanced Metals and Materials</orgName>
+								<orgName type="institution">University of Science and Technology Beijing</orgName>
+								<address>
+									<postCode>100083</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">-High-Entropy Theory Center</orgName>
+								<orgName type="laboratory">State Key Laboratory for Advanced Metals and Materials</orgName>
+								<orgName type="institution">University of Science and Technology Beijing</orgName>
+								<address>
+									<postCode>100083</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">University of Tennessee</orgName>
+								<address>
+									<postCode>37996</postCode>
+									<settlement>Knoxville</settlement>
+									<region>TN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Alloy Design and Properties Optimization of High-Entropy Alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">3C63C4912C8FB7C1B815B9E42D2A2BA0</idno>
+					<idno type="DOI">10.1007/s11837-012-0366-5</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:45+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>This article reviews the recent work on the high-entropy alloys (HEAs) in our group and others. HEAs usually contain five or more elements, and thus, the phase diagram of HEAs is often not available to be used to design the alloys. We have proposed that the parameters of d and X can be used to predict the phase formation of HEAs, namely X ‡ 1.1 and d £ 6.6%, which are required to form solid-solution phases. To test this criterion, alloys of TiZrNbMoV x and CoCr FeNiAlNb x were prepared. Their microstructures mainly consist of simple bodycentered cubic solid solutions at low Nb contents. TiZrNbMoV x alloys possess excellent mechanical properties. Bridgman solidification was also used to control the microstructure of the CoCrFeNiAl alloy, and its plasticity was improved to be about 30%. To our surprise, the CoCrFeNiAl HEAs exhibit no apparent ductile-tobrittle transition even when the temperatures are lowered from 298 K to 77 K.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>With the fast development of the new technologies and theories for developing advanced materials, the number of constituent principal elements for metallic alloys is increased from one to three or more. For the conventional alloys, e.g., HT-9 steel and NUCu steel, they contain one dominant element (Fe), and the contents of other elements are very low, usually lower than 5 at.%. The intermetallic-based alloys, e.g., Fe 3 Al-or TiAl-based alloys, usually contain two dominant elements, and the contents of other elements are very low. With more than three or four principal elements, the alloys were intuitively thought to be complex. The phase diagrams for complex systems are often not available. Theoretical simulation and modeling of HEAs are very challenging and, thus, are lacking in the literature. As a result, most reports on HEAs were done by the traditional trial-and-error method. According to the regular solution approach, with an increasing of the number of principal elements in the system, the configurational entropy of mixing increases and reaches its maximum when the concentration of each element is equal. This feature forms the core concept of HEAs.</p><p>Compared with the conventional metallic alloys based on one or two major elements, HEAs generally have five or more major metallic elements, and each has an atomic percentage between 5% and 35%. <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> Since HEAs possess a very high configurational entropy of mixing, solid-solution phases can be more stable than intermetallic compounds or other complex-ordered phases during solidification. <ref type="bibr" target="#b3">4,</ref><ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref> HEAs usually possess excellent mechanical properties, thermal stability, and corrosion resistance together with low fabricated costs. Thus, HEAs are considered as potential candidate materials for many challenging industrial applications. <ref type="bibr" target="#b6">7,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref> However, how to design appropriate alloy compositions with required properties theoretically remains a daunting task. So far, most of the existing HEAs are developed from trial-and-error experiments. Hence, establishing a reasonable phase formation rule for HEAs is essential to guide alloy design. In addition, the property optimization for the existing HEAs can widen their potential applications. In this article, the solid-solution formation rule for multicomponent HEAs will be reviewed first. Then, TiZrNbMoV x and CoCrFeNiAlNb x alloys are prepared to verify the theory. The properties of the HEAs are optimized by compositions adjustment and Bridgman-solidification technique. In the end, the mechanical properties of body-centered cubic (bcc) AlCoCrFeNi HEA at 298 K and 77 K are presented.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL PROCEDURES</head><p>Alloy ingots were prepared by arc melting the mixture of high-purity metals with the purity better Ó 2012 TMS than 99 wt% under a Ti-gettered, high-purity argon atmosphere on a water-cooled Cu hearth. The alloys were remelted several times and flipped each time in order to improve homogeneity. The prepared alloy ingot was then remelted under high vacuum (5 9 10 À3 Pa) and suction cast into the water-cooled copper mold to obtain cylindrical rods with diameters of 3 mm and 5 mm.</p><p>The Bridgman solidification was carried out by placing crushed pieces of ingot into alumina tubes with an internal diameter of 3 mm and a wall thickness of $1 mm. Then, the alloys were heated to the semisolid state by adjusting the heating power and holding for 15 min, and then, Bridgman solidification was carried out with withdrawal velocities varying from 200 lm/s to 1,800 lm/s through a temperature gradient of $70 K/mm into a watercooled Ga-In-Sn liquid metal.</p><p>Microstructure investigations of alloys were carried out by x-ray diffraction (XRD) using a PHILIPS APD-10 diffractometer (Philips, Amsterdam, the Netherlands) with Cu Ka radiation. Cylindrical samples of U3 mm 9 6 mm and U5 mm 9 10 mm were prepared for compressive tests using a MTS 809 materials testing machine at room temperature with a strain rate of 2 9 10 À4 s À1 . The morphologies of cross sections and fracture surfaces were examined to identify deformation mechanism using a ZEISS SUPRA 55 scanning electron microscope (SEM; Carl Zeiss, Oberkochen, Germany) with energy-dispersive spectrometry. The magnetization curves were measured by a LDJ 9600 vibrating sample magnetometer (LDJ Electronics, Troy, MI).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS AND DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Phase Formation Rule</head><p>Compared with conventional metallic alloys with one or two principal components, HEAs possess significantly higher entropy of mixing (DS mix ) in the liquid state, which could effectively increase the extent of confusion in alloy systems and facilitate simple solid-solution phase formation. <ref type="bibr" target="#b4">5,</ref><ref type="bibr" target="#b10">11</ref> However, it is proven that other factors could also influence solid-solution phase formation. In our previous work, the atomic size differences (d) and the enthalpy of mixing (DH mix ) had been used to predict the solid-solution phase stability in HEAs. <ref type="bibr" target="#b11">12</ref> Recently, a new parameter X was defined, which combined effects of DS mix and DH mix for predicting the solid-solution phase formation among various multi-component alloys as <ref type="bibr" target="#b13">14,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22</ref> </p><formula xml:id="formula_0">X ¼ T m DS mix DH mix j j<label>(1)</label></formula><formula xml:id="formula_1">T m ¼ X n i¼1 c i ðT m Þ i (2)</formula><p>where T m is the average melting temperature of n-elements alloy and (T m ) i is the melting point of the ith component of the alloy. It should be noted that a regular solution model is adopted to calculate the parameter X. The value of X could be used to estimate the solid-solution formation ability.</p><p>In order to describe the comprehensive effect of the atomic-size difference in the n-element alloy, the parameter d is expressed as follows:</p><formula xml:id="formula_2">d ¼ ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi ffi X n i¼1 c i ð1 À r i =rÞ 2 q (3)</formula><p>where c i is the atomic percentage of the ith component and " r ¼ P n i¼1 c i r i is the average atomic radius, and r i is the atomic radius. <ref type="bibr" target="#b22">23</ref> By analyzing the parameter X versus d of various reported multicomponent alloys, we proposed that X ‡ 1.1 and d £ 6.6% can be used as another criterion for forming the solid-solution phase. <ref type="bibr" target="#b20">21</ref> In contrast, the multicomponent alloys forming intermetallic compounds and bulk metallic glasses (BMGs) have a larger value of d and smaller value of X. The value of X for BMG is smaller than that of intermetallic compounds.</p><p>The parameters DS mix , DH mix , T m , and d all reflect the collective behavior of constituent elements of alloys, and they can easily be calculated prior to experiments. So the phase formation can be predicted before alloys are prepared, especially, for the formation of the solid-solution phases. For HEAs, the solid-solution phases commonly possess outstanding properties. Therefore, the criterion is helpful for designing the alloy composition and optimizing the properties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>TiZrNbMoV x and CoCrFeNiAlNb x HEAs</head><p>To verify the above criterion, TiZrNiMoV x (x = 0, 0.25, 0.5, 0.75, 1, 1.5, 2, and 3) and CoCrFeNiAlNb x (x = 0.1, 0.25, 0.5, and 0.75) alloys are fabricated by arc melting and copper mold casting.</p><p>The XRD patterns of the as-cast alloys TiZrNi-MoV x (x = 0, 0.25, 0.5, 0.75, 1, 1.5, 2, and 3. For simplicity, they are denoted by V0, V0.25, V0.75, V1, V1.5, V2, and V3, respectively) are shown in Fig. <ref type="figure" target="#fig_0">1</ref>. It is seen that all alloys mainly contain a bcc solidsolution phase. The XRD patterns of V0, V0.25, V0.5, V0.75, and V1 alloys seem to exhibit reflections of only a single bcc phase. But overlapping peaks are present in the patterns, which implies that the bcc phase separation may exist in these alloys. As the molar ratio of V increases to 1.5, 2, and 3, reflections of a Zr-rich phase (b-Zr) with a bcc structure are observed on the diffraction patterns besides the matrix bcc solid solution. The peaks of the matrix bcc reflections shift rightwards as the V content increases, with little difference between V0 and V0.25 alloys. This trend demonstrates that the lattice parameter decreases, as the V content is increased according to the Bragg equation, which is mainly due to Zr depletion in the matrix phase to form Zr-rich bcc phase. Zr has much larger atomic size than 3d transition metals.</p><p>The X and d values of TiZrNbMoV x alloys were calculated and listed in Table <ref type="table" target="#tab_1">I</ref>. It is obvious that the X and d values of the alloys are located in the area for forming solid-solution phase that is X ‡ 1.1 and d £ 6.6%.</p><p>Figure <ref type="figure" target="#fig_1">2</ref> shows the SEM back-scattering electron images of TiZrNbMoV x alloys. Typical cast dendritic and interdendritic structures were observed in the alloys. When the molar ratio of V increases to 1.5 and 2, the Zr-rich phase appears in the interdendrite. The overall microstructures become finer and phase contrast becomes more apparent with the increasing V contents, which indicates that V addition promotes bcc phase separation.</p><p>Figure <ref type="figure" target="#fig_2">3a</ref> shows the room-temperature compressive engineering stress-strain curves of these alloys. All the alloys exhibit high yield strength, high fracture strength, and obvious plastic deformation, which may stem from the solid-solution strengthening effect and second-phase strengthening effect.</p><p>The detailed properties of these alloys are summarized and plotted in Fig. <ref type="figure" target="#fig_2">3b</ref>.</p><p>Figure <ref type="figure" target="#fig_3">4</ref> presents the XRD patterns of the as-cast CoCrFeNiAlNb x (x = 0, 0.1, 0.25, 0.5, and 0.75, denoted by Nb0, Nb0.1, Nb0.25, Nb0.5, and Nb0.75, respectively) alloys. Both Nb0 and Nb0.1 alloys exhibit the reflections of a single bcc solid-solution phase. However, the reflections of the Laves phase, which is identified as (CoCr) 2 Nb type with a hexagonal close-packed lattice structure, appear in the XRD patterns of Nb0.25, Nb0.5, and Nb0.75 alloys. The X and d value of alloys are also listed in Table <ref type="table" target="#tab_1">I</ref>. We can see that as the Nb content increases, the d value increases and X value decreases. It implies that the stability of the solid-solution phase decreases with the Nb addition; thus, ordered Laves phase appears in Nb-contained alloys. Compared with the other four alloys, the Nb0.75 alloy is not located in the formation area of solid-solution phases, and the Nb0.75 alloy contains more Laves phases. <ref type="bibr" target="#b23">24</ref> The microstructures of as-cast CoCrFeNiAlNb x alloys were displayed in Fig. <ref type="figure" target="#fig_4">5</ref>. Figure <ref type="figure" target="#fig_4">5a</ref> shows a typical dendritic morphology with an average primary arm spacing of 15 lm to 25 lm for the Nb0.1 alloy and a small amount of the Laves phases distribute in the interdendritic regions. The Nb0.25 and Nb0.5 alloys (as shown in Fig. <ref type="figure" target="#fig_4">5b,</ref><ref type="figure">c</ref>, respectively) both display the typical hypoeutectic structure. The primary phase is the bcc solid-solution phase. The continuous network eutectic structure is a mixture of the bcc phase and the Laves phase that nucleate and grow alternately in the interdendritic regions. For the Nb0.75 alloy, the primary phase is not the bcc phase but the Laves phase of a white flower-shaped morphology shown in Fig. <ref type="figure" target="#fig_4">5d</ref>. The eutectic structure consists of the bcc phase and the Laves phase, which presents a hypereutectic structure for the alloy. As a result, the microstructure changes from single bcc solid solutions (x = 0 and x = 0.1) to a hypoeutectic structure (x = 0.25 and x = 0.5) and then to a hypereutectic structure (x = 0.75) in this alloy system.  The magnetization curves of the alloy series are shown in Fig. <ref type="figure" target="#fig_5">6a</ref>. The corresponding saturation magnetizations Ms, residual magnetizations Mr, and coercive forces Hc, are displayed in Fig. <ref type="figure" target="#fig_5">6b</ref>. It is seen that this alloy system exhibits ferrimagnetic behavior, which may be ascribed to the addition of nonmagnetic elements (Al and Nb) and antiferromagnetic element (Cr) into these alloys besides the ferromagnetic elements (Fe, Co, and Ni). In addition, these alloys belong to typical soft magnetic alloys due to the value of coercive forces (Hc), which range from 52 to 94 Oe; their saturation magnetizations and residual magnetizations decrease with the Nb addition.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CoCrFeNiAl HEA by Bridgman Solidification</head><p>The XRD patterns of the CoCrFeNiAl alloy samples fabricated by the copper casting and Bridgman solidification are illustrated in Fig. <ref type="figure" target="#fig_6">7</ref>. It is seen that all the samples have similar bcc reflections and no obvious lattice constant changes of bcc solid solutions, indicating good phase stability. <ref type="bibr" target="#b24">25</ref> Figure <ref type="figure" target="#fig_7">8</ref> shows the typical metallographic photos of as-cast samples obtained by the copper mold casting and Bridgman solidification. Clearly, the as-cast alloy exhibits flowery dendritic microstructure in Fig. <ref type="figure" target="#fig_7">8a</ref>, while only equiaxed grains can be observed in Fig. <ref type="figure" target="#fig_7">8b</ref> for the alloy fabricated by Bridgman solidification. The inset in Fig. <ref type="figure" target="#fig_7">8b</ref> shows the magnified SEM secondary electron image of the intragranular part. It is seen that spherical and flaky precipitates randomly distribute in the grain matrix, and their sizes obviously decrease with the increase of the withdrawal velocity. <ref type="bibr" target="#b24">25</ref> Such similar structures were reported in the Fe-Ni-Mn-Al alloy systems. <ref type="bibr" target="#b25">26</ref> Figure <ref type="figure" target="#fig_8">9</ref> demonstrates the compressive engineering stress-strain curves of the samples synthesized by the copper mold casting and Bridgman solidification. The plastic strain limits of alloys were improved to some extent by Bridgman solidification compared to the as-cast sample, especially at the withdrawal velocity of 1,800 lm/s (up to 30%). The yield strengths of alloys are evidently lower than that of the as-cast sample and have no distinct change under the different withdrawal velocities, which may be ascribed to the fact that the disappearance of the dendrites and more homogeneous microstructure facilitate the movement of the dislocations. In addition, the fine precipitations in the alloy prepared by Bridgman solidification could (I) enable the release of the stress caused by the pileup of the dislocations and the absorption of the external energy during plastic deformation and (II) delay the propagation of the cracks, which improves the plasticity of alloys.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Mechanical Performance at Ambient and Cryogenic Temperature</head><p>Figure <ref type="figure" target="#fig_10">10a</ref> and b illustrate the compressive true stress-strain curves of the AlCoCrFeNi HEA at ambient and cryogenic temperatures, respectively. <ref type="bibr" target="#b26">27</ref> The yielding strengths, fracture strengths, and fracture strains at 298 K are 1,450 MPa, 2,960 MPa, 15.3%, respectively, while the yielding strengths, fracture strengths, and fracture strains at 77 K are 1,880 MPa, 3,550 MPa, 14.3%, respectively. It is noted that AlCoCrFeNi HEAs exhibit excellent mechanical properties at both temperatures, compared with traditional crystalline alloys. When the temperatures decrease from 298 K to 77 K, the yielding strengths and fracture strengths of AlCoCrFeNi HEA increase by 29.7% and 19.9%, respectively, while the plasticity changes little. It is concluded that CoCrFeNiAl HEA exhibit no apparent ductile-to-brittle transition as the temperatures are lowed from 298 K to 77 K.</p><p>Because AlCoCrFeNi HEA consists of a single solid-solution phase with a bcc structure, <ref type="bibr" target="#b26">27</ref> each atom can be viewed as a solute atom at the simplest scenario and it randomly occupies the crystal lattice site if ignoring possible atomic ordering in the structure. These solute atoms with different sizes and properties can interact with each other and elastically distort the crystal lattice, which induce the formation of a local elastic stress field. The   <ref type="bibr" target="#b23">24</ref> interactions between these local elastic stress fields and the stress field of dislocations in alloy will hinder dislocation movements and cause the increase of strength, namely, solid-solution strengthening effect. In general, the relation between the strengthening (Dr) and solute concentration c is expressed as <ref type="bibr" target="#b27">28</ref> Dr / c n (4)</p><p>where n % 0.5. Compared with the traditional crystal materials, the concentration of the solute of AlCoCrFeNi HEA is extremely high, so there is a greater strengthening effect on the AlCoCrFeNi HEA.</p><p>Aided by the thermal energy, dislocations may overcome obstacles even when the external stress is not sufficient to exert a force that exceeds the strength of the obstacles. This is called a thermally activated process. The possibility P is given by <ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28</ref> </p><formula xml:id="formula_3">P / exp À Q À Vs Ã kT (<label>5</label></formula><formula xml:id="formula_4">)</formula><p>where k is Boltzmann's constant, T is the absolute temperature, Q is the obstacle energy, the energy barrier the dislocation has to overcome, V is the activation volume, and s* is the effective stress, which is exerted to move the dislocations through the obstacle. It is concluded that overcoming obstacles becomes more difficult at cryogenic temperatures; the lower the temperature, the greater the energy barrier. Therefore, AlCoCrFeNi HEA exhibits better performances upon loading at cryogenic temperatures than at ambient temperature. It should be noted that the mechanical performances are influenced by many factors, and we just give a simple analysis.</p><p>Figure <ref type="figure" target="#fig_11">11</ref> shows the morphologies of the fractographs of the deformed samples at ambient and cryogenic temperatures. It is found that the cleavage fracture dominates the fracture at both temperatures, while the fracture modes at 298 K and 77 K are intergranular and transgranular, respectively. In addition, more fracture pieces will form during the deformation at 77 K, which is attributed to the reason that: more plastic deformation work due to the strengthening will transform into the surface energy at 77 K.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONCLUSIONS</head><p>By statistically analyzing the parameters d and X for reported multicomponent HEAs, a criterion X ‡ 1.1 and d £ 6.6%, for forming high-entropy stabilized solid-solution phases, has been proposed, which can be used to assist in developing advanced metallic alloys. TiZrNbMoV x and CoCrFeNiAlNb x HEAs mainly contain a simple bcc solid-solution         <ref type="bibr" target="#b26">27</ref> hypereutectic structures in CoCrFeNiAlNb x alloys. An ordered hexagonal Laves phase forms with higher Nb contents. TiZrNbMoV x alloys exhibit high yielding strengths, fracture strengths, and good plasticity. Compared to the as-cast sample, the plasticity for the CoCrFeNiAl alloy synthesized by Bridgman solidification was improved by a maximum of 30%, and the morphology changes from dendrites to equiaxed grains in this alloy after Bridgman solidification. The mechanical properties of single-phase bcc AlCoCrFeNi HEA were measured at different temperatures. It is concluded that the yielding strengths and fracture strengths increase and the fracture strains change very gently as the temperatures decrease from 298 K to 77 K.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. XRD patterns of the as-cast TiZrNbMoV x (x = 0, 0.25, 0.5, 0.75, 1, 1.5, 2, and 3) alloys with a diameter of 3 mm.</figDesc><graphic coords="3,41.10,316.35,232.80,185.52" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. SEM backscattering electron images of V0, V0.25, V0.5, V0.75, V1, V1.5, V2, and V3 alloys, which correspond to graph (a), (b), (c), (d), (e), (f), (g), and (h), respectively.</figDesc><graphic coords="4,121.89,66.90,365.76,501.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. (a) Engineering stress-strain curves of TiZrNbMoV x (x = 0, 0.25, 0.5, 0.75, 1, 1.5, 2, and 3) alloys tested at a strain rate of 2 9 10 À4 /s with a diameter of 5 mm. (b) The plastic strain (e p ), fracture strength (r max ) and yield strength (r 0.2 ) of TiZrNbMoV x alloys.</figDesc><graphic coords="5,41.61,66.90,232.80,315.24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. XRD patterns of the CoCrFeNiAlNb x (x = 0, 0.1, 0.25, 0.5, and 0.75, denoted by Nb0, Nb0.1, Nb0.25, Nb0.5, and Nb0.75) alloys.<ref type="bibr" target="#b23">24</ref> </figDesc><graphic coords="5,304.63,66.90,232.80,188.16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. SEM back-scatter electron images of the CoCrFeNiAlNb x alloys, 24 x = 0.1, 0.25, 0.5, and 0.75 corresponding to (a), (b), (c), and (d), respectively (DR: dendrite, ID: interdendrite, A: primary phase, B: eutectic structure).</figDesc><graphic coords="6,122.04,66.90,365.76,300.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. (a) Magnetization curves of the CoCrFeNiAlNb x alloys. (b)The corresponding saturation magnetizations Ms, residual magnetizations Mr, and coercive forces, Hc.<ref type="bibr" target="#b23">24</ref> </figDesc><graphic coords="7,41.61,66.90,232.80,328.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. The XRD patterns of CoCrFeNiAl HEAs of the as-cast and Bridgman solidified alloys with various withdrawal velocities of 200 to 1,800 lm/s.<ref type="bibr" target="#b24">25</ref> </figDesc><graphic coords="7,41.61,460.91,232.80,186.72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. The metallographic photos of CoCrFeNiAl alloy by coppermold casting (a) and by Bridgman solidification (b) (GB: grain boundary). The insert in (b) (the left lower corner) is a magnified part of the grain.</figDesc><graphic coords="7,304.56,66.90,232.80,385.44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 9 .</head><label>9</label><figDesc>Fig.9. The compressive engineering stress-strain curves of AlCo-CrFeNi HEAs by the copper-mold suction casting and Bridgman solidification with various withdrawal velocities of 200 to 1,800 lm/s.<ref type="bibr" target="#b24">25</ref> </figDesc><graphic coords="7,304.63,540.17,232.80,161.76" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>25</head><label>25</label><figDesc>Fig.9. The compressive engineering stress-strain curves of AlCo-CrFeNi HEAs by the copper-mold suction casting and Bridgman solidification with various withdrawal velocities of 200 to 1,800 lm/s.<ref type="bibr" target="#b24">25</ref> </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 10 .</head><label>10</label><figDesc>Fig.10. The compressive true stress-strain curves of the AlCoCrFeNi HEA at (a) 298 K and (b) K.<ref type="bibr" target="#b26">27</ref> </figDesc><graphic coords="8,61.22,66.90,487.56,177.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 11 .</head><label>11</label><figDesc>Fig. 11. The morphologies of the fractographs of the deformed CoCrFeNiAl samples at ambient and cryogenic temperatures. (a) and (b) show the fracture surface at 298 K; (c) shows the lateral surface at 298 K; (d) and (e) show the fracture surface at 77 K; and (f) shows the lateral surface at 77 K.<ref type="bibr" target="#b26">27</ref> </figDesc><graphic coords="8,122.04,292.54,365.76,379.92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table I .</head><label>I</label><figDesc>The microstructure and the parameters of d, DH mix , DS mix , T m , and X for TiZrNiMoV x and CoCrFeNiAlNb</figDesc><table><row><cell>TiZrNbMo</cell><cell>À2.50</cell><cell>11.53</cell><cell>2429</cell><cell>5.20</cell><cell>11.197</cell><cell>bcc</cell></row><row><cell>TiZrNbMoV 0.25</cell><cell>À2.60</cell><cell>12.71</cell><cell>2414</cell><cell>5.35</cell><cell>11.789</cell><cell>bcc</cell></row><row><cell>TiZrNbMoV 0.5</cell><cell>À2.67</cell><cell>13.15</cell><cell>2400</cell><cell>5.99</cell><cell>11.831</cell><cell>bcc</cell></row><row><cell>TiZrNbMoV 0.75</cell><cell>À2.70</cell><cell>13.33</cell><cell>2390</cell><cell>5.51</cell><cell>11.786</cell><cell>bcc</cell></row><row><cell>TiZrNbMoV 1</cell><cell>À2.72</cell><cell>13.38</cell><cell>2380</cell><cell>5.55</cell><cell>11.706</cell><cell>bcc</cell></row><row><cell>TiZrNbMoV 1.5</cell><cell>À2.54</cell><cell>13.25</cell><cell>2362</cell><cell>5.59</cell><cell>12.297</cell><cell>bcc</cell></row><row><cell>TiZrNbMoV 2</cell><cell>À2.67</cell><cell>12.97</cell><cell>2347</cell><cell>5.57</cell><cell>11.414</cell><cell>bcc</cell></row><row><cell>TiZrNbMoV 3</cell><cell>À2.53</cell><cell>12.26</cell><cell>1970</cell><cell>5.50</cell><cell>9.54</cell><cell>bcc</cell></row><row><cell>CoCrFeNiAl</cell><cell>À12.32</cell><cell>13.38</cell><cell>1675</cell><cell>5.32</cell><cell>1.819</cell><cell>bcc</cell></row><row><cell>CoCrFeNiAlNb 0.1</cell><cell>À13.32</cell><cell>13.88</cell><cell>1696</cell><cell>5.62</cell><cell>1.767</cell><cell>bcc</cell></row><row><cell>CoCrFeNiAlNb 0.25</cell><cell>À14.66</cell><cell>14.29</cell><cell>1726</cell><cell>5.99</cell><cell>1.682</cell><cell>bcc + Laves</cell></row><row><cell>CoCrFeNiAlNb 0.5</cell><cell>À16.58</cell><cell>14.71</cell><cell>1773</cell><cell>6.46</cell><cell>1.573</cell><cell>bcc + Laves</cell></row><row><cell>CoCrFeNiAlNb 0.75</cell><cell>À18.03</cell><cell>14.87</cell><cell>1815</cell><cell>6.81</cell><cell>1.497</cell><cell>bcc + Laves</cell></row></table><note><p><p>x Alloy Series</p>Alloys DH mix (KJ/mol) DS mix (J/k.mol) T m (K) d (%) X Phase</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>(Published onlineJuly 10, 2012)   </p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Alloy Design and Properties Optimization of High-Entropy Alloys</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>The authors acknowledge the financial support by the <rs type="funder">Natural Science Foundation of China</rs> (No. <rs type="grantNumber">50971019</rs>). P.K.L. appreciates the support from the <rs type="funder">U.S. National Science Foundation</rs> (grants <rs type="grantNumber">DMR-0909037</rs>, <rs type="grantNumber">CMMI-0900271</rs>, and <rs type="grantNumber">CMMI-1100080</rs>) and Grant <rs type="grantNumber">NEUP 119262</rs> from the <rs type="funder">Department of Energy</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_PeD7zBx">
+					<idno type="grant-number">50971019</idno>
+				</org>
+				<org type="funding" xml:id="_yx6eK8V">
+					<idno type="grant-number">DMR-0909037</idno>
+				</org>
+				<org type="funding" xml:id="_Yrv3s5E">
+					<idno type="grant-number">CMMI-0900271</idno>
+				</org>
+				<org type="funding" xml:id="_YcfWDJr">
+					<idno type="grant-number">CMMI-1100080</idno>
+				</org>
+				<org type="funding" xml:id="_jWGCzSb">
+					<idno type="grant-number">NEUP 119262</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ungar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Csiszar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">171910</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">X</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Q</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">141913</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Lou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Q</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">P</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Jiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">51910</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page">241917</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">299</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">357</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page">181904</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">1758</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">6308</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wanderka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Murty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Glatzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Banhart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">182</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">2533</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">534</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">454</biblScope>
+			<biblScope unit="issue">455</biblScope>
+			<biblScope unit="page">260</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Gan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. ASTM Int</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Kou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">266</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy Compd</title>
+		<imprint>
+			<biblScope unit="volume">490</biblScope>
+			<biblScope unit="page">160</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Q</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">527</biblScope>
+			<biblScope unit="page">6975</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">698</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Tsai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">288</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Z</forename><surname>He</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Therm. Spray Technol</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">1049</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page">233</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mater</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Forum</title>
+		<imprint>
+			<biblScope unit="page">1058</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kittel</surname></persName>
+		</author>
+		<title level="m">Introduction to Solid State Physics</title>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="page">78</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">532</biblScope>
+			<biblScope unit="page">480</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Wittmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Munroe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">791</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Forum</title>
+		<imprint>
+			<biblScope unit="volume">688</biblScope>
+			<biblScope unit="page">419</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rosler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Harders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Baker</surname></persName>
+		</author>
+		<title level="m">Mechanical Behavior of Engineering Materials</title>
+		<meeting><address><addrLine>Berlin, Germany</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page">205</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

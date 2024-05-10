@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">DIFFUSION OF Eu AND Gd IN BASALT AND OBSIDIAN</title>
+				<funder ref="#_BWnKnqa">
+					<orgName type="full">National Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mordeckai</forename><surname>Magaritz</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Carnegie Institution of Washington Department of Terrestrial Magnetism</orgName>
+								<address>
+									<addrLine>5241 Broad Branch Road, N. W. Washington</addrLine>
+									<postCode>20015</postCode>
+									<region>D. C</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Albrecht</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Carnegie Institution of Washington Department of Terrestrial Magnetism</orgName>
+								<address>
+									<addrLine>5241 Broad Branch Road, N. W. Washington</addrLine>
+									<postCode>20015</postCode>
+									<region>D. C</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">DIFFUSION OF Eu AND Gd IN BASALT AND OBSIDIAN</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2C9D17B15F729F8AC15DFA689F41A985</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Tracer diffusion coefficients of 153Gd and 15'Eu in olivine tholeiite have been determined at temperatures between 1150 and 1440°C. The results are identical for both tracers within experimental error. Between 1440 and 132OOC the diffusion coefficients are given by D(Eu, Gd) = 0.058 exp(-40,600/ RT). Between 1320 and 1210°C, the diffusion coefficients are constant at D = (1.4 * 0.4) x 10B7 cm2s-'I irregularly to 4 x lo-' cm's .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>and between 1210 and 1150°C, the D values drop</head><p>The liquidus temperature (127OOC) lies within the region of constant D. Such anomalous behavior has not been encountered in previous studies of Ca, Sr, Ba and Co diffusion in basalt. To explain the constant D value near the liquidus, we speculate that the structure of the melt changes as a function of temperature in such a way that the normal temperature dependence of the diffusivity is compensated. For example, the rare earth ions may be displaced from their (high temperature) octahedral coordination sites to other sites where they are more readily dissociated and therefore become progressively more mobile. The behavior below 1210°C may be the result of relatively stable complexes or molecules in the melt or of the formation of a REE bearing crystalline phase that has so far escaped detection. results for Eu diffusion in obsidian are D(Eu, 800°C) = 5 x lo-" Preliminary cm's_'and D(Eu, 950aC) = 1.5 x 10-l' cm2s-1. These data are consistent with an activation energy of 59 Kcal mole-'. These low diffusivities indicate that the partitioning of REE in crystallizing intermediate and acidic melts may be controlled by diffusion in the melt rather than equilibrium between the crystal surface and the bulk melt.</p><p>The diffusion data are applied to partial melting in the mantle, in an attempt to explain how LREE enriched tholeiites may be derived from a LREE depleted mantle source. In this model LREE diffuse from garnet bearing regions that have small melt fractions into garnet free regions that have relatively large melt fractions. REE diffusion is's0 slow that this process is quantitatively significant only in small partially molten bodies (diameter '~1 km or less) or in larger, but strongly flattened bodies. Internal convective motion during diapiric rise would also increase the efficiency of the.process.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>This paper is a report of our continuing effort to measure diffusion coefficients in natural melts and glasses. Previous publications <ref type="bibr">(HOFMANN and MAGARITZ, 1977A;</ref><ref type="bibr" target="#b16">MAGARITZ and HOFMANN, 1978)</ref> were concerned mainly with the diffusion of divalent cations. Here we report the first results on trivalent ions. This work is motivated both by the importance of diffusion to igneous processes and the nearly total lack of useful diffusion data in natural melts. The role of diffusion as a "short circuit" for local equilibration in a partially molten mantle has been discussed by <ref type="bibr">HOFMANN and MAGARITZ (1977a,b)</ref> and by <ref type="bibr" target="#b8">HOFMANN and HART (1978)</ref>. The effect of transport control in processes of fractional crystallization has been discussed by <ref type="bibr" target="#b0">ALBAREDE and BOTTINGA (1972)</ref> (1) Current Address:</p><p>Isotope Department The Weizmann Institute of Science Rehovat, Israel and elaborated by <ref type="bibr" target="#b16">MAGARITZ and HOFMANN (1978)</ref>. In addition, diffusion data are expected to contribute to the body of observations that will ultimately form the basis of a firmer understanding of the structure of silicate melts.</p><p>We report here diffusion coefficients of Eu and Gd in a tholeiite melt under oxidizing conditions. Also, we give preliminary results of diffusion in basalt below the liquidus temperature, and in obsidian. AS examples of the possible application of these results, we discuss the effect of diffusion on rare-earth partitioning during fractional crystallization and on the rareearth abundance patterns in partially molten regions of the mantle.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>EXPERIMENTAL TECHNIQUES</head><p>Our experimental methods for measuring cation diffusion in basalt and obsidian have been described by <ref type="bibr">HOFMANN and MAGARITZ (1977a)</ref> and by <ref type="bibr" target="#b16">MAGARITZ and HOFMANN (1978)</ref>. In brief, a thin source of radioactive tracer is deposited (by evaporation from aqueous chloride solution) on the polished end surface of a cylinder of basalt or obsidian glass. After the diffusion experiment, which consists of holding the specimen at high temperatures (in air at one atm) for several days in the case of basalt and weeks in the case of obsidian, the activity profile is determined by successive grinding and counting either the residual activity of the cylinder or the activity of the glass removed by grinding. Special care was taken in the present set of experiments to remove any activity from the walls of the cylinders before measuring the activity profile. This was necessary because surface migration of the radioactive rare earth salts was observed. This was probably related to the relatively low melting points of EuC13 (85O'C) and GdC13 (609'C), which are assumed to flow in molten form, before they are absorbed by the silicate specimen.</p><p>We made two kinds of tests to ascertain that the cation transport did indeed occur by volume diffusion in the specimen. The first is the fit of each measured activity profile to the appropriate theoretical diffusion profile. The second is a series of isothermal diffusion runs of widely differing durations, to see if the apparent diffusion distances have the correct time dependence. In previous measurements <ref type="bibr">(HOFMANN and MAGARITZ, 1977a)</ref> it was shown that, in experiments involving liquid basalt, convection does contribute to the overall transport, but that for sufficiently long runs, volume diffusion predominates over convection. It was also argued that most of the convective movement occurred during the initial heating of the sample. Figure <ref type="figure">1</ref>  (For more details on linearized profiles, see <ref type="bibr">HOFMANN and MAGARITZ, 1977a)</ref>.</p><p>A first order correction for the effect of convection in the shorter runs can be made by evaluating the apparent diffusion coefficient from the slope of the linear portion of those profiles that show significant deviations from linearity. Figure <ref type="figure" target="#fig_2">2</ref> shows that this procedure yields nearly constant apparent diffusion coefficients as a function of run time, whereas apparent D values calculated from the total transport distance of some point on the activity profile (in this case the value of x where A(x)/A(o) = 0.1) are consistently too high in short runs. In the longer runs, the apparent D values calculated by the two methods converge and, in addition, become independent of time.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>RESULTS</head><p>The temperature dependence of the rare earth diffusivities is shown in Figure <ref type="figure">3</ref> in the form of a conventional Arrhenius plot. Several features stand out:</p><p>(1) The diffusivities of Gd and Eu are indistinguishable from each other, except perhaps in the temperature interval 1190° to 1210°C, where both diffusivities drop by nearly an order of magnitude, and where the experimental reproducibility is significantly poorer than elsewhere. This identical behavior of both species is to be expected because both Eu and Gd are trivalent in liquid basalt under oxidizing conditions (experiments in air: see also <ref type="bibr">PHILPOTTS, 1970, and</ref><ref type="bibr" target="#b5">DRAKE, 1975)</ref> and their ionic radii are nearly identical (1.93 and l.q2f( in VI coordination; 1.15 and 1.14 d in VIII coordination for Eu3 and Gd3 respectively (see <ref type="bibr" target="#b30">WHITTAKER and MUNTUS, 1970)</ref>. (2) BetLeen 1320° and 1440°Cq+the ArrhFnius line for Eu3+ and Gd3+ is parallel to and below those for Sr and Ba2 .</p><p>In this temperature interval, the data thus confirm our previously reported observation that the diffusivity and errors in the background correction. The abscissa, x/(4t) , is chosen so that the slopes of the profiles are independent of run duration, and D is given by D = (slope)-'.</p><p>is charge dependent so that, despite their smaller ionic radii, the more highly charged ions diffuse more slowly than ions of lower charge. The equation of the Arhenius line is D(Eu, Gd) = 0.058 exp(-40,6OO/RT).</p><p>(3) In the temperature interval between 1320° and 121O'C the Arrhenius line is horizontal. This result is confirmed by the isothermal time studies for 1300°C and 1240°C (shown in Fig. <ref type="figure" target="#fig_2">2</ref>). This behavior is anomalous and has not been observed in previous diffusion studies.</p><p>(4) The composition of the melt is (in weight per cent): 49.7% SiOz, 12.7% A1203, 2.6% TiOl, 0.09% Cr203, 11.1% total Fe as FeO, 0.2% MnO, 9.5% MgO, 10.8% CaO, 2.3% NazO, 0.5% KzO (for analytical details and a discussion of Fe and alkali losses, see <ref type="bibr">HOFMANN and MA$ARIT$, 1977a)</ref>. to be predominant, but the actual Fe' /Fe2</p><p>Ferric iron is expected ratio will vary with temperature and the relative efficiency of external buffering (from the atmosphere) versus internal buffering (especially below the liquidus during crystallization of oxides and silicates). The first phase to crystallize at the liqudus is a chrome spine1 containing about 52% total Fe (given as FeO), 16% MgO, 10% Cr203, 9% A1~03, 0.9% TiOz. As crystallization proceeds, the melt is therefore gradually depleted in Fe0 and strongly depleted in CrTpO) and NiO. At 1240°C, Fe0 in the melt has decreased from 11.1 to 10.1% and Cr203 has decreased from 0.09% to a value below the detection limit of the electron microprobe. At 1203°C the Fe0 content of the melt is 8.8% and SiO2 has increased by about 1%.</p><p>(5) The bulk-diffusion coefficient for the partially molten basalt drops sharply between 1210" and 1190°C, and again between 1180° and 115OOC. Examination of the charges by optical and scanning electron microscopy showed that at 1190°C there are no crystalline phases other than spine1 or magnetite present. At 115O'C the material is mostly crystalline and consists of titanomagnetite, plagioclase, orthopyroxene, clinopyroxene and small amounts of glass. Under the oxidizing conditions of our experiments only spine1 or magnetite (rather than olivine) crystallizes at temperatures above 119OOC. These results are consistent with an activation energy of about 59 kcal mole-'.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Diffusion of Eu and Gd</head><p>The relatively poor reproducibility in the 800' data reflect the limitations in precisely sectioning the obsidian cylinders and measuring very small differences in length.</p><p>(At 800°C, a residual activity value A(x)/A(o) = 0.5 is reached after removing a length of 8 urn from the cylinder that had been annealed for 428 hours.) For comparison with these Eu data values for Cs, Ba, Sr, Rb, K and ia at the same temperature at 800°C,lfhe D are 4x10 , 2x10-", 1~10-'~, 1x10-', 3x10-', and 1~10~~ cm's_11 respectively <ref type="bibr" target="#b11">(JAMBON and CARRON, 1973;</ref><ref type="bibr" target="#b16">MAGARITZ and HOFMANN, 1978)</ref>. These large differences in D (more than six orders of magnitude) are in contrast with the very limited range of D values observed for the rare earth elements, the alkaline earths, and Na (less than two orders of magnitude, see also <ref type="bibr">HOFMANN and MAGARITZ, 1977a</ref>) in basalt at 1300°C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Melt Structure</head><p>The present results on trivalent Eu and Gd differ from previous data on divalent Co, Ca, Sr, and Ba <ref type="bibr">(HOFMANN and MAGARITZ, 1977a)</ref> in that the diffusivities of the trivalent ions are smaller than but parallel to those of the divalent ions at temperatures above 132OOC. This confirms our previous conclusions that the diffusivity decreases with increasing ionic charge and radius. The correlation with radius is most easilv exwlained if the actual migrating species are single ions whose mobility through the melt structure will depend in part on their size. The correlation with charge, on the other hand, is more easily explained as a result of formation of complexes, whose stability will depend on the ionic strength (which in turn is charge dependent) of the constituent ions. The net mobility of an ion will thus depend in part on the time the ion is bound in a relatively immobile larger complex relative to the time it exists in a dissociated, more mobile state. Because the stability and the composition of the complexes will in general vary with temperature, the slope of the Arrhenius line (which is derived directly from the temperature dependence of the diffusivityl should probably not be interpreted in terms of an activation energy (which is based on the concept of mobility in a fixed structure). Nevertheless, we use activation energy as a convenient descriptive term.</p><p>It is useful to compare our results to the trace element partition coefficients between two immiscible silicate liquids <ref type="bibr" target="#b29">(WATSON, 1976;</ref><ref type="bibr" target="#b20">RYERSON and HESS, 1978)</ref>. These authors found that the magnitude of the partition coefficient is positively correlated with the cationic charge/radius ratio. Thus, Sr and Ba (low charge/radius ratio) have partition coefficients near unity with only a slight preference for the more basic melt. On the other hand, the rare earth elements (higher charge/radius ratio) have partition coefficients between 3 and 10 depending on the particular compositions involved; but in all cases the preference is for basic over the coexisting acidic melt. It is evident from this that thermodynamic parameters such as activity coefficients of the rare earths depend strongly on melt composition and structure, whereas such effects will be much less pronounced for Sr and Ba. The diffusion coefficients show qualitatively a similar behavior. The apparent activation energies for Sr and Ba are all very similar in basalt melts and in obsidian glasses (43.5 and 39.4 kcal/mole for Sr and Ba in basalt, 43.8 and 45.8 kcal/mole in obsidian; see <ref type="bibr" target="#b16">MAGARITZ and HOFMANN, 1978)</ref>. Also, <ref type="bibr" target="#b12">JAMBON and CARRON (1977)</ref> have determined Sr and Ba diffusivities in basalt glass at 700-lOOO"C, and these are nearly identical to our Sr and Ba results in obsidian. It is evident from this that Sr and Ba diffusion is not very sensitive to the composition of the melt and, by implication, to the melt structure. Although we do not have the complete data to make an analogous comparison for rare earths, it is already quite obvious that rare earth diffusion show a more complex behavior than Sr and Ba: (1) There is a significant change in apparent activation energy above the liquidus temperature from about 41 to 0 kcal/mole in the basalt melt, and (2) the values for Eu diffusion in obsidian at 800 and 950°C indicate an apparent activation energy of 59 kcal/mole, which is much higher than either of the values in basalt.</p><p>We now attempt to give a rather s specific diffusion behavior of Gd ':</p><p>gculative and incomplete explanation for the and Eu 3+ in basalt. Normally, the diffusivity of any species is positively correlated with temperature, and this is true in the present case at temperatures above 132O'C. In contrast, the observed diffusivities are constant between 1320 and 1210°C, and this calls for a special mechanism.</p><p>Fe"+/Fe' One possfble explanation for the diffusivity "plateau" may be that thy, ratio increases with decreasing temperature and that the Fe displaces other trivalent (REE) ions from their sites in relatively stable complexes. The displaced ions form less stable complexes and therefore have an enhanced mobility.</p><p>It should be noted that it is not clear to what extent the oxidation state is buffered externally by atmospheric oxygen or internally Diffusion of Ku and Cd 853 by the initial composition of the melt (equilibrated with air at about 1400°) and the crystallizing oxide and silicate phases. It is also possible that Fe is not directly involved, and that the stability of REE complexes is decreased as a result of competition with other ion species that form octahedral complexes.</p><p>We further speculate that at 121O'C the liquid structure changes abruptly to form feldspar and pyroxene-like "molecules" which incorporate REE (and also Sr and Ba; see <ref type="bibr">MAGARITZ and HOFMANN, 1977)</ref>. This phenomenon occurs at a slightly higher temperature than the actual crystallization of these phases (under our experimental conditions), but it drastically reduces the mobility of all the participant cations because of the stability of these large molecules. At still lower temperatures, between 1180° and llSO"C, these molecules form crystalline phases that immobilize the cations incorporated, so that the bulk diffusion coefficient of the crystal-melt aggregate is further reduced. This admittedly speculative "explanation" can be tested by combined studies of partitioning and diffusion. For example, Pb is known to "prefer" the feldspar structure over other rock forming silicates. Thus, when the feldspar "molecules" are formed in the melt, they should reduce the mobility of Pb in the melt. The above model of structural changes in the melt is similar to the quasi-crystalline model for silicate melts proposed by <ref type="bibr" target="#b1">BURNHAM (1978)</ref>. An alternative explanation for the drop in diffusion coefficients between 121OO and 1190" is that a crystalline phase forms that preferentially incorporates rare earths and alkaline earths and escapes detection by optical and scanning electron microscopy. Another possible explanation for the horizontal slope of the Arrhenius line may lie in stable or metastable unmixing of the melt into two phases. Preliminary work using the scanning electron microscope on polished and etched surfaces of basalt glasses quenched from 1300" and 1260°C showed textures resembling microscopic "pillow lavas." This may be an indication of unmixing, but it is not clear at present whether the observed textures are formed during the run or during quenching. Also, we have not been able to detect significant compositional differences between the unmixed phases.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Effect on fractional crystallization</head><p>The large differences between diffusion coefficients of different cations are likely to affect the distribution of elements between phases during igneous processes, especially fractional crystallization of granitic melts. The theoretical basis for this is given for a non-convecting system by <ref type="bibr">TILLER et al. (1953) and</ref><ref type="bibr">SMITH et al. WTTINGA (1972)</ref>.</p><p>(1955) and has been reviewed by ALBAREDE and -In addition, <ref type="bibr" target="#b2">BURTON et al. (1953)</ref> have developed a theory useful for convecting systems, where def=ion control is confined to a boundary layer adjacent to the growing crystals (see also <ref type="bibr" target="#b16">MAGARITZ and HOFMANN, 1978)</ref>. Figure <ref type="figure" target="#fig_4">4</ref> shows the effects of linear growth rate of the crystal (V), the thickness of the diffusive boundary layer (d), and the diffusion coefficient in the melt (D) on the apparent partition coefficient (K*,) when the system has reached steady state. It is clear that the critical range of growth conditions lies between Vd/D = lo-' and Vd/D = 10. Observed growth rates in basaltic lava lakes are of the order lo-' to lo-" cm s-l <ref type="bibr" target="#b13">(KIRKPATRICK, 1977)</ref> and assuming a maximum value of d -0.1 cm and a minimum D = 10m7 cm2s-1; we obtain Vd/D = 10e3 to lo-'+. Thus it appears that in basaltic melts and under conditions of relatively slow crystallization (such as might also be expected in magma chambers at depth), the solid-liquid partitioning is not significantly affected by diffusion control. On the other hand, the effect is expected to be important in basaltic melts whenever growth rates exceed the value of lo-' cm s-l (e.g. in rapidly cooling flows or dikes) and in more acidic melts at lower temperatures , when the diffusion coefficients are very much smaller. For example, vity of Eu is 5~10~'~ cm2s-1, at EOO'C in a granitic melt, the diffusiand if we assume a minimum value for d = 10m3 cm and a growth rate of V = lo-" cm s-l, we obtain a value of Vd/D = 0.2. (The value of V chosen is approximately the lower limit of experimental&amp;.x observed growth rates in granitic liquids. These rates range from 3x10 1~10-'~ cm s-l; see <ref type="bibr" target="#b27">SWANSON, 1977;</ref><ref type="bibr">also FENN, 1977)</ref>.</p><p>to Figure <ref type="figure" target="#fig_4">4</ref> shows that in this case K* will be quite different from the equilibrium K the magnitudg of K . on partitioning must be evaluated considering the growth conditions and diffusion coefficients applicable to the particular case of interest. It seems likely from these considerations that a least some of the variation of apparent partitioning observed in natural phenocryst-matrix assemblages are the results of diffusion control in the melt.</p><p>Our results and their application to crystal growth phenomena should also be helpful in designing experiments on partitioning of rare-earth and other trace elements between crystals and melts. This is of special interest in experiments that cannot be reversed in order to demonstrate equilibrium. In such cases, the experimenter must attempt to achieve a sufficiently low crystal growth rate, so that the parameter Vd/D &lt;&lt; 1 (Fig. <ref type="figure" target="#fig_4">4</ref>). If the melt does not convect and constitutes an infinite reservoir around the growing crystal, the system will approach a steady state, in which the effective partition coefficient is unity (see <ref type="bibr" target="#b0">ALBAREDE and BOTTINGA, 1972)</ref>. In this case, the experimenter must therefore make the melt system sufficiently small so that the melt is at all times well mixed due to diffusion alone. This may be approached by keeping the overall dimensions of the specimen and the growth rate of the crystals small so that Vx/D CC 1, where x is the diameter of the specimen. To ensure that partitioning is not affected by diffusion in the melt, the experiments should be done with varying growth rates. We emphasize that, while these methods may be helpful in achieving equilibrium results, they do not guarantee equilibrium and they do not therefore diminish the importance of reversal experiments.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Application to Partial Melting in the Mantle</head><p>In this section we give a specific example of how the diffusion data may affect the rare earth distribution pattern in mantle-derived melts. We explore the possibility of differential diffusion transport of heavy and light rare earths through a partially molten, garnet-bearing peridotite. The results of these considerations is a mechanism for producing light-rare-earth (LREE) enriched melts in regions where garnet has been comsumed by melting.</p><p>To illustrate the effect (see Fig. <ref type="figure" target="#fig_5">5</ref>) we assume a sphere of 1 km diameter of partially molten, garnet-free peridotite (i.e. garnet has been consumed by melting withing the sphere). The sphere grades outward into solid peridotite through a 1OOm thick shell of partially molten, garnet-bearing peridotite (where garnet has not been consumed because of the smaller degree of melting). We further suppose that the melt fraction is 0.01 in the garnet bearing shell and 0.1 in the garnet free interior. Finally we assume a chondritic initial bulk composition of the material in all REE abundances, and bulk partition coefficients (between crystals and melt) of zero for both LREE and HREE in the sphere, zero for LREE in the shell, and unity for HREE in the shell.</p><p>(These "idealized" coefficients illustrate semiquantitatively the behavior of REE deduced from the phenocryst-matrix studies of <ref type="bibr">SCHNETZLER and</ref><ref type="bibr">PHILPOTTS (1968, 1970)</ref> and from the experimental study of <ref type="bibr" target="#b25">SHIMIZU and KUSHIRO (1975)</ref>. This means that the initial, chondrite-normalized REE abundances in the melt are approximately equal to 10 for all REE in the sphere, 100 for LREE in the shell, and 0.5 for HREE in the shell.</p><p>These initial conditions lead to a net diffusional flux of LREE from the shell into the sphere, and of HREE from the sphere into the shell. The interior of the sphere will therefore undergo net LREE enrichment and HREE depletion. It remains to be seen whether this mechanism can be quantitatively significant. The volume of the shell is about 73% of the volume of the sphere, and after an infinite length of time most of the LREE in the shell will have been transferred to the sphere with the result of a LREE enrichment of somewhat less than a factor of two. A rough approximation of the time required is obtained by the simple solution for diffusion from a flat sheet of the same thickness (h) as the shell into a infinite medium <ref type="bibr">(CRANK, 1975, p. 15)</ref>. Such an approximation is quite good in the early stages of the processes. The result is that the concentration in the shell-will-dro when Dt = h2.</p><p>-r: to roughly 50% of its initial value, For a value of D = 3x10 cm2s-' (the diffusivitv at 144OOc). and a layer thickness of lOOm, the time required is 10 m-y. The reverse flux of HREE during this time is much slower because the effective diffusion coefficient (for HREE in the shell) is reduced by approximately a factor of 100. The reduction in mobility is caused by local equilibration with garnet, which immobilizes the HREE. This effect is described by the diffusion coefficient modified for application to partially molten systems (see <ref type="bibr" target="#b10">HOFMANN and MAGARITZ, 1977b</ref>)</p><formula xml:id="formula_0">D ' Dmelt rock = T [ (l-B)kD+B1</formula><p>where k is the bulk partition coefficient between solid and melt, 8 is the melt frsction, and T is the tortuosity of the diffusion path. Although the migration of HREE from the sphere into the shell is much slower than the reverse migration of LREE, the capacity for HREE uptake in the shell is somewhat greater. Nevertheless, the amount of HREE removed from the sphere per unit time is much smaller than the amount of LREE taken up.</p><p>The net result of the processes described is a modest LREE enrichment and a smaller HREE depletion in the partially molten sphere of 1 km diameter. The magnitude of the effect decreases rapidly as the size of the partially molten region is increased. Thus, the effect will be negligible if the diameter of the region is on the order of 10 to 100 km and if the system is static.</p><p>Before dismissing the proposed mechanism as quantitatively insignificant, one should remember that partial melts probably do not form stationary spheres in the mantle. The efficiency of the proposed mechanism will be greatly enhanced, for example, if the partially molten material rises as a blob or diapir (which will undergo mixing as a result of internal shear) or if it forms a flattened stationary layer or lens at the base of the lithosphere. A quantitative assessment of such models is beyond the scope of this paper. We note that these mechanisms resemble somewhat the so-called wall-rock contamination models 0 % Melt NO GARNET GARNET The interior of the sphere contains 10% melt and all garnet has been consumed (bulk partition coefficient equals zero for all REE), the shell retains garnet and contains 1% melt (bulk partition coefficient varies from 0 for La to 1 for Lu). The region outside the shell is a solid, garnet-bearing peridotite with a chondritic REE abundance pattern. Bottom: REE abundance patterns (chondrite normalized) of the melt in the interior garnet-free sphere, the melt in the garnet-bearing shell, and the solid peridotite before melting occurred. Light REE will diffuse inward from the shell to the interior sphere, heavy REE will diffuse outward into the shell.</p><p>and zone refining models of magma generation (e.g. <ref type="bibr" target="#b7">HARRIS, 1957)</ref>. We believe, however, that the essential feature for such models to be effective is the existence of a partially molten wall-rock, which serves as a source and sink for trace element fractionation.</p><p>A possible objection to our model is that the postulated lifetime of the partially molten body is too long for two reasons: (1) Because heat flow is several orders of magnitude faster than chemical diffusion flow, a hot partially molten body might be expected to freeze in a cooler environment before any significant diffusion transport takes place. However, the degree of melting may be controlled by the local volatile content rather than by temperature, so that the entire system may be essentially isothermal.</p><p>(2) Because of the lower density of the partially molten region, the system may be mechanically unstable. Nevertheless, a number of geophysical observations, especially anelasticity studies <ref type="bibr" target="#b21">(SACKS and OKADA, 1974)</ref> and conductivity studies <ref type="bibr">(SHANKLAND and WAFF, 19771</ref>, indicate that partially molten regions may exist for long periods of time in the upper mantle. Consequently, the possibility of lenses (or a continuous layer) of partially molten rock below the base of the lithosphere should not be dismissed.</p><p>The above described mechanism offers a possible solution to the dilemma posed by recent Nd isotopic data and long-established rare-earth abundance data of oceanic islands. Most authors have interpreted the REE abundances from oceanic-island basalts in terms of an unfractionated or LREE enriched (relative to chondrites) sources (e.g. <ref type="bibr" target="#b22">SCHILLING, 1973)</ref>. The Nd isotopic abundances, on the other hand, demonstrate clearly that these islands are derived from a LREE depleted source (e.g. <ref type="bibr">DEPAOLO and WASSERBURG, 1977;</ref><ref type="bibr" target="#b18">O'NIONS et al., 1977)</ref>. One possible solution to this contradiction is that a residual garnet phase is present during tholeiite production <ref type="bibr">(LEEMAN, et al. 1977)</ref>. The alternative -solution presented here would allow the garnet to be consumed by the melt in the partially molten source region and derive the excess LREE abundances from differential REE diffusion as described above.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>shows examples of linearized activity profiles (obtained from the equation A(x)/A(o) -erfc y, where y = x/e, x = length of material removed, A(x) = residual activity of sample after removal of x cm material, A(o) = initial total activity, D = diffusion coefficient, t = run duration.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Figure 1 .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Apparent diffusion coefficient versus run duration for Eu (circles) and Gd (squares) for time series at 1240° (A) and 13OOOC (B). Open symbols were computed fro the total penetration distance at the point where the local activity A(X) had dropped to 10% of the activity remaining at X = 0. Closed symbols were computed from the linear portion of the linearized residual activity profile (see text). Only closed symbols are shown where the two methods yield identical results.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>Figure 3.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Apparent partition coefficient for a trace element K* = C (solid)/ Cfbulk liquid) as a function of Vd/D for different va ues of the f equilibrium partition coefficient K . The durves are calculated from K* = K /[K + (1-K ) exp (-Vd5)D) 1 given by BURTON et al. (1953) ?or aDco&amp;tant cr&amp;atal growth rate V and steady-state boundary layer of thickness d in a well-stirred liquid.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Top: Simplified model of a partially molten region in the mantle,The interior of the sphere contains 10% melt and all garnet has been consumed (bulk partition coefficient equals zero for all REE), the shell retains garnet and contains 1% melt (bulk partition coefficient varies from 0 for La to 1 for Lu). The region outside the shell is a solid, garnet-bearing peridotite with a chondritic REE abundance pattern. Bottom: REE abundance patterns (chondrite normalized) of the melt in the interior garnet-free sphere, the melt in the garnet-bearing shell, and the solid peridotite before melting occurred. Light REE will diffuse inward from the shell to the interior sphere, heavy REE will diffuse outward into the shell.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>CkC4.*</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGEMENTS</head><p>We thank the director and the staff of the <rs type="institution">Geophysical Laboratory</rs> for access to equipment and other help and advice. H.<rs type="person">S. Yoder</rs>, <rs type="person">Jr</rs>. donated the basalt and obsidian samples used in this study. <rs type="person">N. T. Arndt</rs>, <rs type="person">D. J. George</rs> and <rs type="person">C. G. Hadidiacos</rs> were especially helpful with scanning electron microscopy and electron microprobe analyses, and <rs type="person">E. B. Watson</rs> helped with discussions about the structure of silicate melts. We are also grateful to <rs type="person">T. P. Loomis</rs>, <rs type="person">H. Waff</rs>, and <rs type="person">D. J. Whitford</rs> for reviews of the manuscript. Financial support was given by the <rs type="funder">National Science Foundation</rs> Grant No. <rs type="grantNumber">EAR 73-00255 A02</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_BWnKnqa">
+					<idno type="grant-number">EAR 73-00255 A02</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Kinetic disequilibrium in trace element partitioning between phenocrysts and host lava</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Albarede</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bottinga Y</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="141" to="156" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The importance of volatile constituents</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Burnham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The evolution of the igneous rocks: 50th anniversary appraisal</title>
+		<editor>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Yoder</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The distribution of solute in crystals grown from the melt Pt. I</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">C</forename><surname>Prim R</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">P</forename><surname>Slichter W</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Theoretical J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<date type="published" when="1953">1953. 1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">The mathematics of diffusion</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+			<publisher>Oxford University Press</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Second edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Inferences about magma sources and mantle structure from variations of 143Nd/144Nd</title>
+		<author>
+			<persName><forename type="first">Paolo</forename><forename type="middle">D J</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="743" to="746" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The oxidation state of europium as an indicator of oxygen fugacity</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Drake</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="55" to="64" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">The nucleation and growth of alkali feldspars from hydrous melts</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Fenn</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Zone refining and the origin of potassic basalts</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Harris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="195" to="208" />
+			<date type="published" when="1957">1957</date>
+		</imprint>
+	</monogr>
+	<note>Can. Mineralogist</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">An assessment of local and reqional isotopic equilibrium in the mantle</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">R</forename><surname>Hart S</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci; Lett</title>
+		<imprint>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">a) Diffusion of Ca. Sr. Ba. and Co in a basalt melt: Implications for the geochemistry of the mantle</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="5432" to="5440" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Equilibrium and mixing in a partially molten mantle</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Magaritz M</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Chapman Conference on Partial Melting in the Mantle</title>
+		<meeting>the Chapman Conference on Partial Melting in the Mantle<address><addrLine>Brookins, OR</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1936">1977b. Sept. 10-14, 1936</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Etude experimentale de la diffusion des elements alcalins K, Rb, Cs dans une obsidienne granitique</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jambon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carron J.-P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comptes rendus des seances de 1&apos;Academie des Sciences</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<biblScope unit="page" from="3069" to="3072" />
+			<date type="published" when="1973">1973</date>
+			<pubPlace>Paris; Sdrie D, P</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Etude experimentale de la diffusion cationique dans un verre basaltique: alcalins et alcalino-terreux, submitted to</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jambon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carron J.-P</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Sot. Fr. Min. Crist</title>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Nucleation and growth of plagioclase Makaopuhi and Alae lava lakes</title>
+		<author>
+			<persName><forename type="middle">J</forename><surname>Kirkpatrick R</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geol. Sot. Am. Bull</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page" from="78" to="84" />
+			<date type="published" when="1977">1977</date>
+			<pubPlace>Kilauea Volcano, Hawaii</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mineral constitution of mantle source regions for Hawaiian basalts-rare earth element evidence for mantle heterogeneity</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Leeman W-P</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ma M.-S</forename><surname>Schmitt R-A</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Chapman Conference on Partial Melting in the Upper Mantle</title>
+		<meeting>the Chapman Conference on Partial Melting in the Upper Mantle<address><addrLine>Brookings, OR</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1976">19771. Sept. 10-14, 1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Cation diffusion in natural silicate melts</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Magaritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">W</forename><surname>Hof~nn A</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1977">1977</date>
+			<publisher>Carnegie Inst</publisher>
+			<biblScope unit="page" from="878" to="885" />
+			<pubPlace>Washington Yearbook</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Diffusion of Sr, Ba, and Na in obsidian</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Magaritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">W</forename><surname>Hofmann A</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Partitioning of rare earth, alkali and alkaline earth elements between phenocrysts and acidic igneous magma</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nagasawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="953" to="968" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">3Nd/&apos;&quot;4Nd and 87Srfeb Sr ratios in oceanic basalts</title>
+		<author>
+			<persName><forename type="first">O'nions R-K</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Evensen N-M</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="13" to="22" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Redox estimation from a calculation of Eu&apos;+ and Eu3+ concentrations in natural phases</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Philpotts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="257" to="268" />
+			<date>19701</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Implications of liquid-liquid partition coefficients on mineral-liquid partition coefficients. Geochim. Cosmochim</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Ryerson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">C</forename><surname>Hess P</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A comparison of the anelasticity structure beneath western South America and Japan</title>
+		<author>
+			<persName><surname>Sacks 1-S</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Okada H</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physics Earth Planet. Interiors</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="211" to="219" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Iceland Mantle Plume: qeochemical evidence along Reykjanes Ridge</title>
+		<author>
+			<persName><forename type="first">Schilling J.-G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Iature</title>
+		<imprint>
+			<biblScope unit="volume">242</biblScope>
+			<biblScope unit="page" from="565" to="571" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Ahrens editor) P. 929-938. Persamon. SCHNETZLER c-c: and PHILPOTTS J.A. (i970) Partition-coefficients of rareearth elements between igneous matrix material and rock-forming mineral phenocrysts -II</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Schnetzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Origin and Distribution of the Elements</title>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1968">1968</date>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="331" to="340" />
+		</imprint>
+	</monogr>
+	<note>Partition coefficients of rareearth elements and barium between igneous matrix material and rock forming mineral phenocrysts -I</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Partial melting and electrical conductivity anomalies in the upper mantle</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Shankland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Jour. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="5409" to="5417" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The partitioning of rare earth elements between garnet and liquid at high pressures: Preliminary experiments</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kushiro I</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys.-Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="413" to="416" />
+			<date type="published" when="1975">19751. 1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">W. (I.9551 A mathematical analysis of solute redistribution during solidification</title>
+		<author>
+			<persName><forename type="middle">G</forename><surname>Smith V</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="middle">A</forename><surname>Tiller W</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Can. J. Physics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="723" to="744" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Relation of nucleation and crystal-growth rate to the development of granitic textures</title>
+		<author>
+			<persName><surname>Swanson S-E</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineralogist</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="966" to="978" />
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The redistribution of solute atoms during the solidification of metals</title>
+		<author>
+			<persName><surname>Tiller W-A</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jackson K-A</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Rutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chalmers</forename><forename type="middle">B</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metallurgica</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="428" to="437" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Two-liquid partition coefficients: experimental data and geochemical implications</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="119" to="134" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Ionic radii fox use in geochemistry</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J W</forename><surname>Whittaker</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Muntus R</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="945" to="956" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

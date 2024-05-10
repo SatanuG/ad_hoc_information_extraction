@@ -1,0 +1,97 @@
+{
+    "doi": "10.1016/j.intermet.2017.01.007",
+    "extracted_info": {
+        "TiNbMoTaW": {
+            "type": "string",
+            "grain size": "No information",
+            "experimental density": "No information",
+            "hardness": {
+                "as-cast": {
+                    "hardness": 498.7,
+                    "test temperature": "Room temperature"
+                },
+                "annealed": {
+                    "hardness": 510.9,
+                    "test temperature": 1200
+                }
+            },
+            "yield strength": [
+                {
+                    "yield strength": 1343,
+                    "test temperature": "Room temperature"
+                },
+                {
+                    "yield strength": 689,
+                    "test temperature": 600
+                },
+                {
+                    "yield strength": 674,
+                    "test temperature": 800
+                },
+                {
+                    "yield strength": 620,
+                    "test temperature": 1000
+                },
+                {
+                    "yield strength": 586,
+                    "test temperature": 1200
+                }
+            ],
+            "ultimate tensile strength": "No information",
+            "elongation": "No information",
+            "elongation plastic": {
+                "Room temperature": 14.1,
+                "600 C": 35.4,
+                "800 C": 46.6,
+                "1000 C": 35.5,
+                "1200 C": 10.2
+            }
+        },
+        "TiVNbMoTaW": {
+            "type": "string",
+            "grain size": "No information",
+            "experimental density": "No information",
+            "hardness": {
+                "as-cast": {
+                    "hardness": 510.3,
+                    "test temperature": "Room temperature"
+                },
+                "annealed": {
+                    "hardness": 522.3,
+                    "test temperature": 1200
+                }
+            },
+            "yield strength": [
+                {
+                    "yield strength": 1515,
+                    "test temperature": "Room temperature"
+                },
+                {
+                    "yield strength": 973,
+                    "test temperature": 600
+                },
+                {
+                    "yield strength": 791.3,
+                    "test temperature": 800
+                },
+                {
+                    "yield strength": 752.8,
+                    "test temperature": 1000
+                },
+                {
+                    "yield strength": 659,
+                    "test temperature": 1200
+                }
+            ],
+            "ultimate tensile strength": "No information",
+            "elongation": "No information",
+            "elongation plastic": {
+                "Room temperature": 10.6,
+                "600 C": 18.8,
+                "800 C": 9.4,
+                "1000 C": 23.7,
+                "1200 C": 8.4
+            }
+        }
+    }
+}

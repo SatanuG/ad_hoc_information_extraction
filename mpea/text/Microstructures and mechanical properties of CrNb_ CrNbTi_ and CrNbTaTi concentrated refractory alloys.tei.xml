@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microstructures and mechanical properties of CrNb, CrNbTi, and CrNbTaTi concentrated refractory alloys</title>
+				<funder ref="#_JWS5HXp">
+					<orgName type="full">Air Force</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">UES, Inc.</orgName>
+				</funder>
+				<funder ref="#_p8cFXze">
+					<orgName type="full">Air Force Office of Scientific Research</orgName>
+					<orgName type="abbreviated">AFOSR</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2021-08-17">17 August 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Butler</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Materials and Manufacturing Directorate</orgName>
+								<orgName type="laboratory">Air Force Research Laboratory</orgName>
+								<address>
+									<addrLine>Wright-Patterson Air Force Base</addrLine>
+									<postCode>45433</postCode>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Materials and Manufacturing Directorate</orgName>
+								<orgName type="laboratory">Air Force Research Laboratory</orgName>
+								<address>
+									<addrLine>Wright-Patterson Air Force Base</addrLine>
+									<postCode>45433</postCode>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">UES, Inc</orgName>
+								<address>
+									<postCode>4401</postCode>
+									<settlement>Dayton</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Xenia Rd</orgName>
+								<address>
+									<postCode>45432</postCode>
+									<settlement>Dayton</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Materials and Manufacturing Directorate</orgName>
+								<orgName type="laboratory">Corresponding author. Air Force Research Laboratory</orgName>
+								<address>
+									<addrLine>Wright-Patterson Air Force Base</addrLine>
+									<postCode>45433</postCode>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Velez</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Materials and Manufacturing Directorate</orgName>
+								<orgName type="laboratory">Air Force Research Laboratory</orgName>
+								<address>
+									<addrLine>Wright-Patterson Air Force Base</addrLine>
+									<postCode>45433</postCode>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">UES, Inc</orgName>
+								<address>
+									<postCode>4401</postCode>
+									<settlement>Dayton</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Xenia Rd</orgName>
+								<address>
+									<postCode>45432</postCode>
+									<settlement>Dayton</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">I</forename><surname>Daboiku</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Materials and Manufacturing Directorate</orgName>
+								<orgName type="laboratory">Air Force Research Laboratory</orgName>
+								<address>
+									<addrLine>Wright-Patterson Air Force Base</addrLine>
+									<postCode>45433</postCode>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">UES, Inc</orgName>
+								<address>
+									<postCode>4401</postCode>
+									<settlement>Dayton</settlement>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Xenia Rd</orgName>
+								<address>
+									<postCode>45432</postCode>
+									<settlement>Dayton</settlement>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>T I C L E I N F O</surname></persName>
+						</author>
+						<title level="a" type="main">Microstructures and mechanical properties of CrNb, CrNbTi, and CrNbTaTi concentrated refractory alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-08-17">17 August 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F892A4FA4005BFD4166DD320451864F0</idno>
+					<idno type="DOI">10.1016/j.intermet.2021.107323</idno>
+					<note type="submission">Received 29 June 2021; Received in revised form 6 August 2021; Accepted 7 August 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>High-entropy Refractory Mechanical strength</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The microstructures and mechanical properties in compression (25 • C, 1000 • C and 1200 • C) of CrNb, CrNbTi and CrNbTaTi are reported. The CrNb alloy consisted of a Cr 2 Nb Laves phase matrix and Nb-rich BCC precipitates. After additions of Ti (CrNbTi alloy) the microstructure inverts to a Ti-rich BCC matrix, with Laves phase precipitates inside the matrix phase. Further additions of Ta to CrNbTi refined and decreased the volume fraction of the Laves phase particles in the CrNbTaTi alloy. CrNb exhibited limited ductility at 25 • C and 1000 • C, but became very ductile at 1200 • C and offered the highest compressive strength at all studied temperatures. CrNbTi and CrNbTaTi had better ductility, but suffered from a reduction in compressive strength.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Refractory alloys are currently being considered as extensions to Nibased superalloys for higher temperature structural components. The inherent high melting temperatures of refractory alloys allow them to retain suitable mechanical strengths at temperatures beyond the melting points of Ni-based superalloys <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. Unfortunately, many conventional refractory alloys have a high ductile-to-brittle transition temperature (DBTT), often much above room temperature, many are heavier than Ni-based superalloys, and they are also severely deficient in oxidation resistance, as their simple oxides are generally deleterious and/or highly volatile <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref>. Chromium and niobium are among the lightest refractory metals with densities below that of nickel. The melting temperatures of Cr (1857 • C) and Nb (2477 • C) are also much higher than that of Ni (1455 • C) and thus alloys based on these elements have potential for higher temperature use. Alloying Cr and Nb together, as well as adding other alloying elements such as Ti, Si and/or Al, can result in refractory complex concentrated alloys (RCCAs) with superior high temperature strengths and improved oxidation resistance <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b5">6]</ref>. These RCCAs tend to form complex oxides, which are more stable and can provide reasonable oxidation resistance for short use and/or expendable applications <ref type="bibr" target="#b6">[7]</ref>. In particular, RCCAs containing Nb, Cr, Ta, Ti, Si and/or Al are among the best oxidation resistant refractory alloys <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref>. Combinations of these elements form favorable complex oxides, such as CrNbO 4 , CrTaO 4 and AlNbO 4 . Additions of Cr to Nb alloys also decrease the solubility and diffusivity of O and additions of Ti increase the solubility and diffusivity of Al <ref type="bibr" target="#b9">[10]</ref>. Using this knowledge, several oxidation resistant Cr-Nb based alloys have been proposed <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b9">10,</ref><ref type="bibr" target="#b10">11]</ref>. For example, a Nb25.4Ti29.1Cr2.8V3.5Al39.2 alloy forms a protective alumina scale in air at 1400 • C and has oxidation kinetics comparable to those in NiAl <ref type="bibr" target="#b9">[10]</ref>. While Cr additions positively influence oxidation behavior and room temperature strength of Nb alloys, they often make the Nb alloys brittle at room temperature and significantly reduce high temperature strength through melting point depression <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b11">12,</ref><ref type="bibr" target="#b12">13]</ref>.</p><p>In this article we report results of our work on the systematic exploration of the microstructure and mechanical behavior of equiatomic CrNb, CrNbTi, and CrNbTaTi alloys. Oxidation properties of these alloys will be reported elsewhere <ref type="bibr" target="#b13">[14]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental procedures</head><p>CrNb, CrNbTi, and CrNbTaTi equiatomic alloys were vacuum arc melted on a water-cooled copper hearth using high purity constituents (99.95 %). To minimize contamination during melting, a high purity Ti getter was implemented. To ensure chemical uniformity throughout the melts, all alloys were flipped and re-melted multiple times. Each alloy button was then wrapped in Ta foil and homogenized using a hot isostatic press (HIP) at 1400 • C for 3 h at 207 MPa under a high-purity argon atmosphere (heating and cooling rates ~15 • C/min). The average alloy compositions were in agreement with the intended target compositions, as shown in Table <ref type="table" target="#tab_0">1</ref>. Metal element concentration was determined using direct current plasma atomic emission spectrometry, carbon was measured using combustion infrared absorption, and oxygen/nitrogen were determined with inert gas fusion. All the studied alloys exhibited low concentrations of C, N, and O (Table <ref type="table" target="#tab_0">1</ref>).</p><p>Specimens for microstructural analysis were hot mounted in a conductive polymer and prepared using conventional metallographic techniques. Final polishing was conducted using 0.05 μm colloidal silica solution and a vibratory polisher. Microstructural analysis was conducted using a combination of scanning electron microscopy (SEM), energy dispersive X-ray spectroscopy (EDS), electron backscattered diffraction (EBSD), and X-ray diffraction (XRD). Secondary electron (SE) and backscattered electron (BSE) images, EDS maps, and EBSD patterns were captured using a TFS Apreo C (HR-SEM) equipped with an Oxford X-max EDS detector and Oxford Symmetry EBSD detector. The surface of several specimens for EBSD analysis were prepared using an additional broad ion beam polishing step. EBSD data analysis was conducted using Aztec Crystal software and crystal epitaxy and orientation relationships were developed using a combination of CrystalMaker and SingleCrystal software suites. XRD was conducted on the free surfaces of specimens using a tabletop, Bruker D2 Phaser with Cu-Kα1 radiation and 2θ ranging from 20 to 80 • . Pandat software, with the PanNb2020 database (both developed by CompuTherm, LLC, Madison, WI) were used to simulate the observed phases. Rectangular specimens measuring 4.6 mm × 4.6 mm x 7.5 mm for compression testing were sectioned from the alloy buttons after HIP using electric discharge machining (EDM). Isothermal compression tests were conducted at 25 • C, 1000 • C, and 1200 • C using a constant ram speed of 0.0075 mm/s, corresponding to the initial strain rate of 0.001 s -1 . The 25 • C tests were conducted in air, while the high temperature compression tests were done in vacuum (~10 -3 Pa). A detailed description of the testing methodology can be found elsewhere <ref type="bibr" target="#b14">[15]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Microstructure and phase analysis</head><p>X-ray diffraction patterns of HIP'd alloy samples are shown in Fig. <ref type="figure" target="#fig_0">1</ref>. Diffraction peaks from two phases, disordered body centered cubic (BCC, A2) and ordered face centered cubic (Laves, C15), are present in all three alloys. The lattice parameters of the BCC phase for CrNb, CrNbTi, and CrNbTaTi are 326.8 pm, 322.8 pm, and 325.0 pm, respectively. The lattice parameter of the Laves phase was nearly the   same for all alloys and was found to be 698.3 pm. Combined SEM, EBSD and EDS analyses confirm the X-ray diffraction results by revealing the presence of two distinct phases in these alloys (Fig. <ref type="figure" target="#fig_1">2</ref> through Fig. <ref type="figure" target="#fig_7">8</ref>).</p><p>The Laves phase is rich in Cr and appears darker on the BSE images than the BCC phase, which is enriched with Nb (in CrNb), Nb and Ti (in CrNbTi) or Nb and Ta (in CrNbTaTi).</p><p>The microstructure of the CrNb alloy consists of coarse, nearglobular BCC particles and a eutectic mixture of Laves and BCC phases (Fig. <ref type="figure" target="#fig_1">2 a,</ref><ref type="figure">b</ref>). The Laves phase is rich in Cr and the BCC phase is rich in Nb (Fig. <ref type="figure" target="#fig_1">2 c,</ref><ref type="figure">d</ref>, Table <ref type="table">2</ref>). The average diameter of the coarse BCC particles is ~10 μm and their volume fraction is ~0.07. The eutectic BCC phase is present in the form of discontinuous lamellae (or rods) inside the continuous Laves phase matrix. The average grain size of the matrix is ~200 μm. This microstructural morphology suggests that CrNb has a hypo-eutectic composition and solidification of this alloy starts by precipitation of the BCC phase, which grows in coarse, dendrite particles before the eutectic transformation starts. During HIP at 1400 • C the coarse dendrites transform to near-globular BCC particles. Fine precipitation of the Laves phase is seen inside the large BCC particles, which likely occurs upon cooling due to a decrease in Cr solubility (Fig. <ref type="figure" target="#fig_1">2b</ref>).</p><p>The reported results agree with the calculated equilibrium phase diagram for CrNb (Fig. <ref type="figure" target="#fig_2">3a</ref>, Table <ref type="table">2</ref>). According to this diagram, solidification of the CrNb alloy starts at 1729 • C with the precipitation of the BCC phase, which is followed by a eutectic reaction at 1625 • C with the formation of the cubic (C15) Laves phase and BCC phase. The volume fraction of the primary BCC phase just before the eutectic reaction is predicted to be ~0.084, which agrees well with the experiment.</p><p>Immediately after the eutectic reaction, the volume fraction of the Laves phase is 0.64 and that of the BCC phase is 0.36. The volume fraction of the Laves phase increases and that of BCC phase decreases with decreasing temperature. At lower temperatures, ≤ 500 • C, the equilibrium volume fractions of these phases are 0.75 and 0.25, respectively. The partial transformation of the BCC phase in the Laves phase with decreasing temperature is due to a decrease in the solubility of Cr in BCC from 24.1 % at 1650 • C to 15 % at 1400 • C and 0.5 % at 500 • C. However, this BCC to Laves phase transformation is a diffusioncontrolled process, which, during slow cooling from the HIP temperature (1400 • C) is kinetically restricted. Therefore, it is not surprising that the equilibrium volume fraction and chemical compositions of the BCC and Laves phases predicted at higher temperatures (1200-1400 • C) were in fair agreement with the respective experimental values (Table <ref type="table">2</ref>).</p><p>The microstructure of CrNbTi is quite different from that of CrNb (Fig. <ref type="figure" target="#fig_3">4</ref>). The additions of Ti invert the microstructure, whereby it consists of a BCC matrix, with an average grain size of ~120 μm and the Laves phase precipitates, which are present along grain boundaries and inside grains. The BCC phase is depleted in Cr and rich with other alloying elements, while the Laves phase is heavily rich in Cr and can be described as Cr 2 (Nb,Ti) (Fig. <ref type="figure" target="#fig_3">4</ref>, Table <ref type="table">3</ref>). The precipitates of the Laves phase have the average diameter of ~7 μm and their volume fraction is ~0.35. Fig. <ref type="figure" target="#fig_4">5</ref> illustrates EBSD results collected for the CrNbTi alloy. These results confirm that the matrix grains have a BCC crystal structure and precipitates are a cubic Laves phase. It is also revealed that many precipitates contain {111}&lt;110&gt; twins. Higher magnification EBSD images reveal the presence of a hexagonal Laves (C14) phase at twin</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 2</head><p>Volume fraction (V f ) and chemical composition (in at.%) of the phases present in the CrNb alloys determined from experiment. The CALPHAD-calculated equilibrium quantities at three selected temperatures are also shown for comparison.  boundaries inside C15 particles (Fig. <ref type="figure" target="#fig_5">6</ref>). A detailed analysis of the crystallographic orientations of the adjacent C14 and C15 regions (similar to those shown by arrows in Fig. <ref type="figure" target="#fig_5">6a</ref> with crystallographic orientations shown in Table <ref type="table">4</ref>) allows identification of the orientation relationship (O.R.) between these phases: {111} C15 || (0001) C14 and &lt;101&gt; C15 || &lt;2110&gt; C14 . A similar O.R. between C14 and C15 variants have been recently reported for the Zr(Fe,Cr) 2 Laves phase in Zircaloy-4 alloy <ref type="bibr" target="#b15">[16]</ref> and for MgZn 2 in Mg-Zn-Y alloy <ref type="bibr" target="#b16">[17]</ref>. It can be shown that after the C14 to C15 transformation, which occurs by synchroshear <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b18">19]</ref>, this O.R. may result in the twinned structure of the C15 phase. Therefore, the C14 phase, observed at twin boundaries of the C15 phase is likely a metastable, high-temperature phase retained after the transformation.</p><p>The equilibrium phase diagram for CrNbTi is given in Fig. <ref type="figure" target="#fig_2">3b</ref>. Solidification starts by the formation of a BCC phase and completes at 1485 • C through a eutectic reaction of ~0.24 by volume of remaining liquid. Thus, the volume fraction of the BCC phase prior to the eutectic reaction is 0.76. After solidification, the CrNbTi contains both BCC and hexagonal Laves (C14) phases at volume fractions of 0.89 and 0.11, respectively. During cooling, the BCC phase continues to partially transform to the Laves phase, while the Laves phase experiences an allotropic transformation to the cubic, C15 structure at 1309 • C. At temperatures below 540 • C, the Nb and Ti-rich BCC phase transforms to Ti-rich HCP and Nb-rich BCC phases. Therefore, three phases, Nb-rich BCC, Cr-rich Laves C15 and Ti-rich HCP, are predicted at room temperature (Fig. <ref type="figure" target="#fig_2">3b</ref>). However, in the HIP condition, SEM and XRD analyses show that the CrNbTi alloy consists of BCC and Laves C15 phases only, with the volume fractions of 0.65 and 0.35, respectively. The experimental values for the volume fractions and chemical compositions of the phases in CrNbTi are similar to those predicted in the equilibrium condition around 1050 • C (Table <ref type="table">3</ref>). It is therefore suggested that the observed microstructure of CrNbTi is likely quenched in from temperatures of 1000-1200 • C during cooling after HIP. Comparison of the calculated phase reactions with the experimentally observed microstructure suggests that the Laves precipitates observed at grain boundaries form during the eutectic reaction and those observed inside the grains form in solid state during cooling due to a decrease in the Cr solubility in the BCC phase.</p><p>The microstructure of CrNbTaTi (Fig. <ref type="figure" target="#fig_6">7</ref>) is somewhat similar to that of CrNbTi (Fig. <ref type="figure" target="#fig_3">4</ref>). It consists of a BCC matrix and fine Laves precipitates.</p><p>However, the average grain size of the BCC matrix is smaller, ~50 μm, the Laves precipitates are finer, ~1 μm in diameter, and their volume fraction is smaller, ~0.24, in CrNbTaTi than in CrNbTi. The BCC phase is depleted in Cr and rich with other alloying elements, while the Laves phase is heavily rich in Cr and can be described as Cr 2 (Nb,Ta,Ti) (Table <ref type="table">5</ref>). Fig. <ref type="figure" target="#fig_7">8</ref> illustrates EBSD results collected for the CrNbTaTi alloy. These results confirm that the matrix grains have a BCC crystal structure and precipitates are a cubic Laves phase. Many Laves precipitates contain {111}&lt;110&gt; twins, similar to CrNbTi. The nature of the twin boundaries will be explored in a future work.</p><p>The equilibrium phase diagram for CrNbTaTi is given in Fig. <ref type="figure" target="#fig_2">3c</ref>. No eutectic reaction is predicted in this alloy during solidification, and a single BCC phase is present below the solidus temperature of 1562 • C. Precipitation of the Laves C15 phase occurs inside the BCC phase below 1513 • C, and the volume fraction of C15 continuously increases with decreasing temperature reaching 0.37 at 500 • C. Similar to CrNbTi, partial transformation of BCC to Ti-rich HCP is predicted below 544 • C. The HCP phase was not detected via SEM/EDS and XRD in the CrNbTaTi alloy, which could indicate that the observed microstructure is nonequilibrium and represents a high-temperature one, which was quenched during cooling. Indeed, comparison of the experimentally determined volume fractions and compositions of the BCC and C15 phases with those calculated at different temperatures indicates that the microstructure is likely quenched from ~1050 • C (Table <ref type="table">5</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 3</head><p>Volume fraction (V f ) and chemical composition (in at.%) of the phases present in the CrNbTi alloys determined by SEM/EDS (experiment). The CALPHADcalculated equilibrium quantities at three selected temperatures are also shown for comparison. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Mechanical properties</head><p>Representative true stress versus true strain compression deformation curves for CrNb, CrNbTi and CrNbTaTi are shown in Fig. <ref type="figure" target="#fig_9">9</ref>, along with characteristic mechanical properties in Table <ref type="table" target="#tab_4">6</ref>. The binary CrNb alloy displayed brittle behavior at 25 • C and 1000 • C, where it fractured during loading in an elastic regime, with no evidence of plastic yielding.</p><p>The true fracture stress, σ f , was 1670 MPa at 25 • C and 1480 MPa at  • C and its yield stress, σ y , was 974 MPa at this temperature. The alloy strain hardened after yielding and showed a true peak stress, σ p , of 1074 MPa at the true strain, ε p , of 0.028. A considerable decrease in the true stress occurred during further deformation, until a steady-state flow at the true stress of 390-400 MPa was achieved at ε ≥ 0.4 (Fig. <ref type="figure" target="#fig_9">9a</ref>, Table <ref type="table" target="#tab_4">6</ref>).</p><p>The ternary CrNbTi alloy was more ductile, but not as strong at 25 • C than the binary CrNb alloy. It exhibited σ y = 1353 MPa, σ p = 1659 MPa (at ε p = 0.042) and fractured at ε f = 0.06 and σ f = 1460 MPa (Fig. <ref type="figure" target="#fig_9">9b</ref>).</p><p>This ternary alloy was more ductile at 1000 • C and 1200 • C, experiencing no fracture after ~0.69 true strain (50 % sample length decrease). However, the yield stress was lower, with 204 MPa at 1000 • C and 57 MPa at 1200 • C. Weak strain hardening was observed only at the beginning of plastic deformation and was followed by weak softening and steady-state flow (Fig. <ref type="figure" target="#fig_9">9b</ref>, Table <ref type="table" target="#tab_4">6</ref>).</p><p>The quaternary CrNbTaTi alloy showed excellent malleability at all three temperatures surviving true plastic strain of 0.69 without fracture (Fig. <ref type="figure" target="#fig_9">9c</ref>). However, this was the weakest alloy among the three studied (Table <ref type="table" target="#tab_4">6</ref>). The yield stress of this alloy was 515 MPa at 25 • C, 62 MPa at 1000 • C and only 20 MPa at 1200 • C. At these three temperatures, the alloy showed weak strain hardening during the whole deformation process and achieved the true peak (maximum) stress at the end of deformation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>The alloys in this work, while microstructurally different, all formed a combination of BCC and Laves phases. Alloying additions of Ti and/or Ta to CrNb were found to increase the volume fraction of the BCC phase,</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 4</head><p>Representative orientations (with associated error) for adjacent C14 and C15 regions in CrNbTi indicated by arrows in Fig. <ref type="figure" target="#fig_5">6</ref>, along with the nearest orientation relationship based on the experimentally observed epitaxy.   <ref type="table">2</ref>, Tables <ref type="table">3</ref> and<ref type="table">5</ref>). This may indicate that some Cr sites in the Laves phase are vacant or filled with other, larger atomic radius alloying elements <ref type="bibr" target="#b20">[21]</ref>. Yet other explanation of the observed decrease in the concentration of Cr in the Laves phase with adding Ti and Ta is that the EDS-recorded concentrations from the Laves phase also include neighboring regions of the BCC phase, as the mentioned decrease in the Cr concentration coincides with a decrease in the size of the Laves phase particles (~7 μm in CrNbTi and 1 μm in CrNbTiTa).</p><formula xml:id="formula_0">Region &lt;X&gt; ± Error &lt;Y&gt; ± Error &lt;Z&gt; ± Error C14 &lt;1214&gt; ± 2.8 • &lt;7250&gt; ± 8.5 • &lt;0221&gt; ± 6.2 • C15 &lt;431&gt; ± 3.3 • &lt;230&gt; ± 4.5 • &lt;104&gt; ± 3.4 • Nearby O.R. &lt;101&gt; C15 || &lt;1210&gt; C14 &amp; {111} C15 || (0001) C14</formula><p>The microstructure of binary CrNb consists of a Laves matrix and two types of BCC precipitates: coarse, near-spherical primary particles and fine lamellae. Additions of Ti and Ta cause inversion of the matrix and precipitate phases, and the microstructures of CrNbTi and CrNbTiTa consist of a BCC matrix and Laves precipitates. To understand the origin of this transformation, we conducted a detailed CALPHAD analysis of the effect of Ti and Ta on phase reactions during solidification and immediately after solidification. The results of the analysis are given in Fig. <ref type="figure" target="#fig_11">10</ref>. Here combined phase projections for Cr X Nb X Ti 1-2X (X = 0. The phase projections show that during equilibrium solidification of binary CrNb about 0.086 of liquid transforms to a primary BCC phase and the remaining amount experiences a eutectic transformation with the formation of a mixture of secondary BCC and C15 (Fig. <ref type="figure" target="#fig_11">10</ref>). Inside the eutectic, the volume fraction of C15 is ~2.24 time higher than BCC, which results in C15 becoming a continuous phase (matrix) with discontinuous BCC particles inside the matrix.</p><p>Gradual additions of Ti (from 0 to 33.3 at.%) to CrNb decrease the liquidus and solidus temperatures and make the solidification range wider (Fig. <ref type="figure" target="#fig_11">10a</ref>). Additionally, a three-phase, liquid + BCC + Laves, region appears at the end of solidification. At small Ti concentrations (0-20 %), the Laves phase has a cubic (C15) crystal structure, but at higher Ti concentrations it has a hexagonal (C14) crystal structure. Respectively, the solidification ends with the formation of the twophase, A2+C15 or A2+C14, microstructure (Fig. <ref type="figure" target="#fig_11">10a</ref>). Ti additions also increase the volume fraction of BCC phase before the eutectic reaction occurs, as well as after solidification completes (Fig. <ref type="figure" target="#fig_11">10b</ref>). For example, only 0.21 liquid experiences eutectic reaction in CrNbTi and</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 5</head><p>Volume fraction (V f ) and chemical composition (in at.%) of the phases present in the CrNbTaTi alloys determined by SEM/EDS (experiment). The CALPHADcalculated equilibrium quantities at three selected temperatures are also shown for comparison.  Additions of Ta to CrNbTi (from 0 to 25 %, which is equivalent to a decrease in Cr from 33.33 % to 25 %) increase the liquidus and solidus temperature and widen the solidification range (Fig. <ref type="figure" target="#fig_11">10a</ref>). The volume fraction of the BCC phase formed during solidification increases and reaches 1, while the amount of liquid experienced eutectic transformation decreases to 0, when the concentration of Ta approaches 16.6 % (Cr decreases to 27.8 %, Fig. <ref type="figure" target="#fig_11">10b</ref>). As a result, only BCC phase is present in CrNbTaTi immediately after solidification. Therefore, Laves particles observed inside the BCC matrix and at grain boundaries form in this alloy during cooling in solid state, due to a decrease in Cr solubility in BCC with decreasing temperature. Additions of Ta also destabilize C14 phase in favor of C15 below the solidus, resulting in no C14 phase at Ta concentrations above ~2.5 % in the Cr y Nb y Ti y Ta 100-3y alloys.</p><p>The brittle behavior of CrNb at 25 • C and 1000 • C (Fig. <ref type="figure" target="#fig_9">9a</ref>) can therefore be explained by the presence of a continuous Laves phase formed after eutectic transformation and HIP annealing at 1400 • C. A considerable increase in ductility of this alloy at 1200 • C can only be explained by increasing dislocation mobility in the Laves phase, as the volume fraction of this phase decreases only slightly, from 0.73 to 0.72, with increasing temperature from 1000 • C to 1200 • C, and this volume fraction decrease alone should not affect ductility dramatically. One can therefore conclude that the brittle to ductile transition of the Laves phase in CrNb occurs between 1000 • C and 1200 • C. This result is in agreement with previous studies <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23]</ref>, which show that Cr 2 Nb becomes ductile at temperatures ≥ 1200 • C.</p><p>An inversed microstructure in CrNbTi, relative to CrNb, with BCC as a matrix phase and Laves in the form of precipitates, slightly improves room temperature ductility and makes CrNbTi very ductile at 1000 • C and 1200 • C. It is likely that the matrix BCC phase, which volume fraction is about 0.78, controls ductility and strength of this alloy, and its inferior RT ductility together with high strength are due to the presence of a rather large amount of Cr (~23 %, Table <ref type="table">3</ref>) in this phase. At T ≥ 1000 • C, the strengthening effect from Cr in RCCAs becomes small <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b23">24]</ref>, which causes considerable softening (Fig. <ref type="figure" target="#fig_9">9b</ref>). CrNbTaTi has the microstructure, which is morphologically similar to that of CrNbTi, but CrNbTaTi has very good ductility at all studied temperatures, although this is at the expense of strength. The difference in the mechanical behavior of these two alloys is likely due to a considerably smaller amount of Cr (~13 %, Table <ref type="table">5</ref>) in the BCC phase, decreased volume fraction of Laves and finer Laves phase particles in CrNbTaTi than in CrNbTi. Due to smaller amount of Cr, the BCC phase in CrNbTaTi is softer, which results in decreasing yield and flow stresses in this alloy relative to CrNbTi. It is likely that the softer BCC phase in CrNbTaTi does not allow internal stresses to achieve critical values for fracturing finer Laves particles, thus providing increased ductility.   matrix and BCC precipitates. The addition of Ti to CrNb inverts the microstructure to predominantly a BCC matrix with Laves precipitates. The addition of Ta to the ternary alloy increases the overall phase fraction of BCC matrix, but also retains Laves precipitates. These results are fairly consistent with those predicted using thermodynamic databases (e.g. Pandat; PanNb2020). There is also evidence of the high temperature formation and retention of C14, especially in the ternary alloy that will be explored in greater detail in a future work. 2) All alloys were tested in compression at 25 • C, 1000 • C and 1200 • C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>The CrNb alloy exhibited the highest strengths, but offered no ductility at 25 • C and 1000 • C. The CrNbTi alloy displayed only a slight debit of strength at 25 • C compared to the binary alloy, but exhibited slightly better ductility. The ternary alloy had extended ductility at 1000 • C and 1200 • C, but was significantly weaker compared to the binary alloy. CrNbTaTi displayed extended ductility at all temperatures, but was inferior in strength to CrNb and CrNbTi.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. X-ray diffraction patterns of CrNb, CrNbTi and CrNbTaTi after HIP. Phase peaks associated with BCC and Laves (C15) phases are labeled for reference.</figDesc><graphic coords="2,44.22,142.10,237.89,194.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. (a, b) BSE images of the microstructure of the CrNb alloy at two magnifications; (c, d) EDS composition maps for (c) Cr and (d) Nb.</figDesc><graphic coords="2,95.75,464.01,403.78,262.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Equilibrium phase diagrams of (a) CrNb, (b) CrNbTi and (c) CrNbTaTi calculated using Pandat Nb2020 database.</figDesc><graphic coords="3,95.75,430.03,403.78,296.21" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. (a, b) BSE images of the microstructure of the CrNbTi alloy at two magnifications; (c, d) EDS composition maps for (c) Cr, (d) Nb and (e) Ti.</figDesc><graphic coords="4,85.10,55.42,425.09,223.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. EBSD results for CrNbTi showing (a) a band contrast image, (b) phase map (BCC is shown in yellow, C15 is shown in red) and (c, d) corresponding individual inverse pole figure (IPF) maps of grains for (c) BCC (C15 is black) and (d) C15 (BCC is black) phases.</figDesc><graphic coords="5,95.75,55.44,403.78,268.85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. (a) EBSD phase map for CrNbTi showing the presence of the BCC matrix phase (yellow color), twinned cubic Laves (C15) phase particle (red color) and a hexagonal Laves (C14) phase (blue color) at twin boundaries. (b, c) IPF maps of (b) C15 and (c) C14 phases.</figDesc><graphic coords="5,95.75,372.25,403.78,284.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. BSE images of the microstructure of the CrNbTaTi alloy at two magnifications.</figDesc><graphic coords="6,96.49,285.98,402.34,126.29" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. EBSD results for CrNbTaTi showing (a) a band contrast image, (b) phase map (A2 is shown in yellow, C15 is shown in red, twin boundaries are shown in blue) and (c, d) individual IPF maps of grains for (c) A2 (C15 is black) and (d) C15 (A2 is black) phases.</figDesc><graphic coords="6,95.75,450.11,403.78,266.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>5 to 0.333) and Cr Y Nb Y Ti Y Ta 1-3Y (Y = 0.333 to 0.25) systems are shown in coordinates (a) mole fraction of Cr vs. temperature and (b) mole fraction of Cr vs. volume fraction of BCC (A2) phase. The solid lines separate regions with different sets of phases. The compositions of CrNb and CrNbTaTi alloys correspond, respectively, to the left (50 % Cr) and right (25 % Cr) borders of the charts and the composition of CrNbTi corresponds to the vertical dashed line (33.3 % Cr).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. True stress vs. true strain curves obtained during compression deformation of the studied alloys at 25 • C, 1000 • C and 1200 • C: (a) CrNb, (b) CrNbTi and (c) CrNbTaTi.</figDesc><graphic coords="7,106.24,442.82,382.75,273.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head></head><label></label><figDesc>This work reports the microstructures and mechanical properties (25 • C, 1000 • C and 1200 • C) for CrNb, CrNbTi, and CrNbTaTi. The following key points can be made: 1) CrNb, CrNbTi, and CrNbTaTi all form BCC + Laves (C15) microstructures. The microstructure of CrNb consists of the Laves (C15)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. (a) Mole fraction of Cr vs. temperature and (b) mole fraction of Cr vs. volume fraction of BCC (A2) phase combined phase projections of the CrNb-CrNbTi-CrNbTaTi system. The solid lines separate regions with different sets of phases. The area with the amount of Cr between 0.5 and 0.333 corresponds to Cr X Nb X Ti 1-2X system. The area with the amount of Cr between 0.333 and 0.25 correspond to Cr Y Nb Y Ti Y Ta 1-3Y system. The vertical dashed line corresponds to the CrNbTi alloy and vertical border lines correspond to CrNb (left) and CrNbTaTi (right) alloys.</figDesc><graphic coords="8,95.81,509.00,403.63,188.50" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Chemical composition (in at.%) of the studied alloys.</figDesc><table><row><cell>Alloy</cell><cell>Cr</cell><cell>Nb</cell><cell>Ti</cell><cell>Ta</cell><cell>C</cell><cell>N</cell><cell>O</cell></row><row><cell>CrNb</cell><cell>49.9</cell><cell>49.5</cell><cell></cell><cell></cell><cell>0.012</cell><cell>0.380</cell><cell>0.302</cell></row><row><cell>CrNbTi</cell><cell>32.4</cell><cell>33.6</cell><cell>33.9</cell><cell></cell><cell>0.027</cell><cell>0.023</cell><cell>0.137</cell></row><row><cell>CrNbTaTi</cell><cell>24.5</cell><cell>25.7</cell><cell>25.6</cell><cell>23.9</cell><cell>0.046</cell><cell>0.033</cell><cell>0.161</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 6</head><label>6</label><figDesc>Compression properties (yield stress [σ y ], true peak stress [σ p ], true peak strain [ε p ], true fracture stress [σ f ] and true fracture strain [ε f ]) of the studied alloys at 25 • C, 1000 • C and 1200 • C.</figDesc><table><row><cell>Property</cell><cell>CrNb</cell><cell>CrNbTi</cell><cell>CrNbTaTi</cell></row><row><cell>T = 25 • C</cell><cell></cell><cell></cell><cell></cell></row><row><cell>σ y (MPa)</cell><cell>-</cell><cell>1353</cell><cell>515</cell></row><row><cell>σ p (MPa)</cell><cell>1670</cell><cell>1659</cell><cell>665</cell></row><row><cell>ε p</cell><cell>0.0095</cell><cell>0.042</cell><cell>0.69</cell></row><row><cell>σ f (MPa)</cell><cell>1670</cell><cell>1460</cell><cell>not achieved</cell></row><row><cell>ε f</cell><cell>0.0095</cell><cell>0.060</cell><cell>not achieved</cell></row><row><cell>T = 1000 • C</cell><cell></cell><cell></cell><cell></cell></row><row><cell>σ y (MPa)</cell><cell>-</cell><cell>204</cell><cell>62</cell></row><row><cell>σ p (MPa)</cell><cell>1480</cell><cell>218</cell><cell>84</cell></row><row><cell>ε p</cell><cell>0.015</cell><cell>0.021</cell><cell>0.69</cell></row><row><cell>σ f (MPa)</cell><cell>1480</cell><cell>not achieved</cell><cell>not achieved</cell></row><row><cell>ε f</cell><cell>0.015</cell><cell>not achieved</cell><cell>not achieved</cell></row><row><cell>T = 1200 • C</cell><cell></cell><cell></cell><cell></cell></row><row><cell>σ y (MPa)</cell><cell>974</cell><cell>57</cell><cell>20</cell></row><row><cell>σ p (MPa)</cell><cell>1074</cell><cell>60</cell><cell>37</cell></row><row><cell>ε p</cell><cell>0.028</cell><cell>0.017</cell><cell>0.69</cell></row><row><cell>σ f (MPa)</cell><cell>not achieved</cell><cell>not achieved</cell><cell>not achieved</cell></row><row><cell>ε f</cell><cell>not achieved</cell><cell>not achieved</cell><cell>not achieved</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>Technical support from <rs type="person">S. Boone</rs>, <rs type="person">R. Turner</rs> and <rs type="person">J. Gild</rs> and extensive discussions with <rs type="person">S. Rao</rs> and <rs type="person">S. Kuhr</rs> are greatly acknowledged and appreciated. This work acknowledges funding from the <rs type="funder">Air Force Office of Scientific Research (AFOSR)</rs> as part of the <rs type="programName">Multiscale Structural Mechanics and Prognosis Portfolio</rs>. Work by <rs type="person">O.N. Senkov</rs>, <rs type="person">T.I. Daboiku</rs> and <rs type="person">M.A. Velez</rs> was financially supported through the <rs type="funder">Air Force</rs> on-site contract No. <rs type="grantNumber">FA8650-15-D-5230</rs> managed by <rs type="funder">UES, Inc.</rs>, Dayton, Ohio.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_p8cFXze">
+					<orgName type="program" subtype="full">Multiscale Structural Mechanics and Prognosis Portfolio</orgName>
+				</org>
+				<org type="funding" xml:id="_JWS5HXp">
+					<idno type="grant-number">FA8650-15-D-5230</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Development and exploration of refractory high entropy alloys: a review</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Couzinie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="3092" to="3128" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Philips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Carl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Cunningham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">New opportunities in refractory alloys</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page" from="3299" to="3310" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Eck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Refractory metals and their alloys</title>
+		<imprint>
+			<publisher>WILEY-VCH Verlag GmbH</publisher>
+			<date type="published" when="2006">2006</date>
+			<biblScope unit="page" from="589" to="641" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Oxidation mechanisms of niobium, tantalum, molybdenum and tungsten</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kubaschewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Hopkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Less Common Met</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="172" to="180" />
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Oxidation of refractory metals in air and low pressure oxygen gas</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Distefano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H D B A</forename><surname>Pint</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Internat. J. Refract. Met. Hard Mater</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="237" to="243" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A new strategy to intrinsically protect refractory metal based alloys at ultra high temperatures</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schellert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kauffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corrosion Sci</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Butler</surname></persName>
+		</author>
+		<title level="m">High entropy alloys: oxidation, in: Reference Module in Materials Science and Materials Engineering</title>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tsakiropoulos</surname></persName>
+		</author>
+		<title level="m">Alloys for Application at Ultra-high Temperatures: Nb-Silicide in Situ Composites: Challenges, Breakthroughs and Opportunities</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">On the oxidation mechanism of refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Muller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Butz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kauffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Corrosion Sci</title>
+		<imprint>
+			<biblScope unit="volume">159</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Formation of alumina on Nb-Al alloys</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Perkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Chuang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Metall</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="419" to="424" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Niobium and Titanium Based Alloys Resistant to Oxidation at High Temperatures</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Allouard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Biennnu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Delaunay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A B</forename><surname>Ducrocq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lemaitre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Walder</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+			<publisher>United States Patent No. 5284618</publisher>
+			<pubPlace>USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Effect of alloying on the mechanical properties of niobium</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Begley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Bechtold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Community Med</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Effect of Cr addition on microstructure and mechanical properties in Nb-Si-Mo base multiphase alloys</title>
+		<author>
+			<persName><forename type="first">W.-Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I.-D</forename><surname>Yeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-S</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hanada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Trans</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="3254" to="3261" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">I</forename><surname>Daboiku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Velez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Shroader</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Ware</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Titus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Oxidation Behaviors of CrNb, CrNbTi, and CrNbTaTi Concentrated Refractory Alloys</title>
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>Submitted</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Ductile Nb alloys with reduced density and cost</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">808</biblScope>
+			<biblScope unit="page">151685</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Stressinduced C14-C15 phase transformation in a Zr(Fe,Cr) 2 Laves structured nanophase</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Muhammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Crystallogr</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="222" to="225" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Structural characterization of Laves-phase MgZn2 precipitated in Mg-Zn-Y alloy</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Met. Mater. Int</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="171" to="174" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Synchroshear transformations in Laves phases</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Hazzledine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pirouz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Met. Mater</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="1277" to="1282" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Dislocations in complex materials</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Chisholm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hazzledine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">307</biblScope>
+			<biblScope unit="page" from="701" to="703" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A thermodynamic interpretation of the size-ratio limits for Laves phase formation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Pike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="1449" to="1452" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Laves phases: a review of their functional and structural applications and an improved fundamental understanding of stability and properties</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Leineweber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="5321" to="5427" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Deformability improvement in C15 NbCr 2 intermetallics by addition of ternary elements</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Takasugi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hanada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="669" to="674" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The mechanical properties and the deformation microstructures of the C15 Laves phase Cr 2 Nb at high temperatures</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Kazantzis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aindow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">P</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">K</forename><surname>Triantafyllidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T M D</forename><surname>Hosson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="1873" to="1884" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Expanded dataset of mechanical properties and observed phases of multi-principal element alloys</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K H</forename><surname>Borg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gorsse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Meredig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Saal</surname></persName>
+		</author>
+		<idno type="DOI">10.6084/m9.figshare.12804137</idno>
+		<ptr target="https://doi.org/10.6084/m9.figshare.12804137" />
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Data</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">430</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

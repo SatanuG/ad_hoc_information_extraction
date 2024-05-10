@@ -1,0 +1,1542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Effect of the valence electron concentration on the yield strength of Ti-Zr-Nb-V high-entropy alloys</title>
+				<funder ref="#_6VuADGc #_HZp5p6C">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_psJb5zT">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_D8cpf64">
+					<orgName type="full">Natural Science Foundation of Hunan Province, China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2021-02-13">13 February 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Jie</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Aerospace Science and Engineering</orgName>
+								<orgName type="institution">National University of Defense Technology</orgName>
+								<address>
+									<postCode>410073</postCode>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shuxin</forename><surname>Bai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Aerospace Science and Engineering</orgName>
+								<orgName type="institution">National University of Defense Technology</orgName>
+								<address>
+									<postCode>410073</postCode>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Yu</forename><surname>Tang</surname></persName>
+							<email>tangyu15@zju.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Aerospace Science and Engineering</orgName>
+								<orgName type="institution">National University of Defense Technology</orgName>
+								<address>
+									<postCode>410073</postCode>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shun</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Aerospace Science and Engineering</orgName>
+								<orgName type="institution">National University of Defense Technology</orgName>
+								<address>
+									<postCode>410073</postCode>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Xiyue</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Aerospace Science and Engineering</orgName>
+								<orgName type="institution">National University of Defense Technology</orgName>
+								<address>
+									<postCode>410073</postCode>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jinhao</forename><surname>Jia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Aerospace Science and Engineering</orgName>
+								<orgName type="institution">National University of Defense Technology</orgName>
+								<address>
+									<postCode>410073</postCode>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yicong</forename><surname>Ye</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Aerospace Science and Engineering</orgName>
+								<orgName type="institution">National University of Defense Technology</orgName>
+								<address>
+									<postCode>410073</postCode>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><surname>Li'an Zhu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Department of Materials Science and Engineering</orgName>
+								<orgName type="department" key="dep2">College of Aerospace Science and Engineering</orgName>
+								<orgName type="institution">National University of Defense Technology</orgName>
+								<address>
+									<postCode>410073</postCode>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Effect of the valence electron concentration on the yield strength of Ti-Zr-Nb-V high-entropy alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-02-13">13 February 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1E238042D9E3DB664D971B40EF55F3E1</idno>
+					<idno type="DOI">10.1016/j.jallcom.2021.159190</idno>
+					<note type="submission">Received 9 December 2020 Received in revised form 21 January 2021 Accepted 10 February 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>High-entropy alloys Valence electron concentration Yield strength Ti-Zr-Nb-V</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>To reveal the effect of the valence electron concentration on the yield strength of high-entropy alloys (HEAs), a series of Ti-Zr-Nb-V HEAs with the same atomic size mismatch were designed and prepared. Experimental results including X-ray diffraction (XRD), electron backscatter diffraction (EBSD) and transmission electron microscopy (TEM) show that the alloys with a low V/Zr ratio presents a single-phase bodycentred cubic (BCC) solid solution structure, while a small amount of V 2 Zr phase appears in the alloys with a high V/Zr ratio. The Ti 25 Zr 25 Nb 25 V25 alloy presented high mechanical properties (tensile yield strength σ y = 876 MPa and elongation of 20.7%), and the yield strength of the Ti-Zr-Nb-V alloys increases with an increasing V/Zr ratio. Based on the analysis of all of the potential strengthening mechanisms and the intrinsic strength of the solution alloy with the metallic bonds, a positive linear relationship was proposed between the intrinsic strength and the product of the square of the valence electron concentration and the inverse of the average atomic size.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Excellent mechanical properties of structural materials have been pursued in materials science research for thousands of years. Traditional metals or traditional alloys are based on one main component supplemented by other trace elements. The properties of traditional alloys are mainly determined by the intrinsic properties of the main component.</p><p>High-entropy alloys (HEAs) proposed by Yeh and Cantor in 2004 <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref> have provided a wide range of possible approaches for modifying alloy properties through compositional adjustment. For example, Ding et al. replaced Mn with Pd in CrMnFeCoNi, also known as the Cantor alloy <ref type="bibr" target="#b1">[2]</ref>, leading to a great increase in the yield strength due to the formation of nano-aggregates <ref type="bibr" target="#b2">[3]</ref>. <ref type="bibr">Senkov et al. combined</ref> Mo, Ta, and Hf with ''low-density'' refractory elements (Nb, V, and Zr) and Ti and Al to produce six refractory HEAs (RHEAs) with hardness (H v ) values ranging from 4.0 GPa to 5.8 GPa, and compression yield strengths (σ 0.2 ) ranging from 1280 MPa to 2035 MPa due to the differences in the number and types of bodycentred cubic (BCC) phases <ref type="bibr" target="#b3">[4]</ref>. What is more, the addition of Al is common for lightening weight and high-temperature strengthening in RHEAs <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>. In addition to the elemental substitution, an adjustment in the proportions of the elements has also been commonly used. By adjusting the Mn content in Fe 80-x Mn x Co 10 Cr 10 HEAs, Li et al. tunned the phase stability for the activation of specific displacing transformation mechanisms, enabling twinning-induced plasticity (TWIP) or transformation induced plasticity (TRIP) effects to overcome the strength-ductility trade-off <ref type="bibr" target="#b7">[8]</ref>. By decreasing the Ta content in the HfZrTiTa x series, Huang et al. tailored the stability of the BCC phases and as a result triggered TRIP effect as well <ref type="bibr" target="#b8">[9]</ref>. The Zr content was changed in AlNbTiVZr x HEAs by Yurchenko et al. to tailor the degree of order of the B2 phase and the tendency of the occurrence of precipitates <ref type="bibr" target="#b9">[10]</ref>. However, most of the compositional modifications aim to modify the alloy by introducing new phases at different scales. It is a meaningful scientific question whether it is possible to intrinsically improve the performance of alloys, in other words, by adjusting the cohesive energy of the solid-solution lattice itself without giving rise to new structures.</p><p>The valence electron concentration (VEC) is an intrinsic characteristic of an alloy that is related solely to its composition <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>. Previous research has indicated that the VEC plays a non-negligible role in the structures of the HEAs. For example, Guo et al. reported that the stability of face-centred cubic (FCC) and BCC solid solutions could be determined based on the VEC <ref type="bibr" target="#b12">[13]</ref>. According to their report, FCC solutions are stable at higher VEC values (&gt; 8), and BCC solutions are stable at lower VEC values (&lt; 6.87) <ref type="bibr" target="#b12">[13]</ref>. Calvo-Dahlborg et al. reported the similar idea to Guo et al. but they substituted the VEC to the e/a and find it more accurate in the prediction of the occurrence of phases <ref type="bibr" target="#b13">[14]</ref>. However, although e/a suit the Hume-Rothery rule better, by its original and classical definition, VEC wins in its uncontroversial definition that is convenient for using. He et al. uncovered that while intermetallic phases (D0 a and D0 22 ) prefer higher VECs (&gt; 8.75), the hexagonal structure is stable when the VEC is close to 8.5, and the L1 2 structure tends to form at lower VECs (&lt; 8.25) <ref type="bibr" target="#b14">[15]</ref>. Then, based on the VECs of the alloys, they developed a strengthening phase design strategy for dual-phase Ni 2 CoCrFeNb 0.15 HEAs, where the stable γ″ phase (D0 22 ) is coherent with the FCC matrix <ref type="bibr" target="#b14">[15]</ref>. In recent years, researchers have focused on the effects of the VEC on the properties of alloys. In 2016, Sheikh et al. proposed an intrinsic ductilization strategy for RHEAs by empirically decreasing the VEC to 4.4-4.6 <ref type="bibr" target="#b15">[16]</ref>. This strategy was used in 2020 by Chen et al. to design a ductile V 0.5 Nb 0.5 ZrTi RHEA with a tensile elongation of 21.9% <ref type="bibr" target="#b16">[17]</ref>. Furthermore, using density functional theory (DFT) calculations, Wang et al. found that the yield strengths (σ y ) of the RHEAs are a power-law function of the electronwork function (ϕ) <ref type="bibr" target="#b17">[18]</ref>, connecting σ y to the VEC that is directly related to ϕ. However, these studies were either experiential or purely computational. It is still important to propose a simple and effective model to describe the relationship between the VEC and yield strength of HEAs to guide the design of HEAs.</p><p>In this work, a classic BCC HEA system of Ti-Zr-Nb-V alloys was proposed <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b19">20]</ref>. The structure and mechanical properties of Ti-Zr-Nb-V alloys, particularly the relationship between the VEC and yield strength, were investigated in detail. Moreover, a quantitative model that relates the VEC and yield strength of BCC HEAs, which should be helpful for designing HEAs, was developed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head><p>The as-cast Ti-Zr-Nb-V alloy ingots was prepared by vacuum arc melting from raw metals with a purity of &gt; 99.9% in a high-purity argon atmosphere. The ingot was remelted at least 6 times to achieve a homogeneous distribution of the constituent elements. The alloys were prepared in the shape of a button with a thickness and diameter of 10 mm and 40 mm, respectively, as shown in Fig. <ref type="figure" target="#fig_0">1</ref>.</p><p>The samples used for the subsequent characterization measurements were cut from the ingot by electrical discharge machining. For consistency, all of the samples were located in regions with almost the same distance from the centre of ingots, as shown in Fig. <ref type="figure" target="#fig_0">1</ref>.</p><p>Furthermore, to avoid the shrinkage cavities in the upper central region of the ingots, this distance was set to &gt; 10 mm.</p><p>The crystal structures of the alloy were characterized using an Xray diffractometer (XRD; Rigaku SmartLab 9KW, Japan) with Cu Kα radiation scanning in the 2θ range of 20-90°. The microstructure was examined by a scanning electron microscope (SEM; JEOL JSM-7900F, Japan) equipped with back-scattered electron (BSE; JEOL JSM-7900F) and energy-dispersive (EDS) detectors. Fine structure observations and phase compositions were conducted using a Hitachi S-3400N SEM (Hitachi, Japan) equipped with a HKL electron backscatter diffraction (EBSD) system and transmission electron microscopy (TEM; FEI Technai F20, USA) equipped with an EDS detector.</p><p>The quasi-static mechanical tests were performed using a universal testing machine (Instron-3369, Instron, USA) at an initial strain rate of 10 -3 s -1 . The compression tests were performed on cylindrical specimens with dimensions of φ 5 mm × 10 mm. The tensile tests were performed on dog-bone-shaped specimens with a thickness of 1 mm and gauge length and width of 2.5 mm and 1.4 mm, respectively. Due to the lack of an extensometer, the tensile stress-strain curves were corrected by the compression stress-strain curves according to the same modulus between tension and compression. The method of correcting the tensile strain by the compression modulus data is processed as follows: first a true strengthstrain curve is obtained by the compression test with an extensometer to obtain a trusty elastic modulus, and then, stiffness values of the machine are tried to deduct the deformation of the machine until the elastic segment of the tensile stress-strain curve is parallel to that measured by compression.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>The experimental compositions of the prepared Ti-Zr-Nb-V alloys are shown in Table <ref type="table" target="#tab_0">1</ref>. These experimental values were determined by EDS from at least 3 different regions with the size of several hundred micrometres (listed in Table <ref type="table" target="#tab_0">S1</ref>). It is observed that the experimental compositions of the prepared Ti-Zr-Nb-V alloys are very close to the designed compositions. Moreover, the loss during the melting process and the differences between the different parts of prepared alloys can be neglected, as shown in Table <ref type="table" target="#tab_0">S1</ref>.</p><p>The XRD patterns of Ti-Zr-Nb-V alloys are shown in Fig. <ref type="figure" target="#fig_1">2a</ref>. It is observed that all of the alloys have one set of sharp diffraction peaks that belong to a BCC structure. It is also observed that their peak positions shift to higher angles with increasing V/Z ratios of the alloys. Lattice constants of the BCC solid solution are calculated according to the positions of the 3 strongest diffraction peaks using Bragg's law (Eq. ( <ref type="formula" target="#formula_0">1</ref>)) <ref type="bibr" target="#b20">[21]</ref> and are shown in Fig. <ref type="figure" target="#fig_1">2b</ref>.</p><formula xml:id="formula_0">= + + a sin h k l 2 2 2 2 (<label>1</label></formula><formula xml:id="formula_1">)</formula><p>where λ is the wavelength of the incident beam (0.15406 nm was used in this work), a is the lattice constant of the cubic cell, d is the  interplanar spacing of the cubic cell, (h, k, l) is the crystal plane index, and θ is the angle between the incident X-ray and the corresponding crystal plane.</p><p>The lattice constant of the BCC solid solution obtained by the rule of mixtures (i.e., Vegard's law <ref type="bibr" target="#b21">[22]</ref>) and the nominal composition were obtained for comparison. As shown in Fig. <ref type="figure" target="#fig_1">2b</ref>, both the theoretical and experimental lattice constants show the same trend and similar values as a function of the V/Zr ratio. This again demonstrated the uniform distribution and little loss of the constituent elements. The average full width at half maximum (FWHM) values of the 3 strongest diffraction peaks of the BCC solid solution are retained in a relatively small region of 0.13°-0.18°, as shown in Fig. <ref type="figure" target="#fig_1">2c</ref>.</p><p>Figs. <ref type="figure" target="#fig_2">3</ref> and<ref type="figure" target="#fig_3">4</ref> show the SEM-BSE and TEM images of the prepared Ti-Zr-Nb-V alloys. The elemental distributions of the corresponding regions (EDS mapping) are also provided in Fig. <ref type="figure" target="#fig_2">3</ref>. It is observed that the V15, V20 and V21.3 alloys present the typical dendrites. The dendrite morphology disappears when the proportion of V further increases to 25% (V25). Some precipitates are observed at the grain boundaries (GBs) of the V30 and V35 alloys. It is clearly observed from the results of EDS mapping that Ti and V always remain uniformly distributed among the different regions in all 6 alloys. Zr is  interdendritic-rich for V15, V20, and V21.3 and rich in the GB vicinity for V25, V30 and V35, while Nb shows an opposite trend from that of Zr. From the TEM-SAED images (Fig. <ref type="figure" target="#fig_3">4</ref>), it is confirmed that the precipitations at the boundaries between the BCC solid solution contain a small amount of the V 2 Zr Laves phase that cannot be detected by XRD.</p><p>Inverse pole figures (IPF) of the as-cast alloys obtained by EBSD are shown in Fig. <ref type="figure" target="#fig_4">5</ref>. A typical polycrystalline morphology can be seen, while only the BCC solid solution was standardized in all alloys (Fig. <ref type="figure" target="#fig_0">S1</ref>). It is interesting that in the alloys consisting of less V, including V15, V20 and V21.3, there are some fine grains featuring a size below 100 µm. These fine grains arrange into chains. However, the presence of fine grains hardly brings much difference in the average grain size between the alloys with the different compositions, as shown in Fig. <ref type="figure" target="#fig_4">5g</ref>. Additionally, Fig. <ref type="figure" target="#fig_4">5g</ref> shows the average local misorientations that the alloys with different compositions are close too.</p><p>The true tensile stress-strain curves of the V15, V25 and V35 alloys are shown in Fig. <ref type="figure" target="#fig_6">6a</ref>. It is observed that V25 displays the best performance with excellent values for the yield strength (σ y ) and elongation of 876 MPa and 20.7% (the strain was not directly measured by extensometry), respectively. On the other hand, V35 has a higher σ y of 966 MPa but a very limited elongation. In contrast, the tensile performance of V15 that has a well-developed dendritic structure (as shown in Fig. <ref type="figure" target="#fig_2">3a</ref> and<ref type="figure">b</ref>) is terrible with a σ y of 424 MPa and an elongation of &lt; 2%. It is well-known that the dendritic structure always includes some casting defects such as shrinkage cavities. The tensile performance is sensitive to the defects present in the samples. Therefore, the tensile performance of V15 that displayed a typical cleavage fracture, as shown in Fig. <ref type="figure" target="#fig_2">S3</ref>, does not represent the alloy's actual mechanical property. In fact, the tensile test of RHEAs always suffers from interference by the inevitable casting defects due to the high melting point and huge difference between the melting points of the constituent elements. In addition, defects usually appear during the sample preparation process of the alloys with a high hardness and melting point. According to the statistics obtained by Senkov, only a few of the tensile properties of RHEAs have been reported, and most studies have focused on the compression performance <ref type="bibr" target="#b22">[23]</ref>. Thus, the true compression stressstrain curves of Ti-Zr-Nb-V alloys are given in Fig. <ref type="figure" target="#fig_6">6b</ref>. The compressive yield strength (σ y ), ultimate strength (σ u ) and failure strain (ε f ) of the Ti-Zr-Nb-V alloys are listed in Table <ref type="table">2</ref>. It should be noted that the values listed in Table <ref type="table">2</ref> are the average of 5 different measurements. It is observed that with the exception of the brittle V35 alloy, the values of both σ y and σ u of the Ti-Zr-Nb-V alloys increase with increasing V/Zr ratios, while ε f remains stable at a very high level of approximately 40-45% compared with the reported RHEAs <ref type="bibr" target="#b23">[24]</ref>.</p><p>Based on the examination of the SEM images of the cracks in deformed samples (Fig. <ref type="figure" target="#fig_7">7</ref>), it is found that in the alloys with high V/ Zr ratios, cracks always initiate and develop along the regions rich in Zr and V; these regions are the Laves phases. In contrast, no special elemental enrichment is observed along the cracks in the alloys with low V/Zr ratios. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Formation of Laves phase in the BCC solid solution matrix</head><p>It is well-known that many parameters have been used as the criteria for the prediction of the structure of HEAs such as the mixing entropy (ΔS mix ), mixing enthalpy (ΔH mix ), comprehensive parameter of ΔS mix and ΔH mix (Ω), atomic size difference (δ) and valence electron concentration (VEC) <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref><ref type="bibr" target="#b28">[29]</ref>. These are defined by the equations below:</p><formula xml:id="formula_2">= S R C lnC mix n i i 1</formula><p>(2)  </p><formula xml:id="formula_3">= H C C mix i i j n ij i j 1,<label>(3)</label></formula><formula xml:id="formula_4">= T S H | | m mix mix (4) = = C r r 100 • 1 i n i i a 1 2 (5) = C VEC VEC ( ) n i i 1 (6)</formula><p>where n is the number of components in an alloy system and C i and C j are the atomic percentages of the ith and jth elements, respectively. Ω ij = 4ΔH mix ij is the regular melt-interaction parameter between the ith and jth elements, and ΔH mix ij is the mixing enthalpy of binary alloys, the value of which can be obtained in Ref. <ref type="bibr" target="#b32">[30]</ref>. The melting temperature of an n-element alloy, T m , is calculated using the rule of mixtures as</p><formula xml:id="formula_5">= T C T m i i 1 n . r i is the atomic radius of the ith element, = r C r a n i i 1</formula><p>is the average atomic radius, and = C n i i 1 is the average electronegativity. (VEC) i is the VEC for an individual element.</p><p>The criteria of ΔS mix , ΔH mix , Ω, δ and VEC for the formation of a BCC single solid solution (SSS) and their values for the Ti-Zr-Nb-V alloys are listed in Table <ref type="table" target="#tab_1">3</ref>. It can be observed that with exception of ΔS mix for the V15 alloy, all of the calculated parameters are in the subset of the BCC SSS scope. Additionally, the δ values of all of the designed Ti-Zr-Nb-V alloys are the same. This is mostly in agreement with the experimental results. As described above, the BCC SSS features of the V15-V25 alloys were confirmed by XRD and EBSD, together with the similar lattice distortion displayed by the similar FWHM values for the XRD results and the local misorientation in the EBSD results. That is, the criteria parameters are also reasonable in the quaternary non-equimolar refractory alloys to some extent.</p><p>However, some intermetallic precipitations were observed in the cast V30 and V35 alloys, as shown in Fig. <ref type="figure" target="#fig_2">3j</ref> and<ref type="figure">i</ref>. More interestingly, according to the previous reports <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b33">31]</ref>, elements of the ⅤB and ⅥB groups are generally considered to be BCC-stabilizing ingredients, while those of the ⅣB group are not. However, in this case, increasing V (ⅤB-element) and decreasing Zr (ⅣB-element) contents in fact decrease the BCC phase content and lead to the intermetallic phase precipitates.</p><p>The criteria given above are all based on the experimental results of 3d-HEAs with at least 5 constituents, in other words the 1st generation HEAs <ref type="bibr" target="#b34">[32,</ref><ref type="bibr" target="#b35">33]</ref>. The mixing entropies of the 1st generation HEAs are generally higher than 1.6R (where R is the gas constant) <ref type="bibr" target="#b36">[34]</ref>. Here, the effect of interaction between two constituents can be neglected. However, for the 2nd generation HEAs that are generally composed of 4 non-equimolar principal elements such as this Ti-Zr-Nb-V system, the ΔS mix is approximately 1.3R. The effect of the interaction between two constituents should not be neglected <ref type="bibr" target="#b37">[35]</ref>. According to the V-Zr dual-phase diagram (Fig. <ref type="figure" target="#fig_8">8</ref>), the V 2 Zr Laves phase always exists in the Zr/(V+Zr) region of these Ti-Zr-Nb-V alloys, and the V 2 Zr content increases with increasing V/ Zr. This indicates that although the relatively high mixing entropy of Ti-Zr-Nb-V and high cooling rate caused by arc melting jointly expand the scope of SSS compared with the binary alloy in equilibrium, the non-negligible interaction between V-Zr constrains the Laves phase to be retained in the Ti-Zr-Nb-V alloys with high V/Zr ratios. The Laves phase was also observed in the previous reports for the Ti-Zr-Nb-V quaternary equimolar alloy <ref type="bibr" target="#b18">[19]</ref>.</p><p>The presence of the Laves phase considerably affects the morphology of the Ti-Zr-Nb-V alloys. Generally, it is difficult to avoid the formation of dendrites in the non-equilibrium multi-element alloy, particularly for the cast RHEAs with huge differences between the melting points of the elements. In this situation, the diffusion of different constituents is inadequate due to the undercooling caused by the water-cooled copper mould. The constituents with the higher melting points such as Nb in the Ti-Zr-Nb-V system will solidify first and be enriched inside the dendrite, while constituents with a lower melting point and poor Nb-affinity such as Zr will be left behind and enriched in the interdendrite space, as shown in Fig. <ref type="figure" target="#fig_2">3a~h</ref>. The solidification and crystallization of the Nb-rich phase inside the dendrite are faster due to the faster cooling rate and the higher undercooling. The lower growth time and the compression from the larger grains that are crystallized later will lead to the appearance of smaller grains inside the dendrite, as shown in Fig. <ref type="figure" target="#fig_4">5a~c</ref>.</p><p>However, as the V/Zr ratio increases or as the V 2 Zr phase forms and its content in the alloy increases, the dendrite morphology disappears. As intermetallics, the V 2 Zr precipitates ahead of the advancing solid-liquid interface prevent and break the directed growth of the matrix crystals of the V25, V30 and V35 alloys, as shown in Fig. <ref type="figure" target="#fig_4">5d~f</ref>. The phenomenon of the hard phase playing the role of breaking the growth of dendrites was also reported in highentropy alloys <ref type="bibr" target="#b38">[37]</ref>. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Table 2</head><p>The compression yield strength (σ y ), ultimate strength (σ u ) and failure strain (ε f ) of Ti-Zr-Nb-V alloys. In addition to the generation of the Laves phase, the variation of the V/Zr ratio affects the lattice of the multi-component disordered solid solution. Compared with Zr, V possesses a much smaller atomic radius. Thus, the increase in the V/Zr ratio should result in the reduction of the lattice parameter of the multi-component disordered solid solution, as is observed in Fig. <ref type="figure" target="#fig_9">9</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Effect of the VEC on the yield strength</head><p>Although a small amount of the Laves phase is present in the BCC SSS matrix of alloys with a high V/Zr ratio, the yield strengths of the Ti-Zr-Nb-V alloys still mainly depend on the intrinsic lattice properties of the BCC solution, and the strengthening effects depend on the preparation process. It is known that the strengthening mechanisms of the alloys including HEAs generally consist of work hardening, solid solution strengthening, precipitation hardening, grain boundary strengthening and transformation hardening. As mentioned above, all of the Ti-Zr-Nb-V alloys investigated in this work were in the as-cast condition. The differences in the average lattice distortions and grain sizes between different compositions are slight. In addition, no new phase was detected in the deformed sample (Fig. <ref type="figure" target="#fig_3">S4</ref>). On the other hand, only a small amount of the V2Zr Laves phase can be observed in the V25 and V30 alloys. More importantly, the presence of the Laves phase generally plays little role in the increase of σ y but results in the brittle fracture, as shown in Fig. <ref type="figure" target="#fig_6">6b</ref>. Thus, except that the mechanical properties of V35 may be related to a precipitation hardening, the effects from the extrinsic strengthening mechanisms on the σ y of the other as-cast Ti-Zr-Nb-V alloys can be neglected. The changes in the σ y values of the Ti-Zr-Nb-V alloys shown in Fig. <ref type="figure" target="#fig_6">6b</ref> and Table <ref type="table">2</ref> depend mainly on the intrinsic strength of these alloys.</p><p>The intrinsic strength of a crystal is determined by its cohesive energy, also known as the binding energy. A higher cohesive energy leads to a higher yield strength σ y . For the metallic bond that plays the dominant role in the metallic solid solution, the free valence electrons provide the "glue" that keeps the structure together. A higher density of free valence electrons in the lattice corresponds to a higher energy of the metallic bond. Therefore, a high VEC always leads to more close-packed atomic stacking such as FCC, while a low VEC gives rise to less close-packed atomic stacking such as BCC <ref type="bibr" target="#b12">[13]</ref>. As mentioned above, the increase in the V/Zr ratio leads to a reduction in the lattice parameter of the solid solution. Moreover, the VEC of the alloys will increase when the V/Zr ratio increases because the VEC of the V atom is higher than that of the Zr atom, as shown in Fig. <ref type="figure" target="#fig_9">9</ref>. The smaller lattice and higher VEC jointly contribute a higher free electron density per volume, leading to a stronger metallic bond and a higher yield strength of Ti-Zr-Nb-V alloys with a high V/Zr ratio, as shown in Fig. <ref type="figure" target="#fig_6">6b</ref>.</p><p>To further reveal the relationship between the yield strength and the VEC per lattice volume, a semi-quantitative model was given as follows. In solid state physics, the cohesive energy is the sum of the electric potential energy of every ion core <ref type="bibr" target="#b39">[38]</ref>. As shown in Fig. <ref type="figure" target="#fig_11">10</ref> (arbitrary relative scale), ion cores are immersed in the sea of free electrons, namely, valence electrons. The main force acting on an ion core is the Coulombic attraction from the valence electrons surrounding the ion core that can be expressed as: <ref type="bibr" target="#b6">(7)</ref> where k the Coulomb's constant. Q and q are the amounts of electric charge of an ion core and an electron, respectively. r is the distance between the ion core and the electron, and e r is the unit vector from the ion core to the electron. R 0 and R n in Fig. <ref type="figure" target="#fig_11">10</ref> are the radius of the ion core and the radius of an atom in the alloy's lattice, respectively.</p><formula xml:id="formula_6">= F k Qq r e e r 2</formula><p>Although the electric field due to the atom is spherical, the space dominated by the atom should be cube-shaped, as shown in Fig. <ref type="figure" target="#fig_11">10</ref>, and is determined by the crystal structure. We set the zero electric   potential at the infinite distance from the ion core, and then, the electric potential U e of this ion core-electron pair is the integral of F e , which is given by:</p><formula xml:id="formula_7">= U k Qq r e (<label>8</label></formula><formula xml:id="formula_8">)</formula><p>Considering that the valence electrons are distributed randomly in the 'sea' and assuming that a thin spherical shell centred in the ion core at a certain r exists, the quantity of electric charge q in this spherical shell space is determined by its volume fraction of the total valence electron region expressed as:</p><formula xml:id="formula_9">= q VEC e V V d ( )• • sps toal<label>(9) where</label></formula><formula xml:id="formula_10">= V R R 8 total n 3 4 3<label>0</label></formula><p>3 is the difference between the lattice atom cube volume and volume of the ion core sphere. In the case of R 0 &lt; r &lt; R n , the volume of the spherical shell V sps can be expressed as:</p><formula xml:id="formula_11">= V r dr 4 sps 1 2<label>(10)</label></formula><p>while in the case of &lt; &lt; R r R 3 n n , the six regions of the spherical shell exceeding the cube-shaped region must be subtracted, and then, V sps can be expressed as:</p><formula xml:id="formula_12">= × V r r r R dr [4 6 2 ( )] sps n 2 2<label>(11)</label></formula><p>Thus, the total cohesive energy depends on the sum of U e that can be calculated according to Eqs. ( <ref type="formula" target="#formula_9">9</ref>)-( <ref type="formula" target="#formula_13">12</ref>):</p><formula xml:id="formula_13">= + × U k Q e VEC r dr V r r r R dr V • • •( )•{ 4 [4 6 2 ( )] } total R R total R R n total 2 3 2 n n n 0<label>(12)</label></formula><p>The amount of electric change of the ion core = Q e (VEC)• , and for alloys with the elements of a certain group, a certain proportional relationship between R 0 and R n exists, which is given by = R R K 0 n (K &gt; 1, constant). As a result, the final expression of U total is:</p><formula xml:id="formula_14">= U ke K K VEC R 2 • 6 3 9 8 •( ) total n 2 4 3 3 2 1<label>(13)</label></formula><p>which implies a directly proportional relationship between U total and (VEC) 2 R n -1</p><p>. As mentioned above, the difference in the σ y values of the Ti-Zr-Nb-V alloys depend mainly on the intrinsic strength of these alloys, indicating that the σ y can be divided in two parts, one of that is consistent between different compositions and another of that is proportional to the total cohesive energy U total . Combined with Eq. ( <ref type="formula" target="#formula_14">13</ref>), a linear relationship between σ y and (VEC) 2 R n -1 emerges. For Ti-Zr-Nb-V alloys, a linear fit for σ y and (VEC) 2 R n -1 is shown in Fig. <ref type="figure" target="#fig_0">11a</ref>. It is observed that the theoretical curve is in good agreement with the experimental data. The correlation coefficient of this fit is as high as 0.96. The data of V35 are not taken into account, as it contains considerable Laves phases and precipitation hardening cannot be neglected. The parameter K in Eq. ( <ref type="formula" target="#formula_14">13</ref>) is constant only when elements of alloys do not change much in type or proportion, particularly not across groups, as a result, this linear relationship adapts to only series of alloys whose principle elements belong to the Ⅳ and ⅤB groups or maybe reluctantly belong to ⅥB groups.</p><p>To verify the derived relationship between the yield strength and VEC 2 R n -1</p><p>, some reported work of RHEAs which have a single BCC structure were checked. As seen in Fig. <ref type="figure" target="#fig_0">11b</ref>, the yield strength of these RHEAs has a good linear relationship with VEC 2 R n -1 . This fitting infers that the formula describing the relationship between the yield strength and VEC summarized above can be extended to RHEAs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusion</head><p>In this work, Ti-Zr-Nb-V alloys with different V/Zr ratios were prepared by vacuum arc melting. While most of the alloys, and particularly those with a low V/Zr ratio, are SSSs with the BCC structure, the non-negligible V-Zr interaction leads to the presence of V 2 Zr (Laves phase) precipitates in the V30 and V35 alloys. The Laves phase precipitates ahead of the advancing solid-liquid interface during the solidification of the alloy and inhibits the generation of the directional crystallized dendritic morphology. When the lattice distortions of different alloys were designed to remain stable, an increasing V/Zr ratio results in an increase in the VEC and a decrease in the lattice constant. The increase in the VEC per lattice volume enhances the Coulombic interaction between the free electrons and the ion cores, leading to the increased binding energy of the metallic bond. Excluding the contributions of other strengthening effects and based on the Coulombic force model, a semi-quantitative formula = + VEC R 437 100•( ) • y n 2 1 relating the intrinsic yield strength of Ti-Zr-Nb-V alloys to the VEC and average atomic radius in the lattice is proposed. This formula shows good accuracy in the description of the intrinsic yield strength of Ti-Zr-Nb-V RHEAs and other RHEAs.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRediT authorship contribution statement</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Schematic diagram of WEDM positions of different specimens, with tensile specimens not labelled. For consistency, all specimens are obtained at the same distance away from the ingot centre, and the XRD, SEM and TEM observation positions are the central position in the vertical direction because the mechanical properties of the testing specimens are also obtained nearly at this height.</figDesc><graphic coords="2,42.63,526.71,240.05,163.87" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. (a) XRD patterns of V15, V20, V21.3, V25, V30 and V35; (b) Lattice constant and (c) FWHM values calculated according to the XRD patterns. The lattice constant values calculated as a function of the alloy composition are shown in (b) for comparison.</figDesc><graphic coords="3,129.66,53.17,335.95,295.49" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. The SEM-BSE images and corresponding EDS mappings of V15 (a and b), V20 (c and d), V21.3 (e and f), V25 (g and h), V30 (i and j) and V35 (k and l).</figDesc><graphic coords="3,45.64,517.63,504.00,207.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. SEM images showing TEM observation positions (a and c) and TEM images of V25 (b) and V35 (d). In the TEM images, the corresponding SAED diffraction spots are shown in the insets, and the elemental compositions captured by EDS are listed, showing the existence of Laves phases in the vicinity of the grain boundaries of V25 and V35. It must be pointed out that the horizontal direction of image (d) is inverse of the rectangle selected area in image (c).</figDesc><graphic coords="4,57.66,53.18,479.95,338.40" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. EBSD inverse pole maps of (a) V15, (b) V20, (c) V21.3, (d) V25, (e) V30 and (f) V35; (g) The average grain sizes calculated from the EBSD-IPFs and the average local misorientations calculated from the EBSD-local misorientation maps (Fig. S2).</figDesc><graphic coords="5,105.62,53.16,384.05,586.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>=</head><label></label><figDesc></figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. (a) True tensile stress-strain curves of V15, V25 and V35; (b) True compressive stress-strain curves of V15, V20, V21.3, V25, V30 and V35.</figDesc><graphic coords="6,117.64,53.16,360.00,153.94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. SEM images of the cracks in deformed samples of (a) V15, (b) V20, (c) V21.3, (d) V25, (e) V30 and (f) V35 and the corresponding distributions of Zr and V.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. V-Zr dual-phase diagram [36].</figDesc><graphic coords="8,39.69,166.11,245.95,195.98" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. Line chart showing the changes in the VEC and average atomic size (Rn) as a function of the alloy composition.</figDesc><graphic coords="8,42.63,394.18,240.05,173.38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Jie Wang :</head><label>Wang</label><figDesc>Conceptualization, Methodology, Investigation, Writing-Original Draft, Visualization. Shuxin Bai: Resources, Writing -Review &amp; Editing, Supervision, Funding acquisition. Yu Tang: Conceptualization, Methodology, Resources, Writing-Review &amp; Editing, Project administration, Funding acquisition. Shun Li: Validation, Resources, Project administration, Funding acquisition.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. Schematic diagram showing the ion cores and valence electrons in the alloy crystal.</figDesc><graphic coords="9,75.69,53.14,443.95,148.18" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="10,117.64,53.17,360.00,149.90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Designed and experimental compositions of the prepared Ti-Zr-Nb-V alloys.</figDesc><table><row><cell>Alloy</cell><cell></cell><cell>Ti (at%)</cell><cell>Zr (at%)</cell><cell>Nb (at%)</cell><cell>V (at%)</cell></row><row><cell>V 15</cell><cell>Designed</cell><cell>18.5</cell><cell>48</cell><cell>18.5</cell><cell>15</cell></row><row><cell></cell><cell>Experimental</cell><cell>17.40</cell><cell>49.01</cell><cell>20.01</cell><cell>13.58</cell></row><row><cell>V 20</cell><cell>Designed</cell><cell>23.9</cell><cell>32.2</cell><cell>23.9</cell><cell>20</cell></row><row><cell></cell><cell>Experimental</cell><cell>22.86</cell><cell>33.74</cell><cell>25.13</cell><cell>18.28</cell></row><row><cell>V 21.3</cell><cell>Designed</cell><cell>24.45</cell><cell>29.8</cell><cell>24.45</cell><cell>21.3</cell></row><row><cell></cell><cell>Experimental</cell><cell>23.31</cell><cell>31.31</cell><cell>25.94</cell><cell>19.44</cell></row><row><cell>V 25</cell><cell>Designed</cell><cell>25</cell><cell>25</cell><cell>25</cell><cell>25</cell></row><row><cell></cell><cell>Experimental</cell><cell>23.62</cell><cell>26.89</cell><cell>26.82</cell><cell>22.67</cell></row><row><cell>V 30</cell><cell>Designed</cell><cell>24.8</cell><cell>20.4</cell><cell>24.8</cell><cell>30</cell></row><row><cell></cell><cell>Experimental</cell><cell>23.78</cell><cell>21.99</cell><cell>26.63</cell><cell>27.58</cell></row><row><cell>V 35</cell><cell>Designed</cell><cell>23.9</cell><cell>17.2</cell><cell>23.9</cell><cell>35</cell></row><row><cell></cell><cell>Experimental</cell><cell>23.25</cell><cell>19.63</cell><cell>24.96</cell><cell>32.17</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 3</head><label>3</label><figDesc>ΔS mix , ΔH mix , Ω, δ and VEC of the Ti-Zr-Nb-V alloys and the criteria for the formation of a BCC single solid solution (SSS).</figDesc><table><row><cell>Alloy</cell><cell>ΔS mix (J mol -1 K -1 )</cell><cell>ΔH mix (kJ mol -1 )</cell><cell>Ω</cell><cell>δ (%)</cell><cell>VEC</cell></row><row><cell>V15</cell><cell>10.49</cell><cell>0.210</cell><cell>110</cell><cell>6.27</cell><cell>4.34</cell></row><row><cell>V20</cell><cell>11.40</cell><cell>0.084</cell><cell>303</cell><cell>6.27</cell><cell>4.44</cell></row><row><cell>V21.3</cell><cell>11.46</cell><cell>0.003</cell><cell>7374</cell><cell>6.27</cell><cell>4.46</cell></row><row><cell>V25</cell><cell>11.53</cell><cell>-0.250</cell><cell>104</cell><cell>6.27</cell><cell>4.50</cell></row><row><cell>V30</cell><cell>11.45</cell><cell>-0.570</cell><cell>45.2</cell><cell>6.27</cell><cell>4.55</cell></row><row><cell>V35</cell><cell>11.26</cell><cell>-0.852</cell><cell>29.7</cell><cell>6.27</cell><cell>4.59</cell></row><row><cell>Criterion for BCC-SSS</cell><cell>11-19.5[27]</cell><cell>-11.6-3.2[28]</cell><cell>&gt; 1.1[26]</cell><cell>&lt; 6.6[26]</cell><cell>&lt; 6.87[13]</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>J.Wang, S. Bai, Y. Tang et al. Journal of Alloys and Compounds 868 (2021) 159190</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>Journal of Alloys and Compounds 868 (2021) 159190</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This work was supported by <rs type="funder">National Natural Science Foundation of China</rs> (Grant Nos. <rs type="grantNumber">U20A20231</rs>, <rs type="grantNumber">11972372</rs> and <rs type="grantNumber">51802345</rs>); and <rs type="funder">Natural Science Foundation of Hunan Province, China</rs> (Grant No. <rs type="grantNumber">2019JJ40338</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_psJb5zT">
+					<idno type="grant-number">U20A20231</idno>
+				</org>
+				<org type="funding" xml:id="_6VuADGc">
+					<idno type="grant-number">11972372</idno>
+				</org>
+				<org type="funding" xml:id="_D8cpf64">
+					<idno type="grant-number">51802345</idno>
+				</org>
+				<org type="funding" xml:id="_HZp5p6C">
+					<idno type="grant-number">2019JJ40338</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Competing Interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supporting information</head><p>Supplementary data associated with this article can be found in the online version at doi:10.1016/j.jallcom.2021.159190.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Chou</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-006-0234-4</idno>
+		<ptr target="https://doi.org/10.1007/s11661-006-0234-4" />
+	</analytic>
+	<monogr>
+		<title level="m">Formation of simple crystal structures in Cu-Co-Ni-Cr-Al-Fe-Ti-V alloys with multiprincipal metallic elements</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="2533" to="2536" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Microstructural development in equiatomic multicomponent alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J B</forename><surname>Vincent</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2003.10.257</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2003.10.257" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="issue">377</biblScope>
+			<biblScope unit="page" from="213" to="218" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Tuning element distribution, structure and properties by composition in high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-019-1617-1</idno>
+		<ptr target="https://doi.org/10.1038/s41586-019-1617-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">574</biblScope>
+			<biblScope unit="page" from="223" to="227" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties of aluminum-containing refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-014-1066-0</idno>
+		<ptr target="https://doi.org/10.1007/s11837-014-1066-0" />
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="2030" to="2042" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties at elevated temperatures of a new Al-containing refractory high-entropy alloy Nb-Mo-Cr-Ti-Al</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kauffmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schliephake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Seemüller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2015.11.050</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2015.11.050" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Effect of Al on structure and mechanical properties of Al x NbTiVZr (x = 0, 0.5, 1, 1.5) high entropy alloys</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Shaysultanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1179/1743284715y.0000000032</idno>
+		<ptr target="https://doi.org/10.1179/1743284715y.0000000032" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="1184" to="1193" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Effect of aluminum on the microstructure and properties of two refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2014.01.029</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2014.01.029" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page" from="214" to="228" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Metastable high-entropy dualphase alloys overcome the strength-ductility trade-off</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature17981</idno>
+		<ptr target="https://doi.org/10.1038/nature17981" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">534</biblScope>
+			<biblScope unit="page" from="227" to="230" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Phase-transformation ductilization of brittle high-entropy alloys via metastability engineering</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adma.201701678</idno>
+		<ptr target="https://doi.org/10.1002/adma.201701678" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">1701678</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Structure and mechanical properties of B2 ordered refractory AlNbTiVZr x (x = 0-1.5) high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2017.08.019</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2017.08.019" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">704</biblScope>
+			<biblScope unit="page" from="82" to="90" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Electronic structure of Hume-Rothery phases</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Massalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Mizutani</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0079-6425(78)90001-4</idno>
+		<ptr target="https://doi.org/10.1016/0079-6425(78)90001-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="151" to="262" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The Hume-Rothery electron concentration rules and second moment scaling</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Hoistad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ja00022a004</idno>
+		<idno>1021/ja00022a004</idno>
+		<ptr target="https://doi.org/10" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="8216" to="8220" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Effect of valence electron concentration on stability of fcc or bcc phase in high entropy alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3587228</idno>
+		<ptr target="https://doi.org/10.1063/1.3587228" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Hume-Rothery for HEA classification and selforganizing map for phases and properties prediction</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Calvo-Dahlborg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G R</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2017.07.074</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2017.07.074" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">724</biblScope>
+			<biblScope unit="page" from="353" to="364" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Design of D0(22) superlattice with superior strengthening effect in high entropy alloys</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-J</forename><surname>Kai</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2019.01.048</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2019.01.048" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">167</biblScope>
+			<biblScope unit="page" from="275" to="286" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Alloy design for intrinsically ductile refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sheikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shafeie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ahlström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Persson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Veselý</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zýka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Klement</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4966659</idno>
+		<ptr target="https://doi.org/10.1063/1.4966659" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page">164902</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A single-phase V0.5Nb0.5ZrTi refractory high-entropy alloy with outstanding tensile properties</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2020.139774</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2020.139774" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">792</biblScope>
+			<biblScope unit="page">139774</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Atomic and electronic basis for the serrations of refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Shang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Darling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Hui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Kecskes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z.-K</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41524-017-0024-0</idno>
+		<ptr target="https://doi.org/10.1038/s41524-017-0024-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Mater</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Low-density, refractory multi-principal element alloys of the Cr-Nb-Ti-V-Zr system: microstructure and phase analysis</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2012.11.032</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2012.11.032" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1545" to="1557" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of low-density, refractory multi-principal element alloys of the Cr-Nb-Ti-V-Zr system</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2012.12.018</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2012.12.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">565</biblScope>
+			<biblScope unit="page" from="51" to="62" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<title level="m">Material Analysis Method</title>
+		<meeting><address><addrLine>Beijing</addrLine></address></meeting>
+		<imprint>
+			<publisher>China Machine Press</publisher>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+	<note>second ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Vegard&apos;s law</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Denton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">W</forename><surname>Ashcroft</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevA.43.3161</idno>
+		<ptr target="https://doi.org/10.1103/PhysRevA.43.3161" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. A</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="3161" to="3164" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Development and exploration of refractory high entropy alloys-A review</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Couzinie</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/jmr.2018.153</idno>
+		<ptr target="https://doi.org/10.1557/jmr.2018.153" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="3092" to="3128" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Novel metastable engineering in single-phase high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bai</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2018.11.052</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2018.11.052" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="256" to="262" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Solid-solution phase formation rules for multi-component alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.200700240</idno>
+		<ptr target="https://doi.org/10.1002/adem.200700240" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="534" to="538" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Prediction of high-entropy stabilized solid-solution in multicomponent alloys</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matchemphys.2011.11.021</idno>
+		<ptr target="https://doi.org/10.1016/j.matchemphys.2011.11.021" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="233" to="238" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Phase stability in high entropy alloys: formation of solid-solution phase or amorphous phase</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1002-0071(12)60080-x</idno>
+		<ptr target="https://doi.org/10.1016/s1002-0071(12)60080-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Nat. Sci. Mater. Int</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="433" to="446" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">More than entropy in high-entropy alloys: forming solid solutions or amorphous phase</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2013.05.002</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2013.05.002" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="96" to="103" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Criterion for sigma phase formation in Cr-and V-containing high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-Y</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/21663831.2013.831382</idno>
+		<ptr target="https://doi.org/10.1080/21663831.2013.831382" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="207" to="212" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">11. a) Yield Strength-(VEC) 2 R n -1 scatterplot of V15</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+		</imprint>
+	</monogr>
+	<note>V25, V30 and V35 and its linear fit. which the data of V35 was ignored</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Yield Strength-(VEC) 2 R n -1 scatterplot of reported RHEAs suitable for the applicable condition of the yield strength~VEC relationship and its linear fit</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="39" to="42" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Alloys and Compounds</title>
+		<imprint>
+			<biblScope unit="volume">868</biblScope>
+			<biblScope unit="page">159190</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Boer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Boom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C M</forename><surname>Mattens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Miedema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Niessen</surname></persName>
+		</author>
+		<title level="m">Cohesion in metals: transition metal alloys</title>
+		<meeting><address><addrLine>Amsterdam, North-Holland</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Theoretical investigation of the phase stability and elastic properties of TiZrHfNb-based high entropy alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vitos</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2019.108033</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes.2019.108033" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page">108033</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Science and technology in high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40843-017-9195-8</idno>
+		<ptr target="https://doi.org/10.1007/s40843-017-9195-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Sci. China Mater</title>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A critical review of high entropy alloys and related concepts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.08.081</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2016.08.081" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="448" to="511" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Nanostructured high-entropy alloys with multiple principal elements: novel alloy design concepts and outcomes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/adem.200300567</idno>
+		<ptr target="https://doi.org/10.1002/adem.200300567" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="299" to="303" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Relative effects of enthalpy and entropy on the phase stability of equiatomic high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2013.01.042</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2013.01.042" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="2628" to="2638" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Columnar to equiaxed transition and grain refinement of cast CrCoNi medium-entropy alloy by microalloying with titanium and carbon</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Laplanche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kostka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Fries</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pfetzing-Micklich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2018.10.187</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2018.10.187" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Introduction to Solid State Physics</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kittel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976">1976</date>
+			<publisher>John Wiley and Sons, Inc</publisher>
+			<pubPlace>New York, Chichester, Brisbane, Singapore and Toronto</pubPlace>
+		</imprint>
+	</monogr>
+	<note>eighth ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A refractory Hf 25 Nb 25 Ti 25 Zr 25 high-entropy alloy with excellent structural stability and tensile properties</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Si</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Hui</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2014.05.134</idno>
+		<ptr target="https://doi.org/10.1016/j.matlet.2014.05.134" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="277" to="280" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Microstructure and mechanical properties of in-situ MC-carbide particulates-reinforced refractory high-entropy Mo 0.5 NbHf 0.5 ZrTi matrix alloy composite</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2015.09.011</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2015.09.011" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="74" to="77" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Effect of composing element on microstructure and mechanical properties in Mo-Nb-Hf-Zr-Ti multi-principle component alloys</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2015.10.011</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2015.10.011" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="13" to="20" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">TiZrNbTaMo high-entropy alloy designed for orthopedic implants: As-cast microstructure and mechanical properties</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msec.2016.12.057</idno>
+		<ptr target="https://doi.org/10.1016/j.msec.2016.12.057" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. C Mater. Biol. Appl</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

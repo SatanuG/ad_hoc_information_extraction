@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Journal of Non-Crystalline Solids 102 (1988) 62-70 North-Holland, Amsterdam DIFFUSION OF MAJOR AND TRACE ELEMENTS IN COMPOSITIONALLY COMPLEX CI-AND F-BEARING SILICATE MELTS</title>
+				<funder ref="#_rQUzH9z #_9p3euud">
+					<orgName type="full">National Science Foundation</orgName>
+					<orgName type="abbreviated">NSF</orgName>
+				</funder>
+				<funder ref="#_vQYug3R #_r9Yj8JZ #_TBurQAd">
+					<orgName type="full">unknown</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Don</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Geology and Center for Glass Science and Technology</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<postCode>12180-3590</postCode>
+									<settlement>Troy</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><forename type="middle">Bruce</forename><surname>Watson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Geology and Center for Glass Science and Technology</orgName>
+								<orgName type="institution">Rensselaer Polytechnic Institute</orgName>
+								<address>
+									<postCode>12180-3590</postCode>
+									<settlement>Troy</settlement>
+									<region>NY</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Journal of Non-Crystalline Solids 102 (1988) 62-70 North-Holland, Amsterdam DIFFUSION OF MAJOR AND TRACE ELEMENTS IN COMPOSITIONALLY COMPLEX CI-AND F-BEARING SILICATE MELTS</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0BF66C0D8937CF327C0B7710F922FB98</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Chemical diffusion experiments on halogenated, multicomponent silicate melts at 10 MPa, 200 MPa and 1.0 GPa have yielded diffusivities for both major (A1, Fe, Si) and trace elements (Mn, Zn, Y, Zr, Nb) over the temperature range 900 to 1400 o C. At any given temperature and pressure, diffusivities of all elements are the same within an order of magnitude; they display no apparent dependence upon cation size, but do correlate crudely with cation field strength (Z/r). Comparison with diffusion data on un_halogenated melts reveals that addition of C1 and F tends to increase cation diffusivities and lower activation energies for diffusion. The effect of increasing pressure is also to enhance diffusion for all elements studied except the high field-strength network-modifiers Zr and Nb. As pressure increases, low Z/r elements experience a decrease in activation energy for diffusion, whereas high Z/r elements display increasing activation energies. It is proposed that the change in activation energy is related to the existence of two distinct network structures characterized by different T-O-T angles. The network structures with lower T-O-T angles apparently can provide charge-balanced sites for low Z/r cations but not for high Z/r cations. The effect of elevated pressure on the melt structure may be to increase the proportion of network structures having low T-O-T angles. The resulting increase in available sites for low Z/r cations is believed responsible for the observed reduction in activation energy for diffusion of the cations.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Knowledge of elemental diffusivities in melts and glasses is of fundamental importance in the understanding of many transport related phenomena in glass such as crystal growth during devitrification and phase separation; diffusion studies may also constrain models of glass and melt structure. Although substantial research has been accomplished on tracer diffusion in melts and glasses <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>, little is known about chemical diffusion of elements, especially the network-forming elements silicon and aluminum <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b2">3,</ref><ref type="bibr" target="#b3">4]</ref>. This study set out to determine the chemical diffusivities of silicon, aluminum, and iron in compositionally complex melts at pressures of 10 MPa, 200 MPa, and 1 GPa and to investigate the effects of halogens chlorine and fluorine on major element diffusivities; because of the availability of a new analytical tool, the synchrotron X-ray fluorescence microprobe (SXRF), some of these experiments have also been used to determine diffusivities of manganese, zinc, yttrium, zirconium, and niobium at ppm concentration levels. 0022-3093/88/$03.50 © Elsevier Science Publishers B.V. (North-Holland Physics Publishing Division)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental techniques</head><p>Diffusion coefficients were determined using the diffusion couple technique. Starting compositions for the diffusion couples (table 1) were of various bulk compositions, including a chlorinerich obsidian (P210), an obsidian to which 0.5 wt% fluorine was added as NaF (LCOF), and a fluorine-containing glass (GM1F). Mixtures of GMIF and LCOF were ground together for one hour and fused three times at 1400 °C for 45 min duration with intermediate grinding. To minimize bubbles in the glass the mixture was melted in a covered crucible at 1500 °C for 5 h. Cores of each glass were drilled and the diameters ground to fit inside 3 mm O.D. Pt tubes. Ends of the resulting glass cylinders were polished to a 1 /zm finish. <ref type="bibr">For 10 and 200</ref> MPa experiments the diffusion couples were placed in the Pt tubes, capped with Au or Pt plugs and welded shut; the 10 MPa experiments were performed in horizontally mounted cold seal pressure vessels and the 200 MPa experiments in an internally heated pressure vessel <ref type="bibr" target="#b4">[5]</ref>. For 1 GPa experiments the diffusion couple consisted of LCOF powder and glass cylinders or cubes of P210 or GMIF; these experiments were performed in graphite capsules inside a solid-media, piston cylinder apparatus <ref type="bibr" target="#b5">[6]</ref>. Diffusion couples were mounted in epoxy for longitudinal sectioning, and major element diffusion profiles were measured with an electron microprobe using silicate minerals and glasses as standards. Trace element profiles were measured with the SXRF on beamline X26C of the National Synchrotron Light Source at Brookhaven National Laboratory <ref type="bibr" target="#b6">[7]</ref>. A 250 /~m aluminum filter was used on the primary beam and a 100 #m aluminum filter was used on the SiLi detector. Counting times were of 300 s "live time" and count rates were corrected for variations of incident X-ray intensity and for composition-dependent absorbtion by the samples using the Naval Research Laboratory FORTRAN program NRLXRF. The end of P210 distant from the interface in the diffusion couples was used as a working standard; replicate analyses of P210 demonstrated that far from the P210-LCOF interface counts for the trace elements varied usually by 10% or less, far less than the difference in counts between P210 and LCOF (ranging from a factor of 3 for zinc to an order of magnitude for zirconium). Trace element concentrations were calculated by dividing the corrected count rate of an element by the ratio of the concentration of Zr in P210 (1650 ppm) to the corrected Zr count rate for P210.</p><p>Diffusivities were calculated from microprobe data by solution of the diffusion equation appropriate for a sample with initial concentration, C 0, and with a boundary maintained at concentration, C 1 <ref type="bibr" target="#b7">[8]</ref>:</p><formula xml:id="formula_0">C-C1 x -erf--</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Co-C1 2 (~7y '</head><p>where C is the concentration at distance x from the interface and D is the diffusion constant. This equation was solved by standard inversion-linearization techniques <ref type="bibr" target="#b7">[8]</ref>. Use of this equation assumes D is composition independent and the interface is fixed at the position in the diffusion profile where the elemental abundance is the mean of the two original compositions of the diffusion couple <ref type="bibr" target="#b7">[8]</ref>. If the analysis of the data did not yield a straight line using the inversion-linearization technique, or if the spatial locations of the mean composition (i.e. the interface between each half of the diffusion couple) displayed inter-element variations, then the above assumptions would be highly questionable. For all experiments reported the regression coefficient of the inverted data set is greater than 0.90 and locations of median compositions of all elements measured in a diffusion profile are within the error of finding those locations. Additionally, diffusivities in some experiments were also calculated using Boltzmann-Matano techniques <ref type="bibr" target="#b7">[8]</ref>; these diffusivities are within a factor of two diffusivities calculated using the error function analysis and demonstrate no major compositional dependence of the diffusivity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Measured chemical diffusivities</head><p>Diffusivities for aluminum, silicon, manganese, iron, zinc, yttrium, zirconium and niobium are presented in table 2, with Arrhenius fits to the data in table <ref type="table" target="#tab_3">3</ref> and fig. <ref type="figure" target="#fig_1">1</ref>. The most striking aspect of the data is the similarity of the diffusivities of elements studied at a given temperature and pres-   cm2/s for zirconium to -5 × 10 9 cm2/s for yttrium.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">10 MPa chemical diffusivities</head><p>In this series of experiments no correlation was observed between diffusivity and cation size, but a broad correlation was found between diffusivity and cation charge or, as displayed in fig. <ref type="figure" target="#fig_3">2</ref>, field strength (herein defined as cation charge divided by radius). At a given temperature, increasing cation field strength results in decreasing diffusivity; the correlation is poor, however, and the slope of the correlation line is shallow and strongly controlled by the highest field strength element, silicon. What this diagram best illustrates is the small variation in diffusivities at a single temperature and the grouping of small field strength cations into one group with similar diffusivities, despite varying radii. Chemical diffusivities measured in this study differ, not surprisingly, from tracer diffusivities in similar compositions. What is surprising is the extent of the differences; measured chemical diffusivities are many orders of magnitude below reported tracer diffusivities of cations in similar compositions <ref type="bibr" target="#b1">[2]</ref>. (This is especially remarkable because the trace-element abundances in these experiments vary down to as low IO000/T (K)</p><formula xml:id="formula_1">IE-9. "G a~ m % 1E-to. rE-It.</formula><p>C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1E-t2</head><p>Temp., °C 14001300 1200 1100 1000 900  66% SiO2" refers to ref. <ref type="bibr" target="#b3">[4]</ref>, "L&amp;W (1986) 77% SiO2" refers to ref. <ref type="bibr" target="#b10">[11]</ref>, and "H&amp;W (1983).. " All refer to ref. <ref type="bibr" target="#b11">[12]</ref>. Equations for calculating diffusivity are given for the 10 MPa and 1.0 GPa diffusivities. Numbers next to open circles in fig. l(g) refer to wt% water in melt. </p><formula xml:id="formula_2">I</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>67</head><p>as a few 10s of ppm; why the resulting diffusivities should differ so greatly from tracer values is not obvious.)</p><p>The 10 MPa activation energies for diffusion of all elements studied are also similar to each other, ranging only from a low of -25 kcal/mol to a high of -68 kcal/mol. The lowest activation energies are for the high field strength elements be they network-formers, A1 and Si (estimated similar to A1), or network modifiers, Zr, and Nb, with values between 24 and 47 kcal/mol, whereas lower field strength elements Fe, Mn, Zn, and Y, have higher activation energies (greater than 60 kcal/mol). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">1.0 GPa and 200 MPa chemical diffusivities</head><p>As observed for the 10 MPa experiments, a poor correlation line between 1.0 GPa diffusivity and field strength (fig. <ref type="figure" target="#fig_3">2</ref>) can be drawn whose slope is increased and whose fit is improved slightly by neglecting the network formers. Once again, as seen at 10 MPa, the diffusivities of lower field strength elements are the greatest and group together, whereas higher field strength elements appear to have lower and more variable diffusivities. A surprising result is the effect of pressure on diffusivity. Although isothermal diffusivities were not determined at all pressures (due to experimental limitations) extrapolation of the 10 MPa and 1.0 GPa experiments to 1100 °C indicate that for all elements except for the high field strength elements Zr and Nb, increasing the pressure from 10 MPa to 1.0 GPa results in an increase in diffusivity.</p><p>A preliminary series of experiments was performed at 200 MPa to measure isothermal diffusivities as a function of pressure. Measured diffusivities of A1 and Fe at 1000 o C, 200 MPa (fig. <ref type="figure" target="#fig_1">1</ref>) confirm the enhancement of chemical diffusivity with pressure; additionally, higher temperature diffusivities are similar to the 1.0 GPa diffusivities. The 200 MPa activation energy for A1 diffusion is within 2 kcal tool-1 of the 1.0 GPa activation energy (table <ref type="table" target="#tab_3">3</ref>), whereas the activation energy for Fe diffusion (-34 kcal mo1-1) is thought to be artificially low due to scatter in these preliminary experiments.</p><p>Assuming diffusing species are the same at all pressures results in calculation of physically implausible negative activation volumes; it is instead suggested that changes occur in the melt structure, and possibly in the identity of the diffusing species. The similarity of 200 MPa and 1.0 GPa diffusivities for Fe and A1 argue for such changes in melt structure or diffusing species to occur at low pressures, between 10 and 200 MPa. Similar increases in diffusivity with increasing pressure have been observed for silicon diffusion in the system NaA1SizO6-NaA1Ge206 and for aluminum in the system NaA1SizO6-NaGaSi 206 <ref type="bibr" target="#b8">[9]</ref>, consistent with ion-dynamics computer simulations <ref type="bibr" target="#b9">[10]</ref>. Oxygen diffusivities are also known to increase with increasing pressure in the system NaA1Si206 <ref type="bibr" target="#b10">[11]</ref>.</p><p>Activation energies for diffusion at 1.0 GPa span a much wider range than observed at 10 MPa, ranging from 6 kcal/mol to 73 kcal/mol. As in the 10 MPa experiments, elements can be subdivided into groupings by their activation energies, but at 1.0 GPa it is the high field strength elements AI, Zr, Nb, probably Si, and also Fe that have the high activation energies, roughly 43 to 73 kcal/mol, whereas Zn and Y (and probably Mn) have much lower activation energies, 6 to 14 kcal/mol. ties at 0.6 GPa in melts identical to the composition LCOF except for the lack of fluorine and the addition of H20 in some of their experiments.</p><p>Comparison with results of this study clearly demonstrate enhanced diffusivities, by 2 orders of magnitude at 1200°C, and decreased activation energies, from 98 to 63 kcal/mol, in halogenated as compared to unhalogenated melts. Addition of -0.5 wt% halogens to these melts has the same affect on the diffusivity of Zr as addition of 1 wt% H20. Activation energies for Zr diffusion in these halogenated melts and in melts with 6 wt% H20 are also similar in value, 63 versus 47 kcal/mol.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion and interpretation of diffusion resuits</head><p>Chemical diffusion in multicomponent silicate melts can be treated through a number of mathematical techniques coupling tracer diffusion of individual cations to the observed chemical diffusion <ref type="bibr" target="#b13">[14]</ref>. Lack of a complete set of tracer diffusivities for the melts in question precludes use of elegant mathematics, however. Instead we will use the observed diffusivities and activation energies in an attempt to constrain the mechanisms of major-and trace-element diffusion in these halogenated melts.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Comparison with other studies 4.1. Diffusion control by site availability</head><p>High pressure silicon chemical diffusivity experiments have been performed on unhalogenated but otherwise similar compositionally complex melts with 66 wt% SiO 2 at 0.6 GPa <ref type="bibr" target="#b3">[4]</ref>, and with 77 wt% SiO 2 at 1.0 GPa <ref type="bibr" target="#b11">[12]</ref>; these sparse data can be fit with a single line on the Arrhenius diagram (fig. <ref type="figure" target="#fig_3">2</ref>) suggesting little pressure or compositional dependence of silicon diffusivity in the pressure and compositional range studied by these researchers. In spite of the large errors associated with silicon diffusivities, qualitative comparison with diffusivities in unhalogenated melts suggests that addition of halogens decreases the activation energy for silicon diffusion, resulting in increased diffusivities at temperatures below about 1300 o C.</p><p>Harrison and Watson <ref type="bibr" target="#b12">[13]</ref> studied Zr diffusivi-</p><p>The similarity among diffusivities at specific P, T conditions is unlikely to be fortuitous. Diffusive coupling appears to exist, and it is proposed that transport of all elements is controlled predominantly by diffusion of the network formers, Si and A1, and their associated oxygen (and halogen) anions. (The alternative possibility of cation transport by large polyatomic species is rejected on the basis that such a model would require identical diffusivities and diffusion activation energies for all cations, a requirement obviously not met by these data.) Diffusivities of network-modifying minor-and trace-elements are dependent upon the availability of suitably sized, charge-balanced sites; the abundance and location of these sites is dependent upon diffusion of network formers, in these experiments predominantly A1. Networkmodifying elements can therefore diffuse at rates similar to those of the network-formers, but can slightly exceed network-former diffusivities because suitable sites exist in the melt ahead of the network-former diffusion front. Suitable sites are probably more abundant for the lower field strength network-modifiers because smaller charges are more readily balanced than for high field strength network-modifiers. The increased site availability results in the slightly faster diffusivities for lower field strength network-modifiers.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Effects of pressure on chemical diffusivity</head><p>Viscosity studies <ref type="bibr" target="#b14">[15]</ref> of the fluorinated melt of albite (NaA1Si308) demonstrate reduction in viscosity with addition of fluorine, 0.26 log units/wt% F. Dingwell and Mysen <ref type="bibr" target="#b15">[16]</ref> observed that the effect of fluorine addition on viscosity reduction was more pronounced at increased pressure and the activation energy for viscous flow decreased from the 100 KPa value of 45.5 kcal/mol to 35.2 kcal/mol at 700 MPa and 33.8 kcal/mol at 1.5 GPa. Viscosity reduction is interpreted as the result of disruption of 3-dimensional (3-D) networks of silicon-aluminum-oxygen tetrahedra due to complexing of sodium and aluminum with fluorine <ref type="bibr" target="#b16">[17]</ref>. It is this disruption of the network that probably promotes both of the above diffusion mechanisms and results in the lowered activation energies for diffusion and higher diffusivities observed for Si and Zr in this study as compared to unhalogenated melts. If this disruption effect alone controlled diffusion then all diffusivities would be expected to increase with increasing pressure and diffusion activation energies would decrease. Instead we see (fig. <ref type="figure" target="#fig_1">1</ref>) activation energies of the high field strength elements increase and activation energies of low field strength elements dramatically decrease with increasing pressure.</p><p>Differences in the effects of pressure on the activation energies for the high field strength and low field strength cations are interpreted to be due to differential pressure effects on the sites in which the two types of cations are located. Soules' <ref type="bibr" target="#b17">[18]</ref> molecular dynamics simulation of sodium silicate melt indicated the existence of two silicon-oxygen The more abundant smaller T-O-T angles and resultant closer approach of oxygen anions at higher pressure make movement from one cation site to another more difficult for high field strength cations because they must "shoulder" away the screening oxygen anions. Additionally, the smaller T O-T angles probably result in fewer available sites for high field strength network modifiers, Zr and Nb (fig. <ref type="figure" target="#fig_4">3</ref>). Aluminum activation energy is lower than Zr and Nb because of network perturbation that can occur due to A1-F complexing <ref type="bibr" target="#b16">[17]</ref> and possible transport of some aluminum as such a complex. In contrast, the increased amount of network-forming units with smaller T-O-T angles is suggested to decrease the activation energy for lower field strength cations, Fe, Mn, Zn, and Y. A consequence of this model is the partitioning of cations according to their field strength, high field strength cations appear to be associated with the larger T-O-T angle networks and the lower field strength cations appear associated with the lower T-O-T angle networks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>Diffusion of major and trace elements in compositionally complex, halogenated melts displays little inter-element variation at isothermal, isobaric conditions. Diffusion is not controlled by cation size, but a crude correlation exists between diffusivity and field strength. Diffusion is proposed to be dominantly controlled by the availability of suitable charge-compensated sites for the diffusion cations.</p><p>Addition of halogens to silicate melts has been demonstrated to increase diffusivity and decrease the activation energy of diffusion for both network formers and network modifiers at 1.0 GPa.</p><p>Increasing pressure increases activation energies for high field strength cations, but decreases activation energies for low field strength cations. This difference in behavior is proposed to be due to the increased abundance of networks with smaller T-O-T angles at high pressures. These smaller T-O-T angle networks cannot easily provide charge balanced sites for high field strength cations but preferentially incorporate low field strength cations as network-modifiers and thus lower their activation energies for diffusion.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Fig.1. Arrhemus plots of measured diffusiyities for Si (a), AI (b), Fe (c), Mn (d), Zn (e), Y (f), Zr (g), and Nb (h). "<ref type="bibr" target="#b3">Watson (1982)</ref> </figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. (continued).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Plot of log of the diffusivity versus field strength (Z/r) at 10 MPa, 1000°C and at 1.0 GPa 1200°C. Filled squares are 10 MPa data and filled circles 1.0 GPa data.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>-Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Schematic representation of two structures in silicate melts differentiated by T-O-T angles. Complete open circles are oxygen anions in the plane of the diagram; dashed open circles are oxygen anions above or below the plane of the paper. The oxygen anions tetrahedrally coordinate Si or AI cations. Some possible locations for network-modifying cations of various size and charge are shown with the filled circles. The upper right-hand chain displays larger T-O-T angles and consequently a more open structure than the lower left-hand chain with smaller T-O-T angles. Large T-O-T angles result in more possible sites for high field strength cations.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Compositions of glasses used in diffusion couples (Weight per cent compositions are electron microprobe analyses of prepared glasses. A value of 0.0 indicates amounts below the detection limit.)</figDesc><table><row><cell></cell><cell>P210</cell><cell>LCOF</cell><cell>GMIF</cell></row><row><cell>SiO 2</cell><cell>71.56</cell><cell>73.61</cell><cell>68.28</cell></row><row><cell>TiO 2</cell><cell>0.26</cell><cell>0.11</cell><cell>0.0</cell></row><row><cell>AI203</cell><cell>7.69</cell><cell>12.65</cell><cell>15.57</cell></row><row><cell>FeO ~</cell><cell>8.06</cell><cell>0.67</cell><cell>0.0</cell></row><row><cell>MnO</cell><cell>0.32</cell><cell>0.08</cell><cell>0.0</cell></row><row><cell>MgO</cell><cell>0.01</cell><cell>0.06</cell><cell>0.0</cell></row><row><cell>CaO</cell><cell>0.27</cell><cell>0.52</cell><cell>0.64</cell></row><row><cell>Na20</cell><cell>7.11</cell><cell>6.87</cell><cell>7.94</cell></row><row><cell>K 2 O</cell><cell>4.25</cell><cell>4.54</cell><cell>4.87</cell></row><row><cell>P205</cell><cell>0.0</cell><cell>0.0</cell><cell>0.0</cell></row><row><cell>F</cell><cell>0.0</cell><cell>0.68</cell><cell>0.68</cell></row><row><cell>CI</cell><cell>0.53</cell><cell>0.07</cell><cell>0.0</cell></row><row><cell>Total</cell><cell>100.06</cell><cell>99.86</cell><cell>97.98</cell></row><row><cell cols="2">a) Total iron analyzed as FeO.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2a</head><label>2a</label><figDesc>Experimental run conditions (Run: experiment number, when followed by a letter refers to 1st or 2nd microprobe analysis of sample Compl: initial composition of one half of the diffusion couple. Comp2: initial composition of the other half of the diffusion couple. s× 104: duration of experiments in units of 104 s)</figDesc><table><row><cell>Run</cell><cell></cell><cell>Compl</cell><cell>Comp2</cell><cell cols="2">s × 104</cell><cell></cell><cell>Temp. ( o C)</cell><cell cols="3">Pressure</cell></row><row><cell>D-6</cell><cell></cell><cell>P210</cell><cell>LCOF</cell><cell cols="2">109.64</cell><cell></cell><cell>898</cell><cell cols="3">13.8 MPa</cell></row><row><cell>D-15</cell><cell></cell><cell>P210</cell><cell>LCOF</cell><cell cols="2">121.332</cell><cell></cell><cell>945</cell><cell cols="3">20.0 MPa</cell></row><row><cell>D-1</cell><cell></cell><cell>P210</cell><cell>LCOF</cell><cell cols="2">8.388</cell><cell></cell><cell>983</cell><cell cols="3">10.34 MPa</cell></row><row><cell>D-2</cell><cell></cell><cell>GMIF</cell><cell>LCOF</cell><cell cols="2">8.67</cell><cell></cell><cell>1000</cell><cell cols="3">10.34 MPa</cell></row><row><cell>D-3</cell><cell></cell><cell>GM1F</cell><cell>LCOF</cell><cell cols="2">31.83</cell><cell></cell><cell>1000</cell><cell cols="3">10.34 MPa</cell></row><row><cell>D-4</cell><cell></cell><cell>P210</cell><cell>LCOF</cell><cell cols="2">31.83</cell><cell></cell><cell>1000</cell><cell cols="3">10.34 MPa</cell></row><row><cell>D-42</cell><cell></cell><cell>P210</cell><cell>LCOF</cell><cell cols="2">52.032</cell><cell></cell><cell>1000</cell><cell cols="3">200 MPa</cell></row><row><cell>D-47</cell><cell></cell><cell>P210</cell><cell>LCOF</cell><cell cols="2">17.64</cell><cell></cell><cell>1000</cell><cell cols="3">200 MPa</cell></row><row><cell>D-43</cell><cell></cell><cell>P210</cell><cell>LCOF</cell><cell cols="2">17.382</cell><cell></cell><cell>1100</cell><cell cols="3">200 MPa</cell></row><row><cell>D-50</cell><cell></cell><cell>P210</cell><cell>LCOF</cell><cell cols="2">86.4</cell><cell></cell><cell>1193</cell><cell cols="3">200 MPa</cell></row><row><cell>D-11</cell><cell></cell><cell>P210</cell><cell>LCOF</cell><cell cols="2">17.28</cell><cell></cell><cell>1100</cell><cell cols="3">1.00 GPa</cell></row><row><cell>D-12</cell><cell></cell><cell>GM1F</cell><cell>LCOF</cell><cell cols="2">17.28</cell><cell></cell><cell>1100</cell><cell cols="3">1.00 GPa</cell></row><row><cell>D-28</cell><cell></cell><cell>P210</cell><cell>LCOF</cell><cell cols="2">4.8888</cell><cell></cell><cell>1200</cell><cell cols="3">1.00 GPa</cell></row><row><cell>D-26</cell><cell></cell><cell>P210</cell><cell>LCOF</cell><cell cols="2">6.99</cell><cell></cell><cell>1300</cell><cell cols="3">1.00 GPa</cell></row><row><cell>D-32</cell><cell></cell><cell>P210</cell><cell>LCOF</cell><cell cols="2">1.8</cell><cell></cell><cell>1400</cell><cell cols="3">1.00 GPa</cell></row><row><cell cols="2">Table 2b</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell cols="6">Major element diffusivities measured on electron microprobe (in cm 2 s-1)</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Run</cell><cell cols="2">Temp. D Si</cell><cell>D Al</cell><cell>D Fe</cell><cell>Run</cell><cell>Temp.</cell><cell>D Si</cell><cell>D A1</cell><cell></cell><cell>D Fe</cell></row><row><cell></cell><cell>( o c)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>( o c)</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="3">+5.40×10 -11 +2.99×10 -12 +1.66×10 -12</cell><cell></cell><cell></cell><cell></cell><cell cols="2">+3.54X10 -11</cell></row><row><cell>D-6A</cell><cell>898</cell><cell>3.35×10 -11</cell><cell>5.45 X 10 -12</cell><cell>9.98×10 -12</cell><cell>D-42</cell><cell>1000</cell><cell></cell><cell>8.60X 10 -12</cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="3">-1.60X10 -11 -1.64X10 -12 -1.33X10 -12</cell><cell></cell><cell></cell><cell></cell><cell>-2.19X10</cell><cell>11</cell><cell>-2.41 × 10-lO</cell></row><row><cell></cell><cell></cell><cell cols="3">+6.56×10 -11 +2.54X10 -12 +1.91X0 -12</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>+2.77×10 -1~</cell></row><row><cell>D-6B</cell><cell>898</cell><cell>2.55×10 -11</cell><cell>9.69× 10 -12</cell><cell>1.06×10 -11</cell><cell>D-47</cell><cell>1000</cell><cell></cell><cell></cell><cell></cell><cell>1.72 × 10-lo</cell></row><row><cell></cell><cell></cell><cell>-1.37×10 -H</cell><cell cols="2">-1.82&gt;(10 -12 -1.50X10 -12</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>-2.23×10 -ll</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">+6.21X 10 -12 +3.31X 10 -12</cell><cell></cell><cell></cell><cell></cell><cell cols="2">+2.16X 10 -11</cell><cell>+4.32×10 -11</cell></row><row><cell>D-15</cell><cell>945</cell><cell></cell><cell>3.32X10 -12</cell><cell>4.00 X 10 -11</cell><cell>D-43</cell><cell>1100</cell><cell></cell><cell>6.51x 10 -11</cell><cell></cell><cell>1.21 × 10-ao</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">-1.93× 10 -12 -2.94×10 -12</cell><cell></cell><cell></cell><cell></cell><cell cols="2">-1.44X 10 -11</cell><cell>-2.82×10 -11</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">+7.96×10 -12 + 5.34× 10 -12</cell><cell></cell><cell></cell><cell></cell><cell cols="2">+2.14X 10 -1°</cell><cell>+ 2.77 x 10-lO</cell></row><row><cell>D-1A</cell><cell>983</cell><cell></cell><cell>1.89× 10 -11</cell><cell>3.17×10 -11</cell><cell>D-50</cell><cell>1193</cell><cell></cell><cell>4.84x 10 -1°</cell><cell></cell><cell>1.32x 10 -9</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">-4.88×10 -12 -4.27 × 10 -12</cell><cell></cell><cell></cell><cell></cell><cell cols="2">-1.29×10 -lo</cell><cell>-2.11×10 -lo</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">+3.01×10 -11 +4.57X10 -12</cell><cell></cell><cell></cell><cell cols="3">+6.61×10 -lo +6.21×10 -11</cell><cell>+ 8.29 x 10-11</cell></row><row><cell>D-1B</cell><cell>983</cell><cell></cell><cell>5.04× 10 -n</cell><cell>3.62×10 -11</cell><cell cols="2">D-11A 1100</cell><cell>9.26x 10 -1°</cell><cell>2.66 × 10 -1°</cell><cell></cell><cell>4.30 × 10-lO</cell></row><row><cell></cell><cell></cell><cell></cell><cell>-1.59&gt;(10 -H</cell><cell>-3.84×10 -12</cell><cell></cell><cell></cell><cell cols="3">-3.20×10 -lo -4.60×10 -11</cell><cell>-6.43 × 10-11</cell></row><row><cell></cell><cell></cell><cell>+2.86×10 -H</cell><cell cols="2">+1.20X10 -11 +2.85×10 -11</cell><cell></cell><cell></cell><cell cols="3">+5.05X10 -10 +5.01×10 -11</cell><cell>+5.18×10 -~1</cell></row><row><cell>D-3A</cell><cell>1000</cell><cell>1.90X10 -11</cell><cell>1.62×10 -11</cell><cell>3.97X10 11</cell><cell>D-11B</cell><cell>1100</cell><cell>7.89×10 -l°</cell><cell>2.25×10 -1°</cell><cell></cell><cell>2.85 × 10-10</cell></row><row><cell></cell><cell></cell><cell cols="3">-9.83×10 -12 -5.71×10 -12 -1.38&gt;(10 -11</cell><cell></cell><cell></cell><cell cols="3">-2.58×10 -lo -3.75×10 -n</cell><cell>-4.07 × 10-x 1</cell></row><row><cell></cell><cell></cell><cell cols="3">+7.51×10 -11 +5.11×10 -11 +3.65×10 -11</cell><cell></cell><cell></cell><cell>+1.16×10 -9</cell><cell cols="2">+1.59×10 -10</cell></row><row><cell>D-2A</cell><cell>1000</cell><cell>1.73×10 -11</cell><cell>1.61×10 -11</cell><cell>5.72 x 10 -11</cell><cell>D-12</cell><cell>1100</cell><cell>2.46 X 10 -1°</cell><cell>2.07 x 10 -1°</cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="3">-1.03×10 -11 -9.06×10 -12 --1.87×10 -11</cell><cell></cell><cell></cell><cell cols="3">--1.48×10 -lo --7.42×10 -11</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">+ 5.84× 10 -12 +7.96×10 -12</cell><cell></cell><cell></cell><cell>+8.83×10 -9</cell><cell cols="2">+ 1.44 X 10 -1°</cell><cell>+6.28g 10 -11</cell></row><row><cell>D-4A</cell><cell>1000</cell><cell></cell><cell>2.23×10 -11</cell><cell>6.13× 10 -ll</cell><cell>D-28</cell><cell>1200</cell><cell>7.04× 10 -1°</cell><cell>5.69 X 10 -1°</cell><cell></cell><cell>7.74 × 10-1o</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">-4.19×10 -12 -6.66X10 -12</cell><cell></cell><cell></cell><cell cols="3">-4.68×10 -lo -1.04X10 -1o</cell><cell>-5.60 × 10-11</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">+1.11×10 -11 + 1.41 x 10 -1~</cell><cell></cell><cell></cell><cell></cell><cell cols="2">+1.43×10 -lo</cell><cell>+5.10×10 -lo</cell></row><row><cell>D-4B</cell><cell>1000</cell><cell></cell><cell>3.69)&lt;10 -11</cell><cell>8.09 X 10 -11</cell><cell>D-26</cell><cell>1300</cell><cell></cell><cell>4.41 × 10 -1°</cell><cell></cell><cell>7.69 X 10-1o</cell></row></table><note><p>-7.67 × 10 -12 -1.11×10 -11 -9.38×10 -11 +4.38×10 -1° D-32 1400 1.18 × 10 -9 -2.82×10 -lo + 4.14 × 10-lo 8.66 × 10-lO -4.64 × 10-ix +2.11×10 -~o 3.11 × 10 -9 --1.91 x 10-1o</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2c</head><label>2c</label><figDesc>Trace element diffusivities measured on the synchrotron X-ray fluorescence microprobe (in cm 2 s 1)</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>65</cell></row><row><cell>Run</cell><cell>D Mn</cell><cell></cell><cell>D Fe</cell><cell></cell><cell>D Zn</cell><cell></cell><cell>D Y</cell><cell></cell><cell>D Zr</cell><cell>D Nb</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">+2.43)&lt;10 -2</cell><cell cols="2">+3.42 X 10 12</cell><cell cols="2">+5.97)&lt;10-12</cell><cell>+ 3.56 X 10-12</cell><cell>+ 1.07× 10-11</cell></row><row><cell>D-6</cell><cell></cell><cell></cell><cell>1.33x10 11</cell><cell></cell><cell>1.13)&lt;10-11</cell><cell></cell><cell>9.00×10 12</cell><cell></cell><cell>1.19)&lt;10 11</cell><cell>1.41)&lt;10-11</cell></row><row><cell></cell><cell></cell><cell></cell><cell cols="2">-1.91)&lt;10 12</cell><cell cols="2">_2.35)&lt;10-12</cell><cell>-3.00)&lt;10</cell><cell>12</cell><cell>-2.46)&lt;10</cell><cell>12</cell><cell>-5.01)&lt;10</cell><cell>12</cell></row><row><cell></cell><cell>+1.73X10</cell><cell>11</cell><cell cols="2">+7.07)&lt;10-12</cell><cell>+4.09x10-12</cell><cell></cell><cell>+6.75x10</cell><cell>12</cell><cell>+2.23)&lt;10-12</cell><cell>+2.61)&lt;10 ii</cell></row><row><cell>D-15</cell><cell>3.07)&lt;10 -11</cell><cell></cell><cell>4.63)&lt;10 -11</cell><cell></cell><cell>3.14)&lt;10 -ll</cell><cell></cell><cell>2.74 X 10 -11</cell><cell></cell><cell>1.60×10 11</cell><cell>6.43)&lt;10-11</cell></row><row><cell></cell><cell cols="2">-9.38)&lt;10 -12</cell><cell cols="2">-5.75)&lt;10 -12</cell><cell cols="2">-3.42)&lt;10 -12</cell><cell cols="2">-4.93)&lt;10 -12</cell><cell>-1.84)&lt;10</cell><cell>12</cell><cell>_ 1.62x 10-11</cell></row><row><cell></cell><cell cols="2">+4.52)&lt;10 11</cell><cell cols="2">+3.01)&lt;10-11</cell><cell>+2.17x10</cell><cell>11</cell><cell cols="2">+4.98)&lt;10-11</cell><cell>+1.66)&lt;10 11</cell><cell>+6.51)&lt;10-12</cell></row><row><cell>D-4</cell><cell>9.54)&lt;10 -11</cell><cell></cell><cell>1.06x10 -1°</cell><cell></cell><cell>1.11)&lt;10 -l°</cell><cell></cell><cell>8.59)&lt;10 -11</cell><cell></cell><cell>2.71)&lt;10 11</cell><cell>6.89)&lt;10 i1</cell></row><row><cell></cell><cell cols="2">-2.65X10 -11</cell><cell>-2.11x10</cell><cell>11</cell><cell cols="2">_1.68)&lt;10-11</cell><cell>-2.67×10</cell><cell>1l</cell><cell>_ 8.66 )&lt;10 -12</cell><cell>5.70)&lt;10 12</cell></row><row><cell></cell><cell cols="2">+1.74)&lt;10 8</cell><cell cols="2">+8.71)&lt;10 -l°</cell><cell cols="2">+1.01)&lt;10 9</cell><cell>+3.26)&lt;10-9</cell><cell></cell><cell>+1.02)&lt;10 lo</cell><cell>+1.16x10-1o</cell></row><row><cell>D-28</cell><cell>4.89)&lt;10 9</cell><cell></cell><cell>1.68)&lt;10-9</cell><cell></cell><cell>2.05X10-o</cell><cell></cell><cell>5.15X10 9</cell><cell></cell><cell>1.23x10</cell><cell>1/1</cell><cell>3.35)&lt;10 io</cell></row><row><cell></cell><cell cols="2">-2.81X10 -9</cell><cell cols="2">-4.90)&lt;10 -1°</cell><cell cols="2">-5.80)&lt;10 9</cell><cell>_1.68)&lt;10-9</cell><cell></cell><cell>-4.57)&lt;10</cell><cell>11</cell><cell>_7.64)&lt;10-1~</cell></row><row><cell></cell><cell>+1.64×10</cell><cell>9</cell><cell cols="2">+ 8.72 )&lt;10-10</cell><cell>+1.03)&lt;10-9</cell><cell></cell><cell cols="2">+3.07)&lt;10 9</cell><cell>+6.39)&lt;10 ~0</cell><cell>+2.54×10</cell><cell>~</cell></row><row><cell>D 32</cell><cell>3.44)&lt;10 9</cell><cell></cell><cell>4.17&gt;(10-9</cell><cell></cell><cell>3.68×10 9</cell><cell></cell><cell>6.75X10 9</cell><cell></cell><cell>1.64×10 9</cell><cell>6.65)&lt;10 9</cell></row><row><cell></cell><cell>-9.57×10</cell><cell>10</cell><cell cols="2">-6.64)&lt;10 lo</cell><cell>_7.24X10-10</cell><cell></cell><cell>-1.83×10</cell><cell>9</cell><cell>-4.04X10 -1°</cell><cell>-1.61×10</cell><cell>9</cell></row></table><note><p><p><p>sure (figs.</p>1 and 2)</p>. At specific P, T conditions the diffusivities vary by at most an order of magnitude; for example at 10 MPa, 1000°C the diffusivities vary from a low of -2 × 10 -11 cm2/s for silicon to a high of 1.11 × 10 -1° cm2/s for zinc. The variation in diffusivities is only slightly larger at 1.0 GPa, 1200°C ranging from -1 × 10 -l°</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 Arrhenius</head><label>3</label><figDesc></figDesc><table><row><cell></cell><cell>D O (cm 2 s-l)</cell><cell>E a(kcalmol</cell><cell>l)</cell></row><row><cell>10 MPa</cell><cell></cell><cell></cell></row><row><cell>AI</cell><cell>4.93 × 10 6</cell><cell>31.49</cell></row><row><cell>Fe</cell><cell>21.35</cell><cell>68.19</cell></row><row><cell>Mn</cell><cell>7.66</cell><cell>63.51</cell></row><row><cell>Zn</cell><cell>48.79</cell><cell>67.66</cell></row><row><cell>Y</cell><cell>26.51</cell><cell>66.88</cell></row><row><cell>Zr</cell><cell>4.29x10 7</cell><cell>24.54</cell></row><row><cell>Nb</cell><cell>8.10 x 10-3</cell><cell>46.75</cell></row><row><cell>200 MPa</cell><cell></cell><cell></cell></row><row><cell>AI</cell><cell>1.09x 10 3</cell><cell>44.58</cell></row><row><cell>Fe</cell><cell>2.99 X 10-5</cell><cell>33.89</cell></row><row><cell>1.00Pa</cell><cell></cell><cell></cell></row><row><cell>Al</cell><cell>3.44X 10 -4</cell><cell>42.65</cell></row><row><cell>Fe</cell><cell>1.18 X 10 -2</cell><cell>51.54</cell></row><row><cell>Zn</cell><cell>2.74×10 7</cell><cell>14.32</cell></row><row><cell>Y</cell><cell>4.95X10 -8</cell><cell>6.62</cell></row><row><cell>Zr</cell><cell>3.16X 10 1</cell><cell>63.42</cell></row><row><cell>Nb</cell><cell>20.38</cell><cell>72.68</cell></row></table><note><p>activation energies and pre-exponential factors D = D O e (-Ea/RT)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>74 x 10 -7 exp(-14.32/RT) Zn 900</head><label></label><figDesc></figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Temp., °C</cell></row><row><cell></cell><cell></cell><cell></cell><cell>I</cell><cell>I</cell><cell>I</cell><cell>I</cell><cell>I</cell><cell>140013001200 1100 I I I I</cell><cell>1000 I</cell><cell>900 I</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>• ~0 HPa</cell><cell></cell></row><row><cell></cell><cell></cell><cell cols="4">8 ~x ~0-2e~ 4,</cell><cell>* 200 HPa • 10 GPa</cell><cell></cell><cell>rE-9</cell><cell>• 10 HPa • t.O GPa</cell></row><row><cell></cell><cell cols="2">D= 11</cell><cell></cell><cell></cell><cell>4b</cell><cell>~</cell><cell>oa m</cell><cell>tE IO</cell><cell>\</cell><cell>\</cell></row><row><cell></cell><cell cols="2">Fe</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>1Eql</cell><cell>Mn</cell><cell>D=7.65 exp(-63.51/RT)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="3">D= 21.35 exp(-68.19/RT)</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>d.</cell></row><row><cell></cell><cell></cell><cell>16</cell><cell></cell><cell></cell><cell>17</cell><cell>18</cell><cell></cell><cell>IE 12</cell><cell>16</cell><cell>17</cell><cell>[8</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">~0000/T (K)</cell><cell></cell><cell></cell><cell>IO000/T (K)</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Temp.,</cell><cell>°C</cell><cell></cell><cell></cell><cell>Temp., °C</cell></row><row><cell></cell><cell></cell><cell cols="5">14001300 1200 1100 1000</cell><cell></cell><cell>14001300 1200</cell></row><row><cell></cell><cell></cell><cell>I</cell><cell>I</cell><cell>I</cell><cell>I</cell><cell>I</cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>• 10 HPa</cell><cell></cell><cell>D</cell></row><row><cell>lfi-9 E IE 10 oJ m IE-11</cell><cell>0</cell><cell cols="5">• i.O GPB 2.D= 48.79 OXp(-67.88/RT)</cell><cell></cell><cell>tE-g IE-10 IE-H</cell></row></table><note><p><p>I</p>\\.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>4,95 × 19 -s e×p(-6.62/RT)</head><label></label><figDesc></figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">1000</cell><cell>900</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>I</cell><cell></cell><cell>I</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">• tO NPa</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">• i.O GPa</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="2">~m \.</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell>Y</cell><cell></cell><cell cols="3">D= 26.51 exp(-86.88/RT)~m</cell></row><row><cell>e.</cell><cell></cell><cell></cell><cell></cell><cell>f.</cell><cell></cell><cell></cell><cell></cell></row><row><cell>ff 12</cell><cell>'6</cell><cell>~ 10000/T (K)</cell><cell>'e</cell><cell>IE 12</cell><cell>'6</cell><cell>'7 10000/T (K)</cell><cell>'o</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>This research could not have been accomplished without use of the SXRF; <rs type="person">M. Rivers</rs>, <rs type="person">S. Sutton</rs>, <rs type="person">K. Jones</rs>, and <rs type="person">J.V. Smith</rs> are thanked for the opportunity to use the instrument and help with analyses. SXRF supported by <rs type="funder">NSF</rs> <rs type="grantNumber">EAR-8618346</rs>, <rs type="grantNumber">DOE DE-AC02-76CH00016</rs>, <rs type="grantNumber">NASA NAG 9-106</rs>. <rs type="person">G. Mahood</rs> is thanked for the gracious donation of glass <rs type="grantNumber">P210</rs> and its analysis. <rs type="person">R. Ryerson</rs> is thanked for electron microprobe analyses of early experiments. All other research supported by the <rs type="funder">National Science Foundation</rs> under Grant No. <rs type="grantNumber">DMR 85-10617</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_rQUzH9z">
+					<idno type="grant-number">EAR-8618346</idno>
+				</org>
+				<org type="funding" xml:id="_vQYug3R">
+					<idno type="grant-number">DOE DE-AC02-76CH00016</idno>
+				</org>
+				<org type="funding" xml:id="_r9Yj8JZ">
+					<idno type="grant-number">NASA NAG 9-106</idno>
+				</org>
+				<org type="funding" xml:id="_9p3euud">
+					<idno type="grant-number">P210</idno>
+				</org>
+				<org type="funding" xml:id="_TBurQAd">
+					<idno type="grant-number">DMR 85-10617</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Frishat</surname></persName>
+		</author>
+		<title level="m">Ionic Diffusion in Oxide Glasses (Transtech</title>
+		<meeting><address><addrLine>Bay Village</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hofmann</surname></persName>
+		</author>
+		<title level="m">Physics of Magmatic Processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Princeton, Princeton</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Freer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page">440</biblScope>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page">73</biblScope>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Holloway</surname></persName>
+		</author>
+		<title level="m">Research Techniques for High Pressure and High Temperature</title>
+		<editor>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Ulmer</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Boyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>England</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page">741</biblScope>
+			<date type="published" when="1960">1960</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">V</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Rivers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Sutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Herzog</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">EOS</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page">401</biblScope>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<title level="m">The Mathematics of Diffusion</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Oxford Univ. Press</publisher>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page">1415</biblScope>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Angell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cheeseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tamaddon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<biblScope unit="page">885</biblScope>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">1295</biblScope>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim Acta</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">1397</biblScope>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page">66</biblScope>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Kinetics of Geochemical Processes</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Kirkpatrick</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Washington</addrLine></address></meeting>
+		<imprint>
+			<publisher>Mineral. Soc. of America</publisher>
+			<date type="published" when="1981">1981</date>
+			<biblScope unit="volume">8</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Cronin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page">80</biblScope>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page">266</biblScope>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Virgo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page">205</biblScope>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Soules</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">4570</biblScope>
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Virgo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Danckwerth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Seifert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neues Jahrbuch Miner. Abh</title>
+		<imprint>
+			<biblScope unit="volume">147</biblScope>
+			<biblScope unit="page">281</biblScope>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Woodcock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Angell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cheeseman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page">1565</biblScope>
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

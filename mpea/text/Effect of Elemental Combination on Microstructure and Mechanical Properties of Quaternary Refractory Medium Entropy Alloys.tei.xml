@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A d v a n c e V i e w Effect of Elemental Combination on Microstructure and Mechanical Properties of Quaternary Refractory Medium Entropy Alloys</title>
+				<funder ref="#_rF62BFc">
+					<orgName type="full">Elements Strategy Initiative for Structural Materials</orgName>
+					<orgName type="abbreviated">ESISM</orgName>
+				</funder>
+				<funder ref="#_MkMjXJa">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">China</orgName>
+				</funder>
+				<funder ref="#_F4Teush">
+					<orgName type="full">Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">China Scholarship Council</orgName>
+					<orgName type="abbreviated">CSC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-01-24">January 24, 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Qian</forename><surname>He</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>606-8501</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Shuhei</forename><surname>Yoshida</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>606-8501</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Elements Strategy Initiative for Structural Materials (ESISM)</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>606-8501</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hideyuki</forename><surname>Yasuda</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>606-8501</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Nobuhiro</forename><surname>Tsuji</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Science and Engineering</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>606-8501</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Elements Strategy Initiative for Structural Materials (ESISM)</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>606-8501</postCode>
+									<settlement>Kyoto</settlement>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution">Kyoto University</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A d v a n c e V i e w Effect of Elemental Combination on Microstructure and Mechanical Properties of Quaternary Refractory Medium Entropy Alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-01-24">January 24, 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">99D0DB8A630CAF50973075EF09B09F89</idno>
+					<idno type="DOI">10.2320/matertrans.MT-MK2019003]</idno>
+					<note type="submission">Received October 1, 2019; Accepted November 21, 2019;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>refractory medium entropy alloys</term>
+					<term>elemental combination</term>
+					<term>homogenization</term>
+					<term>microstructure</term>
+					<term>mechanical properties</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The present work reports the effect of elemental combination on microstructure and mechanical properties of quaternary refractory medium entropy alloys (RMEAs) having equi-atomic compositions. As-cast RMEAs ((1) HfNbTaTi, (2) HfNbTaZr, (3) HfNbTiZr, (4) HfTaTiZr, and (5) NbTaTiZr) were fabricated by vacuum arc-melting of pure elements under Ar atmosphere, homogenization was then performed at 1150°C for 24 hours with Ar atmosphere. Firstly, microstructures of both as-cast and homogenized RMEAs were observed by SEM-BSE. Three kinds of microstructures consisting of annealed grains (AG), granular morphology (GM) and dendritic morphology (DM) were found to be distributing along solidification direction in the as-cast RMEAs. Inter-dendritic segregation in the as-cast RMEAs was characterized by SEM-EDX. At the same time, grain boundary precipitates were found in the as-cast (2) HfNbTaZr and (4) HfTaTiZr alloys. After homogenization at 1150°C, a fraction of AG greatly increased while that of DM largely decreased. It was also found that the degree of segregation was largely reduced after homogenization. In addition, grain boundary precipitates having equiaxed morphology and HCP structure were observed in the homogenized (2) HfNbTaZr alloy. Subsequently, tensile tests of both as-cast and homogenized RMEAs were performed at room temperature (RT) to characterize mechanical properties of the RMEAs. After homogenization, ductility of (1) HfNbTaTi, (3) HfNbTiZr, (4) HfTaTiZr, and (5) NbTaTiZr alloys was highly improved while (2) HfNbTaZr alloy still showed early brittle fracture. Better ductility of the homogenized (1) HfNbTaTi, (3) HfNbTiZr, (4) HfTaTiZr, and (5) NbTaTiZr alloys could be attributed to the elimination of inter-dendritic segregation as well as grain boundary precipitates through homogenization.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>High entropy alloys (HEAs) and medium entropy alloys (MEAs) are defined as the alloys composed of five or more and four or fewer principal elements, respectively, with (near-) equi-atomic concentrations. Refractory HEAs (RHEAs) which are mainly composed of refractory elements like Cr, Hf, Mo, Nb, Ta, V, W, Zr, etc. were firstly developed by Senkov et al. <ref type="bibr">13)</ref> The crystal structure of RHEAs is typically body-centered cubic (BCC) single phase at high temperatures (HT). RHEAs are reported to have high yield strength ranging from 4002500 MPa at RT 4) which is generally believed as a result of the solid solution strengthening effect originated from the atomic size misfit and modulus misfit among the composing elements. <ref type="bibr" target="#b4">5)</ref> Surprisingly, RHEAs also maintain high yield strength ranging from 1001000 MPa at temperatures higher than 1000°C. <ref type="bibr">4,</ref><ref type="bibr">68)</ref> Excellent resistance to thermal softening might be resulted from the sluggish diffusion in RHEAs at HT. Above all, RHEAs have been regarded as promising candidates for HT structural applications beyond conventional super-alloys such as INCONEL 718, Haynes 230, <ref type="bibr">6,</ref><ref type="bibr" target="#b8">9)</ref> etc.</p><p>In addition to HT strength, RT ductility is a very important mechanical property for industrial application as structural materials since it is closely linked to formability and machinability. However, according to the previous reports of RHEAs with BCC structure, they are all extremely brittle which would limit the application of BCC RHEAs. One exception is HfNbTaTiZr RHEA, which exhibits relatively large tensile ductility at RT (total elongation ranges from 10 to 20%). <ref type="bibr">2,</ref><ref type="bibr">6,</ref><ref type="bibr">1012)</ref> At the same time, the HfNbTaTiZr RHEA also shows high yield strength at HT which makes it an excellent candidate as a HT structural material. <ref type="bibr">13,</ref><ref type="bibr" target="#b13">14)</ref> However, the reason for the exceptional ductility in the HfNbTaTiZr RHEA is still unknown.</p><p>Thus, it is important to clarify the reason for the large ductility of the HfNbTaTiZr RHEA as it could give clear direction for designing ductile RHEAs in future. One option for studying the reason is to subtract each element respectively and observe effect of other elements' combination on ductility in RMEAs. In our present experiment, five kinds of quaternary RMEAs (i.e., HfNbTaTi, HfNbTaZr, HfNbTiZr, HfTaTiZr, and NbTaTiZr) were chosen from the HfNbTaTiZr RHEA system to investigate the effect of elemental combinations on ductility of these alloys. However, when we studied both as-cast and homogenized RMEAs, it had been found that they exhibited obviously different microstructures and mechanical properties. The aim of the present paper is to understand the effect of elemental combination on ductility of RMEAs through comparing microstructure and mechanical properties of ascast and homogenized RMEAs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental Procedure</head><p>Ingots of (1) HfNbTaTi, (2) HfNbTaZr, (3) HfNbTiZr, (4) HfTaTiZr, and (5) NbTaTiZr equi-atomic RMEAs were produced by vacuum arc-melting of constituent pure elements with different purities (Hf: 98.89 mass%, Nb: 99.9 mass%, Ta: 99.9 mass%, Ti: 99.8 mass%, Zr: 99.8 mass%) in a water-cooled copper mold under inert Ar atmosphere. To improve compositional homogeneity, the ingots were flipped and re-melted five times. These ingots are defined as the as-cast RMEAs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A d v a n c e V i e w</head><p>In order to further improve compositional homogeneity of the as-cast RMEAs, homogenization was performed at 1150°C for 24 hours under a protective Ar atmosphere followed by water quenching. These materials are defined as the homogenized RMEAs.</p><p>As shown in Fig. <ref type="figure" target="#fig_0">1</ref>(a), both as-cast and homogenized ingots were cut by a wire-cutting machine (Brother, HS-70A) into slices with a thickness of 1.5 mm. In order to remove the oxide layer caused by homogenization, the thickness of slices was reduced from 1.5 mm to 1.0 mm. Then, as shown in Fig. <ref type="figure" target="#fig_0">1</ref>(b), small-sized tensile specimens with a gauge length of 2 mm and a gauge cross-section of 1 mm © 1 mm were cut from the slice. At the same time, specimens with a width of 3 mm and a length of 12 mm were also cut from the slice for microstructure observations. Specimens for microstructural observations were ground with 4004000 grid sized SiC sandpapers followed by polishing with 3 µm and 1 µm diamond paste, and 0.04 µm and 0.02 µm colloidal silica.</p><p>Scanning electron microscopy (SEM) (JEOL, JSM-7800F) equipped with backscattered electron (BSE) was employed for microstructure observations. Acceleration voltage and working distance of the SEM-BSE was set as 15 kV and 10 mm, respectively. SEM (JEOL, JSM-7100F) equipped with electron back-scattering diffraction (EBSD) and energy dispersive X-ray spectrometry (EDX) detectors was used for the analysis of phases and elemental distributions, respectively. Acceleration voltage and working distance of the SEM-EBSD was set to be 15 kV and 15 mm, respectively. Characteristic X-ray used to detect elements in SEM-EDX were HfL, NbL, TaL, TiK, and ZrL lines. Acceleration voltage and working distance of the SEM-EDX was chosen as 30 kV and 10 mm, respectively.</p><p>Crystal structures of the as-cast and homogenized specimens were characterized by X-ray diffraction (XRD). Cu-K¡ (Wavelength: = 0.154 nm) was used as an X-ray source, and acceleration voltage and current were set to be 45 kV and 40 mA, respectively. The measurement step size was 0.00835°and the range of 2ª was chosen from 25°to 90°.</p><p>Room temperature tensile tests of both as-cast and homogenized RMEAs were conducted on a universal tensile test machine (SHIMADZU, AG-100 kN Xplus) at a quasistatic strain rate of 8.3 © 10 ¹4 s ¹1 . To confirm reproducibility of the results, tensile tests were repeated four times for each alloy. A CCD video camera extensometer (SVS625MFCP) was used to record the displacement of the gauge section, and the strain was calculated by the aid of digital image correlation (DIC) technique using a Vic-2D software. <ref type="bibr" target="#b14">15)</ref> 3. Results and Discussions</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Microstructure of as-cast and homogenized RMEAs</head><p>XRD profiles of as-cast and homogenized RMEAs are shown in Fig. <ref type="figure" target="#fig_2">2</ref>(a) and (b), respectively. All RMEAs were indexed as BCC single phase, besides extra unknown peaks near 30°in the as-cast (3) HfNbTiZr, (4) HfTaTiZr, the homogenized (2) HfNbTaZr, (3) HfNbTiZr, (4) HfTaTiZr, and (5) NbTaTiZr specimens. The extra peaks might imply short-range ordering formed in these alloys, although it is necessary to be carefully verified in future studies. In the as-cast (4) HfTaTiZr and (5) NbTaTiZr specimens, some peaks showed broadening which could be due to chemical heterogeneities, such as dendritic segregation in as-cast materials, as will be discussed later.</p><p>Figure <ref type="figure" target="#fig_0">1</ref>(c) expresses a schematic illustration of microstructural change in the as-cast RMEAs along the solidification direction. We found that the microstructure could be divided into three types from bottom to top (along the solidification direction): annealed grains (AG), granular morphology (GM), and dendritic morphology (DM).</p><p>Formation process of the three kinds of microstructure (AG, GM, and DM) can be explained as follows. During arcmelting and casting, an ingot can be divided into three parts in terms of phase construction. The part close to free surface in the first melting (A) can be fully-liquid phase during melting and solidification, while solid and liquid phases coexist in the middle part (B). The bottom part facing the surface of the mold (C) can be fully-solid phase since that part is continuously cooled during melting and solidification. Subsequent solidification occurs in the B part first and A part afterward, because the latter is far from the mold leading to slower cooling rate. It should be noted that, in the B part, elemental partitioning between solid (where granular-shaped dendrites are nucleated) and liquid phases occurs during solidification, resulting in the GM microstructure. Elemental partitioning also occurs in the A part during dendrite growth, Microstructural observations were also conducted for the homogenized RMEAs, and the fraction of AG, GM, and DM microstructures in both as-cast and homogenized RMEAs were plotted in Fig. <ref type="figure" target="#fig_4">4</ref>. It was found that the fraction of GM and DM reduced to zero in (1) HfNbTaTi, (3) HfNbTiZr and (4) HfTaTiZr after the homogenization at 1150°C for 24 hours. On the other hand, AG and GM were observed in (2) HfNbTaZr and DM still dominantly remained in (5) NbTaTiZr even after the homogenization. The fraction of AG in (5) NbTaTiZr slightly changed from 9% to 14%.</p><p>Figure <ref type="figure" target="#fig_5">5</ref>(a)( j) shows elemental distributions in the as-cast and homogenized RMEAs. The left column (a)(e) shows the results of the as-cast alloys, while the right column shows the results of the homogenized alloys. In each figure of (a)( j) upper micrograph is an SEM image of the specimen. Below each SEM image, profiles of element distributions along the thin white line in the corresponding SEM image are represented. The upper and lower graphs indicate for Hf, Ti and Zr (elements showing HCP structure in pure metal state at RT) and for Nb and Ta (elements showing BCC structure in pure metal state at RT), respectively. It should be noted that for convenience in later discussions, we categorize the elements into two categories (namely, BCC elements: Nb and Ta, and HCP elements: Hf, Ti, and Zr) according to their crystal structure in pure metal state at RT.</p><p>After the homogenization at 1150°C for 24 hours, it was clear that dendritic segregation was greatly removed in all the homogenized RMEAs. This is because diffusion of elements can be faster at high temperature, resulting in homogeneous distributions of elements in the alloys. However, the most severe segregation in the as-cast (5) NbTaTiZr among five alloys indicated that the homogenization could not remove segregation. Correspondingly, DM with 86% fraction was observed in the homogenized (5) NbTaTiZr, as shown in Fig. <ref type="figure" target="#fig_4">4(b)</ref>.</p><p>Figure <ref type="figure" target="#fig_7">6</ref>(a) and (b) show SEM-BSE micrographs revealing precipitates in the as-cast (2) HfNbTaZr RMEA. A number of lamellar-structured precipitates with sizes of several microns were found along grain boundaries of the matrix BCC phase. Figure <ref type="figure" target="#fig_7">6</ref>(c) gives an EBSD inverse pole figure (IPF) map of a region including the lamellar precipitates. It was interesting that the lamellar precipitates had the same crystal orientation with the matrix grain on the other side of the grain boundary. Figure <ref type="figure" target="#fig_7">6</ref>(d) shows an EBSD phase map of the same area as Fig. <ref type="figure" target="#fig_7">6(c</ref>). Although the lamellae in the precipitates (Fig. <ref type="figure" target="#fig_7">6(b)</ref>) were too fine to be resolved by EBSD, the major portions were determined to be BCC phase, while many fine HCP phases were also observed. The results suggested that the lamellar precipitates were composed of major phase with BCC-based structure and minor phase with HCP-based structure.</p><p>We found equiaxed precipitates in the homogenized (2) HfNbTaZr RMEA, as shown in Fig. <ref type="figure" target="#fig_6">7</ref>(a). Interestingly, these precipitates having different orientations were aligned along three parallel grain boundaries (GB1, GB2, and GB3) as shown in Fig. <ref type="figure" target="#fig_6">7(b</ref>). As shown in Fig. <ref type="figure" target="#fig_6">7</ref>(c), it was clearly confirmed that equiaxed precipitates had HCP structure while the matrix was BCC (solid solution). It should be noted that no orientation relationship between the matrix and precipitates was found. In addition, the area II of matrix BCC solid solution sandwiched by GB1 and GB2 had the same crystallographic orientation with the matrix area IV in the right-hand side. Similarly, the matrix area I had the same orientation as the area III. Figure <ref type="figure" target="#fig_6">7(d)</ref> gives EDX elemental maps of (Hf, Nb, Ta, and Zr) in the same region involving the equiaxed precipitates. It was found that Hf and Zr were enriched while Nb and Ta were lean in the precipitates, which corresponded with the HCP structure of the precipitates. The results also indicated that the precipitates in the as-cast material could not be totally eliminated by homogenization.</p><p>A small amount of precipitates was also found in the (4) HfTaTiZr alloy. Figure <ref type="figure" target="#fig_8">8</ref>  A d v a n c e V i e w BCC matrix in the as-cast (4) HfTaTiZr RMEA. The precipitates aligned along grain boundaries to form a filmlike morphology, and the thickness of the film-like precipitates was smaller than 100 nm. Figure <ref type="figure" target="#fig_8">8</ref>(c) and (d) show SEM-BSE micrographs of a region around grain boundaries of the matrix phase in the homogenized (4) HfTaTiZr. It was clearly indicated that the precipitates found in the as-cast (4) HfTaTiZr alloy could be successfully eliminated by homogenization. Although those precipitates were observed in the as-cast and homogenized (2) HfNbTaZr alloy and in the as-cast (4) HfTaTiZr, XRD could not detect diffraction peaks corresponding to these second phases probably owing to their small volume fractions, so that the precipitates phase could not be identified furthermore in the current study.</p><p>It has been said that single phase HEAs and MEAs can be stabilized by their large configuration entropy in solid solutions. However, configuration entropy was not only an important factor but also the mixing enthalpy significantly contributes to the phase stability in HEAs and MEAs. <ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b16">17)</ref> Based on the present results, it was clearly shown that BCC elements (Nb, Ta) tended to segregate together inside of dendrite arms, separated from HCP elements (Hf, Ti, Zr) in inter-dendrite regions, forming grain boundary precipitates in some cases (e.g., (2) HfNbTaZr). This tendency of elemental distribution (segregation) could be explained by binary mixing enthalpies of element pairs in HfNbTaTiZr systems presented in Table <ref type="table" target="#tab_0">1</ref>. <ref type="bibr" target="#b17">18)</ref> It is clearly seen in Table <ref type="table" target="#tab_0">1</ref> that the mixing enthalpies of HCP elements pairs (HfTi, HfZr, TiZr) and BCC elements pairs (NbTa) are zero, while the mixing enthalpies of pairs between HCP elements and BCC elements (HfNb, HfTa, NbTi, NbZr, TaTi, TaZr pairs) showed positive values. Positive mixing enthalpy generally indicates that there is a repulsive interaction between two elements. The binary mixing enthalpies summarized in Table <ref type="table" target="#tab_0">1</ref> well agreed with the segregation tendency between BCC elements (Nb, Ta) and HCP elements (Hf, Ti, Zr) in the RMEAs. This is also very consistent with many literatures of BCC RHEAs showing second phase precipitation or severe segregation of elements having positive mixing enthalpy (Refs. 3), 8) for instance). Since various kinds of elements are mixed, it is very difficult to avoid such heterogeneity of elemental distribution in microstructure of multicomponent high-alloy systems, <ref type="bibr" target="#b18">19)</ref> implying essential nature of in HEAs and MEAs. Figure <ref type="figure" target="#fig_9">9</ref>(c) and (d) show nominal stress nominal strain curves and true stress true strain curves plotted together with work-hardening rate true strain curves, respectively, of the homogenized RMEAs. Similar to the as-cast specimens, the plastic instability happened at very early stages of tensile deformation in all the alloys. However, the total elongation was significantly improved by the homogenization. Although (2) HfNbTaZr fractured just after yielding, all other RMEAs showed large post-uniform elongations.</p><p>In Tables <ref type="table">2</ref> and<ref type="table">3</ref>, Young's modulus, yield strength, ultimate tensile strength, uniform elongation, and total elongation of the as-cast and homogenized RMEAs, respectively, are shown. The values of mechanical properties  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A d v a n c e V i e w</head><p>were determined from the nominal stress-strain curves (Fig. <ref type="figure" target="#fig_9">9</ref>(a) and (c)). Young's modulus of all the RMEAs were less than or equal to 100 GPa except for the as-cast and homogenized (1) HfNbTaTi RMEA (300 GPa and 111 GPa, respectively). It was interesting that most RMEAs studied show very low Young's modulus. It was found that after the homogenization Young's modulus of (1) HfNbTaTi and (4) HfTaTiZr reduced while that of (2) HfNbTaZr, (3) HfNbTiZr and (5) NbTaTiZr changed slightly. For example, Young's modulus of (4) HfTaTiZr significantly decreased from 94 GPa to 55 GPa by the homogenization. We may understand this phenomenon by an analogy of the elastic modulus changes in composite    A d v a n c e V i e w materials consisting of two different phases having different phase fraction and different elastic modulus. Young's modulus of composite materials could be predicted fall between an upper bound represented by:</p><formula xml:id="formula_0">E U C ¼ E M V M þ E P V P<label>ð1Þ</label></formula><p>and a lower bound:</p><formula xml:id="formula_1">E L C ¼ E M E P E P V M þ E M V P<label>ð2Þ</label></formula><p>where, E and V denote the elastic modulus, volume fraction, respectively. U and L indicate an upper bound and lower bound, respectively. The subscripts C, M, and P represent composite, matrix, and particular second phases, respectively. <ref type="bibr" target="#b20">21)</ref> In (4) HfTaTiZr, there could be two factors affecting the change of the elastic modulus. Firstly, the precipitates along grain boundaries confirmed in the as-cast (4) HfTaTiZr might have higher elastic modulus than that of the matrix.</p><p>Secondly, there could be difference in elastic modulus between inter-dendrite region and inside of dendrite in the alloy. In either case, we could understand the reduced elastic modulus of the homogenized (4) HfTaTiZr, according to eq. ( <ref type="formula" target="#formula_0">1</ref>) and (2) Similar effects could happen in other alloys. After the homogenization, yield strength and ultimate tensile strength decreased more or less in all the alloys. Total elongation greatly increased in (1) HfNbTaTi, (4) HfTaTiZr and (5) NbTaTiZr while uniform elongation did not change in all the RMEAs. SEM micrographs showing fracture surfaces of the as-cast and homogenized RMEAs are represented in Fig. <ref type="figure" target="#fig_10">10</ref>. In the as-cast RMEAs (Fig. <ref type="figure" target="#fig_10">10(a</ref>)(e)), necking appeared and ductile dimples with different sizes were observed in (1) Table <ref type="table">2</ref> Young's modulus, yield strength, ultimate tensile strength (UTS), uniform elongation, and total elongation of the as-cast (1) HfNbTaTi, (2) HfNbTaZr, (3) HfNbTiZr, (4) HfTaTiZr, and (5) NbTaTiZr RMEAs determined from the nominal stress-strain curves (Fig. <ref type="figure" target="#fig_9">9</ref>(a)).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A d v a n c e V i e w</head><p>HfNbTaTi and (3) HfNbTiZr RMEAs (Fig. <ref type="figure" target="#fig_10">10</ref>(a) and (c), respectively). The as-cast (2) HfNbTaZr and (4) HfTaTiZr RMEAs showed a typical inter-granular fracture and step-like fracture surfaces (Fig. <ref type="figure" target="#fig_10">10(b</ref>) and (d)), respectively, and (5) NbTaTiZr RMEA exhibited both inter-granular and transgranular fracture surfaces (Fig. <ref type="figure" target="#fig_10">10(e)</ref>). In the homogenized RMEAs, necking appeared in all the alloys except for (2) HfNbTaZr, and fracture surfaces showed dimples with different diameters in all the alloys. Only (2) HfNbTaZr showed both inter-granular and trans-granular fracture surfaces (Fig. <ref type="figure" target="#fig_10">10(g)</ref>).</p><p>Based on the microstructure analysis by SEM-BSE and SEM-EDX shown above, the limited ductility in the as-cast RMEAs could be attributed to severe dendritic segregations (Fig. <ref type="figure" target="#fig_5">5</ref>(a)(e)) and grain boundary precipitates found in the alloys (2) (Fig. <ref type="figure" target="#fig_7">6</ref>) and (4) (Fig. <ref type="figure" target="#fig_8">8</ref>), leading to early fracture with inter-granular fracture, trans-granular fracture, and steplike fracture surface morphology (Fig. <ref type="figure" target="#fig_10">10(b), (d),</ref> and<ref type="figure">(e)</ref>). Great improvement of dendritic segregation and elimination of grain boundary precipitates in the alloy (4) (Fig. <ref type="figure" target="#fig_8">8</ref>) would be the main reasons for the ductility improvement in the homogenized RMEAs. As grain boundary precipitates could not be eliminated in (2) HfNbTaZr alloy by homogenization, it still showed a brittle fracture behavior with both intergranular and trans-granular fracture surface morphology.</p><p>According to the previous reports for RHEAs, only the equi-atomic HfNbTaTiZr RHEA exhibited large tensile ductility at RT (yield strength: ³1000 MPa, total elongation: 1020%, varied in different references). 2225) Now it was found all the homogenized RMEAs except for (2) HfNbTaZr exhibited large total elongation. Comparing the present mechanical properties of the homogenized RMEAs with those reported in the HfNbTaTiZr RHEA, it was noteworthy Table <ref type="table">3</ref> Young's modulus, yield strength, UTS, uniform elongation, and total elongation of the homogenized (1) HfNbTaTi, (2) HfNbTaZr, (3) HfNbTiZr, (4) HfTaTiZr, and (5) NbTaTiZr RMEAs, determined from the nominal stress-strain curves (Fig. <ref type="figure" target="#fig_9">9</ref>(c)). A d v a n c e V i e w that (4) HfTaTiZr and (5) NbTaTiZr showed comparable yield strength (875 MPa and 920 MPa, respectively) with the HfNbTaTiZr RHEA, while the total elongation of these two RMEAs were larger than that of HfNbTaTiZr RHEA. (1) HfNbTaTi and (3) HfNbTiZr exhibited larger total elongation than HfNbTaTiZr, and yield strength of these two alloys was a little lower than that of HfNbTaTiZr. These results suggest that poor ductility of many RHEAs may be due to second phase precipitates along grain boundaries or severe dendritic segregation, which are frequently observed in almost all BCC RHEAs (even after annealing at HT) showing early fracture. On the other hand, it was difficult to simply summarize the effect of elemental combination on the mechanical properties of quaternary RMEAs based on our present research results.</p><p>Investigating the detailed deformation mechanism that results in large tensile ductility depending on the chemical composition is our on-going work, and will be presented in a future publication. To sum up, most importantly, achieving microstructure with homogeneous elemental distribution through homogenization is very critical to understand the ductility of BCC RHEAs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusion</head><p>Microstructures and mechanical properties of five kinds of equi-atomic quaternary refractory medium entropy alloys (RMEAs: (1) HfNbTaTi, (2) HfNbTaZr, (3) HfNbTiZr, (4) HfTaTiZr, and (5) NbTaTiZr) were systematically investigated in the as-cast state and after the homogenization at 1150°C for 24 hours. Major results obtained are as follows.</p><p>(1) Microstructures of the as-cast and homogenized RMEAs were carefully characterized by SEM-BSE along the solidification direction. Three characteristic microstructures named as annealed grains (AG), granular morphology (GM), and dendritic morphology (DM) were found in the as-cast RMEAs. It was found that severe dendritic segregation existed in all the ascast RMEAs. SEM-EDX results showed that HCP elements (Hf, Ti, Zr) tended to distribute in the interdendrite areas, while BCC elements (Nb, Ta) tended to distribute inside of dendrite arms. The fraction of AG greatly increased while that of DM significantly decreased by the homogenization, indicating the elimination of dendritic segregation. (2) Precipitates having a lamellar morphology or a thin film-like morphology were found at grain boundaries of the matrix BCC solid solution in the as-cast (2) HfNbTaZr alloy and (4) HfTaTiZr alloy, respectively. EBSD analysis suggested that the lamellar precipitates in the as-cast (2) HfNbTaZr alloy were composed of BCC and HCP phases. The lamellar precipitates could not be eliminated but their morphology greatly changed from the lamellar shape into granular ones with HCP structure by the homogenization. It was found that the HCP precipitates in the homogenized (2) HfNbTaZr alloy were rich in Hf and Zr while lean of Nb and Ta. The precipitates along grain boundaries in the as-cast (4) HfTaTiZr disappeared by the homogenization. (3) All the studied RMEAs showed limited uniform elongation in both as-cast and homogenized states, but some alloys showed large post-uniform elongations. Tensile ductility of (1) HfNbTaTi, (3) HfNbTiZr, (4) HfTaTiZr and (5) NbTaTiZr alloys were greatly improved by the homogenization, while (2) HfNbTaZr still showed a brittle fracture behavior even after the homogenization. The material having limited tensile ductility showed grain boundary fracture dominantly.</p><p>The reason for the ductility improvement in the homogenized RMEAs was explained by the removal of dendritic segregation and elimination of secondphase precipitates at grain boundaries, which suggested a possibility of ductility improvement in RHEAs and RMEAs by homogenization heat treatments.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1</head><label>1</label><figDesc>Fig. 1 Schematic diagram showing sampling process in (a) an as-cast or homogenized ingot, (b) plan-view of the slice cut from the ingot, and (c) microstructure distributions along the solidification direction in the rectangular specimen cut from (b).</figDesc><graphic coords="2,77.60,70.70,182.23,352.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>(a) and (b) give SEM-BSE images showing the precipitates found along grain boundaries of the</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 XRD profiles of (a) as-cast and (b) homogenized (1) HfNbTaTi, (2) HfNbTaZr, (3) HfNbTiZr, (4) HfTaTiZr, and (5) NbTaTiZr RMEAs.</figDesc><graphic coords="3,58.28,70.70,220.87,343.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 SEM-BSE micrographs of the as-cast (a), (b) (1) HfNbTaTi, (c)(e) (2) HfNbTaZr, (f ), (g) (3) HfNbTiZr, (h), (i) (4) HfTaTiZr, and ( j)(l) (5) NbTaTiZr alloys. The first, second, and third columns correspond to AG, GM, and DM microstructures, respectively.</figDesc><graphic coords="4,134.66,70.70,326.11,391.99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 Fractions of the AG, GM and DM microstructures determined from microstructural observations in (a) as-cast and (b) homogenized (1) HfNbTaTi, (2) HfNbTaZr, (3) HfNbTiZr, (4) HfTaTiZr, and (5) NbTaTiZr alloys.</figDesc><graphic coords="5,48.92,70.70,239.59,325.39" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5</head><label>5</label><figDesc>Fig. 5 Elemental distribution in the as-cast (a) (1) HfNbTaTi, (b) (2) HfNbTaZr, (c) (3) HfNbTiZr, (d) (4) HfTaTiZr, (e) (5) NbTaTiZr, and the homogenized (f ) (1) HfNbTaTi, (g) (2) HfNbTaZr, (h) (3) HfNbTiZr, (i) (4) HfTaTiZr, and ( j) (5) NbTaTiZr measured by SEM-EDX. In each figure of (a)( j) upper micrograph is an SEM image of the specimen. Below the SEM image, profiles of elements distribution along the thin white line in the corresponding SEM image are represented in the upper and lower graphs separately for Hf, Ti and Zr (having HCP structure at RT) and for Nb and Ta (having BCC structure at RT), respectively.</figDesc><graphic coords="5,306.56,70.70,240.31,606.19" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 (</head><label>7</label><figDesc>Fig. 7 (a) SEM-BSE micrograph, (b) EBSD IPF map, (c) EBSD phase map, and (d) elemental distribution (Hf, Nb, Ta, Zr) of the identical area including equiaxed precipitates aligned along three parallel grain boundaries (GB1, GB2 and GB3 indicated in (b)) in the homogenized (2) HfNbTaZr RMEA. Regions colored by red and green in (c) correspond to BCC and HCP crystal structures, respectively.</figDesc><graphic coords="6,93.02,556.88,409.39,193.27" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 6</head><label>6</label><figDesc>Fig. 6 (a) SEM-BSE micrograph of the as-cast (2) HfNbTaZr RMEA having lamellar-structured precipitates along grain boundaries of the matrix BCC solid solution. (b) Enlarged view of the region indicated by a red rectangle in (a). (c) EBSD IPF map and (d) EBSD phase map of the precipitates with lamellar morphology. Regions colored by red and green in (d) correspond to BCC and HCP crystal structures, respectively.</figDesc><graphic coords="6,48.80,70.70,239.83,215.95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 8</head><label>8</label><figDesc>Fig. 8 SEM-BSE micrographs of (a), (b) the as-cast and (c), (d) the homogenized alloy (4) HfTaTiZr. (a), (b) Fine precipitates were found aligned along grain boundaries of the matrix in the as-cast specimen. (b) Enlarged view of the region indicated by a grey rectangle in (a). (c), (d) Precipitates were not observed in the homogenized specimen. (d) Enlarged view of the region indicated by a grey rectangle in (c).</figDesc><graphic coords="6,306.20,70.70,241.03,176.89" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 9 (</head><label>9</label><figDesc>Fig. 9 (a), (c) Nominal stress (s) nominal strain (e) curves and (b), (d) true stress (•) true strain (¾) curves (solid lines) plotted together with work-hardening rate (d•/d¾) true strain (¾) curves (dashed lines) of (1) HfNbTaTi, (2) HfNbTaZr, (3) HfNbTiZr, (4) HfTaTiZr, and (5) NbTaTiZr RMEAs tensile tested at RT. (a), (b) The as-cast specimens. (c), (d) The homogenized specimens.</figDesc><graphic coords="7,86.72,70.70,422.11,309.07" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 10 SEM</head><label>10</label><figDesc>Fig. 10 SEM images showing fracture surfaces of (a), (f ) (1) HfNbTaTi, (b), (g) (2) HfNbTaZr, (c), (h) (3) HfNbTiZr, (d), (i) (4) HfTaTiZr, (e), ( j) (5) NbTaTiZr RMEAs. (a)(e) The as-cast alloys. (f )( j) The homogenized alloys.</figDesc><graphic coords="8,343.94,70.70,165.55,657.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc></figDesc><table /><note><p>Binary mixing enthalpies, ÁH mix ij (kJ/mol) of atom pairs in Hf NbTaTiZr systems.</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This work was financially supported by the <rs type="grantName">Grant-in-Aid for Scientific Research on Innovative Area "High Entropy Alloys</rs>" (No. <rs type="grantNumber">18H05455</rs>), the <rs type="funder">Elements Strategy Initiative for Structural Materials (ESISM)</rs>, the <rs type="grantName">Grant-in-Aid for Scientific Research (S)</rs> (No. <rs type="grantNumber">15H05767</rs>) and the <rs type="grantName">Grant-in-Aid for JSPS Research Fellow</rs> (No. <rs type="grantNumber">18J20766</rs>), all through the <rs type="funder">Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan</rs>. Q.H. was financially supported by <rs type="funder">China Scholarship Council (CSC)</rs>, <rs type="funder">China</rs>. All the supports are greatly appreciated.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_rF62BFc">
+					<idno type="grant-number">18H05455</idno>
+					<orgName type="grant-name">Grant-in-Aid for Scientific Research on Innovative Area &quot;High Entropy Alloys</orgName>
+				</org>
+				<org type="funding" xml:id="_MkMjXJa">
+					<idno type="grant-number">15H05767</idno>
+					<orgName type="grant-name">Grant-in-Aid for Scientific Research (S)</orgName>
+				</org>
+				<org type="funding" xml:id="_F4Teush">
+					<idno type="grant-number">18J20766</idno>
+					<orgName type="grant-name">Grant-in-Aid for JSPS Research Fellow</orgName>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2010.05.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">17581765</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2011.02.171</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page">60436048</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2012.11.032</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page">15451557</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Couzinie</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/jmr.2018.153</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">30923128</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Toda-Caraballo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E J</forename><surname>Rivera-Díaz-Del-Castillo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2014.11.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page">1423</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2011.01.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">698706</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.proeng.2012.03.043</idno>
+		<imprint>
+			<date type="published" when="2012">2012</date>
+			<publisher>Procedia Eng</publisher>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">292298</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2012.12.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">565</biblScope>
+			<biblScope unit="page">5162</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Sheu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2011.01.072</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">528</biblScope>
+			<biblScope unit="page">35813588</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2015.05.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J.J. Guo and H.Z. Fu: Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page">8794</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2015.03.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page">7683</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/e18050189</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">189</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10853-012-6260-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page">40624074</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Djemia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laurent-Brocq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tingaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzinié</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chauveau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2015.12.017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">654</biblScope>
+			<biblScope unit="page">3038</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Image Correlation for Shape, Motion and Deformation Measurements: Basic Concepts</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schreier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Orteu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Sutton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Theory and Applications</title>
+		<imprint>
+			<date type="published" when="2009">2009</date>
+			<publisher>Springer US</publisher>
+			<pubPlace>Boston</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms7529</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">6529</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Pharr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2013.10.024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">131140</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Murty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ranganathan</surname></persName>
+		</author>
+		<title level="m">High-Entropy Alloys</title>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Butterworth-Heinemann</publisher>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.08.081</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page">448511</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Hirth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Hart</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0001-6160(81)90124-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">819827</biblScope>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Willam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>David</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Science and Engineering</title>
+		<imprint>
+			<biblScope unit="page">541543</biblScope>
+			<date type="published" when="2011">2011</date>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<pubPlace>Singapore</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Asia) Pte Ltd.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Semiatin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2015.07.209</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">649</biblScope>
+			<biblScope unit="page">1123</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2014.11.064</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">624</biblScope>
+			<biblScope unit="page">100107</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzinié</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Champion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2015.08.024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">645</biblScope>
+			<biblScope unit="page">255263</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzinié</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hocini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2017.09.062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page">131141</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

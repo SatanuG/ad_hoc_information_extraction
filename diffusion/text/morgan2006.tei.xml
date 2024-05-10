@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">An experimental study of anorthosite dissolution in lunar picritic magmas: Implications for crustal assimilation processes</title>
+				<funder ref="#_6ADSdWW">
+					<orgName type="full">NASA</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Zachary</forename><surname>Morgan</surname></persName>
+							<email>zmorgan@gps.caltech.edu</email>
+						</author>
+						<author>
+							<persName><forename type="first">Yan</forename><surname>Liang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Paul</forename><surname>Hess</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Geological Sciences</orgName>
+								<orgName type="institution">Brown University Providence</orgName>
+								<address>
+									<postCode>02912</postCode>
+									<region>RI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Division of Geological and Planetary Sciences</orgName>
+								<orgName type="institution">California Institute of Technology</orgName>
+								<address>
+									<postCode>170-25, 91125</postCode>
+									<settlement>Pasadena</settlement>
+									<region>MC, CA</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">An experimental study of anorthosite dissolution in lunar picritic magmas: Implications for crustal assimilation processes</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">708B274C8912AB0A3B8CDACE9C4C2D36</idno>
+					<idno type="DOI">10.1016/j.gca.2006.04.027</idno>
+					<note type="submission">Received 7 November 2005; accepted in revised form 27 April 2006</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Experiments characterizing the kinetics of anorthosite dissolution in lunar picritic magmas (very low-Ti, low-Ti, and high-Ti picritic glasses) were conducted at 0.6 GPa and 1250-1400 °C using the dissolution couple method. Reaction between the anorthosite and lunar picritic magmas at 1250-1300 °C produced a spinel + melt layer. Reaction between the anorthosite and an olivine-saturated low-Ti magma at 1250-1300 °C produced a crystal-free region between the spinel + melt layer and the olivine-saturated magma. The anorthosite dissolution experiments conducted at 1400 °C simply dissolved anorthosite and did not result in a crystal-bearing region. The rate of anorthosite dissolution strongly depends on temperature and composition of the reacting melt. Concentration profiles that develop during anorthosite dissolution are nonlinear and extend from the picritic glass compositions to anorthite. These profiles feature a large and continuous variation in melt density and viscosity from the anorthosite-melt interface to the initial picritic magmas. In both the low-Ti and high-Ti magmas the diffusive fluxes of TiO 2 , Al 2 O 3 , and SiO 2 are strongly coupled to the concentration gradients of CaO and FeO. Anorthosite dissolution may play an important role in producing the chemical variability of the lunar picritic magmas, the origin of spinel in the lunar basalts and picritic glasses, and the petrogenesis of the high-Al basalts.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Ferroan anorthosites (FANs) are a major component of the ancient lunar crust. According to the giant impact theory, lunar anorthosite crust was formed via plagioclase flotation in a globally distributed lunar magma ocean (e.g., <ref type="bibr" target="#b41">Warren, 1985;</ref><ref type="bibr" target="#b30">Papike et al., 1998;</ref><ref type="bibr">Shearer and Papike, 1999 and references therein)</ref>. The Mg-suite and alkali-suite plutonic rocks are samples from generally younger crustal intrusions. Plagioclase in FANs has a high anorthite content (An 94 -An 99 , typical modal abundance &gt; 90%). Mafic minerals in FANs are predominately low-Ca pyroxenes (Mg# $40-74) plus (typically) smaller amounts of olivine and traces of ilmenite, chromite, and Fe-Ni metal (e.g., <ref type="bibr">Papike et al., 1998 and references therein)</ref>. Whole rock and mineral compositions suggest that FANs crystallized from parent magmas after 75-80% crystallization of the lunar magma ocean (e.g., <ref type="bibr" target="#b38">Snyder et al., 1992)</ref>.</p><p>The younger ages of the lunar volcanic rocks relative to the anorthite-rich crust suggests that the mare basalts and picritic glasses may have interacted with plagioclase-rich lithologies before eruption on the surface. The nature of the interaction varies from assimilation and crystallization along the walls of magma conduit in the lunar crust to assimilation occurring in magma chambers within or at the base of the lunar crust. The extent of interaction between lunar magmas and anorthite-rich crust is a fundamentally important question in understanding the evolution of lunar magmas as well as the inferred properties of the mantle source regions.</p><p>Both thermal and chemical interactions between the magma and anorthosite crust are likely to play an important role in lunar picritic magma differentiation. Thermal interactions, driven by latent heat and differences in temperature between the magma and wallrock, result in 0016-7037/$ -see front matter Ó 2006 Elsevier Inc. All rights reserved. doi:10.1016/j.gca.2006.04.027 melting of the anorthite-rich wallrock and local crystallization of the picritic magma. Chemical interactions, driven by difference in composition or chemical potential between the melt and wallrock, result in anorthite-rich wallrock dissolution. To date, the most detailed study of anorthosite dissolution was conducted by <ref type="bibr" target="#b8">Finnila et al. (1994)</ref> in a high-Ti picritic magma. <ref type="bibr" target="#b8">Finnila et al. (1994)</ref> concluded that modification of the high-Ti picritic magmas by anorthosite assimilation is unlikely because the thermal constraints of melting and assimilation are too restrictive, and that the rates of anorthosite dissolution are too slow to allow significant modification of the magma compositions.</p><p>Coupling the thermal and the chemical constraints on anorthosite assimilation opens up some new possibilities not addressed by <ref type="bibr" target="#b8">Finnila et al. (1994)</ref>. Fig. <ref type="figure" target="#fig_0">1</ref> shows the forsterite-anorthite (Fo-An) phase diagram (after <ref type="bibr" target="#b25">Morse, 1994</ref>) and a hypothetical cross section through a magma filled dike within the lunar crust. The physical mechanisms explored by <ref type="bibr" target="#b8">Finnila et al. (1994)</ref> include melting of the anorthite-rich crust by intruding hot picritic magma coupled with mixing of the resulting melt with the intruding melt. <ref type="bibr" target="#b8">Finnila et al. (1994)</ref> argues that the energetics of the interactions between the hot picritic magma and the cold anorthite-rich crust will limit the amount of assimilation. However, the thermal constraints can be relaxed with observations of the Fo-An phase diagram and assumptions about the model systems. We envision a case where a hot olivine-saturated picritic magma intrudes a cooler anorthosite body (Fig. <ref type="figure" target="#fig_0">1b</ref>). The most important aspect of this process is that anorthosite assimilation will not necessarily result in significant olivine crystallization. Anorthosite assimilation into an olivine-saturated magma may lower the liquidus of the magma mixture (Fig. <ref type="figure" target="#fig_0">1a</ref>). As a hot olivine-saturated picritic magma dissolves the cooler anorthosite the temperature of the magma will decrease because of the energy required to dissolve anorthite. However, the change in magma chemistry resulting from anorthosite dissolution will lower the liquidus temperature of the magma. The exact behavior of the system will depend on the balance of energy lost due to anorthosite assimilation relative to the reduction of the liquidus temperature. It is possible that anorthosite assimilation will result in a local reduction in the crystallinity of the reacting melt, and potentially brings part of the system above the liquidus (thick dashed curve, Fig. <ref type="figure" target="#fig_0">1a</ref>). Physically this may mean that a crystal-free or spinel saturated reactive boundary layer develops between the olivine-saturated magma and the anorthosite host rock. Additionally, if we assume the volume of melt flowing through a dike in the crust is large, then it seems reasonable that the heat of the incoming magma will buffer the temperature of the wallrock preventing extensive cooling of the magma during assimilation. Other physical properties of the reacting magma such as density and viscosity will also be significantly modified by anorthosite assimilation.</p><p>In this paper, we present results from an experimental study of anorthosite dissolution in lunar picritic magmas with the purpose of exploring the possible interactions between picritic mare basalts and the lunar anorthosite crust. We explore the chemical and physical consequences of  In case 1 (C1), anorthosite dissolution was conducted at high temperatures so that the magma away from the anorthosite is crystal-free (1400 °C). In case 2 (C2), dissolution was conducted at temperatures low enough to stabilize spinel near the interface with the anorthosite (1250-1300 °C). In case 3 (C3), anorthosite dissolved into an olivine-saturated picritic magma, resulting in a spinel layer and a crystal-free region (1250-1300 °C). (b) A cross section through a hypothetical dike in the anorthosite crust. The left is the hotter olivine-saturated picritic magma, and the right is the cooler anorthosite crust. Separating the olivine-saturated magma from the anorthosite wallrock is a crystal-free region (d m ) and the spinel + liquid region (d s ). d a is the thermal boundary layer within the anorthosite. The thick dashed curve (temperature) and the thick solid curve (Al 2 O 3 concentration) are a suggested thermal-chemical path that may result when a high temperature olivine-saturated magma reacts with a cooler anorthosite crust.</p><p>anorthosite dissolution over a range of temperatures and in three different picritic magma compositions (Table <ref type="table">1</ref>). We then compare the chemical variations observed in the lunar picritic glasses and high-Al basalts with our experimental results and explore the extent of anorthosite assimilation in the petrogenesis of these mafic and ultramafic magmas.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental methods</head><p>Experiments characterizing anorthosite reactive dissolution in lunar picritic magmas were carried out at 1250-1400 °C and 0.6 GPa using a 19.1 mm piston-cylinder apparatus following the method of <ref type="bibr">Morgan and</ref><ref type="bibr">Liang (2003, 2005)</ref>. We acknowledge that the minimum pressures accessible by piston cylinder are deeper than the lunar crust. However, the differences in phase equilibria between our experimental pressure and that of the lunar crust is minor with shifts in the anorthite and spinel phase boundaries. We feel the use of the proven dissolution method far out weighed the minor differences in phase equilibria resulting from the differences in pressure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Sample preparation</head><p>The starting materials for the melts are a very low-Ti (VLT) Apollo 15 green glass <ref type="bibr" target="#b7">(Elkins-Tanton et al., 2003)</ref>, a low-Ti Apollo 15 yellow glass <ref type="bibr" target="#b33">(Shearer and Papike, 1993)</ref>, and a high-Ti Apollo 15 red glass <ref type="bibr" target="#b3">(Delano, 1980)</ref>, each synthesized from high purity oxides and carbonates (Table <ref type="table">1</ref>). In addition, an olivine-saturated low-Ti melt was made by adding 10wt% fine grained, optical clean olivine from Kilbourne Hole, NM (Mg# = 91, composition given in Table <ref type="table">1</ref> of <ref type="bibr" target="#b24">Morgan and Liang, 2005)</ref> to the low-Ti glass. The powders were carefully weighed and mixed together under ethanol in an agate mortar and pestle. Each powder was then run at 900 °C at the iron-wu ¨stite (IW) buffer in a mixed gas furnace for 1 h. The reduced and decarbonated powders were then reground under ethanol in the agate mortar and pestle for 20 min and stored in a 110 °C vacuum oven for at least 24 h. The anorthosite was created by crystallizing synthetic An100 glass powder at the same conditions as those of the dissolution experiments described below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Procedures</head><p>The furnace assembly consists of a molybdenum capsule sandwiched between two crushable MgO spacers in a graphite, Pyrex Ó , and salt sleeve. The molybdenum capsule (6.5 mm OD and 10 mm long) was lined with a platinum tube (4 mm OD, 3.8 mm ID) and a graphite inner sleeve (3.8 mm OD, 2 mm ID). Use of the graphite-and platinum-lined molybdenum (C-Pt-Mo) capsule eliminates sample-container reactions and assures reasonably good geometry of the dissolution couple (Fig. <ref type="figure" target="#fig_1">2</ref>).  Approximately cylindrical picritic glass and anorthosite rods were first synthesized separately using the C-Pt-Mo capsule at the same temperature and pressure as the actual dissolution experiments (1250-1400 °C, 0.6 GPa, 4-8 h for the picritic glasses and 8-24 h for the anorthosite, Table <ref type="table">2</ref>). After each synthesis run the molybdenum capsule was cut in half perpendicular to the cylindrical axis using a low speed diamond-wafering saw. The exposed surface was polished. The polished samples were then stored in a vacuum oven at 200 °C for at least 12 h to remove water that may have entered the capsule during the polishing.</p><p>The dissolution couple was made by juxtaposing 1/2 of a pre-synthesized anorthosite rod on top of 1/2 of a pre-synthesized picritic glass rod in the C-Pt-Mo capsule. A thin platinum sleeve was then placed around the dissolution couple. Platinum alloys with molybdenum at the run conditions and helps to prevent the two halves of the dissolution couple from separating upon decompression. The furnace assembly was then stored in a vacuum oven at 110 °C for at least 12 h. To conduct a dissolution run the charge was first cold pressurized to a pressure about 10-20% higher than the desired run pressure. The temperature was raised to 1000 °C at 75 °C/min, while maintaining the pressure at the prescribed run pressure (hot-piston in). After a 2 h pre-anneal at 1000 °C the temperature was then raised to the run temperature (1250-1420 °C) at 150 °C/min. At the end of the run, the temperature was dropped to 600 °C by a step change in temperature with no attempt to maintain the pressure. The charge was then held at 600 °C for $2 min before a final quench to room temperature. The quenched capsules were sectioned longitudinally, polished, and mounted for electron microprobe analysis. A slight difference in diameters between the two half cylinders containing the pre-synthesized materials (due to deformation during the synthesis run) results in a small offset at the original rock-melt interface and thus serves as a marker for distance measurements (Fig. <ref type="figure" target="#fig_1">2</ref>). Table <ref type="table">2</ref> lists the conditions used for all of the anorthosite dissolution experiments.</p><p>In all experiments the temperature was measured with a W 97 Re 3 -W 75 Re 25 thermocouple and a Eurotherm 818 controller. No pressure correction was applied to the measured e.m.f. Uncertainties in temperature measurements are about 10 °C, due mainly to the presence of a temperature gradient in the furnace (e.g., <ref type="bibr" target="#b0">Ayers et al., 1992;</ref><ref type="bibr" target="#b17">Liang et al., 1996)</ref>. The nominal pressure was not corrected for friction because pressure fluctuations during a typical run ($30 MPa) were comparable to the friction correction measured by <ref type="bibr" target="#b0">Ayers et al. (1992)</ref> for a similar furnace assemblage ($25 MPa).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Dissolution distance measurements</head><p>Backscattered electron (BSE) images were used to measure the dissolution distance. The dissolution distance is simply the distance between the original interface and the current interface. To avoid the complications resulting from the small offset at the original interface the dissolution distances were measured around the center of the charge a minimum of 5 times for each sample. The average measurements are reported in Table <ref type="table">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Microprobe analysis</head><p>Chemical analyses were conducted using a Cameca SX100 electron microprobe at Brown University. The analytical conditions for the glass were an accelerating voltage of 15-20 kV, and a beam current of 15-25 nA. A focused beam was used for glass analyses in quench-crystal-free glasses such as experiments dissolving anorthosite into VLT picritic glasses (runs Andis2 and Andis3). For the low-Ti and high-Ti glass experiments containing abundant quench growth, a 20-25 lm diameter beam was used for glass analyses in quench-crystal-bearing glasses (Andis4, Andis5, and Andis13). Counting times were 10-30 s for peak and 10-15 s for background positions. Natural mineral standards were used and the ZAF matrix correction was employed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head><p>Anorthosite dissolution in lunar picritic magmas was explored as a function of temperature and melt composition. The starting lunar picritic magmas are synthetic versions of a very low-Ti Apollo 15 green glass, a low-Ti Apollo 15 yellow glass, an olivine-saturated low-Ti melt, and a high-Ti Apollo 15 red glass (Table <ref type="table">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Types of anorthosite dissolution reactions</head><p>We conducted three types of anorthosite dissolution experiments, designated as cases C1, C2, and C3 in Fig. <ref type="figure" target="#fig_0">1</ref>. The first type of experiment is anorthosite dissolution into a crystal-free magma at 1400 °C (case C1). The starting liquid composition is specified by the X in Fig. <ref type="figure" target="#fig_0">1</ref>, the anorthite composition by the filled circle, and the interface melt composition by the open circle. Case C2 illustrates lower temperature experiments (1250-1300 °C) in which spinel crystallized from the melt near the anorthosite interface. And case C3 represents experiments conducted at 1250-1300 °C but with 10% olivine added to the low-Ti glass to ensure olivine saturation.</p><p>The experiments dissolving anorthosite into an initially olivine-saturated liquid (case C3) produced a spinel + liquid region and a crystal-free region (Fig. <ref type="figure" target="#fig_1">2a</ref>). The development of the spinel + liquid region as well as the crystal-free region can be explained with the help of Fig. <ref type="figure" target="#fig_0">1</ref> (cases C1 and C3). The composition of the melt at the interface with the anorthosite is approximately in equilibrium with anorthite, but the composition varies away from the interface, becoming more enriched in the olivine components, moving the composition into the spinel + liquid region. As the Fo content of the liquid increases the bulk liquid composition enters the crystal-free melt, before entering the olivine + melt region.</p><p>In all 1250 and 1300 °C experiments spinel was stabilized in the melt next to the picritic magma-anorthosite interface. The morphology of the spinel-rich region has a waviness to it, suggestive of a Rayleigh-Taylor instability <ref type="bibr">(Figs. 2 and 3;</ref><ref type="bibr" target="#b22">Michioka and Sumita, 2005)</ref>. In the 1 and 2 h spinel-bearing experiments (Andis11 and Andis12) the spinel + liquid region developed drips that extend below the original interface (Fig. <ref type="figure" target="#fig_2">3</ref>).</p><p>In the 1400 °C anorthosite dissolution experiments corresponding to case C1 in Fig. <ref type="figure" target="#fig_0">1a</ref>, the anorthosite simply dissolves into the crystal-free melt without spinel crystalli-zation or olivine dissolution. At the anorthosite-melt interface a 22-185 lm thick layer of anorthite quench crystals developed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Anorthosite dissolution rate</head><p>Fig. <ref type="figure">4</ref> is a plot of our measured dissolution distances as a function of the square root of time. The parabolic growth kinetics (linear in this plot) for the short duration dissolution experiments (61 h, Fig. <ref type="figure">4</ref>) are consistent with diffusive dissolution in a semi-infinite geometry <ref type="bibr" target="#b47">(Zhang et al., 1989;</ref><ref type="bibr" target="#b13">Liang, 1999</ref><ref type="bibr" target="#b14">Liang, , 2000</ref><ref type="bibr" target="#b15">Liang, , 2003))</ref>. At later times, diffusion modifies the composition of the picritic melt throughout the capsule  <ref type="figure">4</ref>. Plot of measured dissolution distance against the square root of time. The actual measurements are the symbols and the lines are best fit to the data. The measurement errors are smaller than the size of the symbols. The star is a VLT dissolution experiment Andis1 (1420 °C, 0.6 GPa, 8 h) where the experimental duration was long enough that diffusion has modified the composition of the far field melt. The open upside down triangle (open diamond) is an anorthosite dissolution experiment in the low-Ti magma dopped with 10% olivine at 1250 °C (1300 °C). The filled upside down triangle (filled diamond) is an anorthosite dissolution experiment in the low-Ti magma at 1250 °C (1300 °C). For comparison the lower line is for anorthite dissolution in a terrestrial andesite liquid from <ref type="bibr" target="#b40">Tsuchiyama (1985)</ref>.</p><formula xml:id="formula_0">/2 (s 1/2 ) 1 ( a m a y i h c u s T : C 0 0 4 1 ) 5 8 9 8 (hrs) 4 1 0.5 0.1 C 0 5 2 1 0 0 3 1 C ˚C 0 0 4 1 0 0 4 1 C high-Ti (1400˚C) low-Ti (1400˚C) VLT (1400˚C) low-Ti low-Ti + 10% Ol ( e c n a t s i D n o i t u l o s s i D μ ) m Fig.</formula><p>reducing the dissolution rate, as illustrated by the 8 h dissolution experiment (star in Fig. <ref type="figure">4</ref>, 1420 °C and 0.6 GPa, also see Fig. <ref type="figure" target="#fig_2">3b</ref> of <ref type="bibr" target="#b15">Liang, 2003)</ref>. Fig. <ref type="figure">4</ref> shows that the rate of anorthosite dissolution in the lunar picritic magmas is considerably faster than the rate of plagioclase dissolution in a terrestrial andesite (1400 °C and 1 bar, <ref type="bibr" target="#b40">Tsuchiyama, 1985)</ref>.</p><p>The dissolution rates for the three sets of 1400 °C experiments are the best constrained with 2 or 3 dissolution experiments. For comparison, we have also included our lower temperature dissolution runs (1250 and 1300 °C) in which 10% olivine was added to the low-Ti magma to force olivine saturation (Andis12 and Andis13). The filled triangle and diamond in Fig. <ref type="figure">4</ref> are anorthosite dissolution experiments conducted in the low-Ti magma without olivine addition, but at the same pressure and temperature. As expected the addition of normative olivine to the low-Ti magma drives the melt farther away from equilibrium with the anorthosite, increasing the dissolution rate.</p><p>Fig. <ref type="figure">5</ref> is a plot of the anorthosite diffusive dissolution rate in the VLT, low-Ti, and high-Ti magmas as a function of temperature. The points at 1400 °C are an average of the 2 or 3 experiments and all other points are from single runs. The experiments conducted in the low-Ti magma over a range in temperatures allow us to estimate an apparent activation energy for the anorthosite dissolution reactions. From a linear least squares analysis of the low-Ti dissolution rates we obtained an apparent activation energy of 166 ± 17 kJ mol À1 for the dissolution reaction. Our estimated activation energy for anorthosite dissolution in the low-Ti magma is within the range of self diffusion of Si (181 kJ mol À1 ), Ca and Mg (143 kJ mol À1 and 148 kJ mol À1 , respectively) in a diopside melt <ref type="bibr" target="#b37">(Shimizu and Kushiro, 1991)</ref> and is consistent with chemical diffusion of CaO (192 kJ mol À1 ) and SiO 2 (217 kJ mol À1 ) in a CAS liquid when the melt compositions are adjusted (45wt% SiO 2 , 35% CaO, 20% Al 2 O 3 ; <ref type="bibr" target="#b16">Liang and Davis, 2002)</ref>. This suggests that anorthosite diffusive dissolution is rate-limited by chemical diffusion of the major elements in the melt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Melt chemistry</head><p>The concentration profiles developed during anorthosite dissolution are similar to those seen in previous diffusive dissolution studies (e.g., <ref type="bibr" target="#b42">Watson, 1982;</ref><ref type="bibr" target="#b47">Zhang et al., 1989;</ref><ref type="bibr" target="#b8">Finnila et al., 1994;</ref><ref type="bibr" target="#b13">Liang, 1999</ref><ref type="bibr" target="#b15">Liang, , 2003;;</ref><ref type="bibr">Morgan and</ref><ref type="bibr">Liang, 2003, 2005)</ref>. Fig. <ref type="figure" target="#fig_3">6</ref> is a plot of melt concentration as a function of position for anorthosite dissolution into the VLT, low-Ti and high-Ti picritic magmas. The concen-5.9 6.0 6.1 6.2 6.3 6.4 6.5 6.6 10000/T (K -1 ) tration profiles illustrate the similarities and differences resulting from anorthosite dissolution into 3 distinct picritic melt compositions. The profiles for CaO and Al 2 O 3 in the melt are similar for all three reacting melt compositions with high concentrations at the interface with the anorthosite (Fig. <ref type="figure" target="#fig_3">6</ref>). The different shapes of the CaO and Al 2 O 3 profiles (i.e., Al 2 O 3 is steeper) are primarily due to the different rates of diffusion in the melt (e.g., <ref type="bibr" target="#b42">Watson, 1982;</ref><ref type="bibr" target="#b47">Zhang et al., 1989;</ref><ref type="bibr" target="#b13">Liang, 1999</ref><ref type="bibr" target="#b15">Liang, , 2003))</ref>. The profiles for FeO and TiO 2 increase from the low concentration at the anorthosite-melt interface into the unmodified melt. The profiles for SiO 2 depend on the composition of the reacting melt. In the high-Ti picritic magma (Andis5), the SiO 2 profile decreases monotonically from the anorthosite-melt interface to 37% at the far field. In contrast, the SiO 2 profiles in the VLT and low-Ti picritic magmas (Andis2 and Andis4, respectively) show a pronounced feature resulting from uphill diffusion, i.e., diffusion against its own concentration gradient (e.g., <ref type="bibr" target="#b47">Zhang et al., 1989;</ref><ref type="bibr" target="#b43">Watson and Baker, 1991;</ref><ref type="bibr" target="#b17">Liang et al., 1996</ref><ref type="bibr" target="#b18">Liang et al., , 1997;;</ref><ref type="bibr" target="#b31">Richter et al., 1998)</ref>. Fig. <ref type="figure" target="#fig_4">7a</ref> is a plot of CaO vs. Al 2 O 3 in the reacting melts from our dissolution experiments. Fig. <ref type="figure">8a</ref> is a ternary plot of MgO, TiO 2 , and Al 2 O 3 in the same melts. Diffusive dissolution produces nonlinear concentration profiles when viewed in element correlation diagrams. The nonlinear profiles are directly related to differences in the chemical diffusivities of the oxide components in the melt.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Melt density and viscosity</head><p>Melt density and viscosity depend strongly on its composition. Fig. <ref type="figure">9</ref> displays the calculated melt density and viscosity for runs Andis2 (VLT), Andis4 (low-Ti) and Andis5 (high-Ti). The density and viscosity were calculated from their compositions using the formulations of <ref type="bibr" target="#b11">Lange and Carmichael (1990)</ref> and <ref type="bibr" target="#b32">Shaw (1972)</ref>, respectively. The high-Ti magma has the lowest viscosity and highest density (0.17 Pa s and 3110 kg m À3 ), the VLT magma has an intermediate viscosity and the lowest density (0.61 Pa s and 2880 kg m À3 ), and the low-Ti magma has the highest viscosity and an intermediate density (0.64 Pa s and 2970 kg m À3 ) at 1400 °C (Fig. <ref type="figure">9</ref>). Recorded in the composition profiles are systematic variations in melt density from a minimum of approximately 2750 kg m À3 near the anorthosite-magma interface to the respective unmodified magma densities. Similarly, the magma viscosities also vary as a function of position, with the maximum viscosity of approximately 3 Pa s near the anorthosite-magma interface and decreasing to the unmodified magma viscosities of 0.2-0.6 Pa s (Fig. <ref type="figure">9b</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Kinetics of anorthosite dissolution in lunar picritic magmas</head><p>The anorthosite dissolution rates are a function of the transport properties of the magma (i.e., diffusivities and viscosity) and the extent of undersaturation of anorthite in the dissolving liquids (e.g., <ref type="bibr" target="#b47">Zhang et al., 1989;</ref><ref type="bibr" target="#b13">Liang, 1999)</ref>. From the concentration profiles developed in the anorthosite dissolution experiments we can estimate the diffusivities of the oxide species in the melt.</p><p>The simplest method of describing diffusion in a multicomponent system is the effective binary diffusion approach whereby coupled chemical diffusion is simplified  <ref type="bibr" target="#b4">(Delano, 1986;</ref><ref type="bibr" target="#b33">Shearer and Papike, 1993)</ref>; the black open circles are the low-Ti picritic glasses <ref type="bibr" target="#b4">(Delano, 1986;</ref><ref type="bibr" target="#b9">Hughes et al., 1988;</ref><ref type="bibr" target="#b33">Shearer and Papike, 1993)</ref>; the filled gray circles are the VLT picritic glasses <ref type="bibr" target="#b4">(Delano, 1986;</ref><ref type="bibr" target="#b33">Shearer and Papike, 1993;</ref><ref type="bibr" target="#b6">Elkins et al., 2000)</ref>. The thick dashed line is a linear regression to all of the reported picritic glass data extrapolated to 35% Al 2 O 3 . The field corresponds to the high-Al basalts <ref type="bibr" target="#b5">(Dickinson et al., 1985;</ref><ref type="bibr" target="#b28">Neal et al., 1989)</ref>. The open gray circles and the crosses correspond to the lunar anorthite compositions, where the circles are from <ref type="bibr" target="#b29">Papike et al. (1996)</ref>, the crosses are from <ref type="bibr" target="#b35">Shervais and McGee (1998)</ref>, and the open triangle is the pure anorthite used in our experiments. Profiles resulting from the anorthosite dissolution experiments are runs Andis2 and Andis3 (VLT picritic glasses, filled gray squares and circles, respectively), Andis4 and Andis13 (low-Ti picritic glasses, open triangles, and diamonds, respectively), and Andis5 (high-Ti picritic glass, filled upside down triangles). The low-Ti and high-Ti profiles were calculated using Eqs. A3 in Appendix A, the diffusion matrices reported in Table <ref type="table" target="#tab_3">3</ref>, and a series of different initial melt compositions. The VLT profile was modeled using the EBDCs estimated from the low-Ti diffusion matrix. The initial melt compositions were chosen to correspond to the low, intermediate, and high CaO and Al 2 O 3 contents for each class of picritic glasses. The solid composition and the interface melt compositions were similar to our experiments.</p><p>by an effective binary diffusion coefficient (EBDC, e.g., <ref type="bibr" target="#b1">Cooper, 1968;</ref><ref type="bibr" target="#b42">Watson, 1982;</ref><ref type="bibr" target="#b47">Zhang et al., 1989</ref>; also see Eq. (1a) below). As a first step we tried modeling the concentration profiles shown in Fig. <ref type="figure" target="#fig_3">6</ref> using the effective binary approach. However, the concentration profiles developed during anorthosite dissolution show uphill diffusion in SiO 2 that cannot be accounted for by an EBDC (dashed line in Fig. <ref type="figure" target="#fig_6">10a</ref>). To include SiO 2 in our model calculations, we expand the effective binary approach by introducing an effective diffusion matrix. In this expanded, yet still simplified approach, we take MgO as the dependent variable and allow the diffusive flux of SiO 2 , Al 2 O 3 , or TiO 2 to couple with the concentration gradients of CaO and FeO. For simplicity we also assume that diffusive couplings among SiO 2 , Al 2 O 3 , and TiO 2 are negligibly small compared to their respective diagonal terms. These simplifications are consistent with the observed diffusive coupling behaviors in the ternary CaO-Al 2 O 3 -SiO 2 and MgO-Al 2 O 3 -SiO 2 , and quaternary CaO-MgO-Al 2 O 3 -SiO 2 systems <ref type="bibr" target="#b17">(Liang et al., 1996;</ref><ref type="bibr" target="#b31">Richter et al., 1998)</ref>. The effective diffusion matrices reported below, though incomplete, contain the minimum number of components needed to adequately describe the first order diffusive behavior of the multicomponent system.</p><p>To proceed, we follow the methods of <ref type="bibr" target="#b13">Liang (1999)</ref> for diffusive dissolution in molten silicates to estimate the effective diffusion matrices for the low-Ti and high-Ti picritic magmas. The exact solution for diffusive dissolution in our simplified system is outlined in Appendix A. The diffusion matrices for the low-Ti and high-Ti melts were inverted from the concentration profiles using the Levenberg-Marquardt method and Eqs. (A.3a)-(A.3c) in Appendix A. Because diffusion clearly modified the far field melt composition in the VLT dissolution experiment (Andis2) we could not estimate the diffusion matrix for All three experiments were conducted at 1400 °C and 0.6 GPa. The densities were calculated using the method of <ref type="bibr" target="#b11">Lange and Carmichael (1990)</ref>. The viscosities were calculated using the method of <ref type="bibr" target="#b32">Shaw (1972)</ref>.</p><p>The positions have been normalized to compare the profiles from experiments run for different times. The original interface between the anorthosite and the picritic glasses was at position 0.</p><p>this melt. Table <ref type="table" target="#tab_3">3</ref> shows diffusion matrices estimated for the low-Ti and high-Ti picritic magmas. The relatively large uncertainties associated with the off diagonal terms of the diffusion matrices are due mainly to the fact that our reported diffusion matrices in Table <ref type="table" target="#tab_3">3</ref> were inverted from diffusive dissolution experiments conducted along only one direction in compositional space (e.g., <ref type="bibr" target="#b12">Liang, 1994;</ref><ref type="bibr" target="#b39">Trial and Spera, 1994)</ref>. Fig. <ref type="figure" target="#fig_6">10</ref> compares the mea-sured and calculated concentration profiles of SiO 2 , Al 2 O 3 , and TiO 2 resulting from anorthosite dissolution in the low-Ti magma using the diffusion matrix (solid lines) and the EBDCs (dashed lines) listed in Table <ref type="table" target="#tab_3">3</ref>. The relative strength of diffusive coupling can be estimated by comparing the magnitude of the product of the diagonal terms |D ii DC i | with the off diagonal terms |D ij DC j | <ref type="bibr" target="#b12">(Liang, 1994</ref><ref type="bibr" target="#b13">(Liang, , 1999))</ref>, where D ii , and D ij are the diagonal and off diagonal terms of the diffusion matrix, respectively; DC i and DC j are the composition differences for component i and j, respectively. If the magnitudes of the product of the off diagonal terms are comparable to or larger than those of the diagonal terms, coupled diffusion is important. In this way we find strong diffusive coupling of TiO 2 , Al 2 O 3 and SiO 2 with CaO and FeO in both the low-Ti and high-Ti dissolution experiments. Our dissolution experiments and estimated diffusion matrices show that the simpler EBDC approach to modeling the interactions of SiO 2 between the picritic magmas and the anorthosite is inadequate and the use of an effective diffusion matrix is required.</p><p>In order to compare our measured diffusivities with those of the previous studies (e.g., <ref type="bibr" target="#b8">Finnila et al., 1994)</ref> we estimated EBDCs from our diffusion matrix. To estimate the EBDCs we note that the net flux of component i for multicomponent diffusion must equal to the Fick's law flux for component i. We use the following expression to estimate the EBDCs <ref type="bibr" target="#b1">(Cooper, 1968)</ref>:</p><formula xml:id="formula_1">D E i oC i ox ¼ D iÀCaO oC CaO ox þ D iÀFeO oC FeO ox þ D ii oC i ox ;<label>ð1aÞ</label></formula><formula xml:id="formula_2">oC i ox ¼ C i1 À C i0 L ;<label>ð1bÞ</label></formula><p>where D E i is the EBDC of component i; D iÀCaO and D iÀFeO are coupled diffusion coefficients (Table <ref type="table" target="#tab_3">3</ref>); D ii is the diagonal term of the diffusion matrix (Table <ref type="table" target="#tab_3">3</ref>); L is the diffusive length scale; i is the species of interest (Al 2 O 3 , TiO 2 or SiO 2 ); C i1 is the initial concentration of species i in the melt, and C i0 is the concentration of species i at the interface with the anorthosite. As shown in Table <ref type="table" target="#tab_3">3</ref>, our estimated EBDC for Al 2 O 3 is 4.5 • 10 À11 m 2 s À1 for the low-Ti glass and 6.8 • 10 À11 m 2 s À1 for the high-Ti glass, which are approximately the same order of magnitude as the EBDC of Al 2 O 3 found by <ref type="bibr" target="#b8">Finnila et al. (1994)</ref> in their FeO-free system at approximately the same temperature. The estimated EBDCs for TiO 2 , Al 2 O 3 and SiO 2 in the high-Ti magma are slightly larger than those of the low-Ti magma, whereas the EBDCs for CaO and Al 2 O 3 in the low-Ti magma are slightly larger than those in high-Ti magma.</p><p>The dissolution rate depends on the transport properties of the melt (e.g., diffusivities and viscosity), the thermodynamic driving force, and the style of dissolution (convective vs. diffusive). The chemical potential gradients driving anorthite dissolution are related to the degree of undersaturation of the dissolving magma with respect to anorthite. To compare our measured anorthosite dissolution rates with that reported by <ref type="bibr" target="#b40">Tsuchiyama (1985)</ref> we use the degree of undersaturation defined by <ref type="bibr" target="#b47">Zhang et al. (1989)</ref> and <ref type="bibr" target="#b13">Liang (1999)</ref>:</p><formula xml:id="formula_3">H ¼ C 10 À C 11 C s1 À C 10 ;<label>ð2Þ</label></formula><p>where C 11 is the concentration of the reference species in the unmodified melt; C s1 is the concentration in the solid; and C 10 is the concentration in the interface melt (see Fig. <ref type="figure" target="#fig_6">10</ref> for a definition of the symbols). Assuming Al 2 O 3 is the rate-limiting species the degree of undersaturation ranges from 6.6 to 7.1 for the lunar picritic magmas relative to 0.2 for the andesitic composition of <ref type="bibr" target="#b40">Tsuchiyama (1985)</ref>. Hence, the faster anorthite dissolution in the lunar picritic magmas is at least in part due to the larger degree of undersaturation of the picritic magmas with respect to anorthite. Diffusive dissolution is not the dominant mechanism of mass transfer during anorthosite assimilation on the moon. Magma flowing through or stored in the crust can assimilate anorthosite more efficiently by melting and/or convective dissolution. Convective dissolution is characterized by a boundary layer separating the solid from the wellmixed melt. Within the boundary layer, mass transfer is dominated by diffusion. As a consequence the chemical variations resulting from convective dissolution are approximately the same as diffusive dissolution <ref type="bibr" target="#b2">(Cussler, 1997)</ref>. The rates of convective dissolution are expected to be greater than the rates of diffusive dissolution. The rates of convective dissolution can be estimated using the simple expression (e.g., <ref type="bibr" target="#b47">Zhang et al., 1989;</ref><ref type="bibr" target="#b10">Kerr, 1995)</ref>:</p><formula xml:id="formula_4">V ¼ D E f d H;<label>ð3Þ</label></formula><p>where V is the convective dissolution rate (m/s); D E f is the EBDC of the rate-limiting species in the melt (m 2 /s); d is the boundary layer thickness (m); and H is the degree of undersaturation defined in Eq. ( <ref type="formula" target="#formula_3">2</ref>). The boundary layer thickness can be approximated using the expression (Cussler, 1997):</p><formula xml:id="formula_5">d ¼ d Sh ;<label>ð4Þ</label></formula><p>where d is the diameter of the melt filled tube and Sh is the Sherwood number. The dimensionless Sherwood number is a measure of the rate of total mass transfer to the rate of pure diffusive mass transfer (e.g., <ref type="bibr" target="#b2">Cussler, 1997)</ref>:</p><formula xml:id="formula_6">Sh ¼ kl D E f ;<label>ð5Þ</label></formula><p>where k is the mass transfer coefficient (m/s); and l is the length scale (m). Mass transfer coefficients depends strongly on the physical properties of the fluid as well as the styles of fluid-solid interaction. Fig. <ref type="figure" target="#fig_0">11</ref> plots the rates of convective dissolution as a function of the degree of undersaturation (H) and the Sherwood number. The following parameters were used to calculate the mass transfer coefficient (k) in the boundary layer thickness calculation and are consistent with dike analysis for the moon: an initial dike diameter of 5 m, pipe length of 60 km, a melt velocity of 0.5 m s À1 <ref type="bibr" target="#b45">(Wilson and Head, 2003)</ref> and the densities and viscosities from Fig. <ref type="figure">9</ref>. Using these parameters, we found the boundary layer thickness for the picritic magmas are 0.6% and 0.01% of the dike diameter for laminar flow and turbulent flow in a tube, respectively. The degree of undersaturation (H) ranged from 6.6 to 7.1 for the picritic glasses reported in Table <ref type="table">1</ref>. The rates of convective dissolution during laminar and turbulent flow in a tube are approximately a factor of 2 and 10 times larger than the rates of diffusive dissolution, respectively. The results of these calculations suggest that the lunar picritic magmas are capable of assimilating significant amounts of lunar crustal materials. However, relative to the amount of melt flowing in a dike the total amount anorthite assimilated is small and the total effect on magma chemistry will be relatively small, which is consistent with a Diffusion coefficients in •10 À11 m 2 s À1 . b ±1r errors are calculated directly from each inversion. c Effective binary diffusion coefficients (EBDC) estimated from the diffusion matrix. The numbers in the parenthesis are the EBDC calculated using the approach of <ref type="bibr" target="#b47">Zhang et al. (1989)</ref>.</p><p>previous work on anorthosite assimilation <ref type="bibr" target="#b8">(Finnila et al., 1994)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Consequences of anorthosite assimilation in lunar magmas</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Lunar picritic magmas</head><p>Aside from the thermal constraints, a key to <ref type="bibr">Finnila et al.'s (1994)</ref> argument is the trend in the picritic glass compositions. <ref type="bibr" target="#b8">Finnila et al. (1994)</ref> observed that there is a well-defined trend of increasing CaO and Al 2 O 3 in the picritic glass compositions. We have reproduced the plot of CaO vs. Al 2 O 3 including a greater number of picritic glass compositions in Fig. <ref type="figure" target="#fig_4">7</ref>  <ref type="bibr" target="#b3">(Delano, 1980</ref><ref type="bibr" target="#b4">(Delano, , 1986;;</ref><ref type="bibr" target="#b9">Hughes et al., 1988;</ref><ref type="bibr" target="#b33">Shearer and Papike, 1993;</ref><ref type="bibr" target="#b7">Elkins-Tanton et al., 2003)</ref>. When extrapolated to Al 2 O 3 concentrations consistent with anorthite, the trend defined by <ref type="bibr" target="#b8">Finnila et al. (1994)</ref> does not intersect the measured lunar anorthite compositions. Instead, it extends to higher CaO contents than the pure anorthite endmember, making the apparent misfit even worse when compared with actual lunar anorthite compositions (light hatched field in Fig. <ref type="figure" target="#fig_4">7</ref>). While the study of <ref type="bibr" target="#b8">Finnila et al. (1994)</ref> explored anorthosite assimilation by dissolution as well as melting, they did not explore how the different mechanisms would add the dissolved anorthite components to the melt. As shown in Fig. <ref type="figure" target="#fig_4">7</ref>, the composition profiles are not a simple linear mixture of the two endmembers, instead more complicated nonlinear profiles are developed. The nonlinear trend resulting from diffusive dissolution of anorthosite (and precipitation of spinel) diverges from the picritic glass derived best fit line and connects the initial picritic glass compositions to anorthite compositions.</p><p>Fig. <ref type="figure">8</ref> shows the covariation of MgO, TiO 2 , and Al 2 O 3 in ternary composition space that illustrates the composition profiles developed between anorthite and the initial magma compositions in our dissolution experiments. If we consider all of the picritic glasses as a group they define a trend of increasing TiO 2 with relatively large scatter in the MgO and Al 2 O 3 contents. This scatter in the MgO and Al 2 O 3 abundance of the picritic glasses at a constant TiO 2 may result from anorthosite assimilation. We speculate that the picritic glasses with the lowest Al 2 O 3 contents experienced the least amount of anorthite addition, while the picritic glasses with the highest Al 2 O 3 contents experienced the most.</p><p>There are numerous picritic glass compositions and we have explored anorthosite dissolution into only three different picritic melts in our experiments. Our results were extended to a greater variety of starting picritic glass compositions using the exact solution for mineral dissolution from Appendix A (Eqs. (A.3a)-(A.3c)) and the estimated effective diffusion matrix from Table <ref type="table" target="#tab_3">3</ref>. Since an effective diffusion matrix for the VLT melt is not available, we used the EBDCs estimated from the low-Ti magma to generate approximate concentration profiles for anorthosite dissolution in the VLT glasses. We chose three compositions from each of the VLT, low-Ti and high-Ti picritic glasses. The three initial compositions chosen correspond to a low, an intermediate, and a high CaO and Al 2 O 3 composition glass. Lacking better phase equilibria data we assume the composition of melt in equilibrium with anorthite is approximately the same as our experimental compositions when extrapolated to the anorthosite-melt interface. The results of these calculations are shown as dashed or solid lines in Figs. <ref type="figure" target="#fig_4">7b</ref> and<ref type="figure">8b</ref>. For clarity, our measured dissolution profiles were left off, but the other lunar data is included for comparison. Even when picritic glass compositions are changed, the profiles remain qualitatively the same. With these simplified models, we can produce an entire field of compositional profiles that are similar to our experimental results yet still remain chemically restricted in plots of CaO vs. Al 2 O 3 (Fig. <ref type="figure" target="#fig_4">7b</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">High-Al basalts</head><p>An interesting application of our anorthosite assimilation experiments is the origin of the high-Al basalts. Previous models for the petrogenesis of the high-Al basalts have primarily focused on partial melting, fractional crystallization, assimilation or some combination of these processes <ref type="bibr" target="#b5">(Dickinson et al., 1985;</ref><ref type="bibr" target="#b36">Shervais et al., 1985;</ref><ref type="bibr">Neal and</ref><ref type="bibr">Taylor, 1988, 1990;</ref><ref type="bibr" target="#b28">Neal et al., 1989)</ref>. <ref type="bibr" target="#b5">Dickinson et al. (1985)</ref> proposed a model that combines partial melting of a predominantly olivine + pyroxene source coupled with assimilation of a KREEP rich material. <ref type="bibr" target="#b28">Neal et al. (1989)</ref> suggested a model that involves assimilation of KREEP (2) and the Sherwood number is defined by Eq. ( <ref type="formula" target="#formula_6">5</ref>). The lunar picritic magmas field is defined by calculating the degree of undersaturation for the picritic glasses reported by <ref type="bibr" target="#b4">Delano (1986)</ref>, <ref type="bibr" target="#b9">Hughes et al. (1988)</ref>, <ref type="bibr" target="#b33">Shearer and Papike (1993)</ref> and <ref type="bibr" target="#b6">Elkins et al. (2000)</ref> and by calculating the Sherwood number for laminar and turbulent flow in a tube <ref type="bibr" target="#b2">(Cussler, 1997)</ref>. The field <ref type="bibr" target="#b40">Tsuchiyama (1985)</ref> is defined by calculating the degree of undersaturation for their anorthite dissolution in a terrestrial andesite composition. and fractional crystallization. Here, we focus on the systematics of the major elements in high-Al basalt.</p><p>In Figs. 7 and 8 we include the high-Al basalt compositions reported by <ref type="bibr" target="#b5">Dickinson et al. (1985)</ref>, <ref type="bibr" target="#b28">Neal et al. (1989)</ref> and <ref type="bibr" target="#b27">Neal and Taylor (1990)</ref>. Assuming that the initial liquids parental to the high-Al basalts have chemical trends similar to the picritic glasses, then it is feasible that the composition of high-Al basalts result, at least in part, from anorthosite assimilation. In the plots of CaO vs. Al 2 O 3 , anorthite assimilation starting with an initial liquid similar to picritic glass in composition results in profiles passing through the high-Al basalt field (Figs. <ref type="figure" target="#fig_4">7a</ref> and<ref type="figure">b</ref>). However, when the plots include other components, only the low-Ti picritic glass compositions pass through the high-Al basalt field (Figs. <ref type="figure">8a</ref> and<ref type="figure">b</ref>). The limited TiO 2 variability may be the result of the small population size or a common source region for all of the high-Al basalts <ref type="bibr" target="#b5">(Dickinson et al., 1985;</ref><ref type="bibr" target="#b28">Neal et al., 1989, Neal and</ref><ref type="bibr" target="#b27">Taylor, 1990)</ref>. In our experiments with an olivine-saturated magma reacting with the anorthosite, the combination of olivine modification of the melt coupled with anorthosite assimilation results in a composition profile that almost perfectly fits the observed high-Al basalt compositions. The concentration profile starts within the olivine + picritic magma field as predicted by the phase diagram, then passes into a crystal-free region, and then into the melt + spinel region before reaching the interface with the anorthosite (Figs. 1, 7, and 8).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.">Spinel in lunar basalts and picritic magmas</head><p>Spinel growth during the reaction between anorthosite and picritic magmas may be additional evidence for the interaction of the lunar magmas with anorthositic crust. Spinel is a minor but apparently ubiquitous phase in mare basalts, lunar picritic glasses and the Mg-suite rocks (e.g., <ref type="bibr" target="#b20">Longhi, 1992;</ref><ref type="bibr" target="#b30">Papike et al., 1998;</ref><ref type="bibr" target="#b44">Weitz et al., 1999;</ref><ref type="bibr" target="#b21">McCallum and Schwartz, 2001)</ref>. This suggests that either spinel is a ubiquitous phase in the lunar mantle and that the melting relations producing these various rock types always resulted in spinel addition to the melt or that a common process such as anorthosite assimilation occurred to all of the lunar igneous magmas. With a globally distributed anorthite-rich crust it seems likely that at least some of the spinels observed in lunar magmas are the result of anorthosite assimilation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4.">Preservation of reacted melt</head><p>The physical and chemical properties of the melt modified by anorthosite dissolution will have important implications for dike propagation and melt flow through the lunar crust. Models of dike propagation (e.g., <ref type="bibr" target="#b19">Lister and Kerr, 1991;</ref><ref type="bibr" target="#b45">Wilson and Head, 2003)</ref> utilize hydraulic fracture of the rock to accommodate dike formation. The hydraulic fracturing and physical properties of dikes produced will be a function of the magma density and viscosity. As shown in Fig. <ref type="figure">9</ref>, anorthosite dissolution has a strong effect on both the density and viscosity of the magma near the magmawallrock interface. The physical and chemical properties of the thermo-chemical boundary layer are distinct from those of the reacting melt and must be included in order to model dike propagation through the lunar crust.</p><p>Melt-rock reaction occurs at magma-wallrock interface and hence is a local phenomenon. Given the highly turbulent nature of convective flow in large magma conduits, it is virtually impossible to prevent the reacted melt within the reactive boundary layer (d m in Fig. <ref type="figure" target="#fig_0">1b</ref>) from mixing with the through-going picritic magmas, especially at greater depth. At shallower depths or near surface conditions where the distance over which the melts have left to travel before eruption is small, mixing between the reacted and unreacted melts may not be complete for two reasons: (1) the densities (viscosities) of the high-Al 2 O 3 melts within d m are smaller (larger) than those of the unreacted picritic magmas, making them easier to separate or detach from the boundary layer; and (2) the segregated melts will have a better chance to preserve their chemical identity if the size of the magma conduit is small and the geometry of the conduit is not vertical, i.e., in a side branch of the main dike. Hence the volume of the partially preserved boundary layer melts is likely to be very small. In separate dike systems, the picritic magmas may originate from the relatively unmodified central region of a dike, away from the boundary layers along the walls of the dike. In contrast, the high-Al basalts may originate from within the chemically modified boundary layer near the edge of the dike. Chemically distinct magmas such as the picritic magmas and the high-Al basalts may result from different extents of crustal assimilation rather than differences in their source regions. More detailed studies are needed to further quantify this model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Summary and conclusions</head><p>As pointed out by <ref type="bibr" target="#b8">Finnila et al. (1994)</ref> both melting and dissolution may have played an important role in anorthosite assimilation during magma transport through the lunar crust. Although the driving forces for melting and dissolving are different (thermal vs. chemical, e.g., <ref type="bibr" target="#b46">Woods, 1992)</ref>, the chemical trends that developed during contact melting of the anorhositic crust are expected to be similar to those developed during anorthosite dissolution, at least within the thermal-chemical boundary layer. Hence the results from this study are also relevant to anorthosite assimilation via melting. The main conclusions of this study can be summarized as follows:</p><p>1. Lunar picritic magmas are strongly undersaturated with respective to anorthite. Consequently, anorthosite assimilation in the lunar picritic magmas is fast relative to that in terrestrial magmas. 2. Strong diffusive coupling is observed in lunar picritic magmas. The EBDC cannot adequately predict the diffusive behavior SiO 2 during magma-anorthosite interactions.</p><p>3. Diffusion-assisted assimilation results in nonlinear compositional profiles. The trend in increasing CaO and Al 2 O 3 of the picritic glasses is consistent with modification of the magma by anorthosite assimilation. 4. Anorthosite assimilation in an olivine-saturated picritic magma may decrease the crystallinity of the reacting magma and lower its liquidus temperature. 5. The major element compositions of high-Al basalt may, in part, be the product of anorthosite assimilation into picritic glasses. If the parent magma for the high-Al basalts is chemically similar to the picritic magmas, then the high-Al basalts may be a product of anorthosite assimilation. 6. Anorthosite assimilation depends strongly on temperature, potentially resulting in spinel growth. The minor but ubiquitous observation of spinel in a variety of lunar volcanic and plutonic rocks may be an indication of anorthosite assimilation. 7. Dike propagation models through the lunar crust must consider anorthosite assimilation because the compositional effects on magma density, viscosity and crystallinity are significant. 8. More realistic models of anorthosite assimilation that include phase equilibria, thermal and chemical considerations of anorthosite-melt reaction are required in order to fully understand the role of anorthosite assimilation in lunar magma differentiation process.</p><formula xml:id="formula_7">oC 1 ot ¼ D 11 o 2 C 1 ox 2 þ D 12 o 2 C 2 ox 2 þ D 13 o 2 C 3 ox 2 þ V oC 1 ox</formula><p>; for x &gt; 0;</p><p>ðA:1aÞ</p><formula xml:id="formula_8">oC 2 ot ¼ D 21 o 2 C 1 ox 2 þ D 22 o 2 C 2 ox 2 þ D 23 o 2 C 3 ox 2 þ V oC 2 ox</formula><p>; for x &gt; 0;</p><p>ðA:1bÞ</p><formula xml:id="formula_9">oC 3 ot ¼ D 31 o 2 C 1 ox 2 þ D 32 o 2 C 2 ox 2 þ D 33 o 2 C 3 ox 2 þ V oC 3 ox</formula><p>; for x &gt; 0;</p><p>ðA:1cÞ</p><p>where D ij are the elements of the diffusion matrix with the 4th component as the dependent variable and V is the dissolution rate. Here the reference frame is centered on the moving solid-melt interface (x = 0). Following <ref type="bibr" target="#b13">Liang (1999)</ref> we assume that the crystal and melt have the same density. The initial and boundary conditions are as follows: </p><formula xml:id="formula_10">C</formula><formula xml:id="formula_11">D 11 oC 1 ox x¼0 þ D 12 oC 2 ox x¼0 þ D 13 oC 3 ox x¼0 þ V ðC 10 À C s1 Þ ¼ 0;</formula><p>ðA:2dÞ</p><formula xml:id="formula_12">D 21 oC 1 ox x¼0 þ D 22 oC 2 ox x¼0 þ D 23 oC 3 ox x¼0 þ V ðC 20 À C s2 Þ ¼ 0;</formula><p>ðA:2eÞ</p><formula xml:id="formula_13">D 31 oC 1 ox x¼0 þ D 32 oC 2 ox x¼0 þ D 33 oC 3 ox x¼0 þ V ðC 30 À C s3 Þ ¼ 0;</formula><p>ðA:2fÞ</p><p>where C si are the concentration of i in the solid and C i0 are the concentration of the melt at the interface with the solid.</p><p>To simplify our calculations we estimate the diffusion matrix by assuming that the diffusive fluxes of CaO and FeO are not coupled to the concentration gradients of the higher charge species (TiO 2 , Al 2 O 3 , and SiO 2 ) and that the higher charge species do not couple with each other. This limits the number equations we need to solve to an effective quaternary system. Additionally, if we assume components 1 and 2 are the uncoupled CaO and FeO, then it minimizes the number of diffusion terms in Eqs. A1 and A2 (i.e., D 12 , D 13 and D 21 and D 23 are equal to 0). The exact solution to the quaternary system directly follows the ternary solution of <ref type="bibr" target="#b13">Liang (1999)</ref>, viz., In contrast to <ref type="bibr" target="#b13">Liang (1999)</ref> we use our independently measured dissolution distances (Fig. <ref type="figure">4</ref> and Table <ref type="table">2</ref>) and Eqs. (A.5) or (A.6) to calculate the a parameter.</p><formula xml:id="formula_14">C 1 ¼ C 11 þ ðC 10 À C 11 ÞE 1 ; ðA:<label>3aÞ</label></formula><formula xml:id="formula_15">C 2 ¼ C 21 þ ðC 20 À C 21 ÞE 2 ; ðA:<label>3bÞ</label></formula><formula xml:id="formula_16">C 3 ¼ C 31 À D 31 ðC 10 À C 11 Þ D 33 À D 11 E 1 À D 32 ðC 20 À C 21 Þ D 33 À D 22 E 2 þ ðC 30 À C 31 Þ þ D 31 ðC 10 À C 11 Þ D 33 À D 11 þ D</formula></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. (a) Cartoon of the forsterite-anorthite binary phase diagram (after<ref type="bibr" target="#b25">Morse, 1994)</ref>. Dashed lines in (a) correspond to either our experimental conditions (the thin dashed horizontal lines, C1-C3) or a hypothetical temperature-chemical distribution associated with olivine-saturated magma flowing in a dike through the anorthosite crust (thick dashed curve). The filled circles are the solid compositions, open circles are the liquidus composition and the Xs are the bulk composition of the reacting magma. In case 1 (C1), anorthosite dissolution was conducted at high temperatures so that the magma away from the anorthosite is crystal-free (1400 °C). In case 2 (C2), dissolution was conducted at temperatures low enough to stabilize spinel near the interface with the anorthosite (1250-1300 °C). In case 3 (C3), anorthosite dissolved into an olivine-saturated picritic magma, resulting in a spinel layer and a crystal-free region (1250-1300 °C). (b) A cross section through a hypothetical dike in the anorthosite crust. The left is the hotter olivine-saturated picritic magma, and the right is the cooler anorthosite crust. Separating the olivine-saturated magma from the anorthosite wallrock is a crystal-free region (d m ) and the spinel + liquid region (d s ). d a is the thermal boundary layer within the anorthosite. The thick dashed curve (temperature) and the thick solid curve (Al 2 O 3 concentration) are a suggested thermal-chemical path that may result when a high temperature olivine-saturated magma reacts with a cooler anorthosite crust.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. BSE images of the anorthosite dissolution into an olivine-saturated low-Ti picritic magma (Andis13, 1250 °C, 0.6 GPa, 0.5 h). (a) Low magnification BSE image showing the capsule geometry, with anorthosite (top), the spinel + liquid region (sp + liq), the crystal-free region (crystalfree), and the olivine-saturated low-Ti glass. (b) Higher magnification BSE image of the spinel + liquid region. The white lines drawn on the images mark the bottom boundary of the spinel + liquid region. The arrow marks the original interface between the anorthosite and the olivine-saturated picritic magma.</figDesc><graphic coords="3,323.68,322.48,226.90,328.41" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. BSE image of anorthosite dissolution into a low-Ti picritic magma (Andis12, 1300 °C, 0.6 GPa, 2.0 h). The white line drawn on the image marks the bottom boundary of the spinel + liquid region. Note the fingering morphology resulting from Rayleigh-Taylor instability.</figDesc><graphic coords="5,323.68,70.12,227.05,125.56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 5. Plot of measured diffusive dissolution rate in the low-Ti magma against the normalized temperature (10000/T). The symbols at 1400 °C are the average of 2 or 3 measurements with the error bars representing 1 standard deviation about the mean. All other symbols are single measurements of the dissolution rate, with the error bars representing measurement errors. The line is an exponential fit to the low-Ti data. The activation energy DH (166 ± 17 kJ mol À1 ) is calculated from the exponential fit and the error is one standard deviation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Plot of CaO vs. Al 2 O 3 for the picritic glasses, high-Al basalts, lunar anorthite compositions, (a) concentration profiles resulting from anorthosite dissolution; and (b) calculated concentration profiles of anorthosite dissolution into the picritic glasses. The filled black circles are the high-Ti picritic glasses<ref type="bibr" target="#b4">(Delano, 1986;</ref><ref type="bibr" target="#b33">Shearer and Papike, 1993)</ref>; the black open circles are the low-Ti picritic glasses<ref type="bibr" target="#b4">(Delano, 1986;</ref><ref type="bibr" target="#b9">Hughes et al., 1988;</ref><ref type="bibr" target="#b33">Shearer and Papike, 1993)</ref>; the filled gray circles are the VLT picritic glasses<ref type="bibr" target="#b4">(Delano, 1986;</ref><ref type="bibr" target="#b33">Shearer and Papike, 1993;</ref><ref type="bibr" target="#b6">Elkins et al., 2000)</ref>. The thick dashed line is a linear regression to all of the reported picritic glass data extrapolated to 35% Al 2 O 3 . The field corresponds to the high-Al basalts<ref type="bibr" target="#b5">(Dickinson et al., 1985;</ref><ref type="bibr" target="#b28">Neal et al., 1989)</ref>. The open gray circles and the crosses correspond to the lunar anorthite compositions, where the circles are from<ref type="bibr" target="#b29">Papike et al. (1996)</ref>, the crosses are from<ref type="bibr" target="#b35">Shervais and McGee (1998)</ref>, and the open triangle is the pure anorthite used in our experiments. Profiles resulting from the anorthosite dissolution experiments are runs Andis2 and Andis3 (VLT picritic glasses, filled gray squares and circles, respectively), Andis4 and Andis13 (low-Ti picritic glasses, open triangles, and diamonds, respectively), and Andis5 (high-Ti picritic glass, filled upside down triangles). The low-Ti and high-Ti profiles were calculated using Eqs. A3 in Appendix A, the diffusion matrices reported in Table3, and a series of different initial melt compositions. The VLT profile was modeled using the EBDCs estimated from the low-Ti diffusion matrix. The initial melt compositions were chosen to correspond to the low, intermediate, and high CaO and Al 2 O 3 contents for each class of picritic glasses. The solid composition and the interface melt compositions were similar to our experiments.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 8 .Fig. 9 .</head><label>89</label><figDesc>Fig. 8. Ternary diagram of MgO, TiO 2 , and Al 2 O 3 for the picritic glasses, high-Al basalts, lunar anorthite compositions. (a) Concentration profiles resulting from anorthosite dissolution; and (b) calculated concentration profiles for anorthosite dissolution into the picritic glasses. The symbols and parameters used to generate the profiles are the same as those used in Fig. 7. Note that the low-Ti picritic profile overlaps the measured high-Al basalt compositions.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 10 .</head><label>10</label><figDesc>Fig.10. Plot of measured SiO 2 , Al 2 O 3 , and TiO 2 concentration profiles resulting from anorthosite dissolution into the low-Ti magma at 1400 °C and 0.6 GPa for 0.3 h. The triangles are the measured compositions. The solid lines are fits to the data using the estimated multicomponent diffusion matrix. The dashed lines are fits to the data using the effective binary diffusion coefficients in the low-Ti magma. C 11 , C 21 and C 31 correspond to the initial low-Ti SiO 2 , Al 2 O 3 , and TiO 2 contents, respectively. C 10 , C 20 , and C 30 correspond to the interface melt SiO 2 , Al 2 O 3 , and TiO 2 contents, respectively. C s1 , C s2 , and C s3 correspond to the anorthite SiO 2 , Al 2 O 3 , and TiO 2 contents, respectively. The positions have been corrected to put the anorthosite-glass interface at position 0 lm. The square at position 0 lm is the anorthite composition.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>Fig. 11. Contour plot of anorthosite convective dissolution rate (in units of 10 À8 m s À1 ) as a function of the degree of undersaturation (H) and the Sherwood number (Sh). The degree of undersaturation is defined by Eq. (2) and the Sherwood number is defined by Eq. (5). The lunar picritic magmas field is defined by calculating the degree of undersaturation for the picritic glasses reported by<ref type="bibr" target="#b4">Delano (1986)</ref>,<ref type="bibr" target="#b9">Hughes et al. (1988)</ref>,<ref type="bibr" target="#b33">Shearer and Papike (1993)</ref> and<ref type="bibr" target="#b6">Elkins et al. (2000)</ref> and by calculating the Sherwood number for laminar and turbulent flow in a tube<ref type="bibr" target="#b2">(Cussler, 1997)</ref>. The field<ref type="bibr" target="#b40">Tsuchiyama (1985)</ref> is defined by calculating the degree of undersaturation for their anorthite dissolution in a terrestrial andesite composition.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3</head><label>3</label><figDesc>List of chemical diffusion coefficients taking MgO as the dependent variable a</figDesc><table><row><cell>D iÀj</cell><cell>D iÀCaO</cell><cell>D iÀFeO</cell><cell>D iÀTiO2</cell><cell>D iÀAl2O3</cell><cell>D iÀSiO2</cell><cell>EBDC c</cell></row><row><cell cols="2">Low-Ti (Andis4; 1400 °C, 0.6 GPa, 0.3 h)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>D CaOÀj</cell><cell>8.3 ± 0.7 b</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>8.3 (8.3)</cell></row><row><cell>D FeOÀj</cell><cell>0</cell><cell>7.9 ± 0.4</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>7.9 (7.9)</cell></row><row><cell>D TiO2Àj</cell><cell>À5.2 ± 11</cell><cell>À2.3 ± 4.4</cell><cell>3.9 ± 0.8</cell><cell>0</cell><cell>0</cell><cell>2.9 (3.1)</cell></row><row><cell>D Al2O3Àj</cell><cell>28 ± 49</cell><cell>7.3 ± 20</cell><cell>0</cell><cell>2.3 ± 0.5</cell><cell>0</cell><cell>4.5 (4.1)</cell></row><row><cell>D SiO2Àj</cell><cell>86 ± 22</cell><cell>32 ± 8.6</cell><cell>0</cell><cell>0</cell><cell>0.90 ± 0.3</cell><cell>NA</cell></row><row><cell cols="2">High-Ti (Andis5; 1400 °C, 0.6 GPa, 0.3 h)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>D CaOÀj</cell><cell>7.6 ± 0.8</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>7.6 (7.6)</cell></row><row><cell>D FeOÀj</cell><cell>0</cell><cell>6.7 ± 0.4</cell><cell>0</cell><cell>0</cell><cell>0</cell><cell>6.7 (6.7)</cell></row><row><cell>D TiO2Àj</cell><cell>3.1 ± 15</cell><cell>3.8 ± 6.2</cell><cell>1.7 ± 0.8</cell><cell>0</cell><cell>0</cell><cell>4.6 (4.3)</cell></row><row><cell>D Al2O3Àj</cell><cell>140 ± 42</cell><cell>46 ± 17</cell><cell>0</cell><cell>2.8 ± 1.2</cell><cell>0</cell><cell>6.8 (5.3)</cell></row><row><cell>D SiO2Àj</cell><cell>6.7 ± 26</cell><cell>2.2 ± 11</cell><cell>0</cell><cell>0</cell><cell>3.6 ± 5.2</cell><cell>4.6 (4.1)</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head></head><label></label><figDesc>1 ðx; 0Þ ¼ C 11 ; C 2 ðx; 0Þ ¼ C 21 ; C 3 ðx; 0Þ ¼ C 31 ; ðA:2aÞ C 1 ð1; tÞ ¼ C 11 ; C 2 ð1; tÞ ¼ C 21 ; C 3 ð1; tÞ ¼ C 31 ; ðA:2bÞ C 1 ð0; tÞ ¼ C 10 ; C 2 ð0; tÞ ¼ C 20 ; C 3 ð0; tÞ ¼ C 30 ; ðA:2cÞ</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>32 ðC 20 À C 21 Þ D 33 À D 22The dissolution rate, V, and the dissolution distance X b are give by</figDesc><table><row><cell>V ¼ a X b ¼ 2a r p ffiffiffiffiffiffiffi D 11 ; t ffiffiffiffiffiffiffiffi ffi D 11 t</cell><cell>:</cell><cell>ðA:5Þ ðA:6Þ</cell><cell></cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell></cell><cell>E 3 ;</cell><cell></cell><cell></cell><cell>ðA:3cÞ</cell></row><row><cell></cell><cell></cell><cell cols="5">where a is a dimensionless dissolution parameter; E 1 , E 2 ,</cell></row><row><cell></cell><cell></cell><cell>and E 3 are defined as E i ¼ erfc x 2 ffiffiffiffiffiffiffi D ii t p þ a r</cell><cell>ffiffiffiffiffiffiffi D 11 D ii</cell><cell>erfc a</cell><cell>r</cell><cell>D ii ffiffiffiffiffiffiffi D 11</cell><cell>À1</cell></row></table><note><p><p>; for i ¼ 1; 2; 3:</p>ðA:4Þ</p></note></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>We thank <rs type="person">Alyssa Beck</rs>, <rs type="person">Peter Kelemen</rs>, and <rs type="person">Mac Rutherford</rs> for comments and suggestions to earlier versions of this paper, and <rs type="person">Lindy Elkins-Tanton</rs> for the very low-Ti glass starting material. Constructive reviews by <rs type="person">Paul Warren</rs>, <rs type="person">John Longhi</rs>, <rs type="person">Youxue Zhang</rs> and the Associate Editor Frederick Ryerson helped to improve the manuscript and are greatly appreciated. This work was supported in part by <rs type="funder">NASA</rs> Grant <rs type="grantNumber">NAG5-12830</rs> to <rs type="person">Yan Liang</rs>.</p><p>Associate editor: <rs type="person">F.J. Ryerson</rs></p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_6ADSdWW">
+					<idno type="grant-number">NAG5-12830</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Diffusive dissolution in quaternary systems</head><p>The coupled one dimensional diffusion equations describing the distribution of a chemical species (i.e., C i ) in the melt in a four component system is given by (e.g., <ref type="bibr" target="#b47">Zhang et al., 1989;</ref><ref type="bibr" target="#b13">Liang, 1999)</ref>:</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A new capsule technique for hydrothermal experiments using the piston-cylinder apparatus</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Ayers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Brenan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Wark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Minarik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1080" to="1086" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The use and limitations of the concept of an effective binary diffusion coefficient for multi-component diffusion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Mass Transport of Oxides; NBS Special Publ.</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Wachtman</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Franklin</surname></persName>
+		</editor>
+		<imprint>
+			<biblScope unit="volume">296</biblScope>
+			<biblScope unit="page" from="79" to="84" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Diffusion mass transfer in fluid systems</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">L</forename><surname>Cussler</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997">1997</date>
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Chemistry and liquidus phase relations of Apollo 15 red glass: implications for the deep lunar interior</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Delano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Lunar Planet. Sci. Conf</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="251" to="288" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Pristine lunar glasses: criteria, data, and implications</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Delano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Lunar Planet. Sci. Conf</title>
+		<meeting>Lunar Planet. Sci. Conf</meeting>
+		<imprint>
+			<date type="published" when="1986">1986</date>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="201" to="D213" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Apollo 14 aluminous mare basalts and their possible relationship to KREEP</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dickinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Keil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Lunar Planet. Sci. Conf</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="365" to="C374" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Origin of lunar ultramafic green glasses: constraints from phase equilibrium studies</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Elkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Fernandes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Delano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Grove</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="2339" to="2350" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Experimental and petrological constraints on lunar differentiation from the Apollo 15 green picritic glasses</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">T</forename><surname>Elkins-Tanton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chatterjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Grove</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Meteor. &amp; Planet. Sci</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="515" to="527" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Assimilation by lunar mare basalts: melting of crustal material and dissolution of anorthite</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Finnila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rutherford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="14677" to="14690" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Apollo 15 yellow-brown volcanic glass: chemistry and petrogenetic relations to green volcanic glass and olivine-normative mare basalts</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Delano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Schmitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="2379" to="2391" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Convective crystal dissolution</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Kerr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="237" to="246" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Thermodynamic properties of silicate liquids with emphasis on density, thermal expansion and compressibility</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Lange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S E</forename><surname>Carmichael</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Modern Methods of Igneous Petrology: Understanding Magmatic Processes</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Nicholls</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Russell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Chelsea, MI</addrLine></address></meeting>
+		<imprint>
+			<publisher>Mineralogical Society of America</publisher>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="page" from="25" to="64" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Models and experiments for multicomponent chemical diffusion in molten silicates</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+		<respStmt>
+			<orgName>University of Chicago</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.D dissertation</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Diffusive dissolution in ternary systems: analysis with applications to quartz and quartzite dissolution in molten silicates</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="3983" to="3995" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Dissolution in molten silicates: effects of solid solution</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="1617" to="1627" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Kinetics of crystal-melt reaction in partially molten silicates: 1. grain scale processes</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2002GC000375</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geochem. Geophys. Geosyst</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Energetics of multicomponent diffusion in molten CaO-Al 2 O 3 -SiO 2</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Davis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="635" to="646" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Diffusion in silicate melts: II. Multicomponent diffusion in CaO-Al 2 O 3 -SiO 2 at 1500 °C and 1 GPa</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="5021" to="5035" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Diffusion in silicate melts: III. Empirical models for multicomponent diffusion. Geochim. Cosmochim</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chamberlin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="5295" to="5312" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Fluid-mechanical models of crack propagation and their application to magma transport in dykes</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Lister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Kerr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="10049" to="10077" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Experimental petrology and petrogenesis of mare volcanics</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Longhi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="2235" to="2251" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Lunar Mg suite: thermobarometry and petrogenesis of parental magmas</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Mccallum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="27969" to="27983" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Rayleigh-Taylor instability of a particle packed viscous fluid: implications for a solidifying magma</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Michioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sumita</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2004GL021827</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">An experimental and numerical study of the kinetics of harzburgite reactive dissolution with applications to dunite dike formation</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">T</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">214</biblScope>
+			<biblScope unit="page" from="59" to="74" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">An experimental study of the kinetics of lherzolite reactive dissolution with applications to melt channel formation</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">T</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">150</biblScope>
+			<biblScope unit="page" from="369" to="385" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Basalts and Phase Diagrams: An Introduction to the Quantitative Use of Phase Diagrams in Igneous Petrology</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Morse</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+			<publisher>Krieger publishing company</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Apollo 14 mare basalt petrogenesis: assimilation of KREEP-like components by a fractionating magma</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Neal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Lunar Planet. Sci. Conf</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="139" to="153" />
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Modeling of lunar basalt petrogenesis: Sr isotope evidence from Apollo 14 high-alumina basalts</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Neal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Lunar Planet. Sci. Conf</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="101" to="108" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">High alumina (HA) and very high potassium (VHK) basalt clasts from Apollo 14 breccias, part 2-whole rock geochemistry: further evidence for combined assimilation and fractional crystallization within the lunar crust</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Neal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lindstrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Lunar Planet. Sci. Conf</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="147" to="161" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Ion microprobe investigation of plagioclase and orthopyroxene from lunar Mg-suite norites: implications for calculating parental melt REE concentrations and for assessing postcrystallization REE redistribution</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Papike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Fowler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Shearer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Layne</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="3967" to="3978" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Lunar samples</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Papike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ryder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Shearer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Planetary Materials</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Papike</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Mineralogical Society of America</publisher>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Multicomponent diffusion and convection in molten MgO-Al 2 O 3 -SiO 2</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Minarik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="1985" to="1991" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Viscosities of magmatic silicate liquids: an empirical method of prediction</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Sci</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="870" to="893" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Basaltic magmatism on the Moon: a perspective from volcanic picritic glass beads</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Shearer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Papike</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="4785" to="4812" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Magmatic evolution of the Moon</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">K</forename><surname>Shearer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Papike</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="1469" to="1494" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Ion and electron microprobe study of troctolites, norite, and anorthosites from Apollo 14: evidence for urKREEP assimilation during petrogenesis of Apollo 14 Mg-suite rocks</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Shervais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Mcgee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="3009" to="3023" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Apollo 14 mare basalts: petrology and geochemistry of clasts from consortium breccia 14321</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Shervais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Lindstrom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Lunar Planet. Sci. Conf. 15 th</title>
+		<meeting>Lunar Planet. Sci. Conf. 15 th</meeting>
+		<imprint>
+			<date type="published" when="1985">1985</date>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page" from="375" to="C395" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">The mobility of Mg, Ca, and Si in diopside-jadeite liquids at high pressures</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physical Chemistry of Magmas</title>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Perchuk</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Kushior</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1991">1991</date>
+			<biblScope unit="page" from="192" to="212" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A chemical model for generating the sources of mare basalts: combined equilibrium and fractional crystallization of the lunar magmasphere. Geochim. Cosmochim</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Snyder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Neal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="3809" to="3823" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Measuring the multicomponent diffusion matrix: experimental design and data analysis for silicate melts</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Trial</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Spera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="3769" to="3783" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Dissolution kinetics of plagioclase in the melt of the system dioside-albite-anorthite, and origin of dusy plagioclase in andesites</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tsuchiyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The magma ocean concept and lunar evolution</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Warren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Earth. Planet. Sci</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="201" to="240" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Basalt contamination by continental crust: some experiments and models</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="73" to="87" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Chemical diffusion in magmas: an overview of experimental results and geochemical applications</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physical Chemistry of Magmas</title>
+		<editor>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Perchuk</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">I</forename><surname>Kushior</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY, pp</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1991">1991</date>
+			<biblScope unit="page" from="120" to="151" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Ascent and eruption of a lunar high-titanium magma as inferred from the petrology of the 74001/2 drill core</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Weitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rutherford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iii</forename><surname>Head</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Mckay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Meteor. &amp; Planet. Sci</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="527" to="540" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Deep generation of magmatic gas on the Moon and implications for pyroclastic eruptions</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Head</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2002GL016082</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Melting and dissolving</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Woods</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Fluid Mech</title>
+		<imprint>
+			<biblScope unit="volume">239</biblScope>
+			<biblScope unit="page" from="429" to="448" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Diffusive crystal dissolution</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="492" to="513" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,59 @@
+{
+    "doi": "10.1007/bf00378500",
+    "extracted_info": {
+        "results": [
+            {
+                "melt": "dacite/basalt",
+                "diffusing species": "SiO2",
+                "test temperature": 1500,
+                "diffusivity": {
+                    "$numberDouble": "1e-9"
+                },
+                "SiO2": 64.92,
+                "TiO2": 0.46
+            },
+            {
+                "melt": "rhyolite/basalt",
+                "diffusing species": "SiO2",
+                "test temperature": 1500,
+                "diffusivity": "No information",
+                "SiO2": 76.12,
+                "TiO2": 0.07
+            },
+            {
+                "melt": "dacite/basalt",
+                "diffusing species": "SiO2",
+                "test temperature": 1300,
+                "diffusivity": {
+                    "$numberDouble": "1e-9"
+                },
+                "SiO2": 64.92,
+                "TiO2": 0.46
+            },
+            {
+                "melt": "dacite/basalt",
+                "diffusing species": "SiO2",
+                "test temperature": 1200,
+                "diffusivity": "No information",
+                "SiO2": 64.92,
+                "TiO2": 0.46
+            },
+            {
+                "melt": "silicic/mafic",
+                "diffusing species": "SiO2",
+                "test temperature": 1000,
+                "diffusivity": "No information",
+                "SiO2": "No information",
+                "TiO2": "No information"
+            },
+            {
+                "melt": "silicic/mafic",
+                "diffusing species": "SiO2",
+                "test temperature": 1200,
+                "diffusivity": "No information",
+                "SiO2": "No information",
+                "TiO2": "No information"
+            }
+        ]
+    }
+}

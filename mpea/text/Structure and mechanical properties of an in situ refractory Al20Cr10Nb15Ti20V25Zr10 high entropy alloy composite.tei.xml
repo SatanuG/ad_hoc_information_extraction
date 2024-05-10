@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Structure and mechanical properties of an in situ refractory Al 20 Cr 10 Nb 15 Ti 20 V 25 Zr 10 high entropy alloy composite</title>
+				<funder ref="#_qrC6TSj">
+					<orgName type="full">Russian Science Foundation</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-01-17">17 January 2020</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">N</forename><surname>Yurchenko</surname></persName>
+							<email>yurchenko_nikita@bsu.edu.ru</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Bulk Nanostructured Materials</orgName>
+								<orgName type="institution">Belgorod National Research University</orgName>
+								<address>
+									<postCode>308015</postCode>
+									<settlement>Belgorod</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><surname>Panina</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Bulk Nanostructured Materials</orgName>
+								<orgName type="institution">Belgorod National Research University</orgName>
+								<address>
+									<postCode>308015</postCode>
+									<settlement>Belgorod</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Tikhonovsky</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution">National Science Center &apos;&apos;Kharkov Institute of Physics and Technology&quot; NAS of Ukraine</orgName>
+								<address>
+									<postCode>61108</postCode>
+									<settlement>Kharkov</settlement>
+									<country key="UA">Ukraine</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><surname>Salishchev</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Bulk Nanostructured Materials</orgName>
+								<orgName type="institution">Belgorod National Research University</orgName>
+								<address>
+									<postCode>308015</postCode>
+									<settlement>Belgorod</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Zherebtsov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Bulk Nanostructured Materials</orgName>
+								<orgName type="institution">Belgorod National Research University</orgName>
+								<address>
+									<postCode>308015</postCode>
+									<settlement>Belgorod</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><surname>Stepanov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory of Bulk Nanostructured Materials</orgName>
+								<orgName type="institution">Belgorod National Research University</orgName>
+								<address>
+									<postCode>308015</postCode>
+									<settlement>Belgorod</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Laboratory of Bulk Nanostructured Materials</orgName>
+								<orgName type="institution">Belgo-rod National Research University</orgName>
+								<address>
+									<addrLine>Pobeda 85</addrLine>
+									<postCode>308015</postCode>
+									<settlement>Belgorod</settlement>
+									<country key="RU">Russia</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Structure and mechanical properties of an in situ refractory Al 20 Cr 10 Nb 15 Ti 20 V 25 Zr 10 high entropy alloy composite</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-01-17">17 January 2020</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">A1E7ECEED74838D80950EE6849A46A42</idno>
+					<idno type="DOI">10.1016/j.matlet.2020.127372</idno>
+					<note type="submission">Received 22 October 2019 Received in revised form 14 January 2020 Accepted 16 January 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Refractory high-entropy alloys In situ composite Structure Thermo-Calc Deformation behavior Mechanical properties</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Structure, deformation behavior, and mechanical properties of a refractory Al 20 Cr 10 Nb 15 Ti 20 V 25 Zr 10 high entropy alloy are reported. In the as-cast state, the alloy had a composite-like hypoeutectic microstructure comprised of a softer primary B2 phase and a harder eutectic mixture consisting of a C14 Laves and the B2 phases. Annealing at 1200 °C retained the composite-like constitution and led to the formation of a small amount of a Zr 5 Al 3 -type phase. The annealing also had a positive effect on strength and ductility of the alloy at 22 and 800 °C; compatibility of plastic deformation at 800 °C can be ascribed to the relative softness of the B2 phase. Reasonable agreement was found between the experimental structures and the results of thermodynamic modeling.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The recently introduced concept of refractory high entropy alloys (RHEAs) has illustrated a new way to develop metallic alloys with attractive high-temperature mechanical properties <ref type="bibr" target="#b0">[1]</ref>. Some RHEAs demonstrate superiority over titanium aluminides and nickel-based superalloys in specific strength at T 1200 °C <ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref>. The ability to produce a superalloy-like bcc/B2 microstructure is considered promising for obtaining a balanced combination of properties <ref type="bibr" target="#b4">[5,</ref><ref type="bibr" target="#b5">6]</ref>. However, many of the examined RHEAs contain different intermetallic phases, for example, the Laves phase, Zr x Al y , or M 5 Si 3 <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref>. Therefore, it is still unclear what type of microstructure is more suitable for the best properties obtaining <ref type="bibr" target="#b12">[13]</ref>.</p><p>An attractive option can be associated with the creation of an in situ composite consisting of two phases which possess substantially different hardness. For example, Laves phase-based alloys can have high strength at elevated temperatures but are brittle at ambient temperature <ref type="bibr" target="#b13">[14]</ref>. One of the possible ways to attain better properties can be related to inserting a more ductile phase, like an ordered B2 one <ref type="bibr" target="#b14">[15]</ref>. A eutectic B2 + Laves phase structure can, therefore, provide more tolerable toughness and improved high-temperature strength rather than the Laves phase or B2 inter-metallics alone. However, there is minimal information on in situ RHEAs-based composites so far <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b10">11]</ref>.</p><p>In this letter, we report the structure and mechanical properties of an Al 20 Cr 10 Nb 15 Ti 20 V 25 Zr 10 high entropy alloy with a B2/Laves phase composite-like structure.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Materials and methods</head><p>The alloy with a nominal composition of Al 20 Cr 10 Nb 15 Ti 20 V 25 -Zr 10 was produced by vacuum arc melting of pure (!99.9 wt%) elements. The actual chemical composition is given in Table <ref type="table" target="#tab_0">1</ref>.</p><p>The phase composition and microstructure of the alloy were studied for both the as-cast and annealed at 1200 °C for 24 h states using X-ray diffraction (XRD) and scanning electron microscopy (SEM). XRD analysis was performed using a RIGAKU diffractometer and Cu Ka radiation. Lattice strain was evaluated using the wellknown Williamson-Hall method <ref type="bibr" target="#b15">[16]</ref>. SEM investigations were performed on an FEI Quanta 600 FEG or a Nova NanoSEM 450 microscopes equipped with an energy-dispersive (EDS) and an electron backscattered diffraction (EBSD) detectors. The density of the alloy was measured via hydrostatic weighting. Compressive tests were performed using rectangular specimens measured 6 Â 4 Â 4 mm 3 on an Instron 300LX machine at 22 and 800 °C and the initial strain rate of 10 À4 s À1 . The Scheil solidification path and equilibrium phase diagram were conducted using a Thermo-Calc 2019b software and TCHEA3 database.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head><p>According to XRD analysis (Fig. <ref type="figure" target="#fig_1">1a</ref>), the as-cast Al 20 Cr 10 Nb 15 -Ti 20 V 25 Zr 10 alloy had a dual-phase structure presented by an ordered B2 phase and a C14 (hcp) Laves phase. Annealing led to the appearance of a new hexagonal Zr 5 Al 3 -type phase (Fig. <ref type="figure" target="#fig_1">1a</ref>).</p><p>Combined SEM and EBSD analysis revealed that the as-cast RHEA possessed a microstructure comprised of the primary B2 phase, enriched with Nb, Ti, and V (Table <ref type="table" target="#tab_0">1</ref>), separated by eutectic (C14 Laves + B2) lamellar regions (Fig. <ref type="figure" target="#fig_1">1b,</ref><ref type="figure">c</ref>) enriched with Al, Cr, and Zr (Table <ref type="table" target="#tab_0">1</ref>). The volume fraction of the B2 and C14 Laves phases were 58% and 42%, respectively.</p><p>The annealed microstructure of the alloy inherited, in general, the composite-like constitution of the as-cast state (Fig. <ref type="figure" target="#fig_1">1d,</ref><ref type="figure">e</ref>). However, annealing resulted in (i) elimination of the lamellar structure and globularization/coalescence of the B2 phase in the eutectic C14 Laves + B2 regions and (ii) formation of the (Zr,Al)rich particles (Zr 5 Al 3 -type phase) on B2/C14 Laves phase interfaces (Fig. <ref type="figure" target="#fig_1">1c,</ref><ref type="figure">d</ref>). The estimated volume fractions of the B2, C14 Laves, and Zr 5 Al 3 -type phases were found to be 61%, 36%, and 3%, respectively.</p><p>According to the Scheil-Gulliver model (Fig. <ref type="figure" target="#fig_2">2a</ref>), the solidification of the RHEA started at ~1650 °C and terminated at ~1300 °C following the consequence L ? L + bcc ? L + bcc + C14 Laves. The equilibrium phase diagram predicted a narrow single-phase bcc region between 1560 and 1512 °C which then followed by the formation of the (Zr,Al,Cr)-rich C14 Laves phase (Fig. <ref type="figure">3b</ref>). The C14 Laves phase fraction increased with a decrease in temperature till ~1100 °C and then remained almost constant (~0.31). Both the Scheil-Gulliver model and equilibrium phase diagram reasonably predict the type, chemical composition, and fraction of the C14 Laves phase. Also, the Scheil-Gulliver model accurately predicts the hypoeutectic morphology of the as-cast structure. Meanwhile, the B2 ordering and the Zr 5 Al 3 -type phase formation are not predicted, apparently due to the limitations of the existing databases <ref type="bibr" target="#b16">[17]</ref>.</p><p>Fig. <ref type="figure">3</ref> presents compressive stress-strain curves of the RHEA in the as-cast and annealed states. At 22 °C, the as-cast RHEA fractured in the elastic region at ~1000 MPa (Fig. <ref type="figure">3a</ref>); meanwhile, the annealed RHEA demonstrated rather a high yield strength of 1535 MPa along with some ductility (e = 0.6%, Fig. <ref type="figure">3b</ref>). Microhardness measurements (Table <ref type="table" target="#tab_0">1</ref>) revealed the pronounced softening of both the B2 and C14 Laves phases after annealing. The lattice strain of the B2 phase in the as-cast state (e = 0.1589) was ~2 times higher than that of annealed state (e = 0.0852). This finding suggests the softening can be associated with internal stress relieving. The latter, along with globularization/coalescence of the B2 phase in the eutectic regions, can result in ductility improvement.</p><p>At 800 °C, stress-strain curves of the RHEA in both states had a pronounced softening stage after reaching peak stress. As a result of annealing, the yield strength of RHEA increased from 720 MPa to 1000 MPa. Partially this effect can be caused by the Zr 5 Al 3type phase formation <ref type="bibr" target="#b17">[18]</ref>; however, a small fraction (3%) of this phase is hardly sufficient for such a substantial strength increment (~40%). Other factors, including changes in B2 ordering degree <ref type="bibr" target="#b7">[8]</ref>, can contribute to the high-temperature strength, but to establish their exact contribution, further investigations are needed. Nevertheless, the specific strength of the annealed RHEA was as high as 180 kPa*m 3 /kg (q = 5.55 ± 0.02 g/cm 3 ) indicating that it is one of the strongest RHEAs at 800 °C <ref type="bibr" target="#b0">[1]</ref> most probably due to a composite-like structure with a continuous network of the hard Laves phase (Fig. <ref type="figure" target="#fig_1">1</ref>).</p><p>To shed light on the deformation behavior of the Al 20 Cr 10 Nb 15 -Ti 20 V 25 Zr 10 alloy, microstructure in the annealed state after compression at 800 °C was analyzed. SEM images showed predominant localization of deformation in the softer B2 phase (Table <ref type="table" target="#tab_0">1</ref>, Fig. <ref type="figure">3c,</ref><ref type="figure">d</ref>), which ensures compatibility of plastic flow between phases and prevents propagation and coalescence of multiple microcracks formed in the C14 Laves and Zr 5 Al 3 -type phases. Since deformation at 800 °C does not result in the formation of visible grain/subgrain structure, the observed decrease in the flow stress at e%10% can rather be associated with intensive dynamic recovery rather than dynamic recrystallization. Tiny (150-300 nm) Nb 2 Al-type particles (volume fraction ~2-3%) can be seen in the B2 phase after deformation at 800 °C; a similar effect was earlier observed in the AlCr( 0-0.5) NbTiV alloys <ref type="bibr" target="#b3">[4]</ref>. Generally, the deformation behavior of the Al 20 Cr 10 Nb 15 Ti 20 V 25 Zr 10 alloy is very similar to that observed in the NbNiAl-NiAl alloys with a eutectic C14 Laves + B2 structure <ref type="bibr" target="#b14">[15]</ref>.</p><p>In summary, the presented data show that the Al 20 Cr 10 Nb 15 Ti 20 -V 25 Zr 10 RHEA can be considered as in situ composite consisting of the soft B2 and hard C14 Laves phases mixture (Fig. <ref type="figure" target="#fig_1">1</ref>). After annealing, the alloy had some plastic ductility at 22 °C and high specific strength at 800 °C (Fig. <ref type="figure">3</ref>). Besides, both experimental results and Thermo-Calc calculation (Figs. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>https://doi.org/10.1016/j.matlet.2020.127372 0167-577X/Ó 2020 Elsevier B.V. All rights reserved.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. XRD pattern (a) and microstructure of the as-cast (b, c) and annealed (d, e) Al 20 Cr 10 Nb 15 Ti 20 V 25 Zr 10 alloy; b, d -SEM-BSE images; c, e -phase maps (red color -B2 phase, green -C14 Laves phase, blue -Zr 5 Al 3 -type phase). (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)</figDesc><graphic coords="2,120.59,208.63,343.18,488.86" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Scheil solidification path (a) and equilibrium phase diagram (b) of the Al 20 Cr 10 Nb 15 Ti 20 V 25 Zr 10 alloy.</figDesc><graphic coords="3,73.70,554.97,454.23,183.69" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,66.73,67.92,453.57,392.54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Chemical composition of the structural constituents of the Al 20 Cr 10 Nb 15 Ti 20 V 25 Zr 10 alloy. The corresponding constituents are identified in Fig. 1b-e.</figDesc><table><row><cell>Elements, at.%</cell><cell>Al</cell><cell>Cr</cell><cell>Nb</cell><cell>Ti</cell><cell>V</cell><cell>Zr</cell><cell>Microhardness, HV</cell></row><row><cell>Constituents designation</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Alloy composition</cell><cell>21.3</cell><cell>9.7</cell><cell>12.7</cell><cell>18.7</cell><cell>27.2</cell><cell>10.4</cell><cell></cell></row><row><cell>Condition</cell><cell>As-cast</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>B2 phase</cell><cell>17.8</cell><cell>9.0</cell><cell>15.3</cell><cell>20.6</cell><cell>33.5</cell><cell>3.8</cell><cell>665 ± 20</cell></row><row><cell>Eutectic C14 Laves + B2</cell><cell>24.1</cell><cell>10.9</cell><cell>10.9</cell><cell>15.3</cell><cell>22.0</cell><cell>16.8</cell><cell>820 ± 30</cell></row><row><cell>Condition</cell><cell cols="2">Annealed at 1200 °C, 24 h</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>B2 phase</cell><cell>16.8</cell><cell>8.0</cell><cell>16.0</cell><cell>24.1</cell><cell>32.1</cell><cell>3.0</cell><cell>320 ± 25</cell></row><row><cell>C14 Laves phase</cell><cell>27.7</cell><cell>12.6</cell><cell>9.1</cell><cell>9.1</cell><cell>19.8</cell><cell>21.7</cell><cell>460 ± 40</cell></row><row><cell>Zr 5 Al 3 -type phase</cell><cell>35.7</cell><cell>1.3</cell><cell>11.7</cell><cell>12.3</cell><cell>6.3</cell><cell>32.7</cell><cell>600 ± 50</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>N. Yurchenko et al. / Materials Letters 264 (2020) 127372</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_1"><p>N. Yurchenko et al. / Materials Letters 264 (2020) 127372</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors gratefully acknowledge the financial support from the <rs type="funder">Russian Science Foundation</rs> Grant no. <rs type="grantNumber">19-79-30066</rs>. The authors are grateful to the personnel of the <rs type="affiliation">Joint Research Center, ''Technology and Materials", Belgorod National Research University</rs>, for their assistance.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_qrC6TSj">
+					<idno type="grant-number">19-79-30066</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>alloy, as well as other in situ RHEAs composites <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b10">11]</ref> can be considered as promising materials for high-temperature applications. However, further work is required to optimize the alloy's properties, including high-temperature strength, ductility, and oxidation resistance.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p>In this work, structure, deformation behavior, and mechanical properties of in situ refractory Al 20 Cr 10 Nb 15 Ti 20 V 25 Zr 10 high entropy alloy composite was examined and the following conclusions were drawn.</p><p>1) In the as-cast state, the alloy had a hypoeutectic compositelike microstructure consisted of the primary B2 and C14 Laves + B2 eutectic regions. Annealing at 1200 °C led to the formation of a small amount Zr 5 Al 3 -type phase and globularization/coalescence of the B2 phase in the eutectic regions. Thermo-Calc reasonably predicted the solidification structure and its stability. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of Competing Interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A. Supplementary data</head><p>Supplementary data to this article can be found online at https://doi.org/10.1016/j.matlet.2020.127372.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Couzinie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="37" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">565</biblScope>
+			<biblScope unit="page" from="51" to="62" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Shaysultanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="153" to="155" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Skibin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">652</biblScope>
+			<biblScope unit="page" from="266" to="280" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Soni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gwalani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pilchak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="498" to="511" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1545" to="1557" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">704</biblScope>
+			<biblScope unit="page" from="82" to="90" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="82" to="85" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Styles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K W</forename><surname>Marceau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Ceguerra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">K</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Birbilis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="115" to="124" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">694</biblScope>
+			<biblScope unit="page" from="869" to="876" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page" from="186" to="189" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gorsse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="394" to="405" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Von Keitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sauthoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="497" to="510" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Machon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sauthoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="469" to="481" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">X-Ray Diffraction -A Practical Approach</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Suryanarayana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Norton</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<publisher>Springer US</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Gridneva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Mishunin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Zherebtsov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">757</biblScope>
+			<biblScope unit="page" from="403" to="414" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">H</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Q</forename><surname>Dai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

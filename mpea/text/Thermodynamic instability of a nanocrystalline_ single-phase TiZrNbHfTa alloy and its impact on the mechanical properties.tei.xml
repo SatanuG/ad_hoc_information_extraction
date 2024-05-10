@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Thermodynamic instability of a nanocrystalline, single-phase TiZrNbHfTa alloy and its impact on the mechanical properties</title>
+				<funder ref="#_C8dzq6n">
+					<orgName type="full">Austrian Science Fund FWF</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2017-09-17">17 September 2017</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">B</forename><surname>Schuh</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Physics</orgName>
+								<orgName type="institution">University of Leoben</orgName>
+								<address>
+									<addrLine>Jahnstraße 12</addrLine>
+									<postCode>8700</postCode>
+									<settlement>Leoben</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Todt</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Physics</orgName>
+								<orgName type="institution">University of Leoben</orgName>
+								<address>
+									<addrLine>Jahnstraße 12</addrLine>
+									<postCode>8700</postCode>
+									<settlement>Leoben</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Erich-Schmid-Institute of Materials Science</orgName>
+								<orgName type="institution" key="instit2">Austrian Academy of Sciences</orgName>
+								<address>
+									<addrLine>Jahnstraße 12</addrLine>
+									<postCode>8700</postCode>
+									<settlement>Leoben</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><surname>Schell</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Materials Research</orgName>
+								<orgName type="institution">Helmholtz-Zentrum Geesthacht</orgName>
+								<address>
+									<settlement>Geesthacht</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><surname>Perri Ere D</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Li</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Universit e Paris Est</orgName>
+								<orgName type="institution" key="instit2">ICMPE (UMR</orgName>
+								<orgName type="institution" key="instit3">CNRS</orgName>
+								<orgName type="institution" key="instit4">UPEC</orgName>
+								<address>
+									<addrLine>2-8, Rue H. Dunant</addrLine>
+									<postCode>7182), F-94320</postCode>
+									<settlement>Thiais</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Chair of Casting Research</orgName>
+								<orgName type="institution">University of Leoben</orgName>
+								<address>
+									<addrLine>Franz-Josef-Strasse 18</addrLine>
+									<postCode>8700</postCode>
+									<settlement>Leoben</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzini</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Universit e Paris Est</orgName>
+								<orgName type="institution" key="instit2">ICMPE (UMR</orgName>
+								<orgName type="institution" key="instit3">CNRS</orgName>
+								<orgName type="institution" key="instit4">UPEC</orgName>
+								<address>
+									<addrLine>2-8, Rue H. Dunant</addrLine>
+									<postCode>7182), F-94320</postCode>
+									<settlement>Thiais</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Chair of Casting Research</orgName>
+								<orgName type="institution">University of Leoben</orgName>
+								<address>
+									<addrLine>Franz-Josef-Strasse 18</addrLine>
+									<postCode>8700</postCode>
+									<settlement>Leoben</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Materials Physics</orgName>
+								<orgName type="institution">University of Leoben</orgName>
+								<address>
+									<addrLine>Jahnstraße 12</addrLine>
+									<postCode>8700</postCode>
+									<settlement>Leoben</settlement>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Thermodynamic instability of a nanocrystalline, single-phase TiZrNbHfTa alloy and its impact on the mechanical properties</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2017-09-17">17 September 2017</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">FB96DCAAFCBBDEA75FF7D9AEFB80EF6C</idno>
+					<idno type="DOI">10.1016/j.actamat.2017.09.035</idno>
+					<note type="submission">Received 26 July 2017 Received in revised form 14 September 2017 Accepted 15 September 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>Severe plastic deformation High-entropy alloy Decomposition Mechanical properties Microstructure</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>An equiatomic, single-phase TiZrNbHfTa high-entropy alloy was subjected to high-pressure torsion, leading to a grain size below 100 nm. Introducing a nanocrystalline microstructure to the material should help to accelerate a possible phase decomposition of the material by having a high amount of fast diffusion pathways and possible nucleation sites in the form of grain boundaries. In order to test the materials thermodynamic stability the nanocrystalline high-entropy alloy. was subjected to various heat treatments for temperatures between 300 C and 1100 C. Isochronal heat treatments (1 h) resulted in a hardness increase from 420 HV1 for the as-processed state to 530 HV1 for an annealing temperature of 500 C, while for temperatures of 700 C and higher a softening compared to the as-processed state occurred. In order to clarify this unexpected annealing response, analysis of selected microstructural states was performed utilizing electron microscopy, x-ray diffraction as well as mechanical testing to gain further information on microstructure-property relationships. Complementary, thermodynamic simulations were performed via the Calphad approach and compared to the experimental results. A phase decomposition of the originally equimolar single-phase high-entropy alloy into a NbTa-rich bodycentered cubic phase and ZrHf-rich phases, which occurred in two different crystal structures depending on the annealing temperature, was the main reason for the property changes. The obtained results not only give valuable new insights into the phase stability of the TiZrNbHfTa alloy, but also demonstrate the impact of the newly forming phases in regards to mechanical properties and its implication for a possible practical application of this alloy.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>High-entropy alloys (HEAs) are multi-principal element alloys, most commonly defined as having at least five different alloying elements varying in chemical composition from 5 at% to 35 at% <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b1">2]</ref>. Recently, multi-principal element alloys that do not strictly satisfy the single-phase definition are also regarded as compositionally complex alloys (CCAs) <ref type="bibr" target="#b2">[3]</ref>.</p><p>Among the large number of HEAs proposed in the last years, some show outstanding mechanical properties, such as the face-centered-cubic (fcc), equiatomic CrMnFeCoNi alloy <ref type="bibr">[4e6]</ref>. Despite having a high tensile strength, it still remains highly ductile even at very low testing temperatures. Additionally, it also has an exceptionally high fracture toughness, making it a potential candidate for low temperature applications in future <ref type="bibr" target="#b5">[6]</ref>.</p><p>Among body-centered-cubic (bcc) HEAs, potential applications are found in the high temperature regime [7e10]. Frequently proposed reasons for this are two of the so called "core-effects" of HEAs. Firstly, there is a severe lattice distortion <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref>, which should lead to an inherently high strength due to strong solid solution hardening, especially in bcc HEAs <ref type="bibr" target="#b12">[13]</ref>. The second reason is the sluggish diffusion effect, caused by the fluctuations in the potential energy of sites due to changing bonding configurations with different neighboring elements, giving rise to some especially deep diffusion traps <ref type="bibr">[12,14e16]</ref>. It should be noted however, that both of these "core-effects" are still controversially discussed in the literature. For instance, recent neutron scattering experiments showed that the crystal lattice is not abnormally distorted in the CrMnFe-CoNi alloy <ref type="bibr" target="#b16">[17]</ref> and the sluggish diffusion effect is, so far, mostly based on indirect observations, such as slow grain growth <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b15">16]</ref>. A prominent example for a single-phase bcc HEA after casting and homogenization at high temperatures is the quinary TiZrNbHfTa system composed of 20 at% of each element, which has been well characterized in regards to mechanical properties and underlying deformation mechanisms for coarse-grained microstructures <ref type="bibr">[18e23]</ref>. Its compression ductility exceeds 50% <ref type="bibr" target="#b17">[18]</ref>, placing it among the most ductile bcc HEAs, which often show poor cold deformability <ref type="bibr" target="#b6">[7,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b23">24]</ref>. The alloy's high yield strength and strain hardening in compression tests is also retained up to temperatures of 600 C. For much higher temperatures (!1000 C) the onset of dynamic recrystallization and consequently a drop-off in the yield strength and steady-state flow have been reported <ref type="bibr" target="#b18">[19]</ref>. However, it was also recently demonstrated by <ref type="bibr">Senkov et al</ref>. that the singlephase structure is likely only the equilibrium condition at temperatures higher than 800 C and that for lower temperatures the single-phase structure might only be retained due to slow diffusion kinetics <ref type="bibr" target="#b24">[25]</ref>. Similar results were also obtained for the CrMnFeCoNi alloy, which was believed to be a thermodynamically stable singlephase high-entropy alloy as well <ref type="bibr">[26e29]</ref>. In general, no investigations into the ultra-fine grained or nanocrystalline (nc) grain size regime and its impact on the mechanical performance of the TiZrNbHfTa alloy have been conducted so far, to the best of the author's knowledge.</p><p>A pragmatic way to determine the formation of additional phases in HEAs, especially at lower annealing temperatures without requiring extensive annealing times, is to introduce fast diffusion pathways in the form of grain boundaries <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b29">30]</ref>. Another advantage of having a very fine-grained microstructure is that it reduces the need for site-specific investigations, since even a small sample volume is representative for the overall microstructure. Therefore investigations of possible phase decompositions have also transitioned to the nc grain size regime. For instance, for the CrMnFeCoNi alloy a phase decomposition of the single-phase fcc material into a multi-phase microstructure occurs much faster for nc structures compared to coarse-grained ones [26e29]. A potent way to achieve nc microstructures is high-pressure torsion (HPT), which allows deformation even for relatively brittle materials at room temperature <ref type="bibr" target="#b30">[31]</ref>.</p><p>Consequently, in this study an equiatomic TiZrNbHfTa alloy was processed by HPT to induce a nc microstructure. These samples then were subjected to various heat treatments in order to evaluate the thermodynamic stability of this alloy. The resulting microstructures were investigated by electron microscopy as well as by synchrotron X-ray diffraction (XRD) and complementary mechanical testing via microhardness and tensile testing was performed. Additionally, thermodynamic simulations were conducted using the Calphad (CALculation of PHAse Diagrams) approach and compared to experimental data. The obtained results give a comprehensive overview of the microstructural stability of the TiZrNbHfTa alloy and the impact of possible phase decompositions on the mechanical properties of the material in the nanocrystalline grain size regime.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental</head><p>The studied alloy was prepared as described elsewhere <ref type="bibr" target="#b31">[32]</ref>. Two mother alloys (TiZrHf and NbTa) were first melted twice by arc melting under Ar atmosphere. The final composition was obtained by mixing the two mother alloys first by arc melting, then by induction melting under He atmosphere in a Cu cold crucible to insure chemical homogeneity. Shaping of the ingot as a 8 mm diameter, 60 mm long rod was obtained through a last step by arc melting. The thickness was then reduced down to 0.8 mm by cold rolling. The final grain size was controlled by a heat treatment at 1100 C for 5 h under He atmosphere. The material in this state will be referred to as "as-received" in the text.</p><p>Subsequently disks with 8 mm in diameter and a thickness of 0.8 mm were machined from the as-received material and deformed by quasi-constrained HPT for up to 5 rotations. Processing was performed at room temperature with a pressure of 7.8 GPa and a rotational speed of 0.2 rotations/minute. Detailed information on this processing technique can be found in Ref. <ref type="bibr" target="#b32">[33]</ref>. For HPT processing the ideal shear strain g can be calculated using Equation <ref type="bibr" target="#b0">(1)</ref>, where r is the sample radius, t the sample thickness and n the number of rotations <ref type="bibr" target="#b32">[33]</ref>.</p><formula xml:id="formula_0">g ¼ 2prn t ð À Þ<label>(1)</label></formula><p>For a shear strain of about 40, which is equivalent to a radial position of ~1 mm after 5 rotations, the material reaches a microstructural equilibrium. At this stage microstructure features such as grain size and percentage of high-angle grain boundaries no longer change even if the strain is increased further. Samples that have reached this equilibrium or "steady-state" condition are then subjected to isochronal (t ¼ 1 h) heat treatments for temperatures between 300 C and 1100 C or isothermal (T ¼ 500 C) heat treatments for annealing times ranging from 5 min to 100 h.</p><p>For hardness testing the samples were ground mechanically with SiC paper and then mechano-chemically polished (OPS). Hardness testing was performed with a microhardness tester Micromet 5104 from Buehler, at a load of 1000 gf with 15 s of dwell time. For investigations via scanning electron microscopy (SEM) samples were additionally polished with an OPS solution from Struers for 4 h utilizing a Bühler VibroMet 2. Samples for transmission electron microscopy (TEM) were taken from edge regions of the HPT disks in axial viewing direction (onto the top of the disk), then first ground down to 100 mm, subsequently mechanically dimpled to about 10 mm and finalized using Ar ion-milling. Investigations of the microstructure were performed both by SEM (Zeiss 1525) and TEM (Philips CM12/JEOL 2100 F). The Philips CM12 was mainly utilized for bright-field imaging and for obtaining electron diffraction patterns. An image-side Cs-corrected JEOL 2100 F was further used for scanning-TEM (STEM) imaging as well as energy-dispersive X-ray (EDX) measurements. To gain additional microstructural information synchrotron XRD measurements were done. The measurements were performed using a beam energy of 87.1 keV at the beamline P07/HEMS of the PETRA III synchrotron within the DESY Photon Science facility. Detector geometry calibration was performed using LaB 6 as a reference material. For data analysis two software packages were used, FIT2D <ref type="bibr" target="#b33">[34]</ref> and Match! <ref type="bibr" target="#b34">[35]</ref> as well as several crystallography databases, including the Crystallography Open Database, PDF-2 and the Inorganic Crystal Structure Database.</p><p>Tensile samples were prepared by a newly developed grinding tool to manufacture miniaturized, circular tensile samples <ref type="bibr" target="#b35">[36]</ref>. The preform of the tensile samples were HPT disks cut in half, therefore the dimensions are: a length of 8 mm, a maximum width of 4 mm and 0.8 mm in thickness. The center of the tensile specimen's gauge length was situated at a radius of 2 mm of the former HPT disk. Tensile samples had a cross sectional diameter of approximately 500 mm and a gauge length of 2.5 mm and at least 4 samples were tested per investigated microstructural state. Tensile tests were performed at room temperature in a tensile testing machine from Kammrath and Weiss using a 2 kN load cell and a crosshead speed of 2.5 mm/s. During testing a commercial single-lens camera was used to record up to 3.1 frames/s. All data then was evaluated by using automated digital image correlation utilizing the MatLab <ref type="bibr" target="#b36">[37]</ref> software package. All further details on specimen production, tensile testing and data evaluation can be found in Ref. <ref type="bibr" target="#b35">[36]</ref>.</p><p>CALPHAD modeling was used to describe the temperaturedependent evolution of the phases (mole/mass fraction, compositions) for the TiZrNbHfTa system. The approach considers the calculation of thermodynamic properties and also phase diagrams by extrapolation of binary systems descriptions. Simulations were performed with the TCHEA1 database, which was introduced by Thermo-calc <ref type="bibr" target="#b37">[38]</ref> and especially developed for high-entropy alloys. TCHEA1 has been recently used for CoCrFeMnNi, MnFeNiCuPt and MnFeNiCuCo multi-component systems <ref type="bibr" target="#b38">[39,</ref><ref type="bibr" target="#b39">40]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Characterization of the as-received material and processing</head><p>The as-received material was first studied by means of electron back-scatter diffraction (EBSD) and EDX measurements. Fig. <ref type="figure" target="#fig_0">1a</ref>) shows that the as-received state has a homogenous, coarse-grained microstructure with an average grain size of ~100 mm. The equiatomic character of the alloy was verified by averaging 100 individual EDX measurements performed in a line scan, see inset in Fig. <ref type="figure" target="#fig_0">1a</ref>). According to literature, the TiZrNbHfTa alloy in this microstructural state should be a single-phase bcc alloy, which was verified by XRD measurements (not displayed in the present paper) and all performed EBSD scans only indicated the presence of a bcc phase. The lattice constant of the TiZrNbHfTa alloy was determined to be 341.9 pm, which is in good agreement with published data <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b31">32]</ref>.</p><p>The evolution of the microstructure and hardness as a function of the shear strain g during HPT processing is presented in Fig. <ref type="figure" target="#fig_0">1bee</ref>). Hardness values were obtained by averaging four indents at an equivalent radial position, the standard deviation is indicated by the error bars (Fig. <ref type="figure" target="#fig_0">1b</ref>). The coarse-grained, as-received material has a hardness of 309 ± 6 HV1. The hardness increases with increasing strain up to about 419.4 ± 2.5 HV1 for g ~40, for higher shear strains a plateau is reached. Fig. <ref type="figure" target="#fig_0">1c</ref>) e e) depict back-scatter electron (BSE) micrographs illustrating the microstructural changes during shear deformation. Fig. <ref type="figure" target="#fig_0">1 c</ref>) shows a near center region of a sample after ¼ of a rotation. At such low applied shear strains (g ~1) the formation of dislocation substructures, as often observed during HPT processing, can be evidenced <ref type="bibr" target="#b32">[33]</ref>. Additionally, the deformation starts to localize into bands, in which the microstructure is significantly more refined than in the surrounding material. This strong localization in grain refinement is also the cause for the relative large standard deviation regarding the materials hardness at low applied shear strains.</p><p>With increasing shear strain g, the number of deformation bands increases as well (Fig. <ref type="figure" target="#fig_0">1d</ref>) and e)). For very high shear strains of g &gt; 40 a steady state microstructure is reached, due to an equilibrium in the generation and annihilation of defects caused by the ongoing deformation and dynamic recovery processes. This microstructural state is homogenous with nanocrystalline, equiaxed grains. This saturation in grain refinement is also reflected in the hardness reaching a plateau at this point, see Fig. <ref type="figure" target="#fig_0">1b</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Characterization of the HPT processed material</head><p>The severely deformed material (g &gt; 40), which has reached the steady-state regime was subsequently characterized by TEM and STEM imaging in more detail. Fig. <ref type="figure" target="#fig_2">2a</ref>) depicts a nc microstructure with rather blurry boundaries, which is characteristic for many HPT processed materials and typically attributed to the formation of non-equilibrium grain boundaries during processing <ref type="bibr" target="#b40">[41]</ref>. Since boundaries are often difficult to discern for this microstructural state, the grain size estimation in the processed material bears difficulties, but based on a large number of dark-field images the average grain size of the TiZrNbHfTa material in the steady-state regime can be estimated to be close to 50 nm. In the inset of Fig. <ref type="figure" target="#fig_2">2a</ref>) a corresponding electron diffraction pattern can be seen. Since all Debye Scherrer rings can be attributed to one bcc phase with a lattice constant of 340.2 pm, the TiZrNbHfTa alloy apparently retains its single phase character during HPT processing. This could also be confirmed by complimentary measurements via XRD for which a lattice constant of 341.1 pm was determined, see Fig. <ref type="figure" target="#fig_2">2b</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Annealing response of the HPT processed TiZrNbHfTa alloy</head><p>The TiZrNbHfTa alloy in the steady-state condition after HPT processing was subsequently isochronally annealed for 1 h at temperatures between 300 C and 1100 C, Fig. <ref type="figure" target="#fig_3">3a</ref>). Even for very low annealing temperatures of only 300 C the hardness of the material increases markedly by about 60 HV1 and continues to increase further with higher annealing temperatures up to 500 C, for which a maximum hardness increase of more than 110 HV1 is reached. At higher heat treatment temperatures (T &gt; 500 C) the hardness decreases quickly.</p><p>In order to get better insights into the kinetics of this hardening process additionally isothermal anneals at the peak hardness temperature of 500 C were performed. The majority of the hardening occurs within very short time spans, as can be seen in Fig. <ref type="figure" target="#fig_3">3  b</ref>). After 5 min of annealing the hardness increases by approximately 80 HV1 to 499 ± 6 HV1. For isothermal annealing the maximum hardness is again reached for 1 h of heat treatment, longer annealing times lead to moderate decreases in the materials hardness.</p><p>In order to gain additional information on the microstructural response to the heat treatment, three annealed samples, namely 500 C for 1 h and for 100 h as well as 800 C for 1 h, were complementarily investigated by TEM.   Prolonged annealing at 500 C for 100 h leads to further grain growth (Fig. <ref type="figure" target="#fig_4">4 c</ref>) and d)), but no additional phases form. However, with longer annealing times the chemical compositions of the present phases changes markedly compared to the 500 C, 1 h specimen, see Fig. <ref type="figure" target="#fig_5">5 a)</ref> and<ref type="figure">c</ref>). After the isochronal annealing treatment at 800 C (Fig. <ref type="figure" target="#fig_4">4 e</ref>) and f)) the sample still has a grain size in the sub-micron regime. Looking at the electron diffraction pattern (inset of Fig. <ref type="figure" target="#fig_4">4 e</ref>)) and EDX measurements (Fig. <ref type="figure" target="#fig_5">5 e</ref>), it can be seen, that a second Zr-Hf rich phase with a bcc crystal structure and a lattice constant of approximately 356 pm is occurring at higher temperatures instead of the Zr-Hf rich hcp phase. The Nb-Ta rich phase retains its bcc character, with a lattice constant of about 342 pm.</p><p>Samples that were annealed at higher temperatures were subsequently investigated via BSE imaging in the SEM. For heat treatment temperatures of 900 C the microstructure is partially recrystallized, with some grains significantly growing in size, while other grains are pinned by fine grain boundary precipitates (Fig. <ref type="figure" target="#fig_6">6</ref> a)). Annealing at even higher temperatures leads to a singlephase microstructure, while further grain growth occurs, see Fig. <ref type="figure" target="#fig_6">6 b</ref>) and c). Grain sizes for samples annealed at 1000 C for 1 h and 1100 C for 1 h are close to 25 mm and 50 mm as determined by EBSD scans (area-weighted, not shown in the present manuscript).</p><p>Samples annealed for 1 h in a temperature range from 300 C to 1100 C additionally were investigated by means of synchrotron XRD-measurements in order to obtain microstructural information on a much larger sample volume compared to a TEM specimen. In Fig. <ref type="figure" target="#fig_7">7 a</ref>) a large range of 2Q angles featuring many peaks is displayed, while Fig. <ref type="figure" target="#fig_7">7 b</ref>) focuses on the immediate region around the (110) peak of the original bcc high-entropy phase in order to better highlight the occurring changes. For the 300 C sample no distinct changes compared to the asedeformed sample can be detected, all peaks still correspond to a single-phase bcc material. However, the 500 C annealed specimens clearly show a decomposition of the bcchigh-entropy phase into two different phases, where one still has a bcc crystal structure with a slightly diminished lattice constant of about 335.4 pm. The second phase on the other hand has a hcp structure with the lattice parameters of a ¼ 318.7 pm and c ¼ 506.7 pm, close to the lattice constants of pure Hf.</p><p>Additional measurements were performed for a sample annealed at 500 C for 100 h, which show that for longer annealing times the hcp-related peaks start to become more pronounced. Compared to the specimen annealed at 500 C for 1 h, the peak positions shift slightly, indicating a change in the lattice parameters occurring for longer annealing times. Since with longer annealing times the defect density in the material is reduced, the peak broadening is reduced as well. This is in good agreement with the prior TEM investigations, where a Nb-Ta rich bcc and a Zr-Hf rich hcp phase were observed for these annealing states.</p><p>The specimen annealed at 800 C for 1 h is likely containing three different phases. The disordered bcc phase is still present, however a change in peak positions is occurring (the lattice constant now is 334.5 pm). Besides this bcc phase, two more phases occur, another disordered bcc phase as well as small amounts of a hcp phase e The diffraction peaks of these 2 phases are partially overlapping. However, no hcp phase could be found for the 800 C, 1 h annealing state utilizing TEM, see Fig. <ref type="figure" target="#fig_4">4 e</ref>) and f), likely due to this phase occurring at a low volume fraction at this point.</p><p>A summary of these findings can be found in Table <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Thermo-calc simulation</head><p>Results from the Calphad modeling are given in Fig. <ref type="figure" target="#fig_8">8</ref>. From the obtained simulations, the equimolar TiZrNbHfTa alloy seems to be thermodynamically stable as a single-phase disordered bcc alloy denoted BCC_B2#2 (Fig. <ref type="figure" target="#fig_8">8 a</ref>) and b)) for temperatures of about 1020 C up to its solidus temperature. Below 1020 C the singlephase state is no longer thermodynamically favourable and decomposes into a multi-phase structure. Two bcc phases co-exist between 800 and 1020 C (BCC_B2#1 and BCC_B2#2). With decreasing temperature in this two-phase region, the original equimolar BCC_B2#2 phase is significantly enriched in Hf and Zr and to a smaller amount in Ti whereas the new BCC_B2#1 is predicted to contain predominantly Ta and Nb (Fig. <ref type="figure" target="#fig_8">8 c</ref>) and d)).</p><p>For temperatures between 800 C and 700 C the equilibrium condition is calculated to be a 3-phase state, where in addition to the two phases mentioned above a hcp (HCP_A3#1) phase is present, which is also relatively rich in Zr and Hf (Fig. <ref type="figure" target="#fig_8">8 e</ref>)). Below 700 C the original high-entropy BCC_B2#2 phase is no longer thermodynamically stable and the microstructure consists of BCC_B2#1 and HCP_A3#1. For low temperatures the B2#1 phase gets progressively richer in Ta and Nb until it consists of 50 at% each. The HCP_A3#1 phase remains fairly constant in Hf and Zr content at around 35 at%, with some small fluctuations, while the Ti content increases continually for temperatures below 800 C. Overall, these calculations reflect the experimental findings very well. A comparison of the phase composition between simulation and experiment can be found in Table <ref type="table" target="#tab_1">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Impact on mechanical properties</head><p>In order to determine the influence of HPT processing and subsequent annealing treatments on the mechanical properties of the TiZrNbHfTa alloy, tensile tests were performed (Fig. <ref type="figure" target="#fig_9">9 a</ref>). The asreceived state has a relatively low tensile strength of about 830 MPa with a moderate ductility, and a total elongation to failure of about 9%. The corresponding fracture surface can be seen in Fig. <ref type="figure" target="#fig_9">9 b</ref>).</p><p>Grain refinement via HPT processing leads to a significant increase in the materials strength, the tensile strength of the HPT samples is around 1900 MPa. More surprisingly, despite the large increase in strength, the specimens remain fairly ductile with a total elongation to failure of 7.9%.</p><p>Annealing treatments and the ensuing phase decomposition heavily impact the mechanical properties as well. Upon annealing the material at 500 C for 1 h shows a strong decrease in ductility and tensile samples, while still having high strength (~1500 MPa), fail without much prior plastic deformation. At higher annealing temperatures of 800 C some of the ductility is restored but at the cost of a significant loss in strength, with the tensile strength being decreased to roughly 795 MPa.</p><p>All mechanical properties are summarized in Table <ref type="table" target="#tab_2">3</ref>, where the reduction in the cross-sectional area of the tensile specimen during testing was added as an additional measure of ductility.</p><p>These changes are also reflected in the fracture surfaces e While the HPT processed sample shows a dimple fracture, which is      <ref type="figure" target="#fig_9">9 c</ref>), after annealing at 500 C for 1 h, the samples fractures in an intercrystalline fashion, Fig. <ref type="figure" target="#fig_9">9 d</ref>). Ductility is regained for heat treatments at 800 C, as can be seen in Fig. <ref type="figure" target="#fig_9">9 e</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Microstructural changes during HPT processing</head><p>Reports are available on the deformation mechanisms present in the TiZrNbHfTa alloy in the case of a coarse-grained microstructure for relatively low deformation strains. Senkov et al. <ref type="bibr" target="#b18">[19]</ref> reported on simultaneous dislocation and twinning activity during compression testing at room temperature of the cast alloy and concluded this to be a likely reason for the good compression ductility of TiZrNbHfTa. Later investigations also revealed extensive deformation banding after cold rolling, with bands having a certain inclination with respect to the rolling direction <ref type="bibr" target="#b24">[25]</ref>. Studies of the compressive properties of TiZrNbHfTa after casting with in-depth TEM investigations showed that work hardening can be separated into three distinct stages and came also to the conclusion, that for larger plastic strains a localization of the deformation occurs <ref type="bibr" target="#b19">[20]</ref>. Contrary to the study by Senkov et al. <ref type="bibr" target="#b18">[19]</ref> no evidence of twinning could be found in Ref. <ref type="bibr" target="#b22">[23]</ref>. Rather, an inhomogeneous microstructure for low strains due to an early onset of shear banding, is reported, which becomes more homogenous at higher strains.</p><p>The results obtained in this study are in line with the existing results in literature. If the sample is only subjected to relatively low shear strains, the formation of dislocation cells can be observed via BSE imaging (Fig. <ref type="figure" target="#fig_0">1c</ref>) but also lenticular or lamellae-like structures are seen, as already reported in references <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b20">21]</ref>. Senkov et al. <ref type="bibr" target="#b18">[19]</ref> first described these structures as a mixture of shear bands and deformation twins. However in this present study, despite similar structures occurring, no conclusive proof could be found, that they are related to mechanical twinning, similar to observations in Refs. <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23]</ref>.</p><p>With increasing shear strain the deformation then quickly localizes into bands, which also drastically increase in number with increasing strain. Since a higher degree of deformation is realised inside of these deformation bands, the grain refinement is much more pronounced there than in the surrounding material. The microstructure is therefore rather inhomogeneous during early stages of deformation, but for very high strains and the steady-state regime the microstructure-homogeneity is restored. A similar deformation behaviour during HPT processing has also been seen for another bcc HEA, AlTiVNb <ref type="bibr" target="#b29">[30]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Evolution of hardness after heat treatments</head><p>After the isochronal (t ¼ 1 h) anneals at low temperatures up to 600 C a distinct increase in the material's hardness can be detected. Even for the lowest annealing temperature of 300 C, for which no precipitation of second phases could be detected by means of XRD, a hardness increase of about 60 HV1 was measured, see Fig. <ref type="figure" target="#fig_3">3  a</ref>). For nc metals several studies report a hardness increase occurring during low temperature annealing. The origin of this phenomenon is still controversially discussed [42e45]. The occurring change in hardness is often ascribed to a change in the defect structure of the material during annealing. Since in nc metals there is an abundance of grain boundaries, which act not only as dislocation sources but also as sinks and enable rapid dislocation annihilation during the annealing treatment. This might require the  activation of new dislocation sources if plastic deformation is to be realised after the heat treatment, needing higher stresses compared to the as-deformed state <ref type="bibr" target="#b41">[42,</ref><ref type="bibr" target="#b45">46]</ref>. Other explanations consider grain boundary-dislocation interactions as the main reason for the observed hardening. Annealing might cause an elevated concentration of solutes at the grain boundaries, which subsequently could suppress the emission of dislocations due to solute drag <ref type="bibr" target="#b43">[44]</ref>. At slightly higher annealing temperatures the onset of a phase decomposition is observed and the formation of a multi-phase microstructure could also possibly lead to an increase in hardness. However, given the low hardness and strength of the 800 C annealing state (Fig. <ref type="figure" target="#fig_3">3 a</ref>) and 9 a)), in spite of having a finegrained multi-phase microstructure (Fig. <ref type="figure" target="#fig_4">4 e</ref>)), this idea can be questioned. The reason for the low strength of the 800 C annealing state is most likely twofold. Firstly, a strong decrease in solid solution hardening due to the occurring phase decomposition. Senkov et al. <ref type="bibr" target="#b17">[18]</ref> estimated the contribution of solid solution hardening in the TiZrNbHfTa alloy <ref type="bibr" target="#b46">[47]</ref>. Since conventional models for solid solution strengthening are usually based on "dilute" alloying systems, where the solvent element and the solute elements can be clearly distinguished, in the case of the equiatomic TiZrNbHfTa a pseudobinary solid solution was assumed. Due to the very low atomic size difference Ta, Nb and Ti were considered the solvent, while Hf and Zr where thought of as the solute. A majority of the contribution to the solid solution strengthening due to atomic size misfit is therefore arising from the misfit between Ta-Nb-Ti and Hf-Zr, while the misfit and thus the strengthening contribution within Ta-Nb-Ti and Hf-Zr is negligible. The second contribution to solid solution strengthening is the elastic modulus difference and is by far the largest around Ta atoms in the TiZrNbHfTa alloy and comparably small between all other elements <ref type="bibr" target="#b17">[18]</ref>. However, annealing at 800 C leads to a phase decomposition into Nb-Ta and Zr-Hf rich phases, thus leading to a strong reduction in the strength contribution via atomic size misfit, since both phases mostly contain elements between which the size difference is small. Secondly, while the 800 C annealing state might still possess an ultra-fine grained microstructure, the hardening contribution due to grain refinement is not that distinct in the TiZrNbHfTa alloy. As can be seen in Fig. <ref type="figure" target="#fig_0">1 b</ref>), reducing the grain size in the coarse-grained as-received state with a grain size of about 100 mm down to about 50 nm in the SPD processed state only leads to a hardness increase of ~110 HV1 ( ~35% hardness increase, compared to the as-received state). This is different to other singlephase bcc metals, such as chromium <ref type="bibr" target="#b47">[48]</ref>, where reducing the grain size from about 10 mm to approximately 250 nm for instance, leads to a roughly threefold increase in hardness.</p><p>In order to explain quantitatively the hardness and strength of the 800 C, 1 h annealing state, the two main phases occurring in this microstructural state were reproduced according to the chemical information obtained by EDX line-scans in the TEM (Fig. <ref type="figure" target="#fig_5">5  e</ref>)) and then subjected to HPT processing. Both phases show a similar hardness after casting (~280 HV1 for the ZrHf-rich phase and ~268 HV1for the NbTa-rich bcc phase). Introducing a nanocrystalline microstructure via HPT and subsequent hardness testing reveal, that the hardening due to grain refinement is not pronounced, especially in the Zr-Hf phase (~31% hardness increase, ~79% for the Nb-Ta-rich phase), see Table <ref type="table" target="#tab_3">4</ref>.</p><p>Since the newly forming phases at this stage are very similar in size the mechanical behaviour can be best envisioned as a composite material. However, in such a material a hard phase usually exists, which constraints the deformation in the softer matrix phase, thus leading to an overall increase in the strength of the material. In this case, both phases are very similar in their hardness (Table <ref type="table" target="#tab_3">4</ref>), thus it is reasonable to observe that the hardness of the composite does not differ strongly from the hardness of the two individual phases.</p><p>After the maximum hardness of approximately 530 HV1 is reached for 1 h of annealing at 500 C, the material starts to get softer again with prolonged heat treatment time. The reason for the hardness maximum at 500 C for 1 h of annealing is most likely twofold. First, the above described "hardening by annealing" phenomena is occurring as well, likely even more pronounced given the higher mobility of defects at this temperature. Secondly, while a phase decomposition is already occurring at this temperature, the changes in the phase chemistry after just 1 h of annealing are not strong yet (see Fig. <ref type="figure" target="#fig_5">5 a)</ref> and<ref type="figure">c</ref>)) e Therefore solid solution strengthening in both occurring phases should still be significant. However, after 100 h the phase decomposition is much more pronounced leading to a strongly decreased contribution of atomic size misfit to the solid solution hardening in both individual phases, which then results in the lower hardness of this microstructural state. A less important factor is the onset of grain growth (Fig. <ref type="figure" target="#fig_4">4 c</ref>), which also could offset the hardness contribution by annealing (either due to a change in the defect structure or due to grain-boundary dislocation interactions, as described above).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Changes in tensile properties</head><p>Many materials processed by HPT techniques show extraordinarily high mechanical strengths but often only a moderate amount of plasticity <ref type="bibr" target="#b48">[49]</ref>. Especially the tensile ductility is usually limited, which is often related to low strain hardening in these materials, which would help to prevent an early localization of deformation <ref type="bibr" target="#b48">[49,</ref><ref type="bibr" target="#b49">50]</ref>. Several strategies exist to potentially gain better ductility, usually centered around gaining a higher strain hardening rate. This, for instance, could be achieved by introducing a bi-modal grain size distribution or nanoparticles, which could promote the accumulation of dislocations. Furthermore, a high density of twins should also improve the ductility of SPD processed materials <ref type="bibr" target="#b48">[49,</ref><ref type="bibr" target="#b50">51]</ref>. However, since in the HPT processed TiZrNbHfTa alloy none of these microstructural features are found, the reason for the high ductility must lie elsewhere. For instance, it was shown that a higher ductility in SPD materials may also result from a change in deformation mechanism or that a change in the grain boundary state could possibly influence the mechanical properties <ref type="bibr" target="#b50">[51]</ref>.</p><p>Valiev et al. <ref type="bibr" target="#b51">[52]</ref> reported that it was possible for severely deformed copper and titanium to have both high tensile strength and high ductility. They related this to a possible change in the primary deformation mechanism, from dislocation and/or twinning mediated deformation for the coarse grained material to possibly grain boundary sliding or enhanced grain rotation for the nc materials.</p><p>It also has to be noted that the grain size of the as-received state is relatively large in comparison to the typical diameter of a tensile sample (approximately 500 mm) and therefore the tested samples might not be completely representative of the coarse-grained, polycrystalline material due to the low number of grains. However, the results seem to be in relatively good agreement with existing data on the coarse-grained material in literature performed on standard specimens <ref type="bibr" target="#b20">[21]</ref>.</p><p>A closer investigation into the high tensile ductility by measuring the strain rate sensitivity of the TiZrNbHfTa alloy will be the goal of future investigations.</p><p>A common strategy to restore some of the limited ductility in HPT processed materials is a subsequent annealing treatment <ref type="bibr" target="#b49">[50]</ref>. However, in the case of the TiZrNbHfTa alloy this is no valid approach. As can be seen in Fig. <ref type="figure" target="#fig_9">9 d</ref>) an annealing treatment at 500 C for 1 h leads to a severe embrittlement of the alloy and intercrystalline fracture. The reason for the apparent loss in strength compared to the HPT processed sample likely is also caused by this pronounced embrittlement and an early failure of the specimen in the elastic regime of the tensile test. The change from a ductile fracture mode to an intercrystalline one can have several causes, such as precipitation of a brittle phase at grain boundaries. As can be seen in Fig. <ref type="figure" target="#fig_4">4 a</ref>) and b) the microstructure for this annealing state consists of two phases of similar grain size, so the most likely cause of the transition to an intercrystalline fracture is a weak interface strength between the hcp and the bcc phase.</p><p>On the other hand a good strength-ductility ratio also cannot be achieved at higher annealing temperatures. At 800 C the TiZrNbHfTa alloy is more ductile again, as especially can be seen in the large area-reduction occurring during tensile testing, see Table <ref type="table" target="#tab_2">3</ref>). However, the material seems very prone to damage localization, since necking occurs during testing with very little prior uniform elongation. Likely reasons for this behaviour can be found in the multi-phase microstructure and a very low work hardening rate. In addition, the tensile strength of this microstructural state is already significantly decreased. The hardness data also shows a similar trend for temperatures exceeding 800 C, see Fig. <ref type="figure" target="#fig_3">3 a</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4.">Comparison between experiment and simulation</head><p>In a previous publication by Senkov et al. <ref type="bibr" target="#b24">[25]</ref> it has already been shown, that after heavy cold rolling and subsequent annealing at 800 C for 2 h, the TiZrNbHfTa alloy no longer is a single-phase bcc alloy. Since the entropic contribution to the Gibbs free energy decreases with decreasing temperature it was concluded, that for lower temperatures the observed phase decomposition should occur as well.</p><p>In this study the phase decomposition could be observed even for much lower annealing temperatures within very short time frames due to the fast diffusion kinetics in nc materials, caused by the high amount of grain boundaries. Experimental observations and simulated data are generally in good agreement regarding phase formation and temperature.</p><p>Considering the phase chemistry however, experiment and simulation are only in partial agreement but the trends are satisfactory (see Table <ref type="table" target="#tab_1">2</ref>). In general, the enrichment of elements (especially in the Nb-Ta rich phase) is more pronounced in the simulated data compared to what could be observed in experiments. The reason for this can be twofold: Firstly, the equilibrium condition has not yet been reached for the annealed specimens, which for instance could be seen when comparing specimen annealed at 500 C for 1 h and 100 h, where in the latter a more pronounced phase decomposition could be observed (Fig. <ref type="figure" target="#fig_5">5 a</ref>) and c)). Secondly, the Calphad approach often only leads to results that are in partial agreement with experiments in regards to HEAs, since calculating multi-component phase diagrams is more challenging than for traditional alloys, where it is often sufficient for the thermodynamic database to only focus on the corner of the phase diagram, while for HEAs the database should be valid over the entire composition range <ref type="bibr" target="#b52">[53]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Summary and conclusions</head><p>In order to evaluate the thermodynamic stability of an equiatomic, single-phase TiZrNbHfTa alloy it was nanostructured by utilizing HPT. The nc samples then were subjected to various annealing treatments and the resulting specimens were investigated comprehensively by electron microscopy, XRD and tensile testing to determine microstructure-property relationships. The results can be summarized as follows:</p><p>1. HPT-processing of the coarse-grained TiZrNbHfTa alloy results in a significant grain refinement down to a minimum grain size of approximately 50 nm and, without losing the single-phase character, leads to a more than twofold increase in tensile strength up to 1900 MPa. 2. After subjecting the nc samples to various heat treatments for temperatures below 1000 C a clear tendency towards a phase decomposition could be observed. For temperatures between 800 C and 900 C the TiZrNbHfTa alloy decomposes mostly into two different bcc phases (Nb-Ta and Zr-Hf rich). For lower temperatures a second Zr-Hf rich phase with a hcp crystal structure can occur as well. 3. The phase decomposition also heavily impacts the mechanical performance of the alloy. While after HPT processing the alloy possesses excellent mechanical strength and good ductility, annealing can lead to a severe embrittlement of the alloy. 4. The experimentally observed phases are in good agreement with the predictions by thermodynamic simulations.</p><p>In summary, the presented results shed new light on the occurring phases of the former single-phase TiZrNbHfTa alloy and their impact on the mechanical properties. In addition, the initially single-phase alloy might constitute a practical basis to synthesize complex nanocomposite structures. The volume fraction of the individual phases could be tailored by selecting the appropriate annealing time and temperature to optimize the trade-off between strength and ductility.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. a) Microstructure of the coarse-grained, as-received state. In the inset the average chemical composition determined by an EDX line scan can be seen. b) Evolution of hardness as a function of shear strain during HPT processing. For g larger than 40 a saturation in hardness is achieved. c)-e) BSE images of the microstructure development at relatively low shear strains. c) At g close to 1 the typical formation of dislocation substructures as well as the onset of a localization of deformation (see arrows) can be observed. d) and e) show an increase in the number of deformation bands with an increase in shear strain.</figDesc><graphic coords="3,110.67,463.92,383.75,237.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 4 a</head><label>4</label><figDesc>) and b) show the microstructure after a heat treatment at 500 C for 1 h. During annealing the non-equilibrium grain boundaries of the HPT processed state rearrange to a more equilibrium-like state. Microstructural features seem therefore a lot clearer compared to the as-deformed state. Complementary</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. a) STEM image of the steady-state microstructure of the TiZrNbHfTa alloy after being subjected to shear strains larger than 40. The inset is a corresponding electron diffraction pattern, showing that the material retains its single-phase bcc character during HPT deformation. b) This was also confirmed via synchrotron XRD measurements.</figDesc><graphic coords="4,43.77,66.73,229.19,425.93" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. a) Isochronal annealing treatments performed for 1 h lead to an increase in hardness up to annealing temperatures of 600 C. b) Isothermal heat treatments at 500 C reveal that a significant portion of the hardening occurs within very short times spans of just 5 min.</figDesc><graphic coords="4,307.11,66.73,240.44,402.01" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. a) Bright field image of a specimen annealed at 500 C for 1 h and b) a HAADF image of the same position, showing a two-phase microstructure. c) and d) for longer annealing times of 100 h grain coarsening occurs, but no additional phases compared to the 1 h state can be detected. e) and f) after an annealing treatment at 800 C for 1 h the microstructure is still ultra-fine grained and shows a phase decomposition of the bcc high entropy phase. The insets in a), c) and e) show corresponding electron diffraction patterns.</figDesc><graphic coords="5,60.49,66.73,484.29,302.68" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. EDX line-scan data (a), c) and e)) of the annealed specimens, show the changes in the chemical composition occurring during the phase decomposition, while the HAADF images show the location, where the scans were performed (b), d) and f)). a) Sample annealed at 500 C for 1 h. The hcp phase (darker regions in the HAADF image b)) is clearly enriched in Zr and Hf, while differences in chemistry in the bcc phase (Nb-Ta) are not that pronounced yet. c) For longer annealing times (t ¼ 100 h) at 500 C the changes get more pronounced and the bcc phase (lighter regions) is much richer in Nb and Ta. e) At 800 C for 1 h phases enriched in Nb-Ta and Zr-Hf occur as well.</figDesc><graphic coords="6,133.51,66.73,318.72,546.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. BSE images of samples annealed for 1 h at a) 900 C, b) 1000 C and c) 1100 C. Samples at 900 C show an inhomogeneous microstructure, where some grains have grown, while others still remain fine-grained with second-phase precipitation occurring at the grain boundaries. Samples at higher temperatures, see b) and c), have recrystallized and the only phase occurring is the original bcc high-entropy phase.</figDesc><graphic coords="7,102.95,66.73,399.31,125.69" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. a) Synchrotron XRD data of the HPT deformed and subsequently annealed material. For 500 C a phase decomposition of the single-phase HEA into a bcc and hcp phase can be detected. At 800 C two bcc and one hcp phase are present. b) Detailed view of a) over a reduced 2Q range. The additional information on the chemistry was obtained by TEM investigations.</figDesc><graphic coords="7,45.64,255.97,244.80,422.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Calphad simulations of the TiZrNbHfTa alloy with the TCHEA1 database: a) evolution with temperature of the mole fraction of the stable phases; b) zoom of the 200e1200 C range of a); Evolution of the composition for the different phases (left axis) for BCC_B2#2 (c), BCC_B2#1 (d) and HCP_A3#1 (e). The mole fraction is given on the right axis. All the solid phases (BCC_B2#1, B2#2, HCP_A3#1, A3#2) are disordered.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. a) Tensile stress-strain curves of the TiZrNbHfTa alloy in different microstructural states. b)-e) secondary electron images of fractured tensile samples. b) shows the ductile fractures surfaces of the as-received material. c), after HPT processing the specimens still shows a dimple fracture. After annealing the samples at 500 C the fracture mode changes to an intercrystalline fracture, d). e) increasing the annealing temperatures further leads to a recovery of ductility.</figDesc><graphic coords="9,104.09,66.73,396.95,205.63" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Phases occurring in different microstructural states as determined via TEM and XRD investigations. For the 900 C, 1 h annealing state no complimentary TEM analysis was made.</figDesc><table><row><cell>Microstructural State</cell><cell>Occurring Phases</cell><cell></cell><cell></cell></row><row><cell>SPD</cell><cell>High-entropy bcc phase, a ¼ 341.1 pm</cell><cell></cell><cell></cell></row><row><cell>300 C, 1 h</cell><cell>High-entropy bcc phase, a ¼ 340.1 pm</cell><cell></cell><cell></cell></row><row><cell>500 C, 1 h</cell><cell>NbTa rich bcc, a ¼ 335.5 pm</cell><cell>ZrHf rich hcp, a ¼ 319.8 pm, c ¼ 506.7 pm</cell><cell></cell></row><row><cell>500 C, 100 h</cell><cell>NbTa rich bcc, a ¼ 335.4 pm</cell><cell>ZrHf rich hcp, a ¼ 318.7 pm, c ¼ 506.7 pm</cell><cell></cell></row><row><cell>800 C, 1 h</cell><cell>NbTa rich bcc, a ¼ 334.5 pm</cell><cell>ZrHf rich bcc, a ¼ 344.9 pm</cell><cell>ZrHf rich hcp, a ¼ 322.8 pm, c ¼ 511.5 pm</cell></row><row><cell>900 C, 1 h</cell><cell>bcc, a ¼ 333.9 pm</cell><cell>bcc, a ¼ 341.6 pm</cell><cell></cell></row><row><cell>1100 C, 1 h</cell><cell>High-entropy bcc phase, a ¼ 340.1 pm</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>Mole fraction and composition of the system at 500 C and 800 C taken from Calphad simulations (TCHEA1 base). The values in the brackets are experimental data, obtained via EDX line scans, for comparison (data from 500 C, 100 h and 800 C, 1 h annealed specimens). Bold numbers indicate the major elements forming the phase.</figDesc><table><row><cell></cell><cell></cell><cell>T ¼ 500 C</cell><cell></cell><cell>T ¼ 800 C</cell><cell></cell><cell></cell></row><row><cell></cell><cell></cell><cell>BCC_B2#1</cell><cell>HCP_A3#1</cell><cell>BCC_B2#1</cell><cell>BCC_B2#2</cell><cell>HCP_A3#1</cell></row><row><cell>Mole Fraction (%)</cell><cell></cell><cell>43.27</cell><cell>56.73</cell><cell>35.75</cell><cell>62.18</cell><cell>2.07</cell></row><row><cell>Mass Fraction (%)</cell><cell></cell><cell>47.84</cell><cell>52.16</cell><cell>39.13</cell><cell>58.70</cell><cell>2.16</cell></row><row><cell>Composition of the phase</cell><cell>Hf</cell><cell>0.60 (10.74)</cell><cell>34.80 (37.7)</cell><cell>4.98 (14.94)</cell><cell>27.79 (26.4)</cell><cell>45.37 (-)</cell></row><row><cell></cell><cell>Nb</cell><cell>45.69 (29.23)</cell><cell>0.41 (5.39)</cell><cell>38.30 (24.14)</cell><cell>10.11 (15.59)</cell><cell>1.11 (-)</cell></row><row><cell></cell><cell>Ta</cell><cell>45.94 (32.22)</cell><cell>0.22 (5.07)</cell><cell>41.98 (36.11)</cell><cell>8.00 (13.38)</cell><cell>0.79 (-)</cell></row><row><cell></cell><cell>Ti</cell><cell>6.80 (20.89)</cell><cell>30.07 (14.26)</cell><cell>10.19 (16.06)</cell><cell>25.69 (20.00)</cell><cell>18.40 (-)</cell></row><row><cell></cell><cell>Zr</cell><cell>0.97 (6.92)</cell><cell>34.52 (37.91)</cell><cell>4.54 (8.74)</cell><cell>28.41 (24.40)</cell><cell>34.34 (-)</cell></row><row><cell></cell><cell></cell><cell>at. %</cell><cell></cell><cell>at. %</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Summary of mechanical properties obtained during tensile testing.</figDesc><table><row><cell>Microstructural State</cell><cell>Tensile strength (MPa)</cell><cell>Total elongation to failure (%)</cell><cell>Reduction of area (%)</cell></row><row><cell>as-received</cell><cell>830</cell><cell>9.2</cell><cell>69</cell></row><row><cell>HPT</cell><cell>1900</cell><cell>7.9</cell><cell>49</cell></row><row><cell>500 C,1 h</cell><cell>1520</cell><cell>1.7</cell><cell>5</cell></row><row><cell>800 C, 1 h</cell><cell>795</cell><cell>5.0</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>Hardness values of the individually cast phases occurring in the 800 C, 1 h annealing treatment, before and after HPT processing.</figDesc><table><row><cell>Phase</cell><cell>Microstructural State</cell><cell>Vickers Microhardness (e)</cell></row><row><cell>Zr-Hf-rich</cell><cell>As-cast</cell><cell>280.5 ± 11.9</cell></row><row><cell></cell><cell>HPT processed</cell><cell>367.2 ± 2.4</cell></row><row><cell>Nb-Ta-rich</cell><cell>As-cast</cell><cell>267.7 ± 13.6</cell></row><row><cell></cell><cell>HPT processed</cell><cell>478.6 ± 3.4</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This work was supported by the <rs type="funder">Austrian Science Fund FWF</rs> in the framework of Research Project <rs type="grantNumber">P26729-N19</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_C8dzq6n">
+					<idno type="grant-number">P26729-N19</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nanostructured high-entropy alloys with multiple principal elements: novel alloy design concepts and outcomes</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="299" to="e303" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">High-entropy alloys: a critical review</title>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="107" to="e123" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">A critical review of high entropy alloys and related concepts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.08.081</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2016.08.081" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="448" to="e511" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Tensile properties of high-and medium-entropy alloys</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="74" to="e78" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The influences of temperature and microstructure on the tensile properties of a CoCrFeMnNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dlouhý</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Somsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Eggeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="5743" to="e5755" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A fracture-resistant high-entropy alloy for cryogenic applications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Catoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<date type="published" when="2014">2014. 1153e1158</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties of aluminum-containing refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<date type="published" when="2014">2014. 2030e2042</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Development of a refractory high entropy superalloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Isheim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Seidman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pilchak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Entropy</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1" to="e13" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Structure and mechanical properties of a light-weight AlNbTiV high entropy alloy</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Shaysultanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="153" to="e155" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties of a refractory NbCrMo0.5Ta0.5TiZr alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">529</biblScope>
+			<biblScope unit="page" from="311" to="e320" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Microstructures and properties of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="e93" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Physical metallurgy of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<date type="published" when="2015">2015. 2254e2261</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Chou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Formation of simple crystal structures in Cu-Co-Ni-Cr-Al-Fe-Ti-V alloys with multiprincipal metallic elements</title>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="2533" to="e2536" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Alloy design strategies and future trends in high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1759" to="e1771" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Recent progress in high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Chim. Sci. Des. Mater</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="633" to="e648" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">High-entropy alloys: a critical assessment of their founding principles and future prospects</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Pickering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. Mater. Rev</title>
+		<imprint>
+			<biblScope unit="volume">6608</biblScope>
+			<biblScope unit="page" from="1" to="e20" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">An assessment of the lattice strain in the CrMnFeCoNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Owen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Pickering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Playford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="11" to="e18" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Microstructure and room temperature properties of a high-entropy TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page" from="6043" to="e6048" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Microstructure and elevated temperature properties of a refractory TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="4062" to="e4074" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Microstructural investigation of plastically deformed Ti20Zr20Hf20Nb20Ta20 high entropy alloy by X-ray diffraction and transmission electron microscopy</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gubicza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heczel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Couzini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perri Ere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hocini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Charact</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="1" to="e7" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Elastic and plastic properties of as-cast equimolar TiHfZrTaNb high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Djemia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laurent-Brocq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tingaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perri Ere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chauveau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">654</biblScope>
+			<biblScope unit="page" from="30" to="e38" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Mechanical behavior and microstructure of Ti20Hf20Zr20Ta20Nb20 high-entropy alloy loaded under quasi-static and dynamic compression conditions</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Couque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heczel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tingaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perri Ere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gubicza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Charact</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page" from="106" to="e113" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">On the room temperature deformation mechanisms of a TiZrHfNbTa refractory highentropy alloy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Champion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perri Ere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">645</biblScope>
+			<biblScope unit="page" from="255" to="e263" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of low-density, refractory multi-principal element alloys of the CreNbeTieVeZr system</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">565</biblScope>
+			<biblScope unit="page" from="51" to="e62" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties of a refractory highentropy alloy after cold working</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Semiatin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">649</biblScope>
+			<date type="published" when="2015">2015. 1110e1123</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Mechanical properties, microstructure and thermal stability of a nanocrystalline CoCrFeMnNi high-entropy alloy after severe plastic deformation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schuh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mendez-Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>V€ Olker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Clemens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pippan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="258" to="e268" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Precipitation in the equiatomic high-entropy alloy CrMnFeCoNi</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Pickering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Muñoz-Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="106" to="e109" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Second phase formation in the CoCrFeNiMn high entropy alloy after recrystallization annealing</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Shaysultanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ozerov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="page" from="1" to="e4" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Decomposition of the single-phase high-entropy alloy CrMnFe-CoNi after prolonged anneals at intermediate temperatures</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dlouhý</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kubênov A</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Eggeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="40" to="e52" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Phase decomposition of a single-phase AlTiVNb high-entropy alloy after severe plastic deformation and annealing</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schuh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>V€ Olker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Maier-Kiener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Todt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="page">1600674</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Advantages and Limitations of HPT a Review</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pippan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scheriau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hafok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Forum</title>
+		<imprint>
+			<biblScope unit="volume">584</biblScope>
+			<biblScope unit="issue">586</biblScope>
+			<biblScope unit="page" from="16" to="e21" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Microstructure of a near-equimolar refractory high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Couzini E</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perri Ere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chauveau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Leroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Champion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="285" to="e287" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Saturation of fragmentation during severe plastic deformation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pippan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scheriau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hafok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bachmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="319" to="e343" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Two-dimensional detector software: from real detector to idealised image or two-theta scan</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Hammersley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">O</forename><surname>Svensson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hanfland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Fitch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hausermann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">High. Press. Res</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="235" to="e248" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Match! Phase Identification from Powder Diffraction</title>
+		<author>
+			<persName><surname>Crystalimpact</surname></persName>
+		</author>
+		<ptr target="http://www.crystalimpact.com/" />
+		<imprint>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Development of a new testing procedure for performing tensile tests on specimens with sub-millimetre dimensions</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Rathmayr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bachmaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pippan</surname></persName>
+		</author>
+		<idno type="DOI">10.1520/JTE20120175&amp;bsol;r10.1016/j.msea.2012.09.061</idno>
+		<ptr target="https://doi.org/10.1520/JTE20120175\r10.1016/j.msea.2012.09.061" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Test. Eval</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="1" to="e12" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Matlab</forename><surname>Mathworks</surname></persName>
+		</author>
+		<ptr target="https://de.mathworks.com/" />
+		<imprint>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Thermo-Calc</forename><surname>Software</surname></persName>
+		</author>
+		<ptr target="http://www.thermocalc.com/media/35873/tchea10_extended_info_bh.pdf" />
+		<imprint>
+			<date type="published" when="2017-07-05">Accessed 05 July 2017. 2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">The fcc solid solution stability in the Co-Cr-Fe-Mn-Ni multi-component system</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bracq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Laurent-Brocq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perri Ere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pir Es</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Joubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page" from="327" to="e336" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<author>
+			<persName><forename type="first">A</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">MnFeNiCuPt and MnFeNiCuCo high-entropy alloys designed based on L10 structure in Pettifor map for binary compounds</title>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="107" to="e115" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Z</forename><surname>Valiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Islamgaliev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Alexandrov</surname></persName>
+		</author>
+		<title level="m">Bulk Nanostructured Materials from Severe Plastic Deformation</title>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Hardening by annealing and softening by deformation in nanostructured metals</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tsuji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">312</biblScope>
+			<biblScope unit="page">251</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Nanostructured metals: less is more</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">L</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mater</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="515" to="e516" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">On the origin of the extremely high strength of ultrafine-grained Al alloys produced by severe plastic deformation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Z</forename><surname>Valiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Enikeev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Murashkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">U</forename><surname>Kazykhanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Sauvage</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">63</biblScope>
+			<biblScope unit="page" from="949" to="e952" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Effect of solute segregation on the strength of nanocrystalline alloys: inverse Hall-Petch relation</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Swadener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Vogel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="5007" to="e5013" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Increasing the strength of nanocrystalline steels by annealing: is segregation necessary?</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Renk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Eder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Kormout</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Cairney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pippan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Mater</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">30</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Substitutional solution hardening</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Fleischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Metall</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="203" to="e209" />
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Hall-Petch dependence for ultrafine grain size electrodeposited chromium</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Brittain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scr. Metall</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="89" to="e91" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Eight routes to improve the tensile ductility of bulk nanostructured metals and alloys</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="49" to="e53" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">High tensile ductility in a nanostructured metal</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">419</biblScope>
+			<biblScope unit="page" from="912" to="e915" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Recent findings in superior strength and ductility of ultrafine-grained</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Z</forename><surname>Valiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Mater. Res. Soc. Japan</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="309" to="e318" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Paradox of strength and ductility in metals processed by severe plastic deformation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Z</forename><surname>Valiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Alexandrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Lowe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="5" to="e8" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">An understanding of high entropy alloys from phase diagram calculations</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">R</forename><surname>Kattner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Calphad Comput. Coupling Phase Diagrams Thermochem</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="1" to="e10" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Deformation behavior of HfNbTaTiZr high entropy alloy singe crystals and polycrystals</title>
+				<funder ref="#_pPYt4H5">
+					<orgName type="full">Japan Society for the Promotion of Science</orgName>
+					<orgName type="abbreviated">JSPS</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2021-02-27">27 February 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Hiroyuki</forename><forename type="middle">Y</forename><surname>Yasuda</surname></persName>
+							<email>hyyasuda@mat.eng.osaka-u.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Materials and Manufacturing Science</orgName>
+								<orgName type="department" key="dep2">Graduate School of Engineering</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1, Yamada-oka</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yusuke</forename><surname>Yamada</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Materials and Manufacturing Science</orgName>
+								<orgName type="department" key="dep2">Graduate School of Engineering</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1, Yamada-oka</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ken</forename><surname>Cho</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Materials and Manufacturing Science</orgName>
+								<orgName type="department" key="dep2">Graduate School of Engineering</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1, Yamada-oka</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Takeshi</forename><surname>Nagase</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Materials and Manufacturing Science</orgName>
+								<orgName type="department" key="dep2">Graduate School of Engineering</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1, Yamada-oka</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>T I C L E I N F O</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department" key="dep1">Division of Materials and Manufacturing Science</orgName>
+								<orgName type="department" key="dep2">Graduate School of Engineering</orgName>
+								<orgName type="institution">Osaka University</orgName>
+								<address>
+									<addrLine>2-1, Yamada-oka</addrLine>
+									<postCode>565-0871</postCode>
+									<settlement>Suita</settlement>
+									<region>Osaka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Deformation behavior of HfNbTaTiZr high entropy alloy singe crystals and polycrystals</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-02-27">27 February 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">0D8154568986F74B69A3CAA4277115F3</idno>
+					<idno type="DOI">10.1016/j.msea.2021.140983</idno>
+					<note type="submission">Received 9 June 2020; Received in revised form 22 February 2021; Accepted 23 February 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>High entropy alloys Refractory metals Single crystals Crystal plasticity Dislocations Microstructure</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Deformation behavior of equiatomic HfNbTaTiZr high entropy alloy single crystals and polycrystals were investigated. The single crystalline specimens could be obtained from the coarse-grained polycrystals annealed just below the melting point. 1/2&lt;111&gt; screw dislocations played an important role in the deformation behavior, similar to body centered cubic (bcc) metals. Moreover, a yield stress anomaly was found to appear in the alloys solutionized at 1473 K. The yield stress decreased rapidly with increasing temperature up to 673 K, while the stress increased at 873 K. Further increase in temperature resulted in a decrease in yield stress. It is also noted that the microstructure of the alloys depended strongly on annealing temperature. At 773-1073 K, phase separation into two bcc phase took place, while the hexagonal close-packed (hcp) phase was precipitated at 773-973 K. The ω phase which is typical in β-titanium alloys was also observed at 673 K. The strain-rate sensitivity of the deformation behavior and micro-Vickers hardness after the heat treatment suggest that the dynamic precipitation of the hcp phase is responsible for the yield stress anomaly.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>High entropy alloys (HEAs) consist of five or more elements of which concentrations are 5-35% and face centered cubic (fcc) or body centered cubic (bcc) single phase is generally stable due to their high configurational entropy <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref>. Recently, extensive efforts have been made to understand the characteristics of HEAs. As a result, some HEAs are found to demonstrate high strength, high fracture toughness at low temperatures and good corrosion resistance <ref type="bibr" target="#b0">[1]</ref><ref type="bibr" target="#b1">[2]</ref><ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref>. Furthermore, bcc HEAs are composed of transition metal elements such as titanium, zirconium, niobium, etc., and have attracted much attention as potential candidates for high temperature structural materials or biomaterials because of their high strength at high temperatures and excellent biocompatibility <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref><ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref>. HfNbTaTiZr is a typical bcc HEA and exhibits high strength at ambient and elevated temperatures due to strong solid-solution hardening <ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b15">16,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b20">21,</ref><ref type="bibr" target="#b21">22]</ref>. Thus, HfNbTaTiZr is regarded as refractory HEA. Senkov et al. <ref type="bibr" target="#b10">[11,</ref><ref type="bibr" target="#b11">12]</ref> first investigated the microstructure and mechanical properties of HfNbTaTiZr alloys and concluded that strong solid-solution hardening is responsible for high strength. It is also noted that the microstructure of HfNbTaTiZr depends on annealing condition <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b20">21]</ref>. For instance, phase separation into two bcc phases and precipitation of the hexagonal close-packed (hcp) phase take place during annealing, which is similar to β-titanium and zirconium alloys. Microstructure evolution after cold or hot working, including severe plastic deformation, was also examined <ref type="bibr" target="#b12">[13,</ref><ref type="bibr" target="#b17">18,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b21">22]</ref>. Since HfNbTa-TiZr alloys can be heavily cold rolled to 86%, the microstructure can be easily controlled by thermomechanical processing. However, it should be noted that as-cast HfNbTaTiZr alloys shows strong solidifying segregation which affects the mechanical properties <ref type="bibr" target="#b9">[10]</ref>. This means that homogenization treatment and/or hot working are necessary to eliminate the effect of the segregation. Moreover, a systematic study using a single crystal should be carried out to understand deformation behavior of crystalline materials. This paper reports for the first time on the deformation behavior of HfNbTaTiZr single crystals. The effect of phase transformation on the deformation behavior was also examined using the polycrystals after homogenization.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental procedure</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Preparation of the single crystals</head><p>Master ingots of equiatomic HfNbTaTiZr alloys were prepared by melting high purity elements (purity: Hf &gt; 99.6mass%, Nb &gt; 99.9mass %, Ta &gt; 99.95mass%, Ti &gt; 99.9mass%, Zr &gt; 99.9mass%) using a plasma arc furnace. The ingots were annealed just below the melting point for 14 h by an optical floating zone furnace in an Ar atmosphere. The polycrystals with coarse grains were solutionized at 1473 K for 1 h followed by water cooling (referred to as ST). Compression specimens of which dimension is 2 × 2 × 5 mm were cut from the coarse grains. The compression axis was set to be [168].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Preparation of the polycrystals</head><p>The master ingots were homogenized at 1773 K for 5 h followed by furnace cooling. Then, the polycrystals were solutionized at 1473 K for 1 h, followed by water quenching. In addition, some specimens were cold rolled to 70% to understand the effect of deformation on the phase transformation. These specimens were annealed at 673-1173 K for 1-24 h to examine the phase transformation in the alloys. Compression specimens with dimensions of 2 × 2 × 5 mm were also cut from the polycrystals. Tensile specimens with gauge dimensions of 1.5 × 0.5 × 5 mm were solutionized (recrystallized) at 1473 K for 1 h after the cold rolling and then annealed at 673-1073 K for 24 h.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3.">Mechanical testing</head><p>Compression tests for the ST single crystals and polycrystals were performed in the temperature range from 93 K to 1273 K at a cross-head speed of 0.05 mm/min corresponding to an initial strain rate (ε • ) of 1.7 × 10 -4 /s. At 93 K, liquid nitrogen gas was filled in the specimen chamber.</p><p>On the other hand, the compression tests at 473-1273 K were done in a vacuum. An applied strain was measured by a cross-head displacement.</p><p>In order to examine the strain rate sensitivity of the deformation behavior, strain-rate change tests were also conducted. In the tests, ε</p><p>• was abruptly changed at an interval of a plastic strain (ε) of 1% in the following manner: 1.7 × 10 -4 /s → 1.7 × 10 -5 /s → 1.7 × 10 -4 /s → 1.7 × 10 -3 /s → 1.7 × 10 -4 /s. Tensile tests were also performed with ε • = 1.7 × 10 -4 /s at room temperature. Micro-Vickers hardness of the specimens was measured at 9.807 N for 15 s to examine the effect of the phase transformation on the mechanical properties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.4.">Microstructure observation</head><p>Phase constituent of HfNbTaTiZr alloys was examined by an X-ray diffractometry (XRD) with CuKα radiation. Microstructure of the specimens were observed using a field-emission scanning electron microscope (FE-SEM) equipped with back-scattered electron (BSE) and  electron backscattered diffraction (EBSD) detectors. The chemical composition of the constituent phases in the alloys was measured by an energy-dispersive X-ray spectrometry (EDS). The slip planes after compression were determined by a two-surface trace analysis using an optical microscope. In order to understand the slip behavior, ψ-χ curves were drawn, where ψ is the angle between (101) and observed slip plane, the χ is the angle between (101) and maximum resolved shear stress plane. In the case of the polycrystals, two-surface trace analysis was done for the corner grains of the compression specimens. The microstructure and dislocation structure were observed using a transmission electron microscope (TEM) operated at 300 kV. The thin foils for TEM observation were perforated by an Ar ion milling.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Microstructure and phase transformation in HfNbTaTiZr alloys</head><p>Microstructure of the polycrystals before and after the homogenization is shown in Fig. <ref type="figure" target="#fig_0">1</ref>. Before the homogenization, a typical dendritic structure can be seen (Fig. <ref type="figure" target="#fig_0">1 (a)</ref>), which is known to influence the deformation behavior. On the other hand, the dendritic structure completely disappears after the homogenization, as shown in Fig. <ref type="figure" target="#fig_0">1 (b)</ref>, which is favorable for the research on the deformation behavior. From the XRD and TEM analyses, the polycrystals before and after the homogenization consist of the bcc single phase, as shown in Fig. <ref type="figure" target="#fig_0">1 (c</ref>). It is also noted that the polycrystals annealed just below the melting point by the optical floating zone furnace reveal coarse grains about 10 mm in diameter. Thus, compression specimens in a single crystalline form can be obtained from the coarse grains.</p><p>Fig. <ref type="figure" target="#fig_1">2</ref> shows XRD patterns for the polycrystals annealed at 673-1173 K for 24 h after solutionization. The specimens solutionized or annealed at 1173 K have the bcc single phase. On the other hand, the peak sprit can be seen in the diffraction peaks of the bcc phase in the temperature range from 773 K to 1073 K. This means that phase separation into two bcc phases takes place in the temperature range. Chen et al. <ref type="bibr" target="#b20">[21]</ref> also reported the phase separation. Moreover, the diffraction peaks   <ref type="figure" target="#fig_2">3 (a)</ref>), there is no sign of phase transformation in the microstructure. On the other hand, a white phase is precipitated preferentially along the grain boundaries at 1073 K (Fig. <ref type="figure" target="#fig_2">3 (b),</ref><ref type="figure">(c</ref>)), though the phase also exists in the grain interior. From the EBSD analysis, both the phases can be indexed with respect to the bcc phase (Fig. <ref type="figure">(a)</ref>), suggesting that the phase separation into two bcc phases occurs at 1073 K. Hereafter, the white precipitates and the grey matrix phase in Fig. <ref type="figure" target="#fig_2">3 (c</ref>) are referred to as bcc2 and bcc1 phases, respectively. Note that the crystal orientation of the bcc2 phase is the same as that of the neighboring grains (Fig. <ref type="figure" target="#fig_3">4 (b)</ref>). In the EDS map at 1073 K, the chemical compositions of the bcc1 and bcc2 phases are Hf, Zr-rich and Nb, Ta-rich, respectively (Fig. <ref type="figure" target="#fig_4">5</ref>), which is consistent with the previous reports <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b18">19,</ref><ref type="bibr" target="#b20">21]</ref>. In addition to the phase separation, a black plate-like phase is precipitated in the vicinity of the white bcc2 phase at 773-973 K (Fig. <ref type="figure" target="#fig_2">3 (d)-(g)</ref>) and the phase becomes fine with decreasing   temperature. The morphology of the phase is similar to the hcp phase in β-titanium alloys <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref>. XRD patterns shown in Fig. <ref type="figure" target="#fig_1">2</ref> also suggest that the hcp phase is precipitated at 773-973 K, which is in good agreement with previous papers <ref type="bibr" target="#b15">[16,</ref><ref type="bibr" target="#b20">21]</ref>. It is also interesting to note that at 673 K, there are extra spots in the TEM diffraction pattern with a beam direction (B) of [101] of the bcc phase and the fine precipitates can be seen in the dark field image of the extra spot (Fig. <ref type="figure" target="#fig_5">6</ref>). This means that the ω phase is precipitated in the bcc matrix, which is similar to β-titanium alloys <ref type="bibr" target="#b24">[25,</ref><ref type="bibr" target="#b25">26]</ref>. The precipitation of the ω phase is observed for the first time in HfNbTaTiZr alloys. Thus, the microstructure of HfNbTaTiZr alloys depends strongly on annealing temperature.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Deformation behavior of the single crystals and polycrystals</head><p>Fig. <ref type="figure" target="#fig_6">7</ref> shows temperature dependence of yield stress in the ST single crystals and polycrystals. Both the single crystals and polycrystals show a high yield stress of around 1000 MPa at room temperature. The yield stress of the polycrystals decreases steeply with increasing temperature up to 673 K, similar to bcc metals. On the other hand, the stress increases at 873 K, especially in the single crystals. Further increase in temperature results in a decrease in yield stress. It is well known that the Portevin-Le Chatelier effect accompanies a serrated flow and sometimes leads to a yield stress anomaly <ref type="bibr" target="#b26">[27,</ref><ref type="bibr" target="#b27">28]</ref>. However, it should be noted that no serration can be observed in the stress-strain curve of the single crystals, as shown in Fig. <ref type="figure" target="#fig_7">8</ref>.</p><p>Fig. <ref type="figure" target="#fig_8">9</ref> shows the dislocation structure of the ST single crystals and polycrystals compressed at room temperature. Note that the dotted contrasts in the matrix may correspond to the damage caused by the ion milling. In the polycrystals, the dislocations are visible with a reflection vector (g) of 101 (Fig. <ref type="figure" target="#fig_8">9 (a)</ref>) while are out of contrast with 121 (Fig. <ref type="figure" target="#fig_8">9</ref> (b)) and 011 (Fig. <ref type="figure" target="#fig_8">9 (c)</ref>). Thus, the Burgers vector of dislocations is 1/2 [111]. Moreover, dislocation line is nearly parallel to <ref type="bibr">[111]</ref>. This suggests that 1/2&lt;111&gt; screw dislocations are responsible for the deformation behavior of HfNbTaTiZr alloys, similar to conventional bcc metals. It is also noted that 1/2&lt;111&gt; dislocations are also observed in the ST single crystals compressed at room temperature (Fig. <ref type="figure" target="#fig_8">9 (d)</ref>), though the dislocations do not always have a perfect screw character.    <ref type="figure" target="#fig_11">11</ref>). The data taken from the polycrystals compressed at room temperature are also plotted in Fig. <ref type="figure" target="#fig_11">11</ref>. The data points for the single crystals and the polycrystals lie on the same line and the ψ-χ curve is similar to that of the bcc metals <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b29">30]</ref>. Thus, one can conclude that deformation behavior of HfNbTaTiZr alloys is closely related to 1/2&lt;111&gt; screw dislocations, similar to bcc metals. Fig. <ref type="figure" target="#fig_12">12</ref> shows stress-strain curves of the ST polycrystals annealed at 673-1073 K for 24 h and then tensile deformed at room temperature.</p><p>The ST crystals show a large elongation of around 25%. On the other hand, the elongation decreases with decreasing annealing temperature. In particular, the polycrystals annealed at 673 K and 873 K break within the elastic limit. Fig. <ref type="figure" target="#fig_13">13</ref> shows fracture surfaces of the polycrystals after the tensile deformation at room temperature. In the ST crystals, a ductile fracture surface with some dimples can be seen (Fig. <ref type="figure" target="#fig_13">13 (a)</ref>). On the other hand, intergranular fracture takes place, especially in the polycrystals annealed at 673 K (Fig. <ref type="figure" target="#fig_13">13 (d)</ref>) and 873 K (Fig. <ref type="figure" target="#fig_13">13 (c</ref>)).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>In the present study, deformation behavior of HfNbTaTiZr alloys was investigated using the single crystals and polycrystals without  From the analysis of deformation structure, 1/2&lt;111&gt; screw dislocations play an important role in the deformation behavior of HfNbTa-TiZr alloys, as shown in Fig. <ref type="figure" target="#fig_8">9</ref>. Dirras et al. <ref type="bibr" target="#b13">[14]</ref> also reported that the dislocation character in the alloys became screw with increasing strain. In addition, &lt;111&gt; slip takes place on non-low index crystallographic plane and tends to cross-slip (Figs. <ref type="figure" target="#fig_10">10</ref> and<ref type="figure" target="#fig_11">11</ref>), which is similar to the deformation behavior of bcc metals <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b29">30]</ref>. At low temperatures, the alloys exhibit high strength due to strong solid solution hardening, as shown in Figs. <ref type="figure" target="#fig_6">7</ref> and<ref type="figure" target="#fig_7">8</ref>. For instance, the critical resolved shear stress for observed &lt;111&gt; slip in the single crystals compressed at room temperature is calculated to be 449 MPa. Some models were proposed to explain the strong solid solution hardening in HEAs <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9,</ref><ref type="bibr" target="#b10">11,</ref><ref type="bibr" target="#b30">[31]</ref><ref type="bibr" target="#b31">[32]</ref><ref type="bibr" target="#b32">[33]</ref><ref type="bibr" target="#b33">[34]</ref><ref type="bibr" target="#b34">[35]</ref><ref type="bibr" target="#b35">[36]</ref>. For instance, the data obtained by the single crystal study is in fairly good agreement with the model proposed by Toda-Caraballo <ref type="bibr" target="#b31">[32]</ref>. There is neither grain boundary nor solidified microstructure in the single crystals. Therefore, the single crystal study provides the useful information to clarify the hardening mechanism. On the other hand, the yield stress decreased rapidly with increasing temperature up to 673 K, as shown in Fig. <ref type="figure" target="#fig_6">7</ref>. It is well known the yield stress of bcc metals generally shows strong temperature dependence, associated with complicated core structure of 1/2&lt;111&gt; screw dislocations, which is in good agreement with the results of HfNbTaTiZr alloys. However, the yield stress increased at 873 K, especially in the single crystals (Fig. <ref type="figure" target="#fig_6">7</ref>). In order to understand the stress increase at 873 K, the strain-rate change tests were performed for the ST polycrystals (Fig. <ref type="figure" target="#fig_14">14</ref>) and single crystals (Fig. <ref type="figure" target="#fig_15">15</ref>). Strain-rate sensitivity, m and activation volume, v* are given by Ref. <ref type="bibr" target="#b36">[37]</ref>,</p><formula xml:id="formula_0">m = ∂ln τ ∂lnγ (1) v * = k B T ( ∂lnγ ∂τ ) (<label>2</label></formula><formula xml:id="formula_1">)</formula><p>where τ is the shear stress, γis the shear strain rate, k B is the Boltzmann constant and T is the deformation temperature. m and v* for the single crystals were calculated and presented in Table <ref type="table" target="#tab_0">1</ref>. As a result, m at 873 K is positive: an increase and a decrease in the strain rate results in an increase and a decrease in the flow stress, respectively. It is also noted that a serrated flow cannot be seen, though small serration can be seen in the single crystals at higher strains (Fig. <ref type="figure" target="#fig_15">15</ref>). This means that a typical Portevin-Le Chatelier effect associated with dislocation locking by solute atoms is not likely to be responsible for the yield stress anomaly at 873 K. In addition, v* is 10-30b 3 (b: length of Burgers vector of 1/2&lt;111&gt;). This suggests that the thermally activated process of the dislocation motion is overcoming Peierls-Nabarro stress or cross slip, similar to  conventional bcc metals <ref type="bibr" target="#b36">[37]</ref>. However, it is interesting to note that the work hardening rate is highest at the lowest strain rate of 1.7 × 10 -5 /s in the polycrystals (Fig. <ref type="figure" target="#fig_14">14</ref>). Next, the effect of phase transformation on the anomaly is discussed. Fig. <ref type="figure" target="#fig_16">16</ref> shows micro-Vickers hardness of the polycrystals annealed at 673-1173 K for 24 h. The hardness of the specimen at 1073 K at which the phase separation into two bcc phases takes place is similar to that at and above 1173 K. This suggests that the phase separation of the bcc phase hardly influences the deformation behavior. Note that the lattice parameters of the bcc1 and bcc2 phases are 0.3432 nm and 0.3335 nm, respectively (Fig. <ref type="figure" target="#fig_1">2</ref>). Although a misfit strain between the bcc phases is not small, the lattice of the phases is continuous (Fig. <ref type="figure" target="#fig_3">4</ref>). Thus, the effect of the misfit strain on the strength seems not to be significant. On the other hand, the hardness increases with a further decrease in temperature up to 773 K. In the temperature range, the hcp phase is precipitated and becomes fine with decreasing temperature (Fig. <ref type="figure" target="#fig_2">3</ref>). Although the precipitation of the ω phase at 673 K also increases the hardness, the yield stress anomaly takes place at 873 K. Thus, the precipitation of the hcp phase at 873 K seems to be responsible for the yield stress anomaly. In fact, at ε • = 1.7 × 10 -5 /s, the flow stress increases most significantly in the course of the strain-rate change tests, probably due to the precipitation of the hcp phase (Fig. <ref type="figure" target="#fig_14">14</ref>). Moreover, if the single crystal is compressed again at room temperature after the strain-rate change tests at 873 K, the crystal demonstrates higher yield stress than that compressed only at room temperature (Fig. <ref type="figure" target="#fig_15">15</ref>). This means that the solute segregation near the dislocation core seems to be irresponsible for the yield stress anomaly. In order to understand the precipitation of the hcp phase during     compression, the Vickers hardness of the polycrystals with or without cold rolling was measured at room temperature after annealing at 873 K (Fig. <ref type="figure" target="#fig_17">17</ref>). The hardness of the cold-rolled specimens shows high values even after short annealing time, while that without cold rolling increases gradually with increasing annealing time. This means that the deformation structure after cold rolling accelerates the precipitation of the hcp phase. This also implies that the dynamic precipitation of the hcp phase leads to an increase in yield stress at 873 K. It should also be noted that the stress increase at 873 K is more significant in the single crystals than the polycrystals. In the polycrystals, the phase separation into two bcc phases takes place along the grain boundaries, together with the precipitation of the hcp phase, as shown in Fig. <ref type="figure" target="#fig_2">3</ref>. In contrast, there is no grain boundary in the single crystals, and therefore, the phase separation seems to be difficult. This may accelerate the formation of the hcp phase at 873 K, resulting in the increase in yield stress and the serrated flow during the strain-rate change tests in the single crystals. At present, the hcp phase precipitated along the dislocation lines during the compression cannot be observed. Grylls et al. <ref type="bibr" target="#b37">[38]</ref> reported that dynamic precipitation and subsequent dissolution of the ω phase in Nb-Ti-Al alloys seems to be responsible for the discontinuous yielding, while the precipitates cannot be observed after the deformation. In HfNbTaTiZr alloys, there is a possibility that the growth rate of the hcp precipitates is low.</p><p>Tensile deformation behavior of the polycrystals depends on the annealing temperature, as shown in Figs. 12 and 13. In the ST polycrystals, a large elongation can be obtained, which is also reported in a previous paper <ref type="bibr" target="#b10">[11]</ref>. On the other hand, the elongation decreases with decreasing annealing temperature. At 673 K and 873 K, the ω and hcp phases are precipitated, respectively (Figs. <ref type="bibr">2, 3 and 6)</ref>. The polycrystals become so strong at room temperature due to the ω and hcp phases (Fig. <ref type="figure" target="#fig_16">16</ref>) that intergranular fracture tends to occur (Fig. <ref type="figure" target="#fig_13">13</ref>). This results in a decrease in elongation of the polycrystals annealed at 673 K and 873 K, similar to β-titanium alloys. Phase separation into the bcc1 and bcc2 phases at 1073 K slightly increases the hardness, which also decreases the room temperature elongation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>Deformation behavior of equiatomic HfNbTaTiZr single crystals and polycrystals was examined focusing on the effect of the phase transformation. The following conclusions were reached.</p><p>1. Motion of 1/2&lt;111&gt; screw dislocations governs the plastic deformation behavior of solutionized HfNbTaTiZr single crystals and polycrystals. Moreover, the single crystals and polycrystals exhibit a yield stress anomaly of which peak temperature is 873 K. 2. The microstructure of HfNbTaTiZr alloys varies with annealing temperature. Phase separation into two bcc phase occurs in the temperature range from 773 K to 1073 K. On the other hand, the hcp phase is precipitated at 773-973 K, while there exists the fine ω phase at 673 K, which is similar to β-titanium alloys. 3. The hardness of HfNbTaTiZr alloys is insensitive to the bcc phase separation. In contrast, the precipitation of the hcp and ω phases increase the hardness. The precipitation of the hcp phase at 873 K is accelerated in the single crystals and deformed polycrystals. Therefore, the dynamic precipitation of the hcp phase at 873 K plays an important role in the yield stress anomaly. 4. Tensile elongation of the polycrystals at room temperature decreases by the formation of the hcp and ω phases at 873 K and 673 K, respectively.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Microstructures (a), (b) and XRD patterns (c) of HfNbTaTiZr polycrystals after arc melting followed by homogenization treatment at 1773 K for 5 h; (a) as cast, (b) homegenized.</figDesc><graphic coords="2,124.67,55.41,345.89,238.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. XRD patterns of the ST polycrystals annealed at 673-1173 K for 24 h.</figDesc><graphic coords="2,44.05,405.92,238.18,320.26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. BSE images of the ST polycrystals annealed at 673-1173 K for 24 h. (a) 1173 K, (b), (c) 1073 K, (d), (e) 973 K, (f) 873 K, (g) 773 K and (h) 673 K. (c) and (e) are enlarged views of regions A and B in (b) and (d), respectively.</figDesc><graphic coords="3,57.43,55.39,480.38,241.06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. EBSD maps of the ST polycrystals annealed at 1073 K for 24 h. (a) phase map, (b) inverse pole figure map for region C in (a). A blue line indicates high angle grain boundary. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.)</figDesc><graphic coords="3,124.10,542.04,347.04,174.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. EDS maps of the ST polycrystals annealed at 873 K for 24 h. (a) a BSE image, (b) Hf, (c) Nb, (d) Ta, (e) Ti and (f) Zr.</figDesc><graphic coords="4,70.24,55.41,454.75,238.03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. TEM micrographs of the ST polycrystals annealed at 673 K for 24 h. (a) a selected area diffraction at B = [101] of the bcc phase. (b) a dark field image with the extra spot indicated by an arrow.</figDesc><graphic coords="4,124.10,331.39,347.04,173.23" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Temperature dependence of yield stress of the ST single crystals and polycrystals compressed at different temperatures; ε • = 1.7 × 10 -4 /s.</figDesc><graphic coords="4,40.59,567.68,245.09,146.59" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Stress-strain curves of the ST single crystals compressed at different temperatures; ε • = 1.7 × 10 -4 /s.</figDesc><graphic coords="5,46.94,55.43,232.42,146.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. Dislocation structure of the ST single crystals (d) and polycrystals (a)-(c) compressed at room temperature; ε • = 1.7 × 10 -4 /s. (a), (b) B = [101], (c), (d) B = [111].</figDesc><graphic coords="5,124.10,363.04,347.04,352.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 10</head><label>10</label><figDesc>Fig. 10 shows the slip traces of the ST single crystals compressed at different temperatures. The slip traces are slightly wavy, showing a tendency to cross-slip and less sensitive to deformation temperature. Moreover, from the two slip trace analysis, the pole of the slip traces is on the great circle for [111] at ψ = 24 • , χ = 17 • (Fig. 11). The data taken</figDesc><graphic coords="6,124.67,364.26,345.89,190.37" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. Slip traces of the ST single crystals compressed at different temperatures; ε • = 1.7 × 10 -4 /s. (a)-(d) (912) face, (e)-(h) (275) face. (a), (e) room temperature, (b), (f) 673 K, (c), (g) 873 K, (d), (h) 1073 K.</figDesc><graphic coords="6,57.43,55.41,480.38,261.22" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Fig. 11 .</head><label>11</label><figDesc>Fig. 11. A ψ-χ curve of the ST single crystals and polycrystals compressed at room temperature; ε • = 1.7 × 10 -4 /s. (a) definition of ψ, χ and the loading axes. (b) a ψ-χ curve. A red square and white circles correspond to the ST single crystals and polycrystals, respectively. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 12 .</head><label>12</label><figDesc>Fig. 12. Stress-strain curves of the ST polycrystals annealed at different temperatures for 24 h and then tensile-deformed at room temperature; ε • = 1.7 × 10 -4 /s.</figDesc><graphic coords="7,49.66,55.43,226.94,186.19" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 13 .</head><label>13</label><figDesc>Fig. 13. Fracture surfaces of the ST polycrystals annealed at different temperatures for 24 h and then tensile-deformed at room temperature; ε • = 1.7 × 10 -4 /s. (a) ST, (b) 1073 K, (c) 873 K and (d) 673 K.</figDesc><graphic coords="7,124.10,454.58,347.04,262.08" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Fig. 14 .</head><label>14</label><figDesc>Fig. 14. Strain-rate change test for the ST polycrystals compressed at 873 K with an initial strain rate of 1.7 × 10 -4 /s.</figDesc><graphic coords="8,44.05,55.42,238.18,219.31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Fig. 15 .</head><label>15</label><figDesc>Fig. 15. Strain-rate change test for the ST single crystal compressed at 873 K with an initial strain rate of 1.7 × 10 -4 /s. The stress-strain curves for the ST single crystals compressed at room temperature without or after the strain-rate change test are also shown in the figure.</figDesc><graphic coords="8,44.05,324.45,238.18,214.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Fig. 16 .</head><label>16</label><figDesc>Fig. 16. Variation in micro-Vickers hardness with annealing temperature in the ST polycrystals annealed at different temperatures for 24 h.</figDesc><graphic coords="8,309.60,55.44,245.09,147.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Fig. 17 .</head><label>17</label><figDesc>Fig. 17. Variation in micro-Vickers hardness with annealing time in the ST single crystals and polycrystals with or without cold rolling.</figDesc><graphic coords="8,309.60,250.71,245.09,166.32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Results of strain-rate change tests for the ST single crystals deformed at 873 K. b is the length of Burgers vector of 1/2&lt;111&gt;.</figDesc><table><row><cell>Strain-rate change ( × 1.7/</cell><cell>1st down</cell><cell>1st up</cell><cell>2nd up</cell><cell>2nd down</cell></row><row><cell>s)</cell><cell>10 -4 → 10 -5</cell><cell>10 -5 → 10 -4</cell><cell>10 -4 → 10 -3</cell><cell>10 -3 → 10 -4</cell></row><row><cell>Strain-rate sensitivity, m ( × 10 -2 )</cell><cell>3.98</cell><cell>6.24</cell><cell>2.89</cell><cell>3.79</cell></row><row><cell>Activation volume, v* ( × b 3 )</cell><cell>22.0</cell><cell>13.7</cell><cell>27.1</cell><cell>20.7</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>This work was supported by a <rs type="grantName">Grant-in Aid for Challenging Research (Exploratory)</rs> (Grant No. <rs type="grantNumber">18K18949</rs>) from the <rs type="funder">Japan Society for the Promotion of Science (JSPS)</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_pPYt4H5">
+					<idno type="grant-number">18K18949</idno>
+					<orgName type="grant-name">Grant-in Aid for Challenging Research (Exploratory)</orgName>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data availability</head><p>The raw/processed data required to reproduce these findings cannot be shared at this time as the data also forms part of an ongoing study.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Microstructural development in equiatomic multicomponent alloys</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J B</forename><surname>Vincent</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2003.10.257</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2003.10.257" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="page" from="213" to="218" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Murty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ranganathan</surname></persName>
+		</author>
+		<title level="m">High-Entropy Alloys</title>
+		<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<title level="m">High-Entropy Alloys: Fundamentals and Applications</title>
+		<editor>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Microstructures and properties of high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Dahmen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pmatsci.2013.10.001</idno>
+		<ptr target="https://doi.org/10.1016/j.pmatsci.2013.10.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="93" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Design of refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Carney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dogan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Jablonksi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Alman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-015-1617-z</idno>
+		<ptr target="https://doi.org/10.1007/s11837-015-1617-z" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Occup. Med.)</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="2653" to="2669" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>JOM</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A critical review of high entropy alloys and related concepts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.08.081</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2016.08.081" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="448" to="511" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Development and exploration of refractory high entropy alloys-a review</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Chaput</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Couzinie</surname></persName>
+		</author>
+		<idno type="DOI">10.1557/jmr.2018.153</idno>
+		<ptr target="https://doi.org/10.1557/jmr.2018.153" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="3092" to="3128" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">High-entropy alloys</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41578-019-0121-4</idno>
+		<ptr target="https://doi.org/10.1038/s41578-019-0121-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Mater</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="515" to="534" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">High entropy alloys: a focused review of mechanical properties and deformation mechanisms</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Curtin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2019.12.015</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2019.12.015" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">188</biblScope>
+			<biblScope unit="page" from="435" to="474" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Refractory highentropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2010.05.014</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2010.05.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1758" to="1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Microstructure and room temperature properties of a high-entropy TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2011.02.171</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2011.02.171" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page" from="6043" to="6048" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Microstructure and elevated temperature properties of a refractory TaNbHfZrTi alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meisenkothen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Woodward</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10853-012-6260-2</idno>
+		<ptr target="https://doi.org/10.1007/s10853-012-6260-2" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="4062" to="4074" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Microstructure and properties of a refractory highentropy alloy after cold working</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Semiatin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2015.07.209</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2015.07.209" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">649</biblScope>
+			<biblScope unit="page" from="1110" to="1123" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Microstructural investigation of plastically deformed Ti20Zr20Hf20Nb20Ta20 high entropy alloy by X-ray diffraction and transmission electron microscopy</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dirras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gubicza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heczel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lilensten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Couzinié</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Perrière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guillot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hocini</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matchar.2015.08.007</idno>
+		<ptr target="https://doi.org/10.1016/j.matchar.2015.08.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Char</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Novel TiNbTaZrMo high-entropy alloys for metallic biomaterials</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Todai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsugaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sekita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2016.10.028</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2016.10.028" />
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="65" to="68" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Aging behavior of the HfNbTaTiZr high entropy alloy</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">Y</forename><surname>Yurchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2017.09.094</idno>
+		<ptr target="https://doi.org/10.1016/j.matlet.2017.09.094" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="87" to="90" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Microstructure of equiatomic and nonequiatomic Ti-Nb-Ta-Zr-Mo high-entropy alloys for metallic biomaterials</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Todai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2018.04.082</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2018.04.082" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">753</biblScope>
+			<biblScope unit="page" from="412" to="421" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Strength enhancement of high entropy alloy HfNbTaTiZr by severe plastic deformation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Čížek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Haušild</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cieslar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Melikhova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Vlasák</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Janeček</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Král</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Harcuba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lukáč</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zýka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Málek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Moon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2018.07.319</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2018.07.319" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">768</biblScope>
+			<biblScope unit="page" from="924" to="937" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Effect of cold deformation and annealing on the microstructure and tensile properties of a HfNbTaTiZr refractory high entropy alloy</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Pilchak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Semiatin</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-018-4646-8</idno>
+		<ptr target="https://doi.org/10.1007/s11661-018-4646-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans. A</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="2876" to="2892" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Development of nonequiatomic Ti-Nb-Ta-Zr-Mo high-entropy alloys for metallic biomaterials</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Todai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsugaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2019.07.011</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2019.07.011" />
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page" from="83" to="87" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Phase transformations of HfNbTaTiZr high-entropy alloy at intermediate temperatures, Scripta Mater</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Tseng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Poplawsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2018.08.032</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2018.08.032" />
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page" from="50" to="56" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Unique deformation behavior and microstructure evolution in high temperature processing of HfNbTaTiZr refractory high entropy alloy</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Eleti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bhattacharjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tsuji</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2019.04.018</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2019.04.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">171</biblScope>
+			<biblScope unit="page" from="132" to="145" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The indirect influence of the ω phase on the degree of refinement of distributions of the α phase in metastable β-Titanium alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E A</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Sosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Alam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2015.09.053</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2015.09.053" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="165" to="173" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Pseudospinodal mechanism for fine α/β microstructures in β-Ti alloys</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Boyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Behera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Tiley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2013.10.026</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2013.10.026" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page" from="188" to="197" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Deformation mechanism of ω-enriched Ti-Nb-based gum metal: dislocation channeling and deformation induced ω-β transformation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Tasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2015.08.047</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2015.08.047" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="290" to="300" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Study on formation mechanism of {332}&lt;113&gt; deformation twinning in metastable β-type Ti alloy focusing on stress-induced α&quot; martensite phase</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Morioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Harjo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Yasuda</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2019.10.011</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2019.10.011" />
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="page" from="106" to="111" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A note on the portevin-le Chatelier effect, london</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Cottrell</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/14786440808520347</idno>
+		<ptr target="https://doi.org/10.1080/14786440808520347" />
+	</analytic>
+	<monogr>
+		<title level="j">Dublin Philos. Mag. J. Sci</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="829" to="832" />
+			<date type="published" when="1953">1953</date>
+			<pubPlace>Edinburgh</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Flow stress in Al-Mg alloy single crystals</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Asada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Horiuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yoshinaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nakamoto</surname></persName>
+		</author>
+		<idno type="DOI">10.2320/matertrans1960.8.159</idno>
+		<ptr target="https://doi.org/10.2320/matertrans1960.8.159" />
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Japan Inst. Met</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="159" to="166" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Plastic anisotropy in b</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Duesbery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vitek</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1359-6454(97)00367-4</idno>
+		<ptr target="https://doi.org/10.1016/S1359-6454(97)00367-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1481" to="1492" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note>transition metals</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Takeuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yoshinaga</surname></persName>
+		</author>
+		<title level="m">Dislocation Dynamics and Plasticity</title>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Modelling solid solution hardening in high entropy alloys</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Toda-Caraballo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E J</forename><surname>Rivera-Díaz-Del-Castillo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2014.11.014</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2014.11.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="14" to="23" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A general formulation for solid solution hardening effect in multicomponent alloys</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Toda-Caraballo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2016.09.009</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2016.09.009" />
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="113" to="117" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of refractory high-entropy alloys: experiments and modeling</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2016.11.188</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2016.11.188" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">696</biblScope>
+			<biblScope unit="page" from="1139" to="1150" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Theory of strengthening in fcc high entropy alloys</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Varvenne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Luque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Curtin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2016.07.040</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2016.07.040" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page" from="164" to="176" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Theory of screw dislocation strengthening in random BCC alloys from dilute to &quot;High-Entropy&quot; alloys</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Maresca</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Curtin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2019.10.007</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2019.10.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="144" to="162" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Solid-solution strengthening in refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Coury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kaufman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Clarke</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2019.06.006</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2019.06.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="66" to="81" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Thermally activated deformation of metals</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Conrad</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf03378292</idno>
+		<ptr target="https://doi.org/10.1007/bf03378292" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Occup. Med.)</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="582" to="588" />
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+	<note>JOM</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">On the discontinuous yielding phenomena observed in a Nb-Ti-Al alloy</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Grylls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Banerjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Perungulam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Fraser</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s0966-9795(98)00032-6</idno>
+		<ptr target="https://doi.org/10.1016/s0966-9795(98)00032-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="749" to="752" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

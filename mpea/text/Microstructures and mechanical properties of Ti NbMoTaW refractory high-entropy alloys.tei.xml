@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Microstructures and mechanical properties of Ti x NbMoTaW refractory high-entropy alloys</title>
+				<funder ref="#_WP2BfjR #_5XPpPGX">
+					<orgName type="full">National Natural Science Foundation of China (NSFC</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Luan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department" key="dep1">Institute of Materials</orgName>
+								<orgName type="department" key="dep2">Academy of Engineering Physics</orgName>
+								<address>
+									<postCode>621907</postCode>
+									<region>Mianyang</region>
+									<country>China, China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><roleName>Microstructures</roleName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+							<email>kfyao@tsinghua.edu.cn.</email>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="department">School of Materials Science and Engineering</orgName>
+								<orgName type="institution">Tsinghua University</orgName>
+								<address>
+									<postCode>100084</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Microstructures and mechanical properties of Ti x NbMoTaW refractory high-entropy alloys</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6CA02E35ABD9E4AAB045C8A7A80B0F78</idno>
+					<idno type="DOI">10.1016/j.msea.2017.12.004</idno>
+					<note type="submission">Received date: 3 September 2017 Revised date: 1 December 2017 Accepted date: 2 December 2017</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Materials Science &amp; Engineering A High entropy alloy</term>
+					<term>Alloy design</term>
+					<term>Microstructure</term>
+					<term>Mechanical property</term>
+					<term>Thermodynamic calculation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Refractory high-entropy alloys (RHEAs) are newly developed candidate materials for high-temperature applications. Among the existing RHEAs, NbMoTaW RHEA</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>possesses the best mechanical properties with combined high strength, excellent thermal stability and softening resistance at elevated temperatures. However, the NbMoTaW RHEA is quite brittle at room temperature, which would restrict its application as structural material. Here, Ti x NbMoTaW RHEAs were developed by alloying Ti in the NbMoTaW RHEA. It shows that the room temperature ductility of the RHEAs increases from 1.9% of the NbMoTaW RHEA to 11.5% of the TiNbMoTaW RHEA, and the yield strength increases from 996 MPa of the NbMoTaW RHEA to 1455 MPa of the TiNbMoTaW RHEA. In addition, the Ti x NbMoTaW RHEAs keep stable single BCC structure up to their melt points. The present result indicates that Ti addition could effectively enhance both the ductility and strength of the NbMoTaW RHEA. The combined performance of superior mechanical properties and high thermal stability of the Ti x NbMoTaW RHEAs promises them an important role in engineering applications.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Structural materials with superior mechanical properties at elevated temperatures are in high demand for the development of gas turbine engines. Since raising the working temperature in engines can effectively increase the efficiency of gas turbines <ref type="bibr" target="#b0">[1]</ref>, the requirement for high-temperature materials keeps increasing. Among the applied high-temperature alloys, nickel-based superalloys exhibit the best elevated temperature properties and have been extensively used. However, the service temperatures of the nickel-based superalloys are approaching their melt points <ref type="bibr" target="#b1">[2]</ref>, making the further improvement of turbine efficiency to be extremely difficult.</p><p>Therefore, it is of great importance to develop new elevated temperature materials that could work at higher temperatures.</p><p>The newly developed high-entropy alloys (HEAs), consisting of four or more principal metallic elements in equiatomic or near-equiatomic ratios, have received more and more attention due to their unique structures and excellent mechanical properties <ref type="bibr" target="#b2">[3]</ref><ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref>. Considered as new types of superalloys, HEAs possess outstanding strength and hardness <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref>, high oxidation resistance <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref>, high thermal stability and high softening resistance at elevated temperatures <ref type="bibr" target="#b16">[17,</ref><ref type="bibr" target="#b17">18]</ref>.</p><p>By introducing refractory elements in HEAs, the developed refractory HEAs (RHEAs) are mainly composed of Ti, V, Zr, Nb, Mo, Ta, W and Hf, which may exhibit better high-temperature performance.</p><p>Among the reported RHEAs <ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref><ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref>, NbMoTaW RHEA possesses the highest softening resistance at elevated temperatures <ref type="bibr" target="#b19">[20]</ref>. Therefore, it has received the most attention and been extensively studied as the potential candidate in gas turbine engine materials <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b25">[26]</ref><ref type="bibr" target="#b26">[27]</ref><ref type="bibr" target="#b27">[28]</ref>. However, the NbMoTaW RHEA is brittle at room temperature, posing a significant challenge for the manufacturing and assembling of workpieces made from this alloy. To tackle this issue, a critical step towards the application is to improve the room temperature ductility of the NbMoTaW RHEA.</p><p>The brittle feature of the NbMoTaW RHEA is supposed to be caused by Mo and W elements, which are intrinsically brittle pure metals. Thus, decreasing their contents or removing them could effectively improve the ductility of the RHEAs. J. W. Qiao et.al <ref type="bibr" target="#b28">[29]</ref> designed NbTaV-(Ti,W) RHEAs by removing Mo element. Among these RHEAs, the NbTaVTi alloy without W element possesses the highest ductility.</p><p>However, removing the brittle refractory elements decreases the mechanical performance of the RHEAs at high temperatures.</p><p>Decreasing average valence electron concentration (VEC) was reported to make Mo and W-containing alloys more ductile <ref type="bibr" target="#b29">[30]</ref>. Meanwhile, this method has been applied in the RHEA design recently <ref type="bibr" target="#b30">[31]</ref>. Based on this strategy, alloying method was employed to enhance the ductility of the NbMoTaW RHEA in present work. Ti alloys possess excellent mechanical properties, and good thermal stability. Moreover, Ti element possesses small heats of mixing with Nb, Mo, Ta and W elements and lowest VEC compare to other elements. Therefore, introducing Ti into the NbMoTaW RHEA could improve the mechanical properties and besides sustain the microstructural stability. In this paper, Ti x NbMoTaW RHEAs were prepared with different Ti additions, based on which the effects of Ti additions on their structural stability and mechanical properties were investigated.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Experimental procedures</head><p>Ti x NbMoTaW RHEAs (the molar ratio x=0, 0.25, 0.5, 0.75 and 1, denoted by Ti0, Ti0.25, Ti0.5, Ti0.75 and Ti1, respectively) were prepared using vacuum arc melting of the corresponding raw elements. The nominal chemical compositions of the Ti x NbMoTaW RHEAs are provided in Table <ref type="table" target="#tab_0">1</ref>. The purities of each element are higher than 99.96% (by weight). To make sure that the ingots are as homogeneous as possible, each ingot was re-melted at least five times. The ingots were cut into cuboid samples with a dimension of 3 mm × 3 mm × 6 mm for studying their microstructure and mechanical properties.  The room temperature mechanical properties of the RHEAs were conducted by WDW-50 testing machine at a strain rate of 5.6×10 -4 /s using the prepared cuboid samples. The hardness of the RHEAs was measured by MH-3 Vickers hardness tests.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussions</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Microstructures</head><p>The calculated equilibrium phase diagrams of the Ti x NbMoTaW RHEAs are shown in Fig. <ref type="figure" target="#fig_1">1</ref>. With increasing Ti content, the melting temperature of the Ti x NbMoTaW RHEAs decreases, which is due to that Ti has the lowest melting temperature compared to Nb, Mo, Ta and W elements. Below the melt point of the Ti x NbMoTaW RHEAs, the liquid is solidified in a single BCC phase. At temperatures above 1000 ˚C, the BCC phase is quite stable and no phase transformation occurs.</p><p>Below 640 ˚C, a HCP phase appears in Ti0.25 alloy with Ti addition, which should mainly contain Ti element. RHEAs maintains high thermal stability even at temperatures above 2500 ˚C, which is much higher than the service temperatures for the present gas turbines.    Both the XRD and DSC results show that only single BCC phase is formed and no phase transformation occurs in the as-cast Ti x NbMoTaW RHEAs, which is different from the prediction of multi-phase formation in the Ti x NbMoTaW RHEAs by the calculated equilibrium phase diagrams. However, both the CALPHAD and DSC results imply that the Ti x NbMoTaW RHEAs keep stable crystal structure up to the melt points. The high thermal stability may be contributed by the high entropy effect <ref type="bibr" target="#b31">[32]</ref>, which could restrain the phase transformation or separation in the HEAs.</p><p>Commonly, several parameters of the mixture entropy (ΔS) <ref type="bibr" target="#b32">[33]</ref>, mixture enthalpy (ΔH) <ref type="bibr" target="#b32">[33]</ref>, atomic packing parameter (γ) <ref type="bibr" target="#b33">[34]</ref>, valence electron concentration (VEC) <ref type="bibr" target="#b34">[35]</ref> and thermodynamic parameter (Ω) <ref type="bibr" target="#b32">[33]</ref> are employed to predict the phase selection and phase stability in HEAs. They are defined as following and are listed in Table <ref type="table" target="#tab_1">2</ref>:       The engineering stress-strain curves of the as-cast Ti x NbMoTaW RHEAs at room temperature are shown in Fig. <ref type="figure" target="#fig_9">5a</ref>, based on which the derived mechanical parameters of all the RHEAs are listed in Table <ref type="table" target="#tab_4">4</ref>. The yield strength value (σ 0.2 ), the peak strength (σ p ) and the plastic strain (ε p ) of the Ti0 alloy at room temperature are 996</p><formula xml:id="formula_0">∆𝑆 = -𝑅 ∑ 𝑐 𝑖 ln𝑐 𝑖 𝑛 𝑖=1<label>(1)</label></formula><formula xml:id="formula_1">∆𝐻 = 4 ∑ ∆𝐻 𝑖𝑗 𝑚𝑖𝑥 𝑐 𝑖 𝑛 𝑖=1,𝑖≠𝑗 𝑐 𝑗 (2) 𝛾 = (1 -√ (𝑟 𝑆 +𝑟̅ ) 2 -𝑟̅ 2 (𝑟 𝑆 +𝑟̅ ) 2 ) (1 -√ (𝑟 𝐿 +𝑟̅ ) 2 -𝑟̅ 2 (𝑟 𝐿 +𝑟̅ ) 2 ) ⁄ ; 𝑟̅ = ∑ 𝑐 𝑖 𝑛 𝑖=1 𝑟 𝑖<label>(3</label></formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Mechanical properties</head><p>MPa, 1148 MPa and 1.9%, respectively (Fig. <ref type="figure" target="#fig_9">5a</ref>). As the Ti content increases from Ti0</p><p>alloy to Ti1 alloy, the yield strength and plastic strain of the as-cast Ti x NbMoTaW RHEAs increase substantially. The σ 0.2 of Ti1 alloy is 1455 MPa whereas ε p increases to 11.5%. The yield strength and the plastic strain of the as-cast Ti x NbMoTaW RHEAs versus Ti content are shown in Fig. <ref type="figure" target="#fig_9">5b</ref>. It shows that both the yield strength and plastic strain of the as-cast Ti x NbMoTaW HEAs increase nearly linearly with Ti content. The strength and ductility of the Ti x NbMoTaW RHEAs at room temperature increase with Ti additions. The mechanism may be complex due to a combination of multi-effects. Firstly, the addition of large radius Ti increases the lattice constant of the Ti x NbMoTaW RHEAs, which further enhances the effect from solid solution hardening. The effect of solid solution hardening contributed by the lattice distortion can be described <ref type="bibr" target="#b35">[36,</ref><ref type="bibr" target="#b36">37]</ref> as below:</p><formula xml:id="formula_2">𝜅 = ∑ 𝑐 𝑛 𝑖=1 𝑖 𝛿 𝑖 𝑟 𝑖 ⁄<label>(6)</label></formula><p>Where c i is the atomic percentage of the ith component, δ i is the atomic size misfit of the ith component, r i is the atomic radius of the ith component, respectively. The atomic size misfit δ i can be evaluated approximately. For example, δ Ti in the TiNbMoTaW RHEA can be approximated by:</p><formula xml:id="formula_3">𝛿 Ti = 𝑆 Ti -𝑆 NbMoTaW<label>(7)</label></formula><p>Where S Ti and S NbMoTaW are the average interatomic spacing of pure Ti and equiatomic</p><p>NbMoTaW RHEA, respectively. The average interatomic spacing of the Ti x NbMoTaW RHEAs can be calculated with the lattice constants measured by the XRD methods. The strengthening coefficients κ of the Ti0, Ti0.25, Ti0.5, Ti0.75 and Ti1 RHEAs are 2.4×10 -4 , 1.3×10 -3 , 2.8×10 -3 , 4.9×10 -3 and 6.9×10 -3 , respectively. Thus, the strength of the Ti x NbMoTaW RHEAs increases with Ti additions.</p><p>Secondly, the grain boundary cohesion of the Ti x NbMoTaW RHEAs has been improved by Ti additions. The fracture images of the Ti0 and Ti1 alloys are shown in Fig. <ref type="figure" target="#fig_10">6</ref>. The Ti0 alloy (Fig. <ref type="figure" target="#fig_10">6a</ref>) shows an intergranular fracture mode, similar to the report in Ref <ref type="bibr" target="#b19">[20]</ref>, While Ti1 alloy (Fig. <ref type="figure" target="#fig_10">6b</ref>) shows transgranular fracture morphology.</p><p>The transition of the fracture mode indicates that the grain boundary cohesion of Ti x NbMoTaW RHEAs is improved by Ti additions. The improvement of grain boundary cohesion could efficiently suppress the intergranular fracture <ref type="bibr" target="#b37">[38,</ref><ref type="bibr" target="#b38">39]</ref>. As a result, the ductility of the Ti x NbMoTaW RHEAs was enhanced by Ti additions <ref type="bibr" target="#b39">[40,</ref><ref type="bibr" target="#b40">41]</ref>.</p><p>In addition, the compositional segregation becomes more significant with increasing Ti content (as seen in Table <ref type="table" target="#tab_3">3</ref>). The dendrite arms mainly containing W element are strong but brittle, whereas the inter-dendrite regions enriched in Ti, Nb and Mo elements are less strong but relatively ductile. In the compressive process, the ductile inter-dendrite regions enriched with Ti and Nb elements are more prone to deform with response to the applied stress and are able to bear more strains than the strong and brittle dendrite arms enriched with W element. Consequently, the ductility of the Ti x NbMoTaW RHEAs increases with Ti additions <ref type="bibr" target="#b36">[37,</ref><ref type="bibr" target="#b41">42]</ref>. Additionally, the data of other RHEAs also showed that lower VEC can make RHEAs more ductile <ref type="bibr" target="#b28">[29,</ref><ref type="bibr" target="#b42">43,</ref><ref type="bibr" target="#b43">44]</ref>. In the Ti x NbMoTaW RHEAs, the VEC decreases from 5.5 of Ti0 alloy to 5.2 of Ti1 alloy with increasing Ti content (as seen in Table <ref type="table" target="#tab_1">2</ref>), which may efficiently improve the ductility of the Ti x NbMoTaW RHEAs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusions</head><p>With Ti additions, Ti x NbMoTaW RHEAs (x=0, 0.25, 0.5, 0.75 and 1) have been developed. The Ti x NbMoTaW RHEAs possess single BCC crystal structure, which keeps stable up to their melt points. Alloying with Ti element effectively improves both the strength and ductility of the Ti x NbMoTaW RHEAs at room temperature.</p><p>Specifically, the yield strength of the TiNbMoTaW alloy is 1455 MPa, which is 46% higher than that of NbMoTaW RHEA. While its ductility at room temperature is as high as 11.5%, which is about 5 times higher than that of NbMoTaW RHEA. The strength enhancement of the Ti x NbMoTaW RHEAs can be interpreted by the solid solution hardening effect. The improved ductility of the Ti x NbMoTaW RHEAs can be understood by the grain boundary cohesion improvement, ductile elemental segregation and shear instability. The excellent mechanical performance and high thermal stability of these RHEAs make them hold potentials for applications as structural materials.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>of the Ti x NbMoTaW RHEAs were calculated by Thermal-Calc software with TTNI 8 database. The crystal structures of the RHEAs were characterized by X-ray diffraction (XRD, Rigaku D/max-RB) using a Cu Kα radiation. The thermal parameters of the Ti x NbMoTaW RHEAs were analyzed by a simultaneous thermal analyzer (TG-DSC; Netzsch STA449F3) in a flowing argon atmosphere with a heating rate of 20 K min -1 . The microstructures and chemical compositions were examined by Quanta 200 FEG scanning electron microscope (SEM) with energy dispersive spectrometer (EDS) accessory.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Calculated equilibrium phase diagrams of the Ti x NbMoTaW RHEAs: a, Ti0 alloy; b,</figDesc><graphic coords="7,118.40,76.05,370.50,396.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. The XRD patterns of the as-cast Ti x NbMoTaW RHEAs.</figDesc><graphic coords="8,172.40,109.05,250.50,174.75" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 2</head><label>2</label><figDesc>Fig. 2 shows the XRD patterns of the as-cast Ti x NbMoTaW RHEAs. Single BCC</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. The DSC curves of the NbMoTaW and TiNbMoTaW RHEAs.</figDesc><graphic coords="8,165.27,512.69,280.50,194.25" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 shows the DSC results of NbMoTaW and TiNbMoTaW RHEAs. No</figDesc><graphic coords="8,95.00,53.26,406.22,713.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>R is gas constant, mix ij H  is the mixture enthalpy of the ith and jth components, c i and c j are the atomic percentage of the ith and jth components, respectively, r S and r L are the radius of the smallest and largest atoms, r i is the atomic radius of the ith component, (VEC) i is the VEC of the ith component, (T m ) i is the melting temperature of the ith element, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>With increasing Ti content, the mixture entropy of the Ti x NbMoTaW RHEAs increases from 11.53 J/K•mol of Ti0 alloy to 13.38 J/K•mol of Ti1 alloy. The high mixture entropy of the Ti x NbMoTaW RHEAs could make the solid solution structures more stable. The mixture enthalpy represents the interaction between different components. More negative ΔH means larger binding force between the elements, which makes it easier to form intermetallics. In contrast, positive ΔH promotes the separation of the components. The mixture enthalpy values of the Ti x NbMoTaW RHEAs are all close to 0 so that solid solution structures are preferred. The values of parameter γ of the Ti x NbMoTaW RHEAs are all smaller than the critical value of 1.175 while the values of Ω of the Ti x NbMoTaW RHEAs are larger than 1.1. These results indicate that the solid solution structures of Ti x NbMoTaW RHEAs are stable<ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref>. With increasing Ti content, the VEC value of the Ti x NbMoTaW RHEAs 6.87, indicating that the crystal structures of the Ti x NbMoTaW RHEAs are stable in single BCC solid solution structure<ref type="bibr" target="#b34">[35]</ref>.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 4 .</head><label>4</label><figDesc>Fig. 4. The BSE images of the as-cast Ti x NbMoTaW RHEAs: a, Ti0 alloy; b, Ti0.25 alloy; c,</figDesc><graphic coords="11,95.00,53.26,406.22,713.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. a, The compressive stress-strain curves of the as-cast Ti x NbMoTaW RHEAs at room</figDesc><graphic coords="12,95.00,53.26,406.22,713.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. The SEM images of fracture surfaces of Ti x NbMoTaW RHEAs: a, Ti0 alloy; b, Ti1 alloy.</figDesc><graphic coords="15,95.00,53.26,406.22,713.66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Nominal chemical compositions (in at.%) of the Ti x NbMoTaW RHEAs.</figDesc><table><row><cell>Alloys/element</cell><cell>Nb</cell><cell>Mo</cell><cell>Ta</cell><cell>W</cell><cell>Ti</cell></row><row><cell>Ti0</cell><cell>25</cell><cell>25</cell><cell>25</cell><cell>25</cell><cell>0</cell></row><row><cell>Ti0.25</cell><cell>23.5</cell><cell>23.5</cell><cell>23.5</cell><cell>23.5</cell><cell>5.9</cell></row><row><cell>Ti0.5</cell><cell>22.2</cell><cell>22.2</cell><cell>22.2</cell><cell>22.2</cell><cell>11.1</cell></row><row><cell>Ti0.75</cell><cell>21.1</cell><cell>21.1</cell><cell>21.1</cell><cell>21.1</cell><cell>15.8</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>The ΔS, ΔH, γ, Ω, and VEC of the Ti x NbMoTaW RHEAs.</figDesc><table><row><cell>Alloys</cell><cell>ΔS (J/K•mol)</cell><cell>ΔH (kJ/mol)</cell><cell>γ</cell><cell>Ω</cell><cell>VEC</cell></row><row><cell>Ti0</cell><cell>11.53</cell><cell>-3</cell><cell>1.053</cell><cell>3.84</cell><cell>5.5</cell></row><row><cell>Ti0.25</cell><cell>12.71</cell><cell>-3.04</cell><cell>1.079</cell><cell>4.17</cell><cell>5.41</cell></row><row><cell>Ti0.5</cell><cell>13.15</cell><cell>-3.06</cell><cell>1.079</cell><cell>4.29</cell><cell>5.33</cell></row><row><cell>Ti0.75</cell><cell>13.33</cell><cell>-3.06</cell><cell>1.079</cell><cell>4.36</cell><cell>5.26</cell></row><row><cell>Ti1</cell><cell>13.38</cell><cell>-3.04</cell><cell>1.079</cell><cell>4.40</cell><cell>5.2</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 3 .</head><label>3</label><figDesc>The EDS results of the as-cast Ti x NbMoTaW RHEAs in different regions.</figDesc><table><row><cell>Concentrations (at.%)</cell><cell>Ti</cell><cell>Nb</cell><cell>Mo</cell><cell>Ta</cell><cell>W</cell></row><row><cell>Dendrite arm</cell><cell>-</cell><cell>19.4</cell><cell>23.1</cell><cell>25.9</cell><cell>31.6</cell></row><row><cell>Ti0</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Interdendrite region</cell><cell>-</cell><cell>28.2</cell><cell>29.6</cell><cell>22.7</cell><cell>19.5</cell></row><row><cell>Dendrite arm</cell><cell>0.5</cell><cell>23.4</cell><cell>25.0</cell><cell>24.5</cell><cell>26.6</cell></row><row><cell>Ti0.25</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Interdendrite region</cell><cell>2.3</cell><cell>28.9</cell><cell>27.8</cell><cell>22.3</cell><cell>18.7</cell></row><row><cell>Dendrite arm</cell><cell>4.4</cell><cell>21.2</cell><cell>22.2</cell><cell>23.7</cell><cell>28.5</cell></row><row><cell>Ti0.5</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Interdendrite region</cell><cell>12.8</cell><cell>29.7</cell><cell>25.2</cell><cell>18.5</cell><cell>13.8</cell></row><row><cell>Dendrite arm</cell><cell>7.1</cell><cell>19.0</cell><cell>22.7</cell><cell>24.6</cell><cell>26.6</cell></row><row><cell>Ti0.75</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Interdendrite region</cell><cell>19.7</cell><cell>29.9</cell><cell>26.1</cell><cell>16.2</cell><cell>8.1</cell></row><row><cell>Dendrite arm</cell><cell>8.6</cell><cell>19.0</cell><cell>20.2</cell><cell>23.0</cell><cell>29.2</cell></row><row><cell>Ti1</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Interdendrite region</cell><cell>29.2</cell><cell>24.2</cell><cell>23.4</cell><cell>14.9</cell><cell>8.3</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 4 .</head><label>4</label><figDesc>Room-temperature yield strength (σ 0.2 ), peak strength (σ p ) and plastic strain (ε p ) of the as-cast Ti x NbMoTaW RHEAs.</figDesc><table><row><cell>Alloys</cell><cell>σ 0.2 (MPa)</cell><cell>σ p (MPa)</cell><cell>ε p (%)</cell></row><row><cell>Ti0</cell><cell>996</cell><cell>1148</cell><cell>1.9</cell></row><row><cell>Ti0.25</cell><cell>1109</cell><cell>1197</cell><cell>2.5</cell></row><row><cell>Ti0.5</cell><cell>1211</cell><cell>1578</cell><cell>5.9</cell></row><row><cell>Ti0.75</cell><cell>1304</cell><cell>1593</cell><cell>8.4</cell></row><row><cell>Ti1</cell><cell>1455</cell><cell>1910</cell><cell>11.5</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This work was supported by the <rs type="funder">National Natural Science Foundation of China (NSFC</rs>, Grant Nos. <rs type="grantNumber">51571127</rs> and <rs type="grantNumber">51271095</rs>).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_WP2BfjR">
+					<idno type="grant-number">51571127</idno>
+				</org>
+				<org type="funding" xml:id="_5XPpPGX">
+					<idno type="grant-number">51271095</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Perepezko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">326</biblScope>
+			<biblScope unit="page" from="1068" to="1069" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Lemberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Mater</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="3445" to="3480" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T H</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J B</forename><surname>Vincent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="issue">377</biblScope>
+			<biblScope unit="page" from="213" to="218" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="issue">18</biblScope>
+			<biblScope unit="page">181904</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">F</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">681</biblScope>
+			<biblScope unit="page" from="167" to="174" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">573</biblScope>
+			<biblScope unit="page" from="96" to="101" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">619</biblScope>
+			<biblScope unit="page" from="610" to="615" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Q</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">527</biblScope>
+			<biblScope unit="issue">26</biblScope>
+			<biblScope unit="page" from="6975" to="6979" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="151" to="153" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Non-Cryst. Solids</title>
+		<imprint>
+			<biblScope unit="volume">364</biblScope>
+			<biblScope unit="page" from="9" to="12" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Nat. Sci. Mater. Int</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="365" to="369" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="625" to="631" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="47" to="50" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Butler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Weaver</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">674</biblScope>
+			<biblScope unit="page" from="229" to="244" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Azim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Christ</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schliephake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heilmaier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">624</biblScope>
+			<biblScope unit="page" from="270" to="278" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">B</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">583</biblScope>
+			<biblScope unit="page" from="162" to="169" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="6308" to="6317" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Sheu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Wear</title>
+		<imprint>
+			<biblScope unit="volume">268</biblScope>
+			<biblScope unit="issue">5-6</biblScope>
+			<biblScope unit="page" from="653" to="659" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Senkova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1545" to="1557" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="698" to="706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="2030" to="2042" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="76" to="83" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="87" to="94" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Shaysultanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Salishchev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="153" to="155" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Todai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagase</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Matsugaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sekita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nakano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scripta</forename><surname>Mater</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017">2017</date>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page" from="65" to="68" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Steurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Spolenak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="85" to="97" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1758" to="1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Spolenak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7748</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hawk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">674</biblScope>
+			<biblScope unit="page" from="203" to="211" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Chrzan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page">115503</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sheikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shafeie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ahlström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Persson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Veselý</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zýka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Klement</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page">164902</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Chim-Sci. Mat</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="633" to="648" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="233" to="238" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scripta</forename><surname>Mater</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page" from="28" to="31" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">103505</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Toda-Caraballo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E J</forename><surname>Rivera-Díaz-Del-Castillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="14" to="23" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="153" to="157" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Schneibel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Maziasz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Easton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="429" to="440" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Stiegler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">226</biblScope>
+			<biblScope unit="issue">4675</biblScope>
+			<biblScope unit="page" from="636" to="642" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Luan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">B</forename><surname>Jiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloy. Compd</title>
+		<imprint>
+			<biblScope unit="volume">602</biblScope>
+			<biblScope unit="page" from="235" to="240" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Luan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">B</forename><surname>Jiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">704</biblScope>
+			<biblScope unit="page" from="91" to="101" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">J</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng. A</title>
+		<imprint>
+			<biblScope unit="volume">642</biblScope>
+			<biblScope unit="page" from="142" to="149" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Si</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">D</forename><surname>Hui</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="651" to="660" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Juan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Tseng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">L</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="284" to="287" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

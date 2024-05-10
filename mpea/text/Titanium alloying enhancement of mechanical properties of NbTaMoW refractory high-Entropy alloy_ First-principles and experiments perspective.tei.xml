@@ -1,0 +1,1657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Titanium alloying enhancement of mechanical properties of NbTaMoW refractory high-Entropy alloy: First-principles and experiments perspective</title>
+				<funder ref="#_cFN3dTR">
+					<orgName type="full">Hunan Key R&amp;D Project</orgName>
+				</funder>
+				<funder ref="#_geZUmFe">
+					<orgName type="full">National Key R&amp;D Program of China</orgName>
+				</funder>
+				<funder ref="#_knKbhEp">
+					<orgName type="full">Natural Science Foundation of Hunan Province of China</orgName>
+				</funder>
+				<funder ref="#_teh28pZ">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_XeaffkT">
+					<orgName type="full">&quot;Double First-Class&quot; Scientific Research International Cooperation and Development Project of Changsha University of Science and Technology</orgName>
+				</funder>
+				<funder ref="#_BYGH4G6">
+					<orgName type="full">Educational Commission of Hunan Province of China</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Linhui</forename><surname>Bai</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Automobile and Mechanical Engineering</orgName>
+								<orgName type="institution">Changsha University of Science and Technology</orgName>
+								<address>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yongle</forename><surname>Hu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Xiubing</forename><surname>Liang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Automobile and Mechanical Engineering</orgName>
+								<orgName type="institution">Changsha University of Science and Technology</orgName>
+								<address>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">National Institute of Defense Technology Innovation</orgName>
+								<orgName type="institution">Academy of Military Sciences PLA China</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Yonggang</forename><surname>Tong</surname></persName>
+							<email>tongyonggang_csust@163.com</email>
+							<affiliation key="aff0">
+								<orgName type="department">College of Automobile and Mechanical Engineering</orgName>
+								<orgName type="institution">Changsha University of Science and Technology</orgName>
+								<address>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jian</forename><surname>Liu</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">National Engineering Research Center for Mechanical Products Remanufacturing</orgName>
+								<orgName type="institution">Army Academy of Armored Forces</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Zibing</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">National Institute of Defense Technology Innovation</orgName>
+								<orgName type="institution">Academy of Military Sciences PLA China</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yejun</forename><surname>Li</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">School of Physics and Electronics</orgName>
+								<orgName type="laboratory">Hunan Key Laboratory of Super Microstructure and Ultrafast Process</orgName>
+								<orgName type="institution">Central South University</orgName>
+								<address>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jian</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Automobile and Mechanical Engineering</orgName>
+								<orgName type="institution">Changsha University of Science and Technology</orgName>
+								<address>
+									<settlement>Changsha</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Titanium alloying enhancement of mechanical properties of NbTaMoW refractory high-Entropy alloy: First-principles and experiments perspective</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">099742366EF13C51A09FE3A06E967E6C</idno>
+					<idno type="DOI">10.1016/j.jallcom.2020.157542</idno>
+					<note type="submission">Received 16 February 2020 Received in revised form 4 October 2020 Accepted 10 October 2020</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2023-09-11T18:46+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>High entropy alloys First-principle calculation Phase structure Elastic properties Electronic structure</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Poor ductility of Refractory high entropy alloys (RHEAs) at room temperature (RT) is the main problem restricting their practical applications. Alloying is an effective method to improve the mechanical properties of RHEAs. Here, Ti was employed to enhance the RT ductility of NbTaMoW RHEAs by means of alloying. The influence of Ti addition on the mechanical properties of the equiatomic NbTaMoW RHEA was investigated from the perspective of first-principles calculation combining experiments. The phase structure, lattice parameters, densities, elastic properties and electronic structure were calculated, respectively. The results show that NbMoTaW and NbMoTaWTi alloy were single-phase BCC structure. Both alloys were electrically conductive and shown metallic characteristic. Ti alloying effectively enhanced the atomic interaction, strength and ductility of NbMoTaW alloy due to the increasing TieTi metallic bonds and decreasing covalent bonds. The calculated data were well agreed with the experimental results, demonstrating that first-principles calculation was an effective method to predict the alloying performance enhancement of RHEAs.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>High entropy alloys (HEAs), with single BCC, FCC or HCP solid solution structure, become a hot researching area for their excellent properties compared with the traditionally alloys <ref type="bibr">[1e5]</ref>. HEAs usually contain 5 to 13 primary elements and are classified as transition high entropy alloy (THEAs) and refractory high entropy alloys (RHEAs). THEAs are made from transition elements containing Fe, Co, Ni, Cr, Mn, Cu, and Al. Such as, CrMnFeCoNi [6e8], AlCoCrCuFeNi <ref type="bibr" target="#b10">[9]</ref>, AlCrFeCoNi <ref type="bibr" target="#b11">[10,</ref><ref type="bibr" target="#b12">11]</ref>, CoCrFeNi 2.1 Nb x <ref type="bibr" target="#b13">[12]</ref> and so on. RHEAs are composed of refractory elements with high melting points. Compared with THEAs, RHEAs have outstanding high temperature resistance, high melting points (&gt;2000 C) and high strength at elevated temperatures. They are the promising high temperature structure materials in aerospace, aviation, and metallurgy. Among the RHEAs, NbMoTaW <ref type="bibr" target="#b14">[13,</ref><ref type="bibr" target="#b15">14]</ref> alloy is the typical representative due to its high melting temperature and superior properties. Since firstly reported by <ref type="bibr" target="#b15">Senkov et al., in 2010</ref>, this alloy attracts much attention. The most attractive feature of Mo 25 Nb 25 Ta 25 W 25 alloy is its high temperature resistance. The compressive strength reaches 405 MPa at 1600 C and it is still stable and possesses a single BCC structure at 1400 C. The surprised performances make it to be considered as a new superalloy which breaks through the temperature limits (1200 C) of existing superalloys like nickel-based alloys <ref type="bibr">[15e18]</ref>. However, the fracture strain of Mo 25 Nb 25 Ta 25 W 25 RHEA at room temperature is only 2.6% <ref type="bibr" target="#b14">[13]</ref>, exhibiting a brittle fracture behavior. Poor ductility at room temperature limits its further development and engineering application. How to improve the room temperature ductility of Mo 25 Nb 25 Ta 25 W <ref type="bibr" target="#b26">25</ref> RHEAs is an important measure to optimize the alloy's properties and promote its application. Commonly, some measures such as adjusting the process and composition of RHEAs were used to improve its low room temperature ductility and promote its bright application prospects. Alloying is also one of the general and practical measures to improve the ductility of RHEAs and traditional alloys. To change the status of poor ductile alloys, Ishida et al. <ref type="bibr" target="#b20">[19]</ref> added alloying element (Fe, Co, and Cr) to improve ductility of NiAl(B2)-based alloys. Sandl€ obes et al. <ref type="bibr" target="#b21">[20]</ref> improved the ductility of Mg alloys by alloying elements with relatively high (&gt;1 at.%) solid solubility. Kazuya et al. <ref type="bibr" target="#b22">[21]</ref> enhanced the ductility of CoeAleW high-temperature alloys by adding boron element. Especially, Han et el <ref type="bibr" target="#b23">[22,</ref><ref type="bibr" target="#b24">23]</ref> added Ti to strength NbMoTaW RHEA and their idea was confirmed by the experiments. They thought that the improvement of the mechanical properties tested by the compression experiment was attributed to the relatively high solid solution hardening (SSH) effect. However, the strengthening effect was only interpreted from experimental perspective, which lacks further discussion and explanation of the mechanism from atom and electron interaction. To the authors' knowledge, most researchers make achievements of ductility enhancement by means of alloying using experimental investigation. The analysis of ductility enhancement from the view point of atom or electron is rarely reported. Zhang el al <ref type="bibr" target="#b25">[24,</ref><ref type="bibr" target="#b26">25]</ref> explored the long-ranged interaction and configurational energy of NbMoTaWTi RHEA from effective pair interaction (EPI) perspective, which laid a solid foundation for theoretical calculation of NbMoTaWTi RHEA. Nevertheless, the micro-mechanism of alloying performance improvement was not discussed and need further investigation. In present work, Ti was chosen as the alloying element to enhance the room temperature ductility of NbMoTaW RHEA. The influence of Ti alloying on the mechanical properties of the equiatomic NbMoTaW RHEA was investigated from the perspective of first-principles calculation combining experiments. First-principles calculation based on density functional theory (DFT) <ref type="bibr" target="#b27">[26,</ref><ref type="bibr" target="#b28">27]</ref> was employed to predict the phase structure, lattice constants, densities, elastic properties and electrical properties of NbMoTaW and NbMoTaWTi RHEAs. Particularly, the energy band, the total and partial densities of states and charge density were calculated to investigate the mechanism of strength and ductility enhancement of NbMoTaW alloy by means of Ti alloying.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Methods</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">Theoretical methods and calculation models</head><p>In this work, all the calculations were performed using CASTEP module <ref type="bibr" target="#b29">[28,</ref><ref type="bibr" target="#b30">29]</ref>. The special quasi-random supercell method (SQS) <ref type="bibr" target="#b31">[30]</ref> was adopted to build the crystal models, which was expanded based on Nb bulk with single-phase BCC structure. In the following parts, the equiatomic NbMoTaW and the Ti alloyed NbMoTaWTi RHEA were named as Ti0 and Ti1 alloy, respectively. Fig. <ref type="figure" target="#fig_0">1</ref> shows 1 Â 1 Â 2 and 1 Â 1 Â 5 supercell models of Ti0 and Ti1 alloys, respectively. During calculations, norm conserving pseudopotential <ref type="bibr" target="#b32">[31]</ref> was employed to describe the electron and ionic interaction. The electronic exchange-correlation terms were described using Generalized Gradient Approximation (GGA) <ref type="bibr" target="#b33">[32]</ref> and Perdew Burke Ernzerhof (PBE) function <ref type="bibr" target="#b34">[33,</ref><ref type="bibr" target="#b35">34]</ref>. After convergence testing, the cut energy of plane wave and k-point were set as 450eV and 8 Â 8 Â 4 for Ti0 alloy, and 700eV and 8 Â 8 Â 2 for Ti1 alloy, respectively. The valence electrons of all the elements are Nb 4d 4 5s 1 , Mo 4d 5 s 1 , Ta 5d 3 6s 2 , W 5d 4 6s 2 , and Ti 3d 2 4s 2 . The tolerances of the selfconsistent field (SCF), energy, maximum forces and maximum displacement were 1 Â 10 À6 eV/atom, 1 Â 10 À5 eV/atom, 0.03 eV/Å and 0.001 Å, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Experimental</head><p>In order to confirm the theoretical results, Ti0 and Ti1 alloys were prepared by non-consumable vacuum arc melting method, respectively. All the elements with a purity of 99.9 wt% were cleaned and polished, and then mixed with equal atomic ratio. The order of placing components was carried out to be NbeMoeTaeW and NbeMoeTieTaeW relying on the melting point, phase diagram and so on. After several rejecting and discharging the high purity of argon, the mixed alloy materials were melted at least five times to ensure the uniformity of components and tissues. X-ray diffraction (XRD, Cu Ka radiation, Rigaku D/Max 2550VB-) was employed to identify the phase structure of both RHRAs. The scanning rate and angle were set as 5 /min and 20 o -90 . Microhardness of the alloys was measured by Vickers hardness tester. The value of hardness was determined by taking an average value among three different points under 100 g for 15s. The heat-treated experiment was carried out in a tubular resistance heating furnace. Ti1 alloy was heated to 1000 C for 10 h under the protecting surroundings of argon. Engineering compression stress-strain curves were obtained using universal testing machine. All samples with the cylindrical size of Ф5 Â 8 mm were cut using wire electricaldischarge machining. All surface of the compressive testing samples was lightly polished to reduce the friction coefficient between the samples and testing machine. The loading rate during compression tests was 0.5 mm/min.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Results and discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Phase structure, lattice constants and density</head><p>Table <ref type="table" target="#tab_0">1</ref> is the formation enthalpy (E form ), cohesive energy (E coh ) and the total energy (E tot ) of the Ti1 alloy. E form and E coh were used to identify the phase structure of alloys and were calculated by the formula ( <ref type="formula" target="#formula_0">1</ref>) and ( <ref type="formula" target="#formula_1">2</ref>).</p><formula xml:id="formula_0">H form ¼ 1 N x E tot À X n x E x solid<label>(1)</label></formula><formula xml:id="formula_1">E coh ¼ 1 N x E tot À X n x E x atom<label>(2)</label></formula><p>Here, E tot is the total energy of optimized Ti1 alloy. N x and n x represent the atomic numbers of all and every component. E x solid is the total energy of average atom in a single crystal cell for every component in Ti1 alloy. E x atom is the total energy of isolated atom in a crystal cell.</p><p>The calculated data show that both E form and E coh of BCC Ti1 alloy are negative. Among three structures, Ti1 alloy of BCC structure with the lower E form and E coh will first form and be stable <ref type="bibr" target="#b36">[35]</ref>. This demonstrates Ti1 alloy is still a single-phase BCC solid solution.</p><p>Fig. <ref type="figure" target="#fig_1">2</ref> is the theoretical and experimental XRD patterns of Ti0 and Ti1 alloys. The theoretical XRD patterns of these alloys were calculated by Powder Diffraction (Reflex module, Materials Studio). The experimental XRD patterns of Ti0 and Ti1 alloys containing the as-cast state and the heat-treated state samples were measured and also plotted in Fig. <ref type="figure" target="#fig_1">2</ref>. As seen, all the alloys display a singlephase BCC structure. The XRD pattern shows the same phase (BCC) with the results calculated by energy. Both Ti-added alloy and Ti-free alloy are the same structure, i.e. BCC structure. Additionally, the heat treated Ti1 alloy was also identified to be a single-phase BCC structure, indicating that it could sustain the phase structure after annealing at 1000 C for 10 h. Fortunately, our theoretical and experimental XRD patterns are well consistent with the experimental results measured by Han and Senkov <ref type="bibr" target="#b14">[13,</ref><ref type="bibr" target="#b23">22]</ref>.</p><p>Commonly, the lattice constant is an important structural parameter of RHEAs. In this work, the lattice constants of Ti0 and Ti1 RHEA were also calculated. As seen in Table <ref type="table" target="#tab_1">2</ref>, the calculated lattice constants of Ti0 and Ti1 alloy increase from 3.204 to 3.223 Å.</p><p>Additionally, Han et al. <ref type="bibr" target="#b24">[23]</ref> found that the lattice constants increase from 3.226 Å of Ti0 alloy to 3.240 Å for Ti1 alloy by analyzing the experimental XRD patterns. Ti atom possesses the largest atomic radio among the mentioned five atoms. The larger atomic size difference results in the severe lattice distortion. Therefore, the lattice constant increases after Ti addition. This also well agrees   with the calculated data. Besides, the increasing lattice constant also causes the decrease of the alloy's density. The empirical densities of Ti0 and Ti1 alloys were estimated to be 13.668 g/cm 3 and 11.836 g/cm 3 by the rule of mixtures (ROM) <ref type="bibr" target="#b37">[36]</ref> using formula <ref type="bibr" target="#b4">(3)</ref>.</p><formula xml:id="formula_2">r mix ¼ X n i¼1 c i ðrÞ i<label>(3)</label></formula><p>Here,r mix refers to empirical density for the alloys. c i and ðrÞ i are the content and density for the ith components. The calculated densities of Ti0 and Ti1 alloys were 14.023 g/cm 3 and 12.821 g/cm 3 . The experimental densities measured by the Archimedes method were 13.63 g/cm 3 to 11.98 g/cm 3 . Generally, the above theoretical data are well consistent with others experiments <ref type="bibr" target="#b15">[14]</ref>, demonstrating that the calculated parameters and selective models are feasible.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Elastic properties</head><p>Table <ref type="table" target="#tab_2">3</ref> displays the elastic constants of Ti0 and Ti1 RHEAs by calculating supercell models. The calculated results usually contain nine independent elastic constants due to low symmetry and lager size of supercell models <ref type="bibr" target="#b37">[36,</ref><ref type="bibr" target="#b38">37]</ref>. Therefore, we deal with the data by formula (4) and the average elastic constants are shown in Table <ref type="table">4</ref>.</p><formula xml:id="formula_3">C 11 ¼ C0 11 þ C0 22 þ C0 33 3 ; C 12 ¼ C0 12 þ C0 23 þ C0 13 3 ; C 44 ¼ C0 44 þ C0 55 þ C0 66 3<label>(4)</label></formula><p>As seen, the values of C 11 ¼ 392 GPa, C 12 ¼ 158 GPa, and C 44 ¼ 79 GPa of Ti0 alloy are well agreed with the data of C 11 ¼ 400 GPa, C 12 ¼ 178 GPa, and C 44 ¼ 75 GPa of NbTaMoW calculated by Li <ref type="bibr" target="#b39">[38]</ref>. It can be seen that elastic constants (C 11 , C 12 , C 44 ) decrease after Ti addition. Elastic constants are directly relative to bulk modulus (B), shear modulus (G) and Yong's modulus (E). Commonly, the large elastic constants are corresponding to the high elastic modulus. The polycrystalline elastic modulus of Ti0 and Ti1 alloys were acquired by Viogt-Reuss-Hill (VRH) method <ref type="bibr" target="#b40">[39]</ref>. The larger the bulk modulus is, the stronger the incompressibility of materials is. Additionally, the greater the shear modulus is, the stronger the shear deformation resistance of material is. The values of B, G and E decrease as the same variation of C 11 , C 12 and C 44 . Thus, the compressive strength is considered to be improved after Ti addition. The value of B, G and E are 236 GPa, 92 GPa and 245 GPa of Ti0 alloy and 200 GPa, 73 GPa and 196 GPa of Ti1 alloy. This is in good agreement with 139 GPa, 59 GPa and 156 GPa of Ti1 measured by Han <ref type="bibr" target="#b23">[22]</ref>. In other words, it occurred that the strength of NbMoTaW RHEA will be enhanced after Ti addition.</p><p>Normally, the Pugh ratio (G/B), Poisson's ratio (y) and Cauchy pressure (C 12 eC 44 ) are the most common criterion to predict the brittleness or ductility of the hard materials. G/B ¼ 0.57, as a boundary value, is usually used to judge the behavior of brittleness/ ductility. Smaller than the value, the materials show ductility. The smaller the G/B is, the better the ductility is. Larger than the value, it exhibits brittle behavior. According to calculated data, all the G/B values are smaller than 0.57 and they decrease from 0.390 of Ti0 alloy to 0.365 of Ti1 alloy. Therefore, it is thought that Ti addition effectively improves the ductility of NbMoTaW RHEA. The ductility enhancement may arise from the severe lattice distortion and solution strengthening <ref type="bibr" target="#b41">[40]</ref> after adding Ti with lager radius.</p><p>For the positive Cauchy pressure (C 12 eC 44 ), it is identified as the predictive condition of forming metallic bond. The values of C 12 eC 44 were calculated to be positive, indicating that both Ti0 and Ti1 alloys were metallic bonding. On the other hand, Poisson's ratio (y) is also an important criterion to decide the brittleness/ductility of alloys. If y &gt; 0.33, the alloys exhibit ductile behavior. Otherwise, alloys display brittle fracture. The values of y increase from 0.327 of Ti0 alloy to 0.337 of Ti1 alloy. The data of y shows that Ti0 alloy (y ¼ 0.327 &lt; 0.33) is brittle fracture, which is similar to the intergranular fracture mode reported in Refs. <ref type="bibr" target="#b14">[13,</ref><ref type="bibr" target="#b24">23]</ref>. In addition, all the alloys are mechanically stable because the elastic constants satisfy Born Rule (C 11 &gt; 0; C 44 &gt; 0;</p><formula xml:id="formula_4">ðC 11 À C 12 Þ &gt; 0 C 11 þ 2C 12 &gt; 0;) [41].</formula><p>Hardness is a kind of ability of the materials to resist the local deformation, which is closely related to ductility of alloys. Thus, hardness of Ti0 and Ti1 alloy were calculated according to formula <ref type="bibr" target="#b6">(5)</ref> and shown in Fig. <ref type="figure" target="#fig_2">3</ref>.</p><formula xml:id="formula_5">HV ¼ 0 @ 2 Â G 3 B 2 ! 0:585 1 A À 3 (<label>5</label></formula><formula xml:id="formula_6">)</formula><p>As seen in Fig. <ref type="figure" target="#fig_2">3</ref>, the hardness has a little fluctuate between Ti0 and Ti1 alloys. The calculated value (457HV) of Ti1 alloy is well consistent with the experimental value (498HV) <ref type="bibr" target="#b23">[22]</ref>. The predicted hardness (636HV) of Ti0 alloy is higher than the experimental value (446HV) <ref type="bibr" target="#b15">[14]</ref>. The predicted and experimental hardness of Ti1 alloy are highly anastomosis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Electronic structure</head><p>The calculated results about electric structure can character material's electric and mechanical properties from the respective of  atomic and electric scale. Energy bond, one of the basic electric structure, generates from the energy level of isolated atoms. That is to say, the more compact energy bond represents the stronger atomic ever eletrical interaction. The materials with stronger atomic interaction exhibit better mechanical properties and ductility. Therefore, the energy bond structure of Ti0 and Ti1 alloys were calculated to inverstigate the influence of Ti addition on the mechanical performance enhancement of NbMoTaW-based RHEA. Fig. <ref type="figure">4</ref>(aec) is the energy bond structure plots of Ti0 and Ti1 alloy. Fig. <ref type="figure">4</ref> (b) is the drawing of partial enlargement. The red dotted line in the picture is the Fermi energy level. As seen in Fig. <ref type="figure">4</ref>, serious hybridization of energy bond between valence bond and conduction bond indicates that Ti0 and Ti1 alloy exhibit metallic characteristic <ref type="bibr" target="#b43">[42]</ref>. Futhermore, the energy bond becomes more compact after Ti addition, demonstrating that atomic interaction of Ti1 alloy is stronger than one of Ti0 alloy. Ti alloying is contributable to the mechanical performance enhancement of NbMoTaW RHEA. Interestingly, Fig. <ref type="figure">4</ref> (c) appears extra energy bonds at lower energy region after Ti addition, which is attributed to the contribution of Ti and the formation of TieTi metalic bond.</p><p>In order to further investigate the electric contribution and bonding characteristic of Ti0 and Ti1 alloy. The total and partial  As can be seen from Fig. <ref type="figure" target="#fig_4">5</ref>, Ti0 and Ti1 alloy are electrically conductive and show metallic properties due to the high densities of state at Fermi energy level <ref type="bibr" target="#b44">[43,</ref><ref type="bibr" target="#b45">44]</ref>. Seen from Fig. <ref type="figure" target="#fig_4">5</ref> (a), the density of state distributes from À10eV to 30eV, which is mainly coming from the contribution of d-orbital and p-orbital electrons.</p><p>Existing severe electrical hybridization among Nb, Mo, Ta and W leads to the forming of covalent bond <ref type="bibr" target="#b46">[45]</ref>. In Fig. <ref type="figure" target="#fig_4">5</ref> (c), after Ti addition, there are two alone, thin and small peaks at the lower energy region. The two peaks are completely resulted from Ti contribution without participating of Nb, Mo, Ta and W. Therefore, it is thought that the TieTi metallic bond was formed in Ti1 alloy system. In Fig. <ref type="figure" target="#fig_4">5</ref>, it is not difficult to find that the conduction bond moves to Fermi energy level, indicating that the covalence of Ti0 alloy system was weakened after Ti addition. Interestingly, it is found that the density of state of Ti contribution is higher than that of Nb, Mo, Ta and W. In other words, more TieTi metallic bond will be formed after Ti addition, which may lead to the strength and ductility enhancement of Ti0 alloy.</p><p>In order to further study the bond characteristic of Ti0 and Ti1 alloys, the charge densities were calculated and plotted in Fig. <ref type="figure" target="#fig_5">6</ref>. Fig. <ref type="figure" target="#fig_5">6</ref> (a) displays stronger electric cloud overlapping among Nb, Mo Ta and W atoms, indicating the formation of the covalent bonds <ref type="bibr" target="#b47">[46]</ref>. Seen from Fig. <ref type="figure" target="#fig_5">6</ref> (b), the charge around Ti atom is circular distributed and there is a little overlapping with the other four atoms. Therefore, it is thought that the TieTi metallic bond was formed in Ti1 alloy system. The formation of the TieTi metallic bond is the same as the previous analysis of the total and partial densities of states. The increasing TieTi metallic bonds and the decreasing covalent bonds in NbMoTaW-based RHEA demonstrate that Ti alloying helps to improve the ductility of NbMoTaW RHEAs.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Mechanical properties</head><p>In the previous investigation based on DFT calculation, Ti alloying obviously helps to improve the strength and ductility of NbMoTaW RHEA. In order to confirm this result, Ti alloyed NbMoTaWTi RHEA were prepared and its mechanical properties at the as-casted and annealed states were respectively tested. Fig. <ref type="figure">7</ref> shows the engineering compression stress-strain curves of Ti alloyed RHEA at the as-casted and annealed states. The illustration in Fig. <ref type="figure">7</ref> shows the engineering compression stress-strain curve of Ti-free NbMoTaW RHEA measured by Senkov <ref type="bibr" target="#b14">[13]</ref>. Seen from Fig. <ref type="figure">7</ref>, the compressive strength of Ti alloyed NbMoTaWTi RHEA reaches about 1600 MPa, which is approximately 1.5 times larger than that of NbMoTaW alloy (1200 MPa). The fracture strain is also much larger than that of NbMoTaW alloy (2.6%). The compressive stressstrain curve of Ti alloyed RHEA is well consistent with the experimental results measured by Han <ref type="bibr" target="#b23">[22,</ref><ref type="bibr" target="#b24">23]</ref>. The compressive strength of the annealed Ti alloyed RHEA decreases a little compared with  that of the as-casted alloy. However, the fracture strain is still larger than that of NbMoTaW alloy. Totally, the strength and ductility of Ti alloyed NbMoTaWTi RHEA were obviously improved compared with Ti-free NbMoTaW RHEA according to the above experiments. This is in good agreement with the previous results based on DFT calculation. Both theoretical calculation and experiments indicate that Ti alloying is beneficial to improve the mechanical properties of NbMoTaW RHEA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Conclusion</head><p>Ti alloying was designed to improve the mechanical performance of NbMoTaW RHEA and the strengthening effect was investigated based on first-principle calculation combining experiments. The phase structure, lattice parameters, densities, elastic properties and electronic structure of NbMoTaW alloy and Ti alloyed NbMoTaWTi RHEA were predicted using first-principle calculation. The calculated and experimental results show that Tifree and Ti alloyed RHEAs have BCC single-phase solid solution structure. Both Ti alloyed and Ti-free RHEAs were predicted to be electrically conductive and shown metallic characteristic. Ti alloyed RHEA exhibited better strength and ductility compared with Ti-free RHEA according to the stronger atomic interaction and the formation of TieTi metallic bonds, which was observed and explained in the energy bonds structure, total and partial densities of states and charge density diagram. The improved performance due to Ti alloying were further characterized by the proposed empirical formulas such as C 12 eC 44 , y, G/B and HV. In order to confirm Ti alloying enhancement of the mechanical performance, Ti alloyed NbMoTaWTi RHEA were prepared and its mechanical properties were tested. Ti alloyed RHEA exhibits much larger strength and ductility compared with that of Ti-free alloy, which well agrees with the results based on calculations. Both theoretical calculation and experiments indicate that Ti alloying is beneficial to improve the mechanical properties of NbMoTaW RHEA. This work indicates that first-principle calculation is an effective method to predict the properties of RHEAs. In the further investigation, the larger supercell and long-ranged interaction should be considered during the calculation in order to refine the prediction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CRediT authorship contribution statement</head><p>Linhui Bai: contributed the central idea, analyzed most of the data, and wrote the initial draft of the paper, The remaining authors contributed to refining the ideas, carrying out additional analyses and finalizing this paper. Yonggang Tong: contributed the central idea, analyzed most of the data, and wrote the initial draft of the paper, The remaining authors contributed to refining the ideas, carrying out additional analyses and finalizing this paper.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. The unoptimized supercell models of (a) NbMoTaW and (b) NbMoTaWTi RHEAs.</figDesc><graphic coords="3,112.76,66.73,369.80,202.73" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. The theoretical and experimental XRD patterns of NbMoTaW and NbMoTaWTi RHEAs.</figDesc><graphic coords="3,129.83,401.56,335.72,280.35" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. The theoretical and experimental hardness of NbMoTaW and NbMoTaWTi RHEAs.</figDesc><graphic coords="5,114.92,66.73,365.49,323.83" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 4 . 5 .</head><label>45</label><figDesc>Fig. 4. Energy band structure of RHEAs (a) Ti0, (b) drawing of partial enlargement of Ti1and (c) Ti1.</figDesc><graphic coords="5,84.47,563.08,426.43,163.84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. The total and partial densities of states of NbMoTaW and NbMoTaWTi RHEAs.</figDesc><graphic coords="6,99.04,480.25,397.18,246.67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. The charge density diagram of (a) NbMoTaW and (b) NbMoTaWTi alloys.</figDesc><graphic coords="6,311.02,66.73,242.38,205.74" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="7,128.81,66.73,337.66,268.55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>The formation enthalpy (E form ), cohesive energy (E coh ) and the total energy (E tot ) of the NbMoTaWTi RHEA.</figDesc><table><row><cell>NbMoTaWTi</cell><cell>BCC</cell><cell>10</cell><cell>À4577.7897</cell><cell>À0.022</cell><cell>À7.513</cell></row><row><cell></cell><cell>FCC</cell><cell>20</cell><cell>À9148.7503</cell><cell>0.320</cell><cell>À7.171</cell></row><row><cell></cell><cell>HCP</cell><cell>10</cell><cell>À4573.3976</cell><cell>0.417</cell><cell>À7.073</cell></row></table><note><p>alloy crystal structure number of atoms in a crystal cell E tot (eV) H form (eV/atom) E coh (eV/atom)</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>The lattice constant and density of NbMoTaW and NbMoTaWTi RHEAs.</figDesc><table><row><cell>alloys</cell><cell>lattice constant (Å)</cell><cell>density (g/cm 3 )</cell></row><row><cell>Ti0</cell><cell>3.204 cal , 3.220 [13], 3.213 [14],</cell><cell>14.023 cal , 13.668 the , 13.63 exp , 13.75 [14]</cell></row><row><cell>Ti1</cell><cell>3.223 cal , 3.240 [22]</cell><cell>12.821 cal , 11.836 the , 11.98 exp</cell></row><row><cell>Cal refers to the calculated value.</cell><cell></cell><cell></cell></row><row><cell cols="2">The refers to the theoretical value of ROM.</cell><cell></cell></row><row><cell cols="2">Exp refers to the experimental value.</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3</head><label>3</label><figDesc>Nine independent elastic constants of optimized suppercell model of NbMoTaW and NbMoTaWTi RHEA.</figDesc><table><row><cell>alloys</cell><cell>C 0</cell><cell>11</cell><cell>C 0</cell><cell>12</cell><cell>C 0</cell><cell>13</cell><cell>C 0</cell><cell>22</cell><cell>C 0</cell><cell>23</cell><cell>C 0</cell><cell>33</cell><cell>C 0</cell><cell>44</cell><cell>C 0</cell><cell>55</cell><cell>C 0</cell><cell>66</cell></row><row><cell>Ti0</cell><cell cols="2">401</cell><cell cols="2">166</cell><cell cols="2">154</cell><cell cols="2">400</cell><cell cols="2">154</cell><cell cols="2">375</cell><cell cols="2">76</cell><cell cols="2">76</cell><cell cols="2">85</cell></row><row><cell>Ti1</cell><cell cols="2">352</cell><cell cols="2">128</cell><cell cols="2">138</cell><cell cols="2">352</cell><cell cols="2">139</cell><cell cols="2">289</cell><cell cols="2">71</cell><cell cols="2">71</cell><cell cols="2">44</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgments</head><p>This work was supported by <rs type="funder">National Key R&amp;D Program of China</rs> (No. <rs type="grantNumber">2018YFC1902401</rs>), <rs type="funder">National Natural Science Foundation of China</rs> (No. <rs type="grantNumber">52005053</rs>), <rs type="funder">Natural Science Foundation of Hunan Province of China</rs> (No. <rs type="grantNumber">2019JJ50657</rs> and <rs type="grantNumber">2018JJ2426</rs> ), <rs type="funder">Hunan Key R&amp;D Project</rs> (No. <rs type="grantNumber">2019kj001</rs>), <rs type="funder">Educational Commission of Hunan Province of China</rs> (No. <rs type="grantNumber">18C0210</rs>) and the <rs type="funder">"Double First-Class" Scientific Research International Cooperation and Development Project of Changsha University of Science and Technology</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_geZUmFe">
+					<idno type="grant-number">2018YFC1902401</idno>
+				</org>
+				<org type="funding" xml:id="_teh28pZ">
+					<idno type="grant-number">52005053</idno>
+				</org>
+				<org type="funding" xml:id="_knKbhEp">
+					<idno type="grant-number">2019JJ50657</idno>
+				</org>
+				<org type="funding" xml:id="_cFN3dTR">
+					<idno type="grant-number">2018JJ2426</idno>
+				</org>
+				<org type="funding" xml:id="_BYGH4G6">
+					<idno type="grant-number">2019kj001</idno>
+				</org>
+				<org type="funding" xml:id="_XeaffkT">
+					<idno type="grant-number">18C0210</idno>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Declaration of competing interest</head><p>The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Nanostructured high-entropy alloys with multiple principal elements: novel</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Fig</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The engineering compression stress-strain curves of the as-cast and annealed NbMoTaWTi RHEAs. alloy design concepts and outcomes</title>
+		<idno type="DOI">10.1002/adem.200300567</idno>
+		<ptr target="https://doi.org/10.1002/adem.200300567" />
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Eng. Mater</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="299" to="e303" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Microstructure characterization of Al x CoCrCuFeNi high-entropy alloy system with multiprincipal elements</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Shun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Tsau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11661-005-0283-0</idno>
+		<ptr target="https://doi.org/10.1007/s11661-005-0283-0" />
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Mater. Trans</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="881" to="e893" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">High-entropy alloys: a critical review</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/21663831.2014.912690</idno>
+		<ptr target="https://doi.org/10.1080/21663831.2014.912690" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="107" to="e123" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Development and characterization of Al-based amorphous coating</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11837-019-03966-y</idno>
+		<ptr target="https://doi.org/10.1007/s11837-019-03966-y" />
+	</analytic>
+	<monogr>
+		<title level="j">JOM</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="745" to="e753" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Different-shaped ultrafine MoNbTaW HEA powders prepared via mechanical alloying</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">G</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">B</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">F</forename><surname>Hu</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/ma11071250</idno>
+		<ptr target="https://doi.org/10.3390/ma11071250" />
+	</analytic>
+	<monogr>
+		<title level="j">Materials</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">1250</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A fracture-resistant high-entropy alloy for cryogenic applications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gludovatz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hohenwarter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Catoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Cuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">O</forename><surname>Ritchie</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1254581</idno>
+		<ptr target="https://doi.org/10.1126/science.1254581" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">345</biblScope>
+			<biblScope unit="page" from="1153" to="e1158" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The influences of temperature and microstructure on the tensile properties of a CoCrFeMnNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Otto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dlouhý</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ch Somsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Eggeler</surname></persName>
+		</author>
+		<author>
+			<persName><surname>George</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2013.06.018</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2013.06.018" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="5743" to="e5755" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Sluggish diffusion in CoeCreFeeMneNi highentropy alloys</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="4887" to="e4897" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Decomposition in multi-component AlCoCrCuFeNi high-entropy alloy</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Wanderka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Murty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Glatzelc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Banhartaet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2010.09.023</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2010.09.023" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="182" to="e190" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Microstructure and compressive properties of AlCrFeCoNi high entropy alloy</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">X</forename><surname>Ren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Z</forename><surname>Fu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2008.01.064</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2008.01.064" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng</title>
+		<imprint>
+			<biblScope unit="volume">491</biblScope>
+			<biblScope unit="page" from="154" to="e158" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Effect of Al on structure and mechanical properties of Fe-Mn-Cr-Ni-Al non-equiatomic high entropy alloys with high Fe content</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Stepanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Shaysultanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Chernichenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Tikhonovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">V</forename><surname>Zherebtsov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2018.08.093</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2018.08.093" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">770</biblScope>
+			<biblScope unit="page" from="194" to="e203" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Effect of prolonged aging on phase evolution and mechanical properties of intermetallic strengthened CoCrFeNi 2.1 Nb x high entropy alloys</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Sunkari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Reddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chatterjee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Bhattacharjee</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matlet.2019.04.012</idno>
+		<ptr target="https://doi.org/10.1016/j.matlet.2019.04.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Lett</title>
+		<imprint>
+			<biblScope unit="volume">248</biblScope>
+			<biblScope unit="page" from="119" to="e122" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mechanical properties of Nb 25 Mo 25 Ta 25 W 25 and V 20 Nb 20 Mo 20 Ta 20 W 20 refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2011.01.004</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2011.01.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="698" to="e706" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Refractory highentropy alloys</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">N</forename><surname>Senkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Miracle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Chuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Liaw</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2010.05.014</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2010.05.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1758" to="e1765" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Influence of alloying compositions on the properties of nickel-based superalloys: a review</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Ganji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rajyalakshmi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-981-15-1071-7_44</idno>
+		<ptr target="https://doi.org/10.1007/978-981-15-1071-7_44" />
+		<imprint/>
+	</monogr>
+	<note>Recent Adv. Mechan. Eng. (2020) 537e555</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">F</forename><surname>Ogunbiyi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jamiru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Sadiku</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">T</forename><surname>Adesina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Beneke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Adegbola</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.promfg.2019.05.022</idno>
+		<ptr target="https://doi.org/10.1016/j.promfg.2019.05.022" />
+		<title level="m">Spark plasma sintering of nickel and nickel based alloys: a Review, Procedia Manufac</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1324" to="e1329" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Mechanical properties and microstructure in neutron-irradiated nickel-based alloys and stainless steels for supercritical water-cooled-reactor fuel cladding</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">I</forename><surname>Fukumoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nishimura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Matsui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamazaki</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00223131.2019.1660730</idno>
+		<ptr target="https://doi.org/10.1080/00223131.2019.1660730" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Nucl. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Adsorption and diffusion behaviors of Ni-based filler elements on diamond surface</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Peng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2020.153652</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2020.153652" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">822</biblScope>
+			<biblScope unit="page">153652</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Ductility enhancement in NiAl (B2)-base alloys by microstructural control</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ishida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kainuma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ueno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nishizawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF02656811</idno>
+		<ptr target="https://doi.org/10.1007/BF02656811" />
+	</analytic>
+	<monogr>
+		<title level="j">Metall. Trans., A</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="441" to="e446" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Ductility improvement of Mg alloys by solid solution: ab initio modeling, synthesis and mechanical properties</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sandl€ Obes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Pei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zaefferer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Raabe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Neugebauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2014.02.011</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2014.02.011" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="92" to="e104" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Ductility enhancement by boron addition in CoeAleW high-temperature alloys</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shinagawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Omori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Oikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kainuma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ishida</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scriptamat.2009.05.037</idno>
+		<ptr target="https://doi.org/10.1016/j.scriptamat.2009.05.037" />
+	</analytic>
+	<monogr>
+		<title level="j">Scripta Mater</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="612" to="e615" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Effect of Ti additions on mechanical properties of NbMoTaW and VNbMoTaW refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2017.01.007</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2017.01.007" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="153" to="e157" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Microstructures and mechanical properties of Ti x NbMoTaW refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Luan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Yao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.msea.2017.12.004</idno>
+		<ptr target="https://doi.org/10.1016/j.msea.2017.12.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Sci. Eng., A</title>
+		<imprint>
+			<biblScope unit="volume">712</biblScope>
+			<biblScope unit="page" from="380" to="e385" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Robust data-driven approach for predicting the configurational energy of high entropy alloys</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eisenbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matdes.2019.108247</idno>
+		<ptr target="https://doi.org/10.1016/j.matdes" />
+	</analytic>
+	<monogr>
+		<title level="j">Mater. Des</title>
+		<imprint>
+			<biblScope unit="volume">185</biblScope>
+			<biblScope unit="page">108247</biblScope>
+			<date type="published" when="2019">2020. 2019.108247</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Stocks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eisenbach</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1907.10223</idno>
+		<title level="m">Chemical complexity in high entropy alloys: a pair-interaction perspective, Mater. Sci</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="page">10223</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Density functional theory of atoms and molecules</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Parr</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-94-009-9027-2_2</idno>
+		<ptr target="https://doi.org/10.1007/978-94-009-9027-2_2" />
+	</analytic>
+	<monogr>
+		<title level="j">Horiz. Quantum Chem</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="5" to="e15" />
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Density-functional theory for time-dependent systems</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Runge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Gross</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.52.997</idno>
+		<ptr target="https://doi.org/10.1103/PhysRevLett.52.997" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page">997</biblScope>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">First-principles simulation: ideas, illustrations and the CASTEP code</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Segall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Lindan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Probert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Pickard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Hasnip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Payne</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0953-8984/14/11/301</idno>
+		<ptr target="https://doi.org/10.1088/0953-8984/14/11/301" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Condens. Mat</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">2717</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Segall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Pickard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Hasnip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Probert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Refson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Payne</surname></persName>
+		</author>
+		<idno type="DOI">10.1524/zkri.220.5.567.65075</idno>
+		<ptr target="https://doi.org/10.1524/zkri.220.5.567.65075" />
+	</analytic>
+	<monogr>
+		<title level="m">First principles methods using CASTEP</title>
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="volume">220</biblScope>
+			<biblScope unit="page" from="567" to="e570" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Special quasirandom structures</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zunger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Bernard</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.65.353</idno>
+		<ptr target="https://doi.org/10.1103/PhysRevLett.65.353" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="353" to="e356" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Norm-conserving and ultrasoft pseudopotentials for firstrow and transition elements</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kresse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hafner</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0953-8984/6/40/015</idno>
+		<ptr target="https://doi.org/10.1088/0953-8984/6/40/015" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Condens. Mat</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">8245</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Generalized gradient approximation made simple</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Perdew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Burke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ernzerhof</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.77.3865</idno>
+		<ptr target="https://doi.org/10.1103/PhysRevLett.77.3865" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page">3865</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Assessment of the perdeweburkeeernzerhof exchange-correlation functional</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ernzerhof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Scuseria</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.478401</idno>
+		<ptr target="https://doi.org/10.1063/1.478401" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page" from="5029" to="e5036" />
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Improved adsorption energetics within density-functional theory using revised Perdew-Burke-Ernzerhof functionals</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Nørskov</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevB.59.7413</idno>
+		<ptr target="https://doi.org/10.1103/PhysRevB.59.7413" />
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. B</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">7413</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Prediction of structure and elastic properties of AlCrFeNiTi system high entropy alloys</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">S</forename><surname>Nong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Zhao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.intermet.2017.03.014</idno>
+		<ptr target="https://doi.org/10.1016/j.intermet.2017.03.014" />
+	</analytic>
+	<monogr>
+		<title level="j">Intermetallics</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="134" to="e146" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Computation of stability, elasticity and thermodynamics in equiatomic AlCrFeNi mediumentropy alloys</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Q</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">W</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hou</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10853-018-2943-7</idno>
+		<ptr target="https://doi.org/10.1007/s10853-018-2943-7" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Mater. Sci</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="2566" to="e2576" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Theoretical investigations on structural stability and elastic properties of MoNbTaW-X (¼Ti/V) high entropy alloys</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Priyadarshan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shi</surname></persName>
+		</author>
+		<ptr target="http://www.journaljmsrr.com/index.php/JMSRR/article/view/30112" />
+	</analytic>
+	<monogr>
+		<title level="j">JMSRR</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<date type="published" when="2019">2019) 1e9</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">First-principles study of the third-order elastic constants and related anharmonic properties in refractory high-entropy alloys</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Q</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2017.09.041</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2017.09.041" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="29" to="e36" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Structural, elastic and electronic properties of q (Al 2 Cu) and S (Al 2 CuMg) strengthening precipitates in Al-Cu-Mg series alloys: first-principles calculations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">N</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Peng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ssc.2012.09.003</idno>
+		<ptr target="https://doi.org/10.1016/j.ssc.2012.09.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Solid State Commun</title>
+		<imprint>
+			<biblScope unit="volume">152</biblScope>
+			<date type="published" when="2012">2012. 2100e2104</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Solid-solution strengthening in refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Coury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kaufman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Clarke</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.actamat.2019.06.006</idno>
+		<ptr target="https://doi.org/10.1016/j.actamat.2019.06.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Acta Mater</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="66" to="e81" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">An ab initio and experimental studies of the structure, mechanical parameters and state density on the refractory high-entropy alloy systems</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Mu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dong</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2017.04.237</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2017.04.237" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">714</biblScope>
+			<biblScope unit="page" from="668" to="e680" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Stability and electronic structure of the CoeP compounds from first-principle calculations</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Su</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2010.09.018</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2010.09.018" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="page" from="165" to="e171" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Interfacial bonding mechanism and adhesive transfer of brazed diamond with Ni-based filler alloy: first-principles and experimental perspective</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Peng</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.carbon.2019.07.015</idno>
+		<ptr target="https://doi.org/10.1016/j.carbon.2019.07.015" />
+	</analytic>
+	<monogr>
+		<title level="j">Carbon</title>
+		<imprint>
+			<biblScope unit="volume">153</biblScope>
+			<biblScope unit="page" from="104" to="e115" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">First-principle calculation investigation of NbMoTaW based refractory high entropy alloys</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">G</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">B</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">X</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2020.153963</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2020.153963" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">First-principle calculations of ductile CeAg intermetallic compound</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S1003-6326(11)61228-4</idno>
+		<ptr target="https://doi.org/10.1016/S1003-6326(11)61228-4" />
+	</analytic>
+	<monogr>
+		<title level="j">T. Nonferr. Metal. Soc</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="654" to="e660" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">First-principle study on OeAeO dumbbell of delafossite crystal</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Gui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">B</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jallcom.2013.08.043</idno>
+		<ptr target="https://doi.org/10.1016/j.jallcom.2013.08.043" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Alloys Compd</title>
+		<imprint>
+			<biblScope unit="volume">582</biblScope>
+			<biblScope unit="page" from="64" to="e68" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Alloys and Compounds</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

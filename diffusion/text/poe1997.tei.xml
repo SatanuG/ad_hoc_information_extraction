@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Brent</forename><forename type="middle">T</forename><surname>Poe</surname></persName>
+							<email>brent.poe@uni-bayreuth.de</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Bayerisches Geoinstitut</orgName>
+								<address>
+									<addrLine>Uni-versita ¨t Bayreuth</addrLine>
+									<postCode>D-95440</postCode>
+									<settlement>Bayreuth</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry and Biochemistry</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<postCode>85287</postCode>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Rubie</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Chemistry and Biochemistry</orgName>
+								<orgName type="institution">Arizona State University</orgName>
+								<address>
+									<postCode>85287</postCode>
+									<settlement>Tempe</settlement>
+									<region>AZ</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">S. Chakraborty</orgName>
+								<orgName type="institution" key="instit2">Mineralogisch-Petrographisches Institut</orgName>
+								<address>
+									<addrLine>Universita ¨t Ko ¨ln</addrLine>
+									<postCode>D-50674</postCode>
+									<settlement>Ko ¨ln</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Yarger</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">S. Chakraborty</orgName>
+								<orgName type="institution" key="instit2">Mineralogisch-Petrographisches Institut</orgName>
+								<address>
+									<addrLine>Universita ¨t Ko ¨ln</addrLine>
+									<postCode>D-50674</postCode>
+									<settlement>Ko ¨ln</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Diefenbacher</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">S. Chakraborty</orgName>
+								<orgName type="institution" key="instit2">Mineralogisch-Petrographisches Institut</orgName>
+								<address>
+									<addrLine>Universita ¨t Ko ¨ln</addrLine>
+									<postCode>D-50674</postCode>
+									<settlement>Ko ¨ln</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">C14ED4C6C6ED76A7EB8737D5985C6FDD</idno>
+					<idno type="DOI">10.1126/science.276.5316.1245</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>23. M. Chai and J. M. Brown, Geophys. Res. Lett. <ref type="bibr">23, 3539 (1996)</ref>. 24. T. S. Duffy, R. J. Hemley, H. K. Mao, Phys. Rev. <ref type="bibr">Lett. 74, 1371</ref><ref type="bibr">Lett. 74, (1995))</ref>. <ref type="bibr" target="#b38">25</ref>. A. Kelly and N. H. Macmillan, Strong Solids (Oxford Univ. Press, New York, ed. <ref type="bibr" target="#b5">3,</ref><ref type="bibr">1986)</ref>. 26. W. C. Moss, J. O. Hallquist, R. Reichlin, K. A. Goettel, S. Martin, Appl. Phys. <ref type="bibr">Lett. 48, 1215</ref><ref type="bibr">Lett. 48, (1986))</ref>. 27. Moreover, because gaskets provide both sample containment and anvil support at high pressures, the gasket material must exhibit ductility as well as high strength under loading <ref type="bibr" target="#b19">(11)</ref>. Yet, most of the properties of relevant materials have not been measured at high loads, nor have the optimum materials and conditions for highpressure applications necessarily been found. 28. The measurements were carried out at the European Synchrotron Radiation Facility, Grenoble (beam line ID9), using polychromatic x-ray beams collimated to 5 m by 5 m at the sample. The primary beam was collimated with three sets of slits, and the diffraction was measured by the energy-dispersive technique with a Ge solid-state detector. All experiments were performed at room temperature. See also <ref type="bibr" target="#b16">(9)</ref>. 29. S. P. Marsh, Ed., LASL Shock Hugoniot Data (Univ.</p><p>of California Press, Berkeley, 1980). 30. The gasket thickness was calculated using Beer's law, x ϭ (1/) ln(I 0 /I), where is the average (or effective) extinction coefficient for Re at 10 to 60 keV, and I 0 and I are the intensities of the x-rays incident on and transmitted through the gasket. We determined I 0 from measurements at the center of the culet at the maximum load, where the gasket thickness has a minimum (Ͻ3 m), and the effective was determined from measurements at the culet edge before diamond deformation, where the thickness was 45 m. The shape of the tip of each diamond is given by x/2. Calibrations at intermediate loads and measurement of plastic deformation of gaskets recovered at zero pressure indicated no measurable effects of pressure on the effective extinction coefficient at these energies. 31. A. K. Singh, J. Appl. Phys. 73, 4278 (1993); A. K.</p><p>Singh and C. Balasingh, ibid. 75, 4956 (1994). <ref type="bibr" target="#b47">32</ref>. The determination of pressure under nonhydrostatic conditions is valid only for the same geometry in which the calibration was performed. The pressure calibrations involving x-ray diffraction (6 -8)including the secondary ruby scale, which is based on diffraction (5)-were carried out for the axial geometry. Above 12 GPa and room temperature, all pressure media solidify and therefore exert some degree of nonhydrostatic stress on samples. 33. We prepared the gasket from 1-mm-thick Be metal (Brush Wellman, grade 200) by drilling a conical indentation that matched the shape of the anvil. 34. This quantity is derived from the general expression d (hkl)</p><formula xml:id="formula_0">ϭ d P (hkl)[1 ϩ (1 Ϫ 3cos 2 )F(hkl)],</formula><p>where is as defined in Fig. <ref type="figure" target="#fig_0">1</ref> (31). 35. For example, by this method a stress of 340 GPa is found at the highest load for -Fe with ϭ 0°, whereas the strain measured for ϭ 90°corresponds to a stress of 290 GPa. This approximation overestimates the deviatoric stress because it neglects the effect of the shear modulus on the measured differential strains <ref type="bibr" target="#b31">(20,</ref><ref type="bibr" target="#b33">21)</ref>. 36. The results may be compared with the increase in shear strength of Re to 15 GPa at P ϭ 120 GPa <ref type="bibr" target="#b22">(14)</ref>, obtained from the pressure-gradient method <ref type="bibr" target="#b25">(17 )</ref>. In this approach, the shear stress is determined from measurement of pressure gradients by ϭ (h/2)dP(r)/dr, where h is the sample thickness. As pointed out in <ref type="bibr" target="#b22">(14,</ref><ref type="bibr" target="#b25">17,</ref><ref type="bibr" target="#b30">19)</ref>, this analysis depends critically on the shape of the diamond and is only valid when the diamonds remain flat (no cupping) and the sample continues to flow under loading. 37. P. L. Raffo, J. Less Common Met. <ref type="bibr">17, 133 (1969</ref> Mass transport properties of silicate liquids exhibit complex behavior as a function of pressure, as the tetrahedral framework structure of the liquid shifts to a more compact arrangement of atoms. For highly polymerized aluminosilicate liquids, oxygen diffusivities pass through a maximum at pressures below 10 gigapascals, whereas up to 15 gigapascals diffusivities continue to increase for sodium tetrasilicate liquid. A diffusivity maximum indicates a change in the mechanism of formation of 5-coordinated silicon or aluminum in the liquid. In the case of aluminosilicate liquids, this mechanism is restricted to aluminum sites in the network, suggesting that not only degree of polymerization, but also the ratio of aluminum to aluminum plus silicon strongly influences the behavior of magmatic processes at depth.</p><p>The ascent and emplacement of magma within Earth's crust and mantle are largely controlled by the viscosity and density of silicate melts at high pressure <ref type="bibr" target="#b0">(1,</ref><ref type="bibr" target="#b4">2)</ref>. Recent studies have shown that viscous flow in high silica liquids is determined by O 2Ϫ transfer reactions, involving the formation of SiO 5 or AlO 5 intermediate species <ref type="bibr" target="#b5">(3)</ref><ref type="bibr" target="#b11">(4)</ref><ref type="bibr" target="#b12">(5)</ref>. These high-coordinate species are also formed during compression of melt (4-9), which could explain the reduced viscosity reported for some silicic magmas at pressures extending up to 3 GPa, corresponding to depths of less than 100 km. We have obtained data on the diffusivities of the network-forming ions O 2Ϫ and Si 4ϩ in silicate and aluminosilicate melts at pressures up to 15 GPa, and we use the data to estimate melt viscosity throughout the pressure range of the upper mantle to the transition zone.</p><p>Direct viscosity determinations on aluminosilicate melts had been limited to pressures less than 3 GPa (10-13). At higher pressures <ref type="bibr" target="#b22">(14)</ref><ref type="bibr" target="#b23">(15)</ref><ref type="bibr" target="#b24">(16)</ref>, one can estimate melt viscosity () by measuring the O 2Ϫ diffusivity (D O 2Ϫ) through the Eyring equation,</p><formula xml:id="formula_1">ϭ k B T D O 2Ϫ<label>(1)</label></formula><p>where k B is the Boltzmann constant (1.38 ϫ 10 Ϫ23 J K Ϫ1 ), T is absolute temperature, and is the "jump" distance of the diffusing ion, taken to be 2.8 Å for O 2Ϫ <ref type="bibr" target="#b25">(17)</ref>.</p><p>The properties of molten aluminosilicates depend on the degree of polymerization of their tetrahedral framework, which is conveniently expressed in terms of the average number of nonbridging O atoms (NBOs) per tetrahedrally coordinated network-forming cation (usually T ϭ Si 4ϩ or Al 3ϩ and is defined for the liquid at ambient pressure) <ref type="bibr" target="#b4">(2,</ref><ref type="bibr" target="#b28">18)</ref>. This parameter (NBO/T) varies from zero (fully polymerized) to four, if all Si and Al atoms are tetrahedrally coordinated to O. We focused on (i) a fully polymerized aluminosilicate liquid with a composition of NaAlSi 3 O 8 (NBO/T ϭ 0), (ii) a partially depolymerized aluminosilicate liquid, Na 3 AlSi 7 O 17 (NBO/T ϭ 0.25), and (iii) a further depolymerized Al-free silicate liquid, Na 2 Si 4 O 9 (NBO/T ϭ 0.5).</p><p>For all the liquids, O 2Ϫ diffusivity increased with increasing pressure (Fig. <ref type="figure" target="#fig_0">1</ref>), at least initially, as predicted from molecular dynamics (MD) simulations <ref type="bibr" target="#b30">(19)</ref><ref type="bibr" target="#b31">(20)</ref><ref type="bibr" target="#b33">(21)</ref><ref type="bibr" target="#b34">(22)</ref><ref type="bibr" target="#b35">(23)</ref> and consistent with the results of other experimental studies of polymerized silicate liquids <ref type="bibr" target="#b22">(14)</ref><ref type="bibr" target="#b23">(15)</ref><ref type="bibr" target="#b24">(16)</ref>. Only the Na 2 Si 4 O 9 samples were 30 Si-enriched, and Si 4ϩ diffusivities were very similar to those for O 2Ϫ , also increasing as a function of pressure (Fig. <ref type="figure" target="#fig_0">1</ref>).</p><p>In the case of NaAlSi 3 O 8 , we were able to compare experimentally determined viscosities with those determined by the Eyring relation from our high-pressure O diffusion data (Fig. <ref type="figure" target="#fig_1">2</ref>). The data agree well from low pressure (viscosity data) to high pressure (diffusivity data). If the Eyring relation also holds for the other two liquids we examined for which viscosity data at high pressure are not available and if is invariant with pressure, the data in Fig. <ref type="figure" target="#fig_0">1</ref> suggest that viscosities for all three liquids initially decrease with increasing pressure.</p><p>For the Al-free Na 2 Si 4 O 9 melt, O 2Ϫ diffusivity increases by an order of magnitude between ambient pressure and 15 GPa. This increase can be understood as resulting from an increase in the proportion of the 5coordinated Si ( [5] Si) intermediate species necessary for O 2Ϫ transport. The [5] Si species is formed by attachment of a nonbridging O atom to an adjacent SiO 4 tetrahedron <ref type="bibr" target="#b11">(4,</ref><ref type="bibr" target="#b15">8)</ref>. The transport step is completed when a [5] Si-O bond different from the one formed is broken. This O exchange mechanism is characterized by a lowered energy barrier to formation of the high-coordinate intermediate with increasing pressure. A decrease in viscosity can also be related to the increased configurational entropy in the high-pressure melt, because of the presence of significant amounts of species with different coordination numbers <ref type="bibr" target="#b21">(13,</ref><ref type="bibr" target="#b36">24)</ref>. Spectroscopic studies have shown that, in the low-temperature glassy state, [5] Si species continue to be formed at the expense of NBO until pressures of 20 GPa or so are reached <ref type="bibr" target="#b15">(8)</ref>. The limiting pressure should be lower at high temperatures because the reaction forming the high-coordinate species has a positive heat of formation ⌬H f <ref type="bibr" target="#b38">(25)</ref>. However, a maximum in D O 2Ϫ, also predicted from MD simulations (20), is not observed, even at 15 GPa, for the Al-free composition.</p><p>In contrast, measured O 2Ϫ diffusivities for the Na 3 AlSi 7 O 17 liquid pass through a maximum near 8 GPa (Fig. <ref type="figure" target="#fig_0">1</ref>). Below this pressure, the rate of increase in D O 2Ϫ with pressure is greater than for the Al-free silicate liquid, indicating that the activation volume is more negative. Because the Na 3 AlSi 7 O 17 melt is more polymerized (that is, NBO/T is lower) than the Na 2 Si 4 O 9 melt, its fluidity and O 2Ϫ diffusivity at low pressure is much lower. However, O 2Ϫ diffusivity increased more rapidly on initial compression, indicating that formation of high-coordinate Al facilitates the compression of the aluminosilicate liquid. This inference is borne out by 27 Al nuclear magnetic resonance (NMR) measurements of Na 3 AlSi 7 O 17 glasses quenched from the high-pressure melts. The result shows that large quantities of 5-and 6-coordinated Al species are retained in the decompressed sample ( <ref type="formula">9</ref>), whereas no 5-or 6-coordinated Si was detected by 29 Si NMR. High-coordinated Si species are observed in abundance in Na 2 Si 4 O 9 glass synthesized at high pressure under similar quench conditions (4).</p><p>The O 2Ϫ diffusivity maximum near 8 GPa likely occurs when all NBOs have been exhausted for formation of [5] Al species. The Na 3 AlSi 7 O 17 liquid has a lower NBO/T ratio than the Na 2 Si 4 O 9 melt, so fewer NBOs are initially available to in- ) as a function of pressure (A). Experiments were carried out in a 1000-ton multi-anvil apparatus as described in Rubie et al. <ref type="bibr" target="#b22">(14)</ref>. Rapid heating (2500 K min Ϫ1 ) was required to minimize diffusion before the run temperature was reached. Samples were held at the indicated temperature for up to 240 s. Error from the heating ramp was estimated to be less than 5% at 2100 K and less than 10% at higher temperatures. The samples were isobarically quenched to glasses and analyzed by ion microprobe at the University of Edinburgh to determine their 18 O/( 16 O ϩ 18 O) and 30 Si/ ( 28 Si ϩ 30 Si) concentration profiles. Fourier transform infrared analyses of selected samples indicated that the OH content was in the range 10 to 50 ppm (by weight). A representative O 2Ϫ diffusion profile and fit is shown in (B). The profiles could be fitted by an analytical expression for diffusion between two semi-infinite bodies [see <ref type="bibr" target="#b22">(14)</ref> for additional details]. Because of relatively high diffusivities, fitting the Na 2 Si 4 O 9 profiles at 2500 and 2800 K required the use of an expression for diffusion in finite media accounting for boundary interactions. In such cases, the length of the diffusion couple was constrained in the fitting process. Activation volumes (V*) over the pressure ranges indicated by lines are given in Table <ref type="table" target="#tab_1">1</ref>.  SCIENCE ⅐ VOL. 276 ⅐ 23 MAY 1997 ⅐ www.sciencemag.org crease Al coordination by this mechanism. This result is consistent with the observation that the relative proportion of [5] Al sites, estimated from the NMR data on the quenched high-pressure glasses (9), also passes through a maximum for the glass quenched from 8 GPa (Fig. <ref type="figure" target="#fig_2">3</ref>). Likewise, at the Na 2 Si 4 O 9 composition in which no O 2Ϫ diffusivity maximum is observed, glasses contain increasing proportions of high-coordinate species as a function of the pressure at which they were quenched (Fig. <ref type="figure" target="#fig_2">3</ref>) (4).</p><p>The NaAlSi 3 O 8 liquid is fully polymerized (NBO/T ϭ 0). However O 2Ϫ diffusivity increased initially with increasing pressure, consistent with viscosity determinations at lower pressures (Fig. <ref type="figure" target="#fig_1">2</ref>), and a diffusivity maximum was observed close to 5 GPa (Fig. <ref type="figure" target="#fig_0">1</ref>). A different mechanism for O transport, not involving NBO, must operate in this case. The [5] Al intermediate species must be formed by reaction with bridging O atoms instead. This mechanism in pure silicates has a high activation barrier because three short O-Si bonds must form in the transition state <ref type="bibr" target="#b15">(8,</ref><ref type="bibr" target="#b39">26)</ref>. However, the Al-O bond is longer and <ref type="bibr" target="#b5">[3]</ref>-coordinate O involving bridging O can form at lower pressure. This certainly contributes to the lowered viscosity in fully polymerized melts as the alumina content increases <ref type="bibr" target="#b40">(27)</ref>. High-coordinate Al species have been detected by in situ spectroscopy in fully polymerized aluminosilicate glasses at even moderate pressures (4 to 5 GPa) <ref type="bibr" target="#b13">(6,</ref><ref type="bibr" target="#b41">28)</ref>, and this result is confirmed by NMR studies of quenched samples <ref type="bibr" target="#b42">(29)</ref>. The presence of the O 2Ϫ diffusivity maximum at 5 GPa indicates that this "bridging O" compression mechanism changes when the Si-O-Al linkages involving 4-coordinated Al 3ϩ ions in the low-pressure glass structure have been exhausted in the formation of high-coordinate Al species.</p><p>Our observations imply that fully polymerized melts have high viscosities and low mobilities of network-forming ions, because of the high activation energy associated with formation of high-coordinate intermediate complexes. This activation barrier is reduced as Si 4ϩ is replaced by Al 3ϩ . The viscosity decreases rapidly with increasing pressure, as high-coordinate species involving the network ions are produced upon densification of the melt. The negative activation volume reflects both the proportion and the type of high-coordinate intermediate sites involved in the O 2Ϫ transport process. A diffusivity maximum is observed when the available tetrahedral Al 3ϩ ions, which transform most easily to higher coordination, are saturated by pressurization.</p><p>The observed trends from our studies also help predict how water, a depolymerizing agent, and Fe 3ϩ will affect the mass transport properties of more complex silicate melts at high pressure. Incorporation of water into the melt creates additional NBOs, so that the melt viscosity will be lowered because of the relative ease of O 2Ϫ transfer by the NBO exchange mechanism with increasing pressure, coupled with the interaction between the O 2Ϫ and the much faster H ϩ diffusivities. Like Al 3ϩ , Fe 3ϩ is another favorable site for the O exchange process. Long Fe-O bonds allow high-coordinate intermediate complexes to be formed more easily upon densification. This reaction will no longer proceed at high pressure, beyond the point at which the tetrahedral species, which most easily undergo coordination increases, have consumed all NBOs. Any Fe 2ϩ -Fe 3ϩ redox change will also assist in the O 2Ϫ diffusivity mechanism. In the case of Al-bearing melts, our data indicate that the O 2Ϫ diffusivity maximum is expected at pressures below 10 GPa, depending on the melt polymerization and Al content. Further changes in the densification and ionic transport mechanisms might be expected at higher pressures for the aluminosilicate compositions, as coordination changes involving Si 4ϩ become important, but our studies imply that these changes are unlikely to cause diffusivity slowdown below 15 GPa.</p><p>There has been much recent discussion about the possibility of melting deep within the mantle. Cold oceanic slab material may be subducted through the 660-km boundary into the lower mantle <ref type="bibr" target="#b45">(30)</ref>, and recent interpretations of seismic data suggest the possibility of partial melting at the base of the mantle <ref type="bibr" target="#b46">(31)</ref>. Such deep mantle melts may be much more depolymerized than those studied here, and O 2Ϫ diffusion and viscosity may no longer be related by the Eyring equation as other diffusion and compression mechanisms such as reorientation, distortion, and hopping of isolated SiO 4 4Ϫ groups become competitive with increasing coordination of the network-forming cation in determining the rheology <ref type="bibr" target="#b19">(11,</ref><ref type="bibr" target="#b24">16)</ref>. Diffusion experiments of the type described here are not likely to be successful for highly depolymerized liquids because of quenching problems: falling sphere viscometry might be used to identify the polymerization threshold for competing viscous and densification processes <ref type="bibr" target="#b19">(11)</ref>. However, it is also possible that partial melting and other segregation processes may result in highsilica melts deep within the mantle (32), more similar to those investigated here. Fire-prone mediterranean-climate regions are noted for their abundance of plant species whose germination and recruitment are restricted to postfire environments. For seeds of many species (such as Fabaceae, Convolvulaceae, and Rhamnaceae), heat shock during fire weakens the cuticle and loosens cells in localized regions, such as the hilum or strophiole, allowing imbibition and germination (1). However, many species that restrict germination to postfire environments lack an impervious external cuticle and are not heat stimulated; instead, germination can be induced by chemicals released from the combustion of natural fuels <ref type="bibr" target="#b4">(2)</ref>. Incubation in the presence of charred wood has been shown to induce the germination of the Californian chaparral annual Emmenanthe penduliflora (3), as well as that of other species (4). Smoke triggers the germination of South African fynbos and savanna (5), western Australian heath <ref type="bibr" target="#b13">(6)</ref>, and Great Basin (Utah) scrub <ref type="bibr" target="#b14">(7)</ref>. Although 71 compounds have been identified from active fractions of smoke, none of these compounds were highly stimulatory in pure form <ref type="bibr" target="#b14">(7)</ref>, and other studies have also failed to identify the active components of smoke <ref type="bibr" target="#b15">(8)</ref>. Here we show that certain trace gases from smoke are sufficient to trigger germination and discuss mechanisms of how these gases may induce germination.</p><p>Emmenanthe penduliflora (Hydrophyllaceae) is an annual largely restricted to postfire sites, and its germination is cued not by heat (2) but chemically, by charred wood (3) or smoke (Fig. <ref type="figure" target="#fig_0">1</ref>). For most chaparral populations, seeds exhibited deep primary dormancy: Controls uniformly gave 0% germination, whereas dormancy was overcome with as little as 1 min of smoke exposure at ambient temperature <ref type="bibr" target="#b16">(9)</ref>.</p><p>Smoke acts directly on seeds and indirectly through secondary transfer after fire (Fig. <ref type="figure" target="#fig_0">1</ref>); 100% germination was induced by direct exposure of seeds to smoke or by incubation of untreated seeds on sand or filter paper previously exposed to smoke, with water previously exposed to smoke, or in the presence of gases emitted from smoke-treated sand or filter paper. For indirect treatments, seeds were sown on media between 1 and 4 hours after smoke treatment, and we have observed the same response with filter paper that was smoketreated more than 2 months earlier. Seeds tolerate 10 min of direct exposure to smoke but are killed when sown with water exposed for that duration. Water samples that are lethal at 10 min of exposure will induce complete germination if diluted 10-fold <ref type="bibr" target="#b17">(10)</ref>.</p><p>We investigated the stimulatory effect of gaseous smoke emissions from the combustion of wood and foliage <ref type="bibr" target="#b19">(11)</ref>. Although CO 2 and C 2 H 4 are known to induce germination in many species, they failed to affect Emmenanthe (Table <ref type="table" target="#tab_1">1</ref>). Nitrogen oxides induced 100% germination, and NO 2 was more stimulatory than NO x (NO ϩ NO 2 ). With increasing concentration, the exposure time needed to induce germination declined; NO 2 induced 100% germination with 3 min of exposure at 790 mg m Ϫ3 [500 parts per million by volume (ppmv)] or with 30 s of exposure at Ն1.5 ϫ 10 3 mg m Ϫ3 . NO 2 induced germination both directly and indirectly (Fig. <ref type="figure" target="#fig_1">2</ref>), as did smoke (Fig. <ref type="figure" target="#fig_0">1</ref>). Also, both smoke-treated and NO 2 -treated water extracts were acidic <ref type="bibr" target="#b20">(12)</ref>. For water extracts inducing 100% germination, acidity and the concentration of nitrites and nitrates in smoke-treated samples were comparable to those of NO 2 -treated samples <ref type="bibr" target="#b20">(12)</ref>  </p><note type="other">.</note></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Self-diffusivities of O 2Ϫ (in Na 2 Si 4 O 9 , Na 3 AlSi 7 O 17 , and NaAlSi 3 O 8 ) and Si 4ϩ (in Na 2 Si 4 O 9) as a function of pressure (A). Experiments were carried out in a 1000-ton multi-anvil apparatus as described in Rubie et al.<ref type="bibr" target="#b22">(14)</ref>. Rapid heating (2500 K min Ϫ1 ) was required to minimize diffusion before the run temperature was reached. Samples were held at the indicated temperature for up to 240 s. Error from the heating ramp was estimated to be less than 5% at 2100 K and less than 10% at higher temperatures. The samples were isobarically quenched to glasses and analyzed by ion microprobe at the University of Edinburgh to determine their18 O/( 16 O ϩ 18 O) and30 Si/ ( 28 Si ϩ 30 Si) concentration profiles. Fourier transform infrared analyses of selected samples indicated that the OH content was in the range 10 to 50 ppm (by weight). A representative O 2Ϫ diffusion profile and fit is shown in (B). The profiles could be fitted by an analytical expression for diffusion between two semi-infinite bodies [see<ref type="bibr" target="#b22">(14)</ref> for additional details]. Because of relatively high diffusivities, fitting the Na 2 Si 4 O 9 profiles at 2500 and 2800 K required the use of an expression for diffusion in finite media accounting for boundary interactions. In such cases, the length of the diffusion couple was constrained in the fitting process. Activation volumes (V*) over the pressure ranges indicated by lines are given in Table1.</figDesc><graphic coords="3,38.47,158.77,166.81,298.87" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. A comparison of the pressure dependence of the viscosity (, in Pas) of NaAlSi 3 O 8 determined by falling sphere viscometry (crosses) up to 2 GPa by Kushiro (12) and by our O diffusivity measurements (dots) from 2.5 to 6 GPa using the Eyring relation (Eq. 1). The comparison is made for 2100 K, the temperature at which the O 2Ϫ diffusivity experiments were conducted. The viscositytemperature relation of albite (NaAlSi 3 O 8 ) is Arrhenian, with an activation energy E a ϭ 400 kJ mol Ϫ1 (33).</figDesc><graphic coords="3,218.79,443.05,165.48,187.87" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Abundances of 5-and 6-coordinated Al in Na 3 AlSi 7 O 17 (solid lines) glasses taken from Yarger et al. (9) and 5-and 6-coordinated Si in Na 2 Si 4 O 9 (dashed lines) glasses taken from Xue et al. (4) quenched from high pressure (A), compared with O 2Ϫ diffusivities for the liquids as a function of pressure, measured in this study (B). The maximum in O 2Ϫ diffusivity occurs at a pressure corresponding to that at which the largest amount of 5-coordinated Al is found in the aluminosilicate glasses. Curves are intended merely as guides to the eye. The lower curve in (B) (thick line) was intentionally made to be identical to the upper curve in (A).</figDesc><graphic coords="3,398.02,439.15,169.52,161.42" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>Trapping NO 2 (13) emitted over 24 hours [time sufficient to induce germination in vapor experiments (Figs. 1 and 2)] from smoked or NO 2 -treated paper gave comparable NO 2 flux rates (26 to 38 ng m Ϫ2 s Ϫ1 ). Thus, Department of Biology, Occidental College, Los Angeles, CA 90041, USA.* To whom correspondence should be addressed.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Germination of Emmenanthe for control (0) and smoke treatments of 1-or 10-min exposures for direct treatment (smoke-treated seeds incubated on nontreated filter paper) and indirect treatments [untreated seeds incubated on smoke-treated sand (10 g of Fisher S25-3) or filter paper or untreated seeds incubated with smoked water or exposed in a 180-cm 3 chamber to gases emitted by smoke-treated filter paper (similar results occur when paper is replaced with sand)]. Bars, 1 SE (n ϭ 3).</figDesc><graphic coords="5,398.02,487.80,168.96,141.36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Silicon and Oxygen Self-Diffusivities in Silicate Liquids Measured to 15 Gigapascals and 2800 Kelvin</head><label></label><figDesc></figDesc><table><row><cell>Phys. F 9, 773 (1979); M. W. Guinan and D. N.</cell><cell>cussions and to J. Shu for experimental help. We</cell></row><row><cell>Beshars, J. Phys. Chem. Solids 29, 541 (1968).</cell><cell>also thank C. Meade and two anonymous reviewers</cell></row><row><cell>41. P. So ¨derlind, J. A. Moriarty, J. M. Wills, Phys. Rev. B</cell><cell>for comments that improved the manuscript. This</cell></row><row><cell>53, 14063 (1996); R. E. Cohen, L. Stixrude, E. Was-</cell><cell>work was supported by NSF.</cell></row><row><cell>serman, in preparation.</cell><cell></cell></row><row><cell>42. We are grateful to A. K. Singh for many useful dis-</cell><cell>4 February 1997; accepted 28 March 1997</cell></row><row><cell cols="2">Brent T. Poe,* Paul F. McMillan, David C. Rubie,</cell></row><row><cell cols="2">Sumit Chakraborty, Jeff Yarger, Jason Diefenbacher</cell></row></table><note><p>). 38. W. A. Spitzig and W. C. Leslie, Acta Metall. 19, 1143 (1971). 39. P. W. Bridgman, Phys. Rev. 48, 825 (1935); Proc. Am. Acad. Arts Sci. 72, 45 (1937). Bridgman found that for W and Fe, y increases monotonically to 2.4 and 2.0 GPa, respectively, at confining pressures of 5.0 and 4.2 GPa, respectively. 40. K. W. Katahara, M. H. Manghnani, E. S. Fisher, J.</p></note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1 .</head><label>1</label><figDesc>Activation volumes (V*) determined for O 2Ϫ self-diffusion by linear least squares fit to the equation D ϭ D o exp(ϪV*P/RT), where D is diffusivity (in meters per second), P is pressure (in pascals), T is temperature (in kelvin), and R is 8.3145 J mol Ϫ1 K Ϫ1 . SCIENCE ⅐ VOL. 276 ⅐23 MAY 1997  California chaparral annual were induced to germinate by smoke or vapors emitted from smoke-treated sand or paper. Nitrogen oxides induced 100 percent germination in a manner similar to smoke. Smoke-treated water samples inducing germination were comparable in acidity and concentration of nitrate and nitrite to nitrogen dioxide (NO 2 )-treated samples. Vapors from smoke-treated and NO 2 -treated filter paper had comparable NO 2 flux rates. Chaparral wildfires generate sufficient nitrogen oxides from combustion of organic matter or from postfire biogenic nitrification to trigger germination of Emmenanthe penduliflora. Nitrogen oxide-triggered germination is not the result of changes in imbibition, as is the case with heat-stimulated seeds.</figDesc><table><row><cell>Compound</cell><cell>P range (GPa)</cell><cell>T (K)</cell><cell>V* (cm 3 mol Ϫ1 )</cell></row><row><cell>Na 2 Si 4 O 9 (14) Na 2 Si 4 O 9 Na 2 Si 4 O 9  †</cell><cell>2.5 -10 10 -15 10 -15</cell><cell cols="2">2100 Ϫ3.3 2500 Ϫ2.8 2500 Ϫ2.2</cell></row><row><cell>Na 3 AlSi 7 O 17</cell><cell>4 -8</cell><cell cols="2">2100 Ϫ5.4</cell></row><row><cell>Na 3 AlSi 7 O 17</cell><cell>8 -11</cell><cell>2100</cell><cell>4.7</cell></row><row><cell>NaAlSi 3 O 8</cell><cell>2.5 -4</cell><cell cols="2">2100 Ϫ8.3</cell></row><row><cell cols="2">†Determined for Si 4ϩ self-diffusion.</cell><cell></cell><cell></cell></row></table><note><p><p>REPORTS</p>www.sciencemag.org ⅐</p></note></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>on June 8, 2012 www.sciencemag.org Downloaded from</p></note>
+		</body>
+		<back>
+
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</author>
+		<title level="m">Physics of Magmatic Processes</title>
+		<meeting><address><addrLine>Princeton, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton Univ. Press</publisher>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Mcbirney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Murase</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Earth Planet. Sci</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">337</biblScope>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ed</forename></persName>
+		</author>
+		<title level="m">Magmatic Processes: Physicochemical Principles</title>
+		<meeting><address><addrLine>University Park, PA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Geochemical Society</publisher>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m">Modern Methods of Igneous Petrology: Understanding Magmatic Processes, (Reviews in Mineralogy</title>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Nicholls</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Russell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Mineralogical Society of America</publisher>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="volume">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Structure and Properties of Silicate Melts</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<editor>W. S. Fyfe, Ed.</editor>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+			<publisher>Elsevier</publisher>
+			<pubPlace>Amsterdam</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Farnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Chem. Soc</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page">32</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J. Non-Cryst. Solids</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page">207</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Farnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xue</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page">371</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Poe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Angell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Sato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Poe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Massiot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Coutures</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. Chem</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page">8220</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Ceram. Soc</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page">1832</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Farnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">265</biblScope>
+			<biblScope unit="page">1206</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kanzaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Poe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<title level="m">Structure, Dynamics, and Properties of Silicate Melts (Reviews in Mineralogy</title>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Washington DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Mineralogical Society of America</publisher>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="volume">32</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jeanloz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">239</biblScope>
+			<biblScope unit="page">413</biblScope>
+			<date type="published" when="1988">1988. 1989</date>
+		</imprint>
+	</monogr>
+	<note>Nature</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page">965</biblScope>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Durben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page">2280</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Yarger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">270</biblScope>
+			<biblScope unit="page">1964</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page">6347</biblScope>
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Yoder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">6351</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Virgo</surname></persName>
+		</author>
+		<title level="m">Magmatic Processes: Physicochemical Principles</title>
+		<editor>
+			<persName><forename type="first">O</forename><surname>Mysen</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">Ed</forename></persName>
+		</editor>
+		<meeting><address><addrLine>University Park, PA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Geochemical Society</publisher>
+			<date type="published" when="1987">1987</date>
+			<biblScope unit="page" from="59" to="67" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planet. Sci. Lett</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">87</biblScope>
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Dickinson</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Scarfe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">15675</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Rubie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">I</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Carroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Elphick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page">574</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shimizu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">1295</biblScope>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hervig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tinker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page">405</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">ion: Previous studies of O 2Ϫ diffusion in silicate liquids have reported good correlation if the Eyring relation is used with this jump distance</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Oishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Terai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ueda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mass Transport Phenomena in Ceramics</title>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Heuer</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Plenum</publisher>
+			<date type="published" when="1975">1975</date>
+			<biblScope unit="page" from="297" to="310" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">In some cases a larger jump distance may provide better agreement between diffusion and viscosity data</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yinnon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Glasses</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">suggesting molecular species as the diffusive unit. We feel that the smaller jump distance is appropriate on the basis of NMR observations (3) of silicate glasses and liquids that are described by the dynamics of discrete O 2Ϫ units</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dunn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">2293</biblScope>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Virgo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Seifert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Geophys. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">353</biblScope>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">O</forename><surname>Mysen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">15733</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Woodcock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Angell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cheeseman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page">1565</biblScope>
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Angell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cheeseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tamaddon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bull. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<biblScope unit="page">87</biblScope>
+			<date type="published" when="1982">1982. 1983</date>
+		</imprint>
+	</monogr>
+	<note>Science</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Angell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cheeseman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kadiyala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page">85</biblScope>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Kubicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Lasaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page">941</biblScope>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Stein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Spera</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page">417</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Poole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Wolf</surname></persName>
+		</author>
+		<title level="m">Structure, Dynamics, and Properties of Silicate Melts</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>Mineralogical Society of America</publisher>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">563</biblScope>
+		</imprint>
+	</monogr>
+	<note>Reviews in Mineralogy</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Richet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">471</biblScope>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bottinga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Richet</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">2725</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">351</biblScope>
+			<biblScope unit="page">638</biblScope>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Poe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ph</forename><surname>Gillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Reynard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page">3653</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Riebling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Phys</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page">2857</biblScope>
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Daniel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ph</forename><surname>Gillet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Poe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sykes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page">943</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sykes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">T</forename><surname>Poe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Luth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Sato</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page">1753</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Yarger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Lienenweber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xiao</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>in preparation</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lay</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">374</biblScope>
+			<biblScope unit="page">115</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Garnero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page">1528</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sciano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Clocchiatti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">368</biblScope>
+			<biblScope unit="page">621</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cranmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Uhlmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Non-Cryst. Solids</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">283</biblScope>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Craven at the University of Edinburgh&apos;s ion probe facility, funded by the National Environment Research Council (United Kingdom), for performing the analyses. Supported in part by NSF (United States) and the Alexander von Humboldt Foundation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>We</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Germany)</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

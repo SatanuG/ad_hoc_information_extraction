@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Chemical diffusivities of 18 trace elements in granitoid melts</title>
+				<funder>
+					<orgName type="full">NSERC</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Deutsche Forschungsgemeinschaft</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Mungall</surname></persName>
+							<email>mungall@zircon.geology.utoronto.ca</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Bayerisches Geoinstitut</orgName>
+								<orgName type="institution" key="instit2">Universita ¨t Bayreuth</orgName>
+								<address>
+									<postCode>D-95440</postCode>
+									<settlement>Bayreuth</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution">Ursa Minor</orgName>
+								<address>
+									<addrLine>4824 Avenue de l&apos;Esplanade, Montre ´al</addrLine>
+									<region>QC</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Department of Geology</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<addrLine>22 Russell Street</addrLine>
+									<postCode>M5S 3B1</postCode>
+									<settlement>Toronto</settlement>
+									<region>ON</region>
+									<country key="CA">Canada</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Bayerisches Geoinstitut</orgName>
+								<orgName type="institution" key="instit2">Universita ¨t Bayreuth</orgName>
+								<address>
+									<postCode>D-95440</postCode>
+									<settlement>Bayreuth</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Chaussidon</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">CRPG-CNRS</orgName>
+								<address>
+									<addrLine>BP 20</addrLine>
+									<postCode>F-54501</postCode>
+									<settlement>Vandoeuvre</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<address>
+									<addrLine>B, Mg, Sr, Y, Zr, Lu, Hf</addrLine>
+									<settlement>Ge, Ba</settlement>
+									<region>Ca, Ti, Nb, Cs, Nd, Tb, Ta</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Geology</orgName>
+								<orgName type="institution">University of Toronto</orgName>
+								<address>
+									<addrLine>22 Russell Street</addrLine>
+									<postCode>M5S 3B1</postCode>
+									<settlement>Toronto</settlement>
+									<country>Canada ON</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Chemical diffusivities of 18 trace elements in granitoid melts</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">7CFC12DE43509D4F354A0493BB806502</idno>
+					<note type="submission">Received December 22, 1998; accepted in revised form June 14, 1999</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.0-SNAPSHOT" ident="GROBID" when="2024-02-05T18:16+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We have measured effective binary chemical diffusion coefficients for Be,</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>The rates and mechanisms of diffusion of minor constituents of natural magmas are relevant to a number of problems in igneous petrology, and to the study of silicate melts in general. Chemical diffusion controls, for example, the partitioning of trace elements between melt and rapidly growing crystals <ref type="bibr" target="#b9">(Ghiorso, 1987)</ref>; the efficiency of contamination of magmas by xenoliths and wall-rocks <ref type="bibr" target="#b33">(Watson, 1982;</ref><ref type="bibr">Watson and Jurewicz, 1984)</ref>; the rate of chemical and isotopic homogenization of comingled magmas <ref type="bibr" target="#b21">(Lesher, 1994)</ref>; and the partitioning of volatile elements between melt and vapor during rapid vapor exsolution <ref type="bibr" target="#b31">(Sparks et al., 1994)</ref>. In all of these processes differences in diffusivity among diverse elements, which may span several orders of magnitude, can result in a dispersion of the behavior of trace elements which might otherwise be expected to act in similar ways. Comparisons of the rates of diffusion of different elements with ionic parameters such as radius and charge can lead to insights into the details of their solvation and transport mechanisms <ref type="bibr" target="#b2">(Chakraborty, 1995;</ref><ref type="bibr" target="#b24">Mungall and Dingwell, 1997)</ref>. It has long been recognized that chemical diffusivities are broadly dependent on melt viscosity <ref type="bibr" target="#b10">(Glasstone et al., 1941)</ref>, however in detail the relations between these two rate processes (i.e., viscous and diffusive relaxation) are complex <ref type="bibr">(Hofmann, 1980;</ref><ref type="bibr" target="#b7">Dingwell, 1990)</ref>.</p><p>In a previous paper <ref type="bibr" target="#b24">(Mungall and Dingwell, 1997)</ref> we reported that the diffusivities of U and Th at trace concentrations could be predicted within analytical error in a haplogranitic melt near the eutectic composition over wide ranges of temperature, pressure, and water content. In this paper we extend our coverage to experimental determinations of the diffusivities of 18 trace elements in the same dry haplogranitic melt near the eutectic composition. To further investigate the relation between viscosity and diffusivity we adjusted the viscosity of the melt by adding H 2 O or Na 2 O, both of which drastically reduce the viscosity of granitic liquids. Diffusivities measured in similar melts with different viscosities can be fruitfully compared to assess the relationships between viscous and diffusive processes. Our results can be compared with previously determined viscosity and diffusivity data determined in the same melt compositions <ref type="bibr" target="#b14">(Hess et al., 1995;</ref><ref type="bibr" target="#b13">Hess and Dingwell, 1996;</ref><ref type="bibr" target="#b24">Mungall and Dingwell, 1997;</ref><ref type="bibr" target="#b26">Mungall et al., 1998)</ref>. Additions of 3.7 wt.% H 2 O and 20 wt.% Na 2 O and variation of temperature between 1600 and 810°C allowed us to access a range of viscosities spanning 7 orders of magnitude.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">THEORETICAL BACKGROUND</head><p>Chemical diffusion in multicomponent melts can be described quantitatively in the context of irreversible thermodynamics. The basis of the irreversible thermodynamic approach can be found elsewhere (e.g., <ref type="bibr" target="#b18">Kuiken, 1994)</ref>, and we take the diffusion equation for a liquid having n components as our point of departure. If we assume that all fluxes and thermodynamic forces are oriented along a single direction in space, and that the partial molar volumes of the diffusing components are equal then</p><formula xml:id="formula_0">J i ϭ Ϫ jϭ1 nϪ1 D ij ѨX j Ѩ y (1)</formula><p>or, in matrix notation,</p><formula xml:id="formula_1">J ϭ Ϫ͓D͔ ѨX Ѩ y , (<label>2</label></formula><formula xml:id="formula_2">)</formula><p>where J i is the flux of component i (kg m Ϫ2 s Ϫ1 ), D ij is the diffusion coefficient (cm 2 s Ϫ1 ), X j is the concentration of component j, is density (kg m Ϫ3 ), and y is the space coor- dinate (cm). Eqn. 1 indicates that the flux of each component depends linearly through the D ij on the concentration gradients of each of the other independent components. The flux and concentration of the nth component is dependent on those of the other n Ϫ 1 components through the closure condition.</p><p>Eqn. 1 predicts chemical diffusion of a component up its own concentration gradient (uphill diffusion) for cases when</p><formula xml:id="formula_3">D ii ѨX i Ѩ y Ͻ jϭ1 nϪ1 D ij ѨX j Ѩ y , i j (3)</formula><p>If we are concerned with diffusion of several components which show substantial gradients in concentration then we must work with the full matrix of multicomponent diffusion coefficients D ij , a task which is considerably simplified if we consider its eigenvalues and eigenvectors (e.g., <ref type="bibr" target="#b26">Mungall et al., 1998)</ref>. If instead we wish to investigate the diffusivity of a single component, we can attempt to establish a situation in which fluxes of all components but the one of interest are negligible, i.e.,</p><formula xml:id="formula_4">D ii ѨX i Ѩ y Ͼ Ͼ jϭ1 nϪ1 D ij ѨX j Ѩ y , i j. (<label>4</label></formula><formula xml:id="formula_5">)</formula><p>Here we can appeal to the concept of the effective binary diffusion coefficient (EBDC) <ref type="bibr" target="#b5">(Cooper, 1968</ref>) in which the terms on the right hand side of Eqn. 1 are expressed as a single coefficient multiplying the gradient in concentration of component i:</p><formula xml:id="formula_6">J i ϭ Ϫ ͭ jϭ1 nϪ1 D ij ѨX j ѨX i ͮ ѨX i Ѩ y ϭ ϪD i E ѨX i Ѩ y . (<label>5</label></formula><formula xml:id="formula_7">)</formula><p>If Eqn. 4 is satisfied for a particular element, the EBDC D i E for that element is approximately equal to its diagonal element D ii . Examples of diffusion profiles affected by large off-diagonal terms in <ref type="bibr">[D]</ref> were given by <ref type="bibr" target="#b26">Mungall et al. (1998)</ref>. In that example, fluxes of Al 6 O 12 led to important fluxes of alkalis and water greatly in excess of the fluxes of those elements anticipated due to their own concentration gradients. However, the same series of experiments also confirmed that small fluxes of the component associated with large off-diagonal terms did not produce these effects.</p><p>Although derivation of the D ij from thermodynamic principles requires them to be functions of composition, over small ranges in composition they may be approximated by constants. With the foregoing assumptions in hand we can simplify Eqn. 1 to the classic form of Fick's first law for a binary system</p><formula xml:id="formula_8">J i ϭ ϪD i E ѨX i Ѩ y . (<label>6</label></formula><formula xml:id="formula_9">)</formula><p>Eqn. 6 may be combined with the mass conservation equation to generate Fick's second law</p><formula xml:id="formula_10">ѨX i Ѩt ϭ D i E Ѩ 2 X i Ѩ y 2 . (<label>7</label></formula><formula xml:id="formula_11">)</formula><p>For a couple which extends to infinity on either side of a planar interface (the "infinite couple") the solution to Eqn. 7 is the familiar error function</p><formula xml:id="formula_12">X i͑ y,t͒ ϭ X i 0 Ϫ ⌬X i 2 erf ͭ y ͱ4D i E t ͮ ,<label>(8)</label></formula><p>where D i E is the EBDC for element i, ⌬X i is the total change in concentration of component i across the couple, X i 0 is the concentration at the interface (equal to the arithmetic average of C i on either side of the interface before annealing begins), y is the space coordinate equal to zero at the interface, and t is time from the beginning of the anneal <ref type="bibr" target="#b6">(Crank, 1975)</ref>. The error function is a probability function describing the cumulative frequency of random diffusive motions.</p><p>In the case that an eigenvector of the matrix of D ij describes an exchange vector (see <ref type="bibr" target="#b26">Mungall et al., 1998)</ref> close to the exchange of component i for the rest of the melt (in which case the condition in Eqn. 5 is satisfied), then the value of D i E will be very close to that of the corresponding eigenvalue. In this paper we will use this approximation to allow direct comparison of measured D i E for a series of components present as trace constituents with the D ij measured previously for the major components of the same melt <ref type="bibr" target="#b26">(Mungall et al., 1998)</ref>. If Eqn. 5 is not satisfied, then the EBDC can be several orders of magnitude greater or smaller than the corresponding eigenvalue or self diffusivity.</p><p>Since the majority of published diffusivities for trace elements in silicate melts are tracer diffusivities, it is worth digressing here to clarify the differences between the effective binary diffusivity of a trace element, a tracer diffusivity, and self diffusivities. The EBDCs which we have measured are the chemical diffusivities of melt components, and can be used to describe the rate of transfer of those components to erase imposed gradients in their chemical potentials. Self diffusivities, on the other hand, are intrinsic ionic mobilities and describe the rate of transfer of individual ions through the melt by a random walk in the absence of chemical potential gradients. Tracer diffusivities are generally measured by constructing diffusion couples in which there are variations in isotopic composition but not in chemical concentration across the interface. The EBDC measured for interdiffusion of different isotopes of the same element is the tracer diffusivity, taken as being equivalent to the self diffusivity.</p><p>Various ways of relating the tracer and chemical diffusivities have been proposed. We note first that the matrix of diffusion coefficients <ref type="bibr">[D]</ref> in Eqn. 2 can be decomposed into two matrices:</p><formula xml:id="formula_13">͓D͔ ϭ ͓L͔ ⅐ ͓G͔. (9)</formula><p>The elements of the thermodynamic matrix [G] are the derivatives of the chemical potentials of melt components with respect to concentrations of all components present. The elements of the phenomenological matrix [L] can be written in a general way as follows:</p><formula xml:id="formula_14">L ij ϭ D i ␦ ij ϩ X i ͕ f͑V͒ ϩ f͑Z͖͒, (<label>10</label></formula><formula xml:id="formula_15">)</formula><p>where f(V) is a function of molar volumes and tracer diffusivities and f(Z) is a function of ionic charges and self diffusivities D i <ref type="bibr" target="#b23">(Liang et al., 1997)</ref>. The intricate dependence of each L ij on the self diffusivities of all melt components, coupled with the effects of nonideality of the melt through the [G] matrix, can complicate comparison of tracer diffusivities with EBDCs. The assumption is commonly made that in what is called the tracer limit, as X i approaches zero, the tracer diffusivity of a component i is approximated by the diagonal element L ii , because the second term on the right-hand-side of Eqn. 10 approaches zero with X i . This assertion has not been tested quantitatively, but the success of equations with the form of Eqn. 10 (c.f., <ref type="bibr" target="#b23">Liang et al., 1997)</ref> suggests that it is appropriate. If it is further assumed that departures from ideal mixing of components in the melt is negligible, then the EBDC of a trace element can be taken as a good approximation of the tracer or self diffusivity.</p><p>It is important to point out that in situations wherein the minor and trace elements are diffusing through a region characterized by steep gradients in concentration of the major components of the melt (e.g., <ref type="bibr" target="#b0">Baker 1990)</ref>, then the diffusivity measured will not be approximate to D ii , nor will it be a tracer diffusivity. In summary, there are sound theoretical reasons for equating the chemical diffusivities of trace elements with tracer diffusivities in systems lacking major element fluxes. That being said, it is important to remain conscious of the possibility that very large off-diagonal terms in [D] may lead to variations in measured effective binary diffusion coefficients even where significant fluxes of major elements are not suspected to have occurred.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">EXPERIMENTAL METHODS</head><p>We have performed diffusion anneals in infinite couple configuration with a single base melt composition on both sides, doped on one side to below 1000 ppm of each of Be, B, Mg, Ca, Ti, Ge, Sr, Y, Zr, Nb, Cs, Ba, Nd, Tb, Lu, Hf, Ta, and W. The resulting compositional contrast between the two sides of the couple is about 2% relative for the major elements, whereas the relative concentration of each trace element drops by 100% across the couple. In this way we establish conditions approximating Eqn. 5, and are able to measure simultaneously the D i E of 18 elements at once. The resulting D i E are applicable directly to geological situations similar to the measurement conditions, i.e., when concentration gradients of the major elements are small. These conditions are particularly apt for considerations of systems near to equilibrium, such as the vicinity of crystals growing slowly from a melt.</p><p>The starting materials were bubble-free, homogeneous glasses, whose major element compositions measured by electron microprobe and Fourier transform infrared (FTIR) analysis are given in Table <ref type="table" target="#tab_0">1</ref>. These were prepared by fusing 100 g mixtures of oxide and carbonate powders for 2 h in a Pt crucible at 1600°C to produce a bubble-rich slurry of melt and crystals. This material was stirred for several days with a Pt spindle, at 1600°C, and subsequently cooled in air. The peralkaline melts (HPG8ϩ20 Na and its doped equivalent) were stirred for several hours at 1400°C to minimise volatilization of Na. The shorter equilibration times and lower temperature were adequate for fining and chemical homogenization due to the much faster transport rates in this lower-viscosity liquid. Preparation in this manner ensures that the quenched glasses are homogeneous to, at least, the precision of electron microprobe analysis, and that large portions entirely free of bubbles can be cored or cut and prepared for experiments. Most of the dopant elements were already available dissolved within glasses of the base (HPG8) composition at concentrations of 5, 10, or 20 wt.%. When these glasses were available, suitable amounts were powdered and weighed in with a split of the original, undoped material to give about 750 ppm of the dopant in the final mixture. Those elements that had not previously been dissolved in the base melt composition were weighed in as oxides or carbonates and mixed with the other powders. In the melt with 20 wt.% added Na 2 O an additional amount of Na 2 O was added as the carbonate, to produce a doped composition with the same Na 2 O content as the undoped glass. The resulting mixtures were melted and stirred as before, to produce bubble-and crystal-free melts which were again quenched to glass in air. The abundances of selected trace elements in both the doped and undoped glasses are reported in Table <ref type="table" target="#tab_1">2</ref>.</p><p>For 1 atm anhydrous experiments, the glass was cored with a hollow diamond bit and sliced into 8-mm-diameter disks, 2 mm thick with faces polished by carbide sandpaper down to 1200 mesh. Diffusion Temperature was controlled in these experiments by a microprocessorbased temperature controller, with a type S thermocouple. Thermal gradients within the furnace were measured by moving a thermocouple junction around the inside of the furnace. This exercise confirmed that the measured temperatures were accurate to within 10°C at worst, and in most cases within 2°C.</p><p>We conducted water-bearing experiments in a piston-cylinder apparatus using methods described previously <ref type="bibr" target="#b24">(Mungall and Dingwell, 1997;</ref><ref type="bibr" target="#b26">Mungall et al., 1998)</ref>. The runs were performed at a corrected pressure of 1.0 GPa and at temperatures of 1300 and 1600°C, to match the run conditions at which the multicomponent diffusion coefficients had been determined in our previous study. The thermal gradient was less than 20°C over the entire length of the 11 mm capsules <ref type="bibr" target="#b24">(Mungall and Dingwell, 1997)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">ANALYTICAL METHODS</head><p>The products of all experiments were sectioned longitudinally with a diamond saw and polished with diamond paste for electron microprobe (EMP) analysis, and secondary ion mass spectometry (SIMS). The products of water-bearing runs were separated into a singly polished section for the EMP and a doubly polished 1-mm-thick section for Fourier transform infrared spectroscopy (FTIR).</p><p>The EMP analyses were performed on a Cameca SX-50 with four wavelength-dispersive X-ray spectrometers using a PAP matrix correction routine supplied by the manufacturer <ref type="bibr" target="#b28">(Pouchou and Pichoir, 1991)</ref>. The beam was operated at 20-kV accelerating voltage and 30-nA beam current (measured in the Faraday cup before each analysis). The beam was kept tightly focussed, leading to very extensive beam damage to the samples, particularly in the water-and Na 2 O-rich cases. Although beam damage, accompanied by time-dependent variations in composition of the beam-activated volume, causes severe difficulties with quantitative analysis for most applications, in our case it did not pose serious problems because the bulk composition of the sample (and consequently the matrix effect caused by beam damage) did not vary significantly along the length of analytical traverses. Consequently, while the accuracy of our measurements was likely to be rather poor, the precision remained high due to the energetic beam conditions used. Thus the shapes of the profiles remained unaffected by the beam damage. It is important to note that since the shape of the profile is the only information required to extract diffusion coefficients, we need here only be concerned with the precision of the measurements.</p><p>Traverses for rapidly diffusing elements extended over the entire lengths of diffusion couples-in cases where the profiles reached the ends of the experiments we did not attempt to determine diffusion coefficients for the elements affected.</p><p>During quench of the piston-cylinder experiments transverse fractures commonly form due to release of pressure related to thermal contraction as the assembly is rapidly cooled. We measured the widths of these fractures and subtracted them from the analysis profiles.</p><p>Our methods for FTIR analysis of the water-bearing experiments are described in some detail elsewhere <ref type="bibr" target="#b26">(Mungall et al., 1998)</ref> and are only summarized here. Doubly polished 1-mm wafers were prepared from one side of the split experimental product and multiple measurements were made to ensure that the distribution of water was homogeneous in our run products. A Bruker IFS 120 HR Fourier transform spectrophotometer was used to obtain transmission infrared spectra in the nearinfrared region (2500 -8000 cm Ϫ1 ). Background was recorded and subtracted from each spectrum. We employed the same molar absorptivities as in our previous studies <ref type="bibr" target="#b26">(Mungall et al., 1998)</ref> for the base composition HPG8.</p><p>The Be, B, Nd, Tb, and Lu concentrations were determined at CRPG-CNRS (Nancy) [with the] Cameca ims 3f ion microprobe using classical energy filtering techniques. The samples were sputtered with a primary O Ϫ beam of 10 nA intensity and secondary positive ions 9 Be ϩ , 11 B ϩ , 142 Nd ϩ , 159 Tb ϩ , and 175 Lu ϩ , were analysed at a mass resolution M/DM of 800 and with an energy filtering of Ϫ60 Ϯ 10 V. Each ion intensity was measured relative to that of 30 Si ϩ and isotopic ratios (e.g., 9 Be ϩ / 30 Si ϩ ) were corrected for: (i) isotopic abundances and (ii) ion yields of each element relative to Si <ref type="bibr" target="#b15">(Hinton, 1990)</ref>. The values used for the ion yields were determined using a set of natural silicate glasses <ref type="bibr" target="#b4">(Chaussidon and Libourel, 1993;</ref><ref type="bibr" target="#b11">Gurenko and Chaussidon, 1995)</ref>. In the concentration range of this study the Be, B, Nd, Tb, and Lu contents are precise to Ϯ10% relative. Absolute concentrations measured in this way differed from inductively coupled plasma-mass spectroscopy (ICP-MS) analyses of the same materials by a factor of up to 3, however as described in the discussion of the electron microprobe analysis, the precision of the data is the only factor affecting the quality of the retrieved diffusion coefficients.</p><p>Viscosities of the doped anhydrous melts were determined in Bayreuth by M. J. Toplis in a concentric cylinder viscometer (methods described by <ref type="bibr" target="#b32">Toplis and Dingwell, 1997)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">RESULTS</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Diffusion Coefficients</head><p>We used the inverse error function of measured concentrations as a function of distance from the interface to extract diffusion coefficients from the measured concentration profiles. The details of the method were discussed by <ref type="bibr" target="#b24">Mungall and Dingwell (1997)</ref>. The inverse error function approach permits estimation of the uncertainties in the data through standard methods of linear regression. We report extracted best fit values, and upper and lower bounds to the 80% confidence interval for all of our experiments in Tables <ref type="table" target="#tab_2">3,</ref><ref type="table">4</ref>, and 5. In Fig. <ref type="figure" target="#fig_0">1</ref> we present examples of data collected by SIMS and EMP along with model diffusion profiles for best fit and both upper and lower error bounds. Figure <ref type="figure" target="#fig_2">2</ref> shows the inverse error function plot used to extract the diffusion coefficient from data shown in Fig. <ref type="figure" target="#fig_0">1</ref>. We discarded any profile which could be seen to have been effectively finite in length due to excessive run duration.</p><p>The reproducibility of diffusion coefficients measured using the techniques we employed have already been discussed for both the piston-cylinder experiments <ref type="bibr" target="#b24">(Mungall and Dingwell, 1997;</ref><ref type="bibr" target="#b26">Mungall et al., 1998)</ref> and for the 1 atm experiments <ref type="bibr" target="#b3">(Chakraborty et al., 1995;</ref><ref type="bibr" target="#b24">Mungall and Dingwell, 1997)</ref>. We further performed the experiment at 1400°C at 1 atm twice, with different run durations. The measured diffusion coeffi- cients show no evidence for the effects of transport processes other than diffusion, such as convection (i.e., they do not show a significant dependence upon run duration). Differences in retrieved diffusivities between the two experiments are all less than 0.2 log units, well within the uncertainty of individual estimates of D due to noise in the profiles. In our experience, the only significant cause of convection in our experiments is the occasional occurrence of an air bubble rising from the base, up through the interface to the top of the charge. If such a disturbance has taken place the resulting extreme deformation is easy to identify using a backscattered electron image in the electron microscope. Any such run products were discarded. Deformation of the melt to conform to the walls of the capsule is negligible in our 1 atm experiments because of the narrowness of the gap between glass and container relative to the very large (8 mm) width of the glass disks. In any case, such deformation takes place rapidly during run-up, during which time the diffusion region remains infinitesmally small in comparison. Subsequent diffusion takes place in a static melt undergoing no further deformation.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Temperature Dependence</head><p>Chemical diffusivities are generally seen to show an exponential dependence on reciprocal temperature over considerable ranges in temperature, a type of relation referred to as Arrhenian (e.g., <ref type="bibr" target="#b10">Glasstone et al., 1941)</ref>:</p><formula xml:id="formula_16">D i ϭ D 0 exp ͭ E a RT ͮ ,<label>(11)</label></formula><p>where R is the ideal gas constant, T is absolute temperature, and D 0 is a preexponential constant. The Arrhenian relation can be derived from absolute rate theory by positing that ions move from one location in the melt to another in discrete diffusive jumps. Each jump requires an ion vibrating within a stable potential energy well in a melt structure to acquire sufficient kinetic energy to rise over a potential energy barrier, to move to an adjacent stable site in the structure (e.g., <ref type="bibr" target="#b10">Glasstone et al., 1941)</ref>. The energy required for this to occur appears in Eqn. 1 as E a , the activation energy for diffusion. In classical rate theory the preexponential factor D 0 can be related to the frequency of the vibration, which allows diffusive steps to occur and has therefore often been called the frequency factor. The frequency factor is a very weak function of temperature, and is for most practical purposes a constant.</p><p>For each composition studied, we have calculated Arrhenian temperature dependences of the D i E . The parameters D 0 and E a of the best fits for the two sets of anhydrous, 1 atm experiments were determined by least squares linear regression, and appear in Table <ref type="table">4</ref>. Since there were only two water-bearing, highpressure experiments, we cannot apply linear regression techniques to these, but report instead the parameters describing a straight line passing through the experimental data for each element. The errors on the derived Arrhenius fit parameters should be of similar magnitude to those reported for the other two compositions.</p><p>In Fig. <ref type="figure" target="#fig_3">3</ref> we compare the measured diffusivities and 80% confidence intervals for Ti (estimated from precision of the inverse error function fit) with the best-fit Arrhenius lines through the data, to illustrate the degree of precision achieved. These results are typical of our data. In Figs. <ref type="figure">4</ref><ref type="figure" target="#fig_5">5</ref><ref type="figure" target="#fig_6">6</ref><ref type="figure" target="#fig_7">7</ref><ref type="figure" target="#fig_8">8</ref>we present all of the Arrhenius functions whose fit parameters appear in Table <ref type="table">4</ref>. To avoid clutter on the diagrams we have omitted the actual data and error bars for the other elements, which are all reported in Table <ref type="table" target="#tab_1">2</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">DISCUSSION</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.">Dependence of Diffusivity on Cation Characteristics</head><p>Our object has been to assess the dependence of cation diffusion coefficients on the characteristics of the cations themselves and on melt viscosity. Our discussion will remain qualitative, focussing on trends and general relationships in the data. A companion paper <ref type="bibr">(Mungall and Dingwell, 1999 submitted)</ref> will address quantitative models to relate diffusivity to cation characteristics and melt characteristics.</p><p>Since we have data for only one alkali element Cs, we cannot compare its behaviour with that of other alkalis at trace concentration. In a somewhat less direct comparison in Fig. <ref type="figure">4</ref> we have plotted the diffusivities of Cs and of the exchange components (H 12 O 6 Ϫ Si 3 O 6 ), (Na 12 O 6 Ϫ Si 3 O 6 ) and (K 12 O 6 Ϫ Si 3 O 6 ) in the melt HPG8ϩ3%H 2 O <ref type="bibr" target="#b26">(Mungall et al., 1998)</ref>. The latter are eigenvalues of the multicomponent diffusion matrix for the major elements in this melt composition, and correspond to the D ii in Eqn. 4. The general effect of increasing atomic radius <ref type="bibr" target="#b29">(Shannon, 1976)</ref> for alkali ions from Na to Cs is to increase the activation energy for diffusion while leaving the frequency factor D 0 essentially unchanged.</p><p>The variation of the diffusivities of group II with reciprocal temperature are plotted in Fig. <ref type="figure" target="#fig_5">5</ref>. Inspection of Figure <ref type="figure" target="#fig_5">5</ref> and of the tabulated Arrhenius fit parameters in Tables <ref type="table" target="#tab_2">3,</ref><ref type="table">4</ref>, and 5 indicates a general trend toward decreasing D 0 and E a with increasing ionic radius. The pattern is reproduced in each of the three melt compositions, indicating that it is a general characteristic of alkaline earth cations. The observed variation in D 0 is at odds with the behaviour of alkali cations, and suggests that the two groups of elements may diffuse by different mechanisms.</p><p>Diffusivities of trivalent cations are plotted in Fig. <ref type="figure" target="#fig_6">6</ref>, and show variations similar to those observed among the group II elements. Smaller cation radius again corresponds to higher values of D 0 and increased values of E a ; however due to the lanthanide contraction this behaviour relates to an increase in atomic number rather than a decrease as shown by group II elements. The behaviour of Y differs somewhat from that of the others for unknown reasons, showing an anomalously high activation energy in the hydrous melt, and an anomalously low activation energy in the peralkaline melt.</p><p>Diffusivities of high field-strength elements (HFSEs) with nominal charges of 4 ϩ , 5 ϩ , and 6 ϩ are shown in Figs. <ref type="figure" target="#fig_7">7</ref> and<ref type="figure" target="#fig_8">8</ref>. In the fully polymerized haplogranitic melt HPG8 the HFSE diffusivities are practically indistinguishable, whereas in the increasingly depolymerized hydrous and peralkaline liquids the Arrhenius functions fan out. The previously noted inverse relation between ionic radius and activation energy for diffusion does not hold for these cations, which instead show a weak trend toward lower E a with decreasing radius.</p><p>Titanium diffusivities are relatively low in the dry and hydrous haplogranitic liquids, but are significantly higher than those of the other 4 ϩ cations in the depolymerized peralkaline melt. The variation in relative diffusivity may be explained by a change in structural role for Ti 4ϩ between fully polymerized melts, where it occurs predominantly in octahedral coordination, and strongly depolymerized melts, where it occurs largely in tetrahedral coordination <ref type="bibr" target="#b8">(Dingwell et al., 1994)</ref>.</p><p>The basic observations may be summarized as follows: HF-SEs show diffusivities close to that predicted by the Eyring equation, whereas diffusivities of other cations show clear dependences on cation charge and radius. In general, the larger the cation, the higher the diffusivity, a relation that has been observed by numerous other investigators (e.g., <ref type="bibr">Henderson et</ref> Table <ref type="table">4</ref>. Diffusion coefficients and Arrhenius parameters for HPG8 liquid with 3.7 wt.% added H 2 O. See caption for Table <ref type="table" target="#tab_2">3</ref>. Log(viscosity) in Pas is estimated using the method of <ref type="bibr" target="#b13">Hess and Dingwell (1996)</ref> after adding 0.2 wt.% H 2 O to account for the presence of added alkali dopants (c.f. <ref type="bibr" target="#b14">Hess et al., 1995)</ref>. Data for Na and K are taken from <ref type="bibr" target="#b26">Mungall et al. (1998)</ref>     <ref type="bibr" target="#b12">., 1985;</ref><ref type="bibr" target="#b17">Jambon, 1982;</ref><ref type="bibr" target="#b20">LaTourrette et al., 1996;</ref><ref type="bibr" target="#b19">LaTourrette and Wasserburg, 1997;</ref><ref type="bibr" target="#b27">Nakamura and Kushiro, 1998)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.">Dependence of Diffusivity on Melt Characteristics</head><p>The variation of diffusivities in a single melt composition may be addressed by considering the Eyring equation</p><formula xml:id="formula_17">D ϭ kT , (<label>12</label></formula><formula xml:id="formula_18">)</formula><p>which relates diffusivity to melt viscosity , temperature T, Boltzmann's constant k, and an arbitrarily defined diffusive jump distance <ref type="bibr" target="#b10">(Glasstone et al., 1941)</ref>. The Eyring equation is often found to be very successful in predicting diffusivities, particularly for network-forming cations or high field strength cations (e.g., <ref type="bibr" target="#b1">Baker, 1992;</ref><ref type="bibr" target="#b22">Lesher et al., 1996;</ref><ref type="bibr" target="#b20">LaTourrette et al., 1996;</ref><ref type="bibr" target="#b24">Mungall and Dingwell, 1997)</ref>, however it is equally often found to be quite inadequate, particularly for networkmodifying species <ref type="bibr">(e.g., Hofmann, 1980;</ref><ref type="bibr" target="#b20">LaTourrette et al., 1996)</ref>. The relative success and failure of the Eyring equation for these two types of melt species is not surprising considering that it was developed to describe self-diffusion in one-component liquids. Since network formers are closely identified with the basic structure of multicomponent liquids, it is to be expected that their self-diffusivities are reasonably well predicted.</p><p>We have calculated network-former diffusivities for our three melts using the Eyring equation with a jump distance of 0.5 nm, and plotted the results in Figs. 4 -8. For HPG8 and HPG8ϩ20% Na 2 O we used the viscosities measured in our actual doped liquids: for the 1 GPa experiments we used the empirical viscosity model of <ref type="bibr" target="#b13">Hess and Dingwell (1996)</ref>. We can make two important observations. First, in each melt composition, the diffusivities of the HFSE cluster near the curve were predicted for network-forming species by the Eyring equation, whereas those of the lower field-strength cations fan out at higher diffusivities. The usefulness of the Eyring equation for prediction of HFSE diffusivities suggested by <ref type="bibr" target="#b24">Mungall and Dingwell (1997)</ref> is confirmed by these observations, whereas the circumstances of its failure to predict other diffusivities are clarified somewhat. Second, despite enormous compositional variations leading to ranges of diffusivity or viscosity spanning several decades, the relation of each element's diffusivity to viscosity is remarkably constant. Changing the melt viscosity in such a way as to move the predicted Arrhenius line for network formers around the diagrams causes  all of the measured diffusivities to move in concert. Whereas the Eyring equation posits a simple linear relationship between D i and , our observations would be better accounted for by a linear relationship between D 0 and 0 , and between E a of diffusion and E a of viscosity for each element. For example, we have plotted E a vs. field strength (calculated as the square of the nominal charge, divided by the ionic radius <ref type="bibr" target="#b29">(Shannon, 1976)</ref>) in Fig. <ref type="figure" target="#fig_9">9</ref>, for all of the elements in each of our three compositions. Also shown is the activation energy calculated for the network-former diffusivities estimated by the Eyring equation and plotted in the figures. Although there is considerable uncertainty in some of the estimated values of E a , it is clear that E a is an increasing function of field strength for low field strength elements, whereas it is subequal to that of estimated network-former self-diffusion for the HFSE. Although the pattern is reproduced in the data for all three compositions, the difference between measured and estimated E a is subtly different in each of the three cases, a second-order effect that we attribute to the variations in degree of melt polymerization (c.f. <ref type="bibr" target="#b24">Mungall and Dingwell, 1997)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3.">Intrinsic Diffusivities</head><p>It has been suggested <ref type="bibr" target="#b7">(Dingwell, 1990;</ref><ref type="bibr" target="#b20">LaTourrette et al., 1996;</ref><ref type="bibr" target="#b24">Mungall and Dingwell, 1997)</ref>, that as melt viscosity decreases cations should show a transition from a diffusivity that is essentially independent of viscosity ('intrinsic diffusivity') to a diffusivity that is entirely controlled by viscosity and predictable through the Eyring equation. We further test the concept of intrinsic versus extrinsic diffusivity by comparing diffusivities of selected cations at 1300°C in Fig. <ref type="figure" target="#fig_10">10</ref>. Data can only be shown for a single temperature because of the small but significant dependence of the Eyring diffusivity on temperature. Diffusivities for HPG8, HPG8 wet, and HPG8ϩNa 2 O calculated using the Arrhenius parameters in Table <ref type="table" target="#tab_2">3</ref> are compared with diffusivities for the same ions measured by <ref type="bibr" target="#b20">LaTourrette et al. (1996)</ref>. Also shown are the diffusivities of Ba, Sr, and Cs compiled by <ref type="bibr" target="#b7">Dingwell (1990)</ref> from other sources, and data for Ba, Nd, and Ti as reported by <ref type="bibr" target="#b20">LaTourrette et al. (1996)</ref>. <ref type="bibr" target="#b7">Dingwell's (1990)</ref> compilation of diffusivities measured in melts ranging in composition from obsidian to basalt suggested that the logarithm of D for each cation depends in a linear fashion on the logarithm of melt viscosity at high viscosity. In <ref type="bibr" target="#b7">Dingwell's (1990)</ref>   <ref type="figure" target="#fig_10">10</ref> show that the apparently linear trends reported by <ref type="bibr" target="#b7">Dingwell (1990)</ref> were accidental. Taking the case of Ba for example, consideration of a larger data set produces considerable scatter. The diffusivities of several elements in granitoid melts from the present study define a series of trends parallel to the trend of the Eyring equation. Data published by <ref type="bibr" target="#b20">LaTourrette et al. (1996)</ref> for basaltic melts fall much closer to the Eyring trend. The observations could be reconciled with the proposal that cation diffu-    sivities in melts of a given type (e.g., granitoid, basaltic) may therefore define trends parallel to the Eyring trend, with their distance above the trend depending upon some compositional or structural parameter such as degree of melt polymerization. Such a scenario could produce the apparent linear trend observed by <ref type="bibr" target="#b7">Dingwell (1990)</ref> since there was a general trend from highly polymerized obsidian at high viscosity to strongly depolymerized basalt at low viscosity in his figures. If cation diffusivities do universally follow trends parallel to the Eyring trend, with their offset from the trend depending upon cation characteristics and upon melt structure, then there is great potential for application of the Eyring equation to predict cation diffusivities. This would be accomplished by determining how cation characteristics and melt structure affect the magnitude of the offset of the cation diffusion trend from the Eyring trend (e.g., <ref type="bibr">Mungall and Dingwell, 1999, submitted)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">CONCLUSIONS</head><p>We have systematically measured diffusivities of cations with widely varied charge and radius in melts with viscosities ranging over approximately 7 orders of magnitude. The resulting breadth of data permits us to draw some fairly general conclusions about diffusion in granitoid melts. First, the Eyring equation has great utility as a low-precision predictor of diffusion coefficients of HFSE in all granitoid melts. Second, cations with lower field strength show diffusivities higher than predicted by the Eyring equation, with parameters for their Arrhenian temperature dependences that show a regular variation with cation field strength. Increasing activation energy for diffusion is related to increasing field strength, and is usually matched by increasing frequency factors. Third, changes in melt composition, possibly related to the degree of melt polymerization, exert weak second-order effects on these parameters.   <ref type="bibr">(1996)</ref>. The solid black line represents diffusivities predicted using the Eyring equation. Viscosities corresponding to measured diffusivities were measured (this study) or estimated using the method of <ref type="bibr" target="#b30">Shaw (1972)</ref>. Thin black lines indicate variations of diffusivity proposed by <ref type="bibr" target="#b7">Dingwell (1990)</ref> according to the concept of intrinsic diffusivity. Dashed lines connect diffusivities measured in the current study.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Fig. 1 .</head><label>1</label><figDesc>Fig. 1. Representative diffusion profiles in experiment P2. Heavy solid lines indicate model diffusion profile for best fit value of D, flanked by thin lines at upper and lower 80% confidence limits from fitting statistics (a) secondary ion mass spectrometry data for Nd, (b) EMPA data for Ti.</figDesc><graphic coords="8,130.62,69.00,344.00,591.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>al</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 2 .</head><label>2</label><figDesc>Fig. 2. Inverse error function fit to SIMS data for Nd shown in Fig. 1. Scatter of inverse error function values reflects increasing sensitivity of the inverse error function to measurement error at high values of x 2 /t. Scatter may also be in consequence of an apparent minor compositional dependence of D, evident in Fig. 1(a) as a tendency for the experimental profile to be flatter than the model curve at high concentrations (higher D) and steeper than the model at low concentrations. Such second-order effects are only visible in the high-precision SIMS data, and are lost in measurement noise in the EMPA data.</figDesc><graphic coords="9,66.26,391.96,221.00,245.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Fig. 3 .</head><label>3</label><figDesc>Fig. 3. Measured diffusion coefficients for Ti plotted vs. reciprocal temperature in all three melt compositions. The slope of a line in this figure is proportional to the activation energy, whereas the intercept is the preexponential constant (frequency factor). In this and all following figures, HPG8 refers to the dry, 1 atm experiment series; HPG8ϩNa 2 O refers to the experiments run at 1 atm with 20 wt. % added soda, and HPG8ϩH 2 O refers to the experiments run at 1.0 GPa with 3 wt. % added water. The dashed lines indicate the self-diffusivities estimated for network formers with the Eyring equation using measured (HPG8 and HPG8ϩNa 2 O) viscosities over the actual temperature range of measurements or estimated (HPG8ϩH 2 O) viscosities for the experimental conditions; dotted lines are extrapolated from the temperature range in which measurements were made. Solid lines represent least squares regression lines through the data, reported in Tables3, 4, and 5.</figDesc><graphic coords="9,360.35,69.00,137.00,119.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>Fig. 10 these linear trends appear to run into the trend representing values of log(D) predicted by the Eyring equation at fairly high angles, where at all lower viscosities the linear trends are deflected parallel to the trend predicted by the Eyring equation. The new data in Fig.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 5 .</head><label>5</label><figDesc>Fig. 5. Plots of Arrhenius functions over the temperature range of measurements for alkaline earth elements listed in Tables 3, 4, and 5. See caption of Fig. 1 for details.</figDesc><graphic coords="10,110.36,69.00,133.09,116.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Fig. 6 .</head><label>6</label><figDesc>Fig. 6. Plots of Arrhenius functions over the temperature range of measurements for trivalent cations listed in Tables 3, 4, and 5. See caption of Fig. 1 for details.</figDesc><graphic coords="10,110.86,575.24,132.00,116.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 7 .</head><label>7</label><figDesc>Fig. 7. Plots of Arrhenius functions over the temperature range of measurements for quadrivalent cations listed in Tables 3, 4, and 5. See caption of Fig. 1 for details.</figDesc><graphic coords="10,359.85,69.00,138.00,120.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Fig. 8 .</head><label>8</label><figDesc>Fig. 8. Plots of Arrhenius functions over the temperature range of measurements for pentavalent and hexavalent cations listed in Tables 3, 4, and 5. See caption of Fig. 1 for details.</figDesc><graphic coords="10,361.35,574.24,135.00,117.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Fig. 9 .</head><label>9</label><figDesc>Fig. 9. Activation energy for diffusion vs. cation field strength. Data from dry HPG8 experiments are shown as open squares; data from HPG8ϩNa 2 O experiments are shown as filled squares. Error bars indicate 1 sd; these could not be calculated for the HPG8ϩH 2 O experiments (crosses) but are expected to be similar to those for the other data. The horizontal bars near the right hand side of the figure show the activation energy for network-former diffusivity as estimated with the Eyring equation, for each melt composition studied.</figDesc><graphic coords="11,112.36,69.00,129.00,109.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 10 .</head><label>10</label><figDesc>Fig. 10. Variation of diffusivities with viscosity in several different melts at a single temperature of 1300°C. Filled symbols are from Dingwell's (1990) compilation; open symbols are from the present study except for points indicated as Basalt, which were measured by LaTourrette et al.(1996). The solid black line represents diffusivities predicted using the Eyring equation. Viscosities corresponding to measured diffusivities were measured (this study) or estimated using the method of<ref type="bibr" target="#b30">Shaw (1972)</ref>. Thin black lines indicate variations of diffusivity proposed by<ref type="bibr" target="#b7">Dingwell (1990)</ref> according to the concept of intrinsic diffusivity. Dashed lines connect diffusivities measured in the current study.</figDesc><graphic coords="11,109.35,502.24,135.10,117.00" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Concentrations of major elements in experimental materials. Concentrations were measured by electron microprobe and FTIR (water analyses). Values reported are averages of 10 analyses normalized to (100% C H 2 O ); sd refers to the standard deviation of each set of 10 spots. by juxtaposing the two glasses in an open-topped 8 mm Pt cylinder with a Pt foil base. Couples were placed in either of two box furnaces: one for temperatures between 1100 and 1600°C with MoSi 2 heating elements, and one with wound Kanthal elements for temperatures between 700 and 1100°C. Run durations ranged from several minutes to several weeks, and experiments were quenched by removing charges from the furnace and allowing them to cool in air.</figDesc><table><row><cell></cell><cell cols="2">Chemical diffusivities of 18 trace elements</cell><cell></cell><cell></cell><cell>2601</cell></row><row><cell>Glass</cell><cell>SiO 2</cell><cell>Al 2 O 3</cell><cell>Na 2 O</cell><cell>K 2 O</cell><cell>H 2 O</cell></row><row><cell>HPG8</cell><cell>79.64</cell><cell>11.33</cell><cell>4.88</cell><cell>4.15</cell><cell>nd</cell></row><row><cell>sd</cell><cell>0.10</cell><cell>0.05</cell><cell>0.05</cell><cell>0.04</cell><cell></cell></row><row><cell>HPG8 doped</cell><cell>79.21</cell><cell>11.95</cell><cell>4.66</cell><cell>4.18</cell><cell>nd</cell></row><row><cell>sd</cell><cell>0.11</cell><cell>0.08</cell><cell>0.04</cell><cell>0.05</cell><cell></cell></row><row><cell>HPG8ϩH 2 O (1300°)</cell><cell>76.76</cell><cell>10.92</cell><cell>4.70</cell><cell>4.00</cell><cell>3.61</cell></row><row><cell>sd</cell><cell>0.10</cell><cell>0.05</cell><cell>0.05</cell><cell>0.04</cell><cell>0.13</cell></row><row><cell>HPG8ϩH 2 O doped (1300°)</cell><cell>76.35</cell><cell>11.52</cell><cell>4.49</cell><cell>4.03</cell><cell>3.61</cell></row><row><cell>sd</cell><cell>0.11</cell><cell>0.08</cell><cell>0.04</cell><cell>0.05</cell><cell>0.13</cell></row><row><cell>HPG8ϩH 2 O (1600°)</cell><cell>76.68</cell><cell>10.91</cell><cell>4.70</cell><cell>4.00</cell><cell>3.72</cell></row><row><cell>sd</cell><cell>0.10</cell><cell>0.05</cell><cell>0.05</cell><cell>0.04</cell><cell>0.09</cell></row><row><cell>HPG8ϩH 2 O doped (1300°)</cell><cell>76.35</cell><cell>11.52</cell><cell>4.49</cell><cell>4.03</cell><cell>3.61</cell></row><row><cell>sd</cell><cell>0.11</cell><cell>0.08</cell><cell>0.04</cell><cell>0.05</cell><cell>0.13</cell></row><row><cell>HPG8ϩNa 2 O</cell><cell>66.60</cell><cell>9.28</cell><cell>20.47</cell><cell>3.65</cell><cell>nd</cell></row><row><cell>sd</cell><cell>0.10</cell><cell>0.05</cell><cell>0.12</cell><cell>0.04</cell><cell></cell></row><row><cell>HPG8ϩNa 2 O doped</cell><cell>65.70</cell><cell>9.96</cell><cell>20.71</cell><cell>3.63</cell><cell>nd</cell></row><row><cell>sd</cell><cell>0.14</cell><cell>0.1</cell><cell>0.2</cell><cell>0.03</cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 .</head><label>2</label><figDesc>Abundances of selected trace elements in experimental materials. Glasses were analysed by inductively coupled plasma-mass spectroscopy at Memorial University, St John's, Newfoundland. Detection limits are on the order of 1 ppm for all elements reported.</figDesc><table><row><cell>Glass</cell><cell>Cs</cell><cell>Sr</cell><cell>Ba</cell><cell>Y</cell><cell>Nd</cell><cell>Tb</cell><cell>Zr</cell><cell>Nb</cell><cell>Ta</cell><cell>Hf</cell></row><row><cell>HPG8</cell><cell>0.8</cell><cell>2.0</cell><cell>3.1</cell><cell>2.4</cell><cell>1.2</cell><cell>0.1</cell><cell>101.0</cell><cell>0.2</cell><cell>0.0</cell><cell>2.7</cell></row><row><cell>HPG8-d</cell><cell>759.1</cell><cell>760.3</cell><cell>762.5</cell><cell>728.8</cell><cell>632.4</cell><cell>699.1</cell><cell>786.0</cell><cell>316.5</cell><cell>125.3</cell><cell>798.4</cell></row><row><cell>HPG8ϩNa</cell><cell>0.3</cell><cell>25.3</cell><cell>16.2</cell><cell>7.9</cell><cell>5.8</cell><cell>0.3</cell><cell>14.7</cell><cell>0.5</cell><cell>0.1</cell><cell>0.6</cell></row><row><cell>HPG8ϩNa-d</cell><cell>706.9</cell><cell>720.2</cell><cell>732.2</cell><cell>726.8</cell><cell>755.9</cell><cell>762.0</cell><cell>713.0</cell><cell>283.8</cell><cell>175.3</cell><cell>922.9</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 .</head><label>3</label><figDesc>Diffusion coefficients and Arrhenius parameters for HPG8 liquid. Diffusion coefficients are reported as cm 2 s Ϫ1 and were estimated as described in the text. Upper and lower error estimates are for the 80% confidence interval. Log(viscosity) is reported as measured on actual doped melts in Bayreuth by M. Toplis (m) or extrapolated from measured values (ex). Log(D) NF is the network-former self-diffusivity estimated using the Eyring equation. Errors on Arrhenius fit parameters are reported as one standard deviation (sd).</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell cols="14">Chemical diffusivities of 18 trace elements</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>2603</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>sd</cell><cell>13.60</cell><cell>19.68</cell><cell>31.17</cell><cell>18.05</cell><cell>22.58</cell><cell>2.78</cell><cell>29.56</cell><cell>17.39</cell><cell>3.24</cell><cell>8.04</cell><cell>21.63</cell><cell>20.01</cell><cell>26.53</cell><cell>35.36</cell><cell>19.93</cell><cell>56.35</cell><cell>19.83</cell><cell>82.72</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>a (kJ/mol)</cell><cell>208.81</cell><cell>318.52</cell><cell>244.22</cell><cell>248.29</cell><cell>220.45</cell><cell>191.82</cell><cell>303.24</cell><cell>295.73</cell><cell>296.12</cell><cell>317.75</cell><cell>332.04</cell><cell>330.83</cell><cell>352.92</cell><cell>311.77</cell><cell>300.92</cell><cell>354.88</cell><cell>281.29</cell><cell>276.78</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>E</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>P3</cell><cell>1600</cell><cell>21600</cell><cell>3.06 (m)</cell><cell>Ϫ9.34</cell><cell>log(D 0 ) sd log(D) Ϫ</cell><cell>Ϫ7.31 Ϫ0.26 Ϫ1.58 0.09</cell><cell>Ϫ8.67 Ϫ0.12 0.25 0.13</cell><cell>Ϫ7.70 Ϫ0.10 Ϫ1.10 0.22</cell><cell>Ϫ7.40 Ϫ0.03 Ϫ0.59 0.13</cell><cell>Ϫ7.12 Ϫ0.32 Ϫ1.08 0.16</cell><cell>Ϫ7.28 Ϫ0.29 Ϫ1.95 0.02</cell><cell>Ϫ0.43 0.19</cell><cell>Ϫ8.75 Ϫ0.16 Ϫ0.66 0.12</cell><cell>Ϫ8.63 Ϫ0.12 Ϫ0.38 0.02</cell><cell>Ϫ8.78 Ϫ0.07 0.11 0.05</cell><cell>Ϫ8.84 Ϫ0.24 0.49 0.14</cell><cell>Ϫ9.06 Ϫ0.16 0.02 0.14</cell><cell>Ϫ8.96 Ϫ0.14 0.74 0.18</cell><cell>Ϫ9.70 Ϫ0.43 Ϫ0.87 0.25</cell><cell>Ϫ8.95 Ϫ0.24 Ϫ0.66 0.14</cell><cell>Ϫ9.07 Ϫ0.18 0.59 0.39</cell><cell>Ϫ9.14 Ϫ0.19 Ϫ1.38 0.14</cell><cell>Ϫ8.55 Ϫ0.41 Ϫ1.19 0.57</cell></row><row><cell>P14</cell><cell>1500</cell><cell>79980</cell><cell>3.63 (m)</cell><cell>Ϫ9.94</cell><cell>log(D) Ϫ ϩ</cell><cell>Ϫ7.81 Ϫ0.18 0.36</cell><cell>nd 0.13</cell><cell>Ϫ8.48 Ϫ0.12 0.12</cell><cell>Ϫ7.94 Ϫ0.08 0.03</cell><cell>Ϫ7.58 Ϫ0.21 0.50</cell><cell>Ϫ7.60 Ϫ0.18 0.43</cell><cell>nd</cell><cell>Ϫ9.47 Ϫ0.24 0.20</cell><cell>nd 0.13</cell><cell>nd 0.08</cell><cell>nd 0.33</cell><cell>Ϫ9.86 Ϫ0.13 0.20</cell><cell>Ϫ9.67 Ϫ0.30 0.18</cell><cell>Ϫ10.25 Ϫ0.38 0.90</cell><cell>Ϫ9.68 Ϫ0.12 0.33</cell><cell>Ϫ10.44 Ϫ0.14 0.22</cell><cell>Ϫ9.77 Ϫ0.32 0.25</cell><cell>Ϫ9.78 Ϫ0.37 0.81</cell></row><row><cell>P2</cell><cell>1400</cell><cell>345660</cell><cell>4.27 (m)</cell><cell>Ϫ10.60</cell><cell>log(D) Ϫ ϩ</cell><cell>nd 0.22</cell><cell>Ϫ9.59 0.12</cell><cell>nd 0.13</cell><cell>nd 0.09</cell><cell>nd 0.28</cell><cell>nd 0.22</cell><cell>Ϫ9.74 Ϫ0.12</cell><cell>Ϫ9.97 Ϫ0.22 0.32</cell><cell>Ϫ9.57 Ϫ0.13</cell><cell>Ϫ9.77 Ϫ0.10</cell><cell>Ϫ9.76 Ϫ0.17</cell><cell>Ϫ10.22 Ϫ0.33 0.15</cell><cell>Ϫ10.48 Ϫ0.28 0.45</cell><cell>Ϫ10.33 Ϫ0.17 0.68</cell><cell>Ϫ9.99 Ϫ0.36 0.13</cell><cell>Ϫ10.33 Ϫ0.14 0.17</cell><cell>nd 0.52</cell><cell>nd 0.65</cell></row><row><cell>P13</cell><cell>1400</cell><cell>198120</cell><cell>4.27 (m)</cell><cell>Ϫ10.60</cell><cell>log(D) Ϫ ϩ</cell><cell>Ϫ8.14 Ϫ0.26</cell><cell>nd 0.13</cell><cell>Ϫ8.82 Ϫ0.15</cell><cell>Ϫ8.46 Ϫ0.06</cell><cell>Ϫ8.14 Ϫ0.24</cell><cell>Ϫ7.95 Ϫ0.24</cell><cell>nd 0.13</cell><cell>Ϫ9.91 Ϫ0.41 0.31</cell><cell>nd 0.14</cell><cell>nd 0.11</cell><cell>nd 0.21</cell><cell>Ϫ10.42 Ϫ0.55 0.46</cell><cell>nd 0.41</cell><cell>Ϫ10.42 Ϫ0.13 0.21</cell><cell>nd 0.65</cell><cell>Ϫ10.29 Ϫ0.24 0.17</cell><cell>nd</cell><cell>nd</cell></row><row><cell>P1</cell><cell>1137</cell><cell>1140240</cell><cell>6.39 (ex)</cell><cell>Ϫ12.79</cell><cell>log(D) Ϫ ϩ</cell><cell>Ϫ9.28 Ϫ0.73 0.39</cell><cell>Ϫ11.59 Ϫ0.10</cell><cell>Ϫ10.08 Ϫ0.11 0.17</cell><cell>Ϫ9.73 Ϫ0.12 0.06</cell><cell>Ϫ9.18 Ϫ0.46 0.33</cell><cell>Ϫ9.04 Ϫ0.47 0.33</cell><cell>Ϫ11.72 Ϫ0.12</cell><cell>Ϫ11.56 Ϫ0.23 0.84</cell><cell>Ϫ11.35 Ϫ0.12</cell><cell>Ϫ11.68 Ϫ0.38</cell><cell>Ϫ11.85 Ϫ0.12</cell><cell>Ϫ12.19 Ϫ0.26 0.70</cell><cell>Ϫ12.25 Ϫ0.47</cell><cell>Ϫ12.55 Ϫ0.72 0.15</cell><cell>Ϫ11.80 Ϫ0.22</cell><cell>Ϫ12.59 Ϫ0.66 0.34</cell><cell>Ϫ11.78 Ϫ0.76</cell><cell>Ϫ11.37 Ϫ0.62</cell></row><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>ϩ</cell><cell>0.98</cell><cell>0.10</cell><cell>0.12</cell><cell>0.13</cell><cell>1.04</cell><cell>1.12</cell><cell>0.13</cell><cell>0.32</cell><cell>0.13</cell><cell>0.63</cell><cell>0.13</cell><cell>0.38</cell><cell>1.11</cell><cell>1.33</cell><cell>0.29</cell><cell>1.71</cell><cell>0.80</cell><cell>2.89</cell></row><row><cell>Run</cell><cell>T (°C)</cell><cell>duration (s)</cell><cell>log(viscosity)</cell><cell>log(D) NF</cell><cell>Element</cell><cell>Cs</cell><cell>Be</cell><cell>Mg</cell><cell>Ca</cell><cell>Sr</cell><cell>Ba</cell><cell>B</cell><cell>Y</cell><cell>Nd</cell><cell>Tb</cell><cell>Lu</cell><cell>Ti</cell><cell>Zr</cell><cell>Ge</cell><cell>Nb</cell><cell>Hf</cell><cell>Ta</cell><cell>W</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 5 .</head><label>5</label><figDesc>(see text for discussion). Diffusion coefficients and Arrhenius parameters for HPG8 liquid with 20 wt.% added Na 2 O. See caption for Table3.</figDesc><table><row><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell cols="4">Chemical diffusivities of 18 trace elements</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>2605</cell></row><row><cell>Run</cell><cell></cell><cell></cell><cell cols="2">JMPC88</cell><cell></cell><cell></cell><cell></cell><cell cols="2">JMPC87</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>T (°C)</cell><cell></cell><cell></cell><cell>1300</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>1600</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Duration (s)</cell><cell></cell><cell></cell><cell>7200</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>1800</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>log(viscosity)</cell><cell></cell><cell></cell><cell>2.39</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>1.49</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>log(D) NF</cell><cell></cell><cell></cell><cell>Ϫ8.75</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>Ϫ7.78</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Element</cell><cell></cell><cell>ϩ</cell><cell>log(D)</cell><cell></cell><cell>Ϫ</cell><cell>ϩ</cell><cell></cell><cell>log(D)</cell><cell></cell><cell>Ϫ</cell><cell cols="2">log(D 0 )</cell><cell>E a</cell></row><row><cell>Na</cell><cell></cell><cell>0.03</cell><cell>Ϫ5.62</cell><cell></cell><cell>Ϫ0.06</cell><cell cols="2">0.07</cell><cell>Ϫ5.27</cell><cell></cell><cell>Ϫ0.06</cell><cell></cell><cell>Ϫ2.68</cell><cell>88.47</cell></row><row><cell>K</cell><cell></cell><cell>0.06</cell><cell>Ϫ5.72</cell><cell></cell><cell>Ϫ0.08</cell><cell cols="2">0.05</cell><cell>Ϫ5.26</cell><cell></cell><cell>Ϫ0.06</cell><cell></cell><cell>Ϫ2.42</cell><cell>99.34</cell></row><row><cell>Cs</cell><cell></cell><cell>0.07</cell><cell>Ϫ6.71</cell><cell></cell><cell>Ϫ0.06</cell><cell cols="2">1.12</cell><cell>Ϫ6.04</cell><cell></cell><cell>Ϫ0.71</cell><cell></cell><cell>Ϫ2.57</cell><cell>124.61</cell></row><row><cell>Be</cell><cell></cell><cell>0.13</cell><cell>Ϫ7.43</cell><cell></cell><cell>Ϫ0.17</cell><cell cols="2">0.14</cell><cell>Ϫ6.63</cell><cell></cell><cell>Ϫ0.18</cell><cell></cell><cell>Ϫ2.46</cell><cell>149.74</cell></row><row><cell>Mg</cell><cell></cell><cell>0.16</cell><cell>Ϫ7.17</cell><cell></cell><cell>Ϫ0.14</cell><cell cols="2">0.23</cell><cell>Ϫ6.42</cell><cell></cell><cell>Ϫ0.18</cell><cell></cell><cell>Ϫ2.48</cell><cell>141.04</cell></row><row><cell>Ca</cell><cell></cell><cell>0.14</cell><cell>Ϫ6.71</cell><cell></cell><cell>Ϫ0.12</cell><cell cols="2">0.17</cell><cell>Ϫ6.04</cell><cell></cell><cell>Ϫ0.14</cell><cell></cell><cell>Ϫ2.52</cell><cell>126.46</cell></row><row><cell>Sr</cell><cell></cell><cell>0.22</cell><cell>Ϫ6.59</cell><cell></cell><cell>Ϫ0.17</cell><cell cols="2">0.34</cell><cell>Ϫ5.83</cell><cell></cell><cell>Ϫ0.25</cell><cell></cell><cell>Ϫ1.87</cell><cell>142.02</cell></row><row><cell>Ba</cell><cell></cell><cell>0.00</cell><cell>Ϫ6.86</cell><cell></cell><cell>0.00</cell><cell cols="2">0.44</cell><cell>Ϫ6.01</cell><cell></cell><cell>Ϫ0.29</cell><cell></cell><cell>Ϫ1.54</cell><cell>160.17</cell></row><row><cell>B</cell><cell></cell><cell>0.10</cell><cell>Ϫ7.74</cell><cell></cell><cell>Ϫ0.12</cell><cell cols="2">0.13</cell><cell>Ϫ6.92</cell><cell></cell><cell>Ϫ0.15</cell><cell></cell><cell>Ϫ2.60</cell><cell>154.70</cell></row><row><cell>Y</cell><cell></cell><cell>0.29</cell><cell>Ϫ7.92</cell><cell></cell><cell>Ϫ0.22</cell><cell cols="2">0.67</cell><cell>Ϫ6.77</cell><cell></cell><cell>Ϫ0.38</cell><cell></cell><cell>Ϫ0.77</cell><cell>215.32</cell></row><row><cell>Nd</cell><cell></cell><cell>0.12</cell><cell>Ϫ7.44</cell><cell></cell><cell>Ϫ0.12</cell><cell cols="2">0.11</cell><cell>Ϫ6.63</cell><cell></cell><cell>Ϫ0.12</cell><cell></cell><cell>Ϫ2.36</cell><cell>153.10</cell></row><row><cell>Tb</cell><cell></cell><cell>0.11</cell><cell>Ϫ7.51</cell><cell></cell><cell>Ϫ0.13</cell><cell cols="2">0.15</cell><cell>Ϫ6.73</cell><cell></cell><cell>Ϫ0.16</cell><cell></cell><cell>Ϫ2.60</cell><cell>147.99</cell></row><row><cell>Lu</cell><cell></cell><cell>0.09</cell><cell>Ϫ7.47</cell><cell></cell><cell>Ϫ0.10</cell><cell cols="2">0.10</cell><cell>Ϫ6.71</cell><cell></cell><cell>Ϫ0.11</cell><cell></cell><cell>Ϫ2.62</cell><cell>146.41</cell></row><row><cell>Ti</cell><cell></cell><cell>0.17</cell><cell>Ϫ8.08</cell><cell></cell><cell>Ϫ0.14</cell><cell cols="2">0.20</cell><cell>Ϫ7.03</cell><cell></cell><cell>Ϫ0.17</cell><cell></cell><cell>Ϫ1.53</cell><cell>197.16</cell></row><row><cell>Zr</cell><cell></cell><cell>0.51</cell><cell>Ϫ7.95</cell><cell></cell><cell>Ϫ0.32</cell><cell cols="2">0.29</cell><cell>Ϫ6.84</cell><cell></cell><cell>Ϫ0.22</cell><cell></cell><cell>Ϫ0.55</cell><cell>225.85</cell></row><row><cell>Ge</cell><cell></cell><cell></cell><cell>nd</cell><cell></cell><cell></cell><cell cols="2">0.75</cell><cell>Ϫ6.32</cell><cell></cell><cell>Ϫ0.40</cell><cell></cell><cell></cell><cell></cell></row><row><cell>Nb</cell><cell></cell><cell>0.44</cell><cell>Ϫ7.86</cell><cell></cell><cell>Ϫ0.29</cell><cell cols="2">0.43</cell><cell>Ϫ6.74</cell><cell></cell><cell>Ϫ0.29</cell><cell></cell><cell>Ϫ0.88</cell><cell>210.05</cell></row><row><cell>Hf</cell><cell></cell><cell>0.61</cell><cell>Ϫ8.48</cell><cell></cell><cell>Ϫ0.35</cell><cell cols="2">0.13</cell><cell>Ϫ7.21</cell><cell></cell><cell>Ϫ0.11</cell><cell></cell><cell>Ϫ0.57</cell><cell>238.37</cell></row><row><cell>Ta</cell><cell></cell><cell></cell><cell>nd</cell><cell></cell><cell></cell><cell cols="2">0.41</cell><cell>Ϫ6.61</cell><cell></cell><cell>Ϫ0.28</cell><cell></cell><cell></cell><cell></cell></row><row><cell>W</cell><cell></cell><cell></cell><cell>n d</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell>n d</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Run</cell><cell></cell><cell>P8</cell><cell></cell><cell></cell><cell>P9</cell><cell></cell><cell></cell><cell>P15</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>T (°C)</cell><cell></cell><cell>810</cell><cell></cell><cell></cell><cell>960</cell><cell></cell><cell></cell><cell>1200</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Duration (s)</cell><cell></cell><cell>157560</cell><cell></cell><cell></cell><cell>3600</cell><cell></cell><cell></cell><cell>1800</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>log(viscosity)</cell><cell></cell><cell>4.44 (ex)</cell><cell></cell><cell></cell><cell>3.35 (ex)</cell><cell></cell><cell></cell><cell>2.08 (m)</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>log(D) NF</cell><cell></cell><cell>Ϫ10.96</cell><cell></cell><cell></cell><cell>Ϫ9.82</cell><cell></cell><cell></cell><cell>Ϫ8.47</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Element</cell><cell>ϩ</cell><cell>log(D)</cell><cell>Ϫ</cell><cell>ϩ</cell><cell>log(D)</cell><cell>Ϫ</cell><cell>ϩ</cell><cell>log(D)</cell><cell>Ϫ</cell><cell>log(D 0 )</cell><cell>sd</cell><cell>E a (kJ/mol)</cell><cell>sd</cell></row><row><cell>Cs</cell><cell>0.21</cell><cell>Ϫ8.06</cell><cell>Ϫ0.17</cell><cell>0.13</cell><cell>Ϫ7.00</cell><cell>Ϫ0.12</cell><cell>0.18</cell><cell>Ϫ6.43</cell><cell>Ϫ0.15</cell><cell>Ϫ1.84</cell><cell>0.25</cell><cell>126.68</cell><cell>27.88</cell></row><row><cell>Be</cell><cell>0.14</cell><cell>Ϫ10.38</cell><cell>Ϫ0.12</cell><cell>0.13</cell><cell>Ϫ9.33</cell><cell>Ϫ0.12</cell><cell>0.13</cell><cell>Ϫ7.47</cell><cell>Ϫ0.12</cell><cell>0.56</cell><cell>0.23</cell><cell>228.98</cell><cell>25.64</cell></row><row><cell>Mg</cell><cell>0.48</cell><cell>Ϫ9.58</cell><cell>Ϫ0.31</cell><cell>0.00</cell><cell>Ϫ8.52</cell><cell>0.00</cell><cell>0.13</cell><cell>Ϫ7.38</cell><cell>Ϫ0.12</cell><cell>Ϫ1.28</cell><cell>0.04</cell><cell>171.62</cell><cell>4.14</cell></row><row><cell>Ca</cell><cell>0.16</cell><cell>Ϫ8.57</cell><cell>Ϫ0.14</cell><cell>0.16</cell><cell>Ϫ7.58</cell><cell>Ϫ0.14</cell><cell>0.21</cell><cell>Ϫ6.72</cell><cell>Ϫ0.17</cell><cell>Ϫ1.56</cell><cell>0.12</cell><cell>144.26</cell><cell>13.39</cell></row><row><cell>Sr</cell><cell>0.21</cell><cell>Ϫ8.16</cell><cell>Ϫ0.17</cell><cell>0.32</cell><cell>Ϫ7.25</cell><cell>Ϫ0.23</cell><cell>0.26</cell><cell>Ϫ6.40</cell><cell>Ϫ0.20</cell><cell>Ϫ1.49</cell><cell>0.09</cell><cell>137.51</cell><cell>9.78</cell></row><row><cell>Ba</cell><cell>0.10</cell><cell>Ϫ7.97</cell><cell>Ϫ0.10</cell><cell>0.21</cell><cell>Ϫ6.94</cell><cell>Ϫ0.18</cell><cell>0.19</cell><cell>Ϫ6.31</cell><cell>Ϫ0.16</cell><cell>Ϫ1.67</cell><cell>0.22</cell><cell>128.58</cell><cell>24.39</cell></row><row><cell>B</cell><cell>0.13</cell><cell>Ϫ10.24</cell><cell>Ϫ0.12</cell><cell>0.13</cell><cell>Ϫ9.29</cell><cell>Ϫ0.12</cell><cell>0.13</cell><cell>Ϫ7.33</cell><cell>Ϫ0.12</cell><cell>0.68</cell><cell>0.32</cell><cell>229.36</cell><cell>35.06</cell></row><row><cell>Y</cell><cell>0.68</cell><cell>Ϫ10.57</cell><cell>Ϫ0.38</cell><cell>0.19</cell><cell>Ϫ9.41</cell><cell>Ϫ0.16</cell><cell>0.24</cell><cell>Ϫ8.37</cell><cell>Ϫ0.17</cell><cell>Ϫ2.25</cell><cell>0.12</cell><cell>171.45</cell><cell>13.07</cell></row><row><cell>Nd</cell><cell>0.13</cell><cell>Ϫ10.65</cell><cell>Ϫ0.12</cell><cell>0.13</cell><cell>Ϫ9.47</cell><cell>Ϫ0.12</cell><cell>0.10</cell><cell>Ϫ7.54</cell><cell>Ϫ0.09</cell><cell>1.05</cell><cell>0.20</cell><cell>244.48</cell><cell>22.56</cell></row><row><cell>Tb</cell><cell>0.13</cell><cell>Ϫ10.83</cell><cell>Ϫ0.12</cell><cell>0.13</cell><cell>Ϫ9.55</cell><cell>Ϫ0.12</cell><cell>0.21</cell><cell>Ϫ7.59</cell><cell>Ϫ0.17</cell><cell>1.39</cell><cell>0.17</cell><cell>254.89</cell><cell>19.10</cell></row><row><cell>Lu</cell><cell>0.13</cell><cell>Ϫ10.93</cell><cell>Ϫ0.12</cell><cell></cell><cell>nd</cell><cell></cell><cell>0.48</cell><cell>Ϫ7.73</cell><cell>Ϫ0.31</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Ti</cell><cell>0.10</cell><cell>Ϫ10.40</cell><cell>Ϫ0.09</cell><cell>0.26</cell><cell>Ϫ9.15</cell><cell>Ϫ0.29</cell><cell>0.10</cell><cell>Ϫ8.17</cell><cell>Ϫ0.09</cell><cell>Ϫ1.96</cell><cell>0.19</cell><cell>173.39</cell><cell>20.67</cell></row><row><cell>Zr</cell><cell>0.13</cell><cell>Ϫ11.54</cell><cell>Ϫ0.43</cell><cell>1.48</cell><cell>Ϫ10.27</cell><cell>Ϫ0.50</cell><cell>0.19</cell><cell>Ϫ8.43</cell><cell>Ϫ0.16</cell><cell>0.20</cell><cell>0.13</cell><cell>244.75</cell><cell>14.22</cell></row><row><cell>Ge</cell><cell>0.21</cell><cell>Ϫ10.78</cell><cell>Ϫ0.17</cell><cell>1.17</cell><cell>Ϫ9.38</cell><cell>Ϫ0.48</cell><cell>0.28</cell><cell>Ϫ8.38</cell><cell>Ϫ0.21</cell><cell>Ϫ1.68</cell><cell>0.24</cell><cell>186.43</cell><cell>26.74</cell></row><row><cell>Nb</cell><cell>0.33</cell><cell>Ϫ10.64</cell><cell>Ϫ0.24</cell><cell>0.59</cell><cell>Ϫ9.14</cell><cell>Ϫ0.35</cell><cell>0.29</cell><cell>Ϫ8.28</cell><cell>Ϫ0.22</cell><cell>Ϫ1.67</cell><cell>0.34</cell><cell>182.93</cell><cell>37.53</cell></row><row><cell>Hf</cell><cell>0.03</cell><cell>Ϫ11.83</cell><cell>Ϫ0.94</cell><cell>0.13</cell><cell>Ϫ10.55</cell><cell>Ϫ0.12</cell><cell>0.13</cell><cell>Ϫ8.88</cell><cell>Ϫ0.12</cell><cell>Ϫ0.68</cell><cell>0.06</cell><cell>231.87</cell><cell>6.82</cell></row><row><cell>Ta</cell><cell>0.46</cell><cell>Ϫ10.97</cell><cell>Ϫ0.30</cell><cell>0.20</cell><cell>Ϫ9.20</cell><cell>Ϫ0.16</cell><cell>0.42</cell><cell>Ϫ8.08</cell><cell>Ϫ0.84</cell><cell>0.02</cell><cell>0.36</cell><cell>224.64</cell><cell>39.44</cell></row><row><cell>W</cell><cell>1.57</cell><cell>Ϫ10.40</cell><cell>Ϫ0.53</cell><cell>1.23</cell><cell>Ϫ9.33</cell><cell>Ϫ0.49</cell><cell>0.87</cell><cell>Ϫ7.91</cell><cell>Ϫ0.43</cell><cell>Ϫ1.00</cell><cell>0.06</cell><cell>195.44</cell><cell>6.74</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" xml:id="foot_0"><p>J. E.Mungall, D. B. Dingwell, and M. Chaussidon   </p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments-We wish to thank <rs type="person">Hubert Schulze</rs> and <rs type="person">Detlef Krause</rs> for tireless and patient technical support during the preparation and analysis of experimental materials. Mike Toplis kindly measured the viscosities of the doped melts. This research was supported by a <rs type="funder">Deutsche Forschungsgemeinschaft</rs> grant to DBD and an <rs type="funder">NSERC</rs> fellowship held by JEM.</p></div>
+			</div>
+			<listOrg type="funding">
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Chemical interdiffusion of dacite and rhyolite: Anhydrous measurements at 1 atm and 10 kbar, application of transition state theory, and diffusion in zoned magma chambers</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="407" to="423" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Estimation of diffusion coefficients during interdiffusion of geologic melts: Application of transition state theory</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Baker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="11" to="21" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Diffusion in silicate melts</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chakraborty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Structure, Dynamics and Properties of Silicate Melts</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Stebbins</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Mcmillan</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="411" to="504" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Multicomponent diffusion in ternary silicate melts in the system K2O-Al2O2-SiO2: I. Experimental measures</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chakraborty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rubie</forename><forename type="middle">D C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="255" to="264" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Boron partitioning in the upper mantle: An experimental and ion probe study</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chaussidon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Libourel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="5053" to="5062" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The use and limitations of the concept of an Effective Binary Diffusion Coefficient for multicomponent diffusion</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mass Transport in Oxides</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Wachtman</surname><genName>Jr</genName></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Franklin</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>NBS Spec. Publ</publisher>
+			<date type="published" when="1968">1968</date>
+			<biblScope unit="volume">196</biblScope>
+			<biblScope unit="page" from="79" to="84" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">The Mathematics of Diffusion</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Crank</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effects of structural relaxation in cationic tracer diffusion in silicate melts</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="209" to="216" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">X-ray absorption study of Ti-bearing glasses</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Paris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Seifert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mottana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Romano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Chem. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="501" to="509" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Chemical mass transfer in magmatic processes. III. Crystal growth, chemical diffusion and thermal diffusion in multicomponent silicate melts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ghiorso</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="291" to="313" />
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Glasstone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Laidler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Eyring</surname></persName>
+		</author>
+		<title level="m">The Theory of Rate Processes</title>
+		<imprint>
+			<publisher>McGraw-Hill</publisher>
+			<date type="published" when="1941">1941</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Enriched and primitive melts included in olivine from Iceland tholeiites; origin by continuous melting of a single column</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gurenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chaussidon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page" from="2905" to="2917" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Structural controls and mechanisms of diffusion in silicate melts</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Henderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nolan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Lowry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="page" from="263" to="272" />
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+	<note>Chemical diffusivities of 18 trace elements</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Viscosities of hydrous leucogranitic melts: A non-Arrhenian model</title>
+		<author>
+			<persName><forename type="first">K.-U</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="1297" to="1300" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The influence of excess alkalis on the viscosity of a haplogranitic melt</title>
+		<author>
+			<persName><forename type="first">K.-U</forename><surname>Hess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Webb</forename><forename type="middle">S L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="297" to="304" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Ion microprobe trace-element analysis of silicates: Measurement of multi-element glasses</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Hinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chem. Geol</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="11" to="25" />
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Diffusion in natural silicate melts: A critical review</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Hoffmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of Magmatic Processes</title>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Hargraves</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1980">1980</date>
+			<biblScope unit="page" from="385" to="417" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Tracer diffusion in granitic melts: experimental results for</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jambon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Na</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Cs</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ca</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page">810</biblScope>
+			<date type="published" when="1982">1982</date>
+			<pubPlace>Ba, Ce, Eu</pubPlace>
+		</imprint>
+	</monogr>
+	<note>, to 1300°C and a model of calculation</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D C</forename><surname>Kuiken</surname></persName>
+		</author>
+		<title level="m">Thermodynamics of Irreversible Processes Applications to Diffusion and Rheology</title>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Self diffusion of europium, neodymium, thorium, and uranium in haplobasaltic melt: The effect of oxygen fugacity and the relationship to melt structure</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Latourrette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wasserburg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="755" to="764" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Self diffusion of Mg</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Latourrette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Wasserburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Fahey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Zr, and U in haplobasaltic melt</title>
+		<meeting><address><addrLine>Ca, Ba, Nd, Yb, Ti</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996">1996</date>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="1329" to="1340" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Kinetics of Sr and Nd exchange in silicate liquids: Theory, experiments, and applications to uphill diffusion, isotopic equilibration, and irreversible mixing of magmas</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="9585" to="9604" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Self diffusion of network formers (silicon and oxygen) in naturally occurring basaltic liquid</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Lesher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Hervig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tinker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="405" to="413" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Diffusion in silicate melts: III. Empirical models for multicomponent diffusion</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Richter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chamberlain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="5295" to="5312" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Actinide diffusion in a haplogranitic melt: Effects of temperature, water content and pressure</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Mungall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="2237" to="2246" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The relation between viscosity and cation tracer diffusion in silicate melts</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Mungall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note>submitted</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Multicomponent diffusion in the molten system K 2 O-Na 2 O-Al 2 O 3 -SiO 2 -H 2 O</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Mungall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Romano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Am. Mineral</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="685" to="699" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Trace element diffusion in jadeite and diopside melts at high pressures and its geochemical implications</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kushiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="3151" to="3160" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Quantitative analysis of homogeneous or stratified volumes applying the model PAP</title>
+		<author>
+			<persName><forename type="first">J.-L</forename><surname>Pouchou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pichoir</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Electron Probe Quantitation</title>
+		<editor>
+			<persName><forename type="first">K</forename><forename type="middle">J F</forename><surname>Heinrich</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Newbury</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+			<biblScope unit="page" from="31" to="36" />
+		</imprint>
+	</monogr>
+	<note>Plenum</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Revised effective ionic radii and systematic studies of interatomic distances in halides and chalcogenides</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Shannon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Crystallogr. A</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="751" to="767" />
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Viscosities of magmatic silicate liquids: An empirical method of prediction</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Shaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Amer. Jour. Sci</title>
+		<imprint>
+			<biblScope unit="volume">272</biblScope>
+			<biblScope unit="page" from="870" to="893" />
+			<date type="published" when="1972">1972</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Physical aspects of magma degassing</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S J</forename><surname>Sparks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barclay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jaupart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Mader</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Philips</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Volatiles in Magmas</title>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Carrol</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Holloway</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="413" to="445" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Peraluminous viscosity maxima in Na 2 O-Al 2 O 3 -SiO 2 liquids: The role of triclusters in tectosilicate melts</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Toplis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Dingwell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geochim. Cosmochim. Acta</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="2605" to="2612" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Basalt contamination by continental crust: Some experiments and models</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Contrib. Mineral. Petrol</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="73" to="87" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Behavior of alkalis during diffusive interaction of granitic xenoliths with basaltic magma</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">B</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Jurewizc</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geol</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="121" to="131" />
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
