@@ -9,7 +9,10 @@ import jstyleson
 
 from pprint import pprint
 
-openai.api_key = "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"
+with open("../openAI_key", "r") as f:
+    key = f.read().strip()
+
+openai.api_key = key
 def json_schema(text):
     roleSetting1 = "I am a helpful assistant capable of extracting information from text. I will not generate any new tokens, only extract tokens containing information from the text you provide. If provided with a schema then I will follow it and return the information in format of the schema."
     schema = {

@@ -10,6 +10,10 @@ from parsing_tei_xml import read_grobid
 import os
 
 
+with open("../openAI_key", "r") as f:
+    key = f.read().strip()
+
+
 class Diffusion(BaseModel):
 
     melt: Optional[str] = Field(description="The melt in which the diffusion is taking place.")
@@ -75,7 +79,7 @@ def run():
 
         llm = ChatOpenAI(
             model="gpt-4-0125-preview",
-            openai_api_key="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",
+            openai_api_key=key,
             temperature=0.0,
 
         )
