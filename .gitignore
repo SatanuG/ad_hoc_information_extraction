@@ -1,12 +1,13 @@
 openAI_key
-diffusion/pdfs
-mpea/pdfs
-mpea/extracted_info/evaluation_complex.ipynb
-mpea/extracted_info/evaluation_simple.ipynb
-mpea/extracted_info/matching_langchain_complex.ipynb
-mpea/extracted_info/matching_langchain_simple.ipynb
-mpea/extracted_info/matching_one_shot_complex.ipynb
-mpea/extracted_info/matching_one_shot_simple.ipynb
-mpea/extracted_info/matching_zero_shot_complex.ipynb
-mpea/extracted_info/matching_zero_shot_simple.ipynb
 
+diffusion/pdfs
+diffusion/xmls
+
+mpea/*.csv
+mpea/*.ipynb
+mpea/*.xlsx
+mpea/xmls
+
+mpea/extracted_info/*.ipynb
+mpea/extracted_info/*.xlsx
+mpea/extracted_info/*.csv
